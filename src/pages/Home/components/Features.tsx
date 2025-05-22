@@ -9,6 +9,8 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 
+import Image from "~/assets/images/main.jpg";
+
 interface FeatureItem {
   id: number;
   title: string;
@@ -24,7 +26,7 @@ const defaultFeatures: FeatureItem[] = [
   {
     id: 1,
     title: "Ready-to-Use UI Blocks",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
+    image: Image,
     description:
       "Browse through our extensive collection of pre-built UI blocks designed with shadcn/ui. Each block is carefully crafted to be responsive, accessible, and easily customizable. Simply copy and paste the code into your project.",
   },
@@ -63,7 +65,7 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
   const [activeImage, setActiveImage] = useState(features[0].image);
 
   return (
-    <section className="py-16 bg-white">
+    <section className="dark bg-background text-foreground py-16">
       <div className="container mx-auto">
         <div className="mb-12 flex w-full items-start justify-between gap-12">
           <div className="w-full md:w-1/2">
@@ -81,16 +83,14 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                       className={`text-xl font-semibold ${
                         tab.id === activeTabId
                           ? "text-foreground"
-                          : "text-muted-foreground"
+                          : "text-foreground/80"
                       }`}
                     >
                       {tab.title}
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="mt-3 text-muted-foreground">
-                      {tab.description}
-                    </p>
+                    <p className="mt-3 text-muted">{tab.description}</p>
                     <div className="mt-4 md:hidden">
                       <img
                         src={tab.image}

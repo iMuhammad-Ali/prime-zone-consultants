@@ -12,6 +12,11 @@ import {
 import type { CarouselApi } from "~/components/ui/carousel";
 import { Input } from "~/components/ui/input";
 import { ComboboxDemo } from "./Dropdown";
+import Uni1 from "~/assets/images/uni1.jpg";
+import Uni2 from "~/assets/images/uni2.jpg";
+import Uni3 from "~/assets/images/uni3.jpg";
+import Uni4 from "~/assets/images/uni4.jpg";
+import { Card, CardContent } from "~/components/ui/card";
 
 interface GalleryItem {
   id: string;
@@ -36,7 +41,7 @@ const Universities = ({
       summary:
         "Create stunning user interfaces with our comprehensive design system.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Uni1,
     },
     {
       id: "item-2",
@@ -44,7 +49,7 @@ const Universities = ({
       summary:
         "Powerful image recognition and processing capabilities that allow AI systems to analyze, understand, and interpret visual information from the world.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Uni2,
     },
     {
       id: "item-3",
@@ -52,7 +57,7 @@ const Universities = ({
       summary:
         "Self-improving algorithms that learn from data patterns to automate complex tasks and make intelligent decisions with minimal human intervention.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Uni3,
     },
     {
       id: "item-4",
@@ -60,7 +65,7 @@ const Universities = ({
       summary:
         "Advanced forecasting capabilities that analyze historical data to predict future trends and outcomes, helping businesses make data-driven decisions.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Uni4,
     },
     {
       id: "item-5",
@@ -68,7 +73,7 @@ const Universities = ({
       summary:
         "Sophisticated AI models inspired by human brain structure, capable of solving complex problems through deep learning and pattern recognition.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Uni2,
     },
   ],
 }: UniversitiesProps) => {
@@ -91,17 +96,10 @@ const Universities = ({
   }, [carouselApi]);
 
   return (
-    <section className="py-16">
+    <section className="py-16 dark bg-background text-foreground">
       <div className="flex flex-col justify-between md:flex-row md:items-end mb-8">
         <div>
           <h2 className="text-3xl font-semibold md:text-4xl">{heading}</h2>
-          {/* <a
-            href={demoUrl}
-            className="group flex items-center gap-1 text-sm font-medium md:text-base lg:text-lg"
-          >
-            Book a demo
-            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1" />
-          </a> */}
         </div>
       </div>
       <div className="flex flex-col sm:flex-row w-full items-center gap-3">
@@ -109,11 +107,12 @@ const Universities = ({
         <Input
           type="email"
           placeholder="University name"
-          className="h-12 shadow"
+          className="h-12 shadow placeholder:text-foreground/50 font-[500]"
+          style={{ fontSize: "17px" }}
         />
         <Button
           type="submit"
-          className="w-full sm:w-fit flex items-center gap-2 h-12 shadow"
+          className="w-full sm:w-fit flex items-center gap-2 h-12 shadow bg-foreground text-white hover:bg-foreground/90 border border-foreground"
         >
           <span>Search</span>
           <Search />
@@ -159,34 +158,34 @@ const Universities = ({
           <CarouselContent className="pl-4">
             {items.map((item) => (
               <CarouselItem key={item.id} className="pl-4 md:max-w-[452px]">
-                <a
-                  href={item.url}
-                  className="group flex flex-col justify-between"
+                <Card
+                  // href={item.url}
+                  className="group flex flex-col justify-between border-0 cursor-pointer overflow-hidden"
                 >
-                  <div>
-                    <div className="flex aspect-[3/2] overflow-clip rounded-xl">
-                      <div className="flex-1">
-                        <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
-                          <img
-                            src={item.image}
-                            alt={item.title}
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
+                  <div className="flex aspect-[3/2] overflow-clip rounded-tr-xl rounded-tl-xl">
+                    <div className="flex-1">
+                      <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          className="h-full w-full object-cover object-center"
+                        />
                       </div>
                     </div>
                   </div>
-                  <div className="mb-2 line-clamp-3 pt-4 text-lg font-medium break-words md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
-                    {item.title}
-                  </div>
-                  <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
-                    {item.summary}
-                  </div>
-                  <div className="flex items-center text-sm">
-                    Read more{" "}
-                    <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1" />
-                  </div>
-                </a>
+                  <CardContent>
+                    <div className="mb-2 line-clamp-3 pt-4 text-lg font-medium break-words md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+                      {item.title}
+                    </div>
+                    <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
+                      {item.summary}
+                    </div>
+                    <div className="flex items-center text-sm">
+                      Read more{" "}
+                      <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1" />
+                    </div>
+                  </CardContent>
+                </Card>
               </CarouselItem>
             ))}
           </CarouselContent>

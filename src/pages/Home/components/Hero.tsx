@@ -2,6 +2,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
+import Image from "~/assets/images/hero2.jpg";
 
 interface HeroProps {
   badge?: string;
@@ -38,7 +39,7 @@ const Hero = ({
     },
   },
   image = {
-    src: "https://www.shadcnblocks.com/images/block/placeholder-1.svg",
+    src: Image,
     alt: "Hero section demo image showing interface components",
   },
 }: HeroProps) => {

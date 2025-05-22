@@ -10,6 +10,13 @@ import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent } from "~/components/ui/card";
 
+import Course1 from "~/assets/images/course1.jpg";
+import Course2 from "~/assets/images/course2.jpg";
+import Course3 from "~/assets/images/course3.jpg";
+import Course4 from "~/assets/images/course4.jpg";
+import Course5 from "~/assets/images/course5.jpg";
+import Course6 from "~/assets/images/course6.jpg";
+
 const coursesData = [
   {
     title: "Code Mastery",
@@ -17,7 +24,7 @@ const coursesData = [
     advisor: "John Doe",
     price: "$99",
     category: "Software",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
+    image: Course1,
     icon: <Code className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
   {
@@ -26,7 +33,7 @@ const coursesData = [
     advisor: "Jane Smith",
     price: "$149",
     category: "Education",
-    image: "https://shadcnblocks.com/images/block/placeholder-2.svg",
+    image: Course2,
     icon: <Play className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
   {
@@ -35,7 +42,7 @@ const coursesData = [
     advisor: "Alex Johnson",
     price: "$129",
     category: "Development",
-    image: "https://shadcnblocks.com/images/block/placeholder-3.svg",
+    image: Course3,
     icon: <GitBranch className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
   {
@@ -44,7 +51,7 @@ const coursesData = [
     advisor: "Emily Clark",
     price: "$89",
     category: "Organization",
-    image: "https://shadcnblocks.com/images/block/placeholder-4.svg",
+    image: Course4,
     icon: <List className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
   {
@@ -53,7 +60,7 @@ const coursesData = [
     advisor: "Michael Lee",
     price: "$199",
     category: "Design",
-    image: "https://shadcnblocks.com/images/block/placeholder-5.svg",
+    image: Course5,
     icon: <WandSparkles className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
   {
@@ -62,7 +69,7 @@ const coursesData = [
     advisor: "Sarah Brown",
     price: "$179",
     category: "Creativity",
-    image: "https://shadcnblocks.com/images/block/placeholder-6.svg",
+    image: Course6,
     icon: <Sparkles className="w-8 h-8 text-primary" strokeWidth={1} />,
   },
 ];
@@ -80,7 +87,10 @@ const Courses = () => {
 
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 w-full">
           {coursesData.map((course, index) => (
-            <Card key={index} className="w-full relative overflow-hidden">
+            <Card
+              key={index}
+              className="cursor-pointer w-full relative overflow-hidden bg-white border-0"
+            >
               <img
                 src={course.image}
                 alt={course.title}
@@ -90,16 +100,14 @@ const Courses = () => {
                 {course.category}
               </Badge>
               <CardContent className="text-left">
-                <h2 className="mt-4 mb-1 text-lg font-semibold">
+                <h2 className="mt-4 mb-1 text-lg font-semibold text-background">
                   {course.title}
                 </h2>
-                <p className="leading-snug text-muted-foreground">
-                  {course.description}
-                </p>
+                <p className="leading-snug text-muted">{course.description}</p>
                 <p className="text-sm text-gray-600 mt-2">
                   Advisor: {course.advisor}
                 </p>
-                <p className="text-lg font-semibold text-primary mt-1 text-end">
+                <p className="text-lg font-semibold text-background mt-1 text-end">
                   {course.price}
                 </p>
               </CardContent>
@@ -107,7 +115,7 @@ const Courses = () => {
           ))}
         </div>
 
-        <Button variant="outline" className="mt-8 px-6 py-3">
+        <Button variant="outline" className="mt-8 px-6 py-3 border-white/50">
           View All Courses
         </Button>
       </div>

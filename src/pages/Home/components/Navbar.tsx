@@ -1,4 +1,7 @@
-import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { Menu } from "lucide-react";
+import { useState } from "react";
+import { useLocation } from "react-router";
+import { Link } from "react-router-dom";
 
 import {
   Accordion,
@@ -49,78 +52,92 @@ const Navbar = ({
     title: "Prime Zone Consultant",
   },
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Home", url: "/" },
     {
-      title: "Products",
-      url: "#",
-      items: [
-        {
-          title: "Blog",
-          description: "The latest industry news, updates, and info",
-          icon: <Book className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Company",
-          description: "Our mission is to innovate and empower the world",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Careers",
-          description: "Browse job listing and discover our workspace",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Support",
-          description:
-            "Get in touch with our support team or visit our community forums",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-      ],
+      title: "About Us",
+      url: "/about-us",
     },
     {
-      title: "Resources",
-      url: "#",
-      items: [
-        {
-          title: "Help Center",
-          description: "Get all the answers you need right here",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Contact Us",
-          description: "We are here to help you with any questions you have",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Status",
-          description: "Check the current status of our services and APIs",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Terms of Service",
-          description: "Our terms and conditions for using our services",
-          icon: <Book className="size-5 shrink-0" />,
-          url: "#",
-        },
-      ],
+      title: "Services",
+      url: "/services",
     },
     {
-      title: "Pricing",
-      url: "#",
+      title: "Team",
+      url: "/team",
     },
+    // {
+    //   title: "Success Stories",
+    //   url: "/success-stories",
+    // },
     {
-      title: "Blog",
-      url: "#",
+      title: "Contact Us",
+      url: "/contact-us",
     },
+    // {
+    //   title: "Products",
+    //   url: "#",
+    //   items: [
+    //     {
+    //       title: "Blog",
+    //       description: "The latest industry news, updates, and info",
+    //       icon: <Book className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Company",
+    //       description: "Our mission is to innovate and empower the world",
+    //       icon: <Trees className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Careers",
+    //       description: "Browse job listing and discover our workspace",
+    //       icon: <Sunset className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Support",
+    //       description:
+    //         "Get in touch with our support team or visit our community forums",
+    //       icon: <Zap className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Resources",
+    //   url: "#",
+    //   items: [
+    //     {
+    //       title: "Help Center",
+    //       description: "Get all the answers you need right here",
+    //       icon: <Zap className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Contact Us",
+    //       description: "We are here to help you with any questions you have",
+    //       icon: <Sunset className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Status",
+    //       description: "Check the current status of our services and APIs",
+    //       icon: <Trees className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //     {
+    //       title: "Terms of Service",
+    //       description: "Our terms and conditions for using our services",
+    //       icon: <Book className="size-5 shrink-0" />,
+    //       url: "#",
+    //     },
+    //   ],
+    // },
   ],
 }: NavbarProps) => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
   return (
     <section className="py-4 absolute top-0 left-0 right-0">
       {/* Desktop Menu */}
@@ -155,7 +172,7 @@ const Navbar = ({
           <a href={logo.url} className="flex items-center gap-2">
             <img src={logo.src} className="max-h-8" alt={logo.alt} />
           </a>
-          <Sheet>
+          <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
                 <Menu className="size-4" />
@@ -164,18 +181,24 @@ const Navbar = ({
             <SheetContent className="overflow-y-auto">
               <SheetHeader>
                 <SheetTitle>
-                  <a href={logo.url} className="flex items-center gap-2">
+                  <Link
+                    to={logo.url}
+                    className="flex items-center gap-2"
+                    onClick={() => setShowSidebar(false)}
+                  >
                     <img src={logo.src} className="max-h-8" alt={logo.alt} />
-                  </a>
+                  </Link>
                 </SheetTitle>
               </SheetHeader>
-              <div className="flex flex-col gap-6 p-4">
+              <div className="flex flex-col gap-6 py-4">
                 <Accordion
                   type="single"
                   collapsible
-                  className="flex w-full flex-col gap-4"
+                  className="flex w-full flex-col gap-1"
                 >
-                  {menu.map((item) => renderMobileMenuItem(item))}
+                  {menu.map((item) =>
+                    renderMobileMenuItem(item, setShowSidebar)
+                  )}
                 </Accordion>
 
                 <div className="flex flex-col gap-3">
@@ -193,6 +216,9 @@ const Navbar = ({
 };
 
 const renderMenuItem = (item: MenuItem) => {
+  const location = useLocation();
+  const isActive = location.pathname === item.url;
+
   if (item.items) {
     return (
       <NavigationMenuItem key={item.title}>
@@ -212,7 +238,9 @@ const renderMenuItem = (item: MenuItem) => {
     <NavigationMenuItem key={item.title}>
       <NavigationMenuLink
         href={item.url}
-        className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground"
+        className={`group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
+          isActive && "bg-secondary/40"
+        }`}
       >
         {item.title}
       </NavigationMenuLink>
@@ -220,7 +248,13 @@ const renderMenuItem = (item: MenuItem) => {
   );
 };
 
-const renderMobileMenuItem = (item: MenuItem) => {
+const renderMobileMenuItem = (
+  item: MenuItem,
+  setShowSidebar: (showSidebar: boolean) => void
+) => {
+  const location = useLocation();
+  const isActive = location.pathname === item.url;
+
   if (item.items) {
     return (
       <AccordionItem key={item.title} value={item.title} className="border-b-0">
@@ -237,9 +271,16 @@ const renderMobileMenuItem = (item: MenuItem) => {
   }
 
   return (
-    <a key={item.title} href={item.url} className="text-md font-semibold">
+    <Link
+      key={item.title}
+      to={item.url}
+      className={`text-md font-semibold px-4 py-2 rounded-tl rounded-bl ${
+        isActive && "border-r-2 border-white bg-secondary/40"
+      }`}
+      onClick={() => setShowSidebar(false)}
+    >
       {item.title}
-    </a>
+    </Link>
   );
 };
 

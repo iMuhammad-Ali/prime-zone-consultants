@@ -9,6 +9,10 @@ import {
   CardHeader,
 } from "~/components/ui/card";
 
+import Blog1 from "~/assets/images/blog1.jpg";
+import Blog2 from "~/assets/images/blog2.jpg";
+import Blog3 from "~/assets/images/blog3.jpg";
+
 interface Post {
   id: string;
   title: string;
@@ -45,7 +49,7 @@ const Blog = ({
       author: "Sarah Chen",
       published: "1 Jan 2024",
       url: "https://shadcnblocks.com",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Blog1,
     },
     {
       id: "post-2",
@@ -56,7 +60,7 @@ const Blog = ({
       author: "Marcus Rodriguez",
       published: "1 Jan 2024",
       url: "https://shadcnblocks.com",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Blog2,
     },
     {
       id: "post-3",
@@ -67,23 +71,21 @@ const Blog = ({
       author: "Emma Thompson",
       published: "1 Jan 2024",
       url: "https://shadcnblocks.com",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: Blog3,
     },
   ],
 }: BlogProps) => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 dark bg-background text-foreground">
       <div className="container mx-auto flex flex-col items-center gap-16 lg:px-16">
         <div className="text-center">
-          <Badge variant="secondary" className="mb-6">
+          <Badge className="mb-6 bg-foreground text-background">
             {tagline}
           </Badge>
           <h2 className="mb-3 text-3xl font-semibold text-pretty md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
             {heading}
           </h2>
-          <p className="mb-8 text-muted-foreground md:text-base lg:max-w-2xl lg:text-lg">
-            {description}
-          </p>
+          <p className="md:text-base lg:max-w-2xl lg:text-lg">{description}</p>
           <Button variant="link" className="w-full sm:w-auto" asChild>
             <a href={buttonUrl} target="_blank">
               {buttonText}
@@ -95,7 +97,7 @@ const Blog = ({
           {posts.map((post) => (
             <Card
               key={post.id}
-              className="grid grid-rows-[auto_auto_1fr_auto] pt-0 overflow-hidden"
+              className="grid grid-rows-[auto_auto_1fr_auto] pt-0 overflow-hidden border-0"
             >
               <div className="aspect-[16/9] w-full">
                 <a
@@ -124,7 +126,7 @@ const Blog = ({
                 <a
                   href={post.url}
                   target="_blank"
-                  className="flex items-center text-foreground hover:underline"
+                  className="flex items-center hover:underline"
                 >
                   Read more
                   <ArrowRight className="ml-2 size-4" />

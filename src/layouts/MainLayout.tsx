@@ -5,14 +5,11 @@ import { Outlet } from "react-router";
 const MainLayout = () => {
   return (
     <>
-      {/* <div className="px-4 sm:px-8 overflow-hidden"> */}
-      <div className="overflow-hidden">
-        <div className="[&>section]:px-4 sm:[&>section]:px-8">
-          <Navbar />
-          <Outlet />
-        </div>
-        <Footer />
+      <div className="[&>section]:px-4 sm:[&>section]:px-8">
+        <Navbar />
+        <Outlet />
       </div>
+      <Footer />
     </>
   );
 };

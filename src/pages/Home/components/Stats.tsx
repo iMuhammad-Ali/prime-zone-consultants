@@ -15,12 +15,12 @@ interface StatsProps {
 }
 
 const Stats = ({
-  heading = "Platform performance insights",
-  description = "Ensuring stability and scalability for all users",
-  link = {
-    text: "Read the full impact report",
-    url: "/",
-  },
+  // heading = "Platform performance insights",
+  // description = "Ensuring stability and scalability for all users",
+  // link = {
+  //   text: "Read the full impact report",
+  //   url: "/",
+  // },
   stats = [
     {
       id: "stat-1",
@@ -45,16 +45,18 @@ const Stats = ({
   ],
 }: StatsProps) => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16">
       <div className="container">
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold md:text-4xl">{heading}</h2>
-          <p>{description}</p>
+          <h2 className="text-2xl font-bold md:text-4xl">
+            Platform performance insights
+          </h2>
+          <p>Ensuring stability and scalability for all users</p>
           <a
-            href={link.url}
-            className="flex items-center gap-1 font-bold hover:underline"
+            href="/"
+            className="flex items-center gap-1 font-bold text-primary-foreground hover:underline"
           >
-            {link.text}
+            Read the full impact report
             <ArrowRight className="h-auto w-4" />
           </a>
         </div>
