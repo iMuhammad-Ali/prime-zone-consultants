@@ -143,12 +143,12 @@ const Navbar = ({
       {/* Desktop Menu */}
       <nav className="hidden justify-between lg:flex">
         {/* Logo */}
-        <a href={logo.url} className="flex items-center gap-2">
+        <Link to={logo.url} className="flex items-center gap-2">
           <img src={logo.src} className="max-h-8" alt={logo.alt} />
           <span className="text-lg font-semibold tracking-tighter">
             {logo.title}
           </span>
-        </a>
+        </Link>
         <div className="flex items-center gap-6">
           <div className="flex items-center">
             <NavigationMenu>
@@ -160,7 +160,7 @@ const Navbar = ({
         </div>
         <div className="flex gap-2">
           <Button asChild size="sm">
-            <a href="#">Consult with us</a>
+            <Link to="/">Consult with us</Link>
           </Button>
         </div>
       </nav>
@@ -169,9 +169,9 @@ const Navbar = ({
       <div className="block lg:hidden">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href={logo.url} className="flex items-center gap-2">
+          <Link to={logo.url} className="flex items-center gap-2">
             <img src={logo.src} className="max-h-8" alt={logo.alt} />
-          </a>
+          </Link>
           <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
@@ -203,7 +203,7 @@ const Navbar = ({
 
                 <div className="flex flex-col gap-3">
                   <Button asChild>
-                    <a href="">Consult with us</a>
+                    <Link to="/">Consult with us</Link>
                   </Button>
                 </div>
               </div>
@@ -236,14 +236,14 @@ const renderMenuItem = (item: MenuItem) => {
 
   return (
     <NavigationMenuItem key={item.title}>
-      <NavigationMenuLink
-        href={item.url}
+      <Link
+        to={item.url}
         className={`group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
           isActive && "bg-secondary/40"
         }`}
       >
         {item.title}
-      </NavigationMenuLink>
+      </Link>
     </NavigationMenuItem>
   );
 };
@@ -286,9 +286,9 @@ const renderMobileMenuItem = (
 
 const SubMenuLink = ({ item }: { item: MenuItem }) => {
   return (
-    <a
+    <Link
       className="lg:w-[250px] flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent"
-      href={item.url}
+      to={item.url}
     >
       <div className="text-foreground">{item.icon}</div>
       <div>
@@ -299,7 +299,7 @@ const SubMenuLink = ({ item }: { item: MenuItem }) => {
           </p>
         )}
       </div>
-    </a>
+    </Link>
   );
 };
 
