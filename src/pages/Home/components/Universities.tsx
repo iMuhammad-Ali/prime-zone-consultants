@@ -162,7 +162,7 @@ const Universities = ({
                   // href={item.url}
                   className="group flex flex-col justify-between border-0 cursor-pointer overflow-hidden"
                 >
-                  <div className="flex aspect-[3/2] overflow-clip rounded-tr-xl rounded-tl-xl">
+                  <div className="flex aspect-[3/2] overflow-hidden rounded-tr-xl rounded-tl-xl">
                     <div className="flex-1">
                       <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
                         <img

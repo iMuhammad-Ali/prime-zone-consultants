@@ -56,18 +56,18 @@ const Testimonials = () => {
   }, [api]);
 
   return (
-    <section className="py-32 bg-white">
+    <section className="py-32 dark bg-background text-foreground">
       <Carousel setApi={setApi}>
         <CarouselContent>
           {testimonials.map((testimonial) => (
             <CarouselItem key={testimonial.id}>
               <div className="container flex flex-col items-center gap-4 text-center">
                 <div className="flex items-center">
-                  <Star className="size-5 fill-primary stroke-none" />
-                  <Star className="size-5 fill-primary stroke-none" />
-                  <Star className="size-5 fill-primary stroke-none" />
-                  <Star className="size-5 fill-primary stroke-none" />
-                  <Star className="size-5 fill-primary stroke-none" />
+                  <Star className="size-5 fill-foreground stroke-none" />
+                  <Star className="size-5 fill-foreground stroke-none" />
+                  <Star className="size-5 fill-foreground stroke-none" />
+                  <Star className="size-5 fill-foreground stroke-none" />
+                  <Star className="size-5 fill-foreground stroke-none" />
                 </div>
                 <p className="mb-8 max-w-4xl font-medium md:px-8 lg:text-3xl">
                   &ldquo;{testimonial.text}&rdquo;
@@ -81,7 +81,7 @@ const Testimonials = () => {
                     <p className="text-sm font-medium md:text-lg">
                       {testimonial.name}
                     </p>
-                    <p className="text-sm text-muted-foreground md:text-lg">
+                    <p className="text-sm text-foreground/75 md:text-lg">
                       {testimonial.role}
                     </p>
                   </div>
@@ -100,11 +100,11 @@ const Testimonials = () => {
             onClick={() => {
               api?.scrollTo(index);
             }}
-            className="hover:bg-primary/50"
+            className="hover:bg-accent/75"
           >
             <div
               className={`w-2.5 h-2.5 rounded-full ${
-                index === current ? "bg-primary" : "bg-input"
+                index === current ? "bg-foreground" : "bg-muted-foreground"
               }`}
             />
           </Button>

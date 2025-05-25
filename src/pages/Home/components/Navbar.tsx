@@ -2,6 +2,7 @@ import { Menu } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
+import { ConsultantModal } from "~/components/Modals/ConsultantModal";
 
 import {
   Accordion,
@@ -25,6 +26,8 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "~/components/ui/sheet";
+import { useAppDispatch } from "~/hooks/redux";
+import { openConsultantModal } from "~/store/consultant/consultantSlice";
 
 interface MenuItem {
   title: string;
@@ -136,6 +139,8 @@ const Navbar = ({
     // },
   ],
 }: NavbarProps) => {
+  const dispatch = useAppDispatch();
+
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
@@ -159,7 +164,13 @@ const Navbar = ({
           </div>
         </div>
         <div className="flex gap-2">
-          <Button asChild size="sm">
+          <Button
+            asChild
+            size="sm"
+            onClick={() => {
+              dispatch(openConsultantModal());
+            }}
+          >
             <Link to="/">Consult with us</Link>
           </Button>
         </div>

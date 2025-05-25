@@ -8,6 +8,7 @@ import {
   PopoverTrigger,
 } from "~/components/ui/popover";
 import Whatsapp from "~/assets/svgs/whatsapp.svg";
+import { ConsultantModal } from "~/components/Modals/ConsultantModal";
 
 const MainLayout = () => {
   return (
@@ -65,6 +66,8 @@ const MainLayout = () => {
           </PopoverContent>
         </Popover>
       </div>
+
+      <ConsultantModal />
     </>
   );
 };
