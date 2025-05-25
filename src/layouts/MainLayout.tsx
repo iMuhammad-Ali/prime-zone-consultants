@@ -9,6 +9,7 @@ import {
 } from "~/components/ui/popover";
 import Whatsapp from "~/assets/svgs/whatsapp.svg";
 import { ConsultantModal } from "~/components/Modals/ConsultantModal";
+import { Toaster } from "~/components/ui/toaster";
 
 const MainLayout = () => {
   return (
@@ -67,6 +68,7 @@ const MainLayout = () => {
         </Popover>
       </div>
 
+      <Toaster />
       <ConsultantModal />
     </>
   );

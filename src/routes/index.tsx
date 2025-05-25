@@ -1,12 +1,13 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import MainLayout from "~/layouts/MainLayout";
-import NotFound from "~/pages/404";
-import AboutUs from "~/pages/AboutUs";
-import ContactUs from "~/pages/ContactUs";
 import Home from "~/pages/Home";
-import Services from "~/pages/Services";
-import SuccessStories from "~/pages/SuccessStories";
 import Team from "~/pages/Team";
+import AboutUs from "~/pages/AboutUs";
+import Services from "~/pages/Services";
+// import SuccessStories from "~/pages/SuccessStories";
+import ContactUs from "~/pages/ContactUs";
+import PrivacyPolicy from "~/pages/PrivacyPolicy";
+import TermsAndConditions from "~/pages/TermsAndConditions";
 
 export const router = createBrowserRouter([
   {
@@ -37,10 +38,18 @@ export const router = createBrowserRouter([
         path: "services",
         element: <Services />,
       },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "terms-and-conditions",
+        element: <TermsAndConditions />,
+      },
+      {
+        path: "*",
+        element: <Navigate to="/" replace />,
+      },
     ],
-  },
-  {
-    path: "*",
-    element: <NotFound />,
   },
 ]);

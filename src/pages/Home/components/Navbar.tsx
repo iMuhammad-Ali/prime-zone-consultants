@@ -57,6 +57,24 @@ const Navbar = ({
   menu = [
     { title: "Home", url: "/" },
     {
+      title: "Study Destinations",
+      url: "/study-destinations",
+      items: [
+        {
+          title: "Study in UK",
+          url: "#",
+        },
+        {
+          title: "Study in France",
+          url: "#",
+        },
+        {
+          title: "Study in Italy",
+          url: "#",
+        },
+      ],
+    },
+    {
       title: "About Us",
       url: "/about-us",
     },
@@ -76,37 +94,6 @@ const Navbar = ({
       title: "Contact Us",
       url: "/contact-us",
     },
-    // {
-    //   title: "Products",
-    //   url: "#",
-    //   items: [
-    //     {
-    //       title: "Blog",
-    //       description: "The latest industry news, updates, and info",
-    //       icon: <Book className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Company",
-    //       description: "Our mission is to innovate and empower the world",
-    //       icon: <Trees className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Careers",
-    //       description: "Browse job listing and discover our workspace",
-    //       icon: <Sunset className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Support",
-    //       description:
-    //         "Get in touch with our support team or visit our community forums",
-    //       icon: <Zap className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //   ],
-    // },
     // {
     //   title: "Resources",
     //   url: "#",
@@ -232,16 +219,18 @@ const renderMenuItem = (item: MenuItem) => {
 
   if (item.items) {
     return (
-      <NavigationMenuItem key={item.title}>
-        <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
-        <NavigationMenuContent className="bg-popover text-popover-foreground">
-          {item.items.map((subItem) => (
-            <NavigationMenuLink asChild key={subItem.title} className="w-80">
-              <SubMenuLink item={subItem} />
-            </NavigationMenuLink>
-          ))}
-        </NavigationMenuContent>
-      </NavigationMenuItem>
+      <div className="relative">
+        <NavigationMenuItem key={item.title}>
+          <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
+          <NavigationMenuContent className="bg-popover text-popover-foreground">
+            {item.items.map((subItem) => (
+              <NavigationMenuLink asChild key={subItem.title}>
+                <SubMenuLink item={subItem} />
+              </NavigationMenuLink>
+            ))}
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+      </div>
     );
   }
 
@@ -269,7 +258,7 @@ const renderMobileMenuItem = (
   if (item.items) {
     return (
       <AccordionItem key={item.title} value={item.title} className="border-b-0">
-        <AccordionTrigger className="text-md py-0 font-semibold hover:no-underline">
+        <AccordionTrigger className="text-md px-4 py-2 font-semibold hover:no-underline">
           {item.title}
         </AccordionTrigger>
         <AccordionContent className="mt-2">
@@ -298,7 +287,7 @@ const renderMobileMenuItem = (
 const SubMenuLink = ({ item }: { item: MenuItem }) => {
   return (
     <Link
-      className="lg:w-[250px] flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent"
+      className="lg:w-[240px] flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent"
       to={item.url}
     >
       <div className="text-foreground">{item.icon}</div>
