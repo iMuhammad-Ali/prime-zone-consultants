@@ -8,6 +8,7 @@ import Services from "~/pages/Services";
 import ContactUs from "~/pages/ContactUs";
 import PrivacyPolicy from "~/pages/PrivacyPolicy";
 import TermsAndConditions from "~/pages/TermsAndConditions";
+import Universities from "~/pages/Universities";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: "terms-and-conditions",
         element: <TermsAndConditions />,
+      },
+      {
+        path: "universities",
+        element: <Universities />,
       },
       {
         path: "*",
