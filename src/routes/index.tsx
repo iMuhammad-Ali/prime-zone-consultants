@@ -9,6 +9,9 @@ import ContactUs from "~/pages/ContactUs";
 import PrivacyPolicy from "~/pages/PrivacyPolicy";
 import TermsAndConditions from "~/pages/TermsAndConditions";
 import Universities from "~/pages/Universities";
+import Courses from "~/pages/Courses";
+import UniversityDetailPage from "~/pages/Universities/DetailPage";
+import CourseDetailPage from "~/pages/Courses/DetailPage";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +53,18 @@ export const router = createBrowserRouter([
       {
         path: "universities",
         element: <Universities />,
+      },
+      {
+        path: "universities/:id",
+        element: <UniversityDetailPage />,
+      },
+      {
+        path: "courses",
+        element: <Courses />,
+      },
+      {
+        path: "courses/:id",
+        element: <CourseDetailPage />,
       },
       {
         path: "*",

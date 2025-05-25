@@ -6,9 +6,7 @@ import {
   Sparkles,
   WandSparkles,
 } from "lucide-react";
-import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
-import { Card, CardContent } from "~/components/ui/card";
 
 import Course1 from "~/assets/images/course1.jpg";
 import Course2 from "~/assets/images/course2.jpg";
@@ -16,6 +14,7 @@ import Course3 from "~/assets/images/course3.jpg";
 import Course4 from "~/assets/images/course4.jpg";
 import Course5 from "~/assets/images/course5.jpg";
 import Course6 from "~/assets/images/course6.jpg";
+import CourseCard from "~/components/Cards/CourseCard";
 
 const coursesData = [
   {
@@ -86,32 +85,8 @@ const Courses = () => {
         </p>
 
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 w-full">
-          {coursesData.map((course, index) => (
-            <Card
-              key={index}
-              className="cursor-pointer w-full relative overflow-hidden bg-white border-0"
-            >
-              <img
-                src={course.image}
-                alt={course.title}
-                className="w-full h-40 object-cover rounded-t-md"
-              />
-              <Badge className="absolute top-2 right-2 text-sm">
-                {course.category}
-              </Badge>
-              <CardContent className="text-left">
-                <h2 className="mt-4 mb-1 text-lg font-semibold text-background">
-                  {course.title}
-                </h2>
-                <p className="leading-snug text-muted">{course.description}</p>
-                <p className="text-sm text-gray-600 mt-2">
-                  Advisor: {course.advisor}
-                </p>
-                <p className="text-lg font-semibold text-background mt-1 text-end">
-                  {course.price}
-                </p>
-              </CardContent>
-            </Card>
+          {coursesData.map((course) => (
+            <CourseCard course={course} />
           ))}
         </div>
 

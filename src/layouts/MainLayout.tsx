@@ -10,10 +10,13 @@ import {
 import Whatsapp from "~/assets/svgs/whatsapp.svg";
 import { ConsultantModal } from "~/components/Modals/ConsultantModal";
 import { Toaster } from "~/components/ui/toaster";
+import ScrollToTop from "~/hooks/scroll-to-top";
 
 const MainLayout = () => {
   return (
     <>
+      <ScrollToTop />
+
       <div className="[&>section]:px-4 sm:[&>section]:px-8">
         <Navbar />
         <Outlet />
