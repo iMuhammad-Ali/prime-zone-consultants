@@ -1,6 +1,5 @@
 import { Button } from "~/components/ui/button";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
-import { openConsultantModal } from "~/store/consultant/consultantSlice";
 
 interface About3Props {
   title?: string;

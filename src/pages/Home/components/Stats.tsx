@@ -24,23 +24,23 @@ const Stats = ({
   stats = [
     {
       id: "stat-1",
-      value: "250%+",
-      label: "average growth in user engagement",
+      value: "97%",
+      label: "Visa success rate for our clients",
     },
     {
       id: "stat-2",
-      value: "$2.5m",
-      label: "annual savings per enterprise partner",
+      value: "1500+",
+      label: "Students successfully placed in top universities worldwide",
     },
     {
       id: "stat-3",
-      value: "200+",
-      label: "integrations with top industry platforms",
+      value: "10+",
+      label: "Countries covered for study abroad programs",
     },
     {
       id: "stat-4",
-      value: "99.9%",
-      label: "customer satisfaction over the last year",
+      value: "98%",
+      label: "Student satisfaction rate post-placement",
     },
   ],
 }: StatsProps) => {

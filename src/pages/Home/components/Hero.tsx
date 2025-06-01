@@ -26,9 +26,9 @@ interface HeroProps {
 }
 
 const Hero = ({
-  badge = "✨ Your Website Builder",
-  heading = "Blocks Built With Shadcn & Tailwind",
-  description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
+  badge = "🌍 Expert Education & Visa Consultants",
+  heading = "Study Abroad with Confidence",
+  description = "Helping students achieve global dreams, from admission to visa success!",
   buttons = {
     primary: {
       text: "Discover more",
@@ -54,7 +54,10 @@ const Hero = ({
               <ArrowUpRight className="ml-2 size-4" />
             </Badge>
           )}
-          <h2 className="my-6 text-4xl font-bold text-pretty lg:text-6xl">
+          <h2
+            className="my-6 text-4xl font-bold text-pretty lg:text-6xl"
+            style={{ lineHeight: 1.25 }}
+          >
             {heading}
           </h2>
           <p className="mb-8 max-w-xl text-muted-foreground lg:text-xl">

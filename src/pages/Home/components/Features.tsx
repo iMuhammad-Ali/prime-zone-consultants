@@ -9,8 +9,6 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 
-import Image from "~/assets/images/main.jpg";
-
 interface FeatureItem {
   id: number;
   title: string;
@@ -25,38 +23,43 @@ interface FeaturesProps {
 const defaultFeatures: FeatureItem[] = [
   {
     id: 1,
-    title: "Ready-to-Use UI Blocks",
-    image: Image,
+    title: "Personalized Course & University Selection",
+    image:
+      "https://media.istockphoto.com/id/1343761746/photo/man-hand-touching-data-word-with-icon-business-virtual-screen-concept.jpg?s=612x612&w=0&k=20&c=egtmt1bwoJ321HUqd7aKsMhKffGw9nJR0KoH92iBhkQ=",
     description:
-      "Browse through our extensive collection of pre-built UI blocks designed with shadcn/ui. Each block is carefully crafted to be responsive, accessible, and easily customizable. Simply copy and paste the code into your project.",
+      "We assess your profile and career goals to recommend the best courses and universities worldwide, ensuring the perfect academic match for your ambitions.",
   },
   {
     id: 2,
-    title: "Tailwind CSS & TypeScript",
-    image: "https://shadcnblocks.com/images/block/placeholder-2.svg",
+    title: "Comprehensive Application Assistance",
+    image:
+      "https://media.istockphoto.com/id/1348546519/photo/businessman-hand-is-on-the-trackpad-typing-on-a-laptop-keyboard-while-reading-a-business.jpg?s=612x612&w=0&k=20&c=u3o54duWjetXw_vmxgyy8zDoP2wtQs3mmhfZ47DlzvY=",
     description:
-      "Built with Tailwind CSS for rapid styling and TypeScript for type safety. Our blocks leverage the full power of Tailwind's utility classes while maintaining clean, type-safe code that integrates seamlessly with your Next.js projects.",
+      "From crafting compelling SOPs to perfecting your CV and preparing you for interviews, our experts guide you through every step to maximize your admission chances.",
   },
   {
     id: 3,
-    title: "Dark Mode & Customization",
-    image: "https://shadcnblocks.com/images/block/placeholder-3.svg",
+    title: "Visa Preparation & Interview Coaching",
+    image:
+      "https://media.istockphoto.com/id/2178062973/photo/a-small-model-airplane-on-top-of-a-passport-and-next-to-a-small-globe.jpg?s=612x612&w=0&k=20&c=mAjkX1lx73qVwNDUPZtZUT95sxz2DjyMzgMgq47LSIw=",
     description:
-      "Every block supports dark mode out of the box and can be customized to match your brand. Modify colors, spacing, and typography using Tailwind's configuration. The shadcn/ui theming system makes it easy to maintain consistency across your site.",
+      "Benefit from our proven visa success strategies, including document review, mock interviews, and personalized coaching to ensure a smooth visa process.",
   },
   {
     id: 4,
-    title: "Accessibility First",
-    image: "https://shadcnblocks.com/images/block/placeholder-4.svg",
+    title: "Global University Network",
+    image:
+      "https://media.istockphoto.com/id/453477535/photo/knowledge-of-the-world.jpg?s=612x612&w=0&k=20&c=IBWBTeWnoQ3rGk3nInNPVcF-Mk8dFAlmL6ajE1Y9X-g=",
     description:
-      "All blocks are built with accessibility in mind, following WCAG guidelines. They include proper ARIA labels, keyboard navigation support, and semantic HTML structure. Ensure your website is usable by everyone without extra effort.",
+      "Access partnerships with top universities across multiple countries, gaining insights into diverse education systems and post-study opportunities.",
   },
   {
     id: 5,
-    title: "Modern Development Stack",
-    image: "https://shadcnblocks.com/images/block/placeholder-5.svg",
+    title: "Dedicated Student Support",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
     description:
-      "Built for modern web development with React 18, Next.js 14, and the latest shadcn/ui components. Take advantage of React Server Components, TypeScript strict mode, and other cutting-edge features while maintaining excellent performance.",
+      "Our support continues even after admission, with guidance on accommodation, cultural adjustment, and career planning to ensure your success abroad.",
   },
 ];
 
