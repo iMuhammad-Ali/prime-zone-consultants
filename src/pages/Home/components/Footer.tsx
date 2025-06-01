@@ -128,6 +128,7 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "~/assets/images/logo.png";
 
 interface Footer7Props {
   logo?: {
@@ -198,7 +199,7 @@ const defaultLegalLinks = [
 const Footer = ({
   logo = {
     url: "/",
-    src: "https://www.shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
+    src: Logo,
     alt: "logo",
     title: "Prime Zone Consultant",
   },

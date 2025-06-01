@@ -26,6 +26,7 @@ import {
   SheetTrigger,
 } from "~/components/ui/sheet";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
+import Logo from "~/assets/images/logo-white.png";
 
 interface MenuItem {
   title: string;
@@ -48,7 +49,7 @@ interface NavbarProps {
 const Navbar = ({
   logo = {
     url: "/",
-    src: "https://shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
+    src: Logo,
     alt: "logo",
     title: "Prime Zone Consultant",
   },
@@ -60,15 +61,15 @@ const Navbar = ({
       items: [
         {
           title: "Study in UK",
-          url: "#",
+          url: "/universities?country=UK",
         },
         {
           title: "Study in France",
-          url: "#",
+          url: "/universities?country=France",
         },
         {
           title: "Study in Italy",
-          url: "#",
+          url: "/universities?country=Italy",
         },
       ],
     },

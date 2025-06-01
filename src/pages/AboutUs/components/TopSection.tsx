@@ -1,5 +1,6 @@
 import { Button } from "~/components/ui/button";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
+import Logo from "~/assets/images/logo-white.png";
 
 interface About3Props {
   title?: string;
@@ -44,7 +45,7 @@ const TopSection = ({
     alt: "placeholder",
   },
   breakout = {
-    src: "https://shadcnblocks.com/images/block/block-1.svg",
+    src: Logo,
     alt: "logo",
     title: "Your Study Abroad Journey Starts Here",
     description:

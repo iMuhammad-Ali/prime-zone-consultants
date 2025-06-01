@@ -2,7 +2,6 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
-import Image from "~/assets/images/hero2.jpg";
 import { Link } from "react-router-dom";
 
 interface HeroProps {
@@ -40,7 +39,7 @@ const Hero = ({
     },
   },
   image = {
-    src: Image,
+    src: "https://media.istockphoto.com/id/2183282403/photo/portrait-of-international-happy-students-posing-in-park.jpg?s=612x612&w=0&k=20&c=az-FrW6sDtuZlBP4FDH088wLmVFD2F74vBFX71y4NaE=",
     alt: "Hero section demo image showing interface components",
   },
 }: HeroProps) => {
