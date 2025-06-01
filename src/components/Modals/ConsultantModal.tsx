@@ -95,17 +95,17 @@ const ConsultantModal = () => {
       open={showConsultantModal}
       onOpenChange={() => dispatch(closeConsultantModal())}
     >
-      <DialogContent className="max-w-xl">
-        <DialogHeader>
+      <DialogContent className="w-[95vw] sm:max-w-xl rounded-md sm:rounded-md hide-scrollbar">
+        <DialogHeader className="mb-4">
           <DialogTitle>Free Consultation</DialogTitle>
           <p className="text-xs text-muted-foreground">
             Fill in all the fields to submit your request
           </p>
         </DialogHeader>
 
-        <form className="space-y-4 py-4" onSubmit={handleSubmit}>
-          <div className="flex gap-4">
-            <div className="flex-1">
+        <form className="space-y-4" onSubmit={handleSubmit}>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Name"
                 required
@@ -113,7 +113,7 @@ const ConsultantModal = () => {
                 onChange={(e) => handleChange("name", e.target.value)}
               />
             </div>
-            <div className="flex-1">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Email"
                 type="email"
@@ -124,8 +124,8 @@ const ConsultantModal = () => {
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <div className="flex-1">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Phone Number"
                 required
@@ -133,7 +133,7 @@ const ConsultantModal = () => {
                 onChange={(e) => handleChange("phoneNumber", e.target.value)}
               />
             </div>
-            <div className="flex-1">
+            <div className="w-full sm:flex-1">
               <Select
                 required
                 value={formData.lastEducation}
@@ -152,8 +152,8 @@ const ConsultantModal = () => {
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <div className="flex-1">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Country"
                 required
@@ -161,7 +161,7 @@ const ConsultantModal = () => {
                 onChange={(e) => handleChange("country", e.target.value)}
               />
             </div>
-            <div className="flex-1">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your State"
                 required
@@ -171,8 +171,8 @@ const ConsultantModal = () => {
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <div className="flex-1">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your City"
                 required
@@ -180,7 +180,7 @@ const ConsultantModal = () => {
                 onChange={(e) => handleChange("city", e.target.value)}
               />
             </div>
-            <div className="flex-1">
+            <div className="w-full sm:flex-1">
               <Select
                 value={formData.interestedCountry}
                 onValueChange={(value) =>
@@ -208,17 +208,19 @@ const ConsultantModal = () => {
           </div>
 
           <DialogFooter className="pt-4">
-            <Button
-              variant="outline"
-              type="button"
-              onClick={() => dispatch(closeConsultantModal())}
-            >
-              Cancel
-            </Button>
-            <Button type="submit" disabled={!isFormValid || isLoading}>
-              {isLoading && <LoaderCircle className="animate-spin mr-2" />}
-              Submit
-            </Button>
+            <div className="flex justify-end gap-3">
+              <Button
+                variant="outline"
+                type="button"
+                onClick={() => dispatch(closeConsultantModal())}
+              >
+                Cancel
+              </Button>
+              <Button type="submit" disabled={!isFormValid || isLoading}>
+                {isLoading && <LoaderCircle className="animate-spin mr-2" />}
+                Submit
+              </Button>
+            </div>
           </DialogFooter>
         </form>
       </DialogContent>
