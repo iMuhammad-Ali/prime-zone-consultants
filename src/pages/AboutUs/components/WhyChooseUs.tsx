@@ -17,8 +17,8 @@ export interface WhyChooseUsProps {
 }
 
 const WhyChooseUs = ({
-  title = "Why Choose Us?",
-  description = "Get the latest updates and improvements to our platform.",
+  title = "Why Choose Prime Zone?",
+  description = "We provide end-to-end guidance for students, right from selecting the right course and university to visa preparation, ensuring a smooth and successful study abroad journey.",
   entries = defaultChangelogData,
 }: WhyChooseUsProps) => {
   return (
@@ -82,49 +82,63 @@ export { WhyChooseUs };
 
 export const defaultChangelogData: ChangelogEntry[] = [
   {
-    version: "Version 1.3.0",
-    date: "15 November 2024",
-    title: "Enhanced Analytics Dashboard",
+    version: "Course Selection",
+    date: "6–12 months before intake",
+    title: "Personalized Guidance",
     description:
-      "We've completely redesigned our analytics dashboard to provide deeper insights and improved visualizations of your data.",
+      "We help you choose the best course, university, and country based on your profile.",
     items: [
-      "Interactive data visualizations with real-time updates",
-      "Customizable dashboard widgets",
-      "Export analytics in multiple formats (CSV, PDF, Excel)",
-      "New reporting templates for common use cases",
-      "Improved data filtering and segmentation options",
+      "Comprehensive profile assessments to align with academic goals.",
+      "Tailored university and course recommendations.",
+      "Insights into country-specific education systems.",
+      "Guidance on scholarship and funding opportunities.",
+      "Support in aligning choices with career aspirations.",
     ],
     image:
-      "https://shadcnblocks.com/images/block/placeholder-aspect-video-1.svg",
+      "https://media.istockphoto.com/id/1467894822/photo/close-up-shot-red-darts-arrows-in-the-target-of-dartboard-center-on-dark-blue-sky-background.jpg?s=612x612&w=0&k=20&c=0EuDigKqdjz65vWeMrF3UDUj7D06Kmewi4mhXTM8VO8=",
   },
   {
-    version: "Version 1.2.5",
-    date: "7 October 2024",
-    title: "Mobile App Launch",
-    description:
-      "We're excited to announce the launch of our mobile application, available now on iOS and Android platforms.",
+    version: "Application Process",
+    date: "4–6 months before intake",
+    title: "Expert Application Support",
+    description: "From SOPs to CVs, we make your documents shine.",
     items: [
-      "Native mobile experience for on-the-go productivity",
-      "Offline mode support for working without internet connection",
-      "Push notifications for important updates",
-      "Biometric authentication for enhanced security",
+      "One-on-one sessions for Statement of Purpose (SOP) crafting.",
+      "Professional CV and resume building assistance.",
+      "Guidance on gathering and organizing necessary documents.",
+      "Mock interviews to prepare for university admissions.",
+      "Continuous feedback to refine application materials.",
     ],
-    image:
-      "https://shadcnblocks.com/images/block/placeholder-aspect-video-1.svg",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
   },
   {
-    version: "Version 1.2.1",
-    date: "23 September 2024",
-    title: "New features and improvements",
-    description:
-      "Here are the latest updates and improvements to our platform. We are always working to improve our platform and your experience.",
+    version: "Visa Preparation",
+    date: "2–4 months before departure",
+    title: "Visa Success Track",
+    description: "97% visa success rate with fully guided preparation.",
     items: [
-      "Added new feature to export data",
-      "Improved performance and speed",
-      "Fixed minor bugs and issues",
-      "Added new feature to import data",
+      "Detailed visa application walkthroughs.",
+      "Assistance with financial documentation and affidavits.",
+      "Preparation for visa interviews with mock sessions.",
+      "Updates on visa policies and requirements.",
+      "Support in scheduling and tracking visa appointments.",
     ],
     image:
-      "https://shadcnblocks.com/images/block/placeholder-aspect-video-1.svg",
+      "https://media.istockphoto.com/id/1680285819/photo/teamwork-with-business-people-analysis-cost-graph-on-the-desk-in-the-meeting-room-the.jpg?s=612x612&w=0&k=20&c=lzbLWjC26GsHxEd1H-lN-G1cWZYfASVCzspQq952NXM=",
+  },
+  {
+    version: "Country Selection",
+    date: "Career Goals & Budget",
+    title: "Global Reach",
+    description: "Italy, Germany, Canada, Australia, Turkey, UK, and more.",
+    items: [
+      "Partnerships with universities across multiple countries.",
+      "Insights into diverse cultural and academic environments.",
+      "Information on post-study work opportunities.",
+      "Guidance on country-specific admission processes.",
+      "Support in understanding international student life.",
+    ],
+    image:
+      "https://media.istockphoto.com/id/505213590/photo/multiracial-teen-couple-holding-globe-map-stock.jpg?s=612x612&w=0&k=20&c=BTyGurH4GE6eNFdkW3_LiVOxpHncHfigDNLKX4YK48M=",
   },
 ];

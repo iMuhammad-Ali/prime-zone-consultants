@@ -1,4 +1,6 @@
 import { Button } from "~/components/ui/button";
+import { useAppDispatch } from "~/hooks/redux";
+import { openConsultantModal } from "~/store/consultant/consultantSlice";
 
 interface About3Props {
   title?: string;
@@ -17,7 +19,6 @@ interface About3Props {
     title?: string;
     description?: string;
     buttonText?: string;
-    buttonUrl?: string;
   };
   companiesTitle?: string;
   companies?: Array<{
@@ -34,25 +35,26 @@ interface About3Props {
 
 const TopSection = ({
   title = "About Us",
-  description = "Shadcnblocks is a passionate team dedicated to creating innovative solutions that empower businesses to thrive in the digital age.",
+  description = "We are a dedicated education consultancy helping students achieve their dreams of studying abroad by offering personalized guidance on courses, universities, countries, and visa preparation.",
   mainImage = {
-    src: "https://shadcnblocks.com/images/block/placeholder-1.svg",
+    src: "https://media.istockphoto.com/id/2217491650/photo/group-of-business-persons-talking-in-the-office.jpg?s=612x612&w=0&k=20&c=_4MiFndwCkgS3FkioChClpWL37sEW8viAGjy66v4UQI=",
     alt: "placeholder",
   },
   secondaryImage = {
-    src: "https://shadcnblocks.com/images/block/placeholder-2.svg",
+    src: "https://media.istockphoto.com/id/2205511404/photo/successful-business-interaction-in-a-vibrant-setting.jpg?s=612x612&w=0&k=20&c=GkYIi3fOs8rszmyEwkA5EfyRO-g3sWj2NyHJN7ODweQ=",
     alt: "placeholder",
   },
   breakout = {
     src: "https://shadcnblocks.com/images/block/block-1.svg",
     alt: "logo",
-    title: "Hundreds of blocks at Shadcnblocks.com",
+    title: "Your Study Abroad Journey Starts Here",
     description:
-      "Providing businesses with effective tools to improve workflows, boost efficiency, and encourage growth.",
-    buttonText: "Discover more",
-    buttonUrl: "https://shadcnblocks.com",
+      "We empower students with the right guidance, tools, and support to choose the best university, course, and country, ensuring a smooth path to global education.",
+    buttonText: "Get Started",
   },
 }: About3Props = {}) => {
+  const dispatch = useAppDispatch();
+
   return (
     <section className="pt-36 pb-16">
       <div className="mb-14 grid gap-5 text-center md:grid-cols-2 md:text-left">
@@ -76,10 +78,12 @@ const TopSection = ({
               <p className="mb-2 text-lg font-semibold">{breakout.title}</p>
               <p className="text-muted-foreground">{breakout.description}</p>
             </div>
-            <Button variant="outline" className="mr-auto" asChild>
-              <a href={breakout.buttonUrl} target="_blank">
-                {breakout.buttonText}
-              </a>
+            <Button
+              variant="outline"
+              className="mr-auto"
+              onClick={() => dispatch(openConsultantModal())}
+            >
+              {breakout.buttonText}
             </Button>
           </div>
           <img
