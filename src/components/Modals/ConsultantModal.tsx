@@ -99,7 +99,7 @@ const ConsultantModal = () => {
         <DialogHeader>
           <DialogTitle>Free Consultation</DialogTitle>
           <p className="text-xs text-muted-foreground">
-            Fill in all the field to submit your request
+            Fill in all the fields to submit your request
           </p>
         </DialogHeader>
 

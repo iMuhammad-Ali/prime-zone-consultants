@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import Image from "~/assets/images/hero2.jpg";
+import { Link } from "react-router-dom";
 
 interface HeroProps {
   badge?: string;
@@ -31,11 +32,11 @@ const Hero = ({
   buttons = {
     primary: {
       text: "Discover more",
-      url: "/",
+      url: "/services",
     },
     secondary: {
       text: "About us",
-      url: "/",
+      url: "/about-us",
     },
   },
   image = {
@@ -62,15 +63,15 @@ const Hero = ({
           <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
             {buttons.primary && (
               <Button asChild className="w-full sm:w-auto">
-                <a href={buttons.primary.url}>{buttons.primary.text}</a>
+                <Link to={buttons.primary.url}>{buttons.primary.text}</Link>
               </Button>
             )}
             {buttons.secondary && (
               <Button asChild variant="outline" className="w-full sm:w-auto">
-                <a href={buttons.secondary.url}>
+                <Link to={buttons.secondary.url}>
                   {buttons.secondary.text}
                   <ArrowRight className="size-4" />
-                </a>
+                </Link>
               </Button>
             )}
           </div>

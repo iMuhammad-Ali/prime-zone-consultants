@@ -1,33 +1,35 @@
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
-import { UniversityData } from "~/types/university";
+// import { University } from "~/types/university";
 import { Link } from "react-router-dom";
 
 type UniversityCardProps = {
-  university: UniversityData;
+  university: any;
 };
 
 const UniversityCard = ({ university }: UniversityCardProps) => {
   return (
-    <Link to="/universities/123">
-      <Card className="group flex flex-col justify-between border-0 cursor-pointer overflow-hidden">
-        <div className="flex aspect-[3/2] overflow-hidden rounded-tr-xl rounded-tl-xl">
+    <Link to={`/universities/${university.id}`}>
+      <Card className="h-full group flex flex-col border-0 cursor-pointer overflow-hidden">
+        <div className="flex-shrink-0 flex aspect-[3/2] overflow-hidden rounded-tr-xl rounded-tl-xl">
           <div className="flex-1">
             <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
               <img
                 src={university.image}
-                alt={university.title}
+                alt={university.name}
                 className="h-full w-full object-cover object-center"
               />
             </div>
           </div>
         </div>
-        <CardContent>
-          <div className="mb-2 line-clamp-3 pt-4 text-lg font-medium break-words md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
-            {university.title}
-          </div>
-          <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
-            {university.summary}
+        <CardContent className="flex flex-col justify-between h-full">
+          <div>
+            <div className="mb-2 line-clamp-3 pt-4 text-lg font-medium break-words md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+              {university.name}
+            </div>
+            <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
+              {university.summary}
+            </div>
           </div>
           <div className="flex items-center text-sm">
             Read more{" "}

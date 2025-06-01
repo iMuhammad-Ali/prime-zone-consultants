@@ -3,28 +3,32 @@ import { useAppDispatch } from "~/hooks/redux";
 import { openConsultantModal } from "~/store/consultant/consultantSlice";
 import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
 import { Card, CardHeader } from "~/components/ui/card";
-
-const university = {
-  id: "item-1",
-  title: "University Of Lahore",
-  location: "Lahore, Pakistan",
-  summary:
-    "Create stunning user interfaces with our comprehensive design system.",
-  image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  accomodation: "On Campus",
-  inTake: ["March", "September"],
-  languages: ["English", "Urdu"],
-  scholarship: true,
-  discount: "40%",
-  discountedPrice: "40000",
-  originalPrice: "80000",
-  address: "Cantt",
-};
+import { useNavigate, useParams } from "react-router";
+import { useEffect, useState } from "react";
+import universitiesData from "~/data/universities.json";
+import { University } from "~/types/university";
 
 const UniversityDetailPage = () => {
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
+  const { id } = useParams<{ id: string }>();
+
+  const [university, setUniversity] = useState<University | null>(null);
 
   const titleStyles = "pl-6 font-semibold";
+
+  useEffect(() => {
+    if (id) {
+      const found = universitiesData.find((uni) => uni.id === id);
+      if (found) {
+        setUniversity(found);
+      } else {
+        navigate("/universities");
+      }
+    }
+  }, [id]);
+
+  if (!university) return null;
 
   return (
     <section className="pt-32 pb-16">
@@ -39,7 +43,7 @@ const UniversityDetailPage = () => {
               className="text-3xl sm:text-5xl font-bold"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)" }}
             >
-              {university.title}
+              {university.name}
             </h2>
             <h2
               className="text-xl sm:text-2xl font-semibold"
@@ -72,7 +76,7 @@ const UniversityDetailPage = () => {
               </TableRow>
               <TableRow>
                 <TableCell className={titleStyles}>Accommodation</TableCell>
-                <TableCell>{university.accomodation}</TableCell>
+                <TableCell>{university.accommodation}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className={titleStyles}>Intakes</TableCell>

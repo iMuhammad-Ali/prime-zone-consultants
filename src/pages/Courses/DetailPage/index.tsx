@@ -1,30 +1,52 @@
+// const course = {
+//   id: "item-1",
+//   title: "Build Modern UIs",
+//   qualification: "Bachelor",
+//   summary:
+//     "Create stunning user interfaces with our comprehensive design system.",
+//   image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
+//   subject: "Medicine, Health",
+//   duration: "4 Years",
+//   intakes: ["March", "September"],
+//   languages: ["Urdu", "English"],
+//   tutionFee: "",
+//   consultationFee: "",
+//   discount: "",
+//   scholarship: true,
+// };
 import { Button } from "~/components/ui/button";
 import { useAppDispatch } from "~/hooks/redux";
 import { openConsultantModal } from "~/store/consultant/consultantSlice";
 import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
 import { Card, CardHeader } from "~/components/ui/card";
-
-const course = {
-  id: "item-1",
-  title: "Build Modern UIs",
-  qualification: "Bachelor",
-  summary:
-    "Create stunning user interfaces with our comprehensive design system.",
-  image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  subject: "Medicine, Health",
-  duration: "4 Years",
-  intakes: ["March", "September"],
-  languages: ["Urdu", "English"],
-  tutionFee: "",
-  consultationFee: "",
-  discount: "",
-  scholarship: true,
-};
+import { useNavigate, useParams } from "react-router";
+import { useEffect, useState } from "react";
+// import { Course } from "~/types/course";
+import coursesData from "~/data/courses.json";
 
 const CourseDetailPage = () => {
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
+  const { id } = useParams<{ id: string }>();
+
+  const [course, setCourse] = useState<any | null>(null);
 
   const titleStyles = "pl-6 font-semibold";
+
+  useEffect(() => {
+    if (id) {
+      const found = coursesData.find((course) => course.id === id);
+      console.log("id: ", id);
+      console.log("found: ", found);
+      if (found) {
+        setCourse(found);
+      } else {
+        navigate("/courses");
+      }
+    }
+  }, [id]);
+
+  if (!course) return null;
 
   return (
     <section className="pt-32 pb-16">
@@ -88,7 +110,8 @@ const CourseDetailPage = () => {
               </TableRow>
               <TableRow>
                 <TableCell className={titleStyles}>Languages</TableCell>
-                <TableCell>{course.languages.join(", ")}</TableCell>
+                {/* <TableCell>{course.languages.join(", ")}</TableCell> */}
+                <TableCell>N/A</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className={titleStyles}>Tuition Fee</TableCell>

@@ -2,7 +2,6 @@ import { Menu } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
-import { ConsultantModal } from "~/components/Modals/ConsultantModal";
 
 import {
   Accordion,
@@ -133,7 +132,7 @@ const Navbar = ({
   return (
     <section className="py-4 absolute top-0 left-0 right-0">
       {/* Desktop Menu */}
-      <nav className="hidden justify-between lg:flex">
+      <nav className="hidden justify-between lg:flex lg:items-center">
         {/* Logo */}
         <Link to={logo.url} className="flex items-center gap-2">
           <img src={logo.src} className="max-h-8" alt={logo.alt} />
@@ -153,7 +152,6 @@ const Navbar = ({
         <div className="flex gap-2">
           <Button
             asChild
-            size="sm"
             onClick={() => {
               dispatch(openConsultantModal());
             }}

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, Search } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { Button } from "~/components/ui/button";
@@ -10,14 +10,15 @@ import {
   CarouselItem,
 } from "~/components/ui/carousel";
 import type { CarouselApi } from "~/components/ui/carousel";
-import { Input } from "~/components/ui/input";
-import { ComboboxDemo } from "./Dropdown";
+// import { Input } from "~/components/ui/input";
+// import { ComboboxDemo } from "./Dropdown";
 import Uni1 from "~/assets/images/uni1.jpg";
 import Uni2 from "~/assets/images/uni2.jpg";
 import Uni3 from "~/assets/images/uni3.jpg";
 import Uni4 from "~/assets/images/uni4.jpg";
-import { Card, CardContent } from "~/components/ui/card";
+// import { Card, CardContent } from "~/components/ui/card";
 import UniversityCard from "~/components/Cards/UniversityCard";
+import { Link } from "react-router-dom";
 
 interface GalleryItem {
   id: string;
@@ -100,10 +101,17 @@ const Universities = ({
     <section className="py-16 dark bg-background text-foreground">
       <div className="flex flex-col justify-between md:flex-row md:items-end mb-8">
         <div>
-          <h2 className="text-3xl font-semibold md:text-4xl">{heading}</h2>
+          <h2 className="text-3xl font-semibold md:text-4xl mb-3">{heading}</h2>
+          <Link
+            to="/universities"
+            className="group flex items-center gap-1 text-sm font-medium md:text-base lg:text-lg"
+          >
+            Explore More
+            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1" />
+          </Link>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row w-full items-center gap-3">
+      {/* <div className="flex flex-col sm:flex-row w-full items-center gap-3">
         <ComboboxDemo />
         <Input
           type="email"
@@ -118,7 +126,7 @@ const Universities = ({
           <span>Search</span>
           <Search />
         </Button>
-      </div>
+      </div> */}
       <div className="mt-8 mb-5 flex shrink-0 items-center justify-end gap-2">
         <Button
           size="icon"

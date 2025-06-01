@@ -1,49 +1,6 @@
 import UniversityCard from "~/components/Cards/UniversityCard";
-import { Button } from "~/components/ui/button";
-import { UniversityData } from "~/types/university";
-
-const universities = [
-  {
-    id: "item-1",
-    title: "Build Modern UIs",
-    summary:
-      "Create stunning user interfaces with our comprehensive design system.",
-    url: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  {
-    id: "item-2",
-    title: "Computer Vision Technology",
-    summary:
-      "Powerful image recognition and processing capabilities that allow AI systems to analyze, understand, and interpret visual information from the world.",
-    url: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  {
-    id: "item-3",
-    title: "Machine Learning Automation",
-    summary:
-      "Self-improving algorithms that learn from data patterns to automate complex tasks and make intelligent decisions with minimal human intervention.",
-    url: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  {
-    id: "item-4",
-    title: "Predictive Analytics",
-    summary:
-      "Advanced forecasting capabilities that analyze historical data to predict future trends and outcomes, helping businesses make data-driven decisions.",
-    url: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  {
-    id: "item-5",
-    title: "Neural Network Architecture",
-    summary:
-      "Sophisticated AI models inspired by human brain structure, capable of solving complex problems through deep learning and pattern recognition.",
-    url: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-];
+import { University } from "~/types/university";
+import universitiesData from "~/data/universities.json";
 
 const Universities = () => {
   return (
@@ -58,21 +15,23 @@ const Universities = () => {
           institution unique to help you make informed education choices.
         </p>
       </div>
-      {universities?.length > 0 ? (
+      {universitiesData?.length > 0 ? (
         <>
-          <div className="grid grid-cols-3 gap-x-5 gap-y-8 mt-5">
-            {universities.map((university: UniversityData) => (
-              <UniversityCard university={university} />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 mt-5">
+            {universitiesData.map((university: University) => (
+              <div key={university.id} className="h-full">
+                <UniversityCard university={university} />
+              </div>
             ))}
           </div>
-          <div className="text-center">
+          {/* <div className="text-center">
             <Button
               variant="outline"
               className="mt-12 w-[150px] py-3 border-white/50"
             >
               Load More
             </Button>
-          </div>
+          </div> */}
         </>
       ) : (
         <p className="text-center mt-8 text-xl">No universities found</p>
