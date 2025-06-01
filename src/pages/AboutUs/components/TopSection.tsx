@@ -1,5 +1,5 @@
 import { Button } from "~/components/ui/button";
-import { useAppDispatch } from "~/hooks/redux";
+import { useOpenConsultantModal } from "~/hooks/use-consultant";
 import { openConsultantModal } from "~/store/consultant/consultantSlice";
 
 interface About3Props {
@@ -53,8 +53,6 @@ const TopSection = ({
     buttonText: "Get Started",
   },
 }: About3Props = {}) => {
-  const dispatch = useAppDispatch();
-
   return (
     <section className="pt-36 pb-16">
       <div className="mb-14 grid gap-5 text-center md:grid-cols-2 md:text-left">
@@ -81,7 +79,7 @@ const TopSection = ({
             <Button
               variant="outline"
               className="mr-auto"
-              onClick={() => dispatch(openConsultantModal())}
+              onClick={useOpenConsultantModal()}
             >
               {breakout.buttonText}
             </Button>

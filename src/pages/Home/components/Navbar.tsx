@@ -25,8 +25,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "~/components/ui/sheet";
-import { useAppDispatch } from "~/hooks/redux";
-import { openConsultantModal } from "~/store/consultant/consultantSlice";
+import { useOpenConsultantModal } from "~/hooks/use-consultant";
 
 interface MenuItem {
   title: string;
@@ -125,8 +124,6 @@ const Navbar = ({
     // },
   ],
 }: NavbarProps) => {
-  const dispatch = useAppDispatch();
-
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
@@ -150,14 +147,7 @@ const Navbar = ({
           </div>
         </div>
         <div className="flex gap-2">
-          <Button
-            asChild
-            onClick={() => {
-              dispatch(openConsultantModal());
-            }}
-          >
-            <Link to="/">Consult with us</Link>
-          </Button>
+          <Button onClick={useOpenConsultantModal()}>Consult with us</Button>
         </div>
       </nav>
 
@@ -198,8 +188,8 @@ const Navbar = ({
                 </Accordion>
 
                 <div className="flex flex-col gap-3">
-                  <Button asChild>
-                    <Link to="/">Consult with us</Link>
+                  <Button onClick={useOpenConsultantModal()}>
+                    Consult with us
                   </Button>
                 </div>
               </div>

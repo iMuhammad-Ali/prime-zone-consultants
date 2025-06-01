@@ -76,9 +76,9 @@ const Team = () => {
           Meet our team
         </h2>
         <p className="mb-8 max-w-3xl text-muted-foreground lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig
-          doloremque mollitia fugiat omnis! Porro facilis quo animi consequatur.
-          Explicabo.
+          Our experienced and passionate team of education consultants, visa
+          experts, and student advisors is dedicated to helping you make the
+          right choices for your academic and career goals abroad.
         </p>
       </div>
       <div className="container mt-16 grid gap-x-12 gap-y-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
