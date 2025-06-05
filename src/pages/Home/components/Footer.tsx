@@ -125,7 +125,7 @@
 
 // export { Footer };
 
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "~/assets/images/logo.png";
@@ -185,10 +185,21 @@ const defaultSections = [
 ];
 
 const defaultSocialLinks = [
-  { icon: <Instagram className="size-5" />, href: "/", label: "Instagram" },
-  { icon: <Facebook className="size-5" />, href: "/", label: "Facebook" },
-  { icon: <Twitter className="size-5" />, href: "/", label: "Twitter" },
-  { icon: <Linkedin className="size-5" />, href: "/", label: "LinkedIn" },
+  {
+    icon: <Instagram className="size-5" />,
+    href: "https://www.instagram.com/primezoneconsultantsofficial?igsh=MXM0eWlqYXQwdGswbQ==",
+    label: "Instagram",
+  },
+  {
+    icon: <Facebook className="size-5" />,
+    href: "https://www.facebook.com/pzc786?_rdc=2&_rdr",
+    label: "Facebook",
+  },
+  {
+    icon: <Youtube className="size-5" />,
+    href: "https://www.youtube.com/@PrimeZoneConsultants",
+    label: "Youtube",
+  },
 ];
 
 const defaultLegalLinks = [
@@ -201,12 +212,12 @@ const Footer = ({
     url: "/",
     src: Logo,
     alt: "logo",
-    title: "Prime Zone Consultant",
+    title: "Prime Zone Consultants",
   },
   sections = defaultSections,
   description = "A collection of components for your startup business or side project.",
   socialLinks = defaultSocialLinks,
-  copyright = `© ${new Date().getFullYear()} Prime Zone Consultant. All rights reserved.`,
+  copyright = `© ${new Date().getFullYear()} Prime Zone Consultants. All rights reserved.`,
   legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
   return (
@@ -229,9 +240,9 @@ const Footer = ({
           <ul className="flex items-center space-x-6 text-foreground">
             {socialLinks.map((social, idx) => (
               <li key={idx} className="font-medium hover:text-foreground/75">
-                <Link to={social.href} aria-label={social.label}>
+                <a href={social.href} target="_blank" aria-label={social.label}>
                   {social.icon}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

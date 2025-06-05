@@ -51,7 +51,7 @@ const Navbar = ({
     url: "/",
     src: Logo,
     alt: "logo",
-    title: "Prime Zone Consultant",
+    title: "Prime Zone Consultants",
   },
   menu = [
     { title: "Home", url: "/" },
