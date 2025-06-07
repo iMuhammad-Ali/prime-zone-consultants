@@ -1,21 +1,17 @@
 import { Button } from "~/components/ui/button";
-import { useAppDispatch } from "~/hooks/redux";
-import { openConsultantModal } from "~/store/consultant/consultantSlice";
-import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
-import { Card, CardHeader } from "~/components/ui/card";
 import { useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 import universitiesData from "~/data/universities.json";
-import { University } from "~/types/university";
+import { useOpenConsultantModal } from "~/hooks/use-consultant";
+import Features from "./Fetaures";
 
 const UniversityDetailPage = () => {
-  const dispatch = useAppDispatch();
   const navigate = useNavigate();
+  const openConsultantModal = useOpenConsultantModal();
+
   const { id } = useParams<{ id: string }>();
 
-  const [university, setUniversity] = useState<University | null>(null);
-
-  const titleStyles = "pl-6 font-semibold";
+  const [university, setUniversity] = useState<any | null>(null);
 
   useEffect(() => {
     if (id) {
@@ -32,7 +28,7 @@ const UniversityDetailPage = () => {
 
   return (
     <section className="pt-32 pb-16">
-      <div className="container flex flex-col items-center text-center">
+      <div className="container flex flex-col items-center text-center mb-8">
         <div
           className="relative w-full h-[500px] rounded-md overflow-hidden flex items-center justify-center bg-cover bg-center"
           style={{ backgroundImage: `url(${university.image})` }}
@@ -52,64 +48,15 @@ const UniversityDetailPage = () => {
               {university.location}
             </h2>
             <Button
-              onClick={() => dispatch(openConsultantModal())}
+              onClick={openConsultantModal}
               className="max-w-[250px] py-6 text-lg bg-background text-foreground hover:bg-background hover:scale-[102%] transition-all duration-300 shadow-md"
             >
               Apply to University
             </Button>
           </div>
         </div>
-
-        <Card className="w-full mt-8">
-          <CardHeader className="border-b">
-            <h3 className="text-lg font-bold">University Details</h3>
-          </CardHeader>
-          <Table className="text-lg text-left">
-            <TableBody>
-              <TableRow>
-                <TableCell className={titleStyles}>Location</TableCell>
-                <TableCell>{university.location}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Summary</TableCell>
-                <TableCell>{university.summary}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Accommodation</TableCell>
-                <TableCell>{university.accommodation}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Intakes</TableCell>
-                <TableCell>{university.inTake.join(", ")}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Languages</TableCell>
-                <TableCell>{university.languages.join(", ")}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Scholarship</TableCell>
-                <TableCell>{university.scholarship ? "Yes" : "No"}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Discount</TableCell>
-                <TableCell>{university.discount}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Discounted Price</TableCell>
-                <TableCell>{university.discountedPrice}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Original Price</TableCell>
-                <TableCell>{university.originalPrice}</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className={titleStyles}>Address</TableCell>
-                <TableCell>{university.address}</TableCell>
-              </TableRow>
-            </TableBody>
-          </Table>
-        </Card>
       </div>
+      <Features university={university} />
     </section>
   );
 };
