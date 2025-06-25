@@ -30,5 +30,53 @@
     "discountedFee": "€7,200",
     "actualFee": "€9,000",
     "discount": "20%"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "flag": "https://flagcdn.com/kg.svg",
+    "discountedFee": "KGS 500,000",
+    "actualFee": "KGS 650,000",
+    "discount": "23%"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "flag": "https://flagcdn.com/fr.svg",
+    "discountedFee": "€7,500",
+    "actualFee": "€10,000",
+    "discount": "25%"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "flag": "https://flagcdn.com/es.svg",
+    "discountedFee": "€6,800",
+    "actualFee": "€8,500",
+    "discount": "20%"
+  },
+  {
+    "name": "Lithuania",
+    "code": "LT",
+    "flag": "https://flagcdn.com/lt.svg",
+    "discountedFee": "€6,500",
+    "actualFee": "€8,200",
+    "discount": "21%"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "flag": "https://flagcdn.com/gb.svg",
+    "discountedFee": "£7,800",
+    "actualFee": "£10,000",
+    "discount": "22%"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "flag": "https://flagcdn.com/at.svg",
+    "discountedFee": "€7,600",
+    "actualFee": "€9,500",
+    "discount": "20%"
   }
 ]
