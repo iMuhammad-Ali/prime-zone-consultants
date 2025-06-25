@@ -23,17 +23,21 @@ const CourseCard: FC<CourseCardProps> = ({ course, dark }) => {
   return (
     <Link to={`/courses/${course.id}`}>
       <Card
-        className={`hover:scale-[102%] duration-300 hover:border cursor-pointer w-full relative overflow-hidden border-0 ${
+        className={`h-full hover:scale-[102%] duration-300 hover:border cursor-pointer w-full relative overflow-hidden ${
           !dark && "bg-white"
         }`}
       >
         <DiscountLabel discount={course.discount} />
-        <div className="flex items-center justify-center bg-gray-200 text-background/75 font-bold text-6xl w-full h-40 object-cover rounded-t-md">
-          {course.courseCode}
+        <div className="flex items-center justify-center bg-gray-200 text-background/75 font-bold text-6xl w-full h-40 object-cover rounded-t-md p-4">
+          {courseUniversity?.logo ? (
+            <img src={courseUniversity?.logo} className="h-full rounded-full" />
+          ) : (
+            course.courseCode
+          )}
         </div>
         <Badge
-          className={`absolute top-2 left-2 text-sm ${
-            dark && "bg-background text-foreground"
+          className={`absolute top-2 left-2 text-sm cursor-default hover:bg-foreground ${
+            dark && "bg-background text-foreground hover:bg-background"
           }`}
         >
           {courseDepartment.name}

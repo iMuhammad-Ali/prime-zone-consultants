@@ -10,17 +10,14 @@ import {
   CarouselItem,
 } from "~/components/ui/carousel";
 import type { CarouselApi } from "~/components/ui/carousel";
-// import { Input } from "~/components/ui/input";
-// import { ComboboxDemo } from "./Dropdown";
 import UniversityCard from "~/components/Cards/UniversityCard";
 import { Link } from "react-router-dom";
 import universitiesData from "~/data/universities.json";
-import { University } from "~/types/university";
 
 interface UniversitiesProps {
   heading?: string;
   demoUrl?: string;
-  items?: University[];
+  items?: any[];
 }
 
 const Universities = ({
@@ -30,6 +27,7 @@ const Universities = ({
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
+
   useEffect(() => {
     if (!carouselApi) {
       return;

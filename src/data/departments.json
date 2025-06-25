@@ -3,5 +3,16 @@
   { "id": "2", "name": "Medicine" },
   { "id": "3", "name": "Law" },
   { "id": "4", "name": "Economics" },
-  { "id": "5", "name": "Physics" }
+  { "id": "5", "name": "Physics" },
+  { "id": "6", "name": "Engineering and Architecture" },
+  { "id": "7", "name": "Political Science" },
+  { "id": "8", "name": "Pharmacy and Biotechnology" },
+  { "id": "9", "name": "Arts and Humanities" },
+  { "id": "10", "name": "Agricultural and Food Sciences" },
+  { "id": "11", "name": "Medical" },
+  { "id": "13", "name": "Engineering and IT" },
+  { "id": "14", "name": "Business and Economics" },
+  { "id": "15", "name": "Arts" },
+  { "id": "16", "name": "Engineering" },
+  { "id": "19", "name": "Science" }
 ]

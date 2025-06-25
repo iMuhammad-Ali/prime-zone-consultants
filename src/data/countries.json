@@ -8,30 +8,6 @@
     "discount": "25%"
   },
   {
-    "name": "Germany",
-    "code": "DE",
-    "flag": "https://flagcdn.com/de.svg",
-    "discountedFee": "€8,000",
-    "actualFee": "€10,000",
-    "discount": "20%"
-  },
-  {
-    "name": "India",
-    "code": "IN",
-    "flag": "https://flagcdn.com/in.svg",
-    "discountedFee": "₹4,50,000",
-    "actualFee": "₹5,50,000",
-    "discount": "20%"
-  },
-  {
-    "name": "Canada",
-    "code": "CA",
-    "flag": "https://flagcdn.com/ca.svg",
-    "discountedFee": "CA$7,500",
-    "actualFee": "CA$9,000",
-    "discount": "20%"
-  },
-  {
     "name": "Australia",
     "code": "AU",
     "flag": "https://flagcdn.com/au.svg",

@@ -1,27 +1,30 @@
 import { useLocation, useNavigate } from "react-router";
 import { Card, CardTitle } from "~/components/ui/card";
 import countries from "~/data/countries.json";
-import { useAppDispatch } from "~/hooks/redux";
-import { setSelectedCountry } from "~/store/universities/universitiesSlice";
 
 export default function CountryGrid() {
-  const dispatch = useAppDispatch();
   const location = useLocation();
   const navigate = useNavigate();
 
   const handleCardClick = (country: string) => {
-    dispatch(setSelectedCountry(country));
-
     const searchParams = new URLSearchParams(location.search);
     searchParams.set("country", country.toLowerCase().replace(/\s+/g, "-"));
     navigate(`${location.pathname}?${searchParams.toString()}`);
   };
 
   return (
-    <>
-      <h2 className="mt-8 mb-5 text-xl font-bold text-pretty lg:text-3xl text-center">
-        Select By Country
-      </h2>
+    <div className="container space-y-16">
+      <div className="mx-auto flex max-w-3xl flex-col text-left md:text-center">
+        <h2 className="mb-3 text-3xl font-semibold md:mb-4 lg:mb-6 lg:text-4xl">
+          Search By Country
+        </h2>
+        <p className="text-muted-foreground lg:text-lg">
+          Discover universities from around the world by selecting your
+          preferred country. Easily explore detailed information about
+          institutions to find the perfect university for you.
+        </p>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 cursor-pointer">
         {countries.map((country) => (
           <Card
@@ -56,6 +59,6 @@ export default function CountryGrid() {
           </Card>
         ))}
       </div>
-    </>
+    </div>
   );
 }

@@ -12,11 +12,7 @@ import {
 import { Button } from "~/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
 } from "~/components/ui/navigation-menu";
 import {
   Sheet,
@@ -27,13 +23,19 @@ import {
 } from "~/components/ui/sheet";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
 import Logo from "~/assets/images/logo-white.png";
+import countries from "~/data/countries.json";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "~/components/ui/popover";
 
 interface MenuItem {
   title: string;
   url: string;
   description?: string;
   icon?: React.ReactNode;
-  items?: MenuItem[];
+  items?: any[];
 }
 
 interface NavbarProps {
@@ -58,20 +60,21 @@ const Navbar = ({
     {
       title: "Study Destinations",
       url: "/study-destinations",
-      items: [
-        {
-          title: "Study in UK",
-          url: "/universities?country=UK",
-        },
-        {
-          title: "Study in France",
-          url: "/universities?country=France",
-        },
-        {
-          title: "Study in Italy",
-          url: "/universities?country=Italy",
-        },
-      ],
+      items: countries.map((country) => ({
+        title: (
+          <div className="flex items-center gap-3">
+            <img
+              src={country.flag}
+              alt={country.code}
+              className="w-[35px] h-[20px] object-cover border"
+            />
+            Study in {country.name}
+          </div>
+        ),
+        url: `/universities?country=${country.name
+          .toLowerCase()
+          .replace(/\s+/g, "-")}`,
+      })),
     },
     {
       title: "About Us",
@@ -93,36 +96,6 @@ const Navbar = ({
       title: "Contact Us",
       url: "/contact-us",
     },
-    // {
-    //   title: "Resources",
-    //   url: "#",
-    //   items: [
-    //     {
-    //       title: "Help Center",
-    //       description: "Get all the answers you need right here",
-    //       icon: <Zap className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Contact Us",
-    //       description: "We are here to help you with any questions you have",
-    //       icon: <Sunset className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Status",
-    //       description: "Check the current status of our services and APIs",
-    //       icon: <Trees className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //     {
-    //       title: "Terms of Service",
-    //       description: "Our terms and conditions for using our services",
-    //       icon: <Book className="size-5 shrink-0" />,
-    //       url: "#",
-    //     },
-    //   ],
-    // },
   ],
 }: NavbarProps) => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -205,35 +178,54 @@ const Navbar = ({
 const renderMenuItem = (item: MenuItem) => {
   const location = useLocation();
   const isActive = location.pathname === item.url;
+  const [isOpen, setIsOpen] = useState(false);
 
   if (item.items) {
     return (
-      <div className="relative">
-        <NavigationMenuItem key={item.title}>
-          <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-popover text-popover-foreground">
+      <Popover
+        key={item.title}
+        modal={false}
+        open={isOpen}
+        onOpenChange={setIsOpen}
+      >
+        <PopoverTrigger asChild>
+          <button
+            className={`inline-flex items-center px-4 py-2 rounded-md bg-background hover:bg-primary text-sm font-medium cursor-pointer hover:text-background ${
+              isOpen && "bg-primary text-background opacity-75"
+            }`}
+            type="button"
+          >
+            {item.title}
+          </button>
+        </PopoverTrigger>
+        <PopoverContent className="bg-popover text-popover-foreground p-3 min-w-[500px]">
+          <div className="grid grid-cols-2 gap-4">
             {item.items.map((subItem) => (
-              <NavigationMenuLink asChild key={subItem.title}>
-                <SubMenuLink item={subItem} />
-              </NavigationMenuLink>
+              <Link
+                key={subItem.title}
+                to={subItem.url}
+                className="block rounded-md p-3 hover:bg-secondary cursor-pointer"
+                onClick={() => setIsOpen(false)}
+              >
+                {subItem.title}
+              </Link>
             ))}
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-      </div>
+          </div>
+        </PopoverContent>
+      </Popover>
     );
   }
 
   return (
-    <NavigationMenuItem key={item.title}>
-      <Link
-        to={item.url}
-        className={`group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
-          isActive && "bg-secondary/40"
-        }`}
-      >
-        {item.title}
-      </Link>
-    </NavigationMenuItem>
+    <Link
+      key={item.title}
+      to={item.url}
+      className={`inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
+        isActive ? "bg-secondary/40" : ""
+      }`}
+    >
+      {item.title}
+    </Link>
   );
 };
 
@@ -276,7 +268,7 @@ const renderMobileMenuItem = (
 const SubMenuLink = ({ item }: { item: MenuItem }) => {
   return (
     <Link
-      className="lg:w-[240px] flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent"
+      className="flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent"
       to={item.url}
     >
       <div className="text-foreground">{item.icon}</div>

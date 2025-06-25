@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 import universitiesData from "~/data/universities.json";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
-import Features from "./Fetaures";
+import Features from "./Features";
 
 const UniversityDetailPage = () => {
   const navigate = useNavigate();

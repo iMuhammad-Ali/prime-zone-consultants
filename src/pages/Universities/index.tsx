@@ -3,20 +3,30 @@ import { Input } from "~/components/ui/input";
 import { Search } from "lucide-react";
 import { Button } from "~/components/ui/button";
 import { Separator } from "~/components/ui/separator";
-import CountryGrid from "./countryGrid";
+import CountryGrid from "./CountryGrid";
 import { useLocation } from "react-router";
 import { useAppSelector } from "~/hooks/redux";
 import UniversityDepartments from "./Departments";
+import { useAppDispatch } from "~/hooks/redux";
+import { setSelectedCountry } from "~/store/universities/universitiesSlice";
+import { useEffect } from "react";
 
 const Universities = () => {
+  const dispatch = useAppDispatch();
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const selectedCountry = searchParams.get("country");
 
   const { filteredUniversities } = useAppSelector((state) => state.university);
 
+  useEffect(() => {
+    if (selectedCountry) {
+      dispatch(setSelectedCountry(selectedCountry));
+    }
+  }, [selectedCountry]);
+
   return (
-    <section className="pt-32 pb-16">
+    <section className="pt-32 pb-16 overflow-hidden">
       <div className="container flex flex-col items-center text-center">
         <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           Universities
@@ -36,30 +46,22 @@ const Universities = () => {
           </Button>
         </form>
       </div>
-      <Separator className="mt-8" />
-      <UniversityDepartments filteredUniversities={filteredUniversities} />
-      <Separator className="mt-8" />
+      <Separator className="my-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
 
       {!selectedCountry ? (
-        <CountryGrid />
-      ) : filteredUniversities?.length > 0 ? (
         <>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 mt-5">
-            {filteredUniversities.map((university: any) => (
-              <div key={university.id} className="h-full">
-                <UniversityCard university={university} />
-              </div>
-            ))}
-          </div>
-          {/* <div className="text-center">
-            <Button
-              variant="outline"
-              className="mt-12 w-[150px] py-3 border-white/50"
-            >
-              Load More
-            </Button>
-          </div> */}
+          <CountryGrid />
+          <Separator className="my-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
+          <UniversityDepartments />
         </>
+      ) : filteredUniversities?.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 mt-5">
+          {filteredUniversities.map((university: any) => (
+            <div key={university.id} className="h-full">
+              <UniversityCard university={university} />
+            </div>
+          ))}
+        </div>
       ) : (
         <p className="text-center mt-8 text-xl">No universities found</p>
       )}

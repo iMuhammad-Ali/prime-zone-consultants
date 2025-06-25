@@ -1,8 +1,32 @@
 import CourseCard from "~/components/Cards/CourseCard";
-// import { Course } from "~/types/course";
-import coursesData from "~/data/courses.json";
+import { useAppDispatch, useAppSelector } from "~/hooks/redux";
+import Departments from "./Departments";
+import Qualifications from "./Qualifications";
+import { useLocation } from "react-router";
+import { useEffect } from "react";
+import {
+  setSelectedDepartment,
+  setSelectedQualification,
+} from "~/store/universities/coursesSlice";
 
 const Courses = () => {
+  const dispatch = useAppDispatch();
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const selectedQualification = searchParams.get("qualification");
+  const selectedDepartment = searchParams.get("department");
+
+  const { filteredCourses } = useAppSelector((state) => state.course);
+
+  useEffect(() => {
+    if (selectedQualification) {
+      dispatch(setSelectedQualification(selectedQualification));
+    }
+    if (selectedDepartment) {
+      dispatch(setSelectedDepartment(selectedDepartment));
+    }
+  }, [selectedQualification, selectedDepartment]);
+
   return (
     <section className="pt-32 pb-16">
       <div className="container flex flex-col items-center text-center">
@@ -15,22 +39,17 @@ const Courses = () => {
           journey—whether you're just getting started or advancing your career.
         </p>
       </div>
-      {coursesData?.length > 0 ? (
-        <>
-          <div className="grid grid-cols-3 gap-x-5 gap-y-8 mt-5">
-            {coursesData.map((course: any) => (
-              <CourseCard key={course.id} course={course} dark />
-            ))}
-          </div>
-          {/* <div className="text-center">
-            <Button
-              variant="outline"
-              className="mt-12 w-[150px] py-3 border-white/50"
-            >
-              Load More
-            </Button>
-          </div> */}
-        </>
+      {!selectedDepartment && !selectedQualification ? (
+        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <Qualifications />
+          <Departments />
+        </div>
+      ) : filteredCourses?.length > 0 ? (
+        <div className="grid grid-cols-3 gap-x-5 gap-y-8 mt-5">
+          {filteredCourses.map((course: any) => (
+            <CourseCard key={course.id} course={course} dark />
+          ))}
+        </div>
       ) : (
         <p className="text-center mt-8 text-xl">No courses found</p>
       )}
