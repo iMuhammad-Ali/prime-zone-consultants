@@ -9,7 +9,7 @@ import { useAppSelector } from "~/hooks/redux";
 import UniversityDepartments from "./Departments";
 import { useAppDispatch } from "~/hooks/redux";
 import { setSelectedCountry } from "~/store/universities/universitiesSlice";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Universities = () => {
   const dispatch = useAppDispatch();
@@ -18,6 +18,21 @@ const Universities = () => {
   const selectedCountry = searchParams.get("country");
 
   const { filteredUniversities } = useAppSelector((state) => state.university);
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalPages = filteredUniversities
+    ? Math.ceil(filteredUniversities.length / 10)
+    : 1;
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const paginatedUniversities = filteredUniversities
+    ? filteredUniversities.slice((currentPage - 1) * 10, currentPage * 10)
+    : [];
 
   useEffect(() => {
     if (selectedCountry) {
@@ -55,13 +70,44 @@ const Universities = () => {
           <UniversityDepartments />
         </>
       ) : filteredUniversities?.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 mt-5">
-          {filteredUniversities.map((university: any) => (
-            <div key={university.id} className="h-full">
-              <UniversityCard university={university} />
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 mt-5">
+            {paginatedUniversities.map((university: any) => (
+              <div key={university.id} className="h-full">
+                <UniversityCard university={university} />
+              </div>
+            ))}
+          </div>
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center gap-2 mt-8">
+              <Button
+                variant="outline"
+                disabled={currentPage === 1}
+                onClick={() => handlePageChange(currentPage - 1)}
+              >
+                Prev
+              </Button>
+              {Array.from({ length: totalPages }, (_, i) => (
+                <Button
+                  key={i + 1}
+                  variant={currentPage === i + 1 ? "default" : "outline"}
+                  onClick={() => handlePageChange(i + 1)}
+                  className="w-10 h-10 p-0"
+                >
+                  {i + 1}
+                </Button>
+              ))}
+              <Button
+                variant="outline"
+                disabled={currentPage === totalPages}
+                onClick={() => handlePageChange(currentPage + 1)}
+              >
+                Next
+              </Button>
             </div>
-          ))}
-        </div>
+          )}
+        </>
       ) : (
         <p className="text-center mt-8 text-xl">No universities found</p>
       )}

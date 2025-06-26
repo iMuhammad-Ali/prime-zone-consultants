@@ -23,6 +23,7 @@ const CourseCard: FC<CourseCardProps> = ({ course, dark }) => {
   return (
     <Link to={`/courses/${course.id}`}>
       <Card
+        key={course.id}
         className={`h-full hover:scale-[102%] duration-300 hover:border cursor-pointer w-full relative overflow-hidden ${
           !dark && "bg-white"
         }`}

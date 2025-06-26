@@ -20,7 +20,7 @@ const Courses = () => {
 
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 w-full">
           {coursesData.slice(0, 6).map((course: any) => (
-            <CourseCard course={course} dark />
+            <CourseCard key={course.id} course={course} dark />
           ))}
         </div>
 
