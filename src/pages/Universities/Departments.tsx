@@ -1,23 +1,22 @@
-import { useState } from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "~/components/ui/accordion";
-import departmentsData from "~/data/departments.json";
-import coursesData from "~/data/courses.json";
-import universitiesData from "~/data/universities.json";
-import { Link } from "react-router-dom";
+// import { useState } from "react";
+// import {
+//   Accordion,
+//   AccordionContent,
+//   AccordionItem,
+//   AccordionTrigger,
+// } from "~/components/ui/accordion";
+// import departmentsData from "~/data/departments.json";
+// import universitiesData from "~/data/universities.json";
+// import { Link } from "react-router-dom";
 
 const UniversityDepartments = () => {
-  const filteredDepartments = departmentsData.filter((department) =>
-    coursesData.some((course) => course.department === department.id)
-  );
+  // const filteredDepartments = departmentsData.filter((department) =>
+  //   coursesData.some((course) => course.department === department.id)
+  // );
 
-  const [expanded, setExpanded] = useState<any>(
-    filteredDepartments.length > 0 ? filteredDepartments[0].id : null
-  );
+  // const [expanded, setExpanded] = useState<any>(
+  //   filteredDepartments.length > 0 ? filteredDepartments[0].id : null
+  // );
   return (
     <div className="container space-y-16">
       <div className="mx-auto flex max-w-3xl flex-col text-left md:text-center">
@@ -31,7 +30,7 @@ const UniversityDepartments = () => {
         </p>
       </div>
 
-      <Accordion
+      {/* <Accordion
         type="single"
         collapsible
         className="mx-auto w-full border rounded overflow-hidden"
@@ -76,7 +75,7 @@ const UniversityDepartments = () => {
             </AccordionContent>
           </AccordionItem>
         ))}
-      </Accordion>
+      </Accordion> */}
     </div>
   );
 };

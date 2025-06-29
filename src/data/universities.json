@@ -1,6 +1,7 @@
 [
   {
-    "name": "1. University of Bologna",
+    "id": "1",
+    "name": "University of Bologna",
     "city": "Bologna",
     "country": "Italy",
     "address": "Via Zamboni 33, 40126 Bologna, Italy",
@@ -16,7 +17,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "2. Sapienza University of Rome",
+    "id": "2",
+    "name": "Sapienza University of Rome",
     "city": "Rome",
     "country": "Italy",
     "address": "Piazzale Aldo Moro 5, 00185 Roma RM, Italy",
@@ -32,7 +34,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "3. University of Padua",
+    "id": "3",
+    "name": "University of Padua",
     "city": "Padua",
     "country": "Italy",
     "address": "Via 8 Febbraio 2, 35122 Padova PD, Italy",
@@ -48,7 +51,8 @@
     "discount": "57.14%"
   },
   {
-    "name": "4. Politecnico di Milano",
+    "id": "4",
+    "name": "Politecnico di Milano",
     "city": "Milan",
     "country": "Italy",
     "address": "Piazza Leonardo da Vinci 32, 20133 Milano MI, Italy",
@@ -64,7 +68,8 @@
     "discount": "23.08%"
   },
   {
-    "name": "5. University of Milan",
+    "id": "5",
+    "name": "University of Milan",
     "city": "Milan",
     "country": "Italy",
     "address": "Via Festa del Perdono 7, 20122 Milano MI, Italy",
@@ -80,7 +85,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "6. University of Pisa",
+    "id": "6",
+    "name": "University of Pisa",
     "city": "Pisa",
     "country": "Italy",
     "address": "Lungarno Antonio Pacinotti, 43, 56126 Pisa PI, Italy",
@@ -96,7 +102,8 @@
     "discount": "44.00%"
   },
   {
-    "name": "7. University of Naples Federico II",
+    "id": "7",
+    "name": "University of Naples Federico II",
     "city": "Naples",
     "country": "Italy",
     "address": "Corso Umberto I, 40, 80138 Napoli NA, Italy",
@@ -112,7 +119,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "8. Polytechnic University of Turin",
+    "id": "8",
+    "name": "Polytechnic University of Turin",
     "city": "Turin",
     "country": "Italy",
     "address": "Corso Duca degli Abruzzi 24, 10129 Torino TO, Italy",
@@ -128,7 +136,8 @@
     "discount": "26.32%"
   },
   {
-    "name": "9. Ca' Foscari University of Venice",
+    "id": "9",
+    "name": "Ca' Foscari University of Venice",
     "city": "Venice",
     "country": "Italy",
     "address": "Dorsoduro 3246, 30123 Venezia VE, Italy",
@@ -144,7 +153,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "10. University of Turin",
+    "id": "10",
+    "name": "University of Turin",
     "city": "Turin",
     "country": "Italy",
     "address": "Via Verdi 8, 10124 Torino TO, Italy",
@@ -160,7 +170,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "11. University of Genoa",
+    "id": "11",
+    "name": "University of Genoa",
     "city": "Genoa",
     "country": "Italy",
     "address": "Via Balbi, 5, 16126 Genova GE, Italy",
@@ -176,7 +187,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "12. University of Trento",
+    "id": "12",
+    "name": "University of Trento",
     "city": "Trento",
     "country": "Italy",
     "address": "Via Giuseppe Verdi, 26, 38122 Trento TN, Italy",
@@ -192,7 +204,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "13. University of Palermo",
+    "id": "13",
+    "name": "University of Palermo",
     "city": "Palermo",
     "country": "Italy",
     "address": "Piazza Marina, 61, 90133 Palermo PA, Italy",
@@ -208,7 +221,8 @@
     "discount": "46.67%"
   },
   {
-    "name": "14. University of Pavia",
+    "id": "14",
+    "name": "University of Pavia",
     "city": "Pavia",
     "country": "Italy",
     "address": "Corso Strada Nuova, 65, 27100 Pavia PV, Italy",
@@ -224,7 +238,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "15. University of Florence",
+    "id": "15",
+    "name": "University of Florence",
     "city": "Florence",
     "country": "Italy",
     "address": "Piazza San Marco, 4, 50121 Firenze FI, Italy",
@@ -240,7 +255,8 @@
     "discount": "44.00%"
   },
   {
-    "name": "16. University of Florence",
+    "id": "16",
+    "name": "University of Florence",
     "city": "Florence",
     "country": "Italy",
     "address": "Via G. Capponi, 9, 50121 Firenze FI, Italy",
@@ -256,7 +272,8 @@
     "discount": "44.00%"
   },
   {
-    "name": "17. University of Rome Tor Vergata",
+    "id": "17",
+    "name": "University of Rome Tor Vergata",
     "city": "Rome",
     "country": "Italy",
     "address": "Via Columbia, 1, 00133 Roma RM, Italy",
@@ -272,7 +289,8 @@
     "discount": "46.43%"
   },
   {
-    "name": "18. University of Siena",
+    "id": "18",
+    "name": "University of Siena",
     "city": "Siena",
     "country": "Italy",
     "address": "Piazza del Campo, 1, 53100 Siena SI, Italy",
@@ -288,7 +306,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "19. University of Catania",
+    "id": "19",
+    "name": "University of Catania",
     "city": "Catania",
     "country": "Italy",
     "address": "Piazza Università, 2, 95131 Catania CT, Italy",
@@ -304,7 +323,8 @@
     "discount": "46.67%"
   },
   {
-    "name": "20. University of Verona",
+    "id": "20",
+    "name": "University of Verona",
     "city": "Verona",
     "country": "Italy",
     "address": "Strada Le Grazie, 15, 37134 Verona VR, Italy",
@@ -320,7 +340,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "1. Université PSL (Paris Sciences et Lettres)",
+    "id": "21",
+    "name": "Université PSL (Paris Sciences et Lettres)",
     "city": "Paris",
     "country": "France",
     "address": "60 Rue Mazarine, 75006 Paris, France",
@@ -336,7 +357,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "2. Institut Polytechnique de Paris",
+    "id": "22",
+    "name": "Institut Polytechnique de Paris",
     "city": "Palaiseau",
     "country": "France",
     "address": "Route de Saclay, 91120 Palaiseau, France",
@@ -352,7 +374,8 @@
     "discount": "75.00%"
   },
   {
-    "name": "3. Sorbonne University",
+    "id": "23",
+    "name": "Sorbonne University",
     "city": "Paris",
     "country": "France",
     "address": "21 Rue de l'école de médecine, 75006 Paris, France",
@@ -368,7 +391,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "4. Université Paris-Saclay",
+    "id": "24",
+    "name": "Université Paris-Saclay",
     "city": "Gif-sur-Yvette",
     "country": "France",
     "address": "91190 Gif-sur-Yvette, France",
@@ -384,7 +408,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "5. Université de Paris (Paris Cité University)",
+    "id": "25",
+    "name": "Université de Paris (Paris Cité University)",
     "city": "Paris",
     "country": "France",
     "address": "12 Rue de l'École de Médecine, 75006 Paris, France",
@@ -400,7 +425,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "6. Université Grenoble Alpes",
+    "id": "26",
+    "name": "Université Grenoble Alpes",
     "city": "Grenoble",
     "country": "France",
     "address": "Domaine Universitaire, 38000 Grenoble, France",
@@ -416,7 +442,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "7. Université de Bordeaux",
+    "id": "27",
+    "name": "Université de Bordeaux",
     "city": "Bordeaux",
     "country": "France",
     "address": "Victoire Campus, 33000 Bordeaux, France",
@@ -432,7 +459,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "8. Université de Montpellier",
+    "id": "28",
+    "name": "Université de Montpellier",
     "city": "Montpellier",
     "country": "France",
     "address": "Place Eugène Bataillon, 34095 Montpellier, France",
@@ -448,7 +476,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "9. Université Toulouse",
+    "id": "29",
+    "name": "Université Toulouse",
     "city": "Toulouse",
     "country": "France",
     "address": "Capitole Campus, 31000 Toulouse, France",
@@ -463,7 +492,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "10. Aix-Marseille Université",
+    "id": "30",
+    "name": "Aix-Marseille Université",
     "city": "Aix-en-Provence & Marseille",
     "country": "France",
     "address": "3 Place Victor Hugo, 13100 Aix-en-Provence, France",
@@ -478,7 +508,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "11. Université de Strasbourg",
+    "id": "31",
+    "name": "Université de Strasbourg",
     "city": "Strasbourg",
     "country": "France",
     "address": "4 Rue Blaise Pascal, 67081 Strasbourg, France",
@@ -493,7 +524,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "12. Université de Lille",
+    "id": "32",
+    "name": "Université de Lille",
     "city": "Lille",
     "country": "France",
     "address": "59 Boulevard Paul Painlevé, 59000 Lille, France",
@@ -508,7 +540,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "13. Université de Nantes",
+    "id": "33",
+    "name": "Université de Nantes",
     "city": "Nantes",
     "country": "France",
     "address": "Rue Christian Pauc, 44000 Nantes, France",
@@ -523,7 +556,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "14. Université d'Orléans (and Tours)",
+    "id": "34",
+    "name": "Université d'Orléans (and Tours)",
     "city": "Orléans & Tours",
     "country": "France",
     "address": "1 Rue de Blois, 45067 Orléans, France",
@@ -538,7 +572,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "15. Université de Rennes 1",
+    "id": "35",
+    "name": "Université de Rennes 1",
     "city": "Rennes",
     "country": "France",
     "address": "Place Édouard-Leclerc, 35042 Rennes, France",
@@ -553,7 +588,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "16. Université de Lorraine",
+    "id": "36",
+    "name": "Université de Lorraine",
     "city": "Nancy & Metz",
     "country": "France",
     "address": "1 Place Paul Muller, 54000 Nancy, France",
@@ -568,7 +604,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "17. Université de Dijon (Bourgogne Franche-Comté)",
+    "id": "37",
+    "name": "Université de Dijon (Bourgogne Franche-Comté)",
     "city": "Dijon",
     "country": "France",
     "address": "4 Rue des Chantres, 21000 Dijon, France",
@@ -583,7 +620,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "18. Université de Clermont Auvergne",
+    "id": "38",
+    "name": "Université de Clermont Auvergne",
     "city": "Clermont-Ferrand",
     "country": "France",
     "address": "34 Avenue Carnot, 63037 Clermont-Ferrand, France",
@@ -598,7 +636,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "19. Université de Poitiers",
+    "id": "39",
+    "name": "Université de Poitiers",
     "city": "Poitiers",
     "country": "France",
     "address": "1 Rue Georges Bonnet, 86022 Poitiers, France",
@@ -613,7 +652,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "20. Université Toulouse-Jean Jaurès (Toulouse II)",
+    "id": "40",
+    "name": "Université Toulouse-Jean Jaurès (Toulouse II)",
     "city": "Toulouse",
     "country": "France",
     "address": "5 Allée Antonio Machado, 31058 Toulouse, France",
@@ -629,7 +669,8 @@
     "discount": "93.86%"
   },
   {
-    "name": "1. University of Barcelona",
+    "id": "41",
+    "name": "University of Barcelona",
     "city": "Barcelona",
     "country": "Spain",
     "address": "Via Laietana, 4, 08003 Barcelona, Spain",
@@ -645,7 +686,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "2. Autonomous University of Barcelona (UAB)",
+    "id": "42",
+    "name": "Autonomous University of Barcelona (UAB)",
     "city": "Bellaterra",
     "country": "Spain",
     "address": "Camí de la Vall d'Hebron, s/n, 08193 Bellaterra",
@@ -661,7 +703,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "3. Pompeu Fabra University",
+    "id": "43",
+    "name": "Pompeu Fabra University",
     "city": "Barcelona",
     "country": "Spain",
     "address": "Plaça de la Mercè, 10-12, 08002 Barcelona",
@@ -677,7 +720,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "4. Autonomous University of Madrid (UAM)",
+    "id": "44",
+    "name": "Autonomous University of Madrid (UAM)",
     "city": "Madrid",
     "country": "Spain",
     "address": "Campus de Cantoblanco, 28049 Madrid",
@@ -693,7 +737,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "5. Complutense University of Madrid (UCM)",
+    "id": "45",
+    "name": "Complutense University of Madrid (UCM)",
     "city": "Madrid",
     "country": "Spain",
     "address": "Calle de San Bernardo, 49, 28015 Madrid",
@@ -709,7 +754,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "6. University of Valencia (UV)",
+    "id": "46",
+    "name": "University of Valencia (UV)",
     "city": "Valencia",
     "country": "Spain",
     "address": "Av. de Blasco Ibáñez, 13, 46010 València",
@@ -725,7 +771,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "7. University of Granada",
+    "id": "47",
+    "name": "University of Granada",
     "city": "Granada",
     "country": "Spain",
     "address": "Calle Rector López Argüeta, s/n, 18071 Granada",
@@ -741,7 +788,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "8. Polytechnic University of Madrid (UPM)",
+    "id": "48",
+    "name": "Polytechnic University of Madrid (UPM)",
     "city": "Madrid",
     "country": "Spain",
     "address": "Calle Ramiro de Maeztu, 7, 28040 Madrid",
@@ -757,7 +805,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "9. Polytechnic University of Catalonia (UPC)",
+    "id": "49",
+    "name": "Polytechnic University of Catalonia (UPC)",
     "city": "Barcelona",
     "country": "Spain",
     "address": "c. Jordi Girona, 1-3, 08034 Barcelona",
@@ -773,7 +822,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "10. Polytechnic University of Valencia (UPV)",
+    "id": "50",
+    "name": "Polytechnic University of Valencia (UPV)",
     "city": "Valencia",
     "country": "Spain",
     "address": "Camino de Vera, s/n, 46022 València",
@@ -787,7 +837,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "11. University of Seville",
+    "id": "51",
+    "name": "University of Seville",
     "city": "Seville",
     "country": "Spain",
     "address": "Avenida de la Reina Mercedes, s/n, 41012 Sevilla",
@@ -801,7 +852,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "12. University of the Basque Country (UPV/EHU)",
+    "id": "52",
+    "name": "University of the Basque Country (UPV/EHU)",
     "city": "Bilbao/Vitoria-Gasteiz/San Sebastián",
     "country": "",
     "address": "Plaza de Torres Quevedo 1, 48013 Bilbao",
@@ -815,7 +867,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "13. Polytechnic University of Madrid (UPM)",
+    "id": "53",
+    "name": "Polytechnic University of Madrid (UPM)",
     "city": "Madrid",
     "country": "Spain",
     "address": "Calle Ramiro de Maeztu, 7, 28040 Madrid",
@@ -829,7 +882,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "14. Polytechnic University of Catalonia (UPC)",
+    "id": "54",
+    "name": "Polytechnic University of Catalonia (UPC)",
     "city": "Barcelona",
     "country": "Spain",
     "address": "Carrer de Jordi Girona, 1-3, 08034 Barcelona",
@@ -843,7 +897,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "15. Polytechnic University of Valencia (UPV)",
+    "id": "55",
+    "name": "Polytechnic University of Valencia (UPV)",
     "city": "Valencia",
     "country": "Spain",
     "address": "Camino de Vera, s/n, 46022 Valencia",
@@ -857,7 +912,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "16. University of Granada",
+    "id": "56",
+    "name": "University of Granada",
     "city": "Granada",
     "country": "Spain",
     "address": "Calle Rector López Argüeta, s/n, 18071 Granada",
@@ -871,7 +927,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "17. University of Salamanca",
+    "id": "57",
+    "name": "University of Salamanca",
     "city": "Salamanca",
     "country": "Spain",
     "address": "Patio de Escuelas, 37008 Salamanca",
@@ -885,7 +942,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "18. University of Zaragoza",
+    "id": "58",
+    "name": "University of Zaragoza",
     "city": "Zaragoza",
     "country": "Spain",
     "address": "Plaza de Paraíso, s/n, 50005 Zaragoza",
@@ -899,7 +957,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "19. University of Santiago de Compostela",
+    "id": "59",
+    "name": "University of Santiago de Compostela",
     "city": "Santiago de Compostela",
     "country": "",
     "address": "Rúa do Franco, s/n, 15782",
@@ -913,7 +972,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "20. University of Valladolid",
+    "id": "60",
+    "name": "University of Valladolid",
     "city": "Valladolid",
     "country": "Spain",
     "address": "Plaza de Santa Cruz, 8, 47002",
@@ -928,7 +988,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "5. Lithuanian University of Health Sciences (LSMU)",
+    "id": "61",
+    "name": "Lithuanian University of Health Sciences (LSMU)",
     "location & address": "Kaunas, Lithuania",
     "about": "Established in 2010 from merger of medical and veterinary academies, it has ~6,300 students",
     "departments (10)": "Medicine; Dentistry; Pharmacy; Veterinary Medicine; Public Health; Nursing; Biomedical Sciences; Rehabilitation; Laboratory Medicine; Veterinary Science",
@@ -941,7 +1002,8 @@
     "discount": "11.76%"
   },
   {
-    "name": "6. Mykolas Romeris University (MRU)",
+    "id": "62",
+    "name": "Mykolas Romeris University (MRU)",
     "location & address": "Vilnius, Lithuania",
     "about": "Named after Constitutional Law pioneer, specializes in social sciences with Law School and Public Security Academy",
     "departments (10)": "Law School; Public Security; Human & Social Studies; Public Governance & Business; Sudovian Academy",
@@ -954,7 +1016,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "7. Klaipėda University",
+    "id": "63",
+    "name": "Klaipėda University",
     "location & address": "Klaipėda, Lithuania",
     "about": "Founded in 1991, focuses on maritime studies and coastal research",
     "departments (10)": "Marine Engineering; Natural Sciences; Humanities; Pedagogy; Social Sciences; Health Sciences; Art; Maritime Institute",
@@ -967,7 +1030,8 @@
     "discount": "33.33%"
   },
   {
-    "name": "8. Lithuanian Sports University",
+    "id": "64",
+    "name": "Lithuanian Sports University",
     "location & address": "Kaunas, Lithuania",
     "about": "Established 1934, focused on sports sciences",
     "departments (10)": "Physical Education; Sports Science; Health & Nutrition; Rehabilitation; Coaching",
@@ -980,7 +1044,8 @@
     "discount": "23.33%"
   },
   {
-    "name": "9. Lithuanian University of Educational Sciences",
+    "id": "65",
+    "name": "Lithuanian University of Educational Sciences",
     "location & address": "Vilnius, Lithuania",
     "about": "Founded 1935, focused on teacher training",
     "departments (10)": "Education Sciences; Psychology; Special Education; Social Pedagogy; Teacher Training",
@@ -993,7 +1058,8 @@
     "discount": "28.00%"
   },
   {
-    "name": "10. Aleksandras Stulginskis University",
+    "id": "66",
+    "name": "Aleksandras Stulginskis University",
     "location & address": "Kaunas, Lithuania",
     "about": "Founded 1924, agriculture-focused public university",
     "departments (10)": "Agriculture; Forestry; Food Science; Animal Science; Rural Development",
@@ -1007,7 +1073,8 @@
     "discount": "36.67%"
   },
   {
-    "name": "11. Vilnius University Šiauliai Academy",
+    "id": "67",
+    "name": "Vilnius University Šiauliai Academy",
     "city": "Šiauliai",
     "country": "Lithuania",
     "address": "P. Višinskio g. 25, LT-76351 Šiauliai",
@@ -1023,7 +1090,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "12. Lithuanian Sports University",
+    "id": "68",
+    "name": "Lithuanian Sports University",
     "city": "Kaunas",
     "country": "Lithuania",
     "address": "Sporto g. 6, LT-44221 Kaunas",
@@ -1039,7 +1107,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "13. Marijampolė University of Applied Sciences",
+    "id": "69",
+    "name": "Marijampolė University of Applied Sciences",
     "city": "Marijampolė",
     "country": "Lithuania",
     "address": "V. Putvinskio g. 53, LT-68339 Marijampolė",
@@ -1055,7 +1124,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "14. Lithuanian Academy of Music and Theatre",
+    "id": "70",
+    "name": "Lithuanian Academy of Music and Theatre",
     "city": "Vilnius",
     "country": "Lithuania",
     "address": "Gedimino pr. 42, LT-01110 Vilnius",
@@ -1071,7 +1141,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "15. Lithuanian University of Health Sciences",
+    "id": "71",
+    "name": "Lithuanian University of Health Sciences",
     "city": "Kaunas",
     "country": "Lithuania",
     "address": "A. Mickevičiaus g. 9, LT-44307 Kaunas",
@@ -1087,7 +1158,8 @@
     "discount": "68.75%"
   },
   {
-    "name": "16. General Jonas Žemaitis Military Academy",
+    "id": "72",
+    "name": "General Jonas Žemaitis Military Academy",
     "city": "Vilnius",
     "country": "Lithuania",
     "address": "Šilo g. 5A, LT-10322 Vilnius",
@@ -1103,7 +1175,8 @@
     "discount": "N/A"
   },
   {
-    "name": "17. Lithuanian Academy of Arts",
+    "id": "73",
+    "name": "Lithuanian Academy of Arts",
     "city": "Vilnius/Kaunas/Klaipėda",
     "country": "",
     "address": "Maironio g. 6, LT-01124 Vilnius",
@@ -1119,7 +1192,8 @@
     "discount": "57.14%"
   },
   {
-    "name": "18. Lithuanian University of Educational Sciences",
+    "id": "74",
+    "name": "Lithuanian University of Educational Sciences",
     "city": "Vilnius",
     "country": "Lithuania",
     "address": "Studentų g. 39, LT-08106 Vilnius",
@@ -1135,7 +1209,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "19. Aleksandras Stulginskis University (LAMMC)",
+    "id": "75",
+    "name": "Aleksandras Stulginskis University (LAMMC)",
     "city": "Kaunas district",
     "country": "Lithuania",
     "address": "Studentų g. 11, Akademija, LT-53361 Kaunas dist.",
@@ -1151,7 +1226,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "20. Vytautas Magnus University",
+    "id": "76",
+    "name": "Vytautas Magnus University",
     "city": "Kaunas",
     "country": "Lithuania",
     "address": "K. Donelaičio g. 58, LT-44248 Kaunas",
@@ -1167,7 +1243,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "1. University of Latvia (Latvijas Universitāte)",
+    "id": "77",
+    "name": "University of Latvia (Latvijas Universitāte)",
     "city": "Riga",
     "country": "Latvia",
     "address": "Raiņa bulvāris 19, LV-1586 Riga",
@@ -1183,7 +1260,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "2. Riga Technical University (RTU)",
+    "id": "78",
+    "name": "Riga Technical University (RTU)",
     "city": "Riga",
     "country": "Latvia",
     "address": "Ķīpsalas iela 6A, LV-1048",
@@ -1199,7 +1277,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "3. Riga Stradiņš University (RSU)",
+    "id": "79",
+    "name": "Riga Stradiņš University (RSU)",
     "city": "Riga",
     "country": "Latvia",
     "address": "Dzirciema iela 16, LV-1007",
@@ -1215,7 +1294,8 @@
     "discount": "68.75%"
   },
   {
-    "name": "4. Latvia University of Life Sciences and Technologies",
+    "id": "80",
+    "name": "Latvia University of Life Sciences and Technologies",
     "city": "Jelgava",
     "country": "Latvia",
     "address": "Sv. Trīsvienības laukums 5, LV-3001",
@@ -1231,7 +1311,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "5. Daugavpils University",
+    "id": "81",
+    "name": "Daugavpils University",
     "city": "Daugavpils",
     "country": "Latvia",
     "address": "Vienības iela 13, LV-5401",
@@ -1247,7 +1328,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "6. Rēzekne Academy of Technologies",
+    "id": "82",
+    "name": "Rēzekne Academy of Technologies",
     "city": "Rēzekne",
     "country": "Latvia",
     "address": "Atbrīvošanas aleja 115, LV-4601",
@@ -1263,7 +1345,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "7. Vidzeme University of Applied Sciences",
+    "id": "83",
+    "name": "Vidzeme University of Applied Sciences",
     "city": "Valmiera",
     "country": "Latvia",
     "address": "Gaujas iela 33, LV-4101",
@@ -1279,7 +1362,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "8. Art Academy of Latvia",
+    "id": "84",
+    "name": "Art Academy of Latvia",
     "city": "Riga",
     "country": "Latvia",
     "address": "Kalpaka bulvāris 13, LV-1050",
@@ -1295,7 +1379,8 @@
     "discount": "57.14%"
   },
   {
-    "name": "9. Ventspils University of Applied Sciences",
+    "id": "85",
+    "name": "Ventspils University of Applied Sciences",
     "city": "Ventspils",
     "country": "Latvia",
     "address": "Inženieru iela 101, LV-3601",
@@ -1311,7 +1396,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "10. Latvian Academy of Culture",
+    "id": "86",
+    "name": "Latvian Academy of Culture",
     "city": "Riga",
     "country": "Latvia",
     "address": "Ludzas iela 24, LV-1003",
@@ -1327,7 +1413,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "11. Latvian Academy of Sport Education",
+    "id": "87",
+    "name": "Latvian Academy of Sport Education",
     "city": "Riga",
     "country": "",
     "about": "Founded 1921; national center for physical education and sports science",
@@ -1342,7 +1429,8 @@
     "discount": "18.18%"
   },
   {
-    "name": "12. Jāzeps Vītols Latvian Academy of Music",
+    "id": "88",
+    "name": "Jāzeps Vītols Latvian Academy of Music",
     "city": "Riga",
     "country": "",
     "about": "Founded 1919; public conservatoire for music education",
@@ -1357,7 +1445,8 @@
     "discount": "42.86%"
   },
   {
-    "name": "13. Liepāja University",
+    "id": "89",
+    "name": "Liepāja University",
     "city": "Liepāja",
     "country": "",
     "about": "Established 1954; regional public university",
@@ -1372,7 +1461,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "14. BA School of Business and Finance",
+    "id": "90",
+    "name": "BA School of Business and Finance",
     "city": "Riga",
     "country": "",
     "about": "Founded 1992; public business school",
@@ -1387,7 +1477,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "15. Baltic International Academy",
+    "id": "91",
+    "name": "Baltic International Academy",
     "city": "Riga",
     "country": "",
     "about": "Established 1992; one of Latvia's largest private universities",
@@ -1402,7 +1493,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "16. Transport and Telecommunication Institute",
+    "id": "92",
+    "name": "Transport and Telecommunication Institute",
     "city": "Riga",
     "country": "",
     "about": "Founded 1999; specializes in transport, logistics, telecom and IT",
@@ -1417,7 +1509,8 @@
     "discount": "28.00%"
   },
   {
-    "name": "17. Riga Teacher Training Academy",
+    "id": "93",
+    "name": "Riga Teacher Training Academy",
     "city": "Riga",
     "country": "",
     "about": "Special public teacher education institution",
@@ -1432,7 +1525,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "18. International Higher School of Practical Psychology",
+    "id": "94",
+    "name": "International Higher School of Practical Psychology",
     "city": "Riga",
     "country": "",
     "about": "Specialist psychology institution",
@@ -1447,7 +1541,8 @@
     "discount": "21.88%"
   },
   {
-    "name": "19. Riga Graduate School of Law",
+    "id": "95",
+    "name": "Riga Graduate School of Law",
     "city": "Riga",
     "country": "",
     "about": "Specialist public law school",
@@ -1462,7 +1557,8 @@
     "discount": "24.00%"
   },
   {
-    "name": "20. Stockholm School of Economics in Riga",
+    "id": "96",
+    "name": "Stockholm School of Economics in Riga",
     "city": "Riga",
     "country": "",
     "about": "Established 1994 as specialist business school",
@@ -1476,7 +1572,8 @@
     "discount": "29.41%"
   },
   {
-    "name": "1. University of Vienna",
+    "id": "97",
+    "name": "University of Vienna",
     "city": "Vienna",
     "country": "Austria",
     "address": "Universitätsring 1, 1010 Vienna",
@@ -1491,7 +1588,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "2. TU Wien (Vienna University of Technology)",
+    "id": "98",
+    "name": "TU Wien (Vienna University of Technology)",
     "city": "Vienna",
     "country": "Austria",
     "address": "Karlsplatz 13, 1040 Vienna",
@@ -1506,7 +1604,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "3. University of Innsbruck",
+    "id": "99",
+    "name": "University of Innsbruck",
     "city": "Innsbruck",
     "country": "Austria",
     "address": "Universitätsstraße 15, 6020 Innsbruck",
@@ -1521,7 +1620,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "4. University of Graz",
+    "id": "100",
+    "name": "University of Graz",
     "city": "Graz",
     "country": "Austria",
     "address": "Universitätsplatz 3, 8010 Graz",
@@ -1536,7 +1636,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "5. Graz University of Technology (TU Graz)",
+    "id": "101",
+    "name": "Graz University of Technology (TU Graz)",
     "city": "Graz",
     "country": "Austria",
     "address": "Kopernikusgasse 24-32, 8010 Graz",
@@ -1551,7 +1652,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "6. Johannes Kepler University Linz (JKU)",
+    "id": "102",
+    "name": "Johannes Kepler University Linz (JKU)",
     "city": "Linz",
     "country": "Austria",
     "address": "Altenberger Straße 69, 4040 Linz",
@@ -1566,7 +1668,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "7. Medical University of Vienna",
+    "id": "103",
+    "name": "Medical University of Vienna",
     "city": "Vienna",
     "country": "Austria",
     "address": "Spitalgasse 23, 1090 Vienna",
@@ -1581,7 +1684,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "8. University of Natural Resources and Life Sciences (BOKU)",
+    "id": "104",
+    "name": "University of Natural Resources and Life Sciences (BOKU)",
     "city": "Vienna",
     "country": "Austria",
     "address": "Peter-Jordan-Straße 82, 1190 Vienna",
@@ -1596,7 +1700,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "9. Vienna University of Economics and Business (WU)",
+    "id": "105",
+    "name": "Vienna University of Economics and Business (WU)",
     "city": "Vienna",
     "country": "Austria",
     "address": "Welthandelsplatz 1, 1020 Vienna",
@@ -1611,7 +1716,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "10. University of Salzburg (Paris Lodron)",
+    "id": "106",
+    "name": "University of Salzburg (Paris Lodron)",
     "city": "Salzburg",
     "country": "Austria",
     "address": "Kapitelgasse 4-6, 5020 Salzburg",
@@ -1627,7 +1733,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "11. University of Veterinary Medicine Vienna",
+    "id": "107",
+    "name": "University of Veterinary Medicine Vienna",
     "city": "Vienna",
     "country": "Austria; Veterinärplatz 1, 1210 Vienna",
     "about": "Founded in 1897, Austria's dedicated public university for veterinary and animal sciences",
@@ -1642,7 +1749,8 @@
     "discount": "51.60%"
   },
   {
-    "name": "12. Medical University of Graz",
+    "id": "108",
+    "name": "Medical University of Graz",
     "city": "Graz",
     "country": "Austria; Auenbruggerplatz 2, 8036 Graz",
     "about": "Independent since 2004; top-ranked public medical school",
@@ -1657,7 +1765,8 @@
     "discount": "69.75%"
   },
   {
-    "name": "13. Medical University of Innsbruck",
+    "id": "109",
+    "name": "Medical University of Innsbruck",
     "city": "Innsbruck",
     "country": "Austria; Müllerstraße 44, 6020 Innsbruck",
     "about": "Public medical university established in 2004",
@@ -1672,7 +1781,8 @@
     "discount": "94.81%"
   },
   {
-    "name": "14. University of Leoben (Montanuniversität)",
+    "id": "110",
+    "name": "University of Leoben (Montanuniversität)",
     "city": "Leoben",
     "country": "Austria; Franz-Josef-Straße 18, 8700 Leoben",
     "about": "Founded 1840 as mining/metallurgy institute",
@@ -1687,7 +1797,8 @@
     "discount": "75.80%"
   },
   {
-    "name": "15. Danube University Krems",
+    "id": "111",
+    "name": "Danube University Krems",
     "city": "Krems an der Donau",
     "country": "Austria",
     "about": "Public postgraduate university (founded 1994)",
@@ -1702,7 +1813,8 @@
     "discount": "30.00%"
   },
   {
-    "name": "16. University of Applied Arts Vienna",
+    "id": "112",
+    "name": "University of Applied Arts Vienna",
     "city": "Vienna",
     "country": "Austria; Schillerplatz 3, 1010 Vienna",
     "about": "Public art/design university (founded 1948)",
@@ -1717,7 +1829,8 @@
     "discount": "69.75%"
   },
   {
-    "name": "17. University of Music and Performing Arts Vienna (mdw)",
+    "id": "113",
+    "name": "University of Music and Performing Arts Vienna (mdw)",
     "city": "Vienna",
     "country": "Austria",
     "about": "Leading conservatoire (founded 1817)",
@@ -1732,7 +1845,8 @@
     "discount": "75.80%"
   },
   {
-    "name": "18. University Mozarteum Salzburg",
+    "id": "114",
+    "name": "University Mozarteum Salzburg",
     "city": "Salzburg",
     "country": "Austria",
     "about": "Music/dramatic arts university (1841)",
@@ -1747,7 +1861,8 @@
     "discount": "79.83%"
   },
   {
-    "name": "19. University of Art and Industrial Design Linz",
+    "id": "115",
+    "name": "University of Art and Industrial Design Linz",
     "city": "Linz",
     "country": "Austria",
     "about": "Public art/design university (1973)",
@@ -1762,7 +1877,8 @@
     "discount": "75.80%"
   },
   {
-    "name": "20. IST Austria (Institute of Science and Technology)",
+    "id": "116",
+    "name": "IST Austria (Institute of Science and Technology)",
     "city": "Klosterneuburg",
     "country": "Austria",
     "about": "Interdisciplinary research institute (2009)",
@@ -1777,7 +1893,8 @@
     "discount": "N/A"
   },
   {
-    "name": "1. Ludwig Maximilian University of Munich (LMU Munich)",
+    "id": "117",
+    "name": "Ludwig Maximilian University of Munich (LMU Munich)",
     "city": "Munich",
     "country": "Germany",
     "address": "Geschwister-Scholl-Platz 1, 80539 München",
@@ -1792,7 +1909,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Technical University of Munich (TUM)",
+    "id": "118",
+    "name": "Technical University of Munich (TUM)",
     "city": "Munich",
     "country": "Germany",
     "address": "Arcisstraße 21, 80333 München",
@@ -1807,7 +1925,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Heidelberg University",
+    "id": "119",
+    "name": "Heidelberg University",
     "city": "Heidelberg",
     "country": "Germany",
     "address": "Grabengasse 1, 69117 Heidelberg",
@@ -1822,7 +1941,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Humboldt University of Berlin",
+    "id": "120",
+    "name": "Humboldt University of Berlin",
     "city": "Berlin",
     "country": "Germany",
     "address": "Unter den Linden 6, 10099 Berlin",
@@ -1837,7 +1957,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Free University of Berlin (FU Berlin)",
+    "id": "121",
+    "name": "Free University of Berlin (FU Berlin)",
     "city": "Berlin",
     "country": "Germany",
     "address": "Kaiserswerther Str. 16-18, 14195 Berlin",
@@ -1852,7 +1973,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. RWTH Aachen University",
+    "id": "122",
+    "name": "RWTH Aachen University",
     "city": "Aachen",
     "country": "Germany",
     "address": "Templergraben 55, 52062 Aachen",
@@ -1867,7 +1989,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. University of Freiburg",
+    "id": "123",
+    "name": "University of Freiburg",
     "city": "Freiburg",
     "country": "Germany",
     "address": "Fahnenbergplatz, 79085 Freiburg",
@@ -1882,7 +2005,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. University of Göttingen",
+    "id": "124",
+    "name": "University of Göttingen",
     "city": "Göttingen",
     "country": "Germany",
     "address": "Wilhelmsplatz 1, 37073 Göttingen",
@@ -1897,7 +2021,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University of Tübingen",
+    "id": "125",
+    "name": "University of Tübingen",
     "city": "Tübingen",
     "country": "Germany",
     "address": "Geschwister-Scholl-Platz, 72074 Tübingen",
@@ -1912,7 +2037,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. University of Bonn",
+    "id": "126",
+    "name": "University of Bonn",
     "city": "Bonn",
     "country": "Germany",
     "address": "Regina-Pacis-Weg 3, 53113 Bonn",
@@ -1927,7 +2053,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. University of Mannheim",
+    "id": "127",
+    "name": "University of Mannheim",
     "city": "Mannheim",
     "country": "Germany",
     "address": "Schloss, 68161 Mannheim",
@@ -1943,7 +2070,8 @@
     "discount": "88.67%"
   },
   {
-    "name": "12. University of Leipzig",
+    "id": "128",
+    "name": "University of Leipzig",
     "city": "Leipzig",
     "country": "Germany",
     "address": "Ritterstraße 26, 04109 Leipzig",
@@ -1959,7 +2087,8 @@
     "discount": "90.00%"
   },
   {
-    "name": "13. University of Stuttgart",
+    "id": "129",
+    "name": "University of Stuttgart",
     "city": "Stuttgart",
     "country": "Germany",
     "address": "Keplerstraße 7, 70174 Stuttgart",
@@ -1975,7 +2104,8 @@
     "discount": "94.33%"
   },
   {
-    "name": "14. FAU Erlangen-Nuremberg",
+    "id": "130",
+    "name": "FAU Erlangen-Nuremberg",
     "city": "Erlangen/Nuremberg",
     "country": "Germany",
     "address": "Schlossplatz 4, 91054 Erlangen",
@@ -1991,7 +2121,8 @@
     "discount": "94.00%"
   },
   {
-    "name": "15. Goethe University Frankfurt",
+    "id": "131",
+    "name": "Goethe University Frankfurt",
     "city": "Frankfurt",
     "country": "Germany",
     "address": "Theodor-W.-Adorno-Platz 1, 60323",
@@ -2007,7 +2138,8 @@
     "discount": "94.33%"
   },
   {
-    "name": "16. University of Kiel (CAU)",
+    "id": "132",
+    "name": "University of Kiel (CAU)",
     "city": "Kiel",
     "country": "Germany",
     "address": "Christian-Albrechts-Platz 4, 24118 Kiel",
@@ -2023,7 +2155,8 @@
     "discount": "92.50%"
   },
   {
-    "name": "17. University of Bremen",
+    "id": "133",
+    "name": "University of Bremen",
     "city": "Bremen",
     "country": "Germany",
     "address": "Bibliothekstraße 1, 28359 Bremen",
@@ -2039,7 +2172,8 @@
     "discount": "88.67%"
   },
   {
-    "name": "18. University of Hamburg",
+    "id": "134",
+    "name": "University of Hamburg",
     "city": "Hamburg",
     "country": "Germany",
     "address": "Mittelweg 177, 20148 Hamburg",
@@ -2055,7 +2189,8 @@
     "discount": "91.50%"
   },
   {
-    "name": "19. Friedrich Schiller University Jena",
+    "id": "135",
+    "name": "Friedrich Schiller University Jena",
     "city": "Jena",
     "country": "Germany",
     "address": "Fürstengraben 1, 07743 Jena",
@@ -2071,7 +2206,8 @@
     "discount": "94.00%"
   },
   {
-    "name": "20. University of Potsdam",
+    "id": "136",
+    "name": "University of Potsdam",
     "city": "Potsdam",
     "country": "Germany",
     "address": "Am Neuen Palais 10, 14469 Potsdam",
@@ -2087,7 +2223,8 @@
     "discount": "91.50%"
   },
   {
-    "name": "1. University of Amsterdam (UvA)",
+    "id": "137",
+    "name": "University of Amsterdam (UvA)",
     "city": "Amsterdam",
     "country": "Netherlands",
     "address": "Spui 21, 1012 WX Amsterdam",
@@ -2102,7 +2239,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Delft University of Technology (TU Delft)",
+    "id": "138",
+    "name": "Delft University of Technology (TU Delft)",
     "city": "Delft",
     "country": "Netherlands",
     "address": "Mekelweg 5, 2628 CD Delft",
@@ -2117,7 +2255,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Eindhoven University of Technology (TU/e)",
+    "id": "139",
+    "name": "Eindhoven University of Technology (TU/e)",
     "city": "Eindhoven",
     "country": "Netherlands",
     "address": "Groene Loper 5, 5612 AE Eindhoven",
@@ -2132,7 +2271,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Leiden University",
+    "id": "140",
+    "name": "Leiden University",
     "city": "Leiden",
     "country": "Netherlands",
     "address": "Rapenburg 70, 2311 EZ Leiden",
@@ -2147,7 +2287,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Utrecht University",
+    "id": "141",
+    "name": "Utrecht University",
     "city": "Utrecht",
     "country": "Netherlands",
     "address": "Heidelberglaan 8, 3584 CS Utrecht",
@@ -2162,7 +2303,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. University of Groningen (RUG)",
+    "id": "142",
+    "name": "University of Groningen (RUG)",
     "city": "Groningen",
     "country": "Netherlands",
     "address": "Broerstraat 5, 9712 CP Groningen",
@@ -2177,7 +2319,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. Radboud University",
+    "id": "143",
+    "name": "Radboud University",
     "city": "Nijmegen",
     "country": "Netherlands",
     "address": "Comeniuslaan 4, 6525 HP Nijmegen",
@@ -2192,7 +2335,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. Maastricht University",
+    "id": "144",
+    "name": "Maastricht University",
     "city": "Maastricht",
     "country": "Netherlands",
     "address": "Minderbroedersberg 4-6, 6211 LK Maastricht",
@@ -2207,7 +2351,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. Tilburg University",
+    "id": "145",
+    "name": "Tilburg University",
     "city": "Tilburg",
     "country": "Netherlands",
     "address": "Warandelaan 2, 5037 AB Tilburg",
@@ -2222,7 +2367,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. University of Twente",
+    "id": "146",
+    "name": "University of Twente",
     "city": "Enschede",
     "country": "Netherlands",
     "address": "Drienerlolaan 5, 7522 NB Enschede",
@@ -2237,7 +2383,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Wageningen University & Research (WUR)",
+    "id": "147",
+    "name": "Wageningen University & Research (WUR)",
     "city": "Wageningen",
     "country": "Netherlands",
     "address": "Droevendaalsesteeg 4, 6708 PB",
@@ -2253,7 +2400,8 @@
     "discount": "88.19%"
   },
   {
-    "name": "12. Open University of the Netherlands",
+    "id": "148",
+    "name": "Open University of the Netherlands",
     "city": "Heerlen",
     "country": "Netherlands",
     "address": "Valkenburgerweg 177, 6419 AT",
@@ -2269,7 +2417,8 @@
     "discount": "56.25%"
   },
   {
-    "name": "13. Theological University of Kampen",
+    "id": "149",
+    "name": "Theological University of Kampen",
     "city": "Kampen",
     "country": "Netherlands",
     "address": "Broederweg 15, 8261 GS",
@@ -2285,7 +2434,8 @@
     "discount": "48.89%"
   },
   {
-    "name": "14. Protestant Theological University (PThU)",
+    "id": "150",
+    "name": "Protestant Theological University (PThU)",
     "city": "Groningen/Amsterdam",
     "country": "Netherlands",
     "address": "Oude Ebbingestraat 25, 9712 HA",
@@ -2301,7 +2451,8 @@
     "discount": "52.00%"
   },
   {
-    "name": "15. Amsterdam University of the Arts (AHK)",
+    "id": "151",
+    "name": "Amsterdam University of the Arts (AHK)",
     "city": "Amsterdam",
     "country": "Netherlands",
     "address": "Jodenbreestraat 3, 1011 NG",
@@ -2317,7 +2468,8 @@
     "discount": "71.76%"
   },
   {
-    "name": "16. Royal Academy of Art, The Hague (KABK)",
+    "id": "152",
+    "name": "Royal Academy of Art, The Hague (KABK)",
     "city": "The Hague",
     "country": "Netherlands",
     "address": "Prinsessegracht 4, 2514 AN",
@@ -2333,7 +2485,8 @@
     "discount": "73.33%"
   },
   {
-    "name": "17. Codarts University for the Arts",
+    "id": "153",
+    "name": "Codarts University for the Arts",
     "city": "Rotterdam",
     "country": "Netherlands",
     "address": "Kruisplein 26, 3012 CC",
@@ -2349,7 +2502,8 @@
     "discount": "71.26%"
   },
   {
-    "name": "18. ArtEZ University of the Arts",
+    "id": "154",
+    "name": "ArtEZ University of the Arts",
     "city": "Arnhem/Zwolle/Enschede",
     "country": "Netherlands",
     "address": "Onderlangs 9, 6812 CE",
@@ -2365,7 +2519,8 @@
     "discount": "73.91%"
   },
   {
-    "name": "19. HKU University of the Arts Utrecht",
+    "id": "155",
+    "name": "HKU University of the Arts Utrecht",
     "city": "Utrecht",
     "country": "Netherlands",
     "address": "Oudenoord 700, 3513 EX",
@@ -2381,7 +2536,8 @@
     "discount": "73.03%"
   },
   {
-    "name": "20. Zuyd University of Applied Sciences",
+    "id": "156",
+    "name": "Zuyd University of Applied Sciences",
     "city": "Maastricht/Heerlen/Sittard",
     "country": "Netherlands",
     "address": "Nieuw Eyckholt 300, 6419 DJ",
@@ -2397,7 +2553,8 @@
     "discount": "72.94%"
   },
   {
-    "name": "1. KU Leuven",
+    "id": "157",
+    "name": "KU Leuven",
     "city": "Leuven",
     "country": "Belgium",
     "address": "Oude Markt 13, 3000 Leuven",
@@ -2412,7 +2569,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. UCLouvain",
+    "id": "158",
+    "name": "UCLouvain",
     "city": "Louvain-la-Neuve",
     "country": "Belgium",
     "address": "Place de l'Université 1, 1348 Ottignies-Louvain-la-Neuve",
@@ -2427,7 +2585,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Ghent University",
+    "id": "159",
+    "name": "Ghent University",
     "city": "Ghent",
     "country": "Belgium",
     "address": "Sint-Pietersnieuwstraat 33, 9000 Gent",
@@ -2442,7 +2601,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. ULB",
+    "id": "160",
+    "name": "ULB",
     "city": "Brussels",
     "country": "Belgium",
     "address": "Avenue Franklin Roosevelt 50, 1050 Bruxelles",
@@ -2457,7 +2617,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. VUB",
+    "id": "161",
+    "name": "VUB",
     "city": "Brussels",
     "country": "Belgium",
     "address": "Pleinlaan 2, 1050 Brussel",
@@ -2472,7 +2633,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. University of Antwerp",
+    "id": "162",
+    "name": "University of Antwerp",
     "city": "Antwerp",
     "country": "Belgium",
     "address": "Prinsstraat 13, 2000 Antwerpen",
@@ -2487,7 +2649,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. Hasselt University",
+    "id": "163",
+    "name": "Hasselt University",
     "city": "Hasselt",
     "country": "Belgium",
     "address": "Martelarenlaan 42, 3500 Hasselt",
@@ -2502,7 +2665,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. University of Mons",
+    "id": "164",
+    "name": "University of Mons",
     "city": "Mons",
     "country": "Belgium",
     "address": "Place du Parc 20, 7000 Mons",
@@ -2517,7 +2681,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University of Namur",
+    "id": "165",
+    "name": "University of Namur",
     "city": "Namur",
     "country": "Belgium",
     "address": "Rue de Bruxelles 61, 5000 Namur",
@@ -2532,7 +2697,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. ULiège",
+    "id": "166",
+    "name": "ULiège",
     "city": "Liège",
     "country": "Belgium",
     "address": "Place du 20-Août 7, 4000 Liège",
@@ -2547,7 +2713,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Université Saint-Louis – Bruxelles (USL-B)",
+    "id": "167",
+    "name": "Université Saint-Louis – Bruxelles (USL-B)",
     "city": "Brussels",
     "country": "Belgium",
     "address": "Boulevard du Jardin Botanique 43, 1000",
@@ -2563,7 +2730,8 @@
     "discount": "80.00%"
   },
   {
-    "name": "12. LUCA School of Arts",
+    "id": "168",
+    "name": "LUCA School of Arts",
     "city": "Brussels/Leuven/Ghent/Genk",
     "country": "Belgium",
     "address": "Paleizenstraat 70, 1030 Brussels",
@@ -2579,7 +2747,8 @@
     "discount": "81.80%"
   },
   {
-    "name": "13. AP University of Applied Sciences Antwerp",
+    "id": "169",
+    "name": "AP University of Applied Sciences Antwerp",
     "city": "Antwerp",
     "country": "Belgium",
     "address": "Lange Nieuwstraat 101, 2000",
@@ -2595,7 +2764,8 @@
     "discount": "81.03%"
   },
   {
-    "name": "14. University College Ghent (HOGENT)",
+    "id": "170",
+    "name": "University College Ghent (HOGENT)",
     "city": "Ghent",
     "country": "Belgium",
     "address": "Valentin Vaerwyckweg 1, 9000",
@@ -2611,7 +2781,8 @@
     "discount": "80.91%"
   },
   {
-    "name": "15. Howest University",
+    "id": "171",
+    "name": "Howest University",
     "city": "Bruges/Kortrijk",
     "country": "Belgium",
     "address": "Marksesteenweg 58, 8500",
@@ -2627,7 +2798,8 @@
     "discount": "80.65%"
   },
   {
-    "name": "16. PXL University Hasselt",
+    "id": "172",
+    "name": "PXL University Hasselt",
     "city": "Hasselt",
     "country": "Belgium",
     "address": "Elfde-Liniestraat 24, 3500",
@@ -2643,7 +2815,8 @@
     "discount": "81.36%"
   },
   {
-    "name": "17. Thomas More University",
+    "id": "173",
+    "name": "Thomas More University",
     "city": "Mechelen/Turnhout/Geel",
     "country": "Belgium",
     "address": "Zandpoortvest 60, 2800",
@@ -2659,7 +2832,8 @@
     "discount": "81.58%"
   },
   {
-    "name": "18. Karel de Grote University",
+    "id": "174",
+    "name": "Karel de Grote University",
     "city": "Antwerp",
     "country": "Belgium",
     "address": "Nationalestraat 5, 2000",
@@ -2675,7 +2849,8 @@
     "discount": "81.82%"
   },
   {
-    "name": "19. Artevelde University",
+    "id": "175",
+    "name": "Artevelde University",
     "city": "Ghent",
     "country": "Belgium",
     "address": "Hoogpoort 15, 9000",
@@ -2691,7 +2866,8 @@
     "discount": "81.54%"
   },
   {
-    "name": "20. Erasmushogeschool Brussel",
+    "id": "176",
+    "name": "Erasmushogeschool Brussel",
     "city": "Brussels",
     "country": "Belgium",
     "address": "Nijverheidskaai 170, 1070",
@@ -2707,7 +2883,8 @@
     "discount": "81.73%"
   },
   {
-    "name": "1. Charles University",
+    "id": "177",
+    "name": "Charles University",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "Ovocný trh 560/5, 116 36 Staré Město",
@@ -2722,7 +2899,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Czech Technical University in Prague (CTU)",
+    "id": "178",
+    "name": "Czech Technical University in Prague (CTU)",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "Jugoslávských partyzánů 1580/3, 160 00 Praha 6",
@@ -2737,7 +2915,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Masaryk University",
+    "id": "179",
+    "name": "Masaryk University",
     "city": "Brno",
     "country": "Czech Republic",
     "address": "Žerotínovo nám. 617/9, 601 77 Brno",
@@ -2752,7 +2931,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Brno University of Technology (BUT)",
+    "id": "180",
+    "name": "Brno University of Technology (BUT)",
     "city": "Brno",
     "country": "Czech Republic",
     "address": "Antonínská 548/1, 601 90 Brno",
@@ -2767,7 +2947,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Palacký University Olomouc",
+    "id": "181",
+    "name": "Palacký University Olomouc",
     "city": "Olomouc",
     "country": "Czech Republic",
     "address": "Křížkovského 511/8, 771 47 Olomouc",
@@ -2782,7 +2963,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. University of Chemistry and Technology, Prague (UCT Prague)",
+    "id": "182",
+    "name": "University of Chemistry and Technology, Prague (UCT Prague)",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "Technická 5, 166 28 Praha 6",
@@ -2797,7 +2979,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. University of Economics, Prague (VŠE)",
+    "id": "183",
+    "name": "University of Economics, Prague (VŠE)",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "nám. W. Churchilla 1938/4, 130 67 Praha 3",
@@ -2812,7 +2995,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. Technical University of Liberec",
+    "id": "184",
+    "name": "Technical University of Liberec",
     "city": "Liberec",
     "country": "Czech Republic",
     "address": "Studentská 1402/2, 461 17 Liberec",
@@ -2827,7 +3011,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University of Pardubice",
+    "id": "185",
+    "name": "University of Pardubice",
     "city": "Pardubice",
     "country": "Czech Republic",
     "address": "Studentská 95, 532 10 Pardubice",
@@ -2842,7 +3027,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. University of Ostrava",
+    "id": "186",
+    "name": "University of Ostrava",
     "city": "Ostrava",
     "country": "Czech Republic",
     "address": "Dvořákova 7, 701 03 Ostrava",
@@ -2857,7 +3043,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Mendel University in Brno (MENDELU)",
+    "id": "187",
+    "name": "Mendel University in Brno (MENDELU)",
     "city": "Brno",
     "country": "Czech Republic",
     "address": "Zemědělská 1, 613 00",
@@ -2873,7 +3060,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "12. University of South Bohemia",
+    "id": "188",
+    "name": "University of South Bohemia",
     "city": "České Budějovice",
     "country": "Czech Republic",
     "address": "Branišovská 1645/31a, 370 05",
@@ -2889,7 +3077,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "13. Silesian University in Opava",
+    "id": "189",
+    "name": "Silesian University in Opava",
     "city": "Opava",
     "country": "Czech Republic",
     "address": "Na Rybníčku 626/1, 746 01",
@@ -2905,7 +3094,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "14. Jan Evangelista Purkyně University",
+    "id": "190",
+    "name": "Jan Evangelista Purkyně University",
     "city": "Ústí nad Labem",
     "country": "Czech Republic",
     "address": "Pasteurova 3544/1, 400 96",
@@ -2921,7 +3111,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "15. University of Hradec Králové",
+    "id": "191",
+    "name": "University of Hradec Králové",
     "city": "Hradec Králové",
     "country": "Czech Republic",
     "address": "Rokitanského 62, 500 03",
@@ -2937,7 +3128,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "16. Tomas Bata University",
+    "id": "192",
+    "name": "Tomas Bata University",
     "city": "Zlín",
     "country": "Czech Republic",
     "address": "nám. T. G. Masaryka 5555, 760 01",
@@ -2953,7 +3145,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "17. Academy of Performing Arts (AMU)",
+    "id": "193",
+    "name": "Academy of Performing Arts (AMU)",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "Malostranské náměstí 12, 118 00",
@@ -2969,7 +3162,8 @@
     "discount": "95.00%"
   },
   {
-    "name": "18. Academy of Fine Arts (AVU)",
+    "id": "194",
+    "name": "Academy of Fine Arts (AVU)",
     "city": "Prague",
     "country": "Czech Republic",
     "address": "U Akademie 172/4, 170 22",
@@ -2985,7 +3179,8 @@
     "discount": "94.00%"
   },
   {
-    "name": "19. Janáček Academy (JAMU)",
+    "id": "195",
+    "name": "Janáček Academy (JAMU)",
     "city": "Brno",
     "country": "Czech Republic",
     "address": "Beethovenova 650/2, 662 15",
@@ -3001,7 +3196,8 @@
     "discount": "93.33%"
   },
   {
-    "name": "1. Comenius University in Bratislava",
+    "id": "196",
+    "name": "Comenius University in Bratislava",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Šafárikovo námestie 6, 814 99 Bratislava",
@@ -3016,7 +3212,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Slovak University of Technology in Bratislava (STU)",
+    "id": "197",
+    "name": "Slovak University of Technology in Bratislava (STU)",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Vazovova 5, 812 43 Bratislava",
@@ -3031,7 +3228,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Pavol Jozef Šafárik University in Košice",
+    "id": "198",
+    "name": "Pavol Jozef Šafárik University in Košice",
     "city": "Košice",
     "country": "Slovakia",
     "address": "Šrobárova 2, 041 80 Košice",
@@ -3046,7 +3244,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Technical University of Košice (TUKE)",
+    "id": "199",
+    "name": "Technical University of Košice (TUKE)",
     "city": "Košice",
     "country": "Slovakia",
     "address": "Letná 9, 042 00 Košice",
@@ -3061,7 +3260,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. University of Žilina (UNIZA)",
+    "id": "200",
+    "name": "University of Žilina (UNIZA)",
     "city": "Žilina",
     "country": "Slovakia",
     "address": "Univerzitná 1, 010 26 Žilina",
@@ -3076,7 +3276,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. Slovak University of Agriculture in Nitra",
+    "id": "201",
+    "name": "Slovak University of Agriculture in Nitra",
     "city": "Nitra",
     "country": "Slovakia",
     "address": "Trieda Andreja Hlinku 2, 949 76 Nitra",
@@ -3091,7 +3292,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. Matej Bel University in Banská Bystrica",
+    "id": "202",
+    "name": "Matej Bel University in Banská Bystrica",
     "city": "Banská Bystrica",
     "country": "Slovakia",
     "address": "Tajovského 10, 975 90 Banská Bystrica",
@@ -3106,10 +3308,11 @@
     "discount": "N/A"
   },
   {
-    "name": "8. University of Prešov",
+    "id": "203",
+    "name": "University of Prešov",
     "city": "Prešov",
     "country": "Slovakia",
-    "address": "Ul. 17. novembra 15, 080 01 Prešov",
+    "address": "Ul. novembra 15, 080 01 Prešov",
     "about": "Regional university (~7,000 students)",
     "departments": "5 faculties including Health Care, Theology",
     "intake": "September",
@@ -3121,7 +3324,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. Academy of Performing Arts in Bratislava (VŠMU)",
+    "id": "204",
+    "name": "Academy of Performing Arts in Bratislava (VŠMU)",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Ventúrska 3, 813 01 Bratislava",
@@ -3136,7 +3340,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. Academy of Fine Arts and Design in Bratislava",
+    "id": "205",
+    "name": "Academy of Fine Arts and Design in Bratislava",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Drotárska cesta 44, 811 02 Bratislava",
@@ -3151,7 +3356,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Catholic University in Ružomberok",
+    "id": "206",
+    "name": "Catholic University in Ružomberok",
     "city": "Ružomberok",
     "country": "Slovakia",
     "address": "Hrabovská cesta 1A, 034 01",
@@ -3167,7 +3373,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "12. Alexander Dubček University of Trenčín",
+    "id": "207",
+    "name": "Alexander Dubček University of Trenčín",
     "city": "Trenčín",
     "country": "Slovakia",
     "address": "Študentská 2, 911 50",
@@ -3183,7 +3390,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "13. University of Veterinary Medicine Košice",
+    "id": "208",
+    "name": "University of Veterinary Medicine Košice",
     "city": "Košice",
     "country": "Slovakia",
     "address": "Komenského 73, 041 81",
@@ -3199,7 +3407,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "14. Ján Albrecht Music Academy",
+    "id": "209",
+    "name": "Ján Albrecht Music Academy",
     "city": "Banská Štiavnica",
     "country": "Slovakia",
     "address": "Botanická 2, 969 01",
@@ -3215,7 +3424,8 @@
     "discount": "90.00%"
   },
   {
-    "name": "15. Dubnica Institute of Technology",
+    "id": "210",
+    "name": "Dubnica Institute of Technology",
     "city": "Dubnica nad Váhom",
     "country": "Slovakia",
     "address": "Sládkovičova 533/20, 018 41",
@@ -3231,7 +3441,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "16. St. Elizabeth Health University",
+    "id": "211",
+    "name": "St. Elizabeth Health University",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Palackého 1, 810 00",
@@ -3247,7 +3458,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "17. Pan-European University",
+    "id": "212",
+    "name": "Pan-European University",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Tomášikova 20, 821 02",
@@ -3263,7 +3475,8 @@
     "discount": "62.50%"
   },
   {
-    "name": "18. College of Int'l Relations",
+    "id": "213",
+    "name": "College of Int'l Relations",
     "city": "Bratislava",
     "country": "Slovakia",
     "address": "Ružová dolina 29, 821 08",
@@ -3279,7 +3492,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "19. CEASAR Academy",
+    "id": "214",
+    "name": "CEASAR Academy",
     "city": "Banská Bystrica",
     "country": "Slovakia",
     "address": "Partizánska cesta 4, 974 01",
@@ -3295,7 +3509,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "20. Academy of Arts Banská Bystrica",
+    "id": "215",
+    "name": "Academy of Arts Banská Bystrica",
     "city": "Banská Bystrica",
     "country": "Slovakia",
     "address": "Jána Kollára 22, 974 01",
@@ -3311,7 +3526,8 @@
     "discount": "87.50%"
   },
   {
-    "name": "1. Eötvös Loránd University (ELTE)",
+    "id": "216",
+    "name": "Eötvös Loránd University (ELTE)",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Egyetem tér 1-3, 1053 Budapest",
@@ -3326,7 +3542,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Budapest University of Technology and Economics (BME)",
+    "id": "217",
+    "name": "Budapest University of Technology and Economics (BME)",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Műegyetem rkp. 3, 1111 Budapest",
@@ -3341,7 +3558,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Semmelweis University",
+    "id": "218",
+    "name": "Semmelweis University",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Üllői út 26, 1085 Budapest",
@@ -3356,7 +3574,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. University of Szeged",
+    "id": "219",
+    "name": "University of Szeged",
     "city": "Szeged",
     "country": "Hungary",
     "address": "Dugonics tér 13, 6720 Szeged",
@@ -3371,7 +3590,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. University of Debrecen",
+    "id": "220",
+    "name": "University of Debrecen",
     "city": "Debrecen",
     "country": "Hungary",
     "address": "Egyetem tér 1, 4032 Debrecen",
@@ -3386,7 +3606,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. Corvinus University of Budapest",
+    "id": "221",
+    "name": "Corvinus University of Budapest",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Fővám tér 8, 1093 Budapest",
@@ -3401,7 +3622,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. University of Pécs",
+    "id": "222",
+    "name": "University of Pécs",
     "city": "Pécs",
     "country": "Hungary",
     "address": "Vasvári Pál utca 4, 7622 Pécs",
@@ -3416,7 +3638,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. Óbuda University",
+    "id": "223",
+    "name": "Óbuda University",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Bécsi út 96/b, 1034 Budapest",
@@ -3431,7 +3654,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University of Miskolc",
+    "id": "224",
+    "name": "University of Miskolc",
     "city": "Miskolc",
     "country": "Hungary",
     "address": "Egyetemváros, 3515 Miskolc",
@@ -3446,7 +3670,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. Hungarian University of Agriculture and Life Sciences (MATE)",
+    "id": "225",
+    "name": "Hungarian University of Agriculture and Life Sciences (MATE)",
     "city": "Gödöllő",
     "country": "Hungary",
     "address": "Páter Károly u. 1, 2100 Gödöllő",
@@ -3461,7 +3686,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Hungarian University of Fine Arts",
+    "id": "226",
+    "name": "Hungarian University of Fine Arts",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Andrássy út 69-71, 1062",
@@ -3477,7 +3703,8 @@
     "discount": "70.00%"
   },
   {
-    "name": "12. Liszt Ferenc Academy of Music",
+    "id": "227",
+    "name": "Liszt Ferenc Academy of Music",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Liszt Ferenc tér 8, 1061",
@@ -3493,7 +3720,8 @@
     "discount": "71.43%"
   },
   {
-    "name": "13. University of Theatre and Film Arts",
+    "id": "228",
+    "name": "University of Theatre and Film Arts",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Vas u. 2/c, 1088",
@@ -3509,7 +3737,8 @@
     "discount": "68.75%"
   },
   {
-    "name": "14. University of Dunaújváros",
+    "id": "229",
+    "name": "University of Dunaújváros",
     "city": "Dunaújváros",
     "country": "Hungary",
     "address": "Táncsics Mihály u. 1/A, 2400",
@@ -3525,7 +3754,8 @@
     "discount": "71.43%"
   },
   {
-    "name": "15. Károli Gáspár University",
+    "id": "230",
+    "name": "Károli Gáspár University",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Kálvin tér 9, 1091",
@@ -3541,7 +3771,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "16. Eszterházy Károly University",
+    "id": "231",
+    "name": "Eszterházy Károly University",
     "city": "Eger",
     "country": "Hungary",
     "address": "Eszterházy tér 1, 3300",
@@ -3557,7 +3788,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "17. Hungarian Dance University",
+    "id": "232",
+    "name": "Hungarian Dance University",
     "city": "Budapest",
     "country": "Hungary",
     "address": "Columbus u. 87-89, 1145",
@@ -3573,7 +3805,8 @@
     "discount": "66.67%"
   },
   {
-    "name": "18. University of Nyíregyháza",
+    "id": "233",
+    "name": "University of Nyíregyháza",
     "city": "Nyíregyháza",
     "country": "Hungary",
     "address": "Sóstói út 31/b, 4400",
@@ -3589,7 +3822,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "19. University of Sopron",
+    "id": "234",
+    "name": "University of Sopron",
     "city": "Sopron",
     "country": "Hungary",
     "address": "Bajcsy-Zsilinszky u. 4, 9400",
@@ -3605,7 +3839,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "20. János Neumann University",
+    "id": "235",
+    "name": "János Neumann University",
     "city": "Kecskemét",
     "country": "Hungary",
     "address": "Izsáki út 10, 6000",
@@ -3621,7 +3856,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "1. University of Tartu",
+    "id": "236",
+    "name": "University of Tartu",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Ülikooli 18, 50090 Tartu",
@@ -3636,7 +3872,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Tallinn University",
+    "id": "237",
+    "name": "Tallinn University",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Narva mnt 25, 10120 Tallinn",
@@ -3651,7 +3888,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Tallinn University of Technology (TalTech)",
+    "id": "238",
+    "name": "Tallinn University of Technology (TalTech)",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Ehitajate tee 5, 19086 Tallinn",
@@ -3666,7 +3904,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Estonian Academy of Arts (EKA)",
+    "id": "239",
+    "name": "Estonian Academy of Arts (EKA)",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Põhja puiestee 7, 10412 Tallinn",
@@ -3681,7 +3920,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Estonian Academy of Music and Theatre (EAMT)",
+    "id": "240",
+    "name": "Estonian Academy of Music and Theatre (EAMT)",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Tatari 13, 10116 Tallinn",
@@ -3696,7 +3936,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. Estonian University of Life Sciences (EMU)",
+    "id": "241",
+    "name": "Estonian University of Life Sciences (EMU)",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Kreutzwaldi 1, 51006 Tartu",
@@ -3711,7 +3952,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. Estonian Business School (EBS)",
+    "id": "242",
+    "name": "Estonian Business School (EBS)",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "A. Lauteri 3, 10114 Tallinn",
@@ -3726,7 +3968,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. Tartu Health Care College",
+    "id": "243",
+    "name": "Tartu Health Care College",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Nooruse 5, 50411 Tartu",
@@ -3741,7 +3984,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. Tallinn Health Care College",
+    "id": "244",
+    "name": "Tallinn Health Care College",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Kännu 67, 13418 Tallinn",
@@ -3756,7 +4000,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. Estonian National Defence College",
+    "id": "245",
+    "name": "Estonian National Defence College",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Riia 12, 51010",
@@ -3772,7 +4017,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. Pallas University of Applied Sciences",
+    "id": "246",
+    "name": "Pallas University of Applied Sciences",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Tähe 38b, 50107",
@@ -3788,7 +4034,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "12. Estonian Aviation Academy",
+    "id": "247",
+    "name": "Estonian Aviation Academy",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Lennu 40, 61702",
@@ -3804,7 +4051,8 @@
     "discount": "66.67%"
   },
   {
-    "name": "13. Estonian Maritime Academy",
+    "id": "248",
+    "name": "Estonian Maritime Academy",
     "city": "Tallinn",
     "country": "Estonia",
     "address": "Kopli 101, 11712",
@@ -3820,7 +4068,8 @@
     "discount": "60.42%"
   },
   {
-    "name": "14. Tartu Art School",
+    "id": "249",
+    "name": "Tartu Art School",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Eha 41, 50107",
@@ -3836,7 +4085,8 @@
     "discount": "57.14%"
   },
   {
-    "name": "15. Võru County Vocational Centre",
+    "id": "250",
+    "name": "Võru County Vocational Centre",
     "city": "Võru",
     "country": "Estonia",
     "address": "Kooli tee 1, 65542",
@@ -3852,7 +4102,8 @@
     "discount": "N/A"
   },
   {
-    "name": "16. Tartu Vocational Education Centre",
+    "id": "251",
+    "name": "Tartu Vocational Education Centre",
     "city": "Tartu",
     "country": "Estonia",
     "address": "Kopli 1, 50115",
@@ -3868,7 +4119,8 @@
     "discount": "N/A"
   },
   {
-    "name": "17. Kuressaare Regional Training Centre",
+    "id": "252",
+    "name": "Kuressaare Regional Training Centre",
     "city": "Saaremaa",
     "country": "Estonia",
     "address": "Kohtu 22, 93812",
@@ -3884,7 +4136,8 @@
     "discount": "N/A"
   },
   {
-    "name": "18. Narva College (University of Tartu)",
+    "id": "253",
+    "name": "Narva College (University of Tartu)",
     "city": "Narva",
     "country": "Estonia",
     "address": "Raekoja plats 2, 20307",
@@ -3900,7 +4153,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "19. Haapsalu VET Centre",
+    "id": "254",
+    "name": "Haapsalu VET Centre",
     "city": "Haapsalu",
     "country": "Estonia",
     "address": "Ehitajate tee 3, 90502",
@@ -3916,7 +4170,8 @@
     "discount": "N/A"
   },
   {
-    "name": "20. Rakvere Vocational School",
+    "id": "255",
+    "name": "Rakvere Vocational School",
     "city": "Rakvere",
     "country": "Estonia",
     "address": "Piiri 8, 44316",
@@ -3932,7 +4187,8 @@
     "discount": "N/A"
   },
   {
-    "name": "1. University of Helsinki",
+    "id": "256",
+    "name": "University of Helsinki",
     "city": "Helsinki",
     "country": "Finland",
     "address": "Yliopistonkatu 4, 00100 Helsinki",
@@ -3948,7 +4204,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "2. Aalto University",
+    "id": "257",
+    "name": "Aalto University",
     "city": "Espoo",
     "country": "Finland",
     "address": "Otakaari 1, 02150 Espoo",
@@ -3964,7 +4221,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "3. University of Turku",
+    "id": "258",
+    "name": "University of Turku",
     "city": "Turku",
     "country": "Finland",
     "address": "Yliopistonmäki, 20014 Turun yliopisto",
@@ -3980,7 +4238,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "4. Tampere University",
+    "id": "259",
+    "name": "Tampere University",
     "city": "Tampere",
     "country": "Finland",
     "address": "Kalevantie 4, 33100 Tampere",
@@ -3996,7 +4255,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "5. University of Eastern Finland",
+    "id": "260",
+    "name": "University of Eastern Finland",
     "city": "Joensuu & Kuopio",
     "country": "Finland",
     "address": "Yliopistokatu 2, 80100 Joensuu",
@@ -4012,7 +4272,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "6. University of Lapland",
+    "id": "261",
+    "name": "University of Lapland",
     "city": "Rovaniemi",
     "country": "Finland",
     "address": "Yliopistonkatu 8, 96300 Rovaniemi",
@@ -4028,7 +4289,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "7. University of Oulu",
+    "id": "262",
+    "name": "University of Oulu",
     "city": "Oulu",
     "country": "Finland",
     "address": "Pentti Kaiteran katu 1, 90570 Oulu",
@@ -4044,7 +4306,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "8. Lappeenranta-Lahti University of Technology (LUT)",
+    "id": "263",
+    "name": "Lappeenranta-Lahti University of Technology (LUT)",
     "city": "Lappeenranta & Lahti",
     "country": "Finland",
     "address": "Yliopistonkatu 34, 53850 Lappeenranta",
@@ -4060,7 +4323,8 @@
     "discount": "16.67%"
   },
   {
-    "name": "9. Hanken School of Economics",
+    "id": "264",
+    "name": "Hanken School of Economics",
     "city": "Helsinki & Vaasa",
     "country": "Finland",
     "address": "Arkadiankatu 22, 00100 Helsinki",
@@ -4076,7 +4340,8 @@
     "discount": "16.67%"
   },
   {
-    "name": "10. Åbo Akademi University",
+    "id": "265",
+    "name": "Åbo Akademi University",
     "city": "Turku",
     "country": "Finland",
     "address": "Domkyrkotorget 3, 20500 Turku",
@@ -4092,7 +4357,8 @@
     "discount": "25.00%"
   },
   {
-    "name": "1. Ludwig Maximilian University of Munich (LMU Munich)",
+    "id": "266",
+    "name": "Ludwig Maximilian University of Munich (LMU Munich)",
     "city": "Munich",
     "country": "Germany",
     "address": "Geschwister-Scholl-Platz 1, 80539 Munich",
@@ -4108,7 +4374,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Technical University of Munich (TUM)",
+    "id": "267",
+    "name": "Technical University of Munich (TUM)",
     "city": "Munich",
     "country": "Germany",
     "address": "Arcisstraße 21, 80333 Munich",
@@ -4124,7 +4391,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Heidelberg University",
+    "id": "268",
+    "name": "Heidelberg University",
     "city": "Heidelberg",
     "country": "Germany",
     "address": "Grabengasse 1, 69117 Heidelberg",
@@ -4140,7 +4408,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Humboldt University of Berlin",
+    "id": "269",
+    "name": "Humboldt University of Berlin",
     "city": "Berlin",
     "country": "Germany",
     "address": "Unter den Linden 6, 10099 Berlin",
@@ -4156,7 +4425,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Free University of Berlin",
+    "id": "270",
+    "name": "Free University of Berlin",
     "city": "Berlin",
     "country": "Germany",
     "address": "Kaiserswerther Str. 16-18, 14195 Berlin",
@@ -4172,7 +4442,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. RWTH Aachen University",
+    "id": "271",
+    "name": "RWTH Aachen University",
     "city": "Aachen",
     "country": "Germany",
     "address": "Templergraben 55, 52062 Aachen",
@@ -4188,7 +4459,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. University of Freiburg",
+    "id": "272",
+    "name": "University of Freiburg",
     "city": "Freiburg im Breisgau",
     "country": "Germany",
     "address": "Fahnenbergplatz, 79085 Freiburg",
@@ -4204,7 +4476,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. University of Göttingen",
+    "id": "273",
+    "name": "University of Göttingen",
     "city": "Göttingen",
     "country": "Germany",
     "address": "Wilhelmsplatz 1, 37073 Göttingen",
@@ -4220,7 +4493,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University of Stuttgart",
+    "id": "274",
+    "name": "University of Stuttgart",
     "city": "Stuttgart",
     "country": "Germany",
     "address": "Keplerstraße 7, 70174 Stuttgart",
@@ -4236,7 +4510,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. University of Bonn",
+    "id": "275",
+    "name": "University of Bonn",
     "city": "Bonn",
     "country": "Germany",
     "address": "Regina-Pacis-Weg 3, 53113 Bonn",
@@ -4252,7 +4527,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. University of Hamburg",
+    "id": "276",
+    "name": "University of Hamburg",
     "city": "Hamburg",
     "country": "Germany",
     "address": "Mittelweg 177, 20148",
@@ -4268,7 +4544,8 @@
     "discount": "77.87%"
   },
   {
-    "name": "12. University of Cologne",
+    "id": "277",
+    "name": "University of Cologne",
     "city": "Cologne",
     "country": "Germany",
     "address": "Albertus-Magnus-Platz, 50923",
@@ -4284,7 +4561,8 @@
     "discount": "95.92%"
   },
   {
-    "name": "13. University of Mannheim",
+    "id": "278",
+    "name": "University of Mannheim",
     "city": "Mannheim",
     "country": "Germany",
     "address": "Schloss, 68161",
@@ -4300,7 +4578,8 @@
     "discount": "92.50%"
   },
   {
-    "name": "14. University of Leipzig",
+    "id": "279",
+    "name": "University of Leipzig",
     "city": "Leipzig",
     "country": "Germany",
     "address": "Augustusplatz 10, 04109",
@@ -4316,7 +4595,8 @@
     "discount": "93.00%"
   },
   {
-    "name": "15. WWU Münster",
+    "id": "280",
+    "name": "WWU Münster",
     "city": "Münster",
     "country": "Germany",
     "address": "Schlossplatz 2, 48149",
@@ -4332,7 +4612,8 @@
     "discount": "83.33%"
   },
   {
-    "name": "16. University of Duisburg-Essen",
+    "id": "281",
+    "name": "University of Duisburg-Essen",
     "city": "Duisburg/Essen",
     "country": "Germany",
     "address": "Universitätsstraße 2, 45141",
@@ -4348,7 +4629,8 @@
     "discount": "92.13%"
   },
   {
-    "name": "17. University of Potsdam",
+    "id": "282",
+    "name": "University of Potsdam",
     "city": "Potsdam",
     "country": "Germany",
     "address": "Am Neuen Palais 10, 14469",
@@ -4364,7 +4646,8 @@
     "discount": "82.94%"
   },
   {
-    "name": "18. Friedrich Schiller University Jena",
+    "id": "283",
+    "name": "Friedrich Schiller University Jena",
     "city": "Jena",
     "country": "Germany",
     "address": "Fürstengraben 1, 07743",
@@ -4380,10 +4663,11 @@
     "discount": "95.56%"
   },
   {
-    "name": "19. TU Berlin",
+    "id": "284",
+    "name": "TU Berlin",
     "city": "Berlin",
     "country": "Germany",
-    "address": "Straße des 17. Juni 135, 10623",
+    "address": "Straße des Juni 135, 10623",
     "about": "Tech innovation leader",
     "departments": "AI, Robotics, Energy Systems",
     "intake": "October",
@@ -4396,7 +4680,8 @@
     "discount": "94.75%"
   },
   {
-    "name": "20. CAU Kiel",
+    "id": "285",
+    "name": "CAU Kiel",
     "city": "Kiel",
     "country": "Germany",
     "address": "Christian-Albrechts-Platz 4, 24118",
@@ -4412,7 +4697,8 @@
     "discount": "83.75%"
   },
   {
-    "name": "1. Lund University",
+    "id": "286",
+    "name": "Lund University",
     "city": "Lund",
     "country": "Sweden",
     "address": "Paradisgatan 2, 223 50 Lund",
@@ -4428,7 +4714,8 @@
     "discount": "20.00%"
   },
   {
-    "name": "2. Uppsala University",
+    "id": "287",
+    "name": "Uppsala University",
     "city": "Uppsala",
     "country": "Sweden",
     "address": "S:t Olofsgatan 10B, 753 10 Uppsala",
@@ -4444,7 +4731,8 @@
     "discount": "18.18%"
   },
   {
-    "name": "3. Stockholm University",
+    "id": "288",
+    "name": "Stockholm University",
     "city": "Stockholm",
     "country": "Sweden",
     "address": "Universitetsvägen 10A, 114 18 Stockholm",
@@ -4460,7 +4748,8 @@
     "discount": "15.00%"
   },
   {
-    "name": "4. KTH Royal Institute of Technology",
+    "id": "289",
+    "name": "KTH Royal Institute of Technology",
     "city": "Stockholm",
     "country": "Sweden",
     "address": "Brinellvägen 8, 114 28 Stockholm",
@@ -4476,7 +4765,8 @@
     "discount": "11.43%"
   },
   {
-    "name": "5. Chalmers University of Technology",
+    "id": "290",
+    "name": "Chalmers University of Technology",
     "city": "Gothenburg",
     "country": "Sweden",
     "address": "Hörsalsvägen 11, 412 96 Gothenburg",
@@ -4492,7 +4782,8 @@
     "discount": "12.50%"
   },
   {
-    "name": "6. University of Gothenburg",
+    "id": "291",
+    "name": "University of Gothenburg",
     "city": "Gothenburg",
     "country": "Sweden",
     "address": "Vasaparken, 405 30 Gothenburg",
@@ -4508,7 +4799,8 @@
     "discount": "18.18%"
   },
   {
-    "name": "7. Linköping University",
+    "id": "292",
+    "name": "Linköping University",
     "city": "Linköping",
     "country": "Sweden",
     "address": "Campus Valla, 581 83 Linköping",
@@ -4524,7 +4816,8 @@
     "discount": "13.64%"
   },
   {
-    "name": "8. Umeå University",
+    "id": "293",
+    "name": "Umeå University",
     "city": "Umeå",
     "country": "Sweden",
     "address": "Universum, 901 87 Umeå",
@@ -4540,7 +4833,8 @@
     "discount": "15.00%"
   },
   {
-    "name": "9. Swedish University of Agricultural Sciences (SLU)",
+    "id": "294",
+    "name": "Swedish University of Agricultural Sciences (SLU)",
     "city": "Uppsala",
     "country": "Sweden",
     "address": "Almas allé 8, 756 51 Uppsala",
@@ -4556,7 +4850,8 @@
     "discount": "14.29%"
   },
   {
-    "name": "10. Örebro University",
+    "id": "295",
+    "name": "Örebro University",
     "city": "Örebro",
     "country": "Sweden",
     "address": "Fakultetsgatan 1, 702 81 Örebro",
@@ -4572,7 +4867,8 @@
     "discount": "15.79%"
   },
   {
-    "name": "11. Karlstad University",
+    "id": "296",
+    "name": "Karlstad University",
     "city": "Karlstad",
     "country": "Sweden",
     "address": "Universitetsgatan 2, 656 37",
@@ -4588,7 +4884,8 @@
     "discount": "N/A"
   },
   {
-    "name": "12. Mid Sweden University",
+    "id": "297",
+    "name": "Mid Sweden University",
     "city": "Sundsvall/Östersund",
     "country": "Sweden",
     "address": "Holmgatan 10, 851 70",
@@ -4604,7 +4901,8 @@
     "discount": "N/A"
   },
   {
-    "name": "13. Malmö University",
+    "id": "298",
+    "name": "Malmö University",
     "city": "Malmö",
     "country": "Sweden",
     "address": "Nordenskiöldsgatan 1, 211 19",
@@ -4620,7 +4918,8 @@
     "discount": "N/A"
   },
   {
-    "name": "14. Linnaeus University",
+    "id": "299",
+    "name": "Linnaeus University",
     "city": "Växjö/Kalmar",
     "country": "Sweden",
     "address": "Universitetsplatsen 1, 352 52",
@@ -4636,7 +4935,8 @@
     "discount": "N/A"
   },
   {
-    "name": "15. Dalarna University",
+    "id": "300",
+    "name": "Dalarna University",
     "city": "Falun/Borlänge",
     "country": "Sweden",
     "address": "Högskolegatan 2, 791 31",
@@ -4652,7 +4952,8 @@
     "discount": "N/A"
   },
   {
-    "name": "16. University of Skövde",
+    "id": "301",
+    "name": "University of Skövde",
     "city": "Skövde",
     "country": "Sweden",
     "address": "Högskolevägen, 541 28",
@@ -4668,7 +4969,8 @@
     "discount": "N/A"
   },
   {
-    "name": "17. University West",
+    "id": "302",
+    "name": "University West",
     "city": "Trollhättan",
     "country": "Sweden",
     "address": "Gustava Melins gata 2, 461 86",
@@ -4684,7 +4986,8 @@
     "discount": "N/A"
   },
   {
-    "name": "18. Kristianstad University",
+    "id": "303",
+    "name": "Kristianstad University",
     "city": "Kristianstad",
     "country": "Sweden",
     "address": "Elmetorpsvägen 15, 291 39",
@@ -4700,7 +5003,8 @@
     "discount": "N/A"
   },
   {
-    "name": "19. Halmstad University",
+    "id": "304",
+    "name": "Halmstad University",
     "city": "Halmstad",
     "country": "Sweden",
     "address": "Kristian IV:s väg 3, 302 50",
@@ -4716,7 +5020,8 @@
     "discount": "N/A"
   },
   {
-    "name": "20. Blekinge Institute of Technology",
+    "id": "305",
+    "name": "Blekinge Institute of Technology",
     "city": "Karlskrona",
     "country": "Sweden",
     "address": "Valhallavägen 1, 371 41",
@@ -4732,7 +5037,8 @@
     "discount": "N/A"
   },
   {
-    "name": "1. University of Oslo",
+    "id": "306",
+    "name": "University of Oslo",
     "city": "Oslo",
     "country": "Norway",
     "address": "Problemveien 7, 0313 Oslo",
@@ -4748,7 +5054,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Norwegian University of Science and Technology (NTNU)",
+    "id": "307",
+    "name": "Norwegian University of Science and Technology (NTNU)",
     "city": "Trondheim",
     "country": "Norway",
     "address": "Høgskoleringen 1, 7491 Trondheim",
@@ -4764,7 +5071,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. University of Bergen",
+    "id": "308",
+    "name": "University of Bergen",
     "city": "Bergen",
     "country": "Norway",
     "address": "Museplassen 1, 5007 Bergen",
@@ -4780,7 +5088,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. University of Tromsø – The Arctic University of Norway",
+    "id": "309",
+    "name": "University of Tromsø – The Arctic University of Norway",
     "city": "Tromsø",
     "country": "Norway",
     "address": "Hansine Hansens veg 18, 9019 Tromsø",
@@ -4796,7 +5105,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. BI Norwegian Business School",
+    "id": "310",
+    "name": "BI Norwegian Business School",
     "city": "Oslo",
     "country": "Norway",
     "address": "Nydalsveien 37, 0484 Oslo",
@@ -4812,7 +5122,8 @@
     "discount": "32.84%"
   },
   {
-    "name": "6. Norwegian School of Economics (NHH)",
+    "id": "311",
+    "name": "Norwegian School of Economics (NHH)",
     "city": "Bergen",
     "country": "Norway",
     "address": "Helleveien 30, 5045 Bergen",
@@ -4828,7 +5139,8 @@
     "discount": "N/A"
   },
   {
-    "name": "7. Oslo Metropolitan University (OsloMet)",
+    "id": "312",
+    "name": "Oslo Metropolitan University (OsloMet)",
     "city": "Oslo",
     "country": "Norway",
     "address": "Pilestredet 46, 0167 Oslo",
@@ -4844,7 +5156,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. Norwegian School of Sport Sciences (NIH)",
+    "id": "313",
+    "name": "Norwegian School of Sport Sciences (NIH)",
     "city": "Oslo",
     "country": "Norway",
     "address": "Sognsveien 220, 0863 Oslo",
@@ -4860,7 +5173,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. Norwegian University of Life Sciences (NMBU)",
+    "id": "314",
+    "name": "Norwegian University of Life Sciences (NMBU)",
     "city": "Ås",
     "country": "Norway",
     "address": "Universitetstunet 3, 1433 Ås",
@@ -4876,7 +5190,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. Nord University",
+    "id": "315",
+    "name": "Nord University",
     "city": "Bodø",
     "country": "Norway",
     "address": "Universitetsalléen 11, 8026 Bodø",
@@ -4892,7 +5207,8 @@
     "discount": "N/A"
   },
   {
-    "name": "11. VID Specialized University",
+    "id": "316",
+    "name": "VID Specialized University",
     "city": "Oslo (campuses in Bergen, Stavanger, Sandnes, Tromsø)",
     "country": "Norway",
     "address": "Diakonveien 14, 0370",
@@ -4908,7 +5224,8 @@
     "discount": "N/A"
   },
   {
-    "name": "12. MF Norwegian School of Theology",
+    "id": "317",
+    "name": "MF Norwegian School of Theology",
     "city": "Oslo",
     "country": "Norway",
     "address": "Gydas vei 4, 0363",
@@ -4924,7 +5241,8 @@
     "discount": "N/A"
   },
   {
-    "name": "13. Inland Norway University",
+    "id": "318",
+    "name": "Inland Norway University",
     "city": "Lillehammer (6 campuses)",
     "country": "Norway",
     "address": "Gudbrandsdalsvegen 350, 2624",
@@ -4940,7 +5258,8 @@
     "discount": "N/A"
   },
   {
-    "name": "14. Western Norway University (HVL)",
+    "id": "319",
+    "name": "Western Norway University (HVL)",
     "city": "Bergen (5 campuses)",
     "country": "Norway",
     "address": "Inndalsveien 28, 5063",
@@ -4956,7 +5275,8 @@
     "discount": "N/A"
   },
   {
-    "name": "15. Volda University College",
+    "id": "320",
+    "name": "Volda University College",
     "city": "Volda",
     "country": "Norway",
     "address": "Joplassvegen 11, 6100",
@@ -4972,7 +5292,8 @@
     "discount": "N/A"
   },
   {
-    "name": "16. Sámi University",
+    "id": "321",
+    "name": "Sámi University",
     "city": "Kautokeino",
     "country": "Norway",
     "address": "Hannoluohkká 45, 9520",
@@ -4988,7 +5309,8 @@
     "discount": "N/A"
   },
   {
-    "name": "17. Norwegian Academy of Music",
+    "id": "322",
+    "name": "Norwegian Academy of Music",
     "city": "Oslo",
     "country": "Norway",
     "address": "Slemdalsveien 11, 0363",
@@ -5004,7 +5326,8 @@
     "discount": "N/A"
   },
   {
-    "name": "18. Norwegian Academy of Fine Arts",
+    "id": "323",
+    "name": "Norwegian Academy of Fine Arts",
     "city": "Oslo",
     "country": "Norway",
     "address": "Fossveien 24, 0551",
@@ -5020,7 +5343,8 @@
     "discount": "N/A"
   },
   {
-    "name": "19. Norwegian Theatre Academy",
+    "id": "324",
+    "name": "Norwegian Theatre Academy",
     "city": "Fredrikstad",
     "country": "Norway",
     "address": "Trara, 1606",
@@ -5036,7 +5360,8 @@
     "discount": "N/A"
   },
   {
-    "name": "1. ETH Zurich – Swiss Federal Institute of Technology",
+    "id": "325",
+    "name": "ETH Zurich – Swiss Federal Institute of Technology",
     "city": "Zurich",
     "country": "Switzerland",
     "address": "Rämistrasse 101, 8092 Zürich",
@@ -5052,7 +5377,8 @@
     "discount": "40.60%"
   },
   {
-    "name": "2. École Polytechnique Fédérale de Lausanne (EPFL)",
+    "id": "326",
+    "name": "École Polytechnique Fédérale de Lausanne (EPFL)",
     "city": "Lausanne",
     "country": "Switzerland",
     "address": "Route Cantonale, 1015 Lausanne",
@@ -5068,7 +5394,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "3. University of Zurich",
+    "id": "327",
+    "name": "University of Zurich",
     "city": "Zurich",
     "country": "Switzerland",
     "address": "Rämistrasse 71, 8006 Zürich",
@@ -5084,7 +5411,8 @@
     "discount": "41.37%"
   },
   {
-    "name": "4. University of Geneva",
+    "id": "328",
+    "name": "University of Geneva",
     "city": "Geneva",
     "country": "Switzerland",
     "address": "24 Rue du Général-Dufour, 1211 Geneva",
@@ -5100,7 +5428,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "5. University of Bern",
+    "id": "329",
+    "name": "University of Bern",
     "city": "Bern",
     "country": "Switzerland",
     "address": "Hochschulstrasse 4, 3012 Bern",
@@ -5116,7 +5445,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "6. University of Lausanne (UNIL)",
+    "id": "330",
+    "name": "University of Lausanne (UNIL)",
     "city": "Lausanne",
     "country": "Switzerland",
     "address": "UNIL-Dorigny, 1015 Lausanne",
@@ -5132,7 +5462,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "7. University of Basel",
+    "id": "331",
+    "name": "University of Basel",
     "city": "Basel",
     "country": "Switzerland",
     "address": "Petersplatz 1, 4001 Basel",
@@ -5148,7 +5479,8 @@
     "discount": "37.04%"
   },
   {
-    "name": "8. University of Fribourg",
+    "id": "332",
+    "name": "University of Fribourg",
     "city": "Fribourg",
     "country": "Switzerland",
     "address": "Avenue de l'Europe 20, 1700 Fribourg",
@@ -5164,7 +5496,8 @@
     "discount": "32.26%"
   },
   {
-    "name": "9. University of Neuchâtel",
+    "id": "333",
+    "name": "University of Neuchâtel",
     "city": "Neuchâtel",
     "country": "Switzerland",
     "address": "Avenue du 1er-Mars 26, 2000 Neuchâtel",
@@ -5180,7 +5513,8 @@
     "discount": "32.68%"
   },
   {
-    "name": "10. Università della Svizzera italiana (USI)",
+    "id": "334",
+    "name": "Università della Svizzera italiana (USI)",
     "city": "Lugano",
     "country": "Switzerland",
     "address": "Via Giuseppe Buffi 13, 6900 Lugano",
@@ -5196,7 +5530,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "11. Zurich University of the Arts (ZHdK)",
+    "id": "335",
+    "name": "Zurich University of the Arts (ZHdK)",
     "city": "Zurich",
     "country": "Switzerland",
     "address": "Pfingstweidstrasse 96, 8005",
@@ -5212,7 +5547,8 @@
     "discount": "42.86%"
   },
   {
-    "name": "12. Bern University of Applied Sciences (BFH)",
+    "id": "336",
+    "name": "Bern University of Applied Sciences (BFH)",
     "city": "Bern",
     "country": "Switzerland",
     "address": "Hallerstrasse 10, 3012",
@@ -5228,7 +5564,8 @@
     "discount": "46.43%"
   },
   {
-    "name": "13. HES-SO (Western Switzerland)",
+    "id": "337",
+    "name": "HES-SO (Western Switzerland)",
     "city": "Lausanne (28 campuses)",
     "country": "Switzerland",
     "address": "Route de Moutiers 14, 2800",
@@ -5244,7 +5581,8 @@
     "discount": "58.33%"
   },
   {
-    "name": "14. Lucerne University (HSLU)",
+    "id": "338",
+    "name": "Lucerne University (HSLU)",
     "city": "Lucerne",
     "country": "Switzerland",
     "address": "Werftestrasse 4, 6005",
@@ -5260,7 +5598,8 @@
     "discount": "46.15%"
   },
   {
-    "name": "15. PH Zurich (Teacher Education)",
+    "id": "339",
+    "name": "PH Zurich (Teacher Education)",
     "city": "Zurich",
     "country": "Switzerland",
     "address": "Lagerstrasse 2, 8090",
@@ -5276,7 +5615,8 @@
     "discount": "45.45%"
   },
   {
-    "name": "16. Swiss Distance University (FFHS)",
+    "id": "340",
+    "name": "Swiss Distance University (FFHS)",
     "city": "Brig (4 campuses)",
     "country": "Switzerland",
     "address": "Überlandstrasse 12, 3900",
@@ -5292,7 +5632,8 @@
     "discount": "33.33%"
   },
   {
-    "name": "17. OST University",
+    "id": "341",
+    "name": "OST University",
     "city": "St. Gallen (3 campuses)",
     "country": "Switzerland",
     "address": "Lerchenfeldstrasse 5, 9014",
@@ -5308,7 +5649,8 @@
     "discount": "48.00%"
   },
   {
-    "name": "18. Kalaidos University",
+    "id": "342",
+    "name": "Kalaidos University",
     "city": "Zurich",
     "country": "Switzerland",
     "address": "Jungholzstrasse 43, 8050",
@@ -5324,7 +5666,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "19. ZHAW",
+    "id": "343",
+    "name": "ZHAW",
     "city": "Winterthur",
     "country": "Switzerland",
     "address": "Steinberggasse 13, 8400",
@@ -5340,7 +5683,8 @@
     "discount": "46.15%"
   },
   {
-    "name": "20. HEG Geneva",
+    "id": "344",
+    "name": "HEG Geneva",
     "city": "Geneva",
     "country": "Switzerland",
     "address": "Rue de la Tambourine 17, 1227",
@@ -5356,7 +5700,8 @@
     "discount": "58.33%"
   },
   {
-    "name": "1. National and Kapodistrian University of Athens (NKUA)",
+    "id": "345",
+    "name": "National and Kapodistrian University of Athens (NKUA)",
     "city": "Athens",
     "country": "Greece",
     "address": "Panepistimiou 30, 106 79 Athens",
@@ -5372,7 +5717,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "2. Aristotle University of Thessaloniki (AUTH)",
+    "id": "346",
+    "name": "Aristotle University of Thessaloniki (AUTH)",
     "city": "Thessaloniki",
     "country": "Greece",
     "address": "University Campus, 54124 Thessaloniki",
@@ -5388,7 +5734,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "3. University of Patras",
+    "id": "347",
+    "name": "University of Patras",
     "city": "Patras",
     "country": "Greece",
     "address": "University Campus, Rio, 26504 Patras",
@@ -5404,7 +5751,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "4. University of Crete",
+    "id": "348",
+    "name": "University of Crete",
     "city": "Rethymno and Heraklion",
     "country": "Greece",
     "address": "Gallou Campus, 74100 Rethymno",
@@ -5420,7 +5768,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "5. University of Thessaly",
+    "id": "349",
+    "name": "University of Thessaly",
     "city": "Volos (and other cities)",
     "country": "Greece",
     "address": "Argonafton & Filellinon, 38221 Volos",
@@ -5436,7 +5785,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "6. Athens University of Economics and Business (AUEB)",
+    "id": "350",
+    "name": "Athens University of Economics and Business (AUEB)",
     "city": "Athens",
     "country": "Greece",
     "address": "76 Patission Street, 10434 Athens",
@@ -5452,7 +5802,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "7. Harokopio University",
+    "id": "351",
+    "name": "Harokopio University",
     "city": "Athens",
     "country": "Greece",
     "address": "El. Venizelou 70, 17676 Athens",
@@ -5468,7 +5819,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "8. University of the Aegean",
+    "id": "352",
+    "name": "University of the Aegean",
     "city": "Mytilene (multi-campus)",
     "country": "Greece",
     "address": "University Hill, 81100 Mytilene",
@@ -5484,7 +5836,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "9. University of Piraeus",
+    "id": "353",
+    "name": "University of Piraeus",
     "city": "Piraeus",
     "country": "Greece",
     "address": "80 Karaoli & Dimitriou St., 18534 Piraeus",
@@ -5500,7 +5853,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "10. University of Macedonia",
+    "id": "354",
+    "name": "University of Macedonia",
     "city": "Thessaloniki",
     "country": "Greece",
     "address": "Egnatia 156, 54636 Thessaloniki",
@@ -5516,7 +5870,8 @@
     "discount": "100.00%"
   },
   {
-    "name": "11. Hellenic Open University (HOU)",
+    "id": "355",
+    "name": "Hellenic Open University (HOU)",
     "city": "Patras",
     "country": "Greece",
     "address": "Parodos Aristotelous 18, 26335",
@@ -5532,7 +5887,8 @@
     "discount": "40.00%"
   },
   {
-    "name": "12. International Hellenic University (IHU)",
+    "id": "356",
+    "name": "International Hellenic University (IHU)",
     "city": "Thessaloniki",
     "country": "Greece",
     "address": "14th km Thessaloniki-N. Moudania, 57001",
@@ -5548,7 +5904,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "13. University of Western Attica (UNIWA)",
+    "id": "357",
+    "name": "University of Western Attica (UNIWA)",
     "city": "Athens",
     "country": "Greece",
     "address": "Agiou Spiridonos, 12243",
@@ -5564,7 +5921,8 @@
     "discount": "53.57%"
   },
   {
-    "name": "14. Panteion University",
+    "id": "358",
+    "name": "Panteion University",
     "city": "Athens",
     "country": "Greece",
     "address": "Syngrou Ave 136, 17671",
@@ -5580,7 +5938,8 @@
     "discount": "60.00%"
   },
   {
-    "name": "15. University of Peloponnese",
+    "id": "359",
+    "name": "University of Peloponnese",
     "city": "Tripoli",
     "country": "Greece",
     "address": "Erithrou Stavrou, 22131",
@@ -5596,7 +5955,8 @@
     "discount": "59.09%"
   },
   {
-    "name": "1. University of Iceland (Háskóli Íslands)",
+    "id": "360",
+    "name": "University of Iceland (Háskóli Íslands)",
     "city": "Reykjavík",
     "country": "Iceland",
     "address": "Sæmundargata 2, 102 Reykjavík",
@@ -5612,7 +5972,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "2. Reykjavik University (RU)",
+    "id": "361",
+    "name": "Reykjavik University (RU)",
     "city": "Reykjavík",
     "country": "Iceland",
     "address": "Menntavegur 1, 102 Reykjavík",
@@ -5628,7 +5989,8 @@
     "discount": "33.33%"
   },
   {
-    "name": "3. University of Akureyri (Háskólinn á Akureyri)",
+    "id": "362",
+    "name": "University of Akureyri (Háskólinn á Akureyri)",
     "city": "Akureyri",
     "country": "Iceland",
     "address": "Norðurslóð 2, 600 Akureyri",
@@ -5644,7 +6006,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "4. Hólar University",
+    "id": "363",
+    "name": "Hólar University",
     "city": "Hólar",
     "country": "Iceland",
     "address": "551 Hólar, North Iceland",
@@ -5660,7 +6023,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "5. Iceland University of the Arts (Listaháskóli Íslands)",
+    "id": "364",
+    "name": "Iceland University of the Arts (Listaháskóli Íslands)",
     "city": "Reykjavík",
     "country": "Iceland",
     "address": "Laugarnesvegur 91, 105 Reykjavík",
@@ -5676,7 +6040,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "6. Bifröst University",
+    "id": "365",
+    "name": "Bifröst University",
     "city": "Borgarbyggð",
     "country": "Iceland",
     "address": "Bifröst, 311 Borgarnes",
@@ -5692,7 +6057,8 @@
     "discount": "28.00%"
   },
   {
-    "name": "7. Agricultural University of Iceland",
+    "id": "366",
+    "name": "Agricultural University of Iceland",
     "city": "Hvanneyri",
     "country": "Iceland",
     "address": "Hvanneyri, 311 Borgarnes",
@@ -5708,7 +6074,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "1. University of Liechtenstein",
+    "id": "367",
+    "name": "University of Liechtenstein",
     "city": "Vaduz",
     "country": "Liechtenstein",
     "address": "Fürst-Franz-Josef-Strasse, 9490",
@@ -5724,7 +6091,8 @@
     "discount": "24.00%"
   },
   {
-    "name": "2. University of Luxembourg",
+    "id": "368",
+    "name": "University of Luxembourg",
     "city": "Esch-sur-Alzette",
     "country": "Luxembourg",
     "address": "2, avenue de l’Université, L-4365",
@@ -5740,7 +6108,8 @@
     "discount": "80.00%"
   },
   {
-    "name": "3. University of Malta",
+    "id": "369",
+    "name": "University of Malta",
     "city": "Msida",
     "country": "Malta",
     "address": "Msida MSD 2080",
@@ -5756,7 +6125,8 @@
     "discount": "90.00%"
   },
   {
-    "name": "4. University of Lisbon (ULisboa)",
+    "id": "370",
+    "name": "University of Lisbon (ULisboa)",
     "city": "Lisbon",
     "country": "Portugal",
     "address": "Alameda da Universidade, 1649-004",
@@ -5772,7 +6142,8 @@
     "discount": "76.77%"
   },
   {
-    "name": "5. University of Aveiro (UA)",
+    "id": "371",
+    "name": "University of Aveiro (UA)",
     "city": "Aveiro",
     "country": "Portugal",
     "address": "Campus de Santiago, 3810-193",
@@ -5788,7 +6159,8 @@
     "discount": "80.09%"
   },
   {
-    "name": "6. University of Minho (UMinho)",
+    "id": "372",
+    "name": "University of Minho (UMinho)",
     "city": "Braga & Guimarães",
     "country": "Portugal",
     "address": "Largo do Paço, 4704-553 Braga",
@@ -5804,7 +6176,8 @@
     "discount": "76.77%"
   },
   {
-    "name": "7. University of Évora",
+    "id": "373",
+    "name": "University of Évora",
     "city": "Évora",
     "country": "Portugal",
     "address": "Largo dos Colegiais 2, 7004-516 Évora",
@@ -5820,7 +6193,8 @@
     "discount": "76.77%"
   },
   {
-    "name": "8. University of Beira Interior (UBI)",
+    "id": "374",
+    "name": "University of Beira Interior (UBI)",
     "city": "Covilhã",
     "country": "Portugal",
     "address": "Rua Marquês d’Ávila e Bolama, 6201-001 Covilhã",
@@ -5836,7 +6210,8 @@
     "discount": "76.77%"
   },
   {
-    "name": "9. University of Algarve (UAlg)",
+    "id": "375",
+    "name": "University of Algarve (UAlg)",
     "city": "Faro",
     "country": "Portugal",
     "address": "Campus de Gambelas, 8005-139 Faro",
@@ -5852,7 +6227,8 @@
     "discount": "76.77%"
   },
   {
-    "name": "10. ISCTE – University Institute of Lisbon",
+    "id": "376",
+    "name": "ISCTE – University Institute of Lisbon",
     "city": "Lisbon",
     "country": "Portugal",
     "address": "Av. das Forças Armadas, 1649-026 Lisbon",
@@ -5868,7 +6244,8 @@
     "discount": "66.67%"
   },
   {
-    "name": "1. University of Ljubljana",
+    "id": "377",
+    "name": "University of Ljubljana",
     "city": "Ljubljana",
     "country": "Slovenia",
     "address": "Kongresni trg 12, 1000 Ljubljana",
@@ -5884,7 +6261,8 @@
     "discount": "37.50%"
   },
   {
-    "name": "7. IT University of Copenhagen (ITU)",
+    "id": "378",
+    "name": "IT University of Copenhagen (ITU)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Rued Langgaards Vej 7, 2300 København S",
@@ -5900,7 +6278,8 @@
     "discount": "N/A"
   },
   {
-    "name": "8. University College Copenhagen (KP)",
+    "id": "379",
+    "name": "University College Copenhagen (KP)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Humletorvet 3, 1799 København V",
@@ -5916,7 +6295,8 @@
     "discount": "N/A"
   },
   {
-    "name": "9. University College of Northern Denmark (UCN)",
+    "id": "380",
+    "name": "University College of Northern Denmark (UCN)",
     "city": "Aalborg",
     "country": "Denmark",
     "address": "Selma Lagerløfs Vej 2, 9220 Aalborg",
@@ -5932,7 +6312,8 @@
     "discount": "N/A"
   },
   {
-    "name": "10. VIA University College",
+    "id": "381",
+    "name": "VIA University College",
     "city": "Aarhus (multiple campuses)",
     "country": "Denmark",
     "address": "Hedeager 2, 8200 Aarhus N",
@@ -5948,7 +6329,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. University of Maribor",
+    "id": "382",
+    "name": "University of Maribor",
     "city": "Maribor",
     "country": "Slovenia",
     "address": "Slomškov trg 15, 2000 Maribor",
@@ -5964,7 +6346,8 @@
     "discount": "50.00%"
   },
   {
-    "name": "3. University of Primorska",
+    "id": "383",
+    "name": "University of Primorska",
     "city": "Koper",
     "country": "Slovenia",
     "address": "Titov trg 4, 6000 Koper",
@@ -5980,7 +6363,8 @@
     "discount": "48.57%"
   },
   {
-    "name": "1. University of Copenhagen (UCPH)",
+    "id": "384",
+    "name": "University of Copenhagen (UCPH)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Nørregade 10, 1165 København K",
@@ -5996,7 +6380,8 @@
     "discount": "N/A"
   },
   {
-    "name": "2. Aarhus University (AU)",
+    "id": "385",
+    "name": "Aarhus University (AU)",
     "city": "Aarhus",
     "country": "Denmark",
     "address": "Nordre Ringgade 1, 8000 Aarhus C",
@@ -6012,7 +6397,8 @@
     "discount": "N/A"
   },
   {
-    "name": "3. Technical University of Denmark (DTU)",
+    "id": "386",
+    "name": "Technical University of Denmark (DTU)",
     "city": "Kongens Lyngby",
     "country": "Denmark",
     "address": "Anker Engelunds Vej 1, 2800 Kongens Lyngby",
@@ -6028,7 +6414,8 @@
     "discount": "N/A"
   },
   {
-    "name": "4. Aalborg University (AAU)",
+    "id": "387",
+    "name": "Aalborg University (AAU)",
     "city": "Aalborg (multi-campus)",
     "country": "Denmark",
     "address": "Fredrik Bajers Vej 5, 9220 Aalborg",
@@ -6044,7 +6431,8 @@
     "discount": "N/A"
   },
   {
-    "name": "5. Copenhagen Business School (CBS)",
+    "id": "388",
+    "name": "Copenhagen Business School (CBS)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Solbjerg Plads 3, 2000 Frederiksberg",
@@ -6060,7 +6448,8 @@
     "discount": "N/A"
   },
   {
-    "name": "6. Roskilde University (RUC)",
+    "id": "389",
+    "name": "Roskilde University (RUC)",
     "city": "Roskilde",
     "country": "Denmark",
     "address": "Universitetsvej 1, 4000 Roskilde",

@@ -1,41 +1,15 @@
-import { BookCopy, List } from "lucide-react";
+import { List } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { Card } from "~/components/ui/card";
-import coursesData from "~/data/courses.json";
-import CourseCard from "~/components/Cards/CourseCard";
 import Overview from "./Overview";
 
 const Features = ({ university }: any) => {
-  const universityCourses = coursesData.filter((course) =>
-    university.courses.includes(course.id)
-  );
-
   const features = [
     {
       id: "feature-1",
       title: "Overview",
       icon: <List className="w-full h-full" />,
       content: <Overview university={university} />,
-    },
-    {
-      id: "feature-2",
-      title: "Courses",
-      icon: <BookCopy className="w-full h-full" />,
-      content: (
-        <>
-          {universityCourses?.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {universityCourses.map((course: any) => (
-                <div className="border rounded-xl">
-                  <CourseCard course={course} dark />
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-center my-8 text-xl">No courses</p>
-          )}
-        </>
-      ),
     },
   ];
 

@@ -1,7 +1,7 @@
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "~/assets/images/logo.png";
+import Logo from "~/assets/images/logo-white.png";
 
 interface Footer7Props {
   logo?: {
@@ -94,7 +94,7 @@ const Footer = ({
   legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
   return (
-    <footer className="border-t dark bg-background text-foreground">
+    <footer className="border-t">
       <div className="px-4 sm:px-8 pt-8 flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
         <div className="flex w-full flex-col justify-between gap-6 lg:items-start">
           {/* Logo */}

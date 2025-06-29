@@ -6,10 +6,10 @@ import { Separator } from "~/components/ui/separator";
 import CountryGrid from "./CountryGrid";
 import { useLocation } from "react-router";
 import { useAppSelector } from "~/hooks/redux";
-import UniversityDepartments from "./Departments";
+// import UniversityDepartments from "./Departments";
 import { useAppDispatch } from "~/hooks/redux";
 import { setSelectedCountry } from "~/store/universities/universitiesSlice";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Universities = () => {
   const dispatch = useAppDispatch();
@@ -27,7 +27,6 @@ const Universities = () => {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const paginatedUniversities = filteredUniversities
@@ -39,6 +38,11 @@ const Universities = () => {
       dispatch(setSelectedCountry(selectedCountry));
     }
   }, [selectedCountry]);
+  const targetRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    targetRef.current?.scrollIntoView({ block: "start" });
+  }, [currentPage]);
 
   return (
     <section className="pt-32 pb-16 overflow-hidden">
@@ -61,13 +65,15 @@ const Universities = () => {
           </Button>
         </form>
       </div>
-      <Separator className="my-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
 
+      <Separator className="mt-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
+      <div ref={targetRef} />
+      <Separator className="mb-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
       {!selectedCountry ? (
         <>
           <CountryGrid />
-          <Separator className="my-16 w-[200vw] -translate-x-[50%] h-[0.5px]" />
-          <UniversityDepartments />
+          {/* <Separator className="my-16 w-[200vw] -translate-x-[50%] h-[0.5px]" /> */}
+          {/* <UniversityDepartments /> */}
         </>
       ) : filteredUniversities?.length > 0 ? (
         <>
