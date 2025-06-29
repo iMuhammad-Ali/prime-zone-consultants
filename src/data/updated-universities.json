@@ -3932,7 +3932,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**1. University of Helsinki**",
+    "name": "1. University of Helsinki",
     "city": "Helsinki",
     "country": "Finland",
     "address": "Yliopistonkatu 4, 00100 Helsinki",
@@ -3948,7 +3948,7 @@
     "discount": "60.00%"
   },
   {
-    "name": "**2. Aalto University**",
+    "name": "2. Aalto University",
     "city": "Espoo",
     "country": "Finland",
     "address": "Otakaari 1, 02150 Espoo",
@@ -3964,7 +3964,7 @@
     "discount": "20.00%"
   },
   {
-    "name": "**3. University of Turku**",
+    "name": "3. University of Turku",
     "city": "Turku",
     "country": "Finland",
     "address": "Yliopistonmäki, 20014 Turun yliopisto",
@@ -3980,7 +3980,7 @@
     "discount": "20.00%"
   },
   {
-    "name": "**4. Tampere University**",
+    "name": "4. Tampere University",
     "city": "Tampere",
     "country": "Finland",
     "address": "Kalevantie 4, 33100 Tampere",
@@ -3996,7 +3996,7 @@
     "discount": "20.00%"
   },
   {
-    "name": "**5. University of Eastern Finland**",
+    "name": "5. University of Eastern Finland",
     "city": "Joensuu & Kuopio",
     "country": "Finland",
     "address": "Yliopistokatu 2, 80100 Joensuu",
@@ -4012,7 +4012,7 @@
     "discount": "20.00%"
   },
   {
-    "name": "**6. University of Lapland**",
+    "name": "6. University of Lapland",
     "city": "Rovaniemi",
     "country": "Finland",
     "address": "Yliopistonkatu 8, 96300 Rovaniemi",
@@ -4028,7 +4028,7 @@
     "discount": "25.00%"
   },
   {
-    "name": "**7. University of Oulu**",
+    "name": "7. University of Oulu",
     "city": "Oulu",
     "country": "Finland",
     "address": "Pentti Kaiteran katu 1, 90570 Oulu",
@@ -4044,7 +4044,7 @@
     "discount": "20.00%"
   },
   {
-    "name": "**8. Lappeenranta-Lahti University of Technology (LUT)**",
+    "name": "8. Lappeenranta-Lahti University of Technology (LUT)",
     "city": "Lappeenranta & Lahti",
     "country": "Finland",
     "address": "Yliopistonkatu 34, 53850 Lappeenranta",
@@ -4060,7 +4060,7 @@
     "discount": "16.67%"
   },
   {
-    "name": "**9. Hanken School of Economics**",
+    "name": "9. Hanken School of Economics",
     "city": "Helsinki & Vaasa",
     "country": "Finland",
     "address": "Arkadiankatu 22, 00100 Helsinki",
@@ -4076,7 +4076,7 @@
     "discount": "16.67%"
   },
   {
-    "name": "**10. Åbo Akademi University**",
+    "name": "10. Åbo Akademi University",
     "city": "Turku",
     "country": "Finland",
     "address": "Domkyrkotorget 3, 20500 Turku",
@@ -5788,7 +5788,7 @@
     "discount": "80.09%"
   },
   {
-    "name": "**6. University of Minho (UMinho)**",
+    "name": "6. University of Minho (UMinho)",
     "city": "Braga & Guimarães",
     "country": "Portugal",
     "address": "Largo do Paço, 4704-553 Braga",
@@ -5804,7 +5804,7 @@
     "discount": "76.77%"
   },
   {
-    "name": "**7. University of Évora**",
+    "name": "7. University of Évora",
     "city": "Évora",
     "country": "Portugal",
     "address": "Largo dos Colegiais 2, 7004-516 Évora",
@@ -5820,7 +5820,7 @@
     "discount": "76.77%"
   },
   {
-    "name": "**8. University of Beira Interior (UBI)**",
+    "name": "8. University of Beira Interior (UBI)",
     "city": "Covilhã",
     "country": "Portugal",
     "address": "Rua Marquês d’Ávila e Bolama, 6201-001 Covilhã",
@@ -5836,7 +5836,7 @@
     "discount": "76.77%"
   },
   {
-    "name": "**9. University of Algarve (UAlg)**",
+    "name": "9. University of Algarve (UAlg)",
     "city": "Faro",
     "country": "Portugal",
     "address": "Campus de Gambelas, 8005-139 Faro",
@@ -5852,7 +5852,7 @@
     "discount": "76.77%"
   },
   {
-    "name": "**10. ISCTE – University Institute of Lisbon**",
+    "name": "10. ISCTE – University Institute of Lisbon",
     "city": "Lisbon",
     "country": "Portugal",
     "address": "Av. das Forças Armadas, 1649-026 Lisbon",
@@ -5868,7 +5868,7 @@
     "discount": "66.67%"
   },
   {
-    "name": "**1. University of Ljubljana**",
+    "name": "1. University of Ljubljana",
     "city": "Ljubljana",
     "country": "Slovenia",
     "address": "Kongresni trg 12, 1000 Ljubljana",
@@ -5884,7 +5884,7 @@
     "discount": "37.50%"
   },
   {
-    "name": "**7. IT University of Copenhagen (ITU)**",
+    "name": "7. IT University of Copenhagen (ITU)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Rued Langgaards Vej 7, 2300 København S",
@@ -5900,7 +5900,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**8. University College Copenhagen (KP)**",
+    "name": "8. University College Copenhagen (KP)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Humletorvet 3, 1799 København V",
@@ -5916,7 +5916,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**9. University College of Northern Denmark (UCN)**",
+    "name": "9. University College of Northern Denmark (UCN)",
     "city": "Aalborg",
     "country": "Denmark",
     "address": "Selma Lagerløfs Vej 2, 9220 Aalborg",
@@ -5932,7 +5932,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**10. VIA University College**",
+    "name": "10. VIA University College",
     "city": "Aarhus (multiple campuses)",
     "country": "Denmark",
     "address": "Hedeager 2, 8200 Aarhus N",
@@ -5948,7 +5948,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**2. University of Maribor**",
+    "name": "2. University of Maribor",
     "city": "Maribor",
     "country": "Slovenia",
     "address": "Slomškov trg 15, 2000 Maribor",
@@ -5964,7 +5964,7 @@
     "discount": "50.00%"
   },
   {
-    "name": "**3. University of Primorska**",
+    "name": "3. University of Primorska",
     "city": "Koper",
     "country": "Slovenia",
     "address": "Titov trg 4, 6000 Koper",
@@ -5980,7 +5980,7 @@
     "discount": "48.57%"
   },
   {
-    "name": "**1. University of Copenhagen (UCPH)**",
+    "name": "1. University of Copenhagen (UCPH)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Nørregade 10, 1165 København K",
@@ -5996,7 +5996,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**2. Aarhus University (AU)**",
+    "name": "2. Aarhus University (AU)",
     "city": "Aarhus",
     "country": "Denmark",
     "address": "Nordre Ringgade 1, 8000 Aarhus C",
@@ -6012,7 +6012,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**3. Technical University of Denmark (DTU)**",
+    "name": "3. Technical University of Denmark (DTU)",
     "city": "Kongens Lyngby",
     "country": "Denmark",
     "address": "Anker Engelunds Vej 1, 2800 Kongens Lyngby",
@@ -6028,7 +6028,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**4. Aalborg University (AAU)**",
+    "name": "4. Aalborg University (AAU)",
     "city": "Aalborg (multi-campus)",
     "country": "Denmark",
     "address": "Fredrik Bajers Vej 5, 9220 Aalborg",
@@ -6044,7 +6044,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**5. Copenhagen Business School (CBS)**",
+    "name": "5. Copenhagen Business School (CBS)",
     "city": "Copenhagen",
     "country": "Denmark",
     "address": "Solbjerg Plads 3, 2000 Frederiksberg",
@@ -6060,7 +6060,7 @@
     "discount": "N/A"
   },
   {
-    "name": "**6. Roskilde University (RUC)**",
+    "name": "6. Roskilde University (RUC)",
     "city": "Roskilde",
     "country": "Denmark",
     "address": "Universitetsvej 1, 4000 Roskilde",
