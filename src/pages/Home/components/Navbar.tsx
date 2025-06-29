@@ -199,7 +199,7 @@ const renderMenuItem = (item: MenuItem) => {
           </button>
         </PopoverTrigger>
         <PopoverContent className="bg-popover text-popover-foreground p-3 min-w-[500px]">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4 max-h-64 overflow-y-auto">
             {item.items.map((subItem) => (
               <Link
                 key={subItem.title}
