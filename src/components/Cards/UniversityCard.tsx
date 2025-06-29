@@ -20,7 +20,10 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
           <div className="flex-1">
             <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
               <img
-                src={university.image}
+                src={
+                  university.image ||
+                  "https://cdn.britannica.com/85/13085-050-C2E88389/Corpus-Christi-College-University-of-Cambridge-England.jpg"
+                }
                 alt={university.name}
                 className="h-full w-full object-cover object-center"
               />
@@ -49,7 +52,7 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
             </div>
             <div className="flex items-center gap-2">
               <Calendar />
-              {university.inTake.join(", ")}
+              {university.intake}
             </div>
           </div>
           <div className="flex items-center gap-4 text-sm mt-6">
