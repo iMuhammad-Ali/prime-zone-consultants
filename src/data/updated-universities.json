@@ -12,7 +12,8 @@
     "actualPrice": "€2,000-€7,000/year (Non-EU)",
     "scholarship": "Unibo Action 1 & 2, Study Grants",
     "accommodation": "€300-€600/month",
-    "summary": "Historic institution with comprehensive programs and vibrant student life"
+    "summary": "Historic institution with comprehensive programs and vibrant student life",
+    "discount": "25.00%"
   },
   {
     "name": "2. Sapienza University of Rome",
@@ -27,7 +28,8 @@
     "actualPrice": "€2,500-€6,500/year (Non-EU)",
     "scholarship": "Laziodisu, Merit Awards",
     "accommodation": "€400-€900/month",
-    "summary": "One of Europe's largest universities with excellent research facilities"
+    "summary": "One of Europe's largest universities with excellent research facilities",
+    "discount": "60.00%"
   },
   {
     "name": "3. University of Padua",
@@ -42,7 +44,8 @@
     "actualPrice": "€2,800-€6,500/year (Non-EU)",
     "scholarship": "Padua International Excellence Scholarship",
     "accommodation": "€250-€500/month",
-    "summary": "Historic university with strong STEM and medical programs"
+    "summary": "Historic university with strong STEM and medical programs",
+    "discount": "57.14%"
   },
   {
     "name": "4. Politecnico di Milano",
@@ -57,7 +60,8 @@
     "actualPrice": "€3,900-€8,000/year (Non-EU)",
     "scholarship": "Polimi Merit-Based",
     "accommodation": "€500-€800/month",
-    "summary": "Italy's premier technical university with strong industry connections"
+    "summary": "Italy's premier technical university with strong industry connections",
+    "discount": "23.08%"
   },
   {
     "name": "5. University of Milan",
@@ -72,7 +76,8 @@
     "actualPrice": "€2,000-€6,500/year (Non-EU)",
     "scholarship": "DSU regional scholarships",
     "accommodation": "€400-€700/month",
-    "summary": "Comprehensive research university with strong medical programs"
+    "summary": "Comprehensive research university with strong medical programs",
+    "discount": "25.00%"
   },
   {
     "name": "6. University of Pisa",
@@ -87,7 +92,8 @@
     "actualPrice": "€2,500-€5,500/year (Non-EU)",
     "scholarship": "DSU Pisa, UniPi Scholarships",
     "accommodation": "€300-€550/month",
-    "summary": "Historic university with excellent science and engineering programs"
+    "summary": "Historic university with excellent science and engineering programs",
+    "discount": "44.00%"
   },
   {
     "name": "7. University of Naples Federico II",
@@ -102,7 +108,8 @@
     "actualPrice": "€2,000-€5,000/year (Non-EU)",
     "scholarship": "EDISU Campania",
     "accommodation": "€250-€450/month",
-    "summary": "World's oldest public secular university with affordable tuition"
+    "summary": "World's oldest public secular university with affordable tuition",
+    "discount": "50.00%"
   },
   {
     "name": "8. Polytechnic University of Turin",
@@ -117,7 +124,8 @@
     "actualPrice": "€3,800-€7,000/year (Non-EU)",
     "scholarship": "PoliTO Scholarships",
     "accommodation": "€350-€600/month",
-    "summary": "Italy's oldest technical university with excellent engineering programs"
+    "summary": "Italy's oldest technical university with excellent engineering programs",
+    "discount": "26.32%"
   },
   {
     "name": "9. Ca' Foscari University of Venice",
@@ -132,7 +140,8 @@
     "actualPrice": "€2,500-€5,500/year (Non-EU)",
     "scholarship": "Ca' Foscari Merit Awards",
     "accommodation": "€400-€700/month",
-    "summary": "Unique university specializing in economics and humanities in Venice"
+    "summary": "Unique university specializing in economics and humanities in Venice",
+    "discount": "40.00%"
   },
   {
     "name": "10. University of Turin",
@@ -147,7 +156,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "EDISU Piemonte",
     "accommodation": "€300-€550/month",
-    "summary": "Comprehensive university with strong law and medical programs"
+    "summary": "Comprehensive university with strong law and medical programs",
+    "discount": "52.00%"
   },
   {
     "name": "11. University of Genoa",
@@ -162,7 +172,8 @@
     "actualPrice": "€2,000-€5,500/year (Non-EU)",
     "scholarship": "Liguria Region Scholarships",
     "accommodation": "€250-€500/month",
-    "summary": "Coastal university with strong maritime engineering programs"
+    "summary": "Coastal university with strong maritime engineering programs",
+    "discount": "50.00%"
   },
   {
     "name": "12. University of Trento",
@@ -177,7 +188,8 @@
     "actualPrice": "€3,000-€6,500/year (Non-EU)",
     "scholarship": "UniTrento International Scholarships",
     "accommodation": "€350-€600/month",
-    "summary": "Young, innovative university with strong international focus"
+    "summary": "Young, innovative university with strong international focus",
+    "discount": "50.00%"
   },
   {
     "name": "13. University of Palermo",
@@ -192,7 +204,8 @@
     "actualPrice": "€1,500-€4,500/year (Non-EU)",
     "scholarship": "Sicily Region Grants",
     "accommodation": "€200-€400/month",
-    "summary": "Leading Sicilian university with affordable living costs"
+    "summary": "Leading Sicilian university with affordable living costs",
+    "discount": "46.67%"
   },
   {
     "name": "14. University of Pavia",
@@ -207,7 +220,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "EDiSU Pavia",
     "accommodation": "€300-€500/month",
-    "summary": "Historic university with excellent medical school"
+    "summary": "Historic university with excellent medical school",
+    "discount": "52.00%"
   },
   {
     "name": "15. University of Florence",
@@ -222,7 +236,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "DSU Toscana",
     "accommodation": "€350-€650/month",
-    "summary": "Prestigious university in the heart of Renaissance Florence"
+    "summary": "Prestigious university in the heart of Renaissance Florence",
+    "discount": "44.00%"
   },
   {
     "name": "16. University of Florence",
@@ -237,7 +252,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "DSU Toscana",
     "accommodation": "€350-€650/month",
-    "summary": "Prestigious university in Renaissance city with strong arts and sciences"
+    "summary": "Prestigious university in Renaissance city with strong arts and sciences",
+    "discount": "44.00%"
   },
   {
     "name": "17. University of Rome Tor Vergata",
@@ -252,7 +268,8 @@
     "actualPrice": "€2,800-€6,500/year (Non-EU)",
     "scholarship": "Tor Vergata Scholarships",
     "accommodation": "€400-€700/month",
-    "summary": "Modern university with strong STEM and economics programs"
+    "summary": "Modern university with strong STEM and economics programs",
+    "discount": "46.43%"
   },
   {
     "name": "18. University of Siena",
@@ -267,7 +284,8 @@
     "actualPrice": "€2,000-€5,500/year (Non-EU)",
     "scholarship": "DSU Siena",
     "accommodation": "€300-€500/month",
-    "summary": "Historic university with excellent life sciences programs"
+    "summary": "Historic university with excellent life sciences programs",
+    "discount": "40.00%"
   },
   {
     "name": "19. University of Catania",
@@ -282,7 +300,8 @@
     "actualPrice": "€1,500-€4,000/year (Non-EU)",
     "scholarship": "Sicily Region Grants",
     "accommodation": "€200-€400/month",
-    "summary": "Affordable university with strong Mediterranean studies"
+    "summary": "Affordable university with strong Mediterranean studies",
+    "discount": "46.67%"
   },
   {
     "name": "20. University of Verona",
@@ -297,7 +316,8 @@
     "actualPrice": "€2,500-€5,500/year (Non-EU)",
     "scholarship": "EDISU Veneto",
     "accommodation": "€350-€550/month",
-    "summary": "Young university with innovative interdisciplinary programs"
+    "summary": "Young university with innovative interdisciplinary programs",
+    "discount": "40.00%"
   },
   {
     "name": "1. Université PSL (Paris Sciences et Lettres)",
@@ -312,7 +332,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "PSL Excellence Scholarships, Eiffel Scholarships",
     "accommodation": "€600-€1,200/month (Paris)",
-    "summary": "Elite institution combining France's top research schools with world-class facilities"
+    "summary": "Elite institution combining France's top research schools with world-class facilities",
+    "discount": "93.86%"
   },
   {
     "name": "2. Institut Polytechnique de Paris",
@@ -327,7 +348,8 @@
     "actualPrice": "€12,000-€24,000/year (Non-EU)",
     "scholarship": "IP Paris Excellence Scholarships",
     "accommodation": "€400-€800/month (campus housing available)",
-    "summary": "France's premier engineering and technology institute with cutting-edge research"
+    "summary": "France's premier engineering and technology institute with cutting-edge research",
+    "discount": "75.00%"
   },
   {
     "name": "3. Sorbonne University",
@@ -342,7 +364,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Sorbonne Excellence Grants",
     "accommodation": "€600-€1,200/month",
-    "summary": "World-renowned institution with strengths across arts and sciences"
+    "summary": "World-renowned institution with strengths across arts and sciences",
+    "discount": "93.86%"
   },
   {
     "name": "4. Université Paris-Saclay",
@@ -357,7 +380,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Paris-Saclay International Scholarships",
     "accommodation": "€400-€700/month (university housing)",
-    "summary": "Leading science and technology hub in Paris region"
+    "summary": "Leading science and technology hub in Paris region",
+    "discount": "93.86%"
   },
   {
     "name": "5. Université de Paris (Paris Cité University)",
@@ -372,7 +396,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Paris International Excellence Grants",
     "accommodation": "€600-€1,200/month",
-    "summary": "Comprehensive university with strong medical and science programs"
+    "summary": "Comprehensive university with strong medical and science programs",
+    "discount": "93.86%"
   },
   {
     "name": "6. Université Grenoble Alpes",
@@ -387,7 +412,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Grenoble Alpes Excellence Scholarships",
     "accommodation": "€300-€600/month",
-    "summary": "Major research university in the French Alps with strong STEM programs"
+    "summary": "Major research university in the French Alps with strong STEM programs",
+    "discount": "93.86%"
   },
   {
     "name": "7. Université de Bordeaux",
@@ -402,7 +428,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Bordeaux International Talent Program",
     "accommodation": "€300-€550/month",
-    "summary": "Leading university in southwest France with excellent psychology programs"
+    "summary": "Leading university in southwest France with excellent psychology programs",
+    "discount": "93.86%"
   },
   {
     "name": "8. Université de Montpellier",
@@ -417,7 +444,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Montpellier Excellence Initiative",
     "accommodation": "€300-€500/month",
-    "summary": "Historic Mediterranean university strong in life and environmental sciences"
+    "summary": "Historic Mediterranean university strong in life and environmental sciences",
+    "discount": "93.86%"
   },
   {
     "name": "9. Université Toulouse",
@@ -431,7 +459,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Toulouse Space and Aeronautics Scholarships",
-    "accommodation": "€300-€550/month"
+    "accommodation": "€300-€550/month",
+    "discount": "93.86%"
   },
   {
     "name": "10. Aix-Marseille Université",
@@ -445,7 +474,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "AMU Excellence Grants",
-    "accommodation": "€300-€600/month"
+    "accommodation": "€300-€600/month",
+    "discount": "93.86%"
   },
   {
     "name": "11. Université de Strasbourg",
@@ -459,7 +489,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Strasbourg Excellence Initiative",
-    "accommodation": "€350-€650/month"
+    "accommodation": "€350-€650/month",
+    "discount": "93.86%"
   },
   {
     "name": "12. Université de Lille",
@@ -473,7 +504,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Lille Metropole Scholarships",
-    "accommodation": "€300-€550/month"
+    "accommodation": "€300-€550/month",
+    "discount": "93.86%"
   },
   {
     "name": "13. Université de Nantes",
@@ -487,7 +519,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Nantes Atlantique Grants",
-    "accommodation": "€300-€500/month"
+    "accommodation": "€300-€500/month",
+    "discount": "93.86%"
   },
   {
     "name": "14. Université d'Orléans (and Tours)",
@@ -501,7 +534,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Centre-Val de Loire Region Awards",
-    "accommodation": "€250-€450/month"
+    "accommodation": "€250-€450/month",
+    "discount": "93.86%"
   },
   {
     "name": "15. Université de Rennes 1",
@@ -515,7 +549,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Rennes Scientific Excellence Program",
-    "accommodation": "€300-€550/month"
+    "accommodation": "€300-€550/month",
+    "discount": "93.86%"
   },
   {
     "name": "16. Université de Lorraine",
@@ -529,7 +564,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Lorraine International Talent Program",
-    "accommodation": "€300-€500/month"
+    "accommodation": "€300-€500/month",
+    "discount": "93.86%"
   },
   {
     "name": "17. Université de Dijon (Bourgogne Franche-Comté)",
@@ -543,7 +579,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Bourgogne Wine Industry Scholarships",
-    "accommodation": "€250-€450/month"
+    "accommodation": "€250-€450/month",
+    "discount": "93.86%"
   },
   {
     "name": "18. Université de Clermont Auvergne",
@@ -557,7 +594,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Auvergne Regional Grants",
-    "accommodation": "€250-€450/month"
+    "accommodation": "€250-€450/month",
+    "discount": "93.86%"
   },
   {
     "name": "19. Université de Poitiers",
@@ -571,7 +609,8 @@
     "discountedPrice": "€170-€3,770/year (EU)",
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Poitiers Historical Studies Awards",
-    "accommodation": "€250-€450/month"
+    "accommodation": "€250-€450/month",
+    "discount": "93.86%"
   },
   {
     "name": "20. Université Toulouse-Jean Jaurès (Toulouse II)",
@@ -586,7 +625,8 @@
     "actualPrice": "€2,770-€10,000/year (Non-EU)",
     "scholarship": "Occitanie Region Humanities Grants",
     "accommodation": "€300-€550/month",
-    "summary": "Specialized university for arts, humanities and social sciences in southern France"
+    "summary": "Specialized university for arts, humanities and social sciences in southern France",
+    "discount": "93.86%"
   },
   {
     "name": "1. University of Barcelona",
@@ -601,7 +641,8 @@
     "actualPrice": "€2,000-€7,000/year (Non-EU)",
     "scholarship": "UB Excellence Grants, Spanish Government Scholarships",
     "accommodation": "€400-€800/month (Barcelona)",
-    "summary": "Historic university with comprehensive programs and strong research output"
+    "summary": "Historic university with comprehensive programs and strong research output",
+    "discount": "50.00%"
   },
   {
     "name": "2. Autonomous University of Barcelona (UAB)",
@@ -616,7 +657,8 @@
     "actualPrice": "€2,500-€6,500/year (Non-EU)",
     "scholarship": "UAB International Scholarships",
     "accommodation": "€350-€600/month (campus housing available)",
-    "summary": "Modern campus university with excellent research facilities"
+    "summary": "Modern campus university with excellent research facilities",
+    "discount": "52.00%"
   },
   {
     "name": "3. Pompeu Fabra University",
@@ -631,7 +673,8 @@
     "actualPrice": "€3,000-€8,000/year (Non-EU)",
     "scholarship": "UPF Talent Scholarships",
     "accommodation": "€450-€850/month",
-    "summary": "Young, innovative university strong in social sciences and IT"
+    "summary": "Young, innovative university strong in social sciences and IT",
+    "discount": "50.00%"
   },
   {
     "name": "4. Autonomous University of Madrid (UAM)",
@@ -646,7 +689,8 @@
     "actualPrice": "€2,500-€7,000/year (Non-EU)",
     "scholarship": "UAM Excellence Program",
     "accommodation": "€350-€700/month",
-    "summary": "Prestigious research university with beautiful suburban campus"
+    "summary": "Prestigious research university with beautiful suburban campus",
+    "discount": "60.00%"
   },
   {
     "name": "5. Complutense University of Madrid (UCM)",
@@ -661,7 +705,8 @@
     "actualPrice": "€2,000-€6,500/year (Non-EU)",
     "scholarship": "Complutense Merit Awards",
     "accommodation": "€400-€800/month",
-    "summary": "One of the world's oldest universities with comprehensive offerings"
+    "summary": "One of the world's oldest universities with comprehensive offerings",
+    "discount": "50.00%"
   },
   {
     "name": "6. University of Valencia (UV)",
@@ -676,7 +721,8 @@
     "actualPrice": "€1,800-€5,500/year (Non-EU)",
     "scholarship": "UV International Grants",
     "accommodation": "€300-€550/month",
-    "summary": "Historic Mediterranean university strong in sciences and health"
+    "summary": "Historic Mediterranean university strong in sciences and health",
+    "discount": "50.00%"
   },
   {
     "name": "7. University of Granada",
@@ -691,7 +737,8 @@
     "actualPrice": "€1,600-€4,500/year (Non-EU)",
     "scholarship": "Granada Mobility Grants",
     "accommodation": "€250-€450/month",
-    "summary": "Affordable historic university with strong Arabic studies"
+    "summary": "Affordable historic university with strong Arabic studies",
+    "discount": "50.00%"
   },
   {
     "name": "8. Polytechnic University of Madrid (UPM)",
@@ -706,7 +753,8 @@
     "actualPrice": "€3,000-€7,500/year (Non-EU)",
     "scholarship": "UPM Engineering Excellence",
     "accommodation": "€400-€750/month",
-    "summary": "Spain's top engineering school with strong industry ties"
+    "summary": "Spain's top engineering school with strong industry ties",
+    "discount": "50.00%"
   },
   {
     "name": "9. Polytechnic University of Catalonia (UPC)",
@@ -721,7 +769,8 @@
     "actualPrice": "€3,500-€9,000/year (Non-EU)",
     "scholarship": "UPC Talent Program",
     "accommodation": "€450-€850/month",
-    "summary": "Leading technical university with innovative programs"
+    "summary": "Leading technical university with innovative programs",
+    "discount": "48.57%"
   },
   {
     "name": "10. Polytechnic University of Valencia (UPV)",
@@ -734,7 +783,8 @@
     "languages": "Spanish, Valencian, English (many engineering programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
     "actualPrice": "€3,000-€7,000/year (Non-EU)",
-    "scholarship": "UPV International Engineering Awards"
+    "scholarship": "UPV International Engineering Awards",
+    "discount": "50.00%"
   },
   {
     "name": "11. University of Seville",
@@ -747,7 +797,8 @@
     "languages": "Spanish (primary), English (limited STEM programs)",
     "discountedPrice": "€800-€2,500/year (EU)",
     "actualPrice": "€1,600-€5,000/year (Non-EU)",
-    "scholarship": "Andalusia Talent Program"
+    "scholarship": "Andalusia Talent Program",
+    "discount": "50.00%"
   },
   {
     "name": "12. University of the Basque Country (UPV/EHU)",
@@ -760,7 +811,8 @@
     "languages": "Basque, Spanish, English (engineering programs)",
     "discountedPrice": "€1,000-€3,000/year (EU)",
     "actualPrice": "€2,000-€6,000/year (Non-EU)",
-    "scholarship": "Basque Government Grants"
+    "scholarship": "Basque Government Grants",
+    "discount": "50.00%"
   },
   {
     "name": "13. Polytechnic University of Madrid (UPM)",
@@ -773,7 +825,8 @@
     "languages": "Spanish, English (many engineering programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
     "actualPrice": "€3,000-€7,500/year (Non-EU)",
-    "scholarship": "UPM Engineering Excellence"
+    "scholarship": "UPM Engineering Excellence",
+    "discount": "50.00%"
   },
   {
     "name": "14. Polytechnic University of Catalonia (UPC)",
@@ -786,7 +839,8 @@
     "languages": "Catalan, Spanish, English (many programs)",
     "discountedPrice": "€1,800-€4,000/year (EU)",
     "actualPrice": "€3,500-€9,000/year (Non-EU)",
-    "scholarship": "UPC Talent Program"
+    "scholarship": "UPC Talent Program",
+    "discount": "48.57%"
   },
   {
     "name": "15. Polytechnic University of Valencia (UPV)",
@@ -799,7 +853,8 @@
     "languages": "Spanish, Valencian, English (many programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
     "actualPrice": "€3,000-€7,000/year (Non-EU)",
-    "scholarship": "UPV International Engineering Awards"
+    "scholarship": "UPV International Engineering Awards",
+    "discount": "50.00%"
   },
   {
     "name": "16. University of Granada",
@@ -812,7 +867,8 @@
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,200/year (EU)",
     "actualPrice": "€1,600-€4,500/year (Non-EU)",
-    "scholarship": "Granada Mobility Grants"
+    "scholarship": "Granada Mobility Grants",
+    "discount": "50.00%"
   },
   {
     "name": "17. University of Salamanca",
@@ -825,7 +881,8 @@
     "languages": "Spanish (primary)",
     "discountedPrice": "€900-€2,800/year (EU)",
     "actualPrice": "€1,800-€5,500/year (Non-EU)",
-    "scholarship": "Salamanca Historical Studies Awards"
+    "scholarship": "Salamanca Historical Studies Awards",
+    "discount": "50.00%"
   },
   {
     "name": "18. University of Zaragoza",
@@ -838,7 +895,8 @@
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,500/year (EU)",
     "actualPrice": "€1,600-€5,000/year (Non-EU)",
-    "scholarship": "Aragon Regional Scholarships"
+    "scholarship": "Aragon Regional Scholarships",
+    "discount": "50.00%"
   },
   {
     "name": "19. University of Santiago de Compostela",
@@ -851,7 +909,8 @@
     "languages": "Galician, Spanish (primary)",
     "discountedPrice": "€700-€2,200/year (EU)",
     "actualPrice": "€1,400-€4,500/year (Non-EU)",
-    "scholarship": "Galicia Talent Program"
+    "scholarship": "Galicia Talent Program",
+    "discount": "50.00%"
   },
   {
     "name": "20. University of Valladolid",
@@ -865,7 +924,8 @@
     "discountedPrice": "€800-€2,500/year (EU)",
     "actualPrice": "€1,600-€5,000/year (Non-EU)",
     "scholarship": "Castilla y León Regional Awards",
-    "accommodation": "€250-€450/month"
+    "accommodation": "€250-€450/month",
+    "discount": "50.00%"
   },
   {
     "name": "5. Lithuanian University of Health Sciences (LSMU)",
@@ -877,7 +937,8 @@
     "discountedPrice": "€7,500-€12,000/year (non-EU)",
     "actualPrice": "€8,500-€13,500/year",
     "scholarship": "LSMU Excellence Scholarship (15-50% tuition waiver), State-funded spots for EU students",
-    "accommodation": "Student dormitories (€120-€250/month), Hospital residency options"
+    "accommodation": "Student dormitories (€120-€250/month), Hospital residency options",
+    "discount": "11.76%"
   },
   {
     "name": "6. Mykolas Romeris University (MRU)",
@@ -889,7 +950,8 @@
     "discountedPrice": "€2,100-€3,800/year (EU), €2,800-€5,200/year (non-EU)",
     "actualPrice": "€3,500-€6,500/year",
     "scholarship": "MRU Social Scholarship, Erasmus+ mobility grants",
-    "accommodation": "Vilnius dormitories (€100-€200/month)"
+    "accommodation": "Vilnius dormitories (€100-€200/month)",
+    "discount": "40.00%"
   },
   {
     "name": "7. Klaipėda University",
@@ -901,7 +963,8 @@
     "discountedPrice": "€2,000-€3,500/year (EU), €2,500-€4,500/year (non-EU)",
     "actualPrice": "€3,000-€5,500/year",
     "scholarship": "Klaipėda City Scholarship, Sea-related research grants",
-    "accommodation": "Seaside dormitories (€80-€150/month)"
+    "accommodation": "Seaside dormitories (€80-€150/month)",
+    "discount": "33.33%"
   },
   {
     "name": "8. Lithuanian Sports University",
@@ -913,7 +976,8 @@
     "discountedPrice": "€2,300-€3,800/year",
     "actualPrice": "€3,000-€5,000/year",
     "scholarship": "Athletic Performance Scholarships, Olympic Committee grants",
-    "accommodation": "Sports campus dorms (€90-€180/month)"
+    "accommodation": "Sports campus dorms (€90-€180/month)",
+    "discount": "23.33%"
   },
   {
     "name": "9. Lithuanian University of Educational Sciences",
@@ -925,7 +989,8 @@
     "discountedPrice": "€1,800-€2,500/year (EU)",
     "actualPrice": "€2,500-€3,500/year",
     "scholarship": "State Teacher Training grants",
-    "accommodation": "Educational campus housing (€70-€150/month)"
+    "accommodation": "Educational campus housing (€70-€150/month)",
+    "discount": "28.00%"
   },
   {
     "name": "10. Aleksandras Stulginskis University",
@@ -938,7 +1003,8 @@
     "actualPrice": "€3,000-€5,500/year",
     "scholarship": "Agricultural Innovation Awards, EU CAP grants",
     "accommodation": "Rural campus dorms (€60-€120/month)",
-    "summary": "Lithuania's premier agrotechnical university with experimental farms and strong focus on sustainable agriculture research."
+    "summary": "Lithuania's premier agrotechnical university with experimental farms and strong focus on sustainable agriculture research.",
+    "discount": "36.67%"
   },
   {
     "name": "11. Vilnius University Šiauliai Academy",
@@ -953,7 +1019,8 @@
     "actualPrice": "€2,500-€5,500/year (Non-EU)",
     "scholarship": "VU Šiauliai Merit Awards, Lithuanian State Scholarships",
     "accommodation": "€150-€300/month (university dormitories)",
-    "summary": "Northern Lithuania's key institution for teacher education and regional development studies"
+    "summary": "Northern Lithuania's key institution for teacher education and regional development studies",
+    "discount": "52.00%"
   },
   {
     "name": "12. Lithuanian Sports University",
@@ -968,7 +1035,8 @@
     "actualPrice": "€3,000-€6,500/year (Non-EU)",
     "scholarship": "LSU Athletic Excellence Program",
     "accommodation": "€200-€450/month",
-    "summary": "Premier institution for sports education with Olympic-level training facilities"
+    "summary": "Premier institution for sports education with Olympic-level training facilities",
+    "discount": "50.00%"
   },
   {
     "name": "13. Marijampolė University of Applied Sciences",
@@ -983,7 +1051,8 @@
     "actualPrice": "€2,000-€4,000/year (Non-EU)",
     "scholarship": "Regional Development Grants",
     "accommodation": "€120-€250/month",
-    "summary": "Practical-oriented institution with strong industry connections in southern Lithuania"
+    "summary": "Practical-oriented institution with strong industry connections in southern Lithuania",
+    "discount": "50.00%"
   },
   {
     "name": "14. Lithuanian Academy of Music and Theatre",
@@ -998,7 +1067,8 @@
     "actualPrice": "€3,500-€7,000/year (Non-EU)",
     "scholarship": "Artistic Talent Scholarships",
     "accommodation": "€200-€500/month",
-    "summary": "Prestigious conservatory-style academy nurturing Lithuania's performing artists"
+    "summary": "Prestigious conservatory-style academy nurturing Lithuania's performing artists",
+    "discount": "48.57%"
   },
   {
     "name": "15. Lithuanian University of Health Sciences",
@@ -1013,7 +1083,8 @@
     "actualPrice": "€8,000-€12,000/year (Non-EU)",
     "scholarship": "LSMU Excellence in Health Sciences",
     "accommodation": "€250-€500/month",
-    "summary": "Comprehensive health sciences university with modern teaching hospitals"
+    "summary": "Comprehensive health sciences university with modern teaching hospitals",
+    "discount": "68.75%"
   },
   {
     "name": "16. General Jonas Žemaitis Military Academy",
@@ -1028,7 +1099,8 @@
     "actualPrice": "€5,000+/year (international cadets)",
     "scholarship": "Military Service Contracts",
     "accommodation": "Provided on base",
-    "summary": "National defense institution combining military training with academic degrees"
+    "summary": "National defense institution combining military training with academic degrees",
+    "discount": "N/A"
   },
   {
     "name": "17. Lithuanian Academy of Arts",
@@ -1043,7 +1115,8 @@
     "actualPrice": "€3,500-€6,500/year (Non-EU)",
     "scholarship": "VDA Creative Talent Awards",
     "accommodation": "€200-€500/month",
-    "summary": "Historic academy preserving and innovating Baltic art traditions"
+    "summary": "Historic academy preserving and innovating Baltic art traditions",
+    "discount": "57.14%"
   },
   {
     "name": "18. Lithuanian University of Educational Sciences",
@@ -1058,7 +1131,8 @@
     "actualPrice": "€2,000-€4,500/year (Non-EU)",
     "scholarship": "Future Educators Program",
     "accommodation": "€150-€350/month",
-    "summary": "National center for pedagogical education and educational research"
+    "summary": "National center for pedagogical education and educational research",
+    "discount": "50.00%"
   },
   {
     "name": "19. Aleksandras Stulginskis University (LAMMC)",
@@ -1073,7 +1147,8 @@
     "actualPrice": "€2,500-€5,000/year (Non-EU)",
     "scholarship": "LAMMC Research Grants",
     "accommodation": "€100-€250/month (rural campus)",
-    "summary": "Leading agroscience institution with extensive research farms"
+    "summary": "Leading agroscience institution with extensive research farms",
+    "discount": "52.00%"
   },
   {
     "name": "20. Vytautas Magnus University",
@@ -1088,7 +1163,8 @@
     "actualPrice": "€3,000-€6,000/year (Non-EU)",
     "scholarship": "VMU International Excellence Awards",
     "accommodation": "€200-€450/month",
-    "summary": "Innovative university with strong international partnerships and liberal arts focus"
+    "summary": "Innovative university with strong international partnerships and liberal arts focus",
+    "discount": "50.00%"
   },
   {
     "name": "1. University of Latvia (Latvijas Universitāte)",
@@ -1103,7 +1179,8 @@
     "actualPrice": "€3,000-€12,000/year (Non-EU)",
     "scholarship": "LU Excellence Awards, Latvian State Scholarships",
     "accommodation": "€150-€400/month",
-    "summary": "Comprehensive national university with strong research output across disciplines"
+    "summary": "Comprehensive national university with strong research output across disciplines",
+    "discount": "50.00%"
   },
   {
     "name": "2. Riga Technical University (RTU)",
@@ -1118,7 +1195,8 @@
     "actualPrice": "€3,500-€8,000/year (Non-EU)",
     "scholarship": "RTU Engineering Talent Program",
     "accommodation": "€200-€450/month",
-    "summary": "Premier technical university with historic campus on Ķīpsala Island"
+    "summary": "Premier technical university with historic campus on Ķīpsala Island",
+    "discount": "48.57%"
   },
   {
     "name": "3. Riga Stradiņš University (RSU)",
@@ -1133,7 +1211,8 @@
     "actualPrice": "€8,000-€15,000/year (Non-EU)",
     "scholarship": "RSU Medical Excellence Awards",
     "accommodation": "€250-€500/month",
-    "summary": "Top medical school with modern teaching hospitals and international recognition"
+    "summary": "Top medical school with modern teaching hospitals and international recognition",
+    "discount": "68.75%"
   },
   {
     "name": "4. Latvia University of Life Sciences and Technologies",
@@ -1148,7 +1227,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "LBTU Agro Innovation Grants",
     "accommodation": "€100-€250/month",
-    "summary": "Leading agroscience institution with extensive research farms"
+    "summary": "Leading agroscience institution with extensive research farms",
+    "discount": "52.00%"
   },
   {
     "name": "5. Daugavpils University",
@@ -1163,7 +1243,8 @@
     "actualPrice": "€2,000-€5,000/year (Non-EU)",
     "scholarship": "DU Regional Development Awards",
     "accommodation": "€80-€200/month",
-    "summary": "Eastern Latvia's cultural and educational center with affordable costs"
+    "summary": "Eastern Latvia's cultural and educational center with affordable costs",
+    "discount": "50.00%"
   },
   {
     "name": "6. Rēzekne Academy of Technologies",
@@ -1178,7 +1259,8 @@
     "actualPrice": "€1,800-€4,500/year (Non-EU)",
     "scholarship": "RTA Technology Innovation Grants",
     "accommodation": "€70-€180/month",
-    "summary": "Applied sciences institution serving Eastern Latvia's development needs"
+    "summary": "Applied sciences institution serving Eastern Latvia's development needs",
+    "discount": "50.00%"
   },
   {
     "name": "7. Vidzeme University of Applied Sciences",
@@ -1193,7 +1275,8 @@
     "actualPrice": "€2,000-€4,500/year (Non-EU)",
     "scholarship": "Vidzeme Regional Development Fund",
     "accommodation": "€100-€250/month",
-    "summary": "Practice-oriented institution focused on northern Latvia's economic sectors"
+    "summary": "Practice-oriented institution focused on northern Latvia's economic sectors",
+    "discount": "50.00%"
   },
   {
     "name": "8. Art Academy of Latvia",
@@ -1208,7 +1291,8 @@
     "actualPrice": "€3,500-€7,000/year (Non-EU)",
     "scholarship": "LMA Artistic Excellence Awards",
     "accommodation": "€150-€400/month",
-    "summary": "Historic academy preserving and innovating Baltic art traditions"
+    "summary": "Historic academy preserving and innovating Baltic art traditions",
+    "discount": "57.14%"
   },
   {
     "name": "9. Ventspils University of Applied Sciences",
@@ -1223,7 +1307,8 @@
     "actualPrice": "€2,000-€5,000/year (Non-EU)",
     "scholarship": "Ventspils High-Tech Park Grants",
     "accommodation": "€100-€250/month",
-    "summary": "Coastal university with strong maritime and IT industry ties"
+    "summary": "Coastal university with strong maritime and IT industry ties",
+    "discount": "50.00%"
   },
   {
     "name": "10. Latvian Academy of Culture",
@@ -1238,7 +1323,8 @@
     "actualPrice": "€2,500-€6,000/year (Non-EU)",
     "scholarship": "LKA Cultural Heritage Awards",
     "accommodation": "€150-€400/month",
-    "summary": "Unique institution bridging traditional and contemporary cultural practices"
+    "summary": "Unique institution bridging traditional and contemporary cultural practices",
+    "discount": "52.00%"
   },
   {
     "name": "11. Latvian Academy of Sport Education",
@@ -1252,7 +1338,8 @@
     "actualPrice": "€2,200-€4,500/year",
     "scholarship": "Elite Athlete Program (up to 100% waiver), Olympic Committee grants",
     "accommodation": "Sports campus dorms (€90-€180/month)",
-    "summary": "Latvia's premier sports education institution with Olympic-standard facilities and research in sports performance analytics."
+    "summary": "Latvia's premier sports education institution with Olympic-standard facilities and research in sports performance analytics.",
+    "discount": "18.18%"
   },
   {
     "name": "12. Jāzeps Vītols Latvian Academy of Music",
@@ -1266,7 +1353,8 @@
     "actualPrice": "€3,500-€6,000/year",
     "scholarship": "Talent Scholarships (performance-based), Erasmus+ for music mobility",
     "accommodation": "Historic center practice rooms + dorms (€120-€250/month)",
-    "summary": "Prestigious conservatoire maintaining Baltic musical traditions while fostering contemporary composition and performance."
+    "summary": "Prestigious conservatoire maintaining Baltic musical traditions while fostering contemporary composition and performance.",
+    "discount": "42.86%"
   },
   {
     "name": "13. Liepāja University",
@@ -1280,7 +1368,8 @@
     "actualPrice": "€2,000-€4,000/year",
     "scholarship": "Baltic Sea Region grants, Liepāja City scholarships",
     "accommodation": "Seaside student housing (€70-€150/month)",
-    "summary": "Coastal university offering interdisciplinary programs with strong maritime and arts specializations in Latvia's third-largest city."
+    "summary": "Coastal university offering interdisciplinary programs with strong maritime and arts specializations in Latvia's third-largest city.",
+    "discount": "25.00%"
   },
   {
     "name": "14. BA School of Business and Finance",
@@ -1294,7 +1383,8 @@
     "actualPrice": "€2,800-€4,500/year",
     "scholarship": "Banking Sector scholarships, Academic Merit awards",
     "accommodation": "Riga business district apartments (€250-€400/month)",
-    "summary": "Practice-oriented business school with direct links to Latvian financial sector and innovative fintech programs."
+    "summary": "Practice-oriented business school with direct links to Latvian financial sector and innovative fintech programs.",
+    "discount": "25.00%"
   },
   {
     "name": "15. Baltic International Academy",
@@ -1308,7 +1398,8 @@
     "actualPrice": "€2,000-€3,500/year",
     "scholarship": "CIS Student grants, Alumni discounts",
     "accommodation": "Partner hostels (€100-€200/month)",
-    "summary": "Multilingual institution popular among CIS students, offering career-focused programs with flexible scheduling."
+    "summary": "Multilingual institution popular among CIS students, offering career-focused programs with flexible scheduling.",
+    "discount": "25.00%"
   },
   {
     "name": "16. Transport and Telecommunication Institute",
@@ -1322,7 +1413,8 @@
     "actualPrice": "€2,500-€4,200/year",
     "scholarship": "Digital Latvia grants, Industry partnerships",
     "accommodation": "Tech campus housing (€100-€220/month)",
-    "summary": "Innovative institute combining transport engineering with cutting-edge IT studies, including autonomous vehicle research."
+    "summary": "Innovative institute combining transport engineering with cutting-edge IT studies, including autonomous vehicle research.",
+    "discount": "28.00%"
   },
   {
     "name": "17. Riga Teacher Training Academy",
@@ -1336,7 +1428,8 @@
     "actualPrice": "€2,000-€3,000/year",
     "scholarship": "Guaranteed teaching positions after graduation",
     "accommodation": "Pedagogical campus (€60-€120/month)",
-    "summary": "Nation's primary teacher training institution implementing innovative education methodologies across all school levels."
+    "summary": "Nation's primary teacher training institution implementing innovative education methodologies across all school levels.",
+    "discount": "40.00%"
   },
   {
     "name": "18. International Higher School of Practical Psychology",
@@ -1350,7 +1443,8 @@
     "actualPrice": "€3,200-€5,000/year",
     "scholarship": "Mental Health Initiative grants",
     "accommodation": "Therapy center placements available",
-    "summary": "Unique practice-oriented psychology school offering direct clinical experience through partner healthcare institutions."
+    "summary": "Unique practice-oriented psychology school offering direct clinical experience through partner healthcare institutions.",
+    "discount": "21.88%"
   },
   {
     "name": "19. Riga Graduate School of Law",
@@ -1364,7 +1458,8 @@
     "actualPrice": "€5,000-€7,500/year",
     "scholarship": "RGSL Excellence Awards, EU Law scholarships",
     "accommodation": "Old Town legal district housing (€300-€500/month)",
-    "summary": "Prestigious law school specializing in European Union legal studies with strong Brussels connections."
+    "summary": "Prestigious law school specializing in European Union legal studies with strong Brussels connections.",
+    "discount": "24.00%"
   },
   {
     "name": "20. Stockholm School of Economics in Riga",
@@ -1377,7 +1472,8 @@
     "discountedPrice": "€6,000-€8,000/year (merit-based)",
     "actualPrice": "€8,500-€12,000/year",
     "scholarship": "SSE Riga Need-Based (up to 100%), Corporate sponsorships",
-    "accommodation": "Premium business campus (€350-€600/month)"
+    "accommodation": "Premium business campus (€350-€600/month)",
+    "discount": "29.41%"
   },
   {
     "name": "1. University of Vienna",
@@ -1391,7 +1487,8 @@
     "discountedPrice": "€726.72/semester (EU/EEA)",
     "actualPrice": "€1,453.44-€7,500/semester (Non-EU)",
     "scholarship": "Leistungsstipendium, Erasmus+",
-    "accommodation": "€400-€800/month (Vienna)"
+    "accommodation": "€400-€800/month (Vienna)",
+    "discount": "50.00%"
   },
   {
     "name": "2. TU Wien (Vienna University of Technology)",
@@ -1405,7 +1502,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€8,000/semester (Non-EU)",
     "scholarship": "TU Wien Talent Program",
-    "accommodation": "€450-€900/month"
+    "accommodation": "€450-€900/month",
+    "discount": "50.00%"
   },
   {
     "name": "3. University of Innsbruck",
@@ -1419,7 +1517,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€7,000/semester (Non-EU)",
     "scholarship": "Innsbruck Scientific Funds",
-    "accommodation": "€350-€650/month"
+    "accommodation": "€350-€650/month",
+    "discount": "50.00%"
   },
   {
     "name": "4. University of Graz",
@@ -1433,7 +1532,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€6,500/semester (Non-EU)",
     "scholarship": "Uni Graz Excellence Grants",
-    "accommodation": "€300-€550/month"
+    "accommodation": "€300-€550/month",
+    "discount": "50.00%"
   },
   {
     "name": "5. Graz University of Technology (TU Graz)",
@@ -1447,7 +1547,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€7,500/semester (Non-EU)",
     "scholarship": "TU Graz Research Fellowships",
-    "accommodation": "€350-€600/month"
+    "accommodation": "€350-€600/month",
+    "discount": "50.00%"
   },
   {
     "name": "6. Johannes Kepler University Linz (JKU)",
@@ -1461,7 +1562,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€7,000/semester (Non-EU)",
     "scholarship": "JKU Linz International Awards",
-    "accommodation": "€300-€500/month"
+    "accommodation": "€300-€500/month",
+    "discount": "50.00%"
   },
   {
     "name": "7. Medical University of Vienna",
@@ -1475,7 +1577,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€15,000/semester (Non-EU)",
     "scholarship": "MedUni Vienna Research Grants",
-    "accommodation": "€450-€900/month"
+    "accommodation": "€450-€900/month",
+    "discount": "50.00%"
   },
   {
     "name": "8. University of Natural Resources and Life Sciences (BOKU)",
@@ -1489,7 +1592,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€6,000/semester (Non-EU)",
     "scholarship": "BOKU Sustainability Awards",
-    "accommodation": "€400-€700/month"
+    "accommodation": "€400-€700/month",
+    "discount": "50.00%"
   },
   {
     "name": "9. Vienna University of Economics and Business (WU)",
@@ -1503,7 +1607,8 @@
     "discountedPrice": "€726.72/semester (EU)",
     "actualPrice": "€1,453.44-€9,000/semester (Non-EU)",
     "scholarship": "WU Global Executive Program",
-    "accommodation": "€500-€1,000/month"
+    "accommodation": "€500-€1,000/month",
+    "discount": "50.00%"
   },
   {
     "name": "10. University of Salzburg (Paris Lodron)",
@@ -1518,7 +1623,8 @@
     "actualPrice": "€1,453.44-€7,500/semester (Non-EU)",
     "scholarship": "Salzburg International Student Aid",
     "accommodation": "€350-€650/month",
-    "summary": "Historic university with 36% international students and strong humanities focus"
+    "summary": "Historic university with 36% international students and strong humanities focus",
+    "discount": "50.00%"
   },
   {
     "name": "11. University of Veterinary Medicine Vienna",
@@ -1532,7 +1638,8 @@
     "actualPrice": "€1,500-€5,000/semester",
     "scholarship": "VetMed Excellence Grants, Erasmus+ placements",
     "accommodation": "Veterinary campus housing (€350-€550/month)",
-    "summary": "Europe's oldest veterinary school with state-of-the-art animal hospitals and unique specializations in equine medicine and food safety."
+    "summary": "Europe's oldest veterinary school with state-of-the-art animal hospitals and unique specializations in equine medicine and food safety.",
+    "discount": "51.60%"
   },
   {
     "name": "12. Medical University of Graz",
@@ -1546,7 +1653,8 @@
     "actualPrice": "€1,200-€5,000/semester",
     "scholarship": "MedGraz Research Fellowships",
     "accommodation": "Clinical campus residences (€300-€450/month)",
-    "summary": "Leading medical research hub with innovative curriculum and strong focus on molecular medicine and clinical neuroscience."
+    "summary": "Leading medical research hub with innovative curriculum and strong focus on molecular medicine and clinical neuroscience.",
+    "discount": "69.75%"
   },
   {
     "name": "13. Medical University of Innsbruck",
@@ -1560,7 +1668,8 @@
     "actualPrice": "€7,000-€15,000/year (non-EU MD)",
     "scholarship": "Tyrol Medical Research Grants",
     "accommodation": "Alpine-style student houses (€400-€600/month)",
-    "summary": "Mountain medicine specialist with unique high-altitude physiology research and modern university hospitals."
+    "summary": "Mountain medicine specialist with unique high-altitude physiology research and modern university hospitals.",
+    "discount": "94.81%"
   },
   {
     "name": "14. University of Leoben (Montanuniversität)",
@@ -1574,7 +1683,8 @@
     "actualPrice": "€1,500-€3,500/semester",
     "scholarship": "Industry-sponsored metallurgy awards",
     "accommodation": "Mining heritage dorms (€250-€400/month)",
-    "summary": "Europe's premier resources university with underground research labs and strong industry partnerships in extractive technologies."
+    "summary": "Europe's premier resources university with underground research labs and strong industry partnerships in extractive technologies.",
+    "discount": "75.80%"
   },
   {
     "name": "15. Danube University Krems",
@@ -1588,7 +1698,8 @@
     "actualPrice": "€5,000-€12,000/program",
     "scholarship": "Professional development grants",
     "accommodation": "Danube campus suites (€500-€800/month)",
-    "summary": "Austria's only dedicated continuing education university offering flexible programs for working professionals."
+    "summary": "Austria's only dedicated continuing education university offering flexible programs for working professionals.",
+    "discount": "30.00%"
   },
   {
     "name": "16. University of Applied Arts Vienna",
@@ -1602,7 +1713,8 @@
     "actualPrice": "€1,200-€3,000/semester",
     "scholarship": "Artistic Talent Awards",
     "accommodation": "Creative studios (€450-€700/month)",
-    "summary": "Avant-garde art school fostering interdisciplinary experimentation and radical design thinking."
+    "summary": "Avant-garde art school fostering interdisciplinary experimentation and radical design thinking.",
+    "discount": "69.75%"
   },
   {
     "name": "17. University of Music and Performing Arts Vienna (mdw)",
@@ -1616,7 +1728,8 @@
     "actualPrice": "€1,500-€4,000/semester",
     "scholarship": "Performance Excellence Grants",
     "accommodation": "Music practice residences (€500-€900/month)",
-    "summary": "World-renowned conservatory maintaining Viennese musical traditions while nurturing contemporary performance arts."
+    "summary": "World-renowned conservatory maintaining Viennese musical traditions while nurturing contemporary performance arts.",
+    "discount": "75.80%"
   },
   {
     "name": "18. University Mozarteum Salzburg",
@@ -1630,7 +1743,8 @@
     "actualPrice": "€1,800-€4,500/semester",
     "scholarship": "Mozart Talent Program",
     "accommodation": "Baroque-style artist housing (€400-€650/month)",
-    "summary": "Prestigious institution specializing in classical music performance with unique access to Salzburg Festival."
+    "summary": "Prestigious institution specializing in classical music performance with unique access to Salzburg Festival.",
+    "discount": "79.83%"
   },
   {
     "name": "19. University of Art and Industrial Design Linz",
@@ -1644,7 +1758,8 @@
     "actualPrice": "€1,500-€3,500/semester",
     "scholarship": "Ars Electronica Collaboration Grants",
     "accommodation": "Design lofts (€350-€600/month)",
-    "summary": "Innovative art school closely integrated with Linz's high-tech industries and digital arts scene."
+    "summary": "Innovative art school closely integrated with Linz's high-tech industries and digital arts scene.",
+    "discount": "75.80%"
   },
   {
     "name": "20. IST Austria (Institute of Science and Technology)",
@@ -1658,7 +1773,8 @@
     "actualPrice": "N/A (research institute)",
     "scholarship": "Fully-funded doctoral contracts",
     "accommodation": "Research campus housing (€400-€600/month)",
-    "summary": "Elite basic research institution following the Max Planck model with Nobel-level faculty and cutting-edge facilities."
+    "summary": "Elite basic research institution following the Max Planck model with Nobel-level faculty and cutting-edge facilities.",
+    "discount": "N/A"
   },
   {
     "name": "1. Ludwig Maximilian University of Munich (LMU Munich)",
@@ -1672,7 +1788,8 @@
     "tuition": "No tuition (€62-€152 semester fee)",
     "scholarship": "LMU Excellence, Deutschlandstipendium",
     "accommodation": "€600-€1,200/month",
-    "summary": "Comprehensive elite university with 42 Nobel laureates and cutting-edge interdisciplinary research"
+    "summary": "Comprehensive elite university with 42 Nobel laureates and cutting-edge interdisciplinary research",
+    "discount": "N/A"
   },
   {
     "name": "2. Technical University of Munich (TUM)",
@@ -1686,7 +1803,8 @@
     "tuition": "No tuition (€62-€152 semester fee)",
     "scholarship": "TUM Talent Program, DAAD",
     "accommodation": "€650-€1,300/month",
-    "summary": "Innovation leader with strong industry ties and entrepreneurial ecosystem"
+    "summary": "Innovation leader with strong industry ties and entrepreneurial ecosystem",
+    "discount": "N/A"
   },
   {
     "name": "3. Heidelberg University",
@@ -1700,7 +1818,8 @@
     "tuition": "No tuition (€160 semester fee)",
     "scholarship": "Heidelberg Scholars, Excellence Initiative",
     "accommodation": "€400-€800/month",
-    "summary": "Historic research powerhouse with 56 Nobel Prize connections"
+    "summary": "Historic research powerhouse with 56 Nobel Prize connections",
+    "discount": "N/A"
   },
   {
     "name": "4. Humboldt University of Berlin",
@@ -1714,7 +1833,8 @@
     "tuition": "No tuition (€300 semester fee incl. transport)",
     "scholarship": "Humboldt Research Fellowships",
     "accommodation": "€450-€900/month",
-    "summary": "Birthplace of modern academia with strong humanities tradition"
+    "summary": "Birthplace of modern academia with strong humanities tradition",
+    "discount": "N/A"
   },
   {
     "name": "5. Free University of Berlin (FU Berlin)",
@@ -1728,7 +1848,8 @@
     "tuition": "No tuition (€300 semester fee incl. transport)",
     "scholarship": "FU Merit Awards",
     "accommodation": "€400-€850/month",
-    "summary": "Politically engaged university with exceptional humanities and social sciences"
+    "summary": "Politically engaged university with exceptional humanities and social sciences",
+    "discount": "N/A"
   },
   {
     "name": "6. RWTH Aachen University",
@@ -1742,7 +1863,8 @@
     "tuition": "No tuition (€300 semester fee)",
     "scholarship": "RWTH International Academy",
     "accommodation": "€350-€700/month",
-    "summary": "European engineering leader with massive industry collaborations"
+    "summary": "European engineering leader with massive industry collaborations",
+    "discount": "N/A"
   },
   {
     "name": "7. University of Freiburg",
@@ -1756,7 +1878,8 @@
     "tuition": "No tuition (€160 semester fee)",
     "scholarship": "Freiburg Research Grants",
     "accommodation": "€400-€750/month",
-    "summary": "Green city university excelling in sustainability research"
+    "summary": "Green city university excelling in sustainability research",
+    "discount": "N/A"
   },
   {
     "name": "8. University of Göttingen",
@@ -1770,7 +1893,8 @@
     "tuition": "No tuition (€350 semester fee)",
     "scholarship": "Göttingen Graduate School",
     "accommodation": "€300-€600/month",
-    "summary": "Traditional university with exceptional natural sciences"
+    "summary": "Traditional university with exceptional natural sciences",
+    "discount": "N/A"
   },
   {
     "name": "9. University of Tübingen",
@@ -1784,7 +1908,8 @@
     "tuition": "No tuition (€160 semester fee)",
     "scholarship": "Tübingen Research Fellows",
     "accommodation": "€350-€650/month",
-    "summary": "Picturesque university town with renowned neuroscience research"
+    "summary": "Picturesque university town with renowned neuroscience research",
+    "discount": "N/A"
   },
   {
     "name": "10. University of Bonn",
@@ -1798,7 +1923,8 @@
     "tuition": "No tuition (€300 semester fee)",
     "scholarship": "Bonn Graduate Scholarships",
     "accommodation": "€400-€800/month",
-    "summary": "Former capital university with 11 Nobel Prize winners"
+    "summary": "Former capital university with 11 Nobel Prize winners",
+    "discount": "N/A"
   },
   {
     "name": "11. University of Mannheim",
@@ -1813,7 +1939,8 @@
     "actualPrice": "€1,500-€3,000/semester (non-EU)",
     "scholarship": "Mannheim Merit Scholarships, Deutschlandstipendium",
     "accommodation": "Baroque palace campus housing (€300-€500/month)",
-    "summary": "Elite business school housed in a historic palace, renowned for its economics research and strong corporate partnerships."
+    "summary": "Elite business school housed in a historic palace, renowned for its economics research and strong corporate partnerships.",
+    "discount": "88.67%"
   },
   {
     "name": "12. University of Leipzig",
@@ -1828,7 +1955,8 @@
     "actualPrice": "€2,000-€4,000/semester (non-EU)",
     "scholarship": "Leipzig International Scholarship",
     "accommodation": "Historic center student housing (€250-€400/month)",
-    "summary": "Comprehensive university maintaining 600+ years of academic tradition while pioneering in neuroscience and cultural studies."
+    "summary": "Comprehensive university maintaining 600+ years of academic tradition while pioneering in neuroscience and cultural studies.",
+    "discount": "90.00%"
   },
   {
     "name": "13. University of Stuttgart",
@@ -1843,7 +1971,8 @@
     "actualPrice": "€3,000/semester (non-EU engineering)",
     "scholarship": "Excellence in Engineering Awards",
     "accommodation": "Tech campus dorms (€280-€450/month)",
-    "summary": "Automotive and aerospace engineering leader with close industry ties to Mercedes-Benz, Porsche, and Bosch."
+    "summary": "Automotive and aerospace engineering leader with close industry ties to Mercedes-Benz, Porsche, and Bosch.",
+    "discount": "94.33%"
   },
   {
     "name": "14. FAU Erlangen-Nuremberg",
@@ -1858,7 +1987,8 @@
     "actualPrice": "€2,500-€5,000/semester (non-EU)",
     "scholarship": "Siemens Healthineers Partnerships",
     "accommodation": "Bavarian-style student villages (€250-€400/month)",
-    "summary": "Innovation hub bridging medicine and engineering, home to numerous Siemens research collaborations."
+    "summary": "Innovation hub bridging medicine and engineering, home to numerous Siemens research collaborations.",
+    "discount": "94.00%"
   },
   {
     "name": "15. Goethe University Frankfurt",
@@ -1873,7 +2003,8 @@
     "actualPrice": "€3,000+/semester (non-EU)",
     "scholarship": "Frankfurt Finance Scholarships",
     "accommodation": "Banking district housing (€400-€700/month)",
-    "summary": "Finance and economics powerhouse located in Germany's banking capital with ECB partnerships."
+    "summary": "Finance and economics powerhouse located in Germany's banking capital with ECB partnerships.",
+    "discount": "94.33%"
   },
   {
     "name": "16. University of Kiel (CAU)",
@@ -1888,7 +2019,8 @@
     "actualPrice": "€2,000-€4,000/semester (non-EU)",
     "scholarship": "Baltic Sea Research Grants",
     "accommodation": "Harbor-view dorms (€250-€400/month)",
-    "summary": "Leading maritime research institution with direct access to Baltic Sea study sites."
+    "summary": "Leading maritime research institution with direct access to Baltic Sea study sites.",
+    "discount": "92.50%"
   },
   {
     "name": "17. University of Bremen",
@@ -1903,7 +2035,8 @@
     "actualPrice": "€1,500-€3,000/semester (non-EU)",
     "scholarship": "Excellence in Digitalization Awards",
     "accommodation": "Modern campus housing (€300-€500/month)",
-    "summary": "Innovative university known for its cluster of excellence in marine and climate research."
+    "summary": "Innovative university known for its cluster of excellence in marine and climate research.",
+    "discount": "88.67%"
   },
   {
     "name": "18. University of Hamburg",
@@ -1918,7 +2051,8 @@
     "actualPrice": "€2,000-€4,000/semester (non-EU)",
     "scholarship": "Climate Research Fellowships",
     "accommodation": "Port city student housing (€350-€600/month)",
-    "summary": "Major research university with special strengths in climate system sciences and international law."
+    "summary": "Major research university with special strengths in climate system sciences and international law.",
+    "discount": "91.50%"
   },
   {
     "name": "19. Friedrich Schiller University Jena",
@@ -1933,7 +2067,8 @@
     "actualPrice": "€2,500-€5,000/semester (non-EU)",
     "scholarship": "Carl Zeiss Foundation Awards",
     "accommodation": "Traditional student housing (€250-€400/month)",
-    "summary": "Optics and photonics pioneer with close ties to Zeiss corporation and numerous spin-offs."
+    "summary": "Optics and photonics pioneer with close ties to Zeiss corporation and numerous spin-offs.",
+    "discount": "94.00%"
   },
   {
     "name": "20. University of Potsdam",
@@ -1948,7 +2083,8 @@
     "actualPrice": "€2,000-€4,000/semester (non-EU)",
     "scholarship": "Digital Innovation Grants",
     "accommodation": "Berlin-area student housing (€350-€550/month)",
-    "summary": "Rapidly growing institution bridging humanities and digital technologies near Germany's capital."
+    "summary": "Rapidly growing institution bridging humanities and digital technologies near Germany's capital.",
+    "discount": "91.50%"
   },
   {
     "name": "1. University of Amsterdam (UvA)",
@@ -1962,7 +2098,8 @@
     "tuition": "€2,314-€4,636/year (EU), €9,000-€24,000/year (Non-EU)",
     "scholarship": "Amsterdam Merit Scholarship, Holland Scholarship",
     "accommodation": "€600-€1,200/month",
-    "summary": "Comprehensive research university ranked top 50 globally with urban campuses"
+    "summary": "Comprehensive research university ranked top 50 globally with urban campuses",
+    "discount": "N/A"
   },
   {
     "name": "2. Delft University of Technology (TU Delft)",
@@ -1976,7 +2113,8 @@
     "tuition": "€2,314-€4,636/year (EU), €15,000-€25,000/year (Non-EU)",
     "scholarship": "Justus & Louise van Effen Excellence",
     "accommodation": "€500-€900/month",
-    "summary": "World-leading engineering school with strong industry partnerships"
+    "summary": "World-leading engineering school with strong industry partnerships",
+    "discount": "N/A"
   },
   {
     "name": "3. Eindhoven University of Technology (TU/e)",
@@ -1990,7 +2128,8 @@
     "tuition": "€2,314-€4,636/year (EU), €15,000-€18,000/year (Non-EU)",
     "scholarship": "TU/e Excellence Scholarship",
     "accommodation": "€450-€800/month",
-    "summary": "High-tech campus university embedded in Brainport innovation region"
+    "summary": "High-tech campus university embedded in Brainport innovation region",
+    "discount": "N/A"
   },
   {
     "name": "4. Leiden University",
@@ -2004,7 +2143,8 @@
     "tuition": "€2,314-€4,636/year (EU), €10,000-€22,000/year (Non-EU)",
     "scholarship": "Leiden University Excellence",
     "accommodation": "€400-€750/month",
-    "summary": "Historic university with 16 Nobel laureates and strong international law program"
+    "summary": "Historic university with 16 Nobel laureates and strong international law program",
+    "discount": "N/A"
   },
   {
     "name": "5. Utrecht University",
@@ -2018,7 +2158,8 @@
     "tuition": "€2,314-€4,636/year (EU), €11,000-€20,000/year (Non-EU)",
     "scholarship": "Utrecht Excellence Scholarship",
     "accommodation": "€500-€900/month",
-    "summary": "Leading Dutch university ranked top 50 worldwide for sustainability research"
+    "summary": "Leading Dutch university ranked top 50 worldwide for sustainability research",
+    "discount": "N/A"
   },
   {
     "name": "6. University of Groningen (RUG)",
@@ -2032,7 +2173,8 @@
     "tuition": "€2,314-€4,636/year (EU), €10,000-€20,000/year (Non-EU)",
     "scholarship": "Eric Bleumink Fund",
     "accommodation": "€350-€700/month",
-    "summary": "Historic northern university with vibrant student life and strong research"
+    "summary": "Historic northern university with vibrant student life and strong research",
+    "discount": "N/A"
   },
   {
     "name": "7. Radboud University",
@@ -2046,7 +2188,8 @@
     "tuition": "€2,314-€4,636/year (EU), €11,000-€17,000/year (Non-EU)",
     "scholarship": "Radboud Scholarship Programme",
     "accommodation": "€400-€750/month",
-    "summary": "Green campus university with strong personal tutoring system"
+    "summary": "Green campus university with strong personal tutoring system",
+    "discount": "N/A"
   },
   {
     "name": "8. Maastricht University",
@@ -2060,7 +2203,8 @@
     "tuition": "€2,314-€4,636/year (EU), €11,000-€19,000/year (Non-EU)",
     "scholarship": "UM Holland-High Potential",
     "accommodation": "€450-€850/month",
-    "summary": "Problem-Based Learning pioneer with strong European focus"
+    "summary": "Problem-Based Learning pioneer with strong European focus",
+    "discount": "N/A"
   },
   {
     "name": "9. Tilburg University",
@@ -2074,7 +2218,8 @@
     "tuition": "€2,314-€4,636/year (EU), €9,000-€16,000/year (Non-EU)",
     "scholarship": "Tilburg Scholarship Fund",
     "accommodation": "€400-€700/month",
-    "summary": "Leading business and social sciences university with strong industry links"
+    "summary": "Leading business and social sciences university with strong industry links",
+    "discount": "N/A"
   },
   {
     "name": "10. University of Twente",
@@ -2088,7 +2233,8 @@
     "tuition": "€2,314-€4,636/year (EU), €10,000-€17,000/year (Non-EU)",
     "scholarship": "University of Twente Scholarship",
     "accommodation": "€350-€650/month",
-    "summary": "Innovative campus university blending technology and social sciences"
+    "summary": "Innovative campus university blending technology and social sciences",
+    "discount": "N/A"
   },
   {
     "name": "11. Wageningen University & Research (WUR)",
@@ -2103,7 +2249,8 @@
     "actualPrice": "€19,600/year (non-EU MSc)",
     "scholarship": "WUR Excellence (€3,000-€25,000)",
     "accommodation": "Sustainable campus housing (€450-€800/month)",
-    "summary": "World leader in \\'green\\' education with NASA-collaborated climate research and patented food tech innovations."
+    "summary": "World leader in 'green' education with NASA-collaborated climate research and patented food tech innovations.",
+    "discount": "88.19%"
   },
   {
     "name": "12. Open University of the Netherlands",
@@ -2118,7 +2265,8 @@
     "actualPrice": "€4,800/year (non-EU)",
     "scholarship": "Lifelong Learning Fund",
     "accommodation": "N/A (fully online)",
-    "summary": "Flexible competency-based education with VR classrooms and AI tutoring for working professionals."
+    "summary": "Flexible competency-based education with VR classrooms and AI tutoring for working professionals.",
+    "discount": "56.25%"
   },
   {
     "name": "13. Theological University of Kampen",
@@ -2133,7 +2281,8 @@
     "actualPrice": "€4,500/year",
     "scholarship": "Church Ministry Grants",
     "accommodation": "Seminary housing (€350/month)",
-    "summary": "Conservative Reformed institution training pastors with mandatory ancient language proficiency."
+    "summary": "Conservative Reformed institution training pastors with mandatory ancient language proficiency.",
+    "discount": "48.89%"
   },
   {
     "name": "14. Protestant Theological University (PThU)",
@@ -2148,7 +2297,8 @@
     "actualPrice": "€5,000/year",
     "scholarship": "Ecumenical Leadership Awards",
     "accommodation": "Church-affiliated housing",
-    "summary": "Progressive theology hub with LGBTQ+ inclusive ministry programs."
+    "summary": "Progressive theology hub with LGBTQ+ inclusive ministry programs.",
+    "discount": "52.00%"
   },
   {
     "name": "15. Amsterdam University of the Arts (AHK)",
@@ -2163,7 +2313,8 @@
     "actualPrice": "€8,500/year",
     "scholarship": "Talent Grants (up to €10,000)",
     "accommodation": "Artist lofts (€600-€1,200/month)",
-    "summary": "Rijksmuseum-affiliated institution producing internationally exhibited artists."
+    "summary": "Rijksmuseum-affiliated institution producing internationally exhibited artists.",
+    "discount": "71.76%"
   },
   {
     "name": "16. Royal Academy of Art, The Hague (KABK)",
@@ -2178,7 +2329,8 @@
     "actualPrice": "€9,000/year",
     "scholarship": "Mondrian Fund partnerships",
     "accommodation": "Studio housing (€550-€900/month)",
-    "summary": "Pioneered the Artscience program bridging art and quantum physics."
+    "summary": "Pioneered the Artscience program bridging art and quantum physics.",
+    "discount": "73.33%"
   },
   {
     "name": "17. Codarts University for the Arts",
@@ -2193,7 +2345,8 @@
     "actualPrice": "€8,700/year",
     "scholarship": "Performance Excellence Awards",
     "accommodation": "Rehearsal studios (€500+/month)",
-    "summary": "Only Dutch institution offering accredited circus arts degrees."
+    "summary": "Only Dutch institution offering accredited circus arts degrees.",
+    "discount": "71.26%"
   },
   {
     "name": "18. ArtEZ University of the Arts",
@@ -2208,7 +2361,8 @@
     "actualPrice": "€9,200/year",
     "scholarship": "Creative Industry Fund",
     "accommodation": "Design ateliers (€400-€800/month)",
-    "summary": "Fashion program ranked among world's top 20 by Business of Fashion."
+    "summary": "Fashion program ranked among world's top 20 by Business of Fashion.",
+    "discount": "73.91%"
   },
   {
     "name": "19. HKU University of the Arts Utrecht",
@@ -2223,7 +2377,8 @@
     "actualPrice": "€8,900/year",
     "scholarship": "Creative Technology Awards",
     "accommodation": "Media labs (€450-€850/month)",
-    "summary": "Developed Europe's first bachelor's in Game Design with Ubisoft partnerships."
+    "summary": "Developed Europe's first bachelor's in Game Design with Ubisoft partnerships.",
+    "discount": "73.03%"
   },
   {
     "name": "20. Zuyd University of Applied Sciences",
@@ -2238,7 +2393,8 @@
     "actualPrice": "€8,500/year",
     "scholarship": "Brightlands Industry Fund",
     "accommodation": "Hospitality campus (€400-€700/month)",
-    "summary": "Hotel School Maastricht consistently ranks among top 5 hospitality schools worldwide."
+    "summary": "Hotel School Maastricht consistently ranks among top 5 hospitality schools worldwide.",
+    "discount": "72.94%"
   },
   {
     "name": "1. KU Leuven",
@@ -2252,7 +2408,8 @@
     "tuition": "€947-€6,000/year (EU), €1,750-€10,000/year (Non-EU)",
     "scholarship": "KU Leuven Excellence Scholarship",
     "accommodation": "€400-€800/month",
-    "summary": "Comprehensive research university consistently ranked top 50 worldwide"
+    "summary": "Comprehensive research university consistently ranked top 50 worldwide",
+    "discount": "N/A"
   },
   {
     "name": "2. UCLouvain",
@@ -2266,7 +2423,8 @@
     "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
     "scholarship": "UCLouvain International Masters",
     "accommodation": "€350-€700/month",
-    "summary": "Innovative campus university with strong industry partnerships"
+    "summary": "Innovative campus university with strong industry partnerships",
+    "discount": "N/A"
   },
   {
     "name": "3. Ghent University",
@@ -2280,7 +2438,8 @@
     "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
     "scholarship": "Ghent University Top-up Grant",
     "accommodation": "€350-€750/month",
-    "summary": "Research powerhouse with 11 Nobel laureates and strong international ties"
+    "summary": "Research powerhouse with 11 Nobel laureates and strong international ties",
+    "discount": "N/A"
   },
   {
     "name": "4. ULB",
@@ -2294,7 +2453,8 @@
     "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
     "scholarship": "ULB Scholarships for International Students",
     "accommodation": "€450-€900/month",
-    "summary": "Progressive urban university with 4 Nobel Prize winners"
+    "summary": "Progressive urban university with 4 Nobel Prize winners",
+    "discount": "N/A"
   },
   {
     "name": "5. VUB",
@@ -2308,7 +2468,8 @@
     "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
     "scholarship": "VUB Scholarships for International Students",
     "accommodation": "€450-€850/month",
-    "summary": "Humanist university with strong focus on research and innovation"
+    "summary": "Humanist university with strong focus on research and innovation",
+    "discount": "N/A"
   },
   {
     "name": "6. University of Antwerp",
@@ -2322,7 +2483,8 @@
     "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
     "scholarship": "Antwerp University Scholarship",
     "accommodation": "€400-€750/month",
-    "summary": "Dynamic urban university with strong business and digital programs"
+    "summary": "Dynamic urban university with strong business and digital programs",
+    "discount": "N/A"
   },
   {
     "name": "7. Hasselt University",
@@ -2336,7 +2498,8 @@
     "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
     "scholarship": "Hasselt University Scholarships",
     "accommodation": "€300-€600/month",
-    "summary": "Innovative university with strong interdisciplinary approach"
+    "summary": "Innovative university with strong interdisciplinary approach",
+    "discount": "N/A"
   },
   {
     "name": "8. University of Mons",
@@ -2350,7 +2513,8 @@
     "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
     "scholarship": "UMONS Excellence Grants",
     "accommodation": "€300-€550/month",
-    "summary": "Technical university with strong IT and language programs"
+    "summary": "Technical university with strong IT and language programs",
+    "discount": "N/A"
   },
   {
     "name": "9. University of Namur",
@@ -2364,7 +2528,8 @@
     "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
     "scholarship": "UNamur International Scholarships",
     "accommodation": "€300-€550/month",
-    "summary": "Student-focused university with strong interdisciplinary research"
+    "summary": "Student-focused university with strong interdisciplinary research",
+    "discount": "N/A"
   },
   {
     "name": "10. ULiège",
@@ -2378,7 +2543,8 @@
     "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
     "scholarship": "ULiège Excellence Scholarships",
     "accommodation": "€350-€650/month",
-    "summary": "Comprehensive university with strong engineering and life sciences"
+    "summary": "Comprehensive university with strong engineering and life sciences",
+    "discount": "N/A"
   },
   {
     "name": "11. Université Saint-Louis – Bruxelles (USL-B)",
@@ -2393,7 +2559,8 @@
     "actualPrice": "€4,175/year (non-EU)",
     "scholarship": "Wallonia-Brussels International Grants",
     "accommodation": "Urban campus residences (€400-€650/month)",
-    "summary": "Intimate learning environment (12:1 student-faculty ratio) specializing in EU policy research near Brussels' political institutions."
+    "summary": "Intimate learning environment (12:1 student-faculty ratio) specializing in EU policy research near Brussels' political institutions.",
+    "discount": "80.00%"
   },
   {
     "name": "12. LUCA School of Arts",
@@ -2408,7 +2575,8 @@
     "actualPrice": "€6,000/year",
     "scholarship": "Flemish Arts Council Awards",
     "accommodation": "Artist studios (€350-€600/month)",
-    "summary": "Produced Oscar-nominated animators with mandatory industry internships at Cartoon Network and Studio 100."
+    "summary": "Produced Oscar-nominated animators with mandatory industry internships at Cartoon Network and Studio 100.",
+    "discount": "81.80%"
   },
   {
     "name": "13. AP University of Applied Sciences Antwerp",
@@ -2423,7 +2591,8 @@
     "actualPrice": "€5,800/year",
     "scholarship": "Port of Antwerp Industry Fund",
     "accommodation": "Diamond district housing (€450-€700/month)",
-    "summary": "Fashion programs leverage Antwerp's status as global diamond/design capital with guaranteed internship placements."
+    "summary": "Fashion programs leverage Antwerp's status as global diamond/design capital with guaranteed internship placements.",
+    "discount": "81.03%"
   },
   {
     "name": "14. University College Ghent (HOGENT)",
@@ -2438,7 +2607,8 @@
     "actualPrice": "€5,500/year",
     "scholarship": "Ghent City Talent Fund",
     "accommodation": "Historic city center housing (€380-€550/month)",
-    "summary": "Sustainable fashion program collaborates with Ghent's biotech cluster to develop eco-textiles."
+    "summary": "Sustainable fashion program collaborates with Ghent's biotech cluster to develop eco-textiles.",
+    "discount": "80.91%"
   },
   {
     "name": "15. Howest University",
@@ -2453,7 +2623,8 @@
     "actualPrice": "€6,200/year",
     "scholarship": "Flanders Game Hub Funding",
     "accommodation": "Gaming houses (€300-€500/month)",
-    "summary": "Ranked #1 worldwide for game development education (Princeton Review) with Ubisoft partnership."
+    "summary": "Ranked #1 worldwide for game development education (Princeton Review) with Ubisoft partnership.",
+    "discount": "80.65%"
   },
   {
     "name": "16. PXL University Hasselt",
@@ -2468,7 +2639,8 @@
     "actualPrice": "€5,900/year",
     "scholarship": "Limburg Startup Grants",
     "accommodation": "Tech campus housing (€320-€480/month)",
-    "summary": "Pioneered Belgium's first \\'Blockchain for Business\\' degree with Silicon Meets project."
+    "summary": "Pioneered Belgium's first 'Blockchain for Business' degree with Silicon Meets project.",
+    "discount": "81.36%"
   },
   {
     "name": "17. Thomas More University",
@@ -2483,7 +2655,8 @@
     "actualPrice": "€5,700/year",
     "scholarship": "Flanders Innovation Grants",
     "accommodation": "Innovation hub housing (€350-€520/month)",
-    "summary": "Home to Belgium's only accredited e-sports management program."
+    "summary": "Home to Belgium's only accredited e-sports management program.",
+    "discount": "81.58%"
   },
   {
     "name": "18. Karel de Grote University",
@@ -2498,7 +2671,8 @@
     "actualPrice": "€5,500/year",
     "scholarship": "Antwerp Port Authority Awards",
     "accommodation": "Startup lofts (€400-€600/month)",
-    "summary": "Mandatory startup incubation year for all business students."
+    "summary": "Mandatory startup incubation year for all business students.",
+    "discount": "81.82%"
   },
   {
     "name": "19. Artevelde University",
@@ -2513,7 +2687,8 @@
     "actualPrice": "€6,500/year",
     "scholarship": "Erasmus+ Enterprise Fund",
     "accommodation": "Medieval city housing (€420-€650/month)",
-    "summary": "94% employment rate for graduates through compulsory year-long industry placements."
+    "summary": "94% employment rate for graduates through compulsory year-long industry placements.",
+    "discount": "81.54%"
   },
   {
     "name": "20. Erasmushogeschool Brussel",
@@ -2528,7 +2703,8 @@
     "actualPrice": "€5,200/year",
     "scholarship": "Brussels Capital Region Grants",
     "accommodation": "EU district housing (€500-€800/month)",
-    "summary": "Hospitality students train at actual 4-star hotel campus with Michelin-star chef instructors."
+    "summary": "Hospitality students train at actual 4-star hotel campus with Michelin-star chef instructors.",
+    "discount": "81.73%"
   },
   {
     "name": "1. Charles University",
@@ -2542,7 +2718,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€15,000/year (Non-EU)",
     "scholarship": "Charles University Scholarships, Visegrad Fund",
     "accommodation": "€200-€500/month",
-    "summary": "Historic comprehensive university with 4 Nobel laureates and world-class research"
+    "summary": "Historic comprehensive university with 4 Nobel laureates and world-class research",
+    "discount": "N/A"
   },
   {
     "name": "2. Czech Technical University in Prague (CTU)",
@@ -2556,7 +2733,8 @@
     "tuition": "€0-€4,500/year (EU), €3,000-€12,000/year (Non-EU)",
     "scholarship": "CTU Excellence Scholarship",
     "accommodation": "€250-€600/month",
-    "summary": "Premier engineering school with strong industry partnerships and research output"
+    "summary": "Premier engineering school with strong industry partnerships and research output",
+    "discount": "N/A"
   },
   {
     "name": "3. Masaryk University",
@@ -2570,7 +2748,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "Masaryk Scholarship",
     "accommodation": "€150-€400/month",
-    "summary": "Modern research university with excellent facilities and international outlook"
+    "summary": "Modern research university with excellent facilities and international outlook",
+    "discount": "N/A"
   },
   {
     "name": "4. Brno University of Technology (BUT)",
@@ -2584,7 +2763,8 @@
     "tuition": "€0-€4,500/year (EU), €3,000-€12,000/year (Non-EU)",
     "scholarship": "BUT International Scholarship",
     "accommodation": "€150-€400/month",
-    "summary": "Innovation-driven technical university with strong regional industry ties"
+    "summary": "Innovation-driven technical university with strong regional industry ties",
+    "discount": "N/A"
   },
   {
     "name": "5. Palacký University Olomouc",
@@ -2598,7 +2778,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "Palacký Talent Scholarship",
     "accommodation": "€120-€350/month",
-    "summary": "Historic university with beautiful baroque campus and strong humanities"
+    "summary": "Historic university with beautiful baroque campus and strong humanities",
+    "discount": "N/A"
   },
   {
     "name": "6. University of Chemistry and Technology, Prague (UCT Prague)",
@@ -2612,7 +2793,8 @@
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
     "scholarship": "UCT Research Grants",
     "accommodation": "€200-€500/month",
-    "summary": "Leading European institution for chemical technology and engineering"
+    "summary": "Leading European institution for chemical technology and engineering",
+    "discount": "N/A"
   },
   {
     "name": "7. University of Economics, Prague (VŠE)",
@@ -2626,7 +2808,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "VŠE Excellence Awards",
     "accommodation": "€250-€600/month",
-    "summary": "Triple-accredited business school with strong corporate connections"
+    "summary": "Triple-accredited business school with strong corporate connections",
+    "discount": "N/A"
   },
   {
     "name": "8. Technical University of Liberec",
@@ -2640,7 +2823,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "TUL Innovation Grants",
     "accommodation": "€100-€300/month",
-    "summary": "Leading university for textile and mechanical engineering in northern Czechia"
+    "summary": "Leading university for textile and mechanical engineering in northern Czechia",
+    "discount": "N/A"
   },
   {
     "name": "9. University of Pardubice",
@@ -2654,7 +2838,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "UPCE Talent Program",
     "accommodation": "€100-€300/month",
-    "summary": "Strong in chemical sciences and transportation technologies"
+    "summary": "Strong in chemical sciences and transportation technologies",
+    "discount": "N/A"
   },
   {
     "name": "10. University of Ostrava",
@@ -2668,7 +2853,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "OU Development Fund",
     "accommodation": "€100-€300/month",
-    "summary": "Young, dynamic university with strong regional engagement"
+    "summary": "Young, dynamic university with strong regional engagement",
+    "discount": "N/A"
   },
   {
     "name": "11. Mendel University in Brno (MENDELU)",
@@ -2683,7 +2869,8 @@
     "actualPrice": "50,000-120,000 CZK/year (non-EU)",
     "scholarship": "Agris Mundus Erasmus+",
     "accommodation": "Eco-friendly dorms (3,000-6,000 CZK/month)",
-    "summary": "Central Europe's top agriscience university with experimental vineyards and UNESCO-protected arboretum."
+    "summary": "Central Europe's top agriscience university with experimental vineyards and UNESCO-protected arboretum.",
+    "discount": "100.00%"
   },
   {
     "name": "12. University of South Bohemia",
@@ -2698,7 +2885,8 @@
     "actualPrice": "60,000-140,000 CZK/year",
     "scholarship": "South Bohemia Research Fund",
     "accommodation": "Lakeside housing (2,800-5,500 CZK/month)",
-    "summary": "Unique freshwater biology research at Europe's largest fish farming experimental station."
+    "summary": "Unique freshwater biology research at Europe's largest fish farming experimental station.",
+    "discount": "100.00%"
   },
   {
     "name": "13. Silesian University in Opava",
@@ -2713,7 +2901,8 @@
     "actualPrice": "45,000-100,000 CZK/year",
     "scholarship": "Cross-Border Cultural Fund",
     "accommodation": "Historic town housing (2,500-4,500 CZK/month)",
-    "summary": "Only Czech university offering accredited astrophotography program with NASA collaborations."
+    "summary": "Only Czech university offering accredited astrophotography program with NASA collaborations.",
+    "discount": "100.00%"
   },
   {
     "name": "14. Jan Evangelista Purkyně University",
@@ -2728,7 +2917,8 @@
     "actualPrice": "55,000-130,000 CZK/year",
     "scholarship": "Saxon-Czech Future Fund",
     "accommodation": "Riverside studios (3,000-5,000 CZK/month)",
-    "summary": "Pioneer in brownfield revitalization studies with Volkswagen Group partnerships."
+    "summary": "Pioneer in brownfield revitalization studies with Volkswagen Group partnerships.",
+    "discount": "100.00%"
   },
   {
     "name": "15. University of Hradec Králové",
@@ -2743,7 +2933,8 @@
     "actualPrice": "70,000-150,000 CZK/year",
     "scholarship": "Smart City Development Grants",
     "accommodation": "Tech park housing (3,200-5,800 CZK/month)",
-    "summary": "Developed Czechia's first accredited cybersecurity bachelor's with NATO certification."
+    "summary": "Developed Czechia's first accredited cybersecurity bachelor's with NATO certification.",
+    "discount": "100.00%"
   },
   {
     "name": "16. Tomas Bata University",
@@ -2758,7 +2949,8 @@
     "actualPrice": "80,000-180,000 CZK/year",
     "scholarship": "Bata Shoe Foundation Awards",
     "accommodation": "Modernist Baťa housing (3,500-6,500 CZK/month)",
-    "summary": "World-class footwear engineering program with direct industry pipeline to global brands."
+    "summary": "World-class footwear engineering program with direct industry pipeline to global brands.",
+    "discount": "100.00%"
   },
   {
     "name": "17. Academy of Performing Arts (AMU)",
@@ -2773,7 +2965,8 @@
     "actualPrice": "200,000-400,000 CZK/year",
     "scholarship": "Miloš Forman Film Fund",
     "accommodation": "Historic center ateliers (8,000-15,000 CZK/month)",
-    "summary": "Alma mater of Oscar winners with guaranteed Prague Spring Festival participation."
+    "summary": "Alma mater of Oscar winners with guaranteed Prague Spring Festival participation.",
+    "discount": "95.00%"
   },
   {
     "name": "18. Academy of Fine Arts (AVU)",
@@ -2788,7 +2981,8 @@
     "actualPrice": "250,000-500,000 CZK/year",
     "scholarship": "Mucha Foundation Awards",
     "accommodation": "Artist lofts (7,000-12,000 CZK/month)",
-    "summary": "1:3 faculty-student ratio with mandatory Venice Biennale study trips."
+    "summary": "1:3 faculty-student ratio with mandatory Venice Biennale study trips.",
+    "discount": "94.00%"
   },
   {
     "name": "19. Janáček Academy (JAMU)",
@@ -2803,7 +2997,8 @@
     "actualPrice": "180,000-350,000 CZK/year",
     "scholarship": "Leoš Janáček Composition Prize",
     "accommodation": "Music residences (6,000-10,000 CZK/month)",
-    "summary": "Hosts International Musicology Competition with Vienna Philharmonic collaborations."
+    "summary": "Hosts International Musicology Competition with Vienna Philharmonic collaborations.",
+    "discount": "93.33%"
   },
   {
     "name": "1. Comenius University in Bratislava",
@@ -2817,7 +3012,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€12,000/year (Non-EU)",
     "scholarship": "Comenius University Excellence Scholarship",
     "accommodation": "€150-€400/month",
-    "summary": "Slovakia's flagship university with comprehensive academic offerings and strong research output"
+    "summary": "Slovakia's flagship university with comprehensive academic offerings and strong research output",
+    "discount": "N/A"
   },
   {
     "name": "2. Slovak University of Technology in Bratislava (STU)",
@@ -2831,7 +3027,8 @@
     "tuition": "€0-€5,000/year (EU), €4,000-€10,000/year (Non-EU)",
     "scholarship": "STU Research Grants",
     "accommodation": "€200-€450/month",
-    "summary": "Premier technical education with strong industry connections and modern facilities"
+    "summary": "Premier technical education with strong industry connections and modern facilities",
+    "discount": "N/A"
   },
   {
     "name": "3. Pavol Jozef Šafárik University in Košice",
@@ -2845,7 +3042,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
     "scholarship": "UPJŠ International Student Scholarship",
     "accommodation": "€100-€300/month",
-    "summary": "Research-intensive university with excellent medical faculty"
+    "summary": "Research-intensive university with excellent medical faculty",
+    "discount": "N/A"
   },
   {
     "name": "4. Technical University of Košice (TUKE)",
@@ -2859,7 +3057,8 @@
     "tuition": "€0-€5,000/year (EU), €4,000-€10,000/year (Non-EU)",
     "scholarship": "TUKE Talent Program",
     "accommodation": "€100-€300/month",
-    "summary": "Leading technical education in eastern Slovakia with strong industry links"
+    "summary": "Leading technical education in eastern Slovakia with strong industry links",
+    "discount": "N/A"
   },
   {
     "name": "5. University of Žilina (UNIZA)",
@@ -2873,7 +3072,8 @@
     "tuition": "€0-€4,500/year (EU), €3,500-€9,000/year (Non-EU)",
     "scholarship": "UNIZA Transport Innovation Awards",
     "accommodation": "€80-€250/month",
-    "summary": "Center of excellence for transportation studies and logistics"
+    "summary": "Center of excellence for transportation studies and logistics",
+    "discount": "N/A"
   },
   {
     "name": "6. Slovak University of Agriculture in Nitra",
@@ -2887,7 +3087,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€8,000/year (Non-EU)",
     "scholarship": "SUA Research Fellowships",
     "accommodation": "€70-€200/month",
-    "summary": "Leading institution for sustainable agriculture and food sciences"
+    "summary": "Leading institution for sustainable agriculture and food sciences",
+    "discount": "N/A"
   },
   {
     "name": "7. Matej Bel University in Banská Bystrica",
@@ -2901,7 +3102,8 @@
     "tuition": "€0-€4,000/year (EU), €3,000-€8,000/year (Non-EU)",
     "scholarship": "MBU International Student Fund",
     "accommodation": "€80-€250/month",
-    "summary": "Strong in social sciences and teacher education"
+    "summary": "Strong in social sciences and teacher education",
+    "discount": "N/A"
   },
   {
     "name": "8. University of Prešov",
@@ -2915,7 +3117,8 @@
     "tuition": "€0-€3,500/year (EU), €2,500-€7,000/year (Non-EU)",
     "scholarship": "UP International Student Support",
     "accommodation": "€70-€200/month",
-    "summary": "Important educational center for eastern Slovakia"
+    "summary": "Important educational center for eastern Slovakia",
+    "discount": "N/A"
   },
   {
     "name": "9. Academy of Performing Arts in Bratislava (VŠMU)",
@@ -2929,7 +3132,8 @@
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
     "scholarship": "VŠMU Artistic Talent Awards",
     "accommodation": "€150-€400/month",
-    "summary": "Slovakia's most prestigious performing arts conservatory"
+    "summary": "Slovakia's most prestigious performing arts conservatory",
+    "discount": "N/A"
   },
   {
     "name": "10. Academy of Fine Arts and Design in Bratislava",
@@ -2943,7 +3147,8 @@
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
     "scholarship": "AFAD Creative Excellence Grants",
     "accommodation": "€150-€400/month",
-    "summary": "Historic institution shaping Slovakia's visual arts landscape"
+    "summary": "Historic institution shaping Slovakia's visual arts landscape",
+    "discount": "N/A"
   },
   {
     "name": "11. Catholic University in Ružomberok",
@@ -2958,7 +3163,8 @@
     "actualPrice": "€2,000-€4,000/year",
     "scholarship": "Vatican Study Grants",
     "accommodation": "Monastery-style dorms (€100-€200/month)",
-    "summary": "Only Slovak university requiring theology students to complete ancient language proficiency (Greek/Hebrew)."
+    "summary": "Only Slovak university requiring theology students to complete ancient language proficiency (Greek/Hebrew).",
+    "discount": "100.00%"
   },
   {
     "name": "12. Alexander Dubček University of Trenčín",
@@ -2973,7 +3179,8 @@
     "actualPrice": "€3,000-€6,000/year",
     "scholarship": "Industrial Materials Fund",
     "accommodation": "Modern campus (€150-€300/month)",
-    "summary": "Partnered with Continental Tires for polymer research."
+    "summary": "Partnered with Continental Tires for polymer research.",
+    "discount": "100.00%"
   },
   {
     "name": "13. University of Veterinary Medicine Košice",
@@ -2988,7 +3195,8 @@
     "actualPrice": "€8,000-€12,000/year",
     "scholarship": "Erasmus+ Veterinary Mobility",
     "accommodation": "Animal clinic housing (€120-€250/month)",
-    "summary": "Features Europe's largest bear anesthesia training facility."
+    "summary": "Features Europe's largest bear anesthesia training facility.",
+    "discount": "100.00%"
   },
   {
     "name": "14. Ján Albrecht Music Academy",
@@ -3003,7 +3211,8 @@
     "actualPrice": "€5,000-€8,000/year",
     "scholarship": "Slovak Philharmonic Awards",
     "accommodation": "Baroque-era musician housing",
-    "summary": "UNESCO-protected campus with 18th-century pipe organs."
+    "summary": "UNESCO-protected campus with 18th-century pipe organs.",
+    "discount": "90.00%"
   },
   {
     "name": "15. Dubnica Institute of Technology",
@@ -3018,7 +3227,8 @@
     "actualPrice": "€2,500-€4,500/year",
     "scholarship": "Kia Motors Partnership",
     "accommodation": "Factory-adjacent housing",
-    "summary": "Mandatory co-op program with nearby automotive plants."
+    "summary": "Mandatory co-op program with nearby automotive plants.",
+    "discount": "100.00%"
   },
   {
     "name": "16. St. Elizabeth Health University",
@@ -3033,7 +3243,8 @@
     "actualPrice": "€3,000-€5,000/year",
     "scholarship": "Missionary Medicine Fund",
     "accommodation": "Convent-style housing",
-    "summary": "Requires community health fieldwork in Roma settlements."
+    "summary": "Requires community health fieldwork in Roma settlements.",
+    "discount": "100.00%"
   },
   {
     "name": "17. Pan-European University",
@@ -3048,7 +3259,8 @@
     "actualPrice": "€4,000-€7,000/year",
     "scholarship": "EU Policy Fellowships",
     "accommodation": "Urban apartments",
-    "summary": "Only Slovak university offering Strasbourg Court internships."
+    "summary": "Only Slovak university offering Strasbourg Court internships.",
+    "discount": "62.50%"
   },
   {
     "name": "18. College of Int'l Relations",
@@ -3063,7 +3275,8 @@
     "actualPrice": "€5,000-€9,000/year",
     "scholarship": "MFA Slovakia Grants",
     "accommodation": "Embassy district housing",
-    "summary": "Simulated UN sessions with real diplomatic corps participation."
+    "summary": "Simulated UN sessions with real diplomatic corps participation.",
+    "discount": "60.00%"
   },
   {
     "name": "19. CEASAR Academy",
@@ -3078,7 +3291,8 @@
     "actualPrice": "€6,000/year",
     "scholarship": "Visegrad Fund Awards",
     "accommodation": "Eco-campus housing",
-    "summary": "Carbon-neutral campus with EU parliamentary simulation lab."
+    "summary": "Carbon-neutral campus with EU parliamentary simulation lab.",
+    "discount": "50.00%"
   },
   {
     "name": "20. Academy of Arts Banská Bystrica",
@@ -3093,7 +3307,8 @@
     "actualPrice": "€4,000-€7,000/year",
     "scholarship": "Slovak Arts Council",
     "accommodation": "Artist colonies",
-    "summary": "Hosts Central European Woodcarving Symposium biennially."
+    "summary": "Hosts Central European Woodcarving Symposium biennially.",
+    "discount": "87.50%"
   },
   {
     "name": "1. Eötvös Loránd University (ELTE)",
@@ -3107,7 +3322,8 @@
     "tuition": "€1,500-€4,000/semester (EU), €2,000-€8,000/semester (Non-EU)",
     "scholarship": "Stipendium Hungaricum, ELTE Excellence Scholarship",
     "accommodation": "€200-€500/month",
-    "summary": "Comprehensive research university with 5 Nobel laureates and strong international reputation"
+    "summary": "Comprehensive research university with 5 Nobel laureates and strong international reputation",
+    "discount": "N/A"
   },
   {
     "name": "2. Budapest University of Technology and Economics (BME)",
@@ -3121,7 +3337,8 @@
     "tuition": "€1,800-€5,000/semester (EU), €3,000-€10,000/semester (Non-EU)",
     "scholarship": "BME Talent Program",
     "accommodation": "€250-€600/month",
-    "summary": "Hungary's premier engineering school with strong industry connections"
+    "summary": "Hungary's premier engineering school with strong industry connections",
+    "discount": "N/A"
   },
   {
     "name": "3. Semmelweis University",
@@ -3135,7 +3352,8 @@
     "tuition": "€3,000-€16,000/semester (all students)",
     "scholarship": "Semmelweis Scholarship for International Students",
     "accommodation": "€300-€700/month",
-    "summary": "World-renowned medical school with state-of-the-art clinical facilities"
+    "summary": "World-renowned medical school with state-of-the-art clinical facilities",
+    "discount": "N/A"
   },
   {
     "name": "4. University of Szeged",
@@ -3149,7 +3367,8 @@
     "tuition": "€1,500-€4,000/semester (EU), €2,500-€7,500/semester (Non-EU)",
     "scholarship": "Szeged Academic Excellence Award",
     "accommodation": "€150-€400/month",
-    "summary": "Vibrant university city with strong international student community"
+    "summary": "Vibrant university city with strong international student community",
+    "discount": "N/A"
   },
   {
     "name": "5. University of Debrecen",
@@ -3163,7 +3382,8 @@
     "tuition": "€1,500-€5,000/semester (EU), €2,500-€8,000/semester (Non-EU)",
     "scholarship": "Debrecen International Scholarship",
     "accommodation": "€120-€350/month",
-    "summary": "Eastern Hungary's leading university with excellent medical program"
+    "summary": "Eastern Hungary's leading university with excellent medical program",
+    "discount": "N/A"
   },
   {
     "name": "6. Corvinus University of Budapest",
@@ -3177,7 +3397,8 @@
     "tuition": "€1,800-€5,000/semester (EU), €3,000-€9,000/semester (Non-EU)",
     "scholarship": "Corvinus Excellence Scholarship",
     "accommodation": "€250-€600/month",
-    "summary": "Hungary's most prestigious business school with triple accreditation"
+    "summary": "Hungary's most prestigious business school with triple accreditation",
+    "discount": "N/A"
   },
   {
     "name": "7. University of Pécs",
@@ -3191,7 +3412,8 @@
     "tuition": "€1,500-€5,000/semester (EU), €2,500-€8,000/semester (Non-EU)",
     "scholarship": "Pécs International Scholarship",
     "accommodation": "€120-€350/month",
-    "summary": "Historic university with beautiful campus and strong medical program"
+    "summary": "Historic university with beautiful campus and strong medical program",
+    "discount": "N/A"
   },
   {
     "name": "8. Óbuda University",
@@ -3205,7 +3427,8 @@
     "tuition": "€1,500-€4,000/semester (EU), €2,500-€7,000/semester (Non-EU)",
     "scholarship": "Óbuda Research Grants",
     "accommodation": "€200-€500/month",
-    "summary": "Innovative technical university with strong industry partnerships"
+    "summary": "Innovative technical university with strong industry partnerships",
+    "discount": "N/A"
   },
   {
     "name": "9. University of Miskolc",
@@ -3219,7 +3442,8 @@
     "tuition": "€1,200-€3,500/semester (EU), €2,000-€6,000/semester (Non-EU)",
     "scholarship": "Miskolc Academic Excellence Award",
     "accommodation": "€100-€300/month",
-    "summary": "Northern Hungary's leading technical university"
+    "summary": "Northern Hungary's leading technical university",
+    "discount": "N/A"
   },
   {
     "name": "10. Hungarian University of Agriculture and Life Sciences (MATE)",
@@ -3233,7 +3457,8 @@
     "tuition": "€1,200-€3,500/semester (EU), €2,000-€6,000/semester (Non-EU)",
     "scholarship": "MATE Research Fellowships",
     "accommodation": "€100-€300/month",
-    "summary": "Leading institution for sustainable agriculture and food sciences"
+    "summary": "Leading institution for sustainable agriculture and food sciences",
+    "discount": "N/A"
   },
   {
     "name": "11. Hungarian University of Fine Arts",
@@ -3248,7 +3473,8 @@
     "actualPrice": "€5,000-€8,000/year",
     "scholarship": "Derkovits Fine Arts Grant",
     "accommodation": "Artist studios (€300-€600/month)",
-    "summary": "19th-century palace campus where students restore Renaissance artworks in active chapels."
+    "summary": "19th-century palace campus where students restore Renaissance artworks in active chapels.",
+    "discount": "70.00%"
   },
   {
     "name": "12. Liszt Ferenc Academy of Music",
@@ -3263,7 +3489,8 @@
     "actualPrice": "€7,000-€12,000/year",
     "scholarship": "Bartók Performance Awards",
     "accommodation": "Historic practice rooms (€350-€700/month)",
-    "summary": "Maintains Liszt's original pianos; all keyboard majors must study on his 1860 Bechstein."
+    "summary": "Maintains Liszt's original pianos; all keyboard majors must study on his 1860 Bechstein.",
+    "discount": "71.43%"
   },
   {
     "name": "13. University of Theatre and Film Arts",
@@ -3278,7 +3505,8 @@
     "actualPrice": "€8,000-€15,000/year",
     "scholarship": "Hungarian National Film Fund",
     "accommodation": "Theater dormitories (€400-€800/month)",
-    "summary": "Mandatory backstage work at Budapest Opera during studies."
+    "summary": "Mandatory backstage work at Budapest Opera during studies.",
+    "discount": "68.75%"
   },
   {
     "name": "14. University of Dunaújváros",
@@ -3293,7 +3521,8 @@
     "actualPrice": "€3,500-€6,000/year",
     "scholarship": "ISD Dunaferr Steelworks Fund",
     "accommodation": "Factory-adjacent dorms (€150-€300/month)",
-    "summary": "100% internship placement at Hungary's largest steel complex."
+    "summary": "100% internship placement at Hungary's largest steel complex.",
+    "discount": "71.43%"
   },
   {
     "name": "15. Károli Gáspár University",
@@ -3308,7 +3537,8 @@
     "actualPrice": "€4,000-€7,000/year",
     "scholarship": "Calvin Study Grants",
     "accommodation": "Seminary housing (€200-€400/month)",
-    "summary": "Original 16th-century Reformation documents in campus archives."
+    "summary": "Original 16th-century Reformation documents in campus archives.",
+    "discount": "100.00%"
   },
   {
     "name": "16. Eszterházy Károly University",
@@ -3323,7 +3553,8 @@
     "actualPrice": "€3,000-€5,500/year",
     "scholarship": "Eger Wine Culture Fund",
     "accommodation": "Baroque-era dorms (€180-€350/month)",
-    "summary": "Oenology students manage 18th-century campus vineyards."
+    "summary": "Oenology students manage 18th-century campus vineyards.",
+    "discount": "100.00%"
   },
   {
     "name": "17. Hungarian Dance University",
@@ -3338,7 +3569,8 @@
     "actualPrice": "€6,000-€10,000/year",
     "scholarship": "National Ballet Company Awards",
     "accommodation": "Rehearsal studios (€300-€600/month)",
-    "summary": "Students regularly perform at Budapest Opera House."
+    "summary": "Students regularly perform at Budapest Opera House.",
+    "discount": "66.67%"
   },
   {
     "name": "18. University of Nyíregyháza",
@@ -3353,7 +3585,8 @@
     "actualPrice": "€2,500-€4,500/year",
     "scholarship": "Hortobágy National Park Grants",
     "accommodation": "Rural campus (€120-€250/month)",
-    "summary": "Unique equestrian tourism program with stable management."
+    "summary": "Unique equestrian tourism program with stable management.",
+    "discount": "100.00%"
   },
   {
     "name": "19. University of Sopron",
@@ -3368,7 +3601,8 @@
     "actualPrice": "€3,000-€5,000/year",
     "scholarship": "Austrian-Hungarian Forestry Fund",
     "accommodation": "Alpine-style lodges (€150-€300/month)",
-    "summary": "500-hectare experimental forest with centuries-old oak stands."
+    "summary": "500-hectare experimental forest with centuries-old oak stands.",
+    "discount": "100.00%"
   },
   {
     "name": "20. János Neumann University",
@@ -3383,7 +3617,8 @@
     "actualPrice": "€2,800-€4,800/year",
     "scholarship": "Zwack Unicum Distillery Fund",
     "accommodation": "Orchard-side housing (€130-€280/month)",
-    "summary": "Apricot genome research center supplying Hungary's famous brandy industry."
+    "summary": "Apricot genome research center supplying Hungary's famous brandy industry.",
+    "discount": "100.00%"
   },
   {
     "name": "1. University of Tartu",
@@ -3397,7 +3632,8 @@
     "tuition": "€1,600-€11,000/year (EU/Non-EU varies by program)",
     "scholarship": "UT Excellence Scholarships, Estonian Government Scholarships",
     "accommodation": "€150-€400/month",
-    "summary": "Baltic region's top-ranked university with strong research output and historic campus"
+    "summary": "Baltic region's top-ranked university with strong research output and historic campus",
+    "discount": "N/A"
   },
   {
     "name": "2. Tallinn University",
@@ -3411,7 +3647,8 @@
     "tuition": "€1,660-€4,000/year (EU), €2,660-€6,000/year (Non-EU)",
     "scholarship": "TLU Merit Scholarships",
     "accommodation": "€250-€600/month",
-    "summary": "Innovative university with strong focus on digital society and teacher education"
+    "summary": "Innovative university with strong focus on digital society and teacher education",
+    "discount": "N/A"
   },
   {
     "name": "3. Tallinn University of Technology (TalTech)",
@@ -3425,7 +3662,8 @@
     "tuition": "€2,300-€6,000/year (EU), €3,300-€12,000/year (Non-EU)",
     "scholarship": "TalTech International Scholarships",
     "accommodation": "€250-€600/month",
-    "summary": "Tech powerhouse driving Estonia's digital transformation and startup culture"
+    "summary": "Tech powerhouse driving Estonia's digital transformation and startup culture",
+    "discount": "N/A"
   },
   {
     "name": "4. Estonian Academy of Arts (EKA)",
@@ -3439,7 +3677,8 @@
     "tuition": "€2,000-€4,500/year (EU), €3,000-€7,000/year (Non-EU)",
     "scholarship": "EKA Creative Talent Awards",
     "accommodation": "€250-€550/month",
-    "summary": "Nurturing ground for Estonia's vibrant design and contemporary art scene"
+    "summary": "Nurturing ground for Estonia's vibrant design and contemporary art scene",
+    "discount": "N/A"
   },
   {
     "name": "5. Estonian Academy of Music and Theatre (EAMT)",
@@ -3453,7 +3692,8 @@
     "tuition": "€2,500-€5,000/year (EU), €4,000-€8,000/year (Non-EU)",
     "scholarship": "EAMT Performance Excellence Grants",
     "accommodation": "€250-€550/month",
-    "summary": "Cultivating Estonia's rich musical heritage and theatrical innovation"
+    "summary": "Cultivating Estonia's rich musical heritage and theatrical innovation",
+    "discount": "N/A"
   },
   {
     "name": "6. Estonian University of Life Sciences (EMU)",
@@ -3467,7 +3707,8 @@
     "tuition": "€1,800-€3,800/year (EU), €2,800-€6,500/year (Non-EU)",
     "scholarship": "EMU Research Fellowships",
     "accommodation": "€120-€300/month",
-    "summary": "Center of excellence for sustainable agriculture and environmental sciences"
+    "summary": "Center of excellence for sustainable agriculture and environmental sciences",
+    "discount": "N/A"
   },
   {
     "name": "7. Estonian Business School (EBS)",
@@ -3481,7 +3722,8 @@
     "tuition": "€3,000-€6,000/year (all students)",
     "scholarship": "EBS Merit Awards",
     "accommodation": "€300-€650/month",
-    "summary": "Entrepreneurial hub with strong connections to Estonia's startup ecosystem"
+    "summary": "Entrepreneurial hub with strong connections to Estonia's startup ecosystem",
+    "discount": "N/A"
   },
   {
     "name": "8. Tartu Health Care College",
@@ -3495,7 +3737,8 @@
     "tuition": "€1,500-€3,000/year (EU), €2,500-€5,000/year (Non-EU)",
     "scholarship": "Healthcare Professional Development Grants",
     "accommodation": "€120-€300/month",
-    "summary": "Training Estonia's next generation of healthcare professionals"
+    "summary": "Training Estonia's next generation of healthcare professionals",
+    "discount": "N/A"
   },
   {
     "name": "9. Tallinn Health Care College",
@@ -3509,7 +3752,8 @@
     "tuition": "€1,500-€3,000/year (EU), €2,500-€5,000/year (Non-EU)",
     "scholarship": "Tallinn Healthcare Excellence Awards",
     "accommodation": "€200-€500/month",
-    "summary": "Practical-focused institution serving Estonia's healthcare system needs"
+    "summary": "Practical-focused institution serving Estonia's healthcare system needs",
+    "discount": "N/A"
   },
   {
     "name": "10. Estonian National Defence College",
@@ -3524,7 +3768,8 @@
     "actualPrice": "€12,000/year (international cadets)",
     "scholarship": "Baltic Defence College grants",
     "accommodation": "Barracks housing (included)",
-    "summary": "Only institution where cadets train with NATO's Enhanced Forward Presence battalions."
+    "summary": "Only institution where cadets train with NATO's Enhanced Forward Presence battalions.",
+    "discount": "N/A"
   },
   {
     "name": "11. Pallas University of Applied Sciences",
@@ -3539,7 +3784,8 @@
     "actualPrice": "€3,500/year",
     "scholarship": "Pallas Talent Awards",
     "accommodation": "Artist lofts (€250-€450/month)",
-    "summary": "Alumni include 3+ Venice Biennale participants."
+    "summary": "Alumni include 3+ Venice Biennale participants.",
+    "discount": "48.57%"
   },
   {
     "name": "12. Estonian Aviation Academy",
@@ -3554,7 +3800,8 @@
     "actualPrice": "€7,500/year",
     "scholarship": "Nordica Airlines Pilot Program",
     "accommodation": "Airport-adjacent dorms (€300/month)",
-    "summary": "Features A320 flight simulator training."
+    "summary": "Features A320 flight simulator training.",
+    "discount": "66.67%"
   },
   {
     "name": "13. Estonian Maritime Academy",
@@ -3569,7 +3816,8 @@
     "actualPrice": "€4,800/year",
     "scholarship": "Tallinn Port Authority Fund",
     "accommodation": "Ship cabin-style housing (€280/month)",
-    "summary": "Mandatory ice navigation training in Baltic winters."
+    "summary": "Mandatory ice navigation training in Baltic winters.",
+    "discount": "60.42%"
   },
   {
     "name": "14. Tartu Art School",
@@ -3584,7 +3832,8 @@
     "actualPrice": "€2,800/year",
     "scholarship": "Tartu City Art Stipends",
     "accommodation": "Creative studios (€200-€400/month)",
-    "summary": "Partners with Tartu Animation Festival."
+    "summary": "Partners with Tartu Animation Festival.",
+    "discount": "57.14%"
   },
   {
     "name": "15. Võru County Vocational Centre",
@@ -3599,7 +3848,8 @@
     "actualPrice": "N/A",
     "scholarship": "Forestry Industry Grants",
     "accommodation": "Lakeside cabins (€150/month)",
-    "summary": "Features Estonia's only vocational smoke sauna program."
+    "summary": "Features Estonia's only vocational smoke sauna program.",
+    "discount": "N/A"
   },
   {
     "name": "16. Tartu Vocational Education Centre",
@@ -3614,7 +3864,8 @@
     "actualPrice": "N/A",
     "scholarship": "Skanska Construction Awards",
     "accommodation": "Tech dorms (€180/month)",
-    "summary": "94% graduate employment rate in technical fields."
+    "summary": "94% graduate employment rate in technical fields.",
+    "discount": "N/A"
   },
   {
     "name": "17. Kuressaare Regional Training Centre",
@@ -3629,7 +3880,8 @@
     "actualPrice": "N/A",
     "scholarship": "Saare Wind Energy Fund",
     "accommodation": "Seaside housing (€160/month)",
-    "summary": "Students build functional sailboats annually."
+    "summary": "Students build functional sailboats annually.",
+    "discount": "N/A"
   },
   {
     "name": "18. Narva College (University of Tartu)",
@@ -3644,7 +3896,8 @@
     "actualPrice": "€2,500/year",
     "scholarship": "Integration Foundation Grants",
     "accommodation": "Border city housing (€120/month)",
-    "summary": "Unique trilingual teacher training."
+    "summary": "Unique trilingual teacher training.",
+    "discount": "60.00%"
   },
   {
     "name": "19. Haapsalu VET Centre",
@@ -3659,7 +3912,8 @@
     "actualPrice": "N/A",
     "scholarship": "Haapsalu Film Festival Fund",
     "accommodation": "Spa town housing (€140/month)",
-    "summary": "Partners with Balti Filmi- ja Meediakool."
+    "summary": "Partners with Balti Filmi- ja Meediakool.",
+    "discount": "N/A"
   },
   {
     "name": "20. Rakvere Vocational School",
@@ -3674,7 +3928,8 @@
     "actualPrice": "N/A",
     "scholarship": "Rakvere Meat Industry Fund",
     "accommodation": "Farmstead housing (€110/month)",
-    "summary": "Operates student-run agricultural enterprises."
+    "summary": "Operates student-run agricultural enterprises.",
+    "discount": "N/A"
   },
   {
     "name": "**1. University of Helsinki**",
@@ -3689,7 +3944,8 @@
     "actualPrice": "€10,000–€25,000/year (non-EU)",
     "scholarship": "Helsinki Scholarship (tuition waiver + stipend)",
     "accommodation": "Student housing (HOAS) available (~€250–€500/month)",
-    "summary": "A prestigious research university offering a broad range of programs in English. Strong focus on sustainability and innovation."
+    "summary": "A prestigious research university offering a broad range of programs in English. Strong focus on sustainability and innovation.",
+    "discount": "60.00%"
   },
   {
     "name": "**2. Aalto University**",
@@ -3704,7 +3960,8 @@
     "actualPrice": "€15,000–€18,000/year (non-EU)",
     "scholarship": "Aalto Scholarship (50–100% tuition waiver)",
     "accommodation": "AYY student housing (~€300–€600/month)",
-    "summary": "A top-ranked university for tech and design, fostering creativity and entrepreneurship."
+    "summary": "A top-ranked university for tech and design, fostering creativity and entrepreneurship.",
+    "discount": "20.00%"
   },
   {
     "name": "**3. University of Turku**",
@@ -3719,7 +3976,8 @@
     "actualPrice": "€10,000–€16,000/year (non-EU)",
     "scholarship": "UTU Scholarships (30–100% tuition waiver)",
     "accommodation": "TYS student housing (~€250–€450/month)",
-    "summary": "A research-intensive university with strong ties to industry and a vibrant student life."
+    "summary": "A research-intensive university with strong ties to industry and a vibrant student life.",
+    "discount": "20.00%"
   },
   {
     "name": "**4. Tampere University**",
@@ -3734,7 +3992,8 @@
     "actualPrice": "€10,000–€15,000/year (non-EU)",
     "scholarship": "Tampere University Scholarship (partial/full tuition waiver)",
     "accommodation": "TOAS student housing (~€250–€500/month)",
-    "summary": "A merger of two leading institutions, excelling in tech, health, and societal research."
+    "summary": "A merger of two leading institutions, excelling in tech, health, and societal research.",
+    "discount": "20.00%"
   },
   {
     "name": "**5. University of Eastern Finland**",
@@ -3749,7 +4008,8 @@
     "actualPrice": "€10,000–€12,000/year (non-EU)",
     "scholarship": "UEF Scholarship (30–70% tuition waiver)",
     "accommodation": "Student housing (~€200–€400/month)",
-    "summary": "Focuses on sustainability and health, with campuses in two vibrant student cities."
+    "summary": "Focuses on sustainability and health, with campuses in two vibrant student cities.",
+    "discount": "20.00%"
   },
   {
     "name": "**6. University of Lapland**",
@@ -3764,7 +4024,8 @@
     "actualPrice": "€8,000–€12,000/year (non-EU)",
     "scholarship": "Lapland University Fund grants",
     "accommodation": "Student housing (~€200–€400/month)",
-    "summary": "The northernmost university in Finland, offering unique Arctic-focused programs."
+    "summary": "The northernmost university in Finland, offering unique Arctic-focused programs.",
+    "discount": "25.00%"
   },
   {
     "name": "**7. University of Oulu**",
@@ -3779,7 +4040,8 @@
     "actualPrice": "€10,000–€15,000/year (non-EU)",
     "scholarship": "Oulu University Scholarship (merit-based)",
     "accommodation": "PSOAS student housing (~€250–€500/month)",
-    "summary": "A leader in STEM fields with strong industry collaborations and research output."
+    "summary": "A leader in STEM fields with strong industry collaborations and research output.",
+    "discount": "20.00%"
   },
   {
     "name": "**8. Lappeenranta-Lahti University of Technology (LUT)**",
@@ -3794,7 +4056,8 @@
     "actualPrice": "€12,000–€16,000/year (non-EU)",
     "scholarship": "LUT Scholarship (30–50% tuition waiver)",
     "accommodation": "LOAS student housing (~€300–€550/month)",
-    "summary": "Focused on solving global challenges through technology and sustainable business practices."
+    "summary": "Focused on solving global challenges through technology and sustainable business practices.",
+    "discount": "16.67%"
   },
   {
     "name": "**9. Hanken School of Economics**",
@@ -3809,7 +4072,8 @@
     "actualPrice": "€15,000–€18,000/year (non-EU)",
     "scholarship": "Hanken Support Scholarship (need-based)",
     "accommodation": "HOAS/private rentals (~€350–€650/month)",
-    "summary": "Finland\\'s top business school with triple-crown accreditation (AACSB, AMBA, EQUIS)."
+    "summary": "Finland's top business school with triple-crown accreditation (AACSB, AMBA, EQUIS).",
+    "discount": "16.67%"
   },
   {
     "name": "**10. Åbo Akademi University**",
@@ -3824,7 +4088,8 @@
     "actualPrice": "€8,000–€12,000/year (non-EU)",
     "scholarship": "Åbo Akademi University Scholarship (merit-based)",
     "accommodation": "TYS/private housing (~€250–€450/month)",
-    "summary": "A unique bilingual (Swedish/English) institution with strong research in humanities and technology."
+    "summary": "A unique bilingual (Swedish/English) institution with strong research in humanities and technology.",
+    "discount": "25.00%"
   },
   {
     "name": "1. Ludwig Maximilian University of Munich (LMU Munich)",
@@ -3839,7 +4104,8 @@
     "actualPrice": "No tuition for most programs (except some professional masters)",
     "scholarship": "LMU Scholarship, Deutschlandstipendium",
     "accommodation": "Studentenwerk housing (€300-€600/month)",
-    "summary": "Prestigious research university with 34 Nobel laureates. Strong in humanities and sciences."
+    "summary": "Prestigious research university with 34 Nobel laureates. Strong in humanities and sciences.",
+    "discount": "N/A"
   },
   {
     "name": "2. Technical University of Munich (TUM)",
@@ -3854,7 +4120,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "TUM Scholarship, Deutschlandstipendium",
     "accommodation": "Studentenwerk housing (€350-€650/month)",
-    "summary": "Germany's top technical university with strong industry connections and startup culture."
+    "summary": "Germany's top technical university with strong industry connections and startup culture.",
+    "discount": "N/A"
   },
   {
     "name": "3. Heidelberg University",
@@ -3869,7 +4136,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Heidelberg University Scholarship",
     "accommodation": "Studentenwerk housing (€250-€500/month)",
-    "summary": "Historic university with excellent research reputation, especially in medicine and life sciences."
+    "summary": "Historic university with excellent research reputation, especially in medicine and life sciences.",
+    "discount": "N/A"
   },
   {
     "name": "4. Humboldt University of Berlin",
@@ -3884,7 +4152,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Humboldt University Scholarship",
     "accommodation": "Studentenwerk housing (€250-€500/month)",
-    "summary": "Famous for its humanities programs and association with 29 Nobel laureates."
+    "summary": "Famous for its humanities programs and association with 29 Nobel laureates.",
+    "discount": "N/A"
   },
   {
     "name": "5. Free University of Berlin",
@@ -3899,7 +4168,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "FU Berlin Scholarship",
     "accommodation": "Studentenwerk housing (€250-€500/month)",
-    "summary": "Research-intensive university with particular strengths in social sciences."
+    "summary": "Research-intensive university with particular strengths in social sciences.",
+    "discount": "N/A"
   },
   {
     "name": "6. RWTH Aachen University",
@@ -3914,7 +4184,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "RWTH Scholarship",
     "accommodation": "Studentenwerk housing (€250-€450/month)",
-    "summary": "Germany's largest technical university with excellent engineering programs."
+    "summary": "Germany's largest technical university with excellent engineering programs.",
+    "discount": "N/A"
   },
   {
     "name": "7. University of Freiburg",
@@ -3929,7 +4200,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Freiburg University Scholarship",
     "accommodation": "Studentenwerk housing (€250-€500/month)",
-    "summary": "Historic university with strong research profile in humanities and sciences."
+    "summary": "Historic university with strong research profile in humanities and sciences.",
+    "discount": "N/A"
   },
   {
     "name": "8. University of Göttingen",
@@ -3944,7 +4216,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Göttingen University Scholarship",
     "accommodation": "Studentenwerk housing (€200-€400/month)",
-    "summary": "Research university with 45 Nobel laureates, particularly strong in natural sciences."
+    "summary": "Research university with 45 Nobel laureates, particularly strong in natural sciences.",
+    "discount": "N/A"
   },
   {
     "name": "9. University of Stuttgart",
@@ -3959,7 +4232,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Stuttgart University Scholarship",
     "accommodation": "Studentenwerk housing (€300-€500/month)",
-    "summary": "Leading technical university with strong focus on engineering and technology."
+    "summary": "Leading technical university with strong focus on engineering and technology.",
+    "discount": "N/A"
   },
   {
     "name": "10. University of Bonn",
@@ -3974,7 +4248,8 @@
     "actualPrice": "No tuition for most programs",
     "scholarship": "Bonn University Scholarship",
     "accommodation": "Studentenwerk housing (€250-€450/month)",
-    "summary": "Research university with particular strengths in mathematics and economics."
+    "summary": "Research university with particular strengths in mathematics and economics.",
+    "discount": "N/A"
   },
   {
     "name": "11. University of Hamburg",
@@ -3989,7 +4264,8 @@
     "actualPrice": "€1,500-€3,500/semester",
     "scholarship": "Cluster of Excellence CLICCS",
     "accommodation": "Port city housing (€400-€750/month)",
-    "summary": "Leads EU climate modeling with access to DESY particle accelerator"
+    "summary": "Leads EU climate modeling with access to DESY particle accelerator",
+    "discount": "77.87%"
   },
   {
     "name": "12. University of Cologne",
@@ -4004,7 +4280,8 @@
     "actualPrice": "€6,500/year (non-EU MSc)",
     "scholarship": "WiSo Faculty Awards",
     "accommodation": "Cathedral district (€450-€800/month)",
-    "summary": "Germany's largest economics faculty with Deutsche Bank partnerships"
+    "summary": "Germany's largest economics faculty with Deutsche Bank partnerships",
+    "discount": "95.92%"
   },
   {
     "name": "13. University of Mannheim",
@@ -4019,7 +4296,8 @@
     "actualPrice": "€20,000/year (MBA)",
     "scholarship": "Mannheim Executive Scholarships",
     "accommodation": "Baroque palace campus (€600-€1,100/month)",
-    "summary": "Triple-crown accredited business school (EQUIS, AMBA, AACSB)"
+    "summary": "Triple-crown accredited business school (EQUIS, AMBA, AACSB)",
+    "discount": "92.50%"
   },
   {
     "name": "14. University of Leipzig",
@@ -4034,7 +4312,8 @@
     "actualPrice": "€3,000/semester",
     "scholarship": "Leipzig Research Fellowships",
     "accommodation": "Music district housing (€350-€650/month)",
-    "summary": "9 Nobel laureates; birthplace of quantum physics"
+    "summary": "9 Nobel laureates; birthplace of quantum physics",
+    "discount": "93.00%"
   },
   {
     "name": "15. WWU Münster",
@@ -4049,7 +4328,8 @@
     "actualPrice": "€1,800/semester",
     "scholarship": "Cluster of Excellence Religion",
     "accommodation": "Bike-city housing (€280-€500/month)",
-    "summary": "Houses Vatican-approved canon law institute"
+    "summary": "Houses Vatican-approved canon law institute",
+    "discount": "83.33%"
   },
   {
     "name": "16. University of Duisburg-Essen",
@@ -4064,7 +4344,8 @@
     "actualPrice": "€4,000/year",
     "scholarship": "NRW Industry Fund",
     "accommodation": "Ruhr Valley housing (€250-€450/month)",
-    "summary": "Home to world's most powerful X-ray microscope"
+    "summary": "Home to world's most powerful X-ray microscope",
+    "discount": "92.13%"
   },
   {
     "name": "17. University of Potsdam",
@@ -4079,7 +4360,8 @@
     "actualPrice": "€1,700/semester",
     "scholarship": "HPI Digital Engineering",
     "accommodation": "Berlin metro housing (€500-€900/month)",
-    "summary": "Collaborates with 40+ Potsdam research institutes"
+    "summary": "Collaborates with 40+ Potsdam research institutes",
+    "discount": "82.94%"
   },
   {
     "name": "18. Friedrich Schiller University Jena",
@@ -4094,7 +4376,8 @@
     "actualPrice": "€4,500/year",
     "scholarship": "Carl Zeiss Optics Awards",
     "accommodation": "Science park housing (€230-€420/month)",
-    "summary": "Invented modern microscope technology"
+    "summary": "Invented modern microscope technology",
+    "discount": "95.56%"
   },
   {
     "name": "19. TU Berlin",
@@ -4109,7 +4392,8 @@
     "actualPrice": "€6,000/year",
     "scholarship": "Einstein Digital Future",
     "accommodation": "Startup campus (€450-€800/month)",
-    "summary": "Home to Berlin's AI innovation hub"
+    "summary": "Home to Berlin's AI innovation hub",
+    "discount": "94.75%"
   },
   {
     "name": "20. CAU Kiel",
@@ -4124,7 +4408,8 @@
     "actualPrice": "€1,600/semester",
     "scholarship": "Excellence Cluster ROOTS",
     "accommodation": "Baltic coast housing (€300-€550/month)",
-    "summary": "Operates research vessels for Baltic studies"
+    "summary": "Operates research vessels for Baltic studies",
+    "discount": "83.75%"
   },
   {
     "name": "1. Lund University",
@@ -4139,7 +4424,8 @@
     "actualPrice": "SEK 100,000-175,000/year (non-EU)",
     "scholarship": "Lund University Global Scholarship (25-100% tuition waiver)",
     "accommodation": "LU Accommodation (SEK 3,000-6,500/month)",
-    "summary": "Prestigious research university with 8 Nobel laureates. Strong international community and excellent research facilities."
+    "summary": "Prestigious research university with 8 Nobel laureates. Strong international community and excellent research facilities.",
+    "discount": "20.00%"
   },
   {
     "name": "2. Uppsala University",
@@ -4154,7 +4440,8 @@
     "actualPrice": "SEK 110,000-180,000/year (non-EU)",
     "scholarship": "Uppsala University Scholarships",
     "accommodation": "Student housing (SEK 3,500-6,000/month)",
-    "summary": "Historic university with strong academic traditions and 8 Nobel laureates. Beautiful campus in Sweden's student city."
+    "summary": "Historic university with strong academic traditions and 8 Nobel laureates. Beautiful campus in Sweden's student city.",
+    "discount": "18.18%"
   },
   {
     "name": "3. Stockholm University",
@@ -4169,7 +4456,8 @@
     "actualPrice": "SEK 100,000-160,000/year (non-EU)",
     "scholarship": "Stockholm University Scholarships",
     "accommodation": "SSSB housing (SEK 4,000-8,000/month)",
-    "summary": "Comprehensive university in Sweden's capital with strong research in science and humanities. Urban campus near nature."
+    "summary": "Comprehensive university in Sweden's capital with strong research in science and humanities. Urban campus near nature.",
+    "discount": "15.00%"
   },
   {
     "name": "4. KTH Royal Institute of Technology",
@@ -4184,7 +4472,8 @@
     "actualPrice": "SEK 175,000/year (non-EU master's)",
     "scholarship": "KTH Scholarship (25-100% tuition waiver)",
     "accommodation": "SSSB housing (SEK 4,000-7,500/month)",
-    "summary": "Scandinavia's largest technical university with strong industry connections and innovative research."
+    "summary": "Scandinavia's largest technical university with strong industry connections and innovative research.",
+    "discount": "11.43%"
   },
   {
     "name": "5. Chalmers University of Technology",
@@ -4199,7 +4488,8 @@
     "actualPrice": "SEK 160,000/year (non-EU master's)",
     "scholarship": "Avancez Scholarship (75% tuition waiver)",
     "accommodation": "SGS housing (SEK 3,500-6,500/month)",
-    "summary": "Innovative technical university with strong focus on sustainability and entrepreneurship."
+    "summary": "Innovative technical university with strong focus on sustainability and entrepreneurship.",
+    "discount": "12.50%"
   },
   {
     "name": "6. University of Gothenburg",
@@ -4214,7 +4504,8 @@
     "actualPrice": "SEK 110,000-150,000/year (non-EU)",
     "scholarship": "University of Gothenburg Study Scholarship",
     "accommodation": "SGS housing (SEK 3,500-6,000/month)",
-    "summary": "Sweden's third-largest university with strong research in marine sciences and social sciences."
+    "summary": "Sweden's third-largest university with strong research in marine sciences and social sciences.",
+    "discount": "18.18%"
   },
   {
     "name": "7. Linköping University",
@@ -4229,7 +4520,8 @@
     "actualPrice": "SEK 110,000-160,000/year (non-EU)",
     "scholarship": "LiU International Scholarship",
     "accommodation": "Student housing (SEK 3,000-5,500/month)",
-    "summary": "Modern university with problem-based learning approach and strong industry collaborations."
+    "summary": "Modern university with problem-based learning approach and strong industry collaborations.",
+    "discount": "13.64%"
   },
   {
     "name": "8. Umeå University",
@@ -4244,7 +4536,8 @@
     "actualPrice": "SEK 100,000-150,000/year (non-EU)",
     "scholarship": "Umeå University Scholarship",
     "accommodation": "Student housing (SEK 3,000-5,000/month)",
-    "summary": "Northern Sweden's largest university with strong research in medicine and biosciences."
+    "summary": "Northern Sweden's largest university with strong research in medicine and biosciences.",
+    "discount": "15.00%"
   },
   {
     "name": "9. Swedish University of Agricultural Sciences (SLU)",
@@ -4259,7 +4552,8 @@
     "actualPrice": "SEK 140,000/year (non-EU)",
     "scholarship": "SLU Scholarships",
     "accommodation": "Student housing (SEK 3,500-5,500/month)",
-    "summary": "World-leading institution in agricultural and environmental sciences with excellent research facilities."
+    "summary": "World-leading institution in agricultural and environmental sciences with excellent research facilities.",
+    "discount": "14.29%"
   },
   {
     "name": "10. Örebro University",
@@ -4274,7 +4568,8 @@
     "actualPrice": "SEK 95,000-140,000/year (non-EU)",
     "scholarship": "Örebro University Scholarship",
     "accommodation": "Student housing (SEK 3,000-5,000/month)",
-    "summary": "Young, growing university with strong professional programs and modern campus facilities."
+    "summary": "Young, growing university with strong professional programs and modern campus facilities.",
+    "discount": "15.79%"
   },
   {
     "name": "11. Karlstad University",
@@ -4289,7 +4584,8 @@
     "actualPrice": "SEK 80,000-140,000/year",
     "scholarship": "Karlstad Global Scholarship",
     "accommodation": "Lake Vänern-view housing (SEK 3,500-6,000/month)",
-    "summary": "Leader in service management research with IKEA partnership"
+    "summary": "Leader in service management research with IKEA partnership",
+    "discount": "N/A"
   },
   {
     "name": "12. Mid Sweden University",
@@ -4304,7 +4600,8 @@
     "actualPrice": "SEK 90,000-160,000/year",
     "scholarship": "Winter Sports Excellence Fund",
     "accommodation": "Mountain campus/Ski resort housing",
-    "summary": "Offers unique Arctic tourism programs"
+    "summary": "Offers unique Arctic tourism programs",
+    "discount": "N/A"
   },
   {
     "name": "13. Malmö University",
@@ -4319,7 +4616,8 @@
     "actualPrice": "SEK 100,000-175,000/year",
     "scholarship": "Øresund Region Grant",
     "accommodation": "Copenhagen metro housing",
-    "summary": "Cross-border university with Danish partnerships"
+    "summary": "Cross-border university with Danish partnerships",
+    "discount": "N/A"
   },
   {
     "name": "14. Linnaeus University",
@@ -4334,7 +4632,8 @@
     "actualPrice": "SEK 85,000-150,000/year",
     "scholarship": "Linnaeus Scholarship",
     "accommodation": "Glass Kingdom region housing",
-    "summary": "Operates Baltic Sea marine research station"
+    "summary": "Operates Baltic Sea marine research station",
+    "discount": "N/A"
   },
   {
     "name": "15. Dalarna University",
@@ -4349,7 +4648,8 @@
     "actualPrice": "SEK 75,000-130,000/year",
     "scholarship": "Solar Energy Research Fund",
     "accommodation": "UNESCO mining area housing",
-    "summary": "Hosts Sweden's largest solar thermal research facility"
+    "summary": "Hosts Sweden's largest solar thermal research facility",
+    "discount": "N/A"
   },
   {
     "name": "16. University of Skövde",
@@ -4364,7 +4664,8 @@
     "actualPrice": "SEK 120,000-200,000/year",
     "scholarship": "Volvo Game Design Award",
     "accommodation": "eSports campus housing",
-    "summary": "Collaborates with EA DICE on game projects"
+    "summary": "Collaborates with EA DICE on game projects",
+    "discount": "N/A"
   },
   {
     "name": "17. University West",
@@ -4379,7 +4680,8 @@
     "actualPrice": "SEK 95,000-145,000/year",
     "scholarship": "Saab Aeronautics Fund",
     "accommodation": "Industrial campus housing",
-    "summary": "Features robot welding certification programs"
+    "summary": "Features robot welding certification programs",
+    "discount": "N/A"
   },
   {
     "name": "18. Kristianstad University",
@@ -4394,7 +4696,8 @@
     "actualPrice": "SEK 85,000-135,000/year",
     "scholarship": "Nordic Food Lab Grant",
     "accommodation": "Agricultural campus housing",
-    "summary": "Operates experimental food innovation kitchen"
+    "summary": "Operates experimental food innovation kitchen",
+    "discount": "N/A"
   },
   {
     "name": "19. Halmstad University",
@@ -4409,7 +4712,8 @@
     "actualPrice": "SEK 110,000-180,000/year",
     "scholarship": "Halmstad Innovation Scholarship",
     "accommodation": "Beachfront tech campus",
-    "summary": "Partnered with Sony Mobile R&D"
+    "summary": "Partnered with Sony Mobile R&D",
+    "discount": "N/A"
   },
   {
     "name": "20. Blekinge Institute of Technology",
@@ -4424,7 +4728,8 @@
     "actualPrice": "SEK 130,000-210,000/year",
     "scholarship": "Baltic Sea Sustainability Fund",
     "accommodation": "Naval heritage housing",
-    "summary": "Ranked #1 in Sweden for software engineering"
+    "summary": "Ranked #1 in Sweden for software engineering",
+    "discount": "N/A"
   },
   {
     "name": "1. University of Oslo",
@@ -4439,7 +4744,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "Quota Scheme for developing countries",
     "accommodation": "SiO housing (NOK 4,000-8,000/month)",
-    "summary": "Norway's premier research institution with 4 Nobel laureates. Offers free education including for international students."
+    "summary": "Norway's premier research institution with 4 Nobel laureates. Offers free education including for international students.",
+    "discount": "N/A"
   },
   {
     "name": "2. Norwegian University of Science and Technology (NTNU)",
@@ -4454,7 +4760,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "NTNU Scholarships",
     "accommodation": "Sit housing (NOK 3,500-7,000/month)",
-    "summary": "Scandinavia's largest technical university with strong industry ties and cutting-edge research facilities."
+    "summary": "Scandinavia's largest technical university with strong industry ties and cutting-edge research facilities.",
+    "discount": "N/A"
   },
   {
     "name": "3. University of Bergen",
@@ -4469,7 +4776,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "UiB International Scholarships",
     "accommodation": "Sammen housing (NOK 3,800-6,500/month)",
-    "summary": "World-leading in marine research with beautiful campus in Norway's rainiest city."
+    "summary": "World-leading in marine research with beautiful campus in Norway's rainiest city.",
+    "discount": "N/A"
   },
   {
     "name": "4. University of Tromsø – The Arctic University of Norway",
@@ -4484,7 +4792,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "Arctic Scholarship Program",
     "accommodation": "Studentsamskipnaden housing (NOK 3,500-6,000/month)",
-    "summary": "Unique Arctic-focused institution offering northern lights viewing between lectures."
+    "summary": "Unique Arctic-focused institution offering northern lights viewing between lectures.",
+    "discount": "N/A"
   },
   {
     "name": "5. BI Norwegian Business School",
@@ -4499,7 +4808,8 @@
     "actualPrice": "NOK 67,000/semester (non-EU)",
     "scholarship": "BI Presidential Scholarship",
     "accommodation": "Private rentals (NOK 6,000-10,000/month)",
-    "summary": "Triple-crown accredited business school with strong corporate connections."
+    "summary": "Triple-crown accredited business school with strong corporate connections.",
+    "discount": "32.84%"
   },
   {
     "name": "6. Norwegian School of Economics (NHH)",
@@ -4514,7 +4824,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "NHH International Scholarships",
     "accommodation": "Sammen housing (NOK 4,000-7,000/month)",
-    "summary": "Norway's leading economics institution with 100% English master's programs."
+    "summary": "Norway's leading economics institution with 100% English master's programs.",
+    "discount": "N/A"
   },
   {
     "name": "7. Oslo Metropolitan University (OsloMet)",
@@ -4529,7 +4840,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "OsloMet International Scholarships",
     "accommodation": "SiO housing (NOK 4,500-8,500/month)",
-    "summary": "Practice-oriented education with strong professional networks in Norway's capital."
+    "summary": "Practice-oriented education with strong professional networks in Norway's capital.",
+    "discount": "N/A"
   },
   {
     "name": "8. Norwegian School of Sport Sciences (NIH)",
@@ -4544,7 +4856,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "NIH Excellence Scholarships",
     "accommodation": "SiO housing (NOK 4,000-7,000/month)",
-    "summary": "World-class sports university with Olympic-level training facilities."
+    "summary": "World-class sports university with Olympic-level training facilities.",
+    "discount": "N/A"
   },
   {
     "name": "9. Norwegian University of Life Sciences (NMBU)",
@@ -4559,7 +4872,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "NMBU International Scholarships",
     "accommodation": "SiÅs housing (NOK 3,500-6,000/month)",
-    "summary": "Leading institution for sustainable food production and environmental sciences."
+    "summary": "Leading institution for sustainable food production and environmental sciences.",
+    "discount": "N/A"
   },
   {
     "name": "10. Nord University",
@@ -4574,7 +4888,8 @@
     "actualPrice": "Free for all students",
     "scholarship": "Nord University Scholarships",
     "accommodation": "Studentinord housing (NOK 3,000-5,500/month)",
-    "summary": "Northern Norway's modern university with strong marine and business programs."
+    "summary": "Northern Norway's modern university with strong marine and business programs.",
+    "discount": "N/A"
   },
   {
     "name": "11. VID Specialized University",
@@ -4589,7 +4904,8 @@
     "actualPrice": "90,000 NOK/year (non-EU Bachelor's), 100,000 NOK/year (Master's)",
     "scholarship": "VID International Scholarship (partial tuition waiver)",
     "accommodation": "Diakonhjemmet housing (4,400 NOK/month)",
-    "summary": "Merged from 4 historic institutions in 2016; operates 6 campuses with strong church/community ties"
+    "summary": "Merged from 4 historic institutions in 2016; operates 6 campuses with strong church/community ties",
+    "discount": "N/A"
   },
   {
     "name": "12. MF Norwegian School of Theology",
@@ -4604,7 +4920,8 @@
     "actualPrice": "110,000 NOK/year (non-EU)",
     "scholarship": "MF Global Theology Fund",
     "accommodation": "Oslo student villages (5,200 NOK/month)",
-    "summary": "Hosts Norway's largest theological library with 500,000 volumes"
+    "summary": "Hosts Norway's largest theological library with 500,000 volumes",
+    "discount": "N/A"
   },
   {
     "name": "13. Inland Norway University",
@@ -4619,7 +4936,8 @@
     "actualPrice": "120,000 NOK/year (non-EU)",
     "scholarship": "Lillehammer Film School Grants",
     "accommodation": "Mountain campus housing (3,800 NOK/month)",
-    "summary": "Partnered with Olympic training centers for sports science programs"
+    "summary": "Partnered with Olympic training centers for sports science programs",
+    "discount": "N/A"
   },
   {
     "name": "14. Western Norway University (HVL)",
@@ -4634,7 +4952,8 @@
     "actualPrice": "130,000 NOK/year (non-EU)",
     "scholarship": "North Sea Energy Scholarship",
     "accommodation": "Fjord-view dorms (4,500 NOK/month)",
-    "summary": "Operates training ships for maritime students"
+    "summary": "Operates training ships for maritime students",
+    "discount": "N/A"
   },
   {
     "name": "15. Volda University College",
@@ -4649,7 +4968,8 @@
     "actualPrice": "85,000 NOK/year (non-EU)",
     "scholarship": "Nordic Media Innovation Fund",
     "accommodation": "Fjord media studios (3,200 NOK/month)",
-    "summary": "Produces award-winning student documentaries"
+    "summary": "Produces award-winning student documentaries",
+    "discount": "N/A"
   },
   {
     "name": "16. Sámi University",
@@ -4664,7 +4984,8 @@
     "actualPrice": "N/A",
     "scholarship": "Arctic Indigenous Fellowship",
     "accommodation": "Lavvu-style housing (2,500 NOK/month)",
-    "summary": "Only university where reindeer herding counts as coursework"
+    "summary": "Only university where reindeer herding counts as coursework",
+    "discount": "N/A"
   },
   {
     "name": "17. Norwegian Academy of Music",
@@ -4679,7 +5000,8 @@
     "actualPrice": "150,000 NOK/year (non-EU)",
     "scholarship": "Grieg Performance Award",
     "accommodation": "Soundproof practice studios (6,000 NOK/month)",
-    "summary": "Alumni include 30% of Oslo Philharmonic members"
+    "summary": "Alumni include 30% of Oslo Philharmonic members",
+    "discount": "N/A"
   },
   {
     "name": "18. Norwegian Academy of Fine Arts",
@@ -4694,7 +5016,8 @@
     "actualPrice": "140,000 NOK/year",
     "scholarship": "Munch Inspiration Grant",
     "accommodation": "Artist lofts (5,800 NOK/month)",
-    "summary": "Students exhibit at Oslo's National Gallery"
+    "summary": "Students exhibit at Oslo's National Gallery",
+    "discount": "N/A"
   },
   {
     "name": "19. Norwegian Theatre Academy",
@@ -4709,7 +5032,8 @@
     "actualPrice": "135,000 NOK/year",
     "scholarship": "Ibsen Creative Fellowship",
     "accommodation": "Theater dormitories (4,200 NOK/month)",
-    "summary": "Mandatory puppet-making and mask workshops"
+    "summary": "Mandatory puppet-making and mask workshops",
+    "discount": "N/A"
   },
   {
     "name": "1. ETH Zurich – Swiss Federal Institute of Technology",
@@ -4724,7 +5048,8 @@
     "actualPrice": "CHF 1,229/semester (international)",
     "scholarship": "ETH Excellence Scholarship (CHF 11,000-33,000)",
     "accommodation": "Student housing (CHF 500-1,200/month)",
-    "summary": "Ranked among the world's top universities for STEM fields, with 21 Nobel laureates. Offers cutting-edge research facilities."
+    "summary": "Ranked among the world's top universities for STEM fields, with 21 Nobel laureates. Offers cutting-edge research facilities.",
+    "discount": "40.60%"
   },
   {
     "name": "2. École Polytechnique Fédérale de Lausanne (EPFL)",
@@ -4739,7 +5064,8 @@
     "actualPrice": "CHF 1,266/semester (international)",
     "scholarship": "EPFL Excellence Fellowships",
     "accommodation": "Student housing (CHF 450-1,000/month)",
-    "summary": "World-class technical university with strong focus on innovation and entrepreneurship, located on Lake Geneva."
+    "summary": "World-class technical university with strong focus on innovation and entrepreneurship, located on Lake Geneva.",
+    "discount": "50.00%"
   },
   {
     "name": "3. University of Zurich",
@@ -4754,7 +5080,8 @@
     "actualPrice": "CHF 1,228/semester (international)",
     "scholarship": "UZH International Grants",
     "accommodation": "Student housing (CHF 500-1,200/month)",
-    "summary": "Comprehensive research university with 12 Nobel laureates. Strong in medicine, neuroscience, and economics."
+    "summary": "Comprehensive research university with 12 Nobel laureates. Strong in medicine, neuroscience, and economics.",
+    "discount": "41.37%"
   },
   {
     "name": "4. University of Geneva",
@@ -4769,7 +5096,8 @@
     "actualPrice": "CHF 1,000/semester (international)",
     "scholarship": "UNIGE Excellence Masters Fellowships",
     "accommodation": "Student housing (CHF 450-900/month)",
-    "summary": "Prestigious university with strong international orientation, particularly in diplomacy and international relations."
+    "summary": "Prestigious university with strong international orientation, particularly in diplomacy and international relations.",
+    "discount": "50.00%"
   },
   {
     "name": "5. University of Bern",
@@ -4784,7 +5112,8 @@
     "actualPrice": "CHF 1,250/semester (international)",
     "scholarship": "UniBE International Grants",
     "accommodation": "Student housing (CHF 400-900/month)",
-    "summary": "Research-intensive university with particular strengths in climate research and space exploration."
+    "summary": "Research-intensive university with particular strengths in climate research and space exploration.",
+    "discount": "40.00%"
   },
   {
     "name": "6. University of Lausanne (UNIL)",
@@ -4799,7 +5128,8 @@
     "actualPrice": "CHF 1,160/semester (international)",
     "scholarship": "UNIL Master's Grants",
     "accommodation": "Student housing (CHF 400-850/month)",
-    "summary": "Beautiful lakeside campus with strong programs in life sciences and business economics."
+    "summary": "Beautiful lakeside campus with strong programs in life sciences and business economics.",
+    "discount": "50.00%"
   },
   {
     "name": "7. University of Basel",
@@ -4814,7 +5144,8 @@
     "actualPrice": "CHF 1,350/semester (international)",
     "scholarship": "University of Basel Scholarships",
     "accommodation": "Student housing (CHF 450-950/month)",
-    "summary": "Historic university with excellent research in life sciences and cultural studies, located in Switzerland's pharmaceutical hub."
+    "summary": "Historic university with excellent research in life sciences and cultural studies, located in Switzerland's pharmaceutical hub.",
+    "discount": "37.04%"
   },
   {
     "name": "8. University of Fribourg",
@@ -4829,7 +5160,8 @@
     "actualPrice": "CHF 1,550/semester (international)",
     "scholarship": "UniFR International Scholarships",
     "accommodation": "Student housing (CHF 350-750/month)",
-    "summary": "Unique bilingual institution with strong interdisciplinary programs and medieval city charm."
+    "summary": "Unique bilingual institution with strong interdisciplinary programs and medieval city charm.",
+    "discount": "32.26%"
   },
   {
     "name": "9. University of Neuchâtel",
@@ -4844,7 +5176,8 @@
     "actualPrice": "CHF 1,530/semester (international)",
     "scholarship": "UniNE Excellence Scholarships",
     "accommodation": "Student housing (CHF 400-800/month)",
-    "summary": "Compact university with personalized attention and strong research in microtechnology and humanities."
+    "summary": "Compact university with personalized attention and strong research in microtechnology and humanities.",
+    "discount": "32.68%"
   },
   {
     "name": "10. Università della Svizzera italiana (USI)",
@@ -4859,7 +5192,8 @@
     "actualPrice": "CHF 4,000/semester (international)",
     "scholarship": "USI Excellence Scholarships",
     "accommodation": "Student housing (CHF 500-1,000/month)",
-    "summary": "Modern university with Mediterranean flair, strong in communication sciences and informatics."
+    "summary": "Modern university with Mediterranean flair, strong in communication sciences and informatics.",
+    "discount": "50.00%"
   },
   {
     "name": "11. Zurich University of the Arts (ZHdK)",
@@ -4874,7 +5208,8 @@
     "actualPrice": "CHF 1,260/semester (international)",
     "scholarship": "ZHdK Excellence Grants (up to CHF 10,000)",
     "accommodation": "Creative studios (CHF 800-1,500/month)",
-    "summary": "Features Europe's largest university soundstage (1,200m²)"
+    "summary": "Features Europe's largest university soundstage (1,200m²)",
+    "discount": "42.86%"
   },
   {
     "name": "12. Bern University of Applied Sciences (BFH)",
@@ -4889,7 +5224,8 @@
     "actualPrice": "CHF 1,400/semester",
     "scholarship": "Swiss Food Tech Innovation Fund",
     "accommodation": "Alpine research housing (CHF 600-1,200/month)",
-    "summary": "Operates experimental farms for agri-tech research"
+    "summary": "Operates experimental farms for agri-tech research",
+    "discount": "46.43%"
   },
   {
     "name": "13. HES-SO (Western Switzerland)",
@@ -4904,7 +5240,8 @@
     "actualPrice": "CHF 1,200/semester",
     "scholarship": "Lake Geneva Region Grants",
     "accommodation": "French-Swiss border housing",
-    "summary": "6,000+ industry partnerships including Rolex"
+    "summary": "6,000+ industry partnerships including Rolex",
+    "discount": "58.33%"
   },
   {
     "name": "14. Lucerne University (HSLU)",
@@ -4919,7 +5256,8 @@
     "actualPrice": "CHF 1,300/semester",
     "scholarship": "Swiss Fintech Scholarship",
     "accommodation": "Lakeside innovation hub",
-    "summary": "Mandatory industry semesters for engineering"
+    "summary": "Mandatory industry semesters for engineering",
+    "discount": "46.15%"
   },
   {
     "name": "15. PH Zurich (Teacher Education)",
@@ -4934,7 +5272,8 @@
     "actualPrice": "CHF 1,100/semester",
     "scholarship": "Swiss Teacher Excellence Fund",
     "accommodation": "Campus pedagogy labs",
-    "summary": "Pioneered Switzerland's digital classroom initiative"
+    "summary": "Pioneered Switzerland's digital classroom initiative",
+    "discount": "45.45%"
   },
   {
     "name": "16. Swiss Distance University (FFHS)",
@@ -4949,7 +5288,8 @@
     "actualPrice": "CHF 1,800/semester",
     "scholarship": "Alpine Digital Innovation Grant",
     "accommodation": "Optional study hubs",
-    "summary": "80% students employed full-time"
+    "summary": "80% students employed full-time",
+    "discount": "33.33%"
   },
   {
     "name": "17. OST University",
@@ -4964,7 +5304,8 @@
     "actualPrice": "CHF 1,250/semester",
     "scholarship": "Bodensee Region Tech Fund",
     "accommodation": "Lake Constance housing",
-    "summary": "Strong German-Austrian-Swiss triangle partnerships"
+    "summary": "Strong German-Austrian-Swiss triangle partnerships",
+    "discount": "48.00%"
   },
   {
     "name": "18. Kalaidos University",
@@ -4979,7 +5320,8 @@
     "actualPrice": "CHF 2,500/semester",
     "scholarship": "Executive Leadership Awards",
     "accommodation": "Business district housing",
-    "summary": "Average student age: 34 years"
+    "summary": "Average student age: 34 years",
+    "discount": "40.00%"
   },
   {
     "name": "19. ZHAW",
@@ -4994,7 +5336,8 @@
     "actualPrice": "CHF 1,300/semester",
     "scholarship": "Swiss Aviation Pioneer Fund",
     "accommodation": "Tech park residences",
-    "summary": "Runs Switzerland's only university flight simulator"
+    "summary": "Runs Switzerland's only university flight simulator",
+    "discount": "46.15%"
   },
   {
     "name": "20. HEG Geneva",
@@ -5009,7 +5352,8 @@
     "actualPrice": "CHF 1,200/semester",
     "scholarship": "UN Global Business Grant",
     "accommodation": "International district housing",
-    "summary": "Mandatory UN agency internships"
+    "summary": "Mandatory UN agency internships",
+    "discount": "58.33%"
   },
   {
     "name": "1. National and Kapodistrian University of Athens (NKUA)",
@@ -5024,7 +5368,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "NKUA Excellence Scholarships",
     "accommodation": "Student dorms (€150-300/month) or private (€250-500/month)",
-    "summary": "Greece's most prestigious university with historic neoclassical buildings in central Athens. Strong in humanities and health sciences."
+    "summary": "Greece's most prestigious university with historic neoclassical buildings in central Athens. Strong in humanities and health sciences.",
+    "discount": "100.00%"
   },
   {
     "name": "2. Aristotle University of Thessaloniki (AUTH)",
@@ -5039,7 +5384,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "AUTH International Student Grants",
     "accommodation": "Campus housing (€120-250/month)",
-    "summary": "Massive 230,000 sq.m. campus with excellent engineering and agricultural programs. Vibrant student life in Greece's second city."
+    "summary": "Massive 230,000 sq.m. campus with excellent engineering and agricultural programs. Vibrant student life in Greece's second city.",
+    "discount": "100.00%"
   },
   {
     "name": "3. University of Patras",
@@ -5054,7 +5400,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "Patras Research Fellowships",
     "accommodation": "Student residences (€100-200/month)",
-    "summary": "Strong technical university with excellent industry connections and modern facilities near the Rio-Antirrio bridge."
+    "summary": "Strong technical university with excellent industry connections and modern facilities near the Rio-Antirrio bridge.",
+    "discount": "100.00%"
   },
   {
     "name": "4. University of Crete",
@@ -5069,7 +5416,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "UoC Excellence Awards",
     "accommodation": "University housing (€80-180/month)",
-    "summary": "Scenic campuses in Crete with strong international collaborations and excellent science departments."
+    "summary": "Scenic campuses in Crete with strong international collaborations and excellent science departments.",
+    "discount": "100.00%"
   },
   {
     "name": "5. University of Thessaly",
@@ -5084,7 +5432,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "UTH Research Grants",
     "accommodation": "Student housing (€90-200/month)",
-    "summary": "Innovative programs across five cities with excellent agriculture and health science departments."
+    "summary": "Innovative programs across five cities with excellent agriculture and health science departments.",
+    "discount": "100.00%"
   },
   {
     "name": "6. Athens University of Economics and Business (AUEB)",
@@ -5099,7 +5448,8 @@
     "actualPrice": "€1,500-6,000/year (non-EU undergraduates)",
     "scholarship": "AUEB Merit Scholarships",
     "accommodation": "Private rentals (€300-600/month)",
-    "summary": "Greece's top business school with triple crown accreditation (AACSB, AMBA, EQUIS) and strong corporate ties."
+    "summary": "Greece's top business school with triple crown accreditation (AACSB, AMBA, EQUIS) and strong corporate ties.",
+    "discount": "100.00%"
   },
   {
     "name": "7. Harokopio University",
@@ -5114,7 +5464,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "Harokopio Research Awards",
     "accommodation": "Private rentals (€250-500/month)",
-    "summary": "Small university with excellent nutrition and geography programs, modern facilities in central Athens."
+    "summary": "Small university with excellent nutrition and geography programs, modern facilities in central Athens.",
+    "discount": "100.00%"
   },
   {
     "name": "8. University of the Aegean",
@@ -5129,7 +5480,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "Aegean Island Scholarships",
     "accommodation": "Island housing (€100-300/month)",
-    "summary": "Unique island-hopping university with strong environmental and digital humanities programs across six beautiful islands."
+    "summary": "Unique island-hopping university with strong environmental and digital humanities programs across six beautiful islands.",
+    "discount": "100.00%"
   },
   {
     "name": "9. University of Piraeus",
@@ -5144,7 +5496,8 @@
     "actualPrice": "€1,500-6,000/year (non-EU undergraduates)",
     "scholarship": "Piraeus Maritime Scholarships",
     "accommodation": "Private rentals (€250-550/month)",
-    "summary": "Leading university for shipping studies and business informatics near Greece's largest port."
+    "summary": "Leading university for shipping studies and business informatics near Greece's largest port.",
+    "discount": "100.00%"
   },
   {
     "name": "10. University of Macedonia",
@@ -5159,7 +5512,8 @@
     "actualPrice": "€1,500-4,000/year (non-EU undergraduates)",
     "scholarship": "Macedonia Excellence Awards",
     "accommodation": "Student housing (€100-250/month)",
-    "summary": "Strong regional university with excellent economics and Balkan studies programs in Thessaloniki's city center."
+    "summary": "Strong regional university with excellent economics and Balkan studies programs in Thessaloniki's city center.",
+    "discount": "100.00%"
   },
   {
     "name": "11. Hellenic Open University (HOU)",
@@ -5174,7 +5528,8 @@
     "actualPrice": "~€2,500/year (non-EU)",
     "scholarship": "HOU Distance Learning Fund",
     "accommodation": "N/A (fully remote)",
-    "summary": "Only Greek university offering accredited Creative Writing MA via distance learning ."
+    "summary": "Only Greek university offering accredited Creative Writing MA via distance learning .",
+    "discount": "40.00%"
   },
   {
     "name": "12. International Hellenic University (IHU)",
@@ -5189,7 +5544,8 @@
     "actualPrice": "€3,500/year",
     "scholarship": "IHU Global Excellence Awards",
     "accommodation": "Multicultural dormitories (€200-€400/month)",
-    "summary": "Partnered with 300+ EU universities for exchanges."
+    "summary": "Partnered with 300+ EU universities for exchanges.",
+    "discount": "48.57%"
   },
   {
     "name": "13. University of Western Attica (UNIWA)",
@@ -5204,7 +5560,8 @@
     "actualPrice": "€2,800/year",
     "scholarship": "Attica Industry Partnership Fund",
     "accommodation": "Urban campus housing",
-    "summary": "Runs Greece's only accredited cosmetology degree."
+    "summary": "Runs Greece's only accredited cosmetology degree.",
+    "discount": "53.57%"
   },
   {
     "name": "14. Panteion University",
@@ -5219,7 +5576,8 @@
     "actualPrice": "€2,500/year",
     "scholarship": "Public Policy Research Grants",
     "accommodation": "Political science dormitories",
-    "summary": "Alumni include 40% of Greek MPs since 1990."
+    "summary": "Alumni include 40% of Greek MPs since 1990.",
+    "discount": "60.00%"
   },
   {
     "name": "15. University of Peloponnese",
@@ -5234,7 +5592,8 @@
     "actualPrice": "€2,200/year",
     "scholarship": "Peloponnese Digital Innovation Fund",
     "accommodation": "Historic city housing",
-    "summary": "Partnered with NATO for defense informatics."
+    "summary": "Partnered with NATO for defense informatics.",
+    "discount": "59.09%"
   },
   {
     "name": "1. University of Iceland (Háskóli Íslands)",
@@ -5249,7 +5608,8 @@
     "actualPrice": "ISK 150,000-300,000/semester (non-EU)",
     "scholarship": "UI Excellence Scholarship (50-100% tuition waiver)",
     "accommodation": "Student housing (ISK 50,000-90,000/month)",
-    "summary": "Comprehensive research university with strong programs in Arctic studies and volcanology. Home to about 14,000 students."
+    "summary": "Comprehensive research university with strong programs in Arctic studies and volcanology. Home to about 14,000 students.",
+    "discount": "50.00%"
   },
   {
     "name": "2. Reykjavik University (RU)",
@@ -5264,7 +5624,8 @@
     "actualPrice": "ISK 300,000-500,000/semester (non-EU)",
     "scholarship": "RU Innovation Grants",
     "accommodation": "Private rentals (ISK 100,000-180,000/month)",
-    "summary": "Iceland's leading tech university with strong industry connections and startup incubators. About 3,800 students."
+    "summary": "Iceland's leading tech university with strong industry connections and startup incubators. About 3,800 students.",
+    "discount": "33.33%"
   },
   {
     "name": "3. University of Akureyri (Háskólinn á Akureyri)",
@@ -5279,7 +5640,8 @@
     "actualPrice": "ISK 100,000-200,000/semester (non-EU)",
     "scholarship": "North Iceland Development Fund",
     "accommodation": "Student housing (ISK 40,000-70,000/month)",
-    "summary": "Small university (1,800 students) with excellent nursing and Arctic studies programs in Iceland's \\'Northern Capital.\\'"
+    "summary": "Small university (1,800 students) with excellent nursing and Arctic studies programs in Iceland's 'Northern Capital.'",
+    "discount": "50.00%"
   },
   {
     "name": "4. Hólar University",
@@ -5294,7 +5656,8 @@
     "actualPrice": "ISK 120,000-250,000/semester (non-EU)",
     "scholarship": "Hólar Rural Development Awards",
     "accommodation": "On-campus (ISK 35,000-60,000/month)",
-    "summary": "Unique university (300 students) specializing in Icelandic horse breeding, aquaculture, and sustainable tourism in historic Hólar."
+    "summary": "Unique university (300 students) specializing in Icelandic horse breeding, aquaculture, and sustainable tourism in historic Hólar.",
+    "discount": "50.00%"
   },
   {
     "name": "5. Iceland University of the Arts (Listaháskóli Íslands)",
@@ -5309,7 +5672,8 @@
     "actualPrice": "ISK 300,000/semester (non-EU)",
     "scholarship": "Arts Talent Scholarships",
     "accommodation": "Private rentals (ISK 80,000-150,000/month)",
-    "summary": "Small (400 students) but influential arts school producing many of Iceland's renowned artists and designers."
+    "summary": "Small (400 students) but influential arts school producing many of Iceland's renowned artists and designers.",
+    "discount": "50.00%"
   },
   {
     "name": "6. Bifröst University",
@@ -5324,7 +5688,8 @@
     "actualPrice": "ISK 250,000-400,000/semester (non-EU)",
     "scholarship": "Bifröst Leadership Awards",
     "accommodation": "On-campus (ISK 45,000-75,000/month)",
-    "summary": "Small (1,000 students) business-focused university in scenic rural location, strong in entrepreneurship."
+    "summary": "Small (1,000 students) business-focused university in scenic rural location, strong in entrepreneurship.",
+    "discount": "28.00%"
   },
   {
     "name": "7. Agricultural University of Iceland",
@@ -5339,7 +5704,8 @@
     "actualPrice": "ISK 110,000-200,000/semester (non-EU)",
     "scholarship": "Agricultural Development Fund",
     "accommodation": "On-campus (ISK 30,000-50,000/month)",
-    "summary": "Small (400 students) but crucial institution for Iceland's agricultural sector and sustainable land use research."
+    "summary": "Small (400 students) but crucial institution for Iceland's agricultural sector and sustainable land use research.",
+    "discount": "50.00%"
   },
   {
     "name": "1. University of Liechtenstein",
@@ -5354,7 +5720,8 @@
     "actualPrice": "1,250 CHF/semester (non-EU)",
     "scholarship": "CFA Institute Research Challenge (for Finance students)",
     "accommodation": "Spoerry Factory campus housing (800-1,200 CHF/month)",
-    "summary": "RIBA-accredited architecture programs and strong industry ties with Hilti and LGT Group ."
+    "summary": "RIBA-accredited architecture programs and strong industry ties with Hilti and LGT Group .",
+    "discount": "24.00%"
   },
   {
     "name": "2. University of Luxembourg",
@@ -5369,7 +5736,8 @@
     "actualPrice": "€2,000/semester",
     "scholarship": "Luxembourg National Research Fund",
     "accommodation": "Belval innovation district housing",
-    "summary": "Partnered with EU institutions for policy research."
+    "summary": "Partnered with EU institutions for policy research.",
+    "discount": "80.00%"
   },
   {
     "name": "3. University of Malta",
@@ -5384,7 +5752,8 @@
     "actualPrice": "€10,800/year",
     "scholarship": "Malta Arts Scholarship",
     "accommodation": "Valletta-area residences",
-    "summary": "Home to the only medical school in Malta."
+    "summary": "Home to the only medical school in Malta.",
+    "discount": "90.00%"
   },
   {
     "name": "4. University of Lisbon (ULisboa)",
@@ -5399,7 +5768,8 @@
     "actualPrice": "€3,000/year",
     "scholarship": "Camões Institute Grants",
     "accommodation": "Historic city-center dorms",
-    "summary": "Operates the largest academic press in Portugal."
+    "summary": "Operates the largest academic press in Portugal.",
+    "discount": "76.77%"
   },
   {
     "name": "5. University of Aveiro (UA)",
@@ -5414,7 +5784,8 @@
     "actualPrice": "€3,500/year",
     "scholarship": "FCT PhD Fellowships",
     "accommodation": "Lagoon-view student villages",
-    "summary": "Developed Portugal's first internet search engine (SAPO) ."
+    "summary": "Developed Portugal's first internet search engine (SAPO) .",
+    "discount": "80.09%"
   },
   {
     "name": "**6. University of Minho (UMinho)**",
@@ -5429,7 +5800,8 @@
     "actualPrice": "€3,000-7,000/year (non-EU students)",
     "scholarship": "UMinho Merit Scholarships (up to €5,000/year)",
     "accommodation": "Student residences (€150-300/month)",
-    "summary": "A dynamic research university with strong industry ties, particularly in engineering and materials science. Campuses in Braga and Guimarães offer a mix of historic and modern facilities."
+    "summary": "A dynamic research university with strong industry ties, particularly in engineering and materials science. Campuses in Braga and Guimarães offer a mix of historic and modern facilities.",
+    "discount": "76.77%"
   },
   {
     "name": "**7. University of Évora**",
@@ -5444,7 +5816,8 @@
     "actualPrice": "€3,000-6,000/year (non-EU students)",
     "scholarship": "Évora Heritage Scholarships (for arts/humanities students)",
     "accommodation": "University dorms (€120-250/month)",
-    "summary": "A UNESCO-listed campus with a focus on arts, agriculture, and heritage studies. Small class sizes and strong regional research."
+    "summary": "A UNESCO-listed campus with a focus on arts, agriculture, and heritage studies. Small class sizes and strong regional research.",
+    "discount": "76.77%"
   },
   {
     "name": "**8. University of Beira Interior (UBI)**",
@@ -5459,7 +5832,8 @@
     "actualPrice": "€3,000-5,500/year (non-EU students)",
     "scholarship": "UBI Science & Tech Awards",
     "accommodation": "Student housing (€100-220/month)",
-    "summary": "Known for aerospace and textile engineering, with a scenic mountain campus. Affordable living costs and strong industry links."
+    "summary": "Known for aerospace and textile engineering, with a scenic mountain campus. Affordable living costs and strong industry links.",
+    "discount": "76.77%"
   },
   {
     "name": "**9. University of Algarve (UAlg)**",
@@ -5474,7 +5848,8 @@
     "actualPrice": "€3,000-6,500/year (non-EU students)",
     "scholarship": "Algarve Ocean & Tourism Scholarships",
     "accommodation": "Student residences (€180-350/month)",
-    "summary": "Combines beachside location with strong research in marine sciences and tourism. Popular with international students."
+    "summary": "Combines beachside location with strong research in marine sciences and tourism. Popular with international students.",
+    "discount": "76.77%"
   },
   {
     "name": "**10. ISCTE – University Institute of Lisbon**",
@@ -5489,7 +5864,8 @@
     "actualPrice": "€3,000-7,000/year (non-EU students)",
     "scholarship": "ISCTE Leadership Grants",
     "accommodation": "Private rentals (€350-600/month)",
-    "summary": "Urban campus with strong international partnerships, especially in business and social sciences."
+    "summary": "Urban campus with strong international partnerships, especially in business and social sciences.",
+    "discount": "66.67%"
   },
   {
     "name": "**1. University of Ljubljana**",
@@ -5504,7 +5880,8 @@
     "actualPrice": "€4,000-10,000/year (non-EU students)",
     "scholarship": "UL Excellence Scholarships",
     "accommodation": "Student dorms (€150-300/month)",
-    "summary": "A prestigious institution with strong engineering and medical programs. Located in Slovenia’s vibrant capital."
+    "summary": "A prestigious institution with strong engineering and medical programs. Located in Slovenia’s vibrant capital.",
+    "discount": "37.50%"
   },
   {
     "name": "**7. IT University of Copenhagen (ITU)**",
@@ -5519,7 +5896,8 @@
     "actualPrice": "DKK 60,000-120,000/year (≈€8,000-16,000) for non-EU",
     "scholarship": "ITU Talent Award (partial tuition waivers)",
     "accommodation": "Student housing (DKK 3,000-6,000/month ≈€400-800)",
-    "summary": "Scandinavia's leading IT-focused university with strong industry connections in gaming and software development. Modern campus in Copenhagen's tech district."
+    "summary": "Scandinavia's leading IT-focused university with strong industry connections in gaming and software development. Modern campus in Copenhagen's tech district.",
+    "discount": "N/A"
   },
   {
     "name": "**8. University College Copenhagen (KP)**",
@@ -5534,7 +5912,8 @@
     "actualPrice": "DKK 50,000-100,000/year (≈€6,700-13,400) for non-EU",
     "scholarship": "KP Health Talent Program",
     "accommodation": "Kollegier (DKK 2,500-5,000/month ≈€330-670)",
-    "summary": "Denmark's largest university college for professional bachelor's degrees, with emphasis on hands-on training in healthcare and education."
+    "summary": "Denmark's largest university college for professional bachelor's degrees, with emphasis on hands-on training in healthcare and education.",
+    "discount": "N/A"
   },
   {
     "name": "**9. University College of Northern Denmark (UCN)**",
@@ -5549,7 +5928,8 @@
     "actualPrice": "DKK 45,000-90,000/year (≈€6,000-12,000) for non-EU",
     "scholarship": "UCN North Denmark Talent Fund",
     "accommodation": "Aalborg student housing (DKK 2,200-4,500/month ≈€300-600)",
-    "summary": "Strong regional focus with work placements in all programs. More affordable than Copenhagen."
+    "summary": "Strong regional focus with work placements in all programs. More affordable than Copenhagen.",
+    "discount": "N/A"
   },
   {
     "name": "**10. VIA University College**",
@@ -5564,7 +5944,8 @@
     "actualPrice": "DKK 50,000-110,000/year (≈€6,700-14,800) for non-EU",
     "scholarship": "VIA Talent Grants",
     "accommodation": "Aarhus kollegier (DKK 2,800-5,500/month ≈€375-740)",
-    "summary": "Combines academic and vocational training with guaranteed internships. Campuses across Central Denmark."
+    "summary": "Combines academic and vocational training with guaranteed internships. Campuses across Central Denmark.",
+    "discount": "N/A"
   },
   {
     "name": "**2. University of Maribor**",
@@ -5579,7 +5960,8 @@
     "actualPrice": "€4,000-8,000/year (non-EU)",
     "scholarship": "UM Excellence Awards",
     "accommodation": "Student dormitories (€150-300/month)",
-    "summary": "Slovenia's second-largest university with excellent engineering and health programs. More affordable than Ljubljana with a vibrant student scene."
+    "summary": "Slovenia's second-largest university with excellent engineering and health programs. More affordable than Ljubljana with a vibrant student scene.",
+    "discount": "50.00%"
   },
   {
     "name": "**3. University of Primorska**",
@@ -5594,7 +5976,8 @@
     "actualPrice": "€3,500-7,000/year (non-EU)",
     "scholarship": "UP Adriatic Scholarships",
     "accommodation": "Student housing (€120-250/month)",
-    "summary": "Young, dynamic university leveraging its Mediterranean location for tourism and environmental studies. Small class sizes."
+    "summary": "Young, dynamic university leveraging its Mediterranean location for tourism and environmental studies. Small class sizes.",
+    "discount": "48.57%"
   },
   {
     "name": "**1. University of Copenhagen (UCPH)**",
@@ -5609,7 +5992,8 @@
     "actualPrice": "DKK 50,000-120,000/year (≈€6,700-16,000) non-EU",
     "scholarship": "UCPH International Scholarships",
     "accommodation": "Kollegier (DKK 3,000-6,000/month ≈€400-800)",
-    "summary": "World-class research university with 39 Nobel laureates. Historic campus in central Copenhagen."
+    "summary": "World-class research university with 39 Nobel laureates. Historic campus in central Copenhagen.",
+    "discount": "N/A"
   },
   {
     "name": "**2. Aarhus University (AU)**",
@@ -5624,7 +6008,8 @@
     "actualPrice": "DKK 45,000-120,000/year (≈€6,000-16,000) non-EU",
     "scholarship": "AU Talent Programme",
     "accommodation": "Aarhus kollegier (DKK 2,500-5,000/month ≈€330-670)",
-    "summary": "Innovative research hub with a beautiful park campus. Strong in social sciences and sustainability."
+    "summary": "Innovative research hub with a beautiful park campus. Strong in social sciences and sustainability.",
+    "discount": "N/A"
   },
   {
     "name": "**3. Technical University of Denmark (DTU)**",
@@ -5639,7 +6024,8 @@
     "actualPrice": "DKK 60,000-135,000/year (≈€8,000-18,000) non-EU",
     "scholarship": "DTU Fellowships",
     "accommodation": "Lyngby kollegier (DKK 3,500-6,500/month ≈€470-870)",
-    "summary": "Scandinavia's MIT with cutting-edge labs and strong industry partnerships."
+    "summary": "Scandinavia's MIT with cutting-edge labs and strong industry partnerships.",
+    "discount": "N/A"
   },
   {
     "name": "**4. Aalborg University (AAU)**",
@@ -5654,7 +6040,8 @@
     "actualPrice": "DKK 50,000-110,000/year (≈€6,700-14,800) non-EU",
     "scholarship": "AAU International Grants",
     "accommodation": "Aalborg kollegier (DKK 2,200-4,500/month ≈€300-600)",
-    "summary": "Famous for its project-based \\'Aalborg Model\\' of education. Strong in robotics and energy tech."
+    "summary": "Famous for its project-based 'Aalborg Model' of education. Strong in robotics and energy tech.",
+    "discount": "N/A"
   },
   {
     "name": "**5. Copenhagen Business School (CBS)**",
@@ -5669,7 +6056,8 @@
     "actualPrice": "DKK 70,000-150,000/year (≈€9,400-20,100) non-EU",
     "scholarship": "CBS Leadership Awards",
     "accommodation": "Copenhagen housing (DKK 4,000-8,000/month ≈€540-1,070)",
-    "summary": "Europe's top 10 business school with strong corporate connections in Scandinavia."
+    "summary": "Europe's top 10 business school with strong corporate connections in Scandinavia.",
+    "discount": "N/A"
   },
   {
     "name": "**6. Roskilde University (RUC)**",
@@ -5684,6 +6072,7 @@
     "actualPrice": "DKK 45,000-90,000/year (≈€6,000-12,000) non-EU",
     "scholarship": "RUC Global Citizen Fund",
     "accommodation": "Roskilde kollegier (DKK 2,800-5,000/month ≈€375-670)",
-    "summary": "Known for project-based learning and sustainability research. More affordable than Copenhagen."
+    "summary": "Known for project-based learning and sustainability research. More affordable than Copenhagen.",
+    "discount": "N/A"
   }
 ]
