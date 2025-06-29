@@ -1,0 +1,5278 @@
+[
+  {
+    "id": "1",
+    "name": "Computer Science"
+  },
+  {
+    "id": "2",
+    "name": "Medicine"
+  },
+  {
+    "id": "3",
+    "name": "Law"
+  },
+  {
+    "id": "4",
+    "name": "Economics"
+  },
+  {
+    "id": "5",
+    "name": "Physics"
+  },
+  {
+    "id": "6",
+    "name": "Engineering and Architecture"
+  },
+  {
+    "id": "7",
+    "name": "Political Science"
+  },
+  {
+    "id": "8",
+    "name": "Pharmacy and Biotechnology"
+  },
+  {
+    "id": "9",
+    "name": "Arts and Humanities"
+  },
+  {
+    "id": "10",
+    "name": "Agricultural and Food Sciences"
+  },
+  {
+    "id": "11",
+    "name": "Medical"
+  },
+  {
+    "id": "13",
+    "name": "Engineering and IT"
+  },
+  {
+    "id": "14",
+    "name": "Business and Economics"
+  },
+  {
+    "id": "15",
+    "name": "Arts"
+  },
+  {
+    "id": "16",
+    "name": "Engineering"
+  },
+  {
+    "id": "19",
+    "name": "Science"
+  },
+  {
+    "id": "20",
+    "name": "Mathematics"
+  },
+  {
+    "id": "21",
+    "name": "Chemistry"
+  },
+  {
+    "id": "22",
+    "name": "Biology"
+  },
+  {
+    "id": "23",
+    "name": "Earth Sciences"
+  },
+  {
+    "id": "24",
+    "name": "Information Engineering"
+  },
+  {
+    "id": "25",
+    "name": "Energy and Systems Engineering"
+  },
+  {
+    "id": "26",
+    "name": "Construction Engineering"
+  },
+  {
+    "id": "27",
+    "name": "Literature and Linguistics"
+  },
+  {
+    "id": "28",
+    "name": "Veterinary Sciences"
+  },
+  {
+    "id": "29",
+    "name": "Clinical and Experimental Medicine"
+  },
+  {
+    "id": "30",
+    "name": "Pathology"
+  },
+  {
+    "id": "31",
+    "name": "Cognitive Sciences"
+  },
+  {
+    "id": "32",
+    "name": "Education"
+  },
+  {
+    "id": "33",
+    "name": "Ancient and Modern Civilizations"
+  },
+  {
+    "id": "34",
+    "name": "Environmental Sciences"
+  },
+  {
+    "id": "35",
+    "name": "Marine Sciences"
+  },
+  {
+    "id": "36",
+    "name": "Neuroscience"
+  },
+  {
+    "id": "37",
+    "name": "Materials Science"
+  },
+  {
+    "id": "38",
+    "name": "Astrophysics"
+  },
+  {
+    "id": "39",
+    "name": "Data Science"
+  },
+  {
+    "id": "40",
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": "41",
+    "name": "Public Health"
+  },
+  {
+    "id": "42",
+    "name": "International Relations"
+  },
+  {
+    "id": "43",
+    "name": "Digital Humanities"
+  },
+  {
+    "id": "44",
+    "name": "Sports Science"
+  },
+  {
+    "id": "45",
+    "name": "Viticulture and Wine Science"
+  },
+  {
+    "id": "46",
+    "name": "Architecture and Design"
+  },
+  {
+    "id": "47",
+    "name": "Social Sciences"
+  },
+  {
+    "id": "48",
+    "name": "Molecular Biotechnology"
+  },
+  {
+    "id": "49",
+    "name": "Dentistry"
+  },
+  {
+    "id": "50",
+    "name": "Theology and Philosophy"
+  },
+  {
+    "id": "51",
+    "name": ""
+  },
+  {
+    "id": "52",
+    "name": "Informatics and Management"
+  },
+  {
+    "id": "53",
+    "name": "Transportation Systems"
+  },
+  {
+    "id": "54",
+    "name": "Performance Art"
+  },
+  {
+    "id": "55",
+    "name": "Ecclesiology"
+  },
+  {
+    "id": "56",
+    "name": "Forestry and Wood Technology"
+  },
+  {
+    "id": "57",
+    "name": "Wind Instruments"
+  },
+  {
+    "id": "58",
+    "name": "Strategic Planning"
+  },
+  {
+    "id": "59",
+    "name": "Corporate Strategy"
+  },
+  {
+    "id": "60",
+    "name": "Applied Computer Science"
+  },
+  {
+    "id": "61",
+    "name": "Organization Studies"
+  },
+  {
+    "id": "62",
+    "name": "Philosophy and Social Sciences"
+  },
+  {
+    "id": "63",
+    "name": "Theology and Religious Studies"
+  },
+  {
+    "id": "64",
+    "name": "\ud83c\uddf3\ud83c\uddf1 16. Royal Academy of Art, The Hague"
+  },
+  {
+    "id": "65",
+    "name": "Cultural Heritage"
+  },
+  {
+    "id": "66",
+    "name": "Decorative Painting"
+  },
+  {
+    "id": "67",
+    "name": "Philosophy, Philosophy of Science"
+  },
+  {
+    "id": "68",
+    "name": "Aeronautics"
+  },
+  {
+    "id": "69",
+    "name": "Epidemiology"
+  },
+  {
+    "id": "70",
+    "name": "Intelligence Studies"
+  },
+  {
+    "id": "71",
+    "name": "Physical Training"
+  },
+  {
+    "id": "72",
+    "name": "Agriculture and Horticulture"
+  },
+  {
+    "id": "73",
+    "name": "Art History"
+  },
+  {
+    "id": "74",
+    "name": "Humanities"
+  },
+  {
+    "id": "75",
+    "name": "Mass Media"
+  },
+  {
+    "id": "76",
+    "name": "Cultural Technology"
+  },
+  {
+    "id": "77",
+    "name": "Language Studies"
+  },
+  {
+    "id": "78",
+    "name": "Sustainable Farming"
+  },
+  {
+    "id": "79",
+    "name": "Consumer Science"
+  },
+  {
+    "id": "80",
+    "name": "Cultural Studies"
+  },
+  {
+    "id": "81",
+    "name": "Estonia"
+  },
+  {
+    "id": "82",
+    "name": "Traditional Knowledge"
+  },
+  {
+    "id": "83",
+    "name": "Media Design"
+  },
+  {
+    "id": "84",
+    "name": "Social Science"
+  },
+  {
+    "id": "85",
+    "name": "City: Mons"
+  },
+  {
+    "id": "86",
+    "name": "City: Debrecen"
+  },
+  {
+    "id": "87",
+    "name": "Structural Engineering"
+  },
+  {
+    "id": "88",
+    "name": "\ud83c\uddf3\ud83c\uddf1 8. Maastricht University"
+  },
+  {
+    "id": "89",
+    "name": "S\u00e1mi Teacher Education"
+  },
+  {
+    "id": "90",
+    "name": "Veterinary Basics"
+  },
+  {
+    "id": "91",
+    "name": "Biobased Materials"
+  },
+  {
+    "id": "92",
+    "name": "Music Studies"
+  },
+  {
+    "id": "93",
+    "name": "Sports Sciences"
+  },
+  {
+    "id": "94",
+    "name": "Medical Sciences"
+  },
+  {
+    "id": "95",
+    "name": "Media Communication"
+  },
+  {
+    "id": "96",
+    "name": "Mechatronics"
+  },
+  {
+    "id": "97",
+    "name": "Automation"
+  },
+  {
+    "id": "98",
+    "name": "Opera"
+  },
+  {
+    "id": "99",
+    "name": "Contemporary Music"
+  },
+  {
+    "id": "100",
+    "name": "Business Administration"
+  },
+  {
+    "id": "101",
+    "name": "City: Maastricht"
+  },
+  {
+    "id": "102",
+    "name": "Art Criticism"
+  },
+  {
+    "id": "103",
+    "name": "Planning and Design"
+  },
+  {
+    "id": "104",
+    "name": "Product Design"
+  },
+  {
+    "id": "105",
+    "name": "Social Psychology"
+  },
+  {
+    "id": "106",
+    "name": "Education Policy"
+  },
+  {
+    "id": "107",
+    "name": "Agricultural Economics"
+  },
+  {
+    "id": "108",
+    "name": "Public Policy"
+  },
+  {
+    "id": "109",
+    "name": "Welding"
+  },
+  {
+    "id": "110",
+    "name": "Automotive Maintenance"
+  },
+  {
+    "id": "111",
+    "name": "Career Guidance"
+  },
+  {
+    "id": "112",
+    "name": "Bilingual Education"
+  },
+  {
+    "id": "113",
+    "name": "\ud83c\uddf3\ud83c\uddf1 6. University of Groningen"
+  },
+  {
+    "id": "114",
+    "name": "Theatre Acting"
+  },
+  {
+    "id": "115",
+    "name": "Human Resource Management"
+  },
+  {
+    "id": "116",
+    "name": "Smart Mobility"
+  },
+  {
+    "id": "117",
+    "name": "Social and Cultural Anthropology"
+  },
+  {
+    "id": "118",
+    "name": "City: Enschede"
+  },
+  {
+    "id": "119",
+    "name": "Agricultural Science"
+  },
+  {
+    "id": "120",
+    "name": "Intercultural Communication"
+  },
+  {
+    "id": "121",
+    "name": "Product Development"
+  },
+  {
+    "id": "122",
+    "name": "Church Polity"
+  },
+  {
+    "id": "123",
+    "name": "Psychology"
+  },
+  {
+    "id": "124",
+    "name": "Protestant Theology"
+  },
+  {
+    "id": "125",
+    "name": "Applied Informatics"
+  },
+  {
+    "id": "126",
+    "name": "Communication & Media Studies"
+  },
+  {
+    "id": "127",
+    "name": "\ud83c\uddf3\ud83c\uddf1 7. Radboud University"
+  },
+  {
+    "id": "128",
+    "name": "Corporate Governance"
+  },
+  {
+    "id": "129",
+    "name": "Primary and Pre-School Education"
+  },
+  {
+    "id": "130",
+    "name": "Graphic Arts"
+  },
+  {
+    "id": "131",
+    "name": "Maritime Operations"
+  },
+  {
+    "id": "132",
+    "name": "\ud83c\udde7\ud83c\uddea 20. Erasmushogeschool Brussel"
+  },
+  {
+    "id": "133",
+    "name": "City: Heidelberg"
+  },
+  {
+    "id": "134",
+    "name": "Childcare and Social Work"
+  },
+  {
+    "id": "135",
+    "name": "Molecular Biology"
+  },
+  {
+    "id": "136",
+    "name": "Textile Design"
+  },
+  {
+    "id": "137",
+    "name": "Sociology of Religion"
+  },
+  {
+    "id": "138",
+    "name": "Logic and Algorithms"
+  },
+  {
+    "id": "139",
+    "name": "Stage Direction"
+  },
+  {
+    "id": "140",
+    "name": "Chemistry and Earth Sciences"
+  },
+  {
+    "id": "141",
+    "name": "Woodworking"
+  },
+  {
+    "id": "142",
+    "name": "Ecological Agriculture"
+  },
+  {
+    "id": "143",
+    "name": "Media and Communications"
+  },
+  {
+    "id": "144",
+    "name": "Animal Hygiene"
+  },
+  {
+    "id": "145",
+    "name": "\ud83c\udde7\ud83c\uddea 13. AP University of Applied Sciences and Arts Antwerp"
+  },
+  {
+    "id": "146",
+    "name": "IT Systems"
+  },
+  {
+    "id": "147",
+    "name": "Dramatic Arts"
+  },
+  {
+    "id": "148",
+    "name": "Philosophy"
+  },
+  {
+    "id": "149",
+    "name": "Communication"
+  },
+  {
+    "id": "150",
+    "name": "Industrial Management"
+  },
+  {
+    "id": "151",
+    "name": "Editing"
+  },
+  {
+    "id": "152",
+    "name": "Earth and Climate Sciences"
+  },
+  {
+    "id": "153",
+    "name": "Behavioral Sciences"
+  },
+  {
+    "id": "154",
+    "name": "Programming Languages"
+  },
+  {
+    "id": "155",
+    "name": "Sport and Health Sciences"
+  },
+  {
+    "id": "156",
+    "name": "Catholic Theology"
+  },
+  {
+    "id": "157",
+    "name": "Lighting Design"
+  },
+  {
+    "id": "158",
+    "name": "Calligraphy"
+  },
+  {
+    "id": "159",
+    "name": "Social Pedagogy"
+  },
+  {
+    "id": "160",
+    "name": "Catering Services"
+  },
+  {
+    "id": "161",
+    "name": "Innovation"
+  },
+  {
+    "id": "162",
+    "name": "Programming"
+  },
+  {
+    "id": "163",
+    "name": "Motor Control"
+  },
+  {
+    "id": "164",
+    "name": "Television Production"
+  },
+  {
+    "id": "165",
+    "name": "\ud83c\uddf3\ud83c\uddf1 12. Open University of the Netherlands"
+  },
+  {
+    "id": "166",
+    "name": "Technology and Health"
+  },
+  {
+    "id": "167",
+    "name": "Art Education"
+  },
+  {
+    "id": "168",
+    "name": "\ud83c\udde8\ud83c\uddff 18. Academy of Fine Arts in Prague"
+  },
+  {
+    "id": "169",
+    "name": "\ud83c\uddf8\ud83c\uddf0 19. Central European Academy Studies and Research"
+  },
+  {
+    "id": "170",
+    "name": "City: Amsterdam"
+  },
+  {
+    "id": "171",
+    "name": "English Studies"
+  },
+  {
+    "id": "172",
+    "name": "City: Jena"
+  },
+  {
+    "id": "173",
+    "name": "Physical Chemistry"
+  },
+  {
+    "id": "174",
+    "name": "Legal Studies"
+  },
+  {
+    "id": "175",
+    "name": "Missiology"
+  },
+  {
+    "id": "176",
+    "name": "Classical Singing"
+  },
+  {
+    "id": "177",
+    "name": "Chemistry \"Giacomo Ciamician\""
+  },
+  {
+    "id": "178",
+    "name": "Economic Diplomacy"
+  },
+  {
+    "id": "179",
+    "name": "Bioinformatics"
+  },
+  {
+    "id": "180",
+    "name": "Transport & Planning"
+  },
+  {
+    "id": "181",
+    "name": "\ud83c\udde8\ud83c\uddff 16. Tomas Bata University in Zl\u00edn"
+  },
+  {
+    "id": "182",
+    "name": "Veterinary Epidemiology"
+  },
+  {
+    "id": "183",
+    "name": "Public Management"
+  },
+  {
+    "id": "184",
+    "name": "Sports Management"
+  },
+  {
+    "id": "185",
+    "name": "Sculpture"
+  },
+  {
+    "id": "186",
+    "name": "Industrial Design Engineering"
+  },
+  {
+    "id": "187",
+    "name": "City: T\u00fcbingen"
+  },
+  {
+    "id": "188",
+    "name": "Cultural History"
+  },
+  {
+    "id": "189",
+    "name": "Boat Building"
+  },
+  {
+    "id": "190",
+    "name": "Dramaturgy"
+  },
+  {
+    "id": "191",
+    "name": "Musical Acting"
+  },
+  {
+    "id": "192",
+    "name": "Banking"
+  },
+  {
+    "id": "193",
+    "name": "Marine Ecology"
+  },
+  {
+    "id": "194",
+    "name": "\ud83c\udde9\ud83c\uddea 10. University of Bonn"
+  },
+  {
+    "id": "195",
+    "name": "Electrical Engineering"
+  },
+  {
+    "id": "196",
+    "name": "Natural Resource Management"
+  },
+  {
+    "id": "197",
+    "name": "Rehabilitation"
+  },
+  {
+    "id": "198",
+    "name": "Civil, Geo and Environmental Engineering"
+  },
+  {
+    "id": "199",
+    "name": "Materials Engineering"
+  },
+  {
+    "id": "200",
+    "name": "Fisheries and Aquaculture"
+  },
+  {
+    "id": "201",
+    "name": "Business and Entrepreneurship"
+  },
+  {
+    "id": "202",
+    "name": "Anatomy for Dancers"
+  },
+  {
+    "id": "203",
+    "name": "Occupational Therapy"
+  },
+  {
+    "id": "204",
+    "name": "Administrative Sciences"
+  },
+  {
+    "id": "205",
+    "name": "Flight Dispatch"
+  },
+  {
+    "id": "206",
+    "name": "\ud83c\udde8\ud83c\uddff 20. University of Veterinary Sciences Brno"
+  },
+  {
+    "id": "207",
+    "name": "Software Development"
+  },
+  {
+    "id": "208",
+    "name": "Language Education"
+  },
+  {
+    "id": "209",
+    "name": "Tourism Research"
+  },
+  {
+    "id": "210",
+    "name": "Health and Caring Sciences"
+  },
+  {
+    "id": "211",
+    "name": "Clinical Skills"
+  },
+  {
+    "id": "212",
+    "name": "Sports Technology"
+  },
+  {
+    "id": "213",
+    "name": "Process Engineering"
+  },
+  {
+    "id": "214",
+    "name": "Advanced Mathematics"
+  },
+  {
+    "id": "215",
+    "name": "Operational Planning"
+  },
+  {
+    "id": "216",
+    "name": "Digital Innovation"
+  },
+  {
+    "id": "217",
+    "name": "Construction and Geoengineering"
+  },
+  {
+    "id": "218",
+    "name": "\ud83c\udde7\ud83c\uddea 17. Thomas More University of Applied Sciences"
+  },
+  {
+    "id": "219",
+    "name": "City: Tilburg"
+  },
+  {
+    "id": "220",
+    "name": "Science and Informatics"
+  },
+  {
+    "id": "221",
+    "name": "Solar Energy"
+  },
+  {
+    "id": "222",
+    "name": "Organic Technology"
+  },
+  {
+    "id": "223",
+    "name": "Transportation Sciences"
+  },
+  {
+    "id": "224",
+    "name": "Psychiatry"
+  },
+  {
+    "id": "225",
+    "name": "Business Analytics"
+  },
+  {
+    "id": "226",
+    "name": "Voice Training"
+  },
+  {
+    "id": "227",
+    "name": "Finance and Accounting"
+  },
+  {
+    "id": "228",
+    "name": "\ud83c\udde8\ud83c\uddff 4. Brno University of Technology"
+  },
+  {
+    "id": "229",
+    "name": "Automation and Control"
+  },
+  {
+    "id": "230",
+    "name": "AI and Robotics"
+  },
+  {
+    "id": "231",
+    "name": "Management Science"
+  },
+  {
+    "id": "232",
+    "name": "\ud83c\udde9\ud83c\uddea 12. University of Leipzig"
+  },
+  {
+    "id": "233",
+    "name": "Technology"
+  },
+  {
+    "id": "234",
+    "name": "Education and Psychology"
+  },
+  {
+    "id": "235",
+    "name": "Applied Physics"
+  },
+  {
+    "id": "236",
+    "name": "\ud83c\udde9\ud83c\uddea 19. University of Jena"
+  },
+  {
+    "id": "237",
+    "name": "Public Economics"
+  },
+  {
+    "id": "238",
+    "name": "Environmental Science"
+  },
+  {
+    "id": "239",
+    "name": "IT"
+  },
+  {
+    "id": "240",
+    "name": "Teacher Training"
+  },
+  {
+    "id": "241",
+    "name": "Chemistry and Biotechnology"
+  },
+  {
+    "id": "242",
+    "name": "Land Use Planning"
+  },
+  {
+    "id": "243",
+    "name": "Language Center"
+  },
+  {
+    "id": "244",
+    "name": "Christian Education"
+  },
+  {
+    "id": "245",
+    "name": "Marine Biology"
+  },
+  {
+    "id": "246",
+    "name": "IT and Cybersecurity"
+  },
+  {
+    "id": "247",
+    "name": "Creative Design"
+  },
+  {
+    "id": "248",
+    "name": "Arts and Letters"
+  },
+  {
+    "id": "249",
+    "name": "Sustainable Construction"
+  },
+  {
+    "id": "250",
+    "name": "Economics and Administration"
+  },
+  {
+    "id": "251",
+    "name": "Office Management"
+  },
+  {
+    "id": "252",
+    "name": "Hermeneutics"
+  },
+  {
+    "id": "253",
+    "name": "\ud83c\udded\ud83c\uddfa 2. Budapest University of Technology and Economics"
+  },
+  {
+    "id": "254",
+    "name": "Data Science and Knowledge Engineering"
+  },
+  {
+    "id": "255",
+    "name": "Social Inclusion"
+  },
+  {
+    "id": "256",
+    "name": "Innovation Management"
+  },
+  {
+    "id": "257",
+    "name": "Dance Pedagogy"
+  },
+  {
+    "id": "258",
+    "name": "Business Law"
+  },
+  {
+    "id": "259",
+    "name": "National Security"
+  },
+  {
+    "id": "260",
+    "name": "\ud83c\uddea\ud83c\uddea 3. Tallinn University of Technology"
+  },
+  {
+    "id": "261",
+    "name": "Educational & Social Policy"
+  },
+  {
+    "id": "262",
+    "name": "Arts and Culture"
+  },
+  {
+    "id": "263",
+    "name": "Sales and Marketing"
+  },
+  {
+    "id": "264",
+    "name": "City: \u010cesk\u00e9 Bud\u011bjovice"
+  },
+  {
+    "id": "265",
+    "name": "Health and Welfare"
+  },
+  {
+    "id": "266",
+    "name": "Music and Visual Arts"
+  },
+  {
+    "id": "267",
+    "name": "Reproduction Biology"
+  },
+  {
+    "id": "268",
+    "name": "Dance"
+  },
+  {
+    "id": "269",
+    "name": "City: Frankfurt am Main"
+  },
+  {
+    "id": "270",
+    "name": "Metalwork"
+  },
+  {
+    "id": "271",
+    "name": "Folk Dance"
+  },
+  {
+    "id": "272",
+    "name": "Health Sciences"
+  },
+  {
+    "id": "273",
+    "name": "Health Promotion"
+  },
+  {
+    "id": "274",
+    "name": "Political Studies"
+  },
+  {
+    "id": "275",
+    "name": "Forest Sciences"
+  },
+  {
+    "id": "276",
+    "name": "Energy Engineering"
+  },
+  {
+    "id": "277",
+    "name": "Marine Science"
+  },
+  {
+    "id": "278",
+    "name": "Church and Cultural History"
+  },
+  {
+    "id": "279",
+    "name": "Reformed Theology"
+  },
+  {
+    "id": "280",
+    "name": "Corporate Finance"
+  },
+  {
+    "id": "281",
+    "name": "Landscape Architecture"
+  },
+  {
+    "id": "282",
+    "name": "\ud83c\udded\ud83c\uddfa 4. University of Szeged"
+  },
+  {
+    "id": "283",
+    "name": "\ud83c\uddf8\ud83c\uddf0 10. Academy of Fine Arts and Design in Bratislava"
+  },
+  {
+    "id": "284",
+    "name": "Childhood Studies"
+  },
+  {
+    "id": "285",
+    "name": "Illustration"
+  },
+  {
+    "id": "286",
+    "name": "Industrial Engineering"
+  },
+  {
+    "id": "287",
+    "name": "Environmental Protection"
+  },
+  {
+    "id": "288",
+    "name": "Logistics"
+  },
+  {
+    "id": "289",
+    "name": "Educational Psychology"
+  },
+  {
+    "id": "290",
+    "name": "HR Management"
+  },
+  {
+    "id": "291",
+    "name": "Mathematics, Physics, and Informatics"
+  },
+  {
+    "id": "292",
+    "name": "Nature Tourism"
+  },
+  {
+    "id": "293",
+    "name": "Sustainable Agriculture"
+  },
+  {
+    "id": "294",
+    "name": "\ud83c\udde7\ud83c\uddea 14. University College Ghent"
+  },
+  {
+    "id": "295",
+    "name": "Mathematics and Physics"
+  },
+  {
+    "id": "296",
+    "name": "Conceptual Art"
+  },
+  {
+    "id": "297",
+    "name": "Arts and Philosophy"
+  },
+  {
+    "id": "298",
+    "name": "Engineering Mathematics"
+  },
+  {
+    "id": "299",
+    "name": "Flight Operations"
+  },
+  {
+    "id": "300",
+    "name": "Drama"
+  },
+  {
+    "id": "301",
+    "name": "Restoration"
+  },
+  {
+    "id": "302",
+    "name": "Humanities and Social Sciences"
+  },
+  {
+    "id": "303",
+    "name": "Public Governance"
+  },
+  {
+    "id": "304",
+    "name": "Applied Graphics"
+  },
+  {
+    "id": "305",
+    "name": "Interior Design"
+  },
+  {
+    "id": "306",
+    "name": "Geosciences"
+  },
+  {
+    "id": "307",
+    "name": "City: Eger"
+  },
+  {
+    "id": "308",
+    "name": "City: Tartu"
+  },
+  {
+    "id": "309",
+    "name": "Performance Studies"
+  },
+  {
+    "id": "310",
+    "name": "Optometry"
+  },
+  {
+    "id": "311",
+    "name": "E-Sports"
+  },
+  {
+    "id": "312",
+    "name": "\ud83c\uddea\ud83c\uddea 6. Estonian University of Life Sciences"
+  },
+  {
+    "id": "313",
+    "name": "Security and Defence Policy"
+  },
+  {
+    "id": "314",
+    "name": "Industrial Automation"
+  },
+  {
+    "id": "315",
+    "name": "City: Dubnica nad V\u00e1hom"
+  },
+  {
+    "id": "316",
+    "name": "Philosophy and Letters"
+  },
+  {
+    "id": "317",
+    "name": "Medicine and Health Sciences"
+  },
+  {
+    "id": "318",
+    "name": "Classical Music"
+  },
+  {
+    "id": "319",
+    "name": "Multimedia Design"
+  },
+  {
+    "id": "320",
+    "name": "Home Economics"
+  },
+  {
+    "id": "321",
+    "name": "Clinical Psychology"
+  },
+  {
+    "id": "322",
+    "name": "Fisheries and Protection of Waters"
+  },
+  {
+    "id": "323",
+    "name": "Nutrition"
+  },
+  {
+    "id": "324",
+    "name": "Economics and Social Sciences"
+  },
+  {
+    "id": "325",
+    "name": "Robotics"
+  },
+  {
+    "id": "326",
+    "name": "Health Professions"
+  },
+  {
+    "id": "327",
+    "name": "Plant Production"
+  },
+  {
+    "id": "328",
+    "name": "Industrial Design"
+  },
+  {
+    "id": "329",
+    "name": "Nutrition & Dietetics"
+  },
+  {
+    "id": "330",
+    "name": "Adult Education"
+  },
+  {
+    "id": "331",
+    "name": "Music and Drama"
+  },
+  {
+    "id": "332",
+    "name": "Biology, Chemistry, Pharmacy"
+  },
+  {
+    "id": "333",
+    "name": "Biosciences"
+  },
+  {
+    "id": "334",
+    "name": "Contemporary Art"
+  },
+  {
+    "id": "335",
+    "name": "Agrobusiness"
+  },
+  {
+    "id": "336",
+    "name": "Sciences"
+  },
+  {
+    "id": "337",
+    "name": "Digital Technologies"
+  },
+  {
+    "id": "338",
+    "name": "\ud83c\uddf3\ud83c\uddf1 5. Utrecht University"
+  },
+  {
+    "id": "339",
+    "name": "Education Management"
+  },
+  {
+    "id": "340",
+    "name": "Fashion Production"
+  },
+  {
+    "id": "341",
+    "name": "\ud83c\udded\ud83c\uddfa 14. University of Duna\u00fajv\u00e1ros"
+  },
+  {
+    "id": "342",
+    "name": "Telecommunication Systems"
+  },
+  {
+    "id": "343",
+    "name": "Security Engineering"
+  },
+  {
+    "id": "344",
+    "name": "Netharland"
+  },
+  {
+    "id": "345",
+    "name": "Strategic Communication"
+  },
+  {
+    "id": "346",
+    "name": "Management"
+  },
+  {
+    "id": "347",
+    "name": "\ud83c\udde9\ud83c\uddea 20. University of Potsdam"
+  },
+  {
+    "id": "348",
+    "name": "\ud83c\udde7\ud83c\uddea 6. University of Antwerp"
+  },
+  {
+    "id": "349",
+    "name": "E-Governance"
+  },
+  {
+    "id": "350",
+    "name": "Psychology and Neuroscience"
+  },
+  {
+    "id": "351",
+    "name": "\ud83c\udde7\ud83c\uddea 16. PXL University of Applied Sciences and Arts"
+  },
+  {
+    "id": "352",
+    "name": "\ud83c\udde8\ud83c\uddff 10. University of Ostrava"
+  },
+  {
+    "id": "353",
+    "name": "Teacher Education"
+  },
+  {
+    "id": "354",
+    "name": "UX/UI"
+  },
+  {
+    "id": "355",
+    "name": "Film"
+  },
+  {
+    "id": "356",
+    "name": "IT and Technology"
+  },
+  {
+    "id": "357",
+    "name": "Aerospace"
+  },
+  {
+    "id": "358",
+    "name": "Real Estate"
+  },
+  {
+    "id": "359",
+    "name": "Governance & Global Affairs"
+  },
+  {
+    "id": "360",
+    "name": "Health and Nursing Aide"
+  },
+  {
+    "id": "361",
+    "name": "Social Services"
+  },
+  {
+    "id": "362",
+    "name": "Healthcare"
+  },
+  {
+    "id": "363",
+    "name": "Visual Studies"
+  },
+  {
+    "id": "364",
+    "name": "Photography"
+  },
+  {
+    "id": "365",
+    "name": "Drawing"
+  },
+  {
+    "id": "366",
+    "name": "Data Governance"
+  },
+  {
+    "id": "367",
+    "name": "City: Erlangen/Nuremberg"
+  },
+  {
+    "id": "368",
+    "name": "Environmental Policy"
+  },
+  {
+    "id": "369",
+    "name": "Philosophy and Science"
+  },
+  {
+    "id": "370",
+    "name": "Social and Educational Policy"
+  },
+  {
+    "id": "371",
+    "name": "Sociology"
+  },
+  {
+    "id": "372",
+    "name": "Ethics in Policy"
+  },
+  {
+    "id": "373",
+    "name": "Arctic Biology"
+  },
+  {
+    "id": "374",
+    "name": "Plant Biology"
+  },
+  {
+    "id": "375",
+    "name": "International Development"
+  },
+  {
+    "id": "376",
+    "name": "Gender Studies"
+  },
+  {
+    "id": "377",
+    "name": "Aerospace Engineering"
+  },
+  {
+    "id": "378",
+    "name": "Sports"
+  },
+  {
+    "id": "379",
+    "name": "Rural Economy"
+  },
+  {
+    "id": "380",
+    "name": "Arts Education"
+  },
+  {
+    "id": "381",
+    "name": "Early Childhood Pedagogy"
+  },
+  {
+    "id": "382",
+    "name": "Keyboard Instruments"
+  },
+  {
+    "id": "383",
+    "name": "Cultural Heritage and Conservation"
+  },
+  {
+    "id": "384",
+    "name": "Air Traffic Control"
+  },
+  {
+    "id": "385",
+    "name": "Economics and Business"
+  },
+  {
+    "id": "386",
+    "name": "Playwriting"
+  },
+  {
+    "id": "387",
+    "name": "IT & Digital Innovation"
+  },
+  {
+    "id": "388",
+    "name": "City: Ostrava"
+  },
+  {
+    "id": "389",
+    "name": "Sport Science"
+  },
+  {
+    "id": "390",
+    "name": "Medicine and Pharmacy"
+  },
+  {
+    "id": "391",
+    "name": "Health, Medicine and Life Sciences"
+  },
+  {
+    "id": "392",
+    "name": "Material Science"
+  },
+  {
+    "id": "393",
+    "name": "Piano Performance"
+  },
+  {
+    "id": "394",
+    "name": "Comic Art"
+  },
+  {
+    "id": "395",
+    "name": "Electronics"
+  },
+  {
+    "id": "396",
+    "name": "\ud83c\uddea\ud83c\uddea 20. Rakvere Vocational School"
+  },
+  {
+    "id": "397",
+    "name": "Energy"
+  },
+  {
+    "id": "398",
+    "name": "Curatorial Practices"
+  },
+  {
+    "id": "399",
+    "name": "Economic Policy"
+  },
+  {
+    "id": "400",
+    "name": "Management Sciences"
+  },
+  {
+    "id": "401",
+    "name": "Woodwind Instruments"
+  },
+  {
+    "id": "402",
+    "name": "\ud83c\udde9\ud83c\uddea 16. University of Kiel"
+  },
+  {
+    "id": "403",
+    "name": "\ud83c\uddf8\ud83c\uddf0 12. Alexander Dub\u010dek University of Tren\u010d\u00edn"
+  },
+  {
+    "id": "404",
+    "name": "Intercultural Studies"
+  },
+  {
+    "id": "405",
+    "name": "\ud83c\uddf3\ud83c\uddf1 14. Protestant Theological University"
+  },
+  {
+    "id": "406",
+    "name": "Stage Design"
+  },
+  {
+    "id": "407",
+    "name": "Research Methodologies"
+  },
+  {
+    "id": "408",
+    "name": "Sweden"
+  },
+  {
+    "id": "409",
+    "name": "IT and E-learning"
+  },
+  {
+    "id": "410",
+    "name": "\ud83c\uddf3\ud83c\uddf1 10. University of Twente"
+  },
+  {
+    "id": "411",
+    "name": "Transport Engineering"
+  },
+  {
+    "id": "412",
+    "name": "Media Studies"
+  },
+  {
+    "id": "413",
+    "name": "City: Utrecht"
+  },
+  {
+    "id": "414",
+    "name": "\ud83c\uddf3\ud83c\uddf1 13. Theological University of Kampen"
+  },
+  {
+    "id": "415",
+    "name": "Visual Effects"
+  },
+  {
+    "id": "416",
+    "name": "IT and Informatics"
+  },
+  {
+    "id": "417",
+    "name": "\ud83c\uddf3\ud83c\uddf1 15. Amsterdam University of the Arts"
+  },
+  {
+    "id": "418",
+    "name": "City: Berlin"
+  },
+  {
+    "id": "419",
+    "name": "Built Environment"
+  },
+  {
+    "id": "420",
+    "name": "Exercise Physiology"
+  },
+  {
+    "id": "421",
+    "name": "\ud83c\uddf3\ud83c\uddf1 4. Leiden University"
+  },
+  {
+    "id": "422",
+    "name": "Voice Studies"
+  },
+  {
+    "id": "423",
+    "name": "Molecular Life Sciences"
+  },
+  {
+    "id": "424",
+    "name": "Pharmacy"
+  },
+  {
+    "id": "425",
+    "name": "Translation and Interpreting"
+  },
+  {
+    "id": "426",
+    "name": "\ud83c\uddea\ud83c\uddea 13. Estonian Maritime Academy"
+  },
+  {
+    "id": "427",
+    "name": "Identity and Language"
+  },
+  {
+    "id": "428",
+    "name": "\ud83c\udded\ud83c\uddfa 5. University of Debrecen"
+  },
+  {
+    "id": "429",
+    "name": "Media and Communication"
+  },
+  {
+    "id": "430",
+    "name": "Chemical Technology"
+  },
+  {
+    "id": "431",
+    "name": "Chemical and Food Technology"
+  },
+  {
+    "id": "432",
+    "name": "\ud83c\udde8\ud83c\uddff 5. Palack\u00fd University Olomouc"
+  },
+  {
+    "id": "433",
+    "name": "Physics and Astronomy"
+  },
+  {
+    "id": "434",
+    "name": "\ud83c\udde7\ud83c\uddea 3. Ghent University"
+  },
+  {
+    "id": "435",
+    "name": "Germany"
+  },
+  {
+    "id": "436",
+    "name": "\ud83c\uddf3\ud83c\uddf1 17. Codarts University for the Arts"
+  },
+  {
+    "id": "437",
+    "name": "Civil Engineering"
+  },
+  {
+    "id": "438",
+    "name": "Language and Culture"
+  },
+  {
+    "id": "439",
+    "name": "City: The Hague"
+  },
+  {
+    "id": "440",
+    "name": "City: Maastricht / Heerlen / Sittard"
+  },
+  {
+    "id": "441",
+    "name": "Electrical and Computer Engineering"
+  },
+  {
+    "id": "442",
+    "name": "\ud83c\udded\ud83c\uddfa 15. K\u00e1roli G\u00e1sp\u00e1r University of the Reformed Church in Hungary"
+  },
+  {
+    "id": "443",
+    "name": "Pharmacy Assistance"
+  },
+  {
+    "id": "444",
+    "name": "Electrical Systems"
+  },
+  {
+    "id": "445",
+    "name": "\ud83c\udde7\ud83c\uddea 2. Universit\u00e9 catholique de Louvain"
+  },
+  {
+    "id": "446",
+    "name": "City: Kuressaare, Saaremaa"
+  },
+  {
+    "id": "447",
+    "name": "Physics Education"
+  },
+  {
+    "id": "448",
+    "name": "Nanotechnology"
+  },
+  {
+    "id": "449",
+    "name": "Forest and Nature Conservation"
+  },
+  {
+    "id": "450",
+    "name": "City: Nitra"
+  },
+  {
+    "id": "451",
+    "name": "Clinical Support Services"
+  },
+  {
+    "id": "452",
+    "name": "\ud83c\uddf8\ud83c\uddf0 18. College of International and Public Relations Prague \u2013 Slovakia Campus"
+  },
+  {
+    "id": "453",
+    "name": "Science Education"
+  },
+  {
+    "id": "454",
+    "name": "Music Education"
+  },
+  {
+    "id": "455",
+    "name": "Sustainable Design"
+  },
+  {
+    "id": "456",
+    "name": "Health Studies"
+  },
+  {
+    "id": "457",
+    "name": "\ud83c\uddea\ud83c\uddea 8. Tartu Health Care College"
+  },
+  {
+    "id": "458",
+    "name": "Health Management"
+  },
+  {
+    "id": "459",
+    "name": "Jazz"
+  },
+  {
+    "id": "460",
+    "name": "Game Design"
+  },
+  {
+    "id": "461",
+    "name": "Business Economics"
+  },
+  {
+    "id": "462",
+    "name": "Plant Sciences"
+  },
+  {
+    "id": "463",
+    "name": "City: Ny\u00edregyh\u00e1za"
+  },
+  {
+    "id": "464",
+    "name": "Stage Performance"
+  },
+  {
+    "id": "465",
+    "name": "Animal Welfare"
+  },
+  {
+    "id": "466",
+    "name": "Animation"
+  },
+  {
+    "id": "467",
+    "name": "\ud83c\udded\ud83c\uddfa 17. Hungarian Dance University"
+  },
+  {
+    "id": "468",
+    "name": "Teacher Development"
+  },
+  {
+    "id": "469",
+    "name": "\ud83c\udde9\ud83c\uddea 5. Free University of Berlin"
+  },
+  {
+    "id": "470",
+    "name": "Digital Arts"
+  },
+  {
+    "id": "471",
+    "name": "Design and Art"
+  },
+  {
+    "id": "472",
+    "name": "Social and Behavioural Sciences"
+  },
+  {
+    "id": "473",
+    "name": "Law and Political Sciences"
+  },
+  {
+    "id": "474",
+    "name": "\ud83c\udde9\ud83c\uddea 14. University of Erlangen-Nuremberg"
+  },
+  {
+    "id": "475",
+    "name": "\ud83c\uddea\ud83c\uddea 2. Tallinn University"
+  },
+  {
+    "id": "476",
+    "name": "Performance"
+  },
+  {
+    "id": "477",
+    "name": "Sustainable Energy Systems"
+  },
+  {
+    "id": "478",
+    "name": "Medical Ethics"
+  },
+  {
+    "id": "479",
+    "name": "Rural Studies"
+  },
+  {
+    "id": "480",
+    "name": "Radiography"
+  },
+  {
+    "id": "481",
+    "name": "Tourism Studies"
+  },
+  {
+    "id": "482",
+    "name": "City: Tallinn"
+  },
+  {
+    "id": "483",
+    "name": "City: Brno"
+  },
+  {
+    "id": "484",
+    "name": "\ud83c\udde7\ud83c\uddea 8. University of Mons"
+  },
+  {
+    "id": "485",
+    "name": "Animal Husbandry"
+  },
+  {
+    "id": "486",
+    "name": "Biomedical and Neuromotor Sciences"
+  },
+  {
+    "id": "487",
+    "name": "Theater"
+  },
+  {
+    "id": "488",
+    "name": "Digital Society"
+  },
+  {
+    "id": "489",
+    "name": "Digital Transformation"
+  },
+  {
+    "id": "490",
+    "name": "Audiovisual Arts"
+  },
+  {
+    "id": "491",
+    "name": "Industrial Engineering & Innovation Sciences"
+  },
+  {
+    "id": "492",
+    "name": "City: Groningen"
+  },
+  {
+    "id": "493",
+    "name": "Carpentry"
+  },
+  {
+    "id": "494",
+    "name": "Digital Arts and Entertainment"
+  },
+  {
+    "id": "495",
+    "name": "Folk Music"
+  },
+  {
+    "id": "496",
+    "name": "City: Groningen / Amsterdam"
+  },
+  {
+    "id": "497",
+    "name": "Diaconal Work"
+  },
+  {
+    "id": "498",
+    "name": "\ud83c\udde9\ud83c\uddea 2. Technical University of Munich"
+  },
+  {
+    "id": "499",
+    "name": "Forest Science"
+  },
+  {
+    "id": "500",
+    "name": "Economics & Business"
+  },
+  {
+    "id": "501",
+    "name": "\ud83c\udde9\ud83c\uddea 15. Goethe University Frankfurt"
+  },
+  {
+    "id": "502",
+    "name": "Science and Engineering"
+  },
+  {
+    "id": "503",
+    "name": "City: Eindhoven"
+  },
+  {
+    "id": "504",
+    "name": "Organizational Development"
+  },
+  {
+    "id": "505",
+    "name": "Diplomacy"
+  },
+  {
+    "id": "506",
+    "name": "City: Duna\u00fajv\u00e1ros"
+  },
+  {
+    "id": "507",
+    "name": "Industrial Economics"
+  },
+  {
+    "id": "508",
+    "name": "European Civilization"
+  },
+  {
+    "id": "509",
+    "name": "Aerospace and Geodesy"
+  },
+  {
+    "id": "510",
+    "name": "\ud83c\uddf3\ud83c\uddf1 3. Eindhoven University of Technology"
+  },
+  {
+    "id": "511",
+    "name": "Indigenous Studies"
+  },
+  {
+    "id": "512",
+    "name": "Textile & Fashion"
+  },
+  {
+    "id": "513",
+    "name": "Mathematics Education"
+  },
+  {
+    "id": "514",
+    "name": "Palliative Care"
+  },
+  {
+    "id": "515",
+    "name": "\ud83c\uddf3\ud83c\uddf1 9. Tilburg University"
+  },
+  {
+    "id": "516",
+    "name": "Space Technology"
+  },
+  {
+    "id": "517",
+    "name": "Control Engineering"
+  },
+  {
+    "id": "518",
+    "name": "City: Tren\u010d\u00edn"
+  },
+  {
+    "id": "519",
+    "name": "Aviation Communication"
+  },
+  {
+    "id": "520",
+    "name": "City: Rotterdam"
+  },
+  {
+    "id": "521",
+    "name": "Theology & Culture"
+  },
+  {
+    "id": "522",
+    "name": "Artistic Movement"
+  },
+  {
+    "id": "523",
+    "name": "Wood Engineering"
+  },
+  {
+    "id": "524",
+    "name": "Nanomaterials"
+  },
+  {
+    "id": "525",
+    "name": "Mechanical Engineering"
+  },
+  {
+    "id": "526",
+    "name": "City: Freiburg"
+  },
+  {
+    "id": "527",
+    "name": "Agricultural Engineering"
+  },
+  {
+    "id": "528",
+    "name": "\ud83c\uddf8\ud83c\uddf0 15. Dubnica Institute of Technology"
+  },
+  {
+    "id": "529",
+    "name": "Business"
+  },
+  {
+    "id": "530",
+    "name": "S\u00e1mi Music"
+  },
+  {
+    "id": "531",
+    "name": "Law and Society"
+  },
+  {
+    "id": "532",
+    "name": "Educational Sciences"
+  },
+  {
+    "id": "533",
+    "name": "Agribusiness"
+  },
+  {
+    "id": "534",
+    "name": "Interior Architecture"
+  },
+  {
+    "id": "535",
+    "name": "Tourism and Leisure"
+  },
+  {
+    "id": "536",
+    "name": "Country: Netherlands"
+  },
+  {
+    "id": "537",
+    "name": "Pop Music"
+  },
+  {
+    "id": "538",
+    "name": "Sign Language Interpretation"
+  },
+  {
+    "id": "539",
+    "name": "Physical Education and Sports"
+  },
+  {
+    "id": "540",
+    "name": "Audiovisual Media"
+  },
+  {
+    "id": "541",
+    "name": "Educational Science"
+  },
+  {
+    "id": "542",
+    "name": "Sustainable Development"
+  },
+  {
+    "id": "543",
+    "name": "Veterinary Medicine"
+  },
+  {
+    "id": "544",
+    "name": "Design and Technology"
+  },
+  {
+    "id": "545",
+    "name": "Business Management"
+  },
+  {
+    "id": "546",
+    "name": "Game Studies"
+  },
+  {
+    "id": "547",
+    "name": "Civic Education"
+  },
+  {
+    "id": "548",
+    "name": "\ud83c\udde8\ud83c\uddff 6. University of Chemistry and Technology, Prague"
+  },
+  {
+    "id": "549",
+    "name": "Insurance"
+  },
+  {
+    "id": "550",
+    "name": "Educational Research"
+  },
+  {
+    "id": "551",
+    "name": "Digital Design"
+  },
+  {
+    "id": "552",
+    "name": "Interreligious Dialogue"
+  },
+  {
+    "id": "553",
+    "name": "Military Engineering"
+  },
+  {
+    "id": "554",
+    "name": "Tourism and Recreation"
+  },
+  {
+    "id": "555",
+    "name": "Leadership"
+  },
+  {
+    "id": "556",
+    "name": "City: Budapest"
+  },
+  {
+    "id": "557",
+    "name": "City: Bratislava"
+  },
+  {
+    "id": "558",
+    "name": "Digital Infrastructure"
+  },
+  {
+    "id": "559",
+    "name": "Oceanography"
+  },
+  {
+    "id": "560",
+    "name": "Material Sciences"
+  },
+  {
+    "id": "561",
+    "name": "Product and Systems Design"
+  },
+  {
+    "id": "562",
+    "name": "String Instruments"
+  },
+  {
+    "id": "563",
+    "name": "City: Zl\u00edn"
+  },
+  {
+    "id": "564",
+    "name": "City: Brussels / Leuven / Ghent / Genk"
+  },
+  {
+    "id": "565",
+    "name": "City: Munich"
+  },
+  {
+    "id": "566",
+    "name": "Logistics and Mobility"
+  },
+  {
+    "id": "567",
+    "name": "Electrical Marine Systems"
+  },
+  {
+    "id": "568",
+    "name": "City: Szeged"
+  },
+  {
+    "id": "569",
+    "name": "Multimedia"
+  },
+  {
+    "id": "570",
+    "name": "\ud83c\uddf8\ud83c\uddf0 8. University of Pre\u0161ov"
+  },
+  {
+    "id": "571",
+    "name": "Biostatistics"
+  },
+  {
+    "id": "572",
+    "name": "Textile Engineering"
+  },
+  {
+    "id": "573",
+    "name": "Music Arts"
+  },
+  {
+    "id": "574",
+    "name": "\ud83c\udded\ud83c\uddfa 9. University of Miskolc"
+  },
+  {
+    "id": "575",
+    "name": "Artscience"
+  },
+  {
+    "id": "576",
+    "name": "Jazz and Pop"
+  },
+  {
+    "id": "577",
+    "name": "Sustainability Studies"
+  },
+  {
+    "id": "578",
+    "name": "\ud83c\uddf3\ud83c\uddf1 20. Zuyd University of Applied Sciences"
+  },
+  {
+    "id": "579",
+    "name": "Environmental Studies"
+  },
+  {
+    "id": "580",
+    "name": "Automotive Engineering"
+  },
+  {
+    "id": "581",
+    "name": "Sports Studies"
+  },
+  {
+    "id": "582",
+    "name": "Games & Interaction"
+  },
+  {
+    "id": "583",
+    "name": "Railway Engineering"
+  },
+  {
+    "id": "584",
+    "name": "Coaching"
+  },
+  {
+    "id": "585",
+    "name": "Community Health"
+  },
+  {
+    "id": "586",
+    "name": "Curriculum Design"
+  },
+  {
+    "id": "587",
+    "name": "Political Strategy"
+  },
+  {
+    "id": "588",
+    "name": "Aerospace Safety"
+  },
+  {
+    "id": "589",
+    "name": "Linguistics"
+  },
+  {
+    "id": "590",
+    "name": "Contemporary Art Studies"
+  },
+  {
+    "id": "591",
+    "name": "Historical Theology"
+  },
+  {
+    "id": "592",
+    "name": "Tourism"
+  },
+  {
+    "id": "593",
+    "name": "IT and System Administration"
+  },
+  {
+    "id": "594",
+    "name": "Archaeology"
+  },
+  {
+    "id": "595",
+    "name": "Brass"
+  },
+  {
+    "id": "596",
+    "name": "City: Haapsalu"
+  },
+  {
+    "id": "597",
+    "name": "\ud83c\uddea\ud83c\uddea 15. V\u00f5ru County Vocational Training Centre"
+  },
+  {
+    "id": "598",
+    "name": "Demographics"
+  },
+  {
+    "id": "599",
+    "name": "Navigation Basics"
+  },
+  {
+    "id": "600",
+    "name": "Film Directing"
+  },
+  {
+    "id": "601",
+    "name": "Climate Policy"
+  },
+  {
+    "id": "602",
+    "name": "Coastal Management"
+  },
+  {
+    "id": "603",
+    "name": "Sports Medicine"
+  },
+  {
+    "id": "604",
+    "name": "Graphics"
+  },
+  {
+    "id": "605",
+    "name": "Agrotechnology and Food Sciences"
+  },
+  {
+    "id": "606",
+    "name": "\ud83c\udded\ud83c\uddfa 6. Corvinus University of Budapest"
+  },
+  {
+    "id": "607",
+    "name": "Electric Engineering"
+  },
+  {
+    "id": "608",
+    "name": "Food Resources"
+  },
+  {
+    "id": "609",
+    "name": "E-commerce"
+  },
+  {
+    "id": "610",
+    "name": "Agronomy"
+  },
+  {
+    "id": "611",
+    "name": "Business Studies"
+  },
+  {
+    "id": "612",
+    "name": "Game Development"
+  },
+  {
+    "id": "613",
+    "name": "Aviation Security"
+  },
+  {
+    "id": "614",
+    "name": "Fine Arts Theory"
+  },
+  {
+    "id": "615",
+    "name": "Hospitality Management"
+  },
+  {
+    "id": "616",
+    "name": "Strategic Leadership"
+  },
+  {
+    "id": "617",
+    "name": "Network Administration"
+  },
+  {
+    "id": "618",
+    "name": "\ud83c\udde8\ud83c\uddff 8. Technical University of Liberec"
+  },
+  {
+    "id": "619",
+    "name": "Operations Management"
+  },
+  {
+    "id": "620",
+    "name": "History and Cultural Studies"
+  },
+  {
+    "id": "621",
+    "name": "Optics and Photonics"
+  },
+  {
+    "id": "622",
+    "name": "Diaconia"
+  },
+  {
+    "id": "623",
+    "name": "Chemistry and Pharmacy"
+  },
+  {
+    "id": "624",
+    "name": "Church History"
+  },
+  {
+    "id": "625",
+    "name": "Music Science"
+  },
+  {
+    "id": "626",
+    "name": "Physical Culture"
+  },
+  {
+    "id": "627",
+    "name": "City: Nijmegen"
+  },
+  {
+    "id": "628",
+    "name": "IT Systems Engineering"
+  },
+  {
+    "id": "629",
+    "name": "Arts and Social Sciences"
+  },
+  {
+    "id": "630",
+    "name": "City: Hasselt"
+  },
+  {
+    "id": "631",
+    "name": "Ecology and Agricultural Sciences"
+  },
+  {
+    "id": "632",
+    "name": "Accounting & Finance"
+  },
+  {
+    "id": "633",
+    "name": "Health Education"
+  },
+  {
+    "id": "634",
+    "name": "Navigation"
+  },
+  {
+    "id": "635",
+    "name": "Marine Electronics"
+  },
+  {
+    "id": "636",
+    "name": "Microbiology"
+  },
+  {
+    "id": "637",
+    "name": "International Cooperation"
+  },
+  {
+    "id": "638",
+    "name": "Rehabilitation Studies"
+  },
+  {
+    "id": "639",
+    "name": "Human Sciences"
+  },
+  {
+    "id": "640",
+    "name": "\ud83c\udde9\ud83c\uddea 6. RWTH Aachen University"
+  },
+  {
+    "id": "641",
+    "name": "Educational Innovation"
+  },
+  {
+    "id": "642",
+    "name": "Safety Engineering"
+  },
+  {
+    "id": "643",
+    "name": "Biblical Exegesis"
+  },
+  {
+    "id": "644",
+    "name": "\ud83c\udded\ud83c\uddfa 10. Hungarian University of Agriculture and Life Sciences"
+  },
+  {
+    "id": "645",
+    "name": "Human Resources"
+  },
+  {
+    "id": "646",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "647",
+    "name": "Belgium"
+  },
+  {
+    "id": "648",
+    "name": "Web Design"
+  },
+  {
+    "id": "649",
+    "name": "Pharmacology"
+  },
+  {
+    "id": "650",
+    "name": "Library and Information Science"
+  },
+  {
+    "id": "651",
+    "name": "Painting"
+  },
+  {
+    "id": "652",
+    "name": "Media Engineering"
+  },
+  {
+    "id": "653",
+    "name": "Landscape Planning"
+  },
+  {
+    "id": "654",
+    "name": "Cultural Encounters"
+  },
+  {
+    "id": "655",
+    "name": "Mathematics & Computer Science"
+  },
+  {
+    "id": "656",
+    "name": "Criminology"
+  },
+  {
+    "id": "657",
+    "name": "Food Science"
+  },
+  {
+    "id": "658",
+    "name": "Scenography"
+  },
+  {
+    "id": "659",
+    "name": "Avionics"
+  },
+  {
+    "id": "660",
+    "name": "Fish and Wildlife Management"
+  },
+  {
+    "id": "661",
+    "name": "Interaction Design"
+  },
+  {
+    "id": "662",
+    "name": "Clinical Diagnostics"
+  },
+  {
+    "id": "663",
+    "name": "\ud83c\uddf8\ud83c\uddf0 3. Pavol Jozef \u0160af\u00e1rik University in Ko\u0161ice"
+  },
+  {
+    "id": "664",
+    "name": "Translation and Interpretation"
+  },
+  {
+    "id": "665",
+    "name": "Film and Television"
+  },
+  {
+    "id": "666",
+    "name": "Environmental Economics"
+  },
+  {
+    "id": "667",
+    "name": "General Medicine"
+  },
+  {
+    "id": "668",
+    "name": "Music and Performance"
+  },
+  {
+    "id": "669",
+    "name": "Experimental Theater"
+  },
+  {
+    "id": "670",
+    "name": "Design"
+  },
+  {
+    "id": "671",
+    "name": "Ship Design"
+  },
+  {
+    "id": "672",
+    "name": "Multimedia Communications"
+  },
+  {
+    "id": "673",
+    "name": "Maritime Studies"
+  },
+  {
+    "id": "674",
+    "name": "Law of Armed Conflict"
+  },
+  {
+    "id": "675",
+    "name": "\ud83c\udde8\ud83c\uddff 15. University of Hradec Kr\u00e1lov\u00e9"
+  },
+  {
+    "id": "676",
+    "name": "Infectious Diseases"
+  },
+  {
+    "id": "677",
+    "name": "Urban Studies"
+  },
+  {
+    "id": "678",
+    "name": "\ud83c\udde7\ud83c\uddea 5. Vrije Universiteit Brussel"
+  },
+  {
+    "id": "679",
+    "name": "AI and Machine Learning"
+  },
+  {
+    "id": "680",
+    "name": "Voice and Opera"
+  },
+  {
+    "id": "681",
+    "name": "Philosophy and Humanities"
+  },
+  {
+    "id": "682",
+    "name": "Biomedical Engineering"
+  },
+  {
+    "id": "683",
+    "name": "Marketing"
+  },
+  {
+    "id": "684",
+    "name": "Electrical Engineering and IT"
+  },
+  {
+    "id": "685",
+    "name": "Music Pedagogy"
+  },
+  {
+    "id": "686",
+    "name": "Information Management"
+  },
+  {
+    "id": "687",
+    "name": "Ethnomusicology"
+  },
+  {
+    "id": "688",
+    "name": "Nanoscience"
+  },
+  {
+    "id": "689",
+    "name": "\ud83c\uddf8\ud83c\uddf0 9. Academy of Performing Arts in Bratislava"
+  },
+  {
+    "id": "690",
+    "name": "Rural Development"
+  },
+  {
+    "id": "691",
+    "name": "Physiotherapy"
+  },
+  {
+    "id": "692",
+    "name": "Human Resource Studies"
+  },
+  {
+    "id": "693",
+    "name": "IT Security"
+  },
+  {
+    "id": "694",
+    "name": "Slovakia"
+  },
+  {
+    "id": "695",
+    "name": "Technology, Policy and Management"
+  },
+  {
+    "id": "696",
+    "name": "Crafts and Applied Arts"
+  },
+  {
+    "id": "697",
+    "name": "\ud83c\uddf8\ud83c\uddf0 6. Slovak University of Agriculture in Nitra"
+  },
+  {
+    "id": "698",
+    "name": "Theatre"
+  },
+  {
+    "id": "699",
+    "name": "Social and Political Sciences"
+  },
+  {
+    "id": "700",
+    "name": "\ud83c\udded\ud83c\uddfa 13. University of Theatre and Film Arts"
+  },
+  {
+    "id": "701",
+    "name": "Crisis Management"
+  },
+  {
+    "id": "702",
+    "name": "Visual Theater"
+  },
+  {
+    "id": "703",
+    "name": "Music Technology"
+  },
+  {
+    "id": "704",
+    "name": "Teaching and Education"
+  },
+  {
+    "id": "705",
+    "name": "\ud83c\udde9\ud83c\uddea 8. University of G\u00f6ttingen"
+  },
+  {
+    "id": "706",
+    "name": "Biomechanics"
+  },
+  {
+    "id": "707",
+    "name": "Climate Change Studies"
+  },
+  {
+    "id": "708",
+    "name": "\ud83c\udded\ud83c\uddfa 20. J\u00e1nos Neumann University"
+  },
+  {
+    "id": "709",
+    "name": "Communication Science"
+  },
+  {
+    "id": "710",
+    "name": "Transdisciplinary Studies"
+  },
+  {
+    "id": "711",
+    "name": "Informatics"
+  },
+  {
+    "id": "712",
+    "name": "Installation Art"
+  },
+  {
+    "id": "713",
+    "name": "Social Policy"
+  },
+  {
+    "id": "714",
+    "name": "\ud83c\udde8\ud83c\uddff 9. University of Pardubice"
+  },
+  {
+    "id": "715",
+    "name": "Art Pedagogy"
+  },
+  {
+    "id": "716",
+    "name": "Horticulture"
+  },
+  {
+    "id": "717",
+    "name": "Strings"
+  },
+  {
+    "id": "718",
+    "name": "Airport Management"
+  },
+  {
+    "id": "719",
+    "name": "Digital Engineering"
+  },
+  {
+    "id": "720",
+    "name": "Art and Technology"
+  },
+  {
+    "id": "721",
+    "name": "Aquaculture and Fish Biology"
+  },
+  {
+    "id": "722",
+    "name": "Anatomy"
+  },
+  {
+    "id": "723",
+    "name": "Circular Economy"
+  },
+  {
+    "id": "724",
+    "name": "Typography"
+  },
+  {
+    "id": "725",
+    "name": "Psychology and Education"
+  },
+  {
+    "id": "726",
+    "name": "Music Performance"
+  },
+  {
+    "id": "727",
+    "name": "Vocational Education"
+  },
+  {
+    "id": "728",
+    "name": "Astronomy"
+  },
+  {
+    "id": "729",
+    "name": "Languages"
+  },
+  {
+    "id": "730",
+    "name": "Cognitive Neuroscience"
+  },
+  {
+    "id": "731",
+    "name": "Theatre Pedagogy"
+  },
+  {
+    "id": "732",
+    "name": "Technology Management"
+  },
+  {
+    "id": "733",
+    "name": "International & European Economic Studies"
+  },
+  {
+    "id": "734",
+    "name": "Maritime Law"
+  },
+  {
+    "id": "735",
+    "name": "Innovation Engineering"
+  },
+  {
+    "id": "736",
+    "name": "Development Studies"
+  },
+  {
+    "id": "737",
+    "name": "City: Mechelen / Turnhout / Geel"
+  },
+  {
+    "id": "738",
+    "name": "Electrical Engineering, Mathematics & Computer Science"
+  },
+  {
+    "id": "739",
+    "name": "Engineering Science"
+  },
+  {
+    "id": "740",
+    "name": "Soil Science"
+  },
+  {
+    "id": "741",
+    "name": "Agricultural Sciences"
+  },
+  {
+    "id": "742",
+    "name": "Renewable Energy"
+  },
+  {
+    "id": "743",
+    "name": "Architecture and Urban Planning"
+  },
+  {
+    "id": "744",
+    "name": "Movement Science"
+  },
+  {
+    "id": "745",
+    "name": "Military Leadership"
+  },
+  {
+    "id": "746",
+    "name": "Finance"
+  },
+  {
+    "id": "747",
+    "name": "Web and Mobile Development"
+  },
+  {
+    "id": "748",
+    "name": "Theatre Management"
+  },
+  {
+    "id": "749",
+    "name": "Energy Systems"
+  },
+  {
+    "id": "750",
+    "name": "Cultural Management"
+  },
+  {
+    "id": "751",
+    "name": "Screenwriting"
+  },
+  {
+    "id": "752",
+    "name": "City: P\u00e9cs"
+  },
+  {
+    "id": "753",
+    "name": "Electrical, Electronic & Info Engineering"
+  },
+  {
+    "id": "754",
+    "name": "Human Resource Development"
+  },
+  {
+    "id": "755",
+    "name": "Science and Technology"
+  },
+  {
+    "id": "756",
+    "name": "Construction Management"
+  },
+  {
+    "id": "757",
+    "name": "City: Bonn"
+  },
+  {
+    "id": "758",
+    "name": "Parasitology"
+  },
+  {
+    "id": "759",
+    "name": "ICT"
+  },
+  {
+    "id": "760",
+    "name": "Social and Economic Studies"
+  },
+  {
+    "id": "761",
+    "name": "Oral Health"
+  },
+  {
+    "id": "762",
+    "name": "Information Technology"
+  },
+  {
+    "id": "763",
+    "name": "Nuclear Sciences and Physical Engineering"
+  },
+  {
+    "id": "764",
+    "name": "Constitutional Law"
+  },
+  {
+    "id": "765",
+    "name": "Marine Environment"
+  },
+  {
+    "id": "766",
+    "name": "City: Hradec Kr\u00e1lov\u00e9"
+  },
+  {
+    "id": "767",
+    "name": "Fine Art"
+  },
+  {
+    "id": "768",
+    "name": "\ud83c\udde9\ud83c\uddea 18. University of Hamburg"
+  },
+  {
+    "id": "769",
+    "name": "Medicine and Surgery"
+  },
+  {
+    "id": "770",
+    "name": "Landscape Ecology"
+  },
+  {
+    "id": "771",
+    "name": "Theory and History of Art"
+  },
+  {
+    "id": "772",
+    "name": "\ud83c\udde8\ud83c\uddff 19. Jan\u00e1\u010dek Academy of Music and Performing Arts"
+  },
+  {
+    "id": "773",
+    "name": "\ud83c\uddf8\ud83c\uddf0 17. Pan-European University"
+  },
+  {
+    "id": "774",
+    "name": "Practical Theology"
+  },
+  {
+    "id": "775",
+    "name": "Poster Design"
+  },
+  {
+    "id": "776",
+    "name": "Applied Sciences"
+  },
+  {
+    "id": "777",
+    "name": "Chemical Informatics"
+  },
+  {
+    "id": "778",
+    "name": "Communication Management"
+  },
+  {
+    "id": "779",
+    "name": "Mission and Ministry"
+  },
+  {
+    "id": "780",
+    "name": "Agricultural Development"
+  },
+  {
+    "id": "781",
+    "name": "\ud83c\udded\ud83c\uddfa 3. Semmelweis University"
+  },
+  {
+    "id": "782",
+    "name": "Mathematics, Informatics and Statistics"
+  },
+  {
+    "id": "783",
+    "name": "Improvisation"
+  },
+  {
+    "id": "784",
+    "name": "ICT in Education"
+  },
+  {
+    "id": "785",
+    "name": "Country: Estonia"
+  },
+  {
+    "id": "786",
+    "name": "Operation and Economics of Transport"
+  },
+  {
+    "id": "787",
+    "name": "\ud83c\uddea\ud83c\uddea 12. Estonian Aviation Academy"
+  },
+  {
+    "id": "788",
+    "name": "Media Theory"
+  },
+  {
+    "id": "789",
+    "name": "Video Art"
+  },
+  {
+    "id": "790",
+    "name": "Dance History"
+  },
+  {
+    "id": "791",
+    "name": "Drawing and Painting"
+  },
+  {
+    "id": "792",
+    "name": "Business and Management"
+  },
+  {
+    "id": "793",
+    "name": "Logistics and Supply Chain"
+  },
+  {
+    "id": "794",
+    "name": "Special Education"
+  },
+  {
+    "id": "795",
+    "name": "City: Kecskem\u00e9t"
+  },
+  {
+    "id": "796",
+    "name": "World Music"
+  },
+  {
+    "id": "797",
+    "name": "Polymer Engineering"
+  },
+  {
+    "id": "798",
+    "name": "Humanitarian Aid"
+  },
+  {
+    "id": "799",
+    "name": "Scenic Arts"
+  },
+  {
+    "id": "800",
+    "name": "Data Analytics"
+  },
+  {
+    "id": "801",
+    "name": "Engineering Physics"
+  },
+  {
+    "id": "802",
+    "name": "Health and Activity"
+  },
+  {
+    "id": "803",
+    "name": "Organic Farming"
+  },
+  {
+    "id": "804",
+    "name": "Nutrition and Dietetics"
+  },
+  {
+    "id": "805",
+    "name": "Biological, Geological and Environmental Sciences"
+  },
+  {
+    "id": "806",
+    "name": "Fashion and Textiles"
+  },
+  {
+    "id": "807",
+    "name": "Conducting"
+  },
+  {
+    "id": "808",
+    "name": "Percussion"
+  },
+  {
+    "id": "809",
+    "name": "Medical and Surgical Sciences"
+  },
+  {
+    "id": "810",
+    "name": "Country: Slovakia"
+  },
+  {
+    "id": "811",
+    "name": "Forestry"
+  },
+  {
+    "id": "812",
+    "name": "City: Aachen"
+  },
+  {
+    "id": "813",
+    "name": "Mathematics and Computer Science"
+  },
+  {
+    "id": "814",
+    "name": "Conservation"
+  },
+  {
+    "id": "815",
+    "name": "City: Ko\u0161ice"
+  },
+  {
+    "id": "816",
+    "name": "Electrical Engineering and Information Technology"
+  },
+  {
+    "id": "817",
+    "name": "Automotive Technology"
+  },
+  {
+    "id": "818",
+    "name": "Sports Organization"
+  },
+  {
+    "id": "819",
+    "name": "Animal Sciences"
+  },
+  {
+    "id": "820",
+    "name": "Piano"
+  },
+  {
+    "id": "821",
+    "name": "Machine Design"
+  },
+  {
+    "id": "822",
+    "name": "Biomedicine"
+  },
+  {
+    "id": "823",
+    "name": "Jazz Studies"
+  },
+  {
+    "id": "824",
+    "name": "Biophysics"
+  },
+  {
+    "id": "825",
+    "name": "Equine Studies"
+  },
+  {
+    "id": "826",
+    "name": "Industrial Robotics"
+  },
+  {
+    "id": "827",
+    "name": "Applied Mechanics"
+  },
+  {
+    "id": "828",
+    "name": "AI & Robotics"
+  },
+  {
+    "id": "829",
+    "name": "Musicology"
+  },
+  {
+    "id": "830",
+    "name": "Water Management"
+  },
+  {
+    "id": "831",
+    "name": "City: Bremen"
+  },
+  {
+    "id": "832",
+    "name": "Systematic Theology"
+  },
+  {
+    "id": "833",
+    "name": "Chamber Music"
+  },
+  {
+    "id": "834",
+    "name": "Visual Communication"
+  },
+  {
+    "id": "835",
+    "name": "Agriculture and Forestry"
+  },
+  {
+    "id": "836",
+    "name": "Scientific Computing"
+  },
+  {
+    "id": "837",
+    "name": "\ud83c\udded\ud83c\uddfa 8. \u00d3buda University"
+  },
+  {
+    "id": "838",
+    "name": "Digital Media"
+  },
+  {
+    "id": "839",
+    "name": "Furniture Design"
+  },
+  {
+    "id": "840",
+    "name": "Nutrition and Health"
+  },
+  {
+    "id": "841",
+    "name": "Offshore Technology"
+  },
+  {
+    "id": "842",
+    "name": "Film Editing"
+  },
+  {
+    "id": "843",
+    "name": "Dance Theory"
+  },
+  {
+    "id": "844",
+    "name": "Sustainability"
+  },
+  {
+    "id": "845",
+    "name": "Contemporary Dance"
+  },
+  {
+    "id": "846",
+    "name": "Modern Dance"
+  },
+  {
+    "id": "847",
+    "name": "Information Systems"
+  },
+  {
+    "id": "848",
+    "name": "City: Leipzig"
+  },
+  {
+    "id": "849",
+    "name": "Family Studies"
+  },
+  {
+    "id": "850",
+    "name": "Military History"
+  },
+  {
+    "id": "851",
+    "name": "Switzerland"
+  },
+  {
+    "id": "852",
+    "name": "Georesources"
+  },
+  {
+    "id": "853",
+    "name": "Aviation"
+  },
+  {
+    "id": "854",
+    "name": "\ud83c\uddf8\ud83c\uddf0 14. J\u00e1n Albrecht Music and Art Academy"
+  },
+  {
+    "id": "855",
+    "name": "\ud83c\udde8\ud83c\uddff 3. Masaryk University"
+  },
+  {
+    "id": "856",
+    "name": "Environment and Natural Resources"
+  },
+  {
+    "id": "857",
+    "name": "City: Bruges / Kortrijk"
+  },
+  {
+    "id": "858",
+    "name": "Human Geography"
+  },
+  {
+    "id": "859",
+    "name": "Business and Rural Innovation"
+  },
+  {
+    "id": "860",
+    "name": "City: Kiel"
+  },
+  {
+    "id": "861",
+    "name": "The Arts"
+  },
+  {
+    "id": "862",
+    "name": "Languages and Literatures"
+  },
+  {
+    "id": "863",
+    "name": "Preschool Education"
+  },
+  {
+    "id": "864",
+    "name": "Mediterranean Studies"
+  },
+  {
+    "id": "865",
+    "name": "Crop Science"
+  },
+  {
+    "id": "866",
+    "name": "Ecclesiastical Studies"
+  },
+  {
+    "id": "867",
+    "name": "Taxation"
+  },
+  {
+    "id": "868",
+    "name": "\ud83c\uddf8\ud83c\uddf0 7. Matej Bel University in Bansk\u00e1 Bystrica"
+  },
+  {
+    "id": "869",
+    "name": "Languages and Translation"
+  },
+  {
+    "id": "870",
+    "name": "Welfare Studies"
+  },
+  {
+    "id": "871",
+    "name": "Air Transport"
+  },
+  {
+    "id": "872",
+    "name": "Heritage Tourism"
+  },
+  {
+    "id": "873",
+    "name": "Welding Technology"
+  },
+  {
+    "id": "874",
+    "name": "Multimedia Arts"
+  },
+  {
+    "id": "875",
+    "name": "Contextual Theology"
+  },
+  {
+    "id": "876",
+    "name": "\ud83c\uddf8\ud83c\uddf0 13. University of Veterinary Medicine and Pharmacy in Ko\u0161ice"
+  },
+  {
+    "id": "877",
+    "name": "Data Analysis"
+  },
+  {
+    "id": "878",
+    "name": "Media Art"
+  },
+  {
+    "id": "879",
+    "name": "Hotel Management"
+  },
+  {
+    "id": "880",
+    "name": "Social Anthropology"
+  },
+  {
+    "id": "881",
+    "name": "Costume Design"
+  },
+  {
+    "id": "882",
+    "name": "Quality Assurance"
+  },
+  {
+    "id": "883",
+    "name": "Liturgical Studies"
+  },
+  {
+    "id": "884",
+    "name": "Civil and Environmental Engineering"
+  },
+  {
+    "id": "885",
+    "name": "Sound Art"
+  },
+  {
+    "id": "886",
+    "name": "Agriculture"
+  },
+  {
+    "id": "887",
+    "name": "Outdoor Education"
+  },
+  {
+    "id": "888",
+    "name": "\ud83c\udde9\ud83c\uddea 4. Humboldt University of Berlin"
+  },
+  {
+    "id": "889",
+    "name": "City: \u00dast\u00ed nad Labem"
+  },
+  {
+    "id": "890",
+    "name": "Fishery"
+  },
+  {
+    "id": "891",
+    "name": "AgriTech"
+  },
+  {
+    "id": "892",
+    "name": "Performance Science"
+  },
+  {
+    "id": "893",
+    "name": "Military Studies"
+  },
+  {
+    "id": "894",
+    "name": "Educational Leadership"
+  },
+  {
+    "id": "895",
+    "name": "Theatre in Education"
+  },
+  {
+    "id": "896",
+    "name": "Engineering Technology"
+  },
+  {
+    "id": "897",
+    "name": "Electromechanics"
+  },
+  {
+    "id": "898",
+    "name": "Music History"
+  },
+  {
+    "id": "899",
+    "name": "Midwifery"
+  },
+  {
+    "id": "900",
+    "name": "Music Interpretation"
+  },
+  {
+    "id": "901",
+    "name": "Language and Communication"
+  },
+  {
+    "id": "902",
+    "name": "Aesthetics & Cosmetology"
+  },
+  {
+    "id": "903",
+    "name": "Regional Development"
+  },
+  {
+    "id": "904",
+    "name": "English"
+  },
+  {
+    "id": "905",
+    "name": "City: Prague"
+  },
+  {
+    "id": "906",
+    "name": "Behavioural, Management & Social Sciences"
+  },
+  {
+    "id": "907",
+    "name": "Mathematics and Natural Sciences"
+  },
+  {
+    "id": "908",
+    "name": "Urban Planning"
+  },
+  {
+    "id": "909",
+    "name": "Life Sciences"
+  },
+  {
+    "id": "910",
+    "name": "Physical Education and Sport"
+  },
+  {
+    "id": "911",
+    "name": "History and Cultures"
+  },
+  {
+    "id": "912",
+    "name": "New Media"
+  },
+  {
+    "id": "913",
+    "name": "Retail Management"
+  },
+  {
+    "id": "914",
+    "name": "City: Pardubice"
+  },
+  {
+    "id": "915",
+    "name": "\ud83c\udde7\ud83c\uddea 7. Hasselt University"
+  },
+  {
+    "id": "916",
+    "name": "S\u00e1mi Language"
+  },
+  {
+    "id": "917",
+    "name": "Applied AI"
+  },
+  {
+    "id": "918",
+    "name": "Architecture and Art"
+  },
+  {
+    "id": "919",
+    "name": "Country: Hungary"
+  },
+  {
+    "id": "920",
+    "name": "\ud83c\uddf8\ud83c\uddf0 4. Technical University of Ko\u0161ice"
+  },
+  {
+    "id": "921",
+    "name": "Cinematography"
+  },
+  {
+    "id": "922",
+    "name": "City: Ghent"
+  },
+  {
+    "id": "923",
+    "name": "\ud83c\udded\ud83c\uddfa 12. Liszt Ferenc Academy of Music"
+  },
+  {
+    "id": "924",
+    "name": "Language and Literature"
+  },
+  {
+    "id": "925",
+    "name": "Indigenous Pedagogy"
+  },
+  {
+    "id": "926",
+    "name": "Educational Technology"
+  },
+  {
+    "id": "927",
+    "name": "Strategic Studies"
+  },
+  {
+    "id": "928",
+    "name": "Ethics"
+  },
+  {
+    "id": "929",
+    "name": "Theology of Worship"
+  },
+  {
+    "id": "930",
+    "name": "Health Care"
+  },
+  {
+    "id": "931",
+    "name": "Music for Dance"
+  },
+  {
+    "id": "932",
+    "name": "\ud83c\uddea\ud83c\uddea 7. Estonian Business School"
+  },
+  {
+    "id": "933",
+    "name": "Security Management"
+  },
+  {
+    "id": "934",
+    "name": "City: Miskolc"
+  },
+  {
+    "id": "935",
+    "name": "\ud83c\udde9\ud83c\uddea 13. University of Stuttgart"
+  },
+  {
+    "id": "936",
+    "name": "Curriculum Studies"
+  },
+  {
+    "id": "937",
+    "name": "IT and Communications"
+  },
+  {
+    "id": "938",
+    "name": "\ud83c\udde9\ud83c\udde9 7. University of Freiburg"
+  },
+  {
+    "id": "939",
+    "name": "Applied Linguistics"
+  },
+  {
+    "id": "940",
+    "name": "Signal Processing"
+  },
+  {
+    "id": "941",
+    "name": "City: \u017dilina"
+  },
+  {
+    "id": "942",
+    "name": "\ud83c\uddf8\ud83c\uddf0 20. Academy of Arts in Bansk\u00e1 Bystrica"
+  },
+  {
+    "id": "943",
+    "name": "Supply Chain"
+  },
+  {
+    "id": "944",
+    "name": "Lithuania"
+  },
+  {
+    "id": "945",
+    "name": "Aircraft Maintenance"
+  },
+  {
+    "id": "946",
+    "name": "\ud83c\udde8\ud83c\uddff 7. University of Economics, Prague"
+  },
+  {
+    "id": "947",
+    "name": "Church Music"
+  },
+  {
+    "id": "948",
+    "name": "Navigation Systems"
+  },
+  {
+    "id": "949",
+    "name": "Innovation Sciences"
+  },
+  {
+    "id": "950",
+    "name": "Health Science"
+  },
+  {
+    "id": "951",
+    "name": "Computing Science"
+  },
+  {
+    "id": "952",
+    "name": "Mechanical Systems"
+  },
+  {
+    "id": "953",
+    "name": "Language & Text Interpretation"
+  },
+  {
+    "id": "954",
+    "name": "\ud83c\uddea\ud83c\uddea 16. Tartu Vocational Education Centre"
+  },
+  {
+    "id": "955",
+    "name": "Aeronautical Engineering"
+  },
+  {
+    "id": "956",
+    "name": "Geography"
+  },
+  {
+    "id": "957",
+    "name": "City: Bansk\u00e1 Bystrica"
+  },
+  {
+    "id": "958",
+    "name": "City: Heerlen"
+  },
+  {
+    "id": "959",
+    "name": "Software Engineering"
+  },
+  {
+    "id": "960",
+    "name": "Technical Education"
+  },
+  {
+    "id": "961",
+    "name": "Mental Health"
+  },
+  {
+    "id": "962",
+    "name": "Marine Technology"
+  },
+  {
+    "id": "963",
+    "name": "Public Administration"
+  },
+  {
+    "id": "964",
+    "name": "Safety and Security"
+  },
+  {
+    "id": "965",
+    "name": "Technology & Innovation"
+  },
+  {
+    "id": "966",
+    "name": "Economics and Management"
+  },
+  {
+    "id": "967",
+    "name": "Cyber Defence"
+  },
+  {
+    "id": "968",
+    "name": "Earth Science"
+  },
+  {
+    "id": "969",
+    "name": "Christianity and Society"
+  },
+  {
+    "id": "970",
+    "name": "Traditional Music"
+  },
+  {
+    "id": "971",
+    "name": "Meteorology"
+  },
+  {
+    "id": "972",
+    "name": "Port and Shipping Management"
+  },
+  {
+    "id": "973",
+    "name": "Food and Meal Science"
+  },
+  {
+    "id": "974",
+    "name": "Leather Design"
+  },
+  {
+    "id": "975",
+    "name": "Risk Management"
+  },
+  {
+    "id": "976",
+    "name": "Art & Economics"
+  },
+  {
+    "id": "977",
+    "name": "Secondary Education"
+  },
+  {
+    "id": "978",
+    "name": "Youth Work"
+  },
+  {
+    "id": "979",
+    "name": "Environmental Health"
+  },
+  {
+    "id": "980",
+    "name": "Food Chemistry"
+  },
+  {
+    "id": "981",
+    "name": "Electrical Installation"
+  },
+  {
+    "id": "982",
+    "name": "Jewish Studies"
+  },
+  {
+    "id": "983",
+    "name": "City: Brussels"
+  },
+  {
+    "id": "984",
+    "name": "Sound Engineering"
+  },
+  {
+    "id": "985",
+    "name": "City: Opava"
+  },
+  {
+    "id": "986",
+    "name": "Accounting"
+  },
+  {
+    "id": "987",
+    "name": "Health"
+  },
+  {
+    "id": "988",
+    "name": "Hospitality"
+  },
+  {
+    "id": "989",
+    "name": "Speech-Language Therapy"
+  },
+  {
+    "id": "990",
+    "name": "Social Work"
+  },
+  {
+    "id": "991",
+    "name": "Acting"
+  },
+  {
+    "id": "992",
+    "name": "City: Li\u00e8ge"
+  },
+  {
+    "id": "993",
+    "name": "Information and Communication Technology"
+  },
+  {
+    "id": "994",
+    "name": "Manufacturing Technologies"
+  },
+  {
+    "id": "995",
+    "name": "Bioengineering"
+  },
+  {
+    "id": "996",
+    "name": "Greece"
+  },
+  {
+    "id": "997",
+    "name": "Legal Compliance"
+  },
+  {
+    "id": "998",
+    "name": "City: Delft"
+  },
+  {
+    "id": "999",
+    "name": "Mechanical, Maritime and Materials Engineering"
+  },
+  {
+    "id": "1000",
+    "name": "Media and Advertising Design"
+  },
+  {
+    "id": "1001",
+    "name": "Art and Design"
+  },
+  {
+    "id": "1002",
+    "name": "City: Sopron"
+  },
+  {
+    "id": "1003",
+    "name": "Ecology"
+  },
+  {
+    "id": "1004",
+    "name": "\ud83c\udded\ud83c\uddfa 19. University of Sopron"
+  },
+  {
+    "id": "1005",
+    "name": "Water Systems"
+  },
+  {
+    "id": "1006",
+    "name": "Design Sciences"
+  },
+  {
+    "id": "1007",
+    "name": "City: Bansk\u00e1 \u0160tiavnica"
+  },
+  {
+    "id": "1008",
+    "name": "Circus Arts"
+  },
+  {
+    "id": "1009",
+    "name": "Occupational Safety"
+  },
+  {
+    "id": "1010",
+    "name": "Applied Mathematics"
+  },
+  {
+    "id": "1011",
+    "name": "Civil Engineering & Geosciences"
+  },
+  {
+    "id": "1012",
+    "name": "\ud83c\uddeb\ud83c\uddf7 1. Universit\u00e9 PSL"
+  },
+  {
+    "id": "1013",
+    "name": "Violin"
+  },
+  {
+    "id": "1014",
+    "name": "\ud83c\udde9\ud83c\uddea 17. University of Bremen"
+  },
+  {
+    "id": "1015",
+    "name": "\ud83c\udde7\ud83c\uddea 9. University of Namur"
+  },
+  {
+    "id": "1016",
+    "name": "Marine Communication"
+  },
+  {
+    "id": "1017",
+    "name": "Cognitive Science"
+  },
+  {
+    "id": "1018",
+    "name": "Music Therapy"
+  },
+  {
+    "id": "1019",
+    "name": "Animal Science"
+  },
+  {
+    "id": "1020",
+    "name": "Physical Education"
+  },
+  {
+    "id": "1021",
+    "name": "Scenic Design"
+  },
+  {
+    "id": "1022",
+    "name": "Economics and Behavioral Sciences"
+  },
+  {
+    "id": "1023",
+    "name": "Naval Architecture"
+  },
+  {
+    "id": "1024",
+    "name": "Engineering Sciences"
+  },
+  {
+    "id": "1025",
+    "name": "Process Control"
+  },
+  {
+    "id": "1026",
+    "name": "Environmental Systems Science"
+  },
+  {
+    "id": "1027",
+    "name": "\ud83c\udde7\ud83c\uddea 18. Karel de Grote University of Applied Sciences and Arts"
+  },
+  {
+    "id": "1028",
+    "name": "Veterinary Administration"
+  },
+  {
+    "id": "1029",
+    "name": "Social and Economic Relations"
+  },
+  {
+    "id": "1030",
+    "name": "HVAC Engineering"
+  },
+  {
+    "id": "1031",
+    "name": "Swedish as a Second Language"
+  },
+  {
+    "id": "1032",
+    "name": "\ud83c\uddea\ud83c\uddea 18. Narva College of the University of Tartu"
+  },
+  {
+    "id": "1033",
+    "name": "Voice"
+  },
+  {
+    "id": "1034",
+    "name": "Agricultural Machinery"
+  },
+  {
+    "id": "1035",
+    "name": "Country: Germany"
+  },
+  {
+    "id": "1036",
+    "name": "Earth and Environmental Sciences"
+  },
+  {
+    "id": "1037",
+    "name": "Composition"
+  },
+  {
+    "id": "1038",
+    "name": "International Studies"
+  },
+  {
+    "id": "1039",
+    "name": "Theatre Direction"
+  },
+  {
+    "id": "1040",
+    "name": "Energy and Process Engineering"
+  },
+  {
+    "id": "1041",
+    "name": "Art Theory"
+  },
+  {
+    "id": "1042",
+    "name": "History and the Arts"
+  },
+  {
+    "id": "1043",
+    "name": "Computational Physics"
+  },
+  {
+    "id": "1044",
+    "name": "\ud83c\udde9\ud83c\uddea 9. University of T\u00fcbingen"
+  },
+  {
+    "id": "1045",
+    "name": "Inclusive Education"
+  },
+  {
+    "id": "1046",
+    "name": "Biotech"
+  },
+  {
+    "id": "1047",
+    "name": "History"
+  },
+  {
+    "id": "1048",
+    "name": "Sound Design"
+  },
+  {
+    "id": "1049",
+    "name": "Global Health"
+  },
+  {
+    "id": "1050",
+    "name": "Bioscience Engineering"
+  },
+  {
+    "id": "1051",
+    "name": "Aviation Management"
+  },
+  {
+    "id": "1052",
+    "name": "Theater Theory"
+  },
+  {
+    "id": "1053",
+    "name": "Child Studies"
+  },
+  {
+    "id": "1054",
+    "name": "Health Services"
+  },
+  {
+    "id": "1055",
+    "name": "Law and Criminology"
+  },
+  {
+    "id": "1056",
+    "name": "\ud83c\uddea\ud83c\uddea 10. Estonian National Defence College"
+  },
+  {
+    "id": "1057",
+    "name": "Global Studies"
+  },
+  {
+    "id": "1058",
+    "name": "Health Technology"
+  },
+  {
+    "id": "1059",
+    "name": "Digital Communication"
+  },
+  {
+    "id": "1060",
+    "name": "Environmental Design"
+  },
+  {
+    "id": "1061",
+    "name": "Sports and Physical Activity"
+  },
+  {
+    "id": "1062",
+    "name": "Fermentation and Bioengineering"
+  },
+  {
+    "id": "1063",
+    "name": "Environment"
+  },
+  {
+    "id": "1064",
+    "name": "Special Pedagogy"
+  },
+  {
+    "id": "1065",
+    "name": "Rehabilitation Sciences"
+  },
+  {
+    "id": "1066",
+    "name": "Beauty Therapy"
+  },
+  {
+    "id": "1067",
+    "name": "\ud83c\udde8\ud83c\uddff 14. Jan Evangelista Purkyn\u011b University in \u00dast\u00ed nad Labem"
+  },
+  {
+    "id": "1068",
+    "name": "Arts and Design"
+  },
+  {
+    "id": "1069",
+    "name": "Natural Sciences"
+  },
+  {
+    "id": "1070",
+    "name": "Classical Ballet"
+  },
+  {
+    "id": "1071",
+    "name": "City: Rakvere"
+  },
+  {
+    "id": "1072",
+    "name": "Industrial Technologies"
+  },
+  {
+    "id": "1073",
+    "name": "German Studies"
+  },
+  {
+    "id": "1074",
+    "name": "City: Kampen"
+  },
+  {
+    "id": "1075",
+    "name": "Health and Lifestyle"
+  },
+  {
+    "id": "1076",
+    "name": "Wood Technology"
+  },
+  {
+    "id": "1077",
+    "name": "\ud83c\udde7\ud83c\uddea 4. Universit\u00e9 libre de Bruxelles"
+  },
+  {
+    "id": "1078",
+    "name": "Veterinary Surgery"
+  },
+  {
+    "id": "1079",
+    "name": "Modern Languages"
+  },
+  {
+    "id": "1080",
+    "name": "Architecture and the Built Environment"
+  },
+  {
+    "id": "1081",
+    "name": "Environmental Technology"
+  },
+  {
+    "id": "1082",
+    "name": "Applied Health Sciences"
+  },
+  {
+    "id": "1083",
+    "name": "Textile and Fashion"
+  },
+  {
+    "id": "1084",
+    "name": "Analytical Chemistry"
+  },
+  {
+    "id": "1085",
+    "name": "Fashion"
+  },
+  {
+    "id": "1086",
+    "name": "Choreography"
+  },
+  {
+    "id": "1087",
+    "name": "\ud83c\udde7\ud83c\uddea 10. Universit\u00e9 de Li\u00e8ge"
+  },
+  {
+    "id": "1088",
+    "name": "Web Development"
+  },
+  {
+    "id": "1089",
+    "name": "\ud83c\uddf3\ud83c\uddf1 18. ArtEZ University of the Arts"
+  },
+  {
+    "id": "1090",
+    "name": "Computer Engineering"
+  },
+  {
+    "id": "1091",
+    "name": "Plant Protection"
+  },
+  {
+    "id": "1092",
+    "name": "Translation"
+  },
+  {
+    "id": "1093",
+    "name": "Informatics and Statistics"
+  },
+  {
+    "id": "1094",
+    "name": "Philology"
+  },
+  {
+    "id": "1095",
+    "name": "Political and Social Sciences"
+  },
+  {
+    "id": "1096",
+    "name": "Human Rights"
+  },
+  {
+    "id": "1097",
+    "name": "\ud83c\udde9\ud83c\uddea 3. Heidelberg University"
+  },
+  {
+    "id": "1098",
+    "name": "Telecommunications"
+  },
+  {
+    "id": "1099",
+    "name": "City: Liberec"
+  },
+  {
+    "id": "1100",
+    "name": "\ud83c\udde7\ud83c\uddea 15. Howest University of Applied Sciences"
+  },
+  {
+    "id": "1101",
+    "name": "City: Olomouc"
+  },
+  {
+    "id": "1102",
+    "name": "Counseling"
+  },
+  {
+    "id": "1103",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "1104",
+    "name": "Mining, Ecology, Process Control"
+  },
+  {
+    "id": "1105",
+    "name": "City: Hamburg"
+  },
+  {
+    "id": "1106",
+    "name": "\ud83c\uddf3\ud83c\uddf1 19. HKU University of the Arts Utrecht"
+  },
+  {
+    "id": "1107",
+    "name": "\ud83c\udde7\ud83c\uddea 19. Artevelde University of Applied Sciences"
+  },
+  {
+    "id": "1108",
+    "name": "Data Engineering"
+  },
+  {
+    "id": "1109",
+    "name": "Criminal Justice"
+  },
+  {
+    "id": "1110",
+    "name": "Energy Technology"
+  },
+  {
+    "id": "1111",
+    "name": "Early Childhood Education"
+  },
+  {
+    "id": "1112",
+    "name": "Pedagogy"
+  },
+  {
+    "id": "1113",
+    "name": "Spatial Sciences"
+  },
+  {
+    "id": "1114",
+    "name": "Innovation and Governance"
+  },
+  {
+    "id": "1115",
+    "name": "Network Technologies"
+  },
+  {
+    "id": "1116",
+    "name": "Creative Media & Technology"
+  },
+  {
+    "id": "1117",
+    "name": "Production"
+  },
+  {
+    "id": "1118",
+    "name": "Culinary Arts"
+  },
+  {
+    "id": "1119",
+    "name": "Strategic Management"
+  },
+  {
+    "id": "1120",
+    "name": "European Law"
+  },
+  {
+    "id": "1121",
+    "name": "Primary Education"
+  },
+  {
+    "id": "1122",
+    "name": "Geography, Planning & Development"
+  },
+  {
+    "id": "1123",
+    "name": "\ud83c\udde8\ud83c\uddff 2. Czech Technical University in Prague"
+  },
+  {
+    "id": "1124",
+    "name": "Research Methods"
+  },
+  {
+    "id": "1125",
+    "name": "Maritime Safety"
+  },
+  {
+    "id": "1126",
+    "name": "Intercultural Education"
+  },
+  {
+    "id": "1127",
+    "name": "Psychology \"Renzo Canestrari\""
+  },
+  {
+    "id": "1128",
+    "name": "Biomedical Laboratory Sciences"
+  },
+  {
+    "id": "1129",
+    "name": "Communication and Media"
+  },
+  {
+    "id": "1130",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "1131",
+    "name": "Food Technology"
+  },
+  {
+    "id": "1132",
+    "name": "HVAC Systems"
+  },
+  {
+    "id": "1133",
+    "name": "Sustainable Business"
+  },
+  {
+    "id": "1134",
+    "name": "Applied Chemistry"
+  },
+  {
+    "id": "1135",
+    "name": "Fisheries Science"
+  },
+  {
+    "id": "1136",
+    "name": "\ud83c\uddf8\ud83c\uddf0 16. St. Elizabeth University of Health and Social Sciences"
+  },
+  {
+    "id": "1137",
+    "name": "Performance Arts"
+  },
+  {
+    "id": "1138",
+    "name": "Digital Business"
+  },
+  {
+    "id": "1139",
+    "name": "Classical Philology and Italian Studies"
+  },
+  {
+    "id": "1140",
+    "name": "UAV Operations"
+  },
+  {
+    "id": "1141",
+    "name": "Marine Engineering"
+  },
+  {
+    "id": "1142",
+    "name": "Applied Economics"
+  },
+  {
+    "id": "1143",
+    "name": "European Studies"
+  },
+  {
+    "id": "1144",
+    "name": "Media"
+  },
+  {
+    "id": "1145",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "1146",
+    "name": "IT and Communication"
+  },
+  {
+    "id": "1147",
+    "name": "\ud83c\udde8\ud83c\uddff 12. University of South Bohemia in \u010cesk\u00e9 Bud\u011bjovice"
+  },
+  {
+    "id": "1148",
+    "name": "Sports Psychology"
+  },
+  {
+    "id": "1149",
+    "name": "Power Engineering"
+  },
+  {
+    "id": "1150",
+    "name": "\ud83c\uddf8\ud83c\uddf0 5. University of \u017dilina"
+  },
+  {
+    "id": "1151",
+    "name": "Biomedical Sciences"
+  },
+  {
+    "id": "1152",
+    "name": "HVAC Technology"
+  },
+  {
+    "id": "1153",
+    "name": "Catechetics"
+  },
+  {
+    "id": "1154",
+    "name": "Environmental Chemistry"
+  },
+  {
+    "id": "1155",
+    "name": "Economic and Regional Development"
+  },
+  {
+    "id": "1156",
+    "name": "Forestry and Ecology"
+  },
+  {
+    "id": "1157",
+    "name": "Project Management"
+  },
+  {
+    "id": "1158",
+    "name": "Natural Resources"
+  },
+  {
+    "id": "1159",
+    "name": "City: Namur"
+  },
+  {
+    "id": "1160",
+    "name": "Country: Belgium"
+  },
+  {
+    "id": "1161",
+    "name": "Applied Psychology"
+  },
+  {
+    "id": "1162",
+    "name": "Arctic Studies"
+  },
+  {
+    "id": "1163",
+    "name": "Economics and Business Administration"
+  },
+  {
+    "id": "1164",
+    "name": "Entrepreneurship"
+  },
+  {
+    "id": "1165",
+    "name": "Journalism and Communication"
+  },
+  {
+    "id": "1166",
+    "name": "Norway"
+  },
+  {
+    "id": "1167",
+    "name": "Theology"
+  },
+  {
+    "id": "1168",
+    "name": "Creative Media"
+  },
+  {
+    "id": "1169",
+    "name": "Social Education"
+  },
+  {
+    "id": "1170",
+    "name": "Health Sciences and Technology"
+  },
+  {
+    "id": "1171",
+    "name": "\ud83c\uddf8\ud83c\uddf0 2. Slovak University of Technology in Bratislava"
+  },
+  {
+    "id": "1172",
+    "name": "Music Composition"
+  },
+  {
+    "id": "1173",
+    "name": "Agrobiology"
+  },
+  {
+    "id": "1174",
+    "name": "Psychology and Educational Sciences"
+  },
+  {
+    "id": "1175",
+    "name": "\ud83c\udded\ud83c\uddfa 18. University of Ny\u00edregyh\u00e1za"
+  },
+  {
+    "id": "1176",
+    "name": "Film and Media"
+  },
+  {
+    "id": "1177",
+    "name": "AI"
+  },
+  {
+    "id": "1178",
+    "name": "Intermedia"
+  },
+  {
+    "id": "1179",
+    "name": "Supply Chain Management"
+  },
+  {
+    "id": "1180",
+    "name": "Governance"
+  },
+  {
+    "id": "1181",
+    "name": "Construction"
+  },
+  {
+    "id": "1182",
+    "name": "City: Louvain-la-Neuve"
+  },
+  {
+    "id": "1183",
+    "name": "IT Management"
+  },
+  {
+    "id": "1184",
+    "name": "Decision Sciences"
+  },
+  {
+    "id": "1185",
+    "name": "Industrial Product Design"
+  },
+  {
+    "id": "1186",
+    "name": "Cinema"
+  },
+  {
+    "id": "1187",
+    "name": "Architecture"
+  },
+  {
+    "id": "1188",
+    "name": "Theater Production"
+  },
+  {
+    "id": "1189",
+    "name": "Geo-resources and Materials Engineering"
+  },
+  {
+    "id": "1190",
+    "name": "Digital Art"
+  },
+  {
+    "id": "1191",
+    "name": "Electronics Engineering"
+  },
+  {
+    "id": "1192",
+    "name": "City: Potsdam"
+  },
+  {
+    "id": "1193",
+    "name": "Nursing"
+  },
+  {
+    "id": "1194",
+    "name": "City: G\u00f6d\u00f6ll\u0151"
+  },
+  {
+    "id": "1195",
+    "name": "Leadership and Management"
+  },
+  {
+    "id": "1196",
+    "name": "\ud83c\udded\ud83c\uddfa 7. University of P\u00e9cs"
+  },
+  {
+    "id": "1197",
+    "name": "Dogmatics"
+  },
+  {
+    "id": "1198",
+    "name": "Metallurgy"
+  },
+  {
+    "id": "1199",
+    "name": "Cybersecurity Law"
+  },
+  {
+    "id": "1200",
+    "name": "Eastern European Studies"
+  },
+  {
+    "id": "1201",
+    "name": "Energy Management"
+  },
+  {
+    "id": "1202",
+    "name": "Governance & Technology"
+  },
+  {
+    "id": "1203",
+    "name": "Innovation and Entrepreneurship"
+  },
+  {
+    "id": "1204",
+    "name": "Fashion Design"
+  },
+  {
+    "id": "1205",
+    "name": "Industrial Technology"
+  },
+  {
+    "id": "1206",
+    "name": "City: Leiden"
+  },
+  {
+    "id": "1207",
+    "name": "Law, Economics & Governance"
+  },
+  {
+    "id": "1208",
+    "name": "Sustainable Energy"
+  },
+  {
+    "id": "1209",
+    "name": "Textile Science"
+  },
+  {
+    "id": "1210",
+    "name": "Religious Studies"
+  },
+  {
+    "id": "1211",
+    "name": "Literary Studies"
+  },
+  {
+    "id": "1212",
+    "name": "Aquaculture"
+  },
+  {
+    "id": "1213",
+    "name": "Climate Sciences"
+  },
+  {
+    "id": "1214",
+    "name": "Law and Economics"
+  },
+  {
+    "id": "1215",
+    "name": "Digital Systems"
+  },
+  {
+    "id": "1216",
+    "name": "Mixed Media"
+  },
+  {
+    "id": "1217",
+    "name": "Anthropology"
+  },
+  {
+    "id": "1218",
+    "name": "3D Modeling"
+  },
+  {
+    "id": "1219",
+    "name": "Communication Studies"
+  },
+  {
+    "id": "1220",
+    "name": "Animal Nutrition"
+  },
+  {
+    "id": "1221",
+    "name": "Culture and Society"
+  },
+  {
+    "id": "1222",
+    "name": "Theatre Directing"
+  },
+  {
+    "id": "1223",
+    "name": "Media Technology"
+  },
+  {
+    "id": "1224",
+    "name": "IT and Office Services"
+  },
+  {
+    "id": "1225",
+    "name": "Hungary"
+  },
+  {
+    "id": "1226",
+    "name": "Religion and Society"
+  },
+  {
+    "id": "1227",
+    "name": "Food Safety"
+  },
+  {
+    "id": "1228",
+    "name": "\ud83c\uddea\ud83c\uddea 9. Tallinn Health Care College"
+  },
+  {
+    "id": "1229",
+    "name": "Hospitality and Catering"
+  },
+  {
+    "id": "1230",
+    "name": "City: G\u00f6ttingen"
+  },
+  {
+    "id": "1231",
+    "name": "City: Stuttgart"
+  },
+  {
+    "id": "1232",
+    "name": "Fine Arts"
+  },
+  {
+    "id": "1233",
+    "name": "Strategy"
+  },
+  {
+    "id": "1234",
+    "name": "Religious Education"
+  },
+  {
+    "id": "1235",
+    "name": "Visual Arts"
+  },
+  {
+    "id": "1236",
+    "name": "Law and Administration"
+  },
+  {
+    "id": "1237",
+    "name": "\ud83c\uddea\ud83c\uddea 14. Tartu Art School"
+  },
+  {
+    "id": "1238",
+    "name": "African Studies"
+  },
+  {
+    "id": "1239",
+    "name": "Molecular Biosciences"
+  },
+  {
+    "id": "1240",
+    "name": "\ud83c\udde8\ud83c\uddff 13. Silesian University in Opava"
+  },
+  {
+    "id": "1241",
+    "name": "Graphic Design"
+  },
+  {
+    "id": "1242",
+    "name": "Behavioural and Social Sciences"
+  },
+  {
+    "id": "1243",
+    "name": "Film, Media, Arts"
+  },
+  {
+    "id": "1244",
+    "name": "Statistics"
+  },
+  {
+    "id": "1245",
+    "name": "History and Culture"
+  },
+  {
+    "id": "1246",
+    "name": "Finland"
+  },
+  {
+    "id": "1247",
+    "name": "\ud83c\uddf3\ud83c\uddf1 2. Delft University of Technology"
+  },
+  {
+    "id": "1248",
+    "name": "Teaching"
+  },
+  {
+    "id": "1249",
+    "name": "Athletic Training"
+  },
+  {
+    "id": "1250",
+    "name": "Health Informatics"
+  },
+  {
+    "id": "1251",
+    "name": "\ud83c\udde7\ud83c\uddea 12. LUCA School of Arts"
+  },
+  {
+    "id": "1252",
+    "name": "Climate Science"
+  },
+  {
+    "id": "1253",
+    "name": "Literature"
+  },
+  {
+    "id": "1254",
+    "name": "Fashion Technology"
+  },
+  {
+    "id": "1255",
+    "name": "\ud83c\udde8\ud83c\uddff 17. Academy of Performing Arts in Prague"
+  },
+  {
+    "id": "1256",
+    "name": "City: Arnhem / Zwolle / Enschede"
+  },
+  {
+    "id": "1257",
+    "name": "Biblical Studies"
+  },
+  {
+    "id": "1258",
+    "name": "Jazz & Pop"
+  },
+  {
+    "id": "1259",
+    "name": "Social Studies"
+  },
+  {
+    "id": "1260",
+    "name": "Pastoral Care"
+  },
+  {
+    "id": "1261",
+    "name": "Work-Integrated Learning"
+  },
+  {
+    "id": "1262",
+    "name": "Intelligent Systems"
+  },
+  {
+    "id": "1263",
+    "name": "Management and Economics"
+  },
+  {
+    "id": "1264",
+    "name": "Applied Arts"
+  },
+  {
+    "id": "1265",
+    "name": "Applied Science"
+  },
+  {
+    "id": "1266",
+    "name": "Building Technology"
+  },
+  {
+    "id": "1267",
+    "name": "E-Business"
+  },
+  {
+    "id": "1268",
+    "name": "Vocal Performance"
+  },
+  {
+    "id": "1269",
+    "name": "Commercial Aviation"
+  },
+  {
+    "id": "1270",
+    "name": "Computer and Systems Sciences"
+  },
+  {
+    "id": "1271",
+    "name": "Production Design"
+  },
+  {
+    "id": "1272",
+    "name": "Ceramics"
+  },
+  {
+    "id": "1273",
+    "name": "Theater Technology"
+  },
+  {
+    "id": "1274",
+    "name": "Printmaking"
+  },
+  {
+    "id": "1275",
+    "name": "Interactive/Media/Design"
+  },
+  {
+    "id": "1276",
+    "name": "Inorganic Chemistry"
+  },
+  {
+    "id": "1277",
+    "name": "Health and Nursing"
+  },
+  {
+    "id": "1278",
+    "name": "Medical Missionary Work"
+  },
+  {
+    "id": "1279",
+    "name": "Crop Production"
+  },
+  {
+    "id": "1280",
+    "name": "CNC Programming"
+  },
+  {
+    "id": "1281",
+    "name": "\ud83c\uddea\ud83c\uddea 19. Haapsalu Vocational Education and Training Centre"
+  },
+  {
+    "id": "1282",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "1283",
+    "name": "Chemical Engineering"
+  },
+  {
+    "id": "1284",
+    "name": "Directing"
+  },
+  {
+    "id": "1285",
+    "name": "Pharmaceutical Sciences"
+  },
+  {
+    "id": "1286",
+    "name": "Country: Czech Republic"
+  },
+  {
+    "id": "1287",
+    "name": "City: Narva"
+  },
+  {
+    "id": "1288",
+    "name": "\ud83c\uddea\ud83c\uddea 5. Estonian Academy of Music and Theatre"
+  },
+  {
+    "id": "1289",
+    "name": "Accountancy"
+  },
+  {
+    "id": "1290",
+    "name": "Music Theory"
+  },
+  {
+    "id": "1291",
+    "name": "Vocal Studies"
+  },
+  {
+    "id": "1292",
+    "name": "History & Archaeology"
+  },
+  {
+    "id": "1293",
+    "name": "Movement"
+  },
+  {
+    "id": "1294",
+    "name": "Communication Sciences"
+  },
+  {
+    "id": "1295",
+    "name": "Environmental Engineering"
+  },
+  {
+    "id": "1296",
+    "name": "Geo-Information Science"
+  },
+  {
+    "id": "1297",
+    "name": "Equestrian Management"
+  },
+  {
+    "id": "1298",
+    "name": "Restaurant Services"
+  },
+  {
+    "id": "1299",
+    "name": "Creative Writing"
+  },
+  {
+    "id": "1300",
+    "name": "Social and Economic Sciences"
+  },
+  {
+    "id": "1301",
+    "name": "International Business"
+  },
+  {
+    "id": "1302",
+    "name": "City: V\u00e4imela, V\u00f5ru"
+  },
+  {
+    "id": "1303",
+    "name": "Balkan Studies"
+  },
+  {
+    "id": "1304",
+    "name": "Behavioral and Cultural Studies"
+  },
+  {
+    "id": "1305",
+    "name": "Veterinary Science"
+  },
+  {
+    "id": "1306",
+    "name": "Czech republic"
+  },
+  {
+    "id": "1307",
+    "name": "City: Antwerp"
+  },
+  {
+    "id": "1308",
+    "name": "\ud83c\udded\ud83c\uddfa 16. Eszterh\u00e1zy K\u00e1roly Catholic University"
+  },
+  {
+    "id": "1309",
+    "name": "Environmental Management"
+  },
+  {
+    "id": "1310",
+    "name": "Studio Practice"
+  },
+  {
+    "id": "1311",
+    "name": "\ud83c\uddea\ud83c\uddea 4. Estonian Academy of Arts"
+  },
+  {
+    "id": "1312",
+    "name": "City: Pre\u0161ov"
+  },
+  {
+    "id": "1313",
+    "name": "\ud83c\uddea\ud83c\uddea 17. Kuressaare Regional Training Centre"
+  },
+  {
+    "id": "1314",
+    "name": "Journalism"
+  },
+  {
+    "id": "1315",
+    "name": "Health and Social Sciences"
+  },
+  {
+    "id": "1316",
+    "name": "Finance and Insurance"
+  },
+  {
+    "id": "1317",
+    "name": "Nursing Science"
+  },
+  {
+    "id": "1318",
+    "name": "Offshore Safety"
+  },
+  {
+    "id": "1319",
+    "name": "Animal Reproduction"
+  },
+  {
+    "id": "1320",
+    "name": "Tourism Management"
+  },
+  {
+    "id": "1321",
+    "name": "Christian Philosophy"
+  },
+  {
+    "id": "1322",
+    "name": "Music"
+  }
+]

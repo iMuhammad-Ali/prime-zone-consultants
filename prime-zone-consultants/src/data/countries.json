@@ -1,0 +1,274 @@
+[
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "flag": "https://flagcdn.com/gb.svg",
+    "actualFee": "€10,000",
+    "discountedFee": "€8,000",
+    "discount": "20%"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "flag": "https://flagcdn.com/kg.svg",
+    "actualFee": "€3,000",
+    "discountedFee": "€2,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "flag": "https://flagcdn.com/ca.svg",
+    "actualFee": "€11,000",
+    "discountedFee": "€8,800",
+    "discount": "20%"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "flag": "https://flagcdn.com/au.svg",
+    "actualFee": "€12,000",
+    "discountedFee": "€9,600",
+    "discount": "20%"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "flag": "https://flagcdn.com/at.svg",
+    "actualFee": "€9,500",
+    "discountedFee": "€7,600",
+    "discount": "20%"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "flag": "https://flagcdn.com/be.svg",
+    "actualFee": "€9,000",
+    "discountedFee": "€7,200",
+    "discount": "20%"
+  },
+  {
+    "name": "Croatia",
+    "code": "HR",
+    "flag": "https://flagcdn.com/hr.svg",
+    "actualFee": "€8,000",
+    "discountedFee": "€6,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "flag": "https://flagcdn.com/cz.svg",
+    "actualFee": "€7,500",
+    "discountedFee": "€6,000",
+    "discount": "20%"
+  },
+  {
+    "name": "Denmark",
+    "code": "DK",
+    "flag": "https://flagcdn.com/dk.svg",
+    "actualFee": "€10,500",
+    "discountedFee": "€8,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Estonia",
+    "code": "EE",
+    "flag": "https://flagcdn.com/ee.svg",
+    "actualFee": "€7,200",
+    "discountedFee": "€5,760",
+    "discount": "20%"
+  },
+  {
+    "name": "Finland",
+    "code": "FI",
+    "flag": "https://flagcdn.com/fi.svg",
+    "actualFee": "€9,500",
+    "discountedFee": "€7,600",
+    "discount": "20%"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "flag": "https://flagcdn.com/fr.svg",
+    "actualFee": "€9,000",
+    "discountedFee": "€7,200",
+    "discount": "20%"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "flag": "https://flagcdn.com/de.svg",
+    "actualFee": "€8,500",
+    "discountedFee": "€6,800",
+    "discount": "20%"
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "flag": "https://flagcdn.com/gr.svg",
+    "actualFee": "€6,500",
+    "discountedFee": "€5,200",
+    "discount": "20%"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "flag": "https://flagcdn.com/hu.svg",
+    "actualFee": "€6,000",
+    "discountedFee": "€4,800",
+    "discount": "20%"
+  },
+  {
+    "name": "Iceland",
+    "code": "IS",
+    "flag": "https://flagcdn.com/is.svg",
+    "actualFee": "€11,500",
+    "discountedFee": "€9,200",
+    "discount": "20%"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "flag": "https://flagcdn.com/it.svg",
+    "actualFee": "€8,500",
+    "discountedFee": "€6,800",
+    "discount": "20%"
+  },
+  {
+    "name": "Latvia",
+    "code": "LV",
+    "flag": "https://flagcdn.com/lv.svg",
+    "actualFee": "€6,800",
+    "discountedFee": "€5,440",
+    "discount": "20%"
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "LI",
+    "flag": "https://flagcdn.com/li.svg",
+    "actualFee": "€12,500",
+    "discountedFee": "€10,000",
+    "discount": "20%"
+  },
+  {
+    "name": "Lithuania",
+    "code": "LT",
+    "flag": "https://flagcdn.com/lt.svg",
+    "actualFee": "€7,000",
+    "discountedFee": "€5,600",
+    "discount": "20%"
+  },
+  {
+    "name": "Luxembourg",
+    "code": "LU",
+    "flag": "https://flagcdn.com/lu.svg",
+    "actualFee": "€13,000",
+    "discountedFee": "€10,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Malta",
+    "code": "MT",
+    "flag": "https://flagcdn.com/mt.svg",
+    "actualFee": "€7,800",
+    "discountedFee": "€6,240",
+    "discount": "20%"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "flag": "https://flagcdn.com/nl.svg",
+    "actualFee": "€10,000",
+    "discountedFee": "€8,000",
+    "discount": "20%"
+  },
+  {
+    "name": "Norway",
+    "code": "NO",
+    "flag": "https://flagcdn.com/no.svg",
+    "actualFee": "€11,000",
+    "discountedFee": "€8,800",
+    "discount": "20%"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "flag": "https://flagcdn.com/pl.svg",
+    "actualFee": "€6,500",
+    "discountedFee": "€5,200",
+    "discount": "20%"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "flag": "https://flagcdn.com/pt.svg",
+    "actualFee": "€7,000",
+    "discountedFee": "€5,600",
+    "discount": "20%"
+  },
+  {
+    "name": "Slovakia",
+    "code": "SK",
+    "flag": "https://flagcdn.com/sk.svg",
+    "actualFee": "€6,800",
+    "discountedFee": "€5,440",
+    "discount": "20%"
+  },
+  {
+    "name": "Slovenia",
+    "code": "SI",
+    "flag": "https://flagcdn.com/si.svg",
+    "actualFee": "€7,200",
+    "discountedFee": "€5,760",
+    "discount": "20%"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "flag": "https://flagcdn.com/es.svg",
+    "actualFee": "€8,000",
+    "discountedFee": "€6,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "flag": "https://flagcdn.com/se.svg",
+    "actualFee": "€10,800",
+    "discountedFee": "€8,640",
+    "discount": "20%"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CH",
+    "flag": "https://flagcdn.com/ch.svg",
+    "actualFee": "€15,000",
+    "discountedFee": "€12,000",
+    "discount": "20%"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "flag": "https://flagcdn.com/cn.svg",
+    "actualFee": "€5,500",
+    "discountedFee": "€4,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Cyprus",
+    "code": "CY",
+    "flag": "https://flagcdn.com/cy.svg",
+    "actualFee": "€8,000",
+    "discountedFee": "€6,400",
+    "discount": "20%"
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "flag": "https://flagcdn.com/tr.svg",
+    "actualFee": "€6,000",
+    "discountedFee": "€4,800",
+    "discount": "20%"
+  }
+]
