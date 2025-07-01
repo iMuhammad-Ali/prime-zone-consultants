@@ -7,7 +7,7 @@ import Overview from "./Overview";
 
 const Features = ({ university }: any) => {
   const universityCourses = coursesData.filter((course) =>
-    university.courses.includes(course.id)
+    course.university.includes(university.id)
   );
 
   const features = [

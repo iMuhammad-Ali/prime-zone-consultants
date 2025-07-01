@@ -37,10 +37,10 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
             </div>
             <div className="flex justify-between gap-3 text-sm py-2">
               <p className="text-green-500 font-semibold">
-                Discounted Fee: {university.discountedFee}
+                Discounted Fee: {university.discountedPrice}
               </p>
               <p className="text-muted-foreground">
-                Actual Fee: {university.actualFee}
+                Actual Fee: {university.actualPrice}
               </p>
             </div>
             <div className="flex items-center gap-2">
@@ -49,7 +49,7 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
             </div>
             <div className="flex items-center gap-2">
               <Calendar />
-              {university.inTake.join(", ")}
+              {university.intake}
             </div>
           </div>
           <div className="flex items-center gap-4 text-sm mt-6">

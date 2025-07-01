@@ -14,19 +14,19 @@ const Overview = ({ university }: any) => {
       </div>
       <div className={rowStyles}>
         <div className={titleStyles}>In Take:</div>
-        <div className={descStyles}>{university.inTake.join(", ")}</div>
+        <div className={descStyles}>{university.intake}</div>
       </div>
       <div className={rowStyles}>
         <div className={titleStyles}>Languages:</div>
-        <div className={descStyles}>{university.languages.join(", ")}</div>
+        <div className={descStyles}>{university.languages}</div>
       </div>
       <div className={rowStyles}>
         <div className={titleStyles}>Actual Price:</div>
-        <div className={descStyles}>{university.actualFee}</div>
+        <div className={descStyles}>{university.actualPrice}</div>
       </div>
       <div className={rowStyles}>
         <div className={titleStyles}>Discounted Price:</div>
-        <div className={descStyles}>{university.discountedFee}</div>
+        <div className={descStyles}>{university.discountedPrice}</div>
       </div>
       <div className={rowStyles}>
         <div className={titleStyles}>Actual Price:</div>

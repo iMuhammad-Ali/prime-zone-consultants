@@ -12,6 +12,7 @@ import Universities from "~/pages/Universities";
 import Courses from "~/pages/Courses";
 import UniversityDetailPage from "~/pages/Universities/DetailPage";
 import CourseDetailPage from "~/pages/Courses/DetailPage";
+import Disclaimer from "~/pages/Home/components/Disclaimer";
 
 export const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
       {
         path: "courses/:id",
         element: <CourseDetailPage />,
+      },
+      {
+        path: "disclaimer",
+        element: <Disclaimer />,
       },
       {
         path: "*",
