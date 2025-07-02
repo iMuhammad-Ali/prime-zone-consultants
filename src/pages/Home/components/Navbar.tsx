@@ -198,8 +198,14 @@ const renderMenuItem = (item: MenuItem) => {
             {item.title}
           </button>
         </PopoverTrigger>
-        <PopoverContent className="bg-popover text-popover-foreground p-3 min-w-[500px]">
-          <div className="grid grid-cols-3 gap-4 max-h-64 overflow-y-auto">
+        <PopoverContent className="bg-popover text-popover-foreground p-0 overflow-hidden min-w-[500px]">
+          <div
+            className="grid grid-cols-2 gap-4 max-h-64 overflow-y-auto p-3
+               [&::-webkit-scrollbar]:w-1
+               [&::-webkit-scrollbar-track]:bg-transparent
+               [&::-webkit-scrollbar-thumb]:bg-white
+               [&::-webkit-scrollbar-thumb]:rounded-full"
+          >
             {item.items.map((subItem) => (
               <Link
                 key={subItem.title}

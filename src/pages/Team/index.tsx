@@ -87,8 +87,8 @@ const Team = () => {
             key={person.id}
             className="flex flex-col items-start overflow-hidden"
           >
-            <CardHeader className="bg-gray-200">
-              <Avatar className="mb-4 size-20 md:mb-5 lg:size-24">
+            <CardHeader className="bg-gray-200 w-full">
+              <Avatar className="mb-4 size-20 md:mb-5 lg:size-24 object-cover mx-auto">
                 <AvatarImage src={person.avatar} />
                 <AvatarFallback>{person.name}</AvatarFallback>
               </Avatar>
