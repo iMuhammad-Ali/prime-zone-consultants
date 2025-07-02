@@ -64,8 +64,8 @@ const Universities: React.FC = () => {
       {!urlCountry ? (
         <div className="flex-1">
           <CountryGrid />
-          <Separator className="my-16 w-full h-px" />
-          <UniversityDepartments />
+          {/* <Separator className="my-16 w-full h-px" />
+          <UniversityDepartments /> */}
         </div>
       ) : (
         <div className="container mx-auto flex flex-col md:flex-row gap-6">
