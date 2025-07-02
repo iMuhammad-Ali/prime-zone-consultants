@@ -1836,12 +1836,13 @@
     "summary": "Historic university with 36% international students and strong humanities focus",
     "discount": "50.00%",
     "id": "106",
-    "image": ""
+    "image": "https://i0.wp.com/unibuc.ro/wp-content/uploads/2021/10/university-salzburg-civis-unibuc-plus-European-Civic-University.jpg?fit=825%2C692&ssl=1"
   },
   {
     "name": "University of Veterinary Medicine Vienna",
     "city": "Vienna",
-    "country": "Austria; Veterinärplatz 1, 1210 Vienna",
+    "country": "Austria",
+    "address": "Veterinärplatz 1, 1210 Vienna",
     "about": "Founded in 1897, Austria's dedicated public university for veterinary and animal sciences",
     "departments": "Veterinary Medicine; Animal Biology; Veterinary Public Health; Pathobiology; Nutrition & Food Science; Clinics (Small/Large Animals, Equine); Zoology; Veterinary Surgery",
     "in take": "October (main), March (limited programs)",
@@ -1853,12 +1854,13 @@
     "summary": "Europe's oldest veterinary school with state-of-the-art animal hospitals and unique specializations in equine medicine and food safety.",
     "discount": "51.60%",
     "id": "107",
-    "image": ""
+    "image": "https://studyportals-cdn2.imgix.net/641089eee990c.jpg"
   },
   {
     "name": "Medical University of Graz",
     "city": "Graz",
-    "country": "Austria; Auenbruggerplatz 2, 8036 Graz",
+    "country": "Austria",
+    "address": "Auenbruggerplatz 2, 8036 Graz",
     "about": "Independent since 2004; top-ranked public medical school",
     "departments": "Medicine; Dentistry; Molecular Biology; Neuroscience; Public Health; Medical Imaging; Pathology; Oncology; Pediatrics; Anesthesiology",
     "in take": "October (competitive entrance exam)",
@@ -1870,12 +1872,13 @@
     "summary": "Leading medical research hub with innovative curriculum and strong focus on molecular medicine and clinical neuroscience.",
     "discount": "69.75%",
     "id": "108",
-    "image": ""
+    "image": "https://www.medunigraz.at/typo3conf/ext/mug/Resources/Public/Images/Seo/Default.jpg"
   },
   {
     "name": "Medical University of Innsbruck",
     "city": "Innsbruck",
-    "country": "Austria; Müllerstraße 44, 6020 Innsbruck",
+    "country": "Austria",
+    "address": "Müllerstraße 44, 6020 Innsbruck",
     "about": "Public medical university established in 2004",
     "departments": "Medicine; Dentistry; Pharmacy; Clinical Science; Diagnostics; Neuroscience; Pathology; Public Health; Pediatrics; Surgery",
     "in take": "October (MEDAT entrance exam)",
@@ -1887,7 +1890,7 @@
     "summary": "Mountain medicine specialist with unique high-altitude physiology research and modern university hospitals.",
     "discount": "94.81%",
     "id": "109",
-    "image": ""
+    "image": "https://www.i-med.ac.at/notfallmedizin/bilder/MZA_3.jpg"
   },
   {
     "name": "University of Leoben (Montanuniversität)",
@@ -1904,7 +1907,7 @@
     "summary": "Europe's premier resources university with underground research labs and strong industry partnerships in extractive technologies.",
     "discount": "75.80%",
     "id": "110",
-    "image": ""
+    "image": "https://www.citizen-science.at/media/k2/items/cache/9f69834c2b52286f136e08fabd62f78b_L.jpg"
   },
   {
     "name": "Danube University Krems",
@@ -1921,7 +1924,7 @@
     "summary": "Austria's only dedicated continuing education university offering flexible programs for working professionals.",
     "discount": "30.00%",
     "id": "111",
-    "image": ""
+    "image": "https://www.donau-uni.ac.at/.imaging/mte/duk-theme/ogTwitter/dam/Donau-Uni/Homepage/Donau-Universitaet-Krems.jpg/jcr:content/Donau-Universitaet-Krems.jpg"
   },
   {
     "name": "University of Applied Arts Vienna",
@@ -1938,7 +1941,7 @@
     "summary": "Avant-garde art school fostering interdisciplinary experimentation and radical design thinking.",
     "discount": "69.75%",
     "id": "112",
-    "image": ""
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-FgnlMZbZ_-opuysz_3ho9qIW5T4mk-OoQ&s"
   },
   {
     "name": "University of Music and Performing Arts Vienna (mdw)",
@@ -1955,7 +1958,7 @@
     "summary": "World-renowned conservatory maintaining Viennese musical traditions while nurturing contemporary performance arts.",
     "discount": "75.80%",
     "id": "113",
-    "image": ""
+    "image": "https://i0.wp.com/forbiddenmusic.org/wp-content/uploads/2016/04/mdw-hauptgebc3a4ude.jpg?ssl=1"
   },
   {
     "name": "University Mozarteum Salzburg",
@@ -1972,7 +1975,7 @@
     "summary": "Prestigious institution specializing in classical music performance with unique access to Salzburg Festival.",
     "discount": "79.83%",
     "id": "114",
-    "image": ""
+    "image": "https://www.moz.ac.at/cache-buster-8/Geb%C3%A4ude/Mirabellplatz/Au%C3%9Fen/2095/image-thumb__2095__detailHeaderImage/MOZ_phelps0074.687423ec.jpg"
   },
   {
     "name": "University of Art and Industrial Design Linz",
@@ -1989,7 +1992,7 @@
     "summary": "Innovative art school closely integrated with Linz's high-tech industries and digital arts scene.",
     "discount": "75.80%",
     "id": "115",
-    "image": ""
+    "image": "https://www.kunstuni-linz.at/fileadmin/_processed_/8/d/csm_0619_BrueckenkopfWest_Ost_c5e030a990.jpg"
   },
   {
     "name": "IST Austria (Institute of Science and Technology)",
@@ -2006,7 +2009,7 @@
     "summary": "Elite basic research institution following the Max Planck model with Nobel-level faculty and cutting-edge facilities.",
     "discount": "N/A",
     "id": "116",
-    "image": ""
+    "image": "https://ist.ac.at/wp-content/uploads/2019/03/Central_Building.jpg"
   },
   {
     "name": "Ludwig Maximilian University of Munich (LMU Munich)",
@@ -2023,7 +2026,7 @@
     "summary": "Comprehensive elite university with 42 Nobel laureates and cutting-edge interdisciplinary research",
     "discount": "N/A",
     "id": "117",
-    "image": ""
+    "image": "https://www.eugloh.eu/fileadmin/_processed_/1/5/csm_Ludwig-Maximilians-Universitaet-Muenchen3_a7b78c829c.jpeg"
   },
   {
     "name": "Technical University of Munich (TUM)",
@@ -2040,7 +2043,7 @@
     "summary": "Innovation leader with strong industry ties and entrepreneurial ecosystem",
     "discount": "N/A",
     "id": "118",
-    "image": ""
+    "image": "https://www.tum.de/fileadmin/_processed_/f/7/csm_1436302_39af3c4190.jpg"
   },
   {
     "name": "Heidelberg University",
@@ -2057,7 +2060,7 @@
     "summary": "Historic research powerhouse with 56 Nobel Prize connections",
     "discount": "N/A",
     "id": "119",
-    "image": ""
+    "image": "https://d162s0cet9s8p8.cloudfront.net/college_profile_header/216_heidelberg_header.jpg"
   },
   {
     "name": "Humboldt University of Berlin",
@@ -2074,7 +2077,7 @@
     "summary": "Birthplace of modern academia with strong humanities tradition",
     "discount": "N/A",
     "id": "120",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Berlin-Mitte_Bebelplatz1_05-2014.jpg/960px-Berlin-Mitte_Bebelplatz1_05-2014.jpg"
   },
   {
     "name": "Free University of Berlin (FU Berlin)",
@@ -2091,7 +2094,7 @@
     "summary": "Politically engaged university with exceptional humanities and social sciences",
     "discount": "N/A",
     "id": "121",
-    "image": ""
+    "image": "https://image-static.collegedunia.com/public/college_data/images/studyabroad/appImage/college_631_24-15:08_f1.jpeg"
   },
   {
     "name": "RWTH Aachen University",
@@ -2108,7 +2111,7 @@
     "summary": "European engineering leader with massive industry collaborations",
     "discount": "N/A",
     "id": "122",
-    "image": ""
+    "image": "https://www.soziologie.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaaacdnp&w=1200&q=75"
   },
   {
     "name": "University of Freiburg",
@@ -2125,7 +2128,7 @@
     "summary": "Green city university excelling in sustainability research",
     "discount": "N/A",
     "id": "123",
-    "image": ""
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a8/90/6c/caption.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "University of Göttingen",
@@ -2142,7 +2145,7 @@
     "summary": "Traditional university with exceptional natural sciences",
     "discount": "N/A",
     "id": "124",
-    "image": ""
+    "image": "https://cdn.britannica.com/20/265520-050-04005B41/Old-Auditorium-University-of-Gottingen-campus-Germany.jpg"
   },
   {
     "name": "University of Tübingen",
@@ -2159,7 +2162,7 @@
     "summary": "Picturesque university town with renowned neuroscience research",
     "discount": "N/A",
     "id": "125",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Uni_T%C3%BCbingen_Neue_Aula_Sommer.jpg"
   },
   {
     "name": "University of Bonn",
@@ -2176,7 +2179,7 @@
     "summary": "Former capital university with 11 Nobel Prize winners",
     "discount": "N/A",
     "id": "126",
-    "image": ""
+    "image": "https://www.uni-bonn.de/en/news/university-of-bonn-improves-further-in-shanghai-ranking/hauptgebaude-der-universitat-bonn.jpeg/@@images/image/leadimagesize"
   },
   {
     "name": "University of Mannheim",
@@ -2194,7 +2197,7 @@
     "summary": "Elite business school housed in a historic palace, renowned for its economics research and strong corporate partnerships.",
     "discount": "88.67%",
     "id": "127",
-    "image": ""
+    "image": "https://www.meridean.org/img/university/1694676154University-of-Mannheim.png"
   },
   {
     "name": "University of Leipzig",
@@ -2212,7 +2215,7 @@
     "summary": "Comprehensive university maintaining 600+ years of academic tradition while pioneering in neuroscience and cultural studies.",
     "discount": "90.00%",
     "id": "128",
-    "image": ""
+    "image": "https://english.leipzig.de/fileadmin/_processed_/e/4/csm_Allgemein.augustusplatz___paulinum_universitaet___schmidt___10_5_2012_11487_7dea76beda.jpg"
   },
   {
     "name": "University of Stuttgart",
@@ -2230,7 +2233,7 @@
     "summary": "Automotive and aerospace engineering leader with close industry ties to Mercedes-Benz, Porsche, and Bosch.",
     "discount": "94.33%",
     "id": "129",
-    "image": ""
+    "image": "https://www.henn.com/sites/default/files/styles/xl_16_9/public/images/2024-07/henn_nwz-ii_02_view-from-west.jpg?itok=Z6TgcHlf"
   },
   {
     "name": "FAU Erlangen-Nuremberg",
@@ -2248,7 +2251,7 @@
     "summary": "Innovation hub bridging medicine and engineering, home to numerous Siemens research collaborations.",
     "discount": "94.00%",
     "id": "130",
-    "image": ""
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpPTy8RtwUyIsu27hZoJXISX4GUcsxbiM6zQ&s"
   },
   {
     "name": "Goethe University Frankfurt",
@@ -2266,7 +2269,7 @@
     "summary": "Finance and economics powerhouse located in Germany's banking capital with ECB partnerships.",
     "discount": "94.33%",
     "id": "131",
-    "image": ""
+    "image": "https://smapse.com/storage/2018/09/converted/825_585_jowogouni-7.jpg"
   },
   {
     "name": "University of Kiel (CAU)",
@@ -2284,7 +2287,7 @@
     "summary": "Leading maritime research institution with direct access to Baltic Sea study sites.",
     "discount": "92.50%",
     "id": "132",
-    "image": ""
+    "image": "https://www.uni-kiel.de/fileadmin/_processed_/2/1/csm_uni-kiel-campus-juergen-haacks_35f0c0ea68.jpg"
   },
   {
     "name": "University of Bremen",
@@ -2302,7 +2305,7 @@
     "summary": "Innovative university known for its cluster of excellence in marine and climate research.",
     "discount": "88.67%",
     "id": "133",
-    "image": ""
+    "image": "https://www.uni-bremen.de/fileadmin/_processed_/6/f/csm__DSC5974q_c7b4023f7d.jpg"
   },
   {
     "name": "University of Hamburg",
@@ -2320,7 +2323,7 @@
     "summary": "Major research university with special strengths in climate system sciences and international law.",
     "discount": "91.50%",
     "id": "134",
-    "image": ""
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DIpeGPQHWkgMixHKW4UX5qKQzDw4PuDkDQ&s"
   },
   {
     "name": "Friedrich Schiller University Jena",
@@ -2338,7 +2341,7 @@
     "summary": "Optics and photonics pioneer with close ties to Zeiss corporation and numerous spin-offs.",
     "discount": "94.00%",
     "id": "135",
-    "image": ""
+    "image": "https://www.uni-jena.de/unijenamedia/155947/flaggen.jpg?height=900&width=1600"
   },
   {
     "name": "University of Potsdam",
@@ -2356,7 +2359,7 @@
     "summary": "Rapidly growing institution bridging humanities and digital technologies near Germany's capital.",
     "discount": "91.50%",
     "id": "136",
-    "image": ""
+    "image": "https://yerun.eu/wp-content/uploads/2022/01/15-107-scaled-1.jpg"
   },
   {
     "name": "University of Amsterdam (UvA)",
@@ -2373,7 +2376,7 @@
     "summary": "Comprehensive research university ranked top 50 globally with urban campuses",
     "discount": "N/A",
     "id": "137",
-    "image": ""
+    "image": "https://campus.uva.nl/binaries/_ht_1701875218407/1200x630-jpg/content/gallery/subsites/huisvestingsontwikkeling/universiteitskwartier/2020/02/uva---communicatie---gebouwen---wouter-van-der-wolk-9.jpg"
   },
   {
     "name": "Delft University of Technology (TU Delft)",
@@ -2390,7 +2393,7 @@
     "summary": "World-leading engineering school with strong industry partnerships",
     "discount": "N/A",
     "id": "138",
-    "image": ""
+    "image": "https://beyondborders.dtu.dk/bb_library/Delft%20University%20of%20Technology%20TU%20Delft/Delft%20University%20of%20Technology%20TU%20Delft%20-%20Faculty%20of%20Technology%20Policy%20and%20Management%20TPM/Images/Campus_TUD.jpg"
   },
   {
     "name": "Eindhoven University of Technology (TU/e)",
@@ -2407,7 +2410,7 @@
     "summary": "High-tech campus university embedded in Brainport innovation region",
     "discount": "N/A",
     "id": "139",
-    "image": ""
+    "image": "https://assets.w3.tue.nl/w/fileadmin/_processed_/7/f/csm_BvOF%202018_1213_BBT%20license%20TUe%20-%20gebouw%20Atlas_f7c6f3146d.jpg"
   },
   {
     "name": "Leiden University",
@@ -2424,7 +2427,7 @@
     "summary": "Historic university with 16 Nobel laureates and strong international law program",
     "discount": "N/A",
     "id": "140",
-    "image": ""
+    "image": "https://www.universiteitleiden.nl/binaries/content/gallery/ul2/locations/gebouwen/academiegebouw-locatiepagina.jpg/academiegebouw-locatiepagina.jpg/d600x315"
   },
   {
     "name": "Utrecht University",
@@ -2441,7 +2444,7 @@
     "summary": "Leading Dutch university ranked top 50 worldwide for sustainability research",
     "discount": "N/A",
     "id": "141",
-    "image": ""
+    "image": "https://borderless.so/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fborderless-so.appspot.com%2Fposts%252Freturning-home-after-18-years-my-acceptance-to-utrecht-university-in-the-netherlands%252Fpreview.jpg&w=3840&q=75"
   },
   {
     "name": "University of Groningen (RUG)",
@@ -2458,7 +2461,7 @@
     "summary": "Historic northern university with vibrant student life and strong research",
     "discount": "N/A",
     "id": "142",
-    "image": ""
+    "image": "https://smapse.com/storage/2018/10/converted/825_585_rijksuniversiteit-groningen-vlag-broerstraat.jpg"
   },
   {
     "name": "Radboud University",
@@ -2475,7 +2478,7 @@
     "summary": "Green campus university with strong personal tutoring system",
     "discount": "N/A",
     "id": "143",
-    "image": ""
+    "image": "https://planonsoftware.com/upload_mm/9/b/2/4673_fullimage_news-radboud%20university_1203x630_673x265.jpg"
   },
   {
     "name": "Maastricht University",
@@ -2492,7 +2495,7 @@
     "summary": "Problem-Based Learning pioneer with strong European focus",
     "discount": "N/A",
     "id": "144",
-    "image": ""
+    "image": "https://www.maastrichtuniversity.nl/sites/default/files/styles/1200x600/public/2024-09/UM_MDC2_SLP_ORGAN_FEAT_IMG_TAPIJN_04122021_003.jpg?h=09d197c3&itok=89HM-SB8"
   },
   {
     "name": "Tilburg University",
@@ -2509,7 +2512,7 @@
     "summary": "Leading business and social sciences university with strong industry links",
     "discount": "N/A",
     "id": "145",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tilburg_University_Koopmans.jpg/1200px-Tilburg_University_Koopmans.jpg"
   },
   {
     "name": "University of Twente",
@@ -2526,7 +2529,7 @@
     "summary": "Innovative campus university blending technology and social sciences",
     "discount": "N/A",
     "id": "146",
-    "image": ""
+    "image": "https://149818895.v2.pressablecdn.com/wp-content/uploads/2018/09/50-Master-Scholarships-at-University-of-Twente-in-the-Netherlands-2020.jpg"
   },
   {
     "name": "Wageningen University & Research (WUR)",
@@ -2544,7 +2547,7 @@
     "summary": "World leader in 'green' education with NASA-collaborated climate research and patented food tech innovations.",
     "discount": "88.19%",
     "id": "147",
-    "image": ""
+    "image": "https://www.spotteron.net/media/k2/items/cache/43cb3b26768b82a0e3ec1fb837718565_L.jpg"
   },
   {
     "name": "Open University of the Netherlands",
@@ -2562,7 +2565,7 @@
     "summary": "Flexible competency-based education with VR classrooms and AI tutoring for working professionals.",
     "discount": "56.25%",
     "id": "148",
-    "image": ""
+    "image": "https://smapse.com/storage/2019/03/b1-4.jpg"
   },
   {
     "name": "Theological University of Kampen",
@@ -2580,7 +2583,7 @@
     "summary": "Conservative Reformed institution training pastors with mandatory ancient language proficiency.",
     "discount": "48.89%",
     "id": "149",
-    "image": ""
+    "image": "https://bavinckinstitute.org/wp-content/uploads/2019/07/TU-Kampen-Broederweg.jpg"
   },
   {
     "name": "Protestant Theological University (PThU)",
@@ -2598,7 +2601,7 @@
     "summary": "Progressive theology hub with LGBTQ+ inclusive ministry programs.",
     "discount": "52.00%",
     "id": "150",
-    "image": ""
+    "image": "https://josreimering.wordpress.com/wp-content/uploads/2017/06/theologische-universiteit-_dsc5127080617003971-bewerkt2017.jpg?w=774"
   },
   {
     "name": "Amsterdam University of the Arts (AHK)",
@@ -2616,7 +2619,7 @@
     "summary": "Rijksmuseum-affiliated institution producing internationally exhibited artists.",
     "discount": "71.76%",
     "id": "151",
-    "image": ""
+    "image": "https://beyondthestates.com/wp-content/uploads/2023/05/63526b01d2065fa7e5029736_4.jpeg"
   },
   {
     "name": "Royal Academy of Art, The Hague (KABK)",
@@ -2634,7 +2637,7 @@
     "summary": "Pioneered the Artscience program bridging art and quantum physics.",
     "discount": "73.33%",
     "id": "152",
-    "image": ""
+    "image": "https://images.e-flux-systems.com/Royal_KABK_hero.jpg,1600"
   },
   {
     "name": "Codarts University for the Arts",
@@ -2652,7 +2655,7 @@
     "summary": "Only Dutch institution offering accredited circus arts degrees.",
     "discount": "71.26%",
     "id": "153",
-    "image": ""
+    "image": "https://www.codarts.nl/fileadmin/_processed_/7/b/csm_codarts-algemeen-gebouw_88a69c5813.jpeg"
   },
   {
     "name": "ArtEZ University of the Arts",
@@ -2670,7 +2673,7 @@
     "summary": "Fashion program ranked among world's top 20 by Business of Fashion.",
     "discount": "73.91%",
     "id": "154",
-    "image": ""
+    "image": "https://www.artez.nl/media/cache/lectorate_project_page_header_image/media/lectorateprojectpage/image/rietveld-art-design--1.jpg"
   },
   {
     "name": "HKU University of the Arts Utrecht",
@@ -2688,7 +2691,7 @@
     "summary": "Developed Europe's first bachelor's in Game Design with Ubisoft partnerships.",
     "discount": "73.03%",
     "id": "155",
-    "image": ""
+    "image": "https://aec-music.eu/storage/members/192.jpg"
   },
   {
     "name": "Zuyd University of Applied Sciences",
@@ -2706,7 +2709,7 @@
     "summary": "Hotel School Maastricht consistently ranks among top 5 hospitality schools worldwide.",
     "discount": "72.94%",
     "id": "156",
-    "image": ""
+    "image": "https://www.summit.nl/wp-content/uploads/2019/08/Gebouw-Zuyd-Hogeschool-Heerlen.jpg"
   },
   {
     "name": "KU Leuven",
@@ -2723,7 +2726,7 @@
     "summary": "Comprehensive research university consistently ranked top 50 worldwide",
     "discount": "N/A",
     "id": "157",
-    "image": ""
+    "image": "https://research.unimelb.edu.au/__data/assets/image/0006/4264485/varieties/large.png"
   },
   {
     "name": "UCLouvain",
@@ -2740,7 +2743,7 @@
     "summary": "Innovative campus university with strong industry partnerships",
     "discount": "N/A",
     "id": "158",
-    "image": ""
+    "image": "https://beyondthestates.com/wp-content/uploads/2023/09/2023-07-28.jpg"
   },
   {
     "name": "Ghent University",
@@ -2757,7 +2760,7 @@
     "summary": "Research powerhouse with 11 Nobel laureates and strong international ties",
     "discount": "N/A",
     "id": "159",
-    "image": ""
+    "image": "https://smapse.com/storage/2019/06/converted/660_464_ghent-university-30.jpg"
   },
   {
     "name": "ULB",
@@ -2774,7 +2777,7 @@
     "summary": "Progressive urban university with 4 Nobel Prize winners",
     "discount": "N/A",
     "id": "160",
-    "image": ""
+    "image": "https://actus.ulb.be/fr/presse/kit-media/photo-ulb-solbosch6"
   },
   {
     "name": "VUB",
@@ -2791,7 +2794,7 @@
     "summary": "Humanist university with strong focus on research and innovation",
     "discount": "N/A",
     "id": "161",
-    "image": ""
+    "image": "https://eutopia-university.eu/medias/photo/braemgebouw-met-vub-vlaggen_1730823192585-jpg?ID_FICHE=136432"
   },
   {
     "name": "University of Antwerp",
@@ -2808,7 +2811,7 @@
     "summary": "Dynamic urban university with strong business and digital programs",
     "discount": "N/A",
     "id": "162",
-    "image": ""
+    "image": "https://beyondthestates.com/wp-content/uploads/2024/07/University-of-Antwerp-Campus.jpg"
   },
   {
     "name": "Hasselt University",
@@ -2825,7 +2828,7 @@
     "summary": "Innovative university with strong interdisciplinary approach",
     "discount": "N/A",
     "id": "163",
-    "image": ""
+    "image": "https://lh5.googleusercontent.com/proxy/a8Fe4Xhwt4J9jehx7eP0Q9-APs0WDkz8Y_H3nZHAm_98Kq4YFX4GDMNgy1GRtxljyoxX74HdaLr_lgWbdI8tF78j9rLQZf4iU9MdRi_EWLPJ2_1yJPj-EMJUSxS17d66Mhktu5j6V9Xg"
   },
   {
     "name": "University of Mons",
@@ -2842,7 +2845,7 @@
     "summary": "Technical university with strong IT and language programs",
     "discount": "N/A",
     "id": "164",
-    "image": ""
+    "image": "https://www.studyinbelgium.be/sites/default/files/styles/gallery/public/institutions/Umons%204.jpg?itok=NHrkkLzN"
   },
   {
     "name": "University of Namur",
@@ -2859,7 +2862,7 @@
     "summary": "Student-focused university with strong interdisciplinary research",
     "discount": "N/A",
     "id": "165",
-    "image": ""
+    "image": "https://image.free-apply.com/gallery/l/uni/gallery/lg/1005600028/e4d9e9d46d4a3a90737e55118df1fd5264fff1a2.jpg?s=640"
   },
   {
     "name": "ULiège",
@@ -2876,7 +2879,7 @@
     "summary": "Comprehensive university with strong engineering and life sciences",
     "discount": "N/A",
     "id": "166",
-    "image": ""
+    "image": "https://www.todayinliege.be/wp-content/uploads/2017/12/tempo-20.jpg"
   },
   {
     "name": "Université Saint-Louis – Bruxelles (USL-B)",
@@ -2894,7 +2897,7 @@
     "summary": "Intimate learning environment (12:1 student-faculty ratio) specializing in EU policy research near Brussels' political institutions.",
     "discount": "80.00%",
     "id": "167",
-    "image": ""
+    "image": "https://www.usaintlouis.be/sl/images/15702.jpg"
   },
   {
     "name": "LUCA School of Arts",
@@ -2912,7 +2915,7 @@
     "summary": "Produced Oscar-nominated animators with mandatory industry internships at Cartoon Network and Studio 100.",
     "discount": "81.80%",
     "id": "168",
-    "image": ""
+    "image": "https://ehef.id/storage/app/uploads/public/5ac/dbd/af4/5acdbdaf43e94226696541.jpeg"
   },
   {
     "name": "AP University of Applied Sciences Antwerp",
@@ -2930,10 +2933,10 @@
     "summary": "Fashion programs leverage Antwerp's status as global diamond/design capital with guaranteed internship placements.",
     "discount": "81.03%",
     "id": "169",
-    "image": ""
+    "image": "https://www.ap.be/sites/default/files/styles/extra_large/public/2024-06/crobbie_depuydt_5_blowup.jpg?itok=helWedUE"
   },
   {
-    "name": "University College Ghent (HOGENT)",
+    "name": "University College Gent (HOGENT)",
     "city": "Ghent",
     "country": "Belgium",
     "address": "Valentin Vaerwyckweg 1, 9000",
@@ -2948,7 +2951,7 @@
     "summary": "Sustainable fashion program collaborates with Ghent's biotech cluster to develop eco-textiles.",
     "discount": "80.91%",
     "id": "170",
-    "image": ""
+    "image": "https://student.oslomet.no/documents/portlet_file_entry/10195/Hogeschool+Gent.jpg/8f7da99c-5c8d-f486-0f9b-288cf2f9d7f9"
   },
   {
     "name": "Howest University",
@@ -2966,7 +2969,7 @@
     "summary": "Ranked #1 worldwide for game development education (Princeton Review) with Ubisoft partnership.",
     "discount": "80.65%",
     "id": "171",
-    "image": ""
+    "image": "https://svcs-image.dreamapply.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJkcmVhbS1hcHBseSIsImF1ZCI6ImRyZWFtLWltYWdlIiwicGxkIjp7InBhdGgiOiJkcmVhbS1hcHBseTpzaGFyZDEyNjYvaW5zdGFuY2VfcGhvdG9zLzEucWZwcmNsIiwidHJhbnNmb3JtYXRpb25zIjpbeyJuYW1lIjoibGltaXQiLCJwYXJhbXMiOnsid2lkdGgiOiIxOTIwIiwicXVhbGl0eSI6IjgwIn19XSwiY2FjaGUiOiJtYXgtYWdlPTMxNTM2MDAwLCBwdWJsaWMiLCJvdXRwdXRfZm9ybWF0Ijoic2FtZSIsImF0dGFjaCI6bnVsbCwic2RrX3ZlcnNpb24iOiIxLjAifX0.dDW2Qypxyl2MIfulAI50isW2ED_xMRIXVChcSMpwbVzRwhST8BblecwE3f3FwyodJ8fwvqykSuWxi6S6BQ6SjzJ5gPq9jAInrbfpTxVjdmnQ4iJM1WtKkGDnC4ooItT7c6qRupU29QIk1r0Ka-wKTMxI_D4TmEoulesO1wz9rvKO4ResYiWhXVHaOS-lUtUZAAuic0FYrnWwxMs1BXQSl1pASzocvN2wSNJLBcPNY7lIVWV2_bO9W43lzMG-b8rbtX75_YMJMNtxhMQD4a8TQZZdyIkYKWesIQj6juPMQ-Aez_T1FSC0K8EFeN2LLhTtcpStYNnNRUTi2OTXRuYUYg"
   },
   {
     "name": "PXL University Hasselt",
@@ -2984,7 +2987,7 @@
     "summary": "Pioneered Belgium's first 'Blockchain for Business' degree with Silicon Meets project.",
     "discount": "81.36%",
     "id": "172",
-    "image": ""
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMUI-nd0Qgtvg68-OWeaClsukRx14vG9fm8w&s"
   },
   {
     "name": "Thomas More University",
@@ -3002,7 +3005,7 @@
     "summary": "Home to Belgium's only accredited e-sports management program.",
     "discount": "81.58%",
     "id": "173",
-    "image": ""
+    "image": "https://beyondthestates.com/wp-content/uploads/2024/09/Thomas-More-University-of-Applied-Science-Campus.jpg"
   },
   {
     "name": "Karel de Grote University",
@@ -3020,7 +3023,7 @@
     "summary": "Mandatory startup incubation year for all business students.",
     "discount": "81.82%",
     "id": "174",
-    "image": ""
+    "image": "https://eugateway.in/wp-content/uploads/2022/11/IMG_4289.jpg"
   },
   {
     "name": "Artevelde University",
@@ -3038,7 +3041,7 @@
     "summary": "94% employment rate for graduates through compulsory year-long industry placements.",
     "discount": "81.54%",
     "id": "175",
-    "image": ""
+    "image": "https://cdn.prod.website-files.com/666cd904adb35494f229a60a/6692b3fb66d76f0ce119cc31_12.png"
   },
   {
     "name": "Erasmushogeschool Brussel",
@@ -3056,7 +3059,7 @@
     "summary": "Hospitality students train at actual 4-star hotel campus with Michelin-star chef instructors.",
     "discount": "81.73%",
     "id": "176",
-    "image": ""
+    "image": "https://live.staticflickr.com/65535/50039631893_446e7bec3d_b.jpg"
   },
   {
     "name": "Charles University",
@@ -3073,7 +3076,7 @@
     "summary": "Historic comprehensive university with 4 Nobel laureates and world-class research",
     "discount": "N/A",
     "id": "177",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/07/carlov.jpg"
   },
   {
     "name": "Czech Technical University in Prague (CTU)",
@@ -3090,7 +3093,7 @@
     "summary": "Premier engineering school with strong industry partnerships and research output",
     "discount": "N/A",
     "id": "178",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/07/cvut.jpg"
   },
   {
     "name": "Masaryk University",
@@ -3107,7 +3110,7 @@
     "summary": "Modern research university with excellent facilities and international outlook",
     "discount": "N/A",
     "id": "179",
-    "image": ""
+    "image": "https://future-mbbs.com/wp-content/uploads/2025/02/masaryk-universitaet-bruenn-1066x800.jpg"
   },
   {
     "name": "Brno University of Technology (BUT)",
@@ -3124,7 +3127,7 @@
     "summary": "Innovation-driven technical university with strong regional industry ties",
     "discount": "N/A",
     "id": "180",
-    "image": ""
+    "image": "https://i.ytimg.com/vi/4bqqlkmjv-M/maxresdefault.jpg"
   },
   {
     "name": "Palacký University Olomouc",
@@ -3141,7 +3144,7 @@
     "summary": "Historic university with beautiful baroque campus and strong humanities",
     "discount": "N/A",
     "id": "181",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/06/Sloj-15-5.jpg"
   },
   {
     "name": "University of Chemistry and Technology, Prague (UCT Prague)",
@@ -3158,7 +3161,7 @@
     "summary": "Leading European institution for chemical technology and engineering",
     "discount": "N/A",
     "id": "182",
-    "image": ""
+    "image": "https://cdn.vysokeskoly.cz/czech-universities/get-image/62774ed173b1cac90005ef8797002e862f29a34f-1920-624-0-0-1920-624.jpg"
   },
   {
     "name": "University of Economics, Prague (VŠE)",
@@ -3175,7 +3178,7 @@
     "summary": "Triple-accredited business school with strong corporate connections",
     "discount": "N/A",
     "id": "183",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Rajsk%C3%A1_Building_-_University_of_Economics%2C_Prague.jpg"
   },
   {
     "name": "Technical University of Liberec",
@@ -3192,7 +3195,7 @@
     "summary": "Leading university for textile and mechanical engineering in northern Czechia",
     "discount": "N/A",
     "id": "184",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/TUL_Rektorat.JPG"
   },
   {
     "name": "University of Pardubice",
@@ -3209,7 +3212,7 @@
     "summary": "Strong in chemical sciences and transportation technologies",
     "discount": "N/A",
     "id": "185",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/07/pardubice.jpg"
   },
   {
     "name": "University of Ostrava",
@@ -3226,7 +3229,7 @@
     "summary": "Young, dynamic university with strong regional engagement",
     "discount": "N/A",
     "id": "186",
-    "image": ""
+    "image": "https://images.osu.cz/slider/5148.jpg"
   },
   {
     "name": "Mendel University in Brno (MENDELU)",
@@ -3244,7 +3247,7 @@
     "summary": "Central Europe's top agriscience university with experimental vineyards and UNESCO-protected arboretum.",
     "discount": "100.00%",
     "id": "187",
-    "image": ""
+    "image": "https://cdn.vysokeskoly.cz/czech-universities/get-image/2f1d5783448ee44ded327bf5e5dd5af54db19309-1024-768-76-0-1785-1280.jpg"
   },
   {
     "name": "University of South Bohemia",
@@ -3262,7 +3265,7 @@
     "summary": "Unique freshwater biology research at Europe's largest fish farming experimental station.",
     "discount": "100.00%",
     "id": "188",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hlavn%C3%AD_vstup_do_kampusu_Jiho%C4%8Desk%C3%A9_univerzity_s_budovou_rektor%C3%A1tu_a_Filozofick%C3%A9_fakulty.jpg/960px-Hlavn%C3%AD_vstup_do_kampusu_Jiho%C4%8Desk%C3%A9_univerzity_s_budovou_rektor%C3%A1tu_a_Filozofick%C3%A9_fakulty.jpg"
   },
   {
     "name": "Silesian University in Opava",
@@ -3280,7 +3283,7 @@
     "summary": "Only Czech university offering accredited astrophotography program with NASA collaborations.",
     "discount": "100.00%",
     "id": "189",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/06/Sloj-14-3.jpg"
   },
   {
     "name": "Jan Evangelista Purkyně University",
@@ -3298,7 +3301,7 @@
     "summary": "Pioneer in brownfield revitalization studies with Volkswagen Group partnerships.",
     "discount": "100.00%",
     "id": "190",
-    "image": ""
+    "image": "https://msmstudy.eu/wp-content/uploads/2021/06/Sloj-11-2.jpg"
   },
   {
     "name": "University of Hradec Králové",
@@ -3316,7 +3319,7 @@
     "summary": "Developed Czechia's first accredited cybersecurity bachelor's with NATO certification.",
     "discount": "100.00%",
     "id": "191",
-    "image": ""
+    "image": "https://beyondthestates.com/wp-content/uploads/2024/06/University-of-Hradec-Kralove-Campus.jpg"
   },
   {
     "name": "Tomas Bata University",
@@ -3334,7 +3337,7 @@
     "summary": "World-class footwear engineering program with direct industry pipeline to global brands.",
     "discount": "100.00%",
     "id": "192",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Budova_Univerzitn%C3%ADho_centra_%28s%C3%ADdlo_rektor%C3%A1tu_a_univerzitn%C3%AD_knihovny%29.jpg"
   },
   {
     "name": "Academy of Performing Arts (AMU)",
@@ -3352,7 +3355,7 @@
     "summary": "Alma mater of Oscar winners with guaranteed Prague Spring Festival participation.",
     "discount": "95.00%",
     "id": "193",
-    "image": ""
+    "image": "https://keystoneacademic-res.cloudinary.com/image/upload/element/17/172924_172723_AMUPANORAMA96DPI1.jpg"
   },
   {
     "name": "Academy of Fine Arts (AVU)",
@@ -3370,10 +3373,10 @@
     "summary": "1:3 faculty-student ratio with mandatory Venice Biennale study trips.",
     "discount": "94.00%",
     "id": "194",
-    "image": ""
+    "image": "https://be.avu.cz/app/uploads/2022/03/snimek-obrazovky-2022-03-02-v113527-1024x662.png"
   },
   {
-    "name": "Janáček Academy (JAMU)",
+    "name": "Janáček Academy (JAMMU)",
     "city": "Brno",
     "country": "Czech Republic",
     "address": "Beethovenova 650/2, 662 15",
@@ -3388,7 +3391,7 @@
     "summary": "Hosts International Musicology Competition with Vienna Philharmonic collaborations.",
     "discount": "93.33%",
     "id": "195",
-    "image": ""
+    "image": "https://janacek-brno.cz/wp-content/uploads/2023/05/jamu.jpg"
   },
   {
     "name": "Comenius University in Bratislava",
@@ -3405,7 +3408,7 @@
     "summary": "Slovakia's flagship university with comprehensive academic offerings and strong research output",
     "discount": "N/A",
     "id": "196",
-    "image": ""
+    "image": "https://eduslovakia.sk/wp-content/uploads/2021/09/Comenius-University-in-Bratislava.jpg"
   },
   {
     "name": "Slovak University of Technology in Bratislava (STU)",
@@ -3422,7 +3425,7 @@
     "summary": "Premier technical education with strong industry connections and modern facilities",
     "discount": "N/A",
     "id": "197",
-    "image": ""
+    "image": "https://www.stuba.sk/buxus/images/cache/stu.full_banner/stu/informacie_o/stu/str_7-8_STU.jpg"
   },
   {
     "name": "Pavol Jozef Šafárik University in Košice",
@@ -3439,7 +3442,7 @@
     "summary": "Research-intensive university with excellent medical faculty",
     "discount": "N/A",
     "id": "198",
-    "image": ""
+    "image": "https://interavers.com/wp-content/uploads/2020/07/258-1.jpg"
   },
   {
     "name": "Technical University of Košice (TUKE)",
@@ -3456,7 +3459,7 @@
     "summary": "Leading technical education in eastern Slovakia with strong industry links",
     "discount": "N/A",
     "id": "199",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/TUKE_budova.JPG"
   },
   {
     "name": "University of Žilina (UNIZA)",
@@ -3473,7 +3476,7 @@
     "summary": "Center of excellence for transportation studies and logistics",
     "discount": "N/A",
     "id": "200",
-    "image": ""
+    "image": "https://fhv.uniza.sk/en/images/pozadia/uniza-1.jpg"
   },
   {
     "name": "Slovak University of Agriculture in Nitra",
@@ -3490,7 +3493,7 @@
     "summary": "Leading institution for sustainable agriculture and food sciences",
     "discount": "N/A",
     "id": "201",
-    "image": ""
+    "image": "https://www.slovakagency.com.ua/wp-content/uploads/2021/07/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%86%D0%BA%D0%B8%D0%B9-%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82.jpg"
   },
   {
     "name": "Matej Bel University in Banská Bystrica",
@@ -3507,7 +3510,7 @@
     "summary": "Strong in social sciences and teacher education",
     "discount": "N/A",
     "id": "202",
-    "image": ""
+    "image": "https://www.umb.sk/image-handler/1336/67867470ec6db/site-icon/matej-bel-university.jpg"
   },
   {
     "name": "University of Prešov",
@@ -3524,7 +3527,7 @@
     "summary": "Important educational center for eastern Slovakia",
     "discount": "N/A",
     "id": "203",
-    "image": ""
+    "image": "https://www.slovakagency.com.ua/wp-content/uploads/2018/04/%D0%91%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-1.png"
   },
   {
     "name": "Academy of Performing Arts in Bratislava (VŠMU)",
@@ -3541,7 +3544,7 @@
     "summary": "Slovakia's most prestigious performing arts conservatory",
     "discount": "N/A",
     "id": "204",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Zochova_1.jpg"
   },
   {
     "name": "Academy of Fine Arts and Design in Bratislava",
@@ -3558,7 +3561,7 @@
     "summary": "Historic institution shaping Slovakia's visual arts landscape",
     "discount": "N/A",
     "id": "205",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bratislava_Hviezdoslavovo_18_01.jpg/1200px-Bratislava_Hviezdoslavovo_18_01.jpg"
   },
   {
     "name": "Catholic University in Ružomberok",

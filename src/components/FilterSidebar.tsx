@@ -1,5 +1,6 @@
 import { Input } from "~/components/ui/input";
 import { Button } from "~/components/ui/button";
+import { Card } from "./ui/card";
 import allQualifications from "~/data/qualifications.json";
 import { SlidersHorizontal } from "lucide-react";
 import countriesData from "~/data/countries.json"; // Assuming you have a JSON file with country names
@@ -10,6 +11,7 @@ import {
   setSelectedCountry,
   setScholarshipFilter,
   setQualifications,
+  resetFilters,
 } from "../store/universities/universitiesSlice";
 import { useNavigate } from "react-router-dom";
 
@@ -51,12 +53,31 @@ const FilterSidebar: React.FC = () => {
     )?.name || "";
 
   return (
-    <aside className="w-full md:max-w-fit min-w-fit max-h-fit flex-shrink-0 text-gray-700 p-6 bg-blue-900 rounded-2xl shadow-xl border border-blue-900">
-      <div className="flex items-center gap-2 mb-6">
-        <SlidersHorizontal className="text-white" />
-        <h2 className="text-2xl font-bold text-white tracking-tight">
-          Filters
-        </h2>
+    <Card className="md:sticky md:top-0 mx-auto flex max-w-md max-h-fit md:max-h-screen sm:w-auto flex-col rounded-lg border px-5 sm:px-10 py-6">
+      <div className="flex justify-between">
+        <div className="flex items-center gap-2 mb-5">
+          <SlidersHorizontal className="text-white" />
+          <h2 className="text-2xl font-bold text-white tracking-tight">
+            Apply Filters
+          </h2>
+        </div>
+        <div>
+          <Button
+            onClick={() => {
+              dispatch(resetFilters());
+              // Remove all filter params from URL
+              const params = new URLSearchParams(window.location.search);
+              params.set(
+                "country",
+                countriesData[0].name.toLowerCase().replace(/\s+/g, "-")
+              );
+              params.delete("qualification");
+              navigate({ search: params.toString() }, { replace: true });
+            }}
+          >
+            Reset Filter
+          </Button>
+        </div>
       </div>
       {/* Search */}
       <div className="mb-6">
@@ -77,28 +98,45 @@ const FilterSidebar: React.FC = () => {
         <label className="block text-sm font-semibold text-blue-200 mb-1">
           Country
         </label>
-        <select
-          value={selectedCountryName}
-          onChange={(e) => {
-            const value = e.target.value;
-            dispatch(setSelectedCountry(value === "" ? null : value));
-            const params = new URLSearchParams(window.location.search);
-            if (value) {
-              params.set("country", value.toLowerCase().replace(/\s+/g, "-"));
-            } else {
-              params.delete("country");
-            }
-            navigate({ search: params.toString() }, { replace: true });
-          }}
-          className="w-full bg-blue-900 text-white rounded-lg px-3 py-2 mb-1 border-none focus:ring-2 focus:ring-blue-400"
-        >
-          <option value="">All</option>
-          {countriesData.map((country) => (
-            <option key={country.code} value={country.name}>
-              {country.name}
-            </option>
-          ))}
-        </select>
+        <div className="relative">
+          <select
+            value={selectedCountryName}
+            onChange={(e) => {
+              const value = e.target.value;
+              dispatch(setSelectedCountry(value === "" ? null : value));
+              const params = new URLSearchParams(window.location.search);
+              if (value) {
+                params.set("country", value.toLowerCase().replace(/\s+/g, "-"));
+              } else {
+                params.delete("country");
+              }
+              navigate({ search: params.toString() }, { replace: true });
+            }}
+            className="w-full bg-blue-900 text-white rounded-lg px-4 py-2 mb-1 border-none focus:ring-2 focus:ring-blue-400 appearance-none"
+          >
+            {countriesData.map((country) => (
+              <option key={country.code} value={country.name}>
+                {country.name}
+              </option>
+            ))}
+          </select>
+          <span className="pointer-events-none absolute top-1/2 right-4 -translate-y-1/2 text-blue-300">
+            <svg
+              width="18"
+              height="18"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </span>
+        </div>
       </div>
       {/* Scholarship */}
       <div className="mb-6">
@@ -137,24 +175,28 @@ const FilterSidebar: React.FC = () => {
         <label className="block text-sm font-semibold text-blue-200 mb-1">
           Qualification
         </label>
-        <div className="grid grid-cols-2 gap-2 max-h-48 overflow-auto">
+        <div className="grid grid-cols-2 gap-2 overflow-auto max-h-40 md:max-h-fit">
           {allQualifications.map((qual) => (
             <label
               key={qual.id}
-              className="flex items-center gap-2 bg-blue-800 rounded-lg px-2 py-1 text-blue-100 cursor-pointer hover:bg-blue-700 transition"
+              className={`flex items-center gap-2 px-3 py-1 rounded-lg cursor-pointer transition-all border border-transparent hover:border-blue-400 hover:bg-blue-800/80 shadow-sm ${
+                qualifications.includes(qual.name)
+                  ? "bg-blue-700 border-blue-400 text-white font-semibold"
+                  : "bg-transparent border-blue-400 border-opacity-20 text-blue-100"
+              }`}
             >
               <input
                 type="checkbox"
-                className="accent-blue-400"
+                className="accent-blue-400 h-4 w-4 text-blue-800"
                 checked={qualifications.includes(qual.name)}
                 onChange={() => handleQualificationChange(qual.name)}
               />
-              <span className="text-sm">{qual.name}</span>
+              <span className="text-sm break-words">{qual.name}</span>
             </label>
           ))}
         </div>
       </div>
-    </aside>
+    </Card>
   );
 };
 

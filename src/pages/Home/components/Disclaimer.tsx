@@ -1,43 +1,57 @@
-import { ShieldAlert } from "lucide-react";
-import { Link } from "react-router-dom";
-
-const DisclaimerPage = () => (
-  <div className="container mt-20 mb-20 mx-auto py-20 px-4 max-w-2xl flex flex-col items-center bg-gradient-to-br from-blue-50 via-white to-blue-100 rounded-2xl shadow-xl border border-blue-200">
-    <div className="flex items-center gap-3 mb-6">
-      <ShieldAlert className="text-blue-700 w-8 h-8" />
-      <h1 className="text-4xl font-extrabold text-blue-900 tracking-tight">
+const DisclaimerPage = () => {
+  return (
+    <section className="mx-auto pt-32 pb-24 space-y-8">
+      <h2 className="text-4xl font-bold text-foreground text-center">
         Disclaimer
-      </h1>
-    </div>
-    <div className="mb-6 text-base text-blue-900/80 bg-blue-100 rounded-lg p-4 border border-blue-200 w-full">
-      <strong>Images Notice:</strong> The images used on this website are not
-      the original property of Prime Zone Consultants. They have been gathered
-      from various online sources and are used for illustrative and
-      informational purposes only. All copyrights and trademarks belong to their
-      respective owners. If you are a copyright holder and believe your image
-      has been used inappropriately, please contact us for prompt removal or
-      credit.
-    </div>
-    <div className="mb-6 text-base text-blue-900/80 bg-blue-50 rounded-lg p-4 border border-blue-100 w-full">
-      <strong>General Disclaimer:</strong> The information provided on this
-      website is for general informational purposes only. While we strive to
-      keep the information up to date and correct, we make no representations or
-      warranties of any kind, express or implied, about the completeness,
-      accuracy, reliability, suitability, or availability with respect to the
-      website or the information, products, services, or related graphics
-      contained on the website for any purpose.
-    </div>
-    <div className="text-xs text-blue-700/70 mt-4 w-full text-center">
-      &copy; {new Date().getFullYear()} Prime Zone Consultants. All rights
-      reserved. <br />
-      <Link
-        to="/"
-        className="underline text-blue-700 hover:text-blue-900 transition"
-      >
-        Back to Home
-      </Link>
-    </div>
-  </div>
-);
+      </h2>
+      <div className="space-y-8 text-justify">
+        <div>
+          <h3 className="text-lg font-semibold text-foreground">
+            Images Notice:
+          </h3>
+          <p className="text-muted-foreground">
+            The images displayed throughout this website are not the exclusive
+            property of Prime Zone Consultants. Instead, they have been
+            carefully sourced from a variety of publicly accessible platforms
+            and online repositories. These images are intended strictly for
+            illustrative, aesthetic, and informational purposes to enhance user
+            experience and understanding. We do not claim ownership of any
+            copyrights, trademarks, or intellectual property rights associated
+            with these visuals. All rights remain with the original creators,
+            photographers, or platforms from which the materials have been
+            obtained. If you are the rightful copyright holder of any image
+            featured here and believe that its inclusion constitutes a copyright
+            infringement or was used without proper credit or authorization,
+            please notify us immediately. We are committed to acting swiftly by
+            either providing appropriate attribution or removing the content
+            altogether, in accordance with your request.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-lg font-semibold text-foreground">
+            General Disclaimer:
+          </h3>
+          <p className="text-muted-foreground">
+            While every effort has been made to ensure that the information
+            presented on this website is accurate and up-to-date, Prime Zone
+            Consultants does not assume any liability for errors, omissions, or
+            outcomes resulting from the use of this content. The visuals,
+            content, and other materials on this website are presented in good
+            faith for general guidance and illustrative reference only. They do
+            not imply endorsement, approval, or affiliation with any external
+            entities whose images or names may appear. Visitors are advised to
+            exercise discretion and perform their own verification before
+            relying on any content, especially when making decisions based on
+            visual representations. If any concerns arise regarding the
+            accuracy, appropriateness, or legality of the materials used, we
+            welcome direct communication for immediate resolution or
+            clarification.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default DisclaimerPage;

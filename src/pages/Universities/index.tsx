@@ -9,8 +9,6 @@ import FilterSidebar from "~/components/FilterSidebar";
 import UniversityCard from "~/components/Cards/UniversityCard";
 import Pagination from "~/components/pagination";
 import CountryGrid from "./CountryGrid";
-import UniversityDepartments from "./Departments";
-import { Separator } from "~/components/ui/separator";
 
 const Universities: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -47,7 +45,7 @@ const Universities: React.FC = () => {
   );
 
   return (
-    <section className="pt-32 pb-16 overflow-hidden">
+    <section className="pt-32 pb-16 ">
       {/* Header */}
       <div className="container mx-auto flex flex-col items-center text-center">
         <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
@@ -55,10 +53,12 @@ const Universities: React.FC = () => {
         </h2>
         <p className="mb-8 max-w-3xl text-muted-foreground lg:text-xl">
           Explore a curated list of top universities from around the world.
+          Discover institutions known for academic excellence, innovation, and
+          global impact. Compare programs, scholarships, and admissions to find
+          your perfect fit. Begin your journey toward world-class education and
+          endless opportunities.
         </p>
       </div>
-
-      <Separator className="my-16 w-full h-px" />
 
       {/* Landing vs Filtered views */}
       {!urlCountry ? (
@@ -68,7 +68,7 @@ const Universities: React.FC = () => {
           <UniversityDepartments /> */}
         </div>
       ) : (
-        <div className="container mx-auto flex flex-col md:flex-row gap-6">
+        <div className="container mx-auto flex flex-col relative md:flex-row gap-6">
           {/* Sidebar filters */}
           <FilterSidebar />
 

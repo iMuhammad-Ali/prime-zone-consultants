@@ -89,7 +89,7 @@ const universitiesSlice = createSlice({
       state.selectedCountry = null;
       state.scholarshipFilter = "all";
       state.qualifications = [];
-      state.filteredUniversities = applyFilters(state);
+      // state.filteredUniversities = applyFilters(state);
     },
   },
 });
