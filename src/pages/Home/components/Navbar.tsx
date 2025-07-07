@@ -88,10 +88,10 @@ const Navbar = ({
       title: "Team",
       url: "/team",
     },
-    // {
-    //   title: "Success Stories",
-    //   url: "/success-stories",
-    // },
+    {
+      title: "Success Stories",
+      url: "/success-stories",
+    },
     {
       title: "Contact Us",
       url: "/contact-us",
@@ -103,7 +103,7 @@ const Navbar = ({
   return (
     <section className="py-4 absolute top-0 left-0 right-0">
       {/* Desktop Menu */}
-      <nav className="hidden justify-between lg:flex lg:items-center">
+      <nav className="hidden justify-between custom:flex custom:items-center">
         {/* Logo */}
         <Link to={logo.url} className="flex items-center gap-2">
           <img src={logo.src} className="max-h-8" alt={logo.alt} />
@@ -126,7 +126,7 @@ const Navbar = ({
       </nav>
 
       {/* Mobile Menu */}
-      <div className="block lg:hidden">
+      <div className="block custom:hidden">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to={logo.url} className="flex items-center gap-2">
@@ -198,14 +198,8 @@ const renderMenuItem = (item: MenuItem) => {
             {item.title}
           </button>
         </PopoverTrigger>
-        <PopoverContent className="bg-popover text-popover-foreground p-0 overflow-hidden min-w-[500px]">
-          <div
-            className="grid grid-cols-2 gap-4 max-h-64 overflow-y-auto p-3
-               [&::-webkit-scrollbar]:w-1
-               [&::-webkit-scrollbar-track]:bg-transparent
-               [&::-webkit-scrollbar-thumb]:bg-white
-               [&::-webkit-scrollbar-thumb]:rounded-full"
-          >
+        <PopoverContent className="bg-popover text-popover-foreground p-3 min-w-[500px]">
+          <div className="grid grid-cols-2 gap-4 max-h-64 overflow-y-auto">
             {item.items.map((subItem) => (
               <Link
                 key={subItem.title}

@@ -1,3 +1,23 @@
+import letter1 from "../../assets/images/letter-1.jpeg";
+import letter2 from "../../assets/images/letter-2.jpeg";
+import letter3 from "../../assets/images/letter-3.jpeg";
+import letter4 from "../../assets/images/letter-4.jpeg";
+import letter5 from "../../assets/images/letter-5.jpeg";
+import letter6 from "../../assets/images/letter-6.jpeg";
+import letter7 from "../../assets/images/letter-7.jpeg";
+import letter8 from "../../assets/images/letter-8.jpeg";
+import letter9 from "../../assets/images/letter-9.jpeg";
+import letter10 from "../../assets/images/letter-10.jpeg";
+import letter11 from "../../assets/images/letter-11.jpeg";
+import letter12 from "../../assets/images/letter-12.jpeg";
+import letter13 from "../../assets/images/letter-13.jpeg";
+import letter14 from "../../assets/images/letter-14.jpeg";
+import letter15 from "../../assets/images/letter-15.jpeg";
+import letter16 from "../../assets/images/letter-16.jpeg";
+import letter17 from "../../assets/images/letter-17.jpeg";
+import letter18 from "../../assets/images/letter-18.jpeg";
+import { useState } from "react";
+
 interface Feature {
   title: string;
   description: string;
@@ -14,33 +34,53 @@ interface SuccessStoriesProps {
 }
 
 const SuccessStories = ({
-  heading = "Blocks built with Shadcn & Tailwind",
-  description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
-  feature1 = {
-    title: "UI/UX Design",
-    description:
-      "Creating intuitive user experiences with modern interface design principles and user-centered methodologies.",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  feature2 = {
-    title: "Responsive Development",
-    description:
-      "Building websites that look and function perfectly across all devices and screen sizes.",
-    image: "https://shadcnblocks.com/images/block/placeholder-2.svg",
-  },
-  feature3 = {
-    title: "Brand Integration",
-    description:
-      "Seamlessly incorporating your brand identity into every aspect of your website's design.",
-    image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
-  },
-  feature4 = {
-    title: "Performance Optimization",
-    description:
-      "Ensuring fast loading times and smooth performance through optimized code and assets.",
-    image: "https://shadcnblocks.com/images/block/placeholder-2.svg",
-  },
-}: SuccessStoriesProps) => {
+  heading = "Success Stories",
+  description = "Real results. Real impact. Explore the success stories that define our consultancy’s commitment to excellence.",
+}: // feature1 = {
+//   title: "Letter 1",
+//   description: "Success Story 1",
+//   image: letter1,
+// },
+// feature2 = {
+//   title: "Letter 2",
+//   description: "Success Story 2",
+//   image: letter2,
+// },
+// feature3 = {
+//   title: "Letter 3",
+//   description: "Success Story 3",
+//   image: letter3,
+// },
+// feature4 = {
+//   title: "Letter 4",
+//   description: "Success Story 4",
+//   image: letter4,
+// },
+// ...
+
+SuccessStoriesProps) => {
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const letters = [
+    letter1,
+    letter2,
+    letter3,
+    letter4,
+    letter5,
+    letter6,
+    letter7,
+    letter8,
+    letter9,
+    letter10,
+    letter11,
+    letter12,
+    letter13,
+    letter14,
+    letter15,
+    letter16,
+    letter17,
+    letter18,
+  ];
+
   return (
     <section className="py-32">
       <div className="mb-24 flex flex-col items-center gap-6">
@@ -51,48 +91,50 @@ const SuccessStories = ({
           {description}
         </p>
       </div>
-      <div className="relative flex justify-center">
-        <div className="border-muted2 relative flex w-full flex-col border md:w-1/2 lg:w-full">
-          <div className="relative flex flex-col lg:flex-row">
-            <div className="border-muted2 flex flex-col justify-between border-b border-solid p-10 lg:w-3/5 lg:border-r lg:border-b-0">
-              <h2 className="text-xl font-semibold">{feature1.title}</h2>
-              <p className="text-muted-foreground">{feature1.description}</p>
-              <img
-                src={feature1.image}
-                alt={feature1.title}
-                className="mt-8 aspect-[1.5] h-full w-full object-cover lg:aspect-[2.4]"
-              />
+      <div className="relative flex justify-center ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-7xl">
+          {letters.map((img, idx) => (
+            <div
+              key={idx}
+              className="flex flex-col items-center bg-transparent rounded-lg shadow p-6 border"
+            >
+              <div className="w-full aspect-[4/5] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
+                {!isFullscreen ? (
+                  <img
+                    src={img}
+                    alt={`Success Letter ${idx + 1}`}
+                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
+                    onClick={() => setIsFullscreen(true)}
+                  />
+                ) : (
+                  <div
+                    className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-10 flex items-center justify-center"
+                    onClick={() => setIsFullscreen(false)}
+                  >
+                    <button
+                      className="absolute top-5 right-6 text-white text-4xl font-bold hover:text-red-400 transition"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setIsFullscreen(false);
+                      }}
+                    >
+                      &times;
+                    </button>
+                    <img
+                      src={img}
+                      alt="Full View"
+                      className="max-w-[90%] max-h-[100%] rounded-xl shadow-xl object-contain"
+                    />
+                  </div>
+                )}
+              </div>
+              <div className="mt-4 text-center">
+                <h3 className="text-lg font-semibold">
+                  Success Letter {idx + 1}
+                </h3>
+              </div>
             </div>
-            <div className="flex flex-col justify-between p-10 lg:w-2/5">
-              <h2 className="text-xl font-semibold">{feature2.title}</h2>
-              <p className="text-muted-foreground">{feature2.description}</p>
-              <img
-                src={feature2.image}
-                alt={feature2.title}
-                className="mt-8 aspect-[1.45] h-full w-full object-cover"
-              />
-            </div>
-          </div>
-          <div className="border-muted2 relative flex flex-col border-t border-solid lg:flex-row">
-            <div className="border-muted2 flex flex-col justify-between border-b border-solid p-10 lg:w-2/5 lg:border-r lg:border-b-0">
-              <h2 className="text-xl font-semibold">{feature3.title}</h2>
-              <p className="text-muted-foreground">{feature3.description}</p>
-              <img
-                src={feature3.image}
-                alt={feature3.title}
-                className="mt-8 aspect-[1.45] h-full w-full object-cover"
-              />
-            </div>
-            <div className="flex flex-col justify-between p-10 lg:w-3/5">
-              <h2 className="text-xl font-semibold">{feature4.title}</h2>
-              <p className="text-muted-foreground">{feature4.description}</p>
-              <img
-                src={feature4.image}
-                alt={feature4.title}
-                className="mt-8 aspect-[1.5] h-full w-full object-cover lg:aspect-[2.4]"
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

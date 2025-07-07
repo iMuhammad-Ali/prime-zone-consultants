@@ -11,6 +11,7 @@ interface UniversityState {
   filteredUniversities: any[];
   searchTerm: string;
   selectedCountry: string | null;
+  selectedDep: string | null;
   scholarshipFilter: ScholarshipFilter;
   qualifications: any[];
 }
@@ -21,14 +22,14 @@ const initialState: UniversityState = {
   filteredUniversities: universitiesData,
   searchTerm: "",
   selectedCountry: null,
+  selectedDep: null,
   scholarshipFilter: "all",
   qualifications: [], // Start with no qualification filter
 };
-
 // Helper: apply all filters to full list
 const applyFilters = (state: UniversityState): any[] => {
   return state.universities.filter((u) => {
-    // 1. text search
+    //  text search
     if (
       state.searchTerm &&
       !u.name.toLowerCase().includes(state.searchTerm.toLowerCase())
@@ -36,14 +37,19 @@ const applyFilters = (state: UniversityState): any[] => {
       return false;
     }
 
-    // 2. country filter (normalize slug)
+    //  country filter (normalize slug)
     if (state.selectedCountry) {
       const uniSlug = u.country?.toLowerCase().replace(/\s+/g, "-");
       const selSlug = state.selectedCountry.toLowerCase().replace(/\s+/g, "-");
       if (uniSlug !== selSlug) return false;
     }
 
-    // 3. scholarship filter
+    //Department Filter
+    if (state.selectedDep && !u.departments?.includes(state.selectedDep)) {
+      return false;
+    }
+
+    //  scholarship filter
     if (state.scholarshipFilter === "with" && !u.scholarship) {
       return false;
     }
@@ -51,7 +57,7 @@ const applyFilters = (state: UniversityState): any[] => {
       return false;
     }
 
-    // 4. qualifications (any match)
+    //  qualifications (any match)
     if (
       state.qualifications.length > 0 &&
       !state.qualifications.some((q) => u.qualification?.includes(q.name))
@@ -75,6 +81,10 @@ const universitiesSlice = createSlice({
       state.selectedCountry = action.payload;
       state.filteredUniversities = applyFilters(state);
     },
+    setSelectedDep(state, action: PayloadAction<string | null>) {
+      state.selectedDep = action.payload;
+      state.filteredUniversities = applyFilters(state);
+    },
     setScholarshipFilter(state, action: PayloadAction<ScholarshipFilter>) {
       state.scholarshipFilter = action.payload;
       state.filteredUniversities = applyFilters(state);
@@ -87,6 +97,7 @@ const universitiesSlice = createSlice({
     resetFilters(state) {
       state.searchTerm = "";
       state.selectedCountry = null;
+      state.selectedDep = null;
       state.scholarshipFilter = "all";
       state.qualifications = [];
       // state.filteredUniversities = applyFilters(state);
@@ -97,6 +108,7 @@ const universitiesSlice = createSlice({
 export const {
   setSearchTerm,
   setSelectedCountry,
+  setSelectedDep,
   setScholarshipFilter,
   setQualifications,
   resetFilters,

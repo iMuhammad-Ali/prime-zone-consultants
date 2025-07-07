@@ -1,10 +1,15 @@
 import { useLocation, useNavigate } from "react-router";
 import { Card, CardTitle } from "~/components/ui/card";
 import countries from "~/data/countries.json";
+import uniData from "~/data/universities.json";
 
 export default function CountryGrid() {
   const location = useLocation();
   const navigate = useNavigate();
+
+  const totalUni = (country: string) => {
+    return uniData.filter((uni) => uni.country === country).length;
+  };
 
   const handleCardClick = (country: string) => {
     const searchParams = new URLSearchParams(location.search);
@@ -56,6 +61,7 @@ export default function CountryGrid() {
                 Actual Fee: {country.actualFee}
               </p>
             </div>
+            <p className="text-left">Universities: {totalUni(country.name)}</p>
           </Card>
         ))}
       </div>

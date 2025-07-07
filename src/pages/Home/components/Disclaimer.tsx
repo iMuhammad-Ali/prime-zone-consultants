@@ -1,6 +1,6 @@
 const DisclaimerPage = () => {
   return (
-    <section className="mx-auto pt-32 pb-24 space-y-8">
+    <section className="mx-auto pt-32 pb-24 space-y-8 max-w-4xl">
       <h2 className="text-4xl font-bold text-foreground text-center">
         Disclaimer
       </h2>

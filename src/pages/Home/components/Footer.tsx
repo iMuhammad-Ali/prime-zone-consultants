@@ -33,8 +33,8 @@ const defaultSections = [
     links: [
       { name: "Study Destinations", href: "/study-destinations" },
       { name: "Universities", href: "/universities" },
-      { name: "Courses", href: "/courses" },
-      { name: "Features", href: "#" },
+      // { name: "Courses", href: "/courses" },
+      // { name: "Features", href: "#" },
     ],
   },
   {
@@ -46,15 +46,15 @@ const defaultSections = [
       { name: "Contact", href: "/contact-us" },
     ],
   },
-  {
-    title: "Resources",
-    links: [
-      { name: "Help", href: "#" },
-      { name: "Sales", href: "#" },
-      { name: "Advertise", href: "#" },
-      { name: "Privacy", href: "#" },
-    ],
-  },
+  // {
+  //   title: "Resources",
+  //   links: [
+  //     { name: "Help", href: "#" },
+  //     { name: "Sales", href: "#" },
+  //     { name: "Advertise", href: "#" },
+  //     { name: "Privacy", href: "#" },
+  //   ],
+  // },
 ];
 
 const defaultSocialLinks = [
@@ -121,7 +121,7 @@ const Footer = ({
             ))}
           </ul>
         </div>
-        <div className="grid w-full gap-6 md:grid-cols-3 lg:gap-20">
+        <div className="grid w-full gap-6 md:grid-cols-2 lg:gap-20">
           {sections.map((section, sectionIdx) => (
             <div key={sectionIdx}>
               <h3 className="mb-4 font-bold">{section.title}</h3>
@@ -139,7 +139,10 @@ const Footer = ({
           ))}
         </div>
       </div>
-      <div className="px-4 sm:px-8 pt-8 mt-8 flex flex-col justify-between gap-4 border-t py-8 text-sm font-medium text-foreground md:flex-row md:items-center md:text-left">
+      <div
+        id="privacy-policy"
+        className="px-4 sm:px-8 pt-8 mt-8 flex flex-col justify-between gap-4 border-t py-8 text-sm font-medium text-foreground md:flex-row md:items-center md:text-left"
+      >
         <p className="order-2 lg:order-1">{copyright}</p>
         <ul className="order-1 flex flex-col gap-4 md:order-2 md:flex-row">
           {legalLinks.map((link, idx) => (
