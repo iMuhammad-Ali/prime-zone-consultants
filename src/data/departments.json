@@ -1,49 +1,2582 @@
 [
-  { "id": "1", "name": "Computer Science" },
-  { "id": "2", "name": "Medicine" },
-  { "id": "3", "name": "Law" },
-  { "id": "4", "name": "Economics" },
-  { "id": "5", "name": "Physics" },
-  { "id": "6", "name": "Engineering and Architecture" },
-  { "id": "7", "name": "Political Science" },
-  { "id": "8", "name": "Pharmacy and Biotechnology" },
-  { "id": "9", "name": "Arts and Humanities" },
-  { "id": "10", "name": "Agricultural and Food Sciences" },
-  { "id": "11", "name": "Medical" },
-  { "id": "13", "name": "Engineering and IT" },
-  { "id": "14", "name": "Business and Economics" },
-  { "id": "15", "name": "Arts" },
-  { "id": "16", "name": "Engineering" },
-  { "id": "19", "name": "Science" },
-  { "id": "20", "name": "Mathematics" },
-  { "id": "21", "name": "Chemistry" },
-  { "id": "22", "name": "Biology" },
-  { "id": "23", "name": "Earth Sciences" },
-  { "id": "24", "name": "Information Engineering" },
-  { "id": "25", "name": "Energy and Systems Engineering" },
-  { "id": "26", "name": "Construction Engineering" },
-  { "id": "27", "name": "Literature and Linguistics" },
-  { "id": "28", "name": "Veterinary Sciences" },
-  { "id": "29", "name": "Clinical and Experimental Medicine" },
-  { "id": "30", "name": "Pathology" },
-  { "id": "31", "name": "Cognitive Sciences" },
-  { "id": "32", "name": "Education" },
-  { "id": "33", "name": "Ancient and Modern Civilizations" },
-  { "id": "34", "name": "Environmental Sciences" },
-  { "id": "35", "name": "Marine Sciences" },
-  { "id": "36", "name": "Neuroscience" },
-  { "id": "37", "name": "Materials Science" },
-  { "id": "38", "name": "Astrophysics" },
-  { "id": "39", "name": "Data Science" },
-  { "id": "40", "name": "Artificial Intelligence" },
-  { "id": "41", "name": "Public Health" },
-  { "id": "42", "name": "International Relations" },
-  { "id": "43", "name": "Digital Humanities" },
-  { "id": "44", "name": "Sports Science" },
-  { "id": "45", "name": "Viticulture and Wine Science" },
-  { "id": "46", "name": "Architecture and Design" },
-  { "id": "47", "name": "Social Sciences" },
-  { "id": "48", "name": "Molecular Biotechnology" },
-  { "id": "49", "name": "Dentistry" },
-  { "id": "50", "name": "Theology and Philosophy" }
+  {
+    "id": "1",
+    "name": "Computer Science"
+  },
+  {
+    "id": "2",
+    "name": "Medicine"
+  },
+  {
+    "id": "3",
+    "name": "Law"
+  },
+  {
+    "id": "4",
+    "name": "Economics"
+  },
+  {
+    "id": "5",
+    "name": "Physics"
+  },
+  {
+    "id": "6",
+    "name": "Engineering and Architecture"
+  },
+  {
+    "id": "7",
+    "name": "Political Science"
+  },
+  {
+    "id": "8",
+    "name": "Pharmacy and Biotechnology"
+  },
+  {
+    "id": "9",
+    "name": "Arts and Humanities"
+  },
+  {
+    "id": "10",
+    "name": "Agricultural and Food Sciences"
+  },
+  {
+    "id": "11",
+    "name": "Medical"
+  },
+  {
+    "id": "13",
+    "name": "Engineering and IT"
+  },
+  {
+    "id": "14",
+    "name": "Business and Economics"
+  },
+  {
+    "id": "15",
+    "name": "Arts"
+  },
+  {
+    "id": "16",
+    "name": "Engineering"
+  },
+  {
+    "id": "19",
+    "name": "Science"
+  },
+  {
+    "id": "20",
+    "name": "Mathematics"
+  },
+  {
+    "id": "21",
+    "name": "Chemistry"
+  },
+  {
+    "id": "22",
+    "name": "Biology"
+  },
+  {
+    "id": "23",
+    "name": "Earth Sciences"
+  },
+  {
+    "id": "24",
+    "name": "Information Engineering"
+  },
+  {
+    "id": "25",
+    "name": "Energy and Systems Engineering"
+  },
+  {
+    "id": "26",
+    "name": "Construction Engineering"
+  },
+  {
+    "id": "27",
+    "name": "Literature and Linguistics"
+  },
+  {
+    "id": "28",
+    "name": "Veterinary Sciences"
+  },
+  {
+    "id": "29",
+    "name": "Clinical and Experimental Medicine"
+  },
+  {
+    "id": "30",
+    "name": "Pathology"
+  },
+  {
+    "id": "31",
+    "name": "Cognitive Sciences"
+  },
+  {
+    "id": "32",
+    "name": "Education"
+  },
+  {
+    "id": "33",
+    "name": "Ancient and Modern Civilizations"
+  },
+  {
+    "id": "34",
+    "name": "Environmental Sciences"
+  },
+  {
+    "id": "35",
+    "name": "Marine Sciences"
+  },
+  {
+    "id": "36",
+    "name": "Neuroscience"
+  },
+  {
+    "id": "37",
+    "name": "Materials Science"
+  },
+  {
+    "id": "38",
+    "name": "Astrophysics"
+  },
+  {
+    "id": "39",
+    "name": "Data Science"
+  },
+  {
+    "id": "40",
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": "41",
+    "name": "Public Health"
+  },
+  {
+    "id": "42",
+    "name": "International Relations"
+  },
+  {
+    "id": "43",
+    "name": "Digital Humanities"
+  },
+  {
+    "id": "44",
+    "name": "Sports Science"
+  },
+  {
+    "id": "45",
+    "name": "Viticulture and Wine Science"
+  },
+  {
+    "id": "46",
+    "name": "Architecture and Design"
+  },
+  {
+    "id": "47",
+    "name": "Social Sciences"
+  },
+  {
+    "id": "48",
+    "name": "Molecular Biotechnology"
+  },
+  {
+    "id": "49",
+    "name": "Dentistry"
+  },
+  {
+    "id": "50",
+    "name": "Theology and Philosophy"
+  },
+  {
+    "id": "51",
+    "name": " Law"
+  },
+  {
+    "id": "52",
+    "name": " Medicine"
+  },
+  {
+    "id": "53",
+    "name": " Applied Sciences"
+  },
+  {
+    "id": "54",
+    "name": " Bioscience Engineering"
+  },
+  {
+    "id": "55",
+    "name": " Environmental Sciences"
+  },
+  {
+    "id": "56",
+    "name": " Life Sciences"
+  },
+  {
+    "id": "57",
+    "name": " Medicine"
+  },
+  {
+    "id": "58",
+    "name": "departments including Veterinary Medicine"
+  },
+  {
+    "id": "59",
+    "name": " Medicine"
+  },
+  {
+    "id": "60",
+    "name": " Political Science"
+  },
+  {
+    "id": "61",
+    "name": " Forest Sciences"
+  },
+  {
+    "id": "62",
+    "name": " Medicine"
+  },
+  {
+    "id": "63",
+    "name": " Medicine"
+  },
+  {
+    "id": "64",
+    "name": " Informatics"
+  },
+  {
+    "id": "65",
+    "name": " Medicine"
+  },
+  {
+    "id": "66",
+    "name": " Medicine"
+  },
+  {
+    "id": "67",
+    "name": " Medicine"
+  },
+  {
+    "id": "68",
+    "name": "faculties covering Music"
+  },
+  {
+    "id": "69",
+    "name": " Music"
+  },
+  {
+    "id": "70",
+    "name": "Modeling"
+  },
+  {
+    "id": "71",
+    "name": "faculties covering all chemical disciplines"
+  },
+  {
+    "id": "72",
+    "name": " Business"
+  },
+  {
+    "id": "73",
+    "name": " Medicine"
+  },
+  {
+    "id": "74",
+    "name": "institutes including Agriculture"
+  },
+  {
+    "id": "75",
+    "name": "schools including IT"
+  },
+  {
+    "id": "76",
+    "name": "departments covering Fine Arts"
+  },
+  {
+    "id": "77",
+    "name": " Architecture"
+  },
+  {
+    "id": "78",
+    "name": " Engineering"
+  },
+  {
+    "id": "79",
+    "name": " Health Care"
+  },
+  {
+    "id": "80",
+    "name": " Medicine"
+  },
+  {
+    "id": "81",
+    "name": "schools including Economics"
+  },
+  {
+    "id": "82",
+    "name": " Agrobiology"
+  },
+  {
+    "id": "83",
+    "name": " Arts"
+  },
+  {
+    "id": "84",
+    "name": " Business"
+  },
+  {
+    "id": "85",
+    "name": " Economics"
+  },
+  {
+    "id": "86",
+    "name": " Health"
+  },
+  {
+    "id": "87",
+    "name": " Medicine"
+  },
+  {
+    "id": "88",
+    "name": " Transportation Sciences"
+  },
+  {
+    "id": "89",
+    "name": "schools including Digital Technologies"
+  },
+  {
+    "id": "90",
+    "name": " Catholic Theology"
+  },
+  {
+    "id": "91",
+    "name": " Chemical Technology"
+  },
+  {
+    "id": "92",
+    "name": " Civil Engineering"
+  },
+  {
+    "id": "93",
+    "name": " Economics"
+  },
+  {
+    "id": "94",
+    "name": " Engineering"
+  },
+  {
+    "id": "95",
+    "name": " Law"
+  },
+  {
+    "id": "96",
+    "name": " Mechanical"
+  },
+  {
+    "id": "97",
+    "name": " Medical Sciences"
+  },
+  {
+    "id": "98",
+    "name": " Theology"
+  },
+  {
+    "id": "99",
+    "name": " Veterinary Medicine"
+  },
+  {
+    "id": "100",
+    "name": " Aerospace"
+  },
+  {
+    "id": "101",
+    "name": " Agriculture"
+  },
+  {
+    "id": "102",
+    "name": " Civil"
+  },
+  {
+    "id": "103",
+    "name": " Civil Engineering"
+  },
+  {
+    "id": "104",
+    "name": " Engineering"
+  },
+  {
+    "id": "105",
+    "name": " Mechanical Engineering"
+  },
+  {
+    "id": "106",
+    "name": " Theology"
+  },
+  {
+    "id": "107",
+    "name": "departments including AI"
+  },
+  {
+    "id": "108",
+    "name": "faculties including Applied Economics"
+  },
+  {
+    "id": "109",
+    "name": "  Electrical Engineering"
+  },
+  {
+    "id": "110",
+    "name": "  Humanities"
+  },
+  {
+    "id": "111",
+    "name": "  Mechanical Engineering"
+  },
+  {
+    "id": "112",
+    "name": "AI"
+  },
+  {
+    "id": "113",
+    "name": "AI and Machine Learning"
+  },
+  {
+    "id": "114",
+    "name": "Accounting"
+  },
+  {
+    "id": "115",
+    "name": "Accounting & Finance"
+  },
+  {
+    "id": "116",
+    "name": "Acting"
+  },
+  {
+    "id": "117",
+    "name": "Administrative Law"
+  },
+  {
+    "id": "118",
+    "name": "Administrative Sciences"
+  },
+  {
+    "id": "119",
+    "name": "Aerospace"
+  },
+  {
+    "id": "120",
+    "name": "Aerospace Engineering"
+  },
+  {
+    "id": "121",
+    "name": "Aerospace Safety"
+  },
+  {
+    "id": "122",
+    "name": "Aesthetics"
+  },
+  {
+    "id": "123",
+    "name": "African Studies"
+  },
+  {
+    "id": "124",
+    "name": "AgriTech"
+  },
+  {
+    "id": "125",
+    "name": "Agribusiness"
+  },
+  {
+    "id": "126",
+    "name": "Agricultural Development"
+  },
+  {
+    "id": "127",
+    "name": "Agricultural Science"
+  },
+  {
+    "id": "128",
+    "name": "Agricultural Sciences"
+  },
+  {
+    "id": "129",
+    "name": "Agriculture"
+  },
+  {
+    "id": "130",
+    "name": "Agriculture and Forestry"
+  },
+  {
+    "id": "131",
+    "name": "Agriculture; Forestry; Food Science; Animal Science; Rural Development"
+  },
+  {
+    "id": "132",
+    "name": "Agronomy"
+  },
+  {
+    "id": "133",
+    "name": "Alpine Research (10 total)"
+  },
+  {
+    "id": "134",
+    "name": "Animal Husbandry"
+  },
+  {
+    "id": "135",
+    "name": "Animal Science"
+  },
+  {
+    "id": "136",
+    "name": "Animal Welfare"
+  },
+  {
+    "id": "137",
+    "name": "Animation"
+  },
+  {
+    "id": "138",
+    "name": "Anthropology"
+  },
+  {
+    "id": "139",
+    "name": "Applied AI"
+  },
+  {
+    "id": "140",
+    "name": "Applied Informatics"
+  },
+  {
+    "id": "141",
+    "name": "Applied Linguistics"
+  },
+  {
+    "id": "142",
+    "name": "Applied Physics"
+  },
+  {
+    "id": "143",
+    "name": "Applied Sciences"
+  },
+  {
+    "id": "144",
+    "name": "Aquaculture"
+  },
+  {
+    "id": "145",
+    "name": "Aquaculture and Fish Biology"
+  },
+  {
+    "id": "146",
+    "name": "Archaeology"
+  },
+  {
+    "id": "147",
+    "name": "Architecture"
+  },
+  {
+    "id": "148",
+    "name": "Architecture (9 total)"
+  },
+  {
+    "id": "149",
+    "name": "Arctic Biology"
+  },
+  {
+    "id": "150",
+    "name": "Arctic Studies"
+  },
+  {
+    "id": "151",
+    "name": "Art"
+  },
+  {
+    "id": "152",
+    "name": "Art Education"
+  },
+  {
+    "id": "153",
+    "name": "Art History"
+  },
+  {
+    "id": "154",
+    "name": "Art and Design"
+  },
+  {
+    "id": "155",
+    "name": "Arts Conservation"
+  },
+  {
+    "id": "156",
+    "name": "Artscience"
+  },
+  {
+    "id": "157",
+    "name": "Asian Studies"
+  },
+  {
+    "id": "158",
+    "name": "Athletic Training"
+  },
+  {
+    "id": "159",
+    "name": "Automation"
+  },
+  {
+    "id": "160",
+    "name": "Automotive"
+  },
+  {
+    "id": "161",
+    "name": "Aviation"
+  },
+  {
+    "id": "162",
+    "name": "Balkan Studies"
+  },
+  {
+    "id": "163",
+    "name": "Banking"
+  },
+  {
+    "id": "164",
+    "name": "Basic Sciences"
+  },
+  {
+    "id": "165",
+    "name": "Behavioral Sciences"
+  },
+  {
+    "id": "166",
+    "name": "Biblical Studies"
+  },
+  {
+    "id": "167",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "168",
+    "name": "Biodiversity"
+  },
+  {
+    "id": "169",
+    "name": "Bioengineering"
+  },
+  {
+    "id": "170",
+    "name": "Bioinformatics"
+  },
+  {
+    "id": "171",
+    "name": "Biology & Medicine"
+  },
+  {
+    "id": "172",
+    "name": "Biology; Neuroscience; Computer Science; Mathematics; Physics; Chemistry; Data Science"
+  },
+  {
+    "id": "173",
+    "name": "Biomechanics"
+  },
+  {
+    "id": "174",
+    "name": "Biomedical Eng"
+  },
+  {
+    "id": "175",
+    "name": "Biomedical Engineering"
+  },
+  {
+    "id": "176",
+    "name": "Biomedical Engineering (10 total)"
+  },
+  {
+    "id": "177",
+    "name": "Biomedical Laboratory Sciences"
+  },
+  {
+    "id": "178",
+    "name": "Biomedical Sciences"
+  },
+  {
+    "id": "179",
+    "name": "Biomedicine"
+  },
+  {
+    "id": "180",
+    "name": "Biosciences"
+  },
+  {
+    "id": "181",
+    "name": "Biotech"
+  },
+  {
+    "id": "182",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "183",
+    "name": "Blockchain"
+  },
+  {
+    "id": "184",
+    "name": "Boat Building"
+  },
+  {
+    "id": "185",
+    "name": "Business"
+  },
+  {
+    "id": "186",
+    "name": "Business (10 total)"
+  },
+  {
+    "id": "187",
+    "name": "Business (3 main)"
+  },
+  {
+    "id": "188",
+    "name": "Business Admin"
+  },
+  {
+    "id": "189",
+    "name": "Business Administration"
+  },
+  {
+    "id": "190",
+    "name": "Business Administration; Finance; Economics; Law; Marketing; Management; Accounting; International Business; Business Analytics; Entrepreneurship"
+  },
+  {
+    "id": "191",
+    "name": "Business Analytics"
+  },
+  {
+    "id": "192",
+    "name": "Business English"
+  },
+  {
+    "id": "193",
+    "name": "Business Law"
+  },
+  {
+    "id": "194",
+    "name": "Business Studies"
+  },
+  {
+    "id": "195",
+    "name": "Business and Rural Innovation"
+  },
+  {
+    "id": "196",
+    "name": "Business; Social Sciences; Education; Technologies; Health; Law; Arts; Tourism & Hospitality; Management; Computer Science"
+  },
+  {
+    "id": "197",
+    "name": "Catholic Theology"
+  },
+  {
+    "id": "198",
+    "name": "Ceramics Eng"
+  },
+  {
+    "id": "199",
+    "name": "Chemical"
+  },
+  {
+    "id": "200",
+    "name": "Chemical Engineering"
+  },
+  {
+    "id": "201",
+    "name": "Chemistry/Biology"
+  },
+  {
+    "id": "202",
+    "name": "Childhood Studies"
+  },
+  {
+    "id": "203",
+    "name": "Choreography"
+  },
+  {
+    "id": "204",
+    "name": "Church Music"
+  },
+  {
+    "id": "205",
+    "name": "Cinema"
+  },
+  {
+    "id": "206",
+    "name": "Cinematography"
+  },
+  {
+    "id": "207",
+    "name": "Circular Economy"
+  },
+  {
+    "id": "208",
+    "name": "Circus Arts"
+  },
+  {
+    "id": "209",
+    "name": "Civic Education"
+  },
+  {
+    "id": "210",
+    "name": "Civil"
+  },
+  {
+    "id": "211",
+    "name": "Civil Engineering"
+  },
+  {
+    "id": "212",
+    "name": "Classical Ballet"
+  },
+  {
+    "id": "213",
+    "name": "Classical Philology"
+  },
+  {
+    "id": "214",
+    "name": "Climate Policy"
+  },
+  {
+    "id": "215",
+    "name": "Climate Research"
+  },
+  {
+    "id": "216",
+    "name": "Climate Science"
+  },
+  {
+    "id": "217",
+    "name": "Clinical Psychology"
+  },
+  {
+    "id": "218",
+    "name": "Clinical Psychology; Educational Psychology; Organizational Psychology; Counseling; Psychotherapy; Social Psychology; Forensic Psychology; Health Psychology; Sports Psychology; Research Methods"
+  },
+  {
+    "id": "219",
+    "name": "Clinical Sciences"
+  },
+  {
+    "id": "220",
+    "name": "Coaching"
+  },
+  {
+    "id": "221",
+    "name": "Cognitive Science"
+  },
+  {
+    "id": "222",
+    "name": "Comic Art"
+  },
+  {
+    "id": "223",
+    "name": "Communication"
+  },
+  {
+    "id": "224",
+    "name": "Communication & Media Studies"
+  },
+  {
+    "id": "225",
+    "name": "Communication Sciences"
+  },
+  {
+    "id": "226",
+    "name": "Communication Studies"
+  },
+  {
+    "id": "227",
+    "name": "CompSci"
+  },
+  {
+    "id": "228",
+    "name": "Composition"
+  },
+  {
+    "id": "229",
+    "name": "Composition; Orchestra; Vocal & Choral Studies; Music Education; Piano"
+  },
+  {
+    "id": "230",
+    "name": "Composition; Orchestral Instruments; Voice & Opera; Conducting; Jazz; Film; Musicology; Piano; Theater; Choreography"
+  },
+  {
+    "id": "231",
+    "name": "Computational Mechanics"
+  },
+  {
+    "id": "232",
+    "name": "Computer Engineering"
+  },
+  {
+    "id": "233",
+    "name": "Computer Science (7 total)"
+  },
+  {
+    "id": "234",
+    "name": "Computer and Systems Sciences"
+  },
+  {
+    "id": "235",
+    "name": "Conservation"
+  },
+  {
+    "id": "236",
+    "name": "Construction"
+  },
+  {
+    "id": "237",
+    "name": "Consumer Science"
+  },
+  {
+    "id": "238",
+    "name": "Control Engineering"
+  },
+  {
+    "id": "239",
+    "name": "Corporate Governance"
+  },
+  {
+    "id": "240",
+    "name": "Creative Writing"
+  },
+  {
+    "id": "241",
+    "name": "Creative Writing (notable MA program)"
+  },
+  {
+    "id": "242",
+    "name": "Criminal Justice"
+  },
+  {
+    "id": "243",
+    "name": "Criminology"
+  },
+  {
+    "id": "244",
+    "name": "Culinary Arts"
+  },
+  {
+    "id": "245",
+    "name": "Cultural Encounters"
+  },
+  {
+    "id": "246",
+    "name": "Cultural Heritage"
+  },
+  {
+    "id": "247",
+    "name": "Cultural Management"
+  },
+  {
+    "id": "248",
+    "name": "Cultural Studies"
+  },
+  {
+    "id": "249",
+    "name": "Cultural Technology"
+  },
+  {
+    "id": "250",
+    "name": "Culture Management"
+  },
+  {
+    "id": "251",
+    "name": "Curriculum Studies"
+  },
+  {
+    "id": "252",
+    "name": "Cyber Defence"
+  },
+  {
+    "id": "253",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "254",
+    "name": "DAE"
+  },
+  {
+    "id": "255",
+    "name": "Dance"
+  },
+  {
+    "id": "256",
+    "name": "Data Analytics"
+  },
+  {
+    "id": "257",
+    "name": "Data Engineering"
+  },
+  {
+    "id": "258",
+    "name": "Decision Sciences"
+  },
+  {
+    "id": "259",
+    "name": "Demographics"
+  },
+  {
+    "id": "260",
+    "name": "Design"
+  },
+  {
+    "id": "261",
+    "name": "Design and Technology"
+  },
+  {
+    "id": "262",
+    "name": "Development Studies"
+  },
+  {
+    "id": "263",
+    "name": "Diaconia"
+  },
+  {
+    "id": "264",
+    "name": "Digital Art"
+  },
+  {
+    "id": "265",
+    "name": "Digital Arts"
+  },
+  {
+    "id": "266",
+    "name": "Digital Business"
+  },
+  {
+    "id": "267",
+    "name": "Digital Design"
+  },
+  {
+    "id": "268",
+    "name": "Digital Economy"
+  },
+  {
+    "id": "269",
+    "name": "Digital Engineering"
+  },
+  {
+    "id": "270",
+    "name": "Digital Innovation"
+  },
+  {
+    "id": "271",
+    "name": "Digital Media"
+  },
+  {
+    "id": "272",
+    "name": "Digital Sciences"
+  },
+  {
+    "id": "273",
+    "name": "Digital Systems"
+  },
+  {
+    "id": "274",
+    "name": "Diplomacy"
+  },
+  {
+    "id": "275",
+    "name": "Directing"
+  },
+  {
+    "id": "276",
+    "name": "Drama"
+  },
+  {
+    "id": "277",
+    "name": "E-Business"
+  },
+  {
+    "id": "278",
+    "name": "E-Governance"
+  },
+  {
+    "id": "279",
+    "name": "E-Sports"
+  },
+  {
+    "id": "280",
+    "name": "ESL"
+  },
+  {
+    "id": "281",
+    "name": "EU Law"
+  },
+  {
+    "id": "282",
+    "name": "Eastern European Studies"
+  },
+  {
+    "id": "283",
+    "name": "Ecology"
+  },
+  {
+    "id": "284",
+    "name": "Economics; Business Administration; Management; Finance; Accounting; Marketing; Entrepreneurship; International Business; Data Analytics; Policy & Governance"
+  },
+  {
+    "id": "285",
+    "name": "EdTech"
+  },
+  {
+    "id": "286",
+    "name": "Education Sciences"
+  },
+  {
+    "id": "287",
+    "name": "Education Sciences; Psychology; Special Education; Social Pedagogy; Teacher Training"
+  },
+  {
+    "id": "288",
+    "name": "Educational & Social Policy"
+  },
+  {
+    "id": "289",
+    "name": "Educational Science"
+  },
+  {
+    "id": "290",
+    "name": "Educational Sciences"
+  },
+  {
+    "id": "291",
+    "name": "Electrical"
+  },
+  {
+    "id": "292",
+    "name": "Electrical Engineering"
+  },
+  {
+    "id": "293",
+    "name": "Electronics"
+  },
+  {
+    "id": "294",
+    "name": "Energy"
+  },
+  {
+    "id": "295",
+    "name": "Energy Engineering"
+  },
+  {
+    "id": "296",
+    "name": "Energy Systems"
+  },
+  {
+    "id": "297",
+    "name": "Energy Technology"
+  },
+  {
+    "id": "298",
+    "name": "Energy and Process Engineering"
+  },
+  {
+    "id": "299",
+    "name": "Engineering Mathematics"
+  },
+  {
+    "id": "300",
+    "name": "Engineering; Sciences; Humanities & Pedagogy; Arts; Management; Health Care; Social Sciences; Business; Maritime Science; Law & Public Administration"
+  },
+  {
+    "id": "301",
+    "name": "English"
+  },
+  {
+    "id": "302",
+    "name": "Entrepreneurship"
+  },
+  {
+    "id": "303",
+    "name": "Environment"
+  },
+  {
+    "id": "304",
+    "name": "Environmental"
+  },
+  {
+    "id": "305",
+    "name": "Environmental Economics"
+  },
+  {
+    "id": "306",
+    "name": "Environmental Engineering"
+  },
+  {
+    "id": "307",
+    "name": "Environmental Management"
+  },
+  {
+    "id": "308",
+    "name": "Environmental Policy"
+  },
+  {
+    "id": "309",
+    "name": "Environmental Science"
+  },
+  {
+    "id": "310",
+    "name": "Environmental Sciences (10 total)"
+  },
+  {
+    "id": "311",
+    "name": "Environmental Sciences (6 faculties)"
+  },
+  {
+    "id": "312",
+    "name": "Environmental Studies"
+  },
+  {
+    "id": "313",
+    "name": "Environmental Systems Science"
+  },
+  {
+    "id": "314",
+    "name": "Environmental Tech"
+  },
+  {
+    "id": "315",
+    "name": "Equestrian Management"
+  },
+  {
+    "id": "316",
+    "name": "Equine Studies"
+  },
+  {
+    "id": "317",
+    "name": "Equine); Zoology; Veterinary Surgery"
+  },
+  {
+    "id": "318",
+    "name": "Ethnomusicology"
+  },
+  {
+    "id": "319",
+    "name": "European Law"
+  },
+  {
+    "id": "320",
+    "name": "Exercise Physiology"
+  },
+  {
+    "id": "321",
+    "name": "Experimental Sciences"
+  },
+  {
+    "id": "322",
+    "name": "Family Studies"
+  },
+  {
+    "id": "323",
+    "name": "Fashion"
+  },
+  {
+    "id": "324",
+    "name": "Fashion Design"
+  },
+  {
+    "id": "325",
+    "name": "Fashion Tech"
+  },
+  {
+    "id": "326",
+    "name": "Film"
+  },
+  {
+    "id": "327",
+    "name": "Film Directing"
+  },
+  {
+    "id": "328",
+    "name": "Film and Media"
+  },
+  {
+    "id": "329",
+    "name": "FinTech"
+  },
+  {
+    "id": "330",
+    "name": "Finance"
+  },
+  {
+    "id": "331",
+    "name": "Fine Arts"
+  },
+  {
+    "id": "332",
+    "name": "Fine Arts; Graphic Design; Industrial Design; Architecture; Fashion; Media Arts; Sculpture; Experimental Design"
+  },
+  {
+    "id": "333",
+    "name": "Fine Arts; Graphic Design; Industrial Design; Fashion; Media Arts; Photography; Social Design; Painting"
+  },
+  {
+    "id": "334",
+    "name": "Fish and Wildlife Management"
+  },
+  {
+    "id": "335",
+    "name": "Fisheries"
+  },
+  {
+    "id": "336",
+    "name": "Fisheries Science"
+  },
+  {
+    "id": "337",
+    "name": "Food Safety"
+  },
+  {
+    "id": "338",
+    "name": "Food Science"
+  },
+  {
+    "id": "339",
+    "name": "Food Sciences"
+  },
+  {
+    "id": "340",
+    "name": "Food Tech"
+  },
+  {
+    "id": "341",
+    "name": "Food Technology"
+  },
+  {
+    "id": "342",
+    "name": "Food Technology (5 total)"
+  },
+  {
+    "id": "343",
+    "name": "Forest Science"
+  },
+  {
+    "id": "344",
+    "name": "Forest Sciences"
+  },
+  {
+    "id": "345",
+    "name": "Forestry"
+  },
+  {
+    "id": "346",
+    "name": "Forestry and Ecology"
+  },
+  {
+    "id": "347",
+    "name": "Game Design"
+  },
+  {
+    "id": "348",
+    "name": "Game Dev"
+  },
+  {
+    "id": "349",
+    "name": "Game Studies"
+  },
+  {
+    "id": "350",
+    "name": "Gender Studies"
+  },
+  {
+    "id": "351",
+    "name": "Geography"
+  },
+  {
+    "id": "352",
+    "name": "Georesources"
+  },
+  {
+    "id": "353",
+    "name": "Geosciences"
+  },
+  {
+    "id": "354",
+    "name": "Global Health"
+  },
+  {
+    "id": "355",
+    "name": "Global Studies"
+  },
+  {
+    "id": "356",
+    "name": "Graphic Design"
+  },
+  {
+    "id": "357",
+    "name": "HR Management"
+  },
+  {
+    "id": "358",
+    "name": "HVAC"
+  },
+  {
+    "id": "359",
+    "name": "Health"
+  },
+  {
+    "id": "360",
+    "name": "Health & Nutrition"
+  },
+  {
+    "id": "361",
+    "name": "Health Informatics"
+  },
+  {
+    "id": "362",
+    "name": "Health Sciences"
+  },
+  {
+    "id": "363",
+    "name": "Health Sciences and Technology"
+  },
+  {
+    "id": "364",
+    "name": "Health Technology"
+  },
+  {
+    "id": "365",
+    "name": "Health and Activity"
+  },
+  {
+    "id": "366",
+    "name": "Health; Education; Management; Law; Art & Culture; Sciences; Communication; Forestry; Environmental Sci; European Studies"
+  },
+  {
+    "id": "367",
+    "name": "Healthcare"
+  },
+  {
+    "id": "368",
+    "name": "Heritage Tourism"
+  },
+  {
+    "id": "369",
+    "name": "History"
+  },
+  {
+    "id": "370",
+    "name": "History & Archaeology"
+  },
+  {
+    "id": "371",
+    "name": "Home Economics"
+  },
+  {
+    "id": "372",
+    "name": "Horticulture"
+  },
+  {
+    "id": "373",
+    "name": "Hospitality"
+  },
+  {
+    "id": "374",
+    "name": "Hotel Management"
+  },
+  {
+    "id": "375",
+    "name": "Human Geography"
+  },
+  {
+    "id": "376",
+    "name": "Human Sciences"
+  },
+  {
+    "id": "377",
+    "name": "Humanities"
+  },
+  {
+    "id": "378",
+    "name": "IT"
+  },
+  {
+    "id": "379",
+    "name": "IT Pedagogy"
+  },
+  {
+    "id": "380",
+    "name": "IT Security"
+  },
+  {
+    "id": "381",
+    "name": "IT Systems"
+  },
+  {
+    "id": "382",
+    "name": "IT and Communications"
+  },
+  {
+    "id": "383",
+    "name": "Inclusive Education"
+  },
+  {
+    "id": "384",
+    "name": "Indigenous Studies"
+  },
+  {
+    "id": "385",
+    "name": "Industrial Design"
+  },
+  {
+    "id": "386",
+    "name": "Industrial Economics"
+  },
+  {
+    "id": "387",
+    "name": "Industrial Engineering"
+  },
+  {
+    "id": "388",
+    "name": "Industrial Management"
+  },
+  {
+    "id": "389",
+    "name": "Informatics"
+  },
+  {
+    "id": "390",
+    "name": "Information Systems"
+  },
+  {
+    "id": "391",
+    "name": "Information Technology"
+  },
+  {
+    "id": "392",
+    "name": "Innovation"
+  },
+  {
+    "id": "393",
+    "name": "Innovation Management"
+  },
+  {
+    "id": "394",
+    "name": "Innovation and Entrepreneurship"
+  },
+  {
+    "id": "395",
+    "name": "Installation Art"
+  },
+  {
+    "id": "396",
+    "name": "Institute of Education"
+  },
+  {
+    "id": "397",
+    "name": "Int'l Relations"
+  },
+  {
+    "id": "398",
+    "name": "Interaction Design"
+  },
+  {
+    "id": "399",
+    "name": "Interfaith Studies"
+  },
+  {
+    "id": "400",
+    "name": "Intermedia"
+  },
+  {
+    "id": "401",
+    "name": "International & European Economic Studies"
+  },
+  {
+    "id": "402",
+    "name": "International Business"
+  },
+  {
+    "id": "403",
+    "name": "International Business (10 total)"
+  },
+  {
+    "id": "404",
+    "name": "International Development"
+  },
+  {
+    "id": "405",
+    "name": "International Studies"
+  },
+  {
+    "id": "406",
+    "name": "Jazz"
+  },
+  {
+    "id": "407",
+    "name": "Journalism"
+  },
+  {
+    "id": "408",
+    "name": "Land Use Planning"
+  },
+  {
+    "id": "409",
+    "name": "Landscape Architecture"
+  },
+  {
+    "id": "410",
+    "name": "Language and Culture"
+  },
+  {
+    "id": "411",
+    "name": "Languages"
+  },
+  {
+    "id": "412",
+    "name": "Law School; Public Security; Human & Social Studies; Public Governance & Business; Sudovian Academy"
+  },
+  {
+    "id": "413",
+    "name": "Leadership"
+  },
+  {
+    "id": "414",
+    "name": "Leather Design"
+  },
+  {
+    "id": "415",
+    "name": "Library and Information Science"
+  },
+  {
+    "id": "416",
+    "name": "Life Sciences"
+  },
+  {
+    "id": "417",
+    "name": "Lifelong Learning"
+  },
+  {
+    "id": "418",
+    "name": "Linguistics"
+  },
+  {
+    "id": "419",
+    "name": "Literature"
+  },
+  {
+    "id": "420",
+    "name": "Logistics"
+  },
+  {
+    "id": "421",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "422",
+    "name": "Management"
+  },
+  {
+    "id": "423",
+    "name": "Management Science"
+  },
+  {
+    "id": "424",
+    "name": "Management and Economics"
+  },
+  {
+    "id": "425",
+    "name": "Marine Biology"
+  },
+  {
+    "id": "426",
+    "name": "Marine Ecology"
+  },
+  {
+    "id": "427",
+    "name": "Marine Engineering; Natural Sciences; Humanities; Pedagogy; Social Sciences; Health Sciences; Art; Maritime Institute"
+  },
+  {
+    "id": "428",
+    "name": "Marine Robotics"
+  },
+  {
+    "id": "429",
+    "name": "Marine Science"
+  },
+  {
+    "id": "430",
+    "name": "Marine Technology"
+  },
+  {
+    "id": "431",
+    "name": "Maritime Law"
+  },
+  {
+    "id": "432",
+    "name": "Maritime Ops"
+  },
+  {
+    "id": "433",
+    "name": "Maritime Studies"
+  },
+  {
+    "id": "434",
+    "name": "Marketing"
+  },
+  {
+    "id": "435",
+    "name": "Material Science"
+  },
+  {
+    "id": "436",
+    "name": "Materials Eng"
+  },
+  {
+    "id": "437",
+    "name": "Materials Engineering"
+  },
+  {
+    "id": "438",
+    "name": "Math"
+  },
+  {
+    "id": "439",
+    "name": "Mathematical Engineering"
+  },
+  {
+    "id": "440",
+    "name": "Mathematics/IT"
+  },
+  {
+    "id": "441",
+    "name": "Meal Science"
+  },
+  {
+    "id": "442",
+    "name": "Mechanical"
+  },
+  {
+    "id": "443",
+    "name": "Mechanical Eng"
+  },
+  {
+    "id": "444",
+    "name": "Mechanical Engineering"
+  },
+  {
+    "id": "445",
+    "name": "Mechanics"
+  },
+  {
+    "id": "446",
+    "name": "Mechatronics"
+  },
+  {
+    "id": "447",
+    "name": "Media"
+  },
+  {
+    "id": "448",
+    "name": "Media Engineering"
+  },
+  {
+    "id": "449",
+    "name": "Media Studies"
+  },
+  {
+    "id": "450",
+    "name": "Media Tech"
+  },
+  {
+    "id": "451",
+    "name": "Media Technology"
+  },
+  {
+    "id": "452",
+    "name": "Medicine (12 total)"
+  },
+  {
+    "id": "453",
+    "name": "Medicine (6 total)"
+  },
+  {
+    "id": "454",
+    "name": "Medicine; Dentistry; Molecular Biology; Neuroscience; Public Health; Medical Imaging; Pathology; Oncology; Pediatrics; Anesthesiology"
+  },
+  {
+    "id": "455",
+    "name": "Medicine; Dentistry; Pharmacy; Clinical Science; Diagnostics; Neuroscience; Pathology; Public Health; Pediatrics; Surgery"
+  },
+  {
+    "id": "456",
+    "name": "Medicine; Dentistry; Pharmacy; Veterinary Medicine; Public Health; Nursing; Biomedical Sciences; Rehabilitation; Laboratory Medicine; Veterinary Science"
+  },
+  {
+    "id": "457",
+    "name": "Mediterranean Studies"
+  },
+  {
+    "id": "458",
+    "name": "Mental Health"
+  },
+  {
+    "id": "459",
+    "name": "Midwifery"
+  },
+  {
+    "id": "460",
+    "name": "Military Leadership"
+  },
+  {
+    "id": "461",
+    "name": "Military Studies"
+  },
+  {
+    "id": "462",
+    "name": "Mining; Metallurgy; Materials Science; Environmental Eng; Petroleum Eng; Energy Tech; Geosciences; Mechanical Eng; Industrial Chemistry"
+  },
+  {
+    "id": "463",
+    "name": "Missiology"
+  },
+  {
+    "id": "464",
+    "name": "Molecular Biology"
+  },
+  {
+    "id": "465",
+    "name": "Molecular Biosciences"
+  },
+  {
+    "id": "466",
+    "name": "Motor Control"
+  },
+  {
+    "id": "467",
+    "name": "Movement Science"
+  },
+  {
+    "id": "468",
+    "name": "Multimedia"
+  },
+  {
+    "id": "469",
+    "name": "Multimedia Arts"
+  },
+  {
+    "id": "470",
+    "name": "Multimedia Design"
+  },
+  {
+    "id": "471",
+    "name": "Music"
+  },
+  {
+    "id": "472",
+    "name": "Music Performance"
+  },
+  {
+    "id": "473",
+    "name": "Music Performance; Composition; Opera; Piano; Church Music; Music Education; Acting; Dance; Conducting"
+  },
+  {
+    "id": "474",
+    "name": "Music Science"
+  },
+  {
+    "id": "475",
+    "name": "Music Studies"
+  },
+  {
+    "id": "476",
+    "name": "Music Tech"
+  },
+  {
+    "id": "477",
+    "name": "Music Therapy"
+  },
+  {
+    "id": "478",
+    "name": "Music and Performance"
+  },
+  {
+    "id": "479",
+    "name": "Nanoscience"
+  },
+  {
+    "id": "480",
+    "name": "Natural Resource Management"
+  },
+  {
+    "id": "481",
+    "name": "Natural Sciences"
+  },
+  {
+    "id": "482",
+    "name": "Navigation"
+  },
+  {
+    "id": "483",
+    "name": "Network Technologies"
+  },
+  {
+    "id": "484",
+    "name": "Neurosciences (10 total)"
+  },
+  {
+    "id": "485",
+    "name": "New Media"
+  },
+  {
+    "id": "486",
+    "name": "Nuclear Energy"
+  },
+  {
+    "id": "487",
+    "name": "Nursing"
+  },
+  {
+    "id": "488",
+    "name": "Nursing Science"
+  },
+  {
+    "id": "489",
+    "name": "Nutrition"
+  },
+  {
+    "id": "490",
+    "name": "Nutrition & Dietetics"
+  },
+  {
+    "id": "491",
+    "name": "Nutrition and Dietetics"
+  },
+  {
+    "id": "492",
+    "name": "Occupational Therapy"
+  },
+  {
+    "id": "493",
+    "name": "Oceanography"
+  },
+  {
+    "id": "494",
+    "name": "Offshore Tech"
+  },
+  {
+    "id": "495",
+    "name": "Opera"
+  },
+  {
+    "id": "496",
+    "name": "Operations Management"
+  },
+  {
+    "id": "497",
+    "name": "Optics"
+  },
+  {
+    "id": "498",
+    "name": "Optometry"
+  },
+  {
+    "id": "499",
+    "name": "Oral Health"
+  },
+  {
+    "id": "500",
+    "name": "Outdoor Education"
+  },
+  {
+    "id": "501",
+    "name": "Over 60 covering Health Sciences"
+  },
+  {
+    "id": "502",
+    "name": "Painting"
+  },
+  {
+    "id": "503",
+    "name": "Pedagogy"
+  },
+  {
+    "id": "504",
+    "name": "Pedagogy; Educational Management; Special Education; Adult Education; Curriculum Development; Teacher Training; Educational Psychology; Inclusive Education; Education Technology; School Leadership"
+  },
+  {
+    "id": "505",
+    "name": "Performance"
+  },
+  {
+    "id": "506",
+    "name": "Performance Art"
+  },
+  {
+    "id": "507",
+    "name": "Performance Science"
+  },
+  {
+    "id": "508",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "509",
+    "name": "Pharmaceutical Sciences"
+  },
+  {
+    "id": "510",
+    "name": "Pharmacy"
+  },
+  {
+    "id": "511",
+    "name": "Philology"
+  },
+  {
+    "id": "512",
+    "name": "Philosophy"
+  },
+  {
+    "id": "513",
+    "name": "Photography"
+  },
+  {
+    "id": "514",
+    "name": "Photonics"
+  },
+  {
+    "id": "515",
+    "name": "Physical Education"
+  },
+  {
+    "id": "516",
+    "name": "Physical Education; Sport Science; Coaching; Biomechanics; Sports Psychology; Sports Management; Health & Sports Medicine; Strength & Conditioning; Athletics; Recreation Studies"
+  },
+  {
+    "id": "517",
+    "name": "Physical Education; Sports Science; Health & Nutrition; Rehabilitation; Coaching"
+  },
+  {
+    "id": "518",
+    "name": "Physics (10 total)"
+  },
+  {
+    "id": "519",
+    "name": "Physiotherapy"
+  },
+  {
+    "id": "520",
+    "name": "Piano"
+  },
+  {
+    "id": "521",
+    "name": "Plant Biology"
+  },
+  {
+    "id": "522",
+    "name": "Plant Sciences"
+  },
+  {
+    "id": "523",
+    "name": "Plant/Animal Sciences"
+  },
+  {
+    "id": "524",
+    "name": "Political Studies"
+  },
+  {
+    "id": "525",
+    "name": "Polymer Eng"
+  },
+  {
+    "id": "526",
+    "name": "Practical Theology"
+  },
+  {
+    "id": "527",
+    "name": "Preschool Education"
+  },
+  {
+    "id": "528",
+    "name": "Primary Education"
+  },
+  {
+    "id": "529",
+    "name": "Private Law; Public Law; International Law; European Law; Business Law; Human Rights; Legal Theory; Environmental Law; Intellectual Property; Dispute Resolution"
+  },
+  {
+    "id": "530",
+    "name": "Product Design"
+  },
+  {
+    "id": "531",
+    "name": "Programming Languages"
+  },
+  {
+    "id": "532",
+    "name": "Project Management"
+  },
+  {
+    "id": "533",
+    "name": "Psychology"
+  },
+  {
+    "id": "534",
+    "name": "Public Administration"
+  },
+  {
+    "id": "535",
+    "name": "Public Health (10 total)"
+  },
+  {
+    "id": "536",
+    "name": "Public Policy"
+  },
+  {
+    "id": "537",
+    "name": "Radiography"
+  },
+  {
+    "id": "538",
+    "name": "Reformed Theology"
+  },
+  {
+    "id": "539",
+    "name": "Regional Development"
+  },
+  {
+    "id": "540",
+    "name": "Rehab"
+  },
+  {
+    "id": "541",
+    "name": "Rehabilitation"
+  },
+  {
+    "id": "542",
+    "name": "Religious Studies"
+  },
+  {
+    "id": "543",
+    "name": "Renewable Energy"
+  },
+  {
+    "id": "544",
+    "name": "Restoration"
+  },
+  {
+    "id": "545",
+    "name": "Risk Management"
+  },
+  {
+    "id": "546",
+    "name": "Robotics"
+  },
+  {
+    "id": "547",
+    "name": "Royal Conservatoire"
+  },
+  {
+    "id": "548",
+    "name": "Royal Conservatory"
+  },
+  {
+    "id": "549",
+    "name": "Rural Development"
+  },
+  {
+    "id": "550",
+    "name": "Rural Studies"
+  },
+  {
+    "id": "551",
+    "name": "STEM Pedagogy"
+  },
+  {
+    "id": "552",
+    "name": "Safety Eng"
+  },
+  {
+    "id": "553",
+    "name": "Sales and Marketing"
+  },
+  {
+    "id": "554",
+    "name": "Scenic Design"
+  },
+  {
+    "id": "555",
+    "name": "Scenography"
+  },
+  {
+    "id": "556",
+    "name": "Science & Technology"
+  },
+  {
+    "id": "557",
+    "name": "Sciences"
+  },
+  {
+    "id": "558",
+    "name": "Security Studies"
+  },
+  {
+    "id": "559",
+    "name": "Sign Language Interpretation"
+  },
+  {
+    "id": "560",
+    "name": "Signal Processing"
+  },
+  {
+    "id": "561",
+    "name": "Social Education"
+  },
+  {
+    "id": "562",
+    "name": "Social Pedagogy"
+  },
+  {
+    "id": "563",
+    "name": "Social Policy"
+  },
+  {
+    "id": "564",
+    "name": "Social Science"
+  },
+  {
+    "id": "565",
+    "name": "Social Sciences (3 total)"
+  },
+  {
+    "id": "566",
+    "name": "Social Sciences (6 total)"
+  },
+  {
+    "id": "567",
+    "name": "Social Sciences (estimated 10)"
+  },
+  {
+    "id": "568",
+    "name": "Social Studies"
+  },
+  {
+    "id": "569",
+    "name": "Social Work"
+  },
+  {
+    "id": "570",
+    "name": "Sociology"
+  },
+  {
+    "id": "571",
+    "name": "Software Dev"
+  },
+  {
+    "id": "572",
+    "name": "Software Development"
+  },
+  {
+    "id": "573",
+    "name": "Software Eng"
+  },
+  {
+    "id": "574",
+    "name": "Software Engineering"
+  },
+  {
+    "id": "575",
+    "name": "Soil Science"
+  },
+  {
+    "id": "576",
+    "name": "Solar Energy"
+  },
+  {
+    "id": "577",
+    "name": "Sound Design"
+  },
+  {
+    "id": "578",
+    "name": "Sound Engineering"
+  },
+  {
+    "id": "579",
+    "name": "Space Technology"
+  },
+  {
+    "id": "580",
+    "name": "Spatial Sciences"
+  },
+  {
+    "id": "581",
+    "name": "Special Education"
+  },
+  {
+    "id": "582",
+    "name": "Sport Science"
+  },
+  {
+    "id": "583",
+    "name": "Sport Sciences"
+  },
+  {
+    "id": "584",
+    "name": "Sport and Health Sciences"
+  },
+  {
+    "id": "585",
+    "name": "Sports"
+  },
+  {
+    "id": "586",
+    "name": "Sports Management"
+  },
+  {
+    "id": "587",
+    "name": "Sports Medicine"
+  },
+  {
+    "id": "588",
+    "name": "Sports Psychology"
+  },
+  {
+    "id": "589",
+    "name": "Sports Technology"
+  },
+  {
+    "id": "590",
+    "name": "Stage Design"
+  },
+  {
+    "id": "591",
+    "name": "Statistics"
+  },
+  {
+    "id": "592",
+    "name": "Strategic Management"
+  },
+  {
+    "id": "593",
+    "name": "Strategy"
+  },
+  {
+    "id": "594",
+    "name": "String"
+  },
+  {
+    "id": "595",
+    "name": "Supply Chain"
+  },
+  {
+    "id": "596",
+    "name": "Supply Chain Management"
+  },
+  {
+    "id": "597",
+    "name": "Surgery"
+  },
+  {
+    "id": "598",
+    "name": "Sustainability"
+  },
+  {
+    "id": "599",
+    "name": "Sustainability Studies"
+  },
+  {
+    "id": "600",
+    "name": "Sustainable Agriculture"
+  },
+  {
+    "id": "601",
+    "name": "Sustainable Business"
+  },
+  {
+    "id": "602",
+    "name": "Sustainable Construction"
+  },
+  {
+    "id": "603",
+    "name": "Sustainable Design"
+  },
+  {
+    "id": "604",
+    "name": "Sustainable Development"
+  },
+  {
+    "id": "605",
+    "name": "Sustainable Farming"
+  },
+  {
+    "id": "606",
+    "name": "Systematic Theology"
+  },
+  {
+    "id": "607",
+    "name": "S\u00e1mi Language"
+  },
+  {
+    "id": "608",
+    "name": "Tactical Sciences"
+  },
+  {
+    "id": "609",
+    "name": "Tax Law"
+  },
+  {
+    "id": "610",
+    "name": "Taxation"
+  },
+  {
+    "id": "611",
+    "name": "Teaching"
+  },
+  {
+    "id": "612",
+    "name": "Technology"
+  },
+  {
+    "id": "613",
+    "name": "Technology and Health"
+  },
+  {
+    "id": "614",
+    "name": "Textile Art (10 total)"
+  },
+  {
+    "id": "615",
+    "name": "Textile Engineering"
+  },
+  {
+    "id": "616",
+    "name": "Textile Science"
+  },
+  {
+    "id": "617",
+    "name": "The Arts"
+  },
+  {
+    "id": "618",
+    "name": "Theatre"
+  },
+  {
+    "id": "619",
+    "name": "Theatre Arts"
+  },
+  {
+    "id": "620",
+    "name": "Theology"
+  },
+  {
+    "id": "621",
+    "name": "Tourism"
+  },
+  {
+    "id": "622",
+    "name": "Tourism Research"
+  },
+  {
+    "id": "623",
+    "name": "Tourism Studies"
+  },
+  {
+    "id": "624",
+    "name": "Traditional Knowledge"
+  },
+  {
+    "id": "625",
+    "name": "Translation"
+  },
+  {
+    "id": "626",
+    "name": "Translation and Interpreting"
+  },
+  {
+    "id": "627",
+    "name": "Transport & Logistics; Telecommunications; Engineering & IT; Business Administration; Management; Aviation; Cybersecurity; Computer Science; Electronics; Maritime Studies"
+  },
+  {
+    "id": "628",
+    "name": "Transport Engineering"
+  },
+  {
+    "id": "629",
+    "name": "Transport Logistics"
+  },
+  {
+    "id": "630",
+    "name": "UAV Operations"
+  },
+  {
+    "id": "631",
+    "name": "UX/UI"
+  },
+  {
+    "id": "632",
+    "name": "Urban Planning"
+  },
+  {
+    "id": "633",
+    "name": "Urban Studies"
+  },
+  {
+    "id": "634",
+    "name": "Vet Med"
+  },
+  {
+    "id": "635",
+    "name": "Veterinary"
+  },
+  {
+    "id": "636",
+    "name": "Veterinary Basics"
+  },
+  {
+    "id": "637",
+    "name": "Veterinary Medicine"
+  },
+  {
+    "id": "638",
+    "name": "Veterinary Medicine; Animal Biology; Veterinary Public Health; Pathobiology; Nutrition & Food Science; Clinics (Small/Large Animals"
+  },
+  {
+    "id": "639",
+    "name": "Veterinary Science"
+  },
+  {
+    "id": "640",
+    "name": "Visual Arts"
+  },
+  {
+    "id": "641",
+    "name": "Visual Arts (10 total)"
+  },
+  {
+    "id": "642",
+    "name": "Visual Communication"
+  },
+  {
+    "id": "643",
+    "name": "Web Development"
+  },
+  {
+    "id": "644",
+    "name": "Welding"
+  },
+  {
+    "id": "645",
+    "name": "Welding Tech"
+  },
+  {
+    "id": "646",
+    "name": "Wind & Percussion Instruments; Musicology; Jazz; Early Music; Opera Studio; Sound Engineering"
+  },
+  {
+    "id": "647",
+    "name": "Wood Engineering"
+  },
+  {
+    "id": "648",
+    "name": "Woodworking"
+  }
 ]

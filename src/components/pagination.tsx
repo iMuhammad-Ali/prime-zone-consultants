@@ -31,9 +31,9 @@ const Pagination = ({
     const left = Math.max(2, currentPage - 2);
     const right = Math.min(totalPages - 1, currentPage + 2);
     pages.push(1);
-    if (left > 2) pages.push('...');
+    if (left > 2) pages.push("...");
     for (let i = left; i <= right; i++) pages.push(i);
-    if (right < totalPages - 1) pages.push('...');
+    if (right < totalPages - 1) pages.push("...");
     pages.push(totalPages);
     return pages;
   };
@@ -49,20 +49,20 @@ const Pagination = ({
           Prev
         </Button>
         {getPageNumbers().map((page, idx) =>
-          page === '...'
-            ? (
-                <span key={"ellipsis-" + idx} className="px-2 text-lg select-none">...</span>
-              )
-            : (
-                <Button
-                  key={page}
-                  variant={currentPage === page ? "default" : "outline"}
-                  onClick={() => handlePageChange(Number(page))}
-                  className="w-10 h-10 p-0"
-                >
-                  {page}
-                </Button>
-              )
+          page === "..." ? (
+            <span key={"ellipsis-" + idx} className="px-2 text-lg select-none">
+              ...
+            </span>
+          ) : (
+            <Button
+              key={page}
+              variant={currentPage === page ? "default" : "outline"}
+              onClick={() => handlePageChange(Number(page))}
+              className="w-10 h-10 p-0"
+            >
+              {page}
+            </Button>
+          )
         )}
         <Button
           variant="outline"

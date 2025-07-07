@@ -1,43 +1,60 @@
-// import { useState } from "react";
-// import {
-//   Accordion,
-//   AccordionContent,
-//   AccordionItem,
-//   AccordionTrigger,
-// } from "~/components/ui/accordion";
-// import departmentsData from "~/data/departments.json";
-// import universitiesData from "~/data/universities.json";
-// import { Link } from "react-router-dom";
+import { useState } from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "~/components/ui/accordion";
+import departmentsData from "~/data/departments.json";
+import universitiesData from "~/data/universities.json";
+import { Link } from "react-router-dom";
+
+import { Input } from "~/components/ui/input";
 
 const UniversityDepartments = () => {
-  // const filteredDepartments = departmentsData.filter((department) =>
-  //   coursesData.some((course) => course.department === department.id)
-  // );
-
-  // const [expanded, setExpanded] = useState<any>(
-  //   filteredDepartments.length > 0 ? filteredDepartments[0].id : null
-  // );
+  const [search, setSearch] = useState("");
+  // Only show departments that have at least one university
+  const filteredDepartments = departmentsData.filter((department) =>
+    universitiesData.some((uni) => uni.departments.includes(department.id))
+  );
+  // Filter by search
+  const visibleDepartments = filteredDepartments.filter((department) =>
+    department.name.toLowerCase().includes(search.toLowerCase())
+  );
+  const [expanded, setExpanded] = useState<any>(
+    visibleDepartments.length > 0 ? visibleDepartments[0].id : null
+  );
   return (
     <div className="container space-y-16">
       <div className="mx-auto flex max-w-3xl flex-col text-left md:text-center">
         <h2 className="mb-3 text-3xl font-semibold md:mb-4 lg:mb-6 lg:text-4xl">
-          Search By Course
+          Search By Department
         </h2>
+        <div className="mb-6">
+          <div className="flex items-center">
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search departments..."
+              className="flex-1 h-12 bg-blue-900 text-white border-none focus:ring-2 focus:ring-blue-400 placeholder:text-blue-300"
+            />
+          </div>
+        </div>
         <p className="text-muted-foreground lg:text-lg">
-          Explore our available courses to find the one that fits your interests
-          and goals. Each course includes detailed information to help you make
-          the right choice.
+          Explore our available departments to find the one that fits your
+          interests and goals. Each departments includes detailed information to
+          help you make the right choice.
         </p>
       </div>
 
-      {/* <Accordion
+      <Accordion
         type="single"
         collapsible
         className="mx-auto w-full border rounded overflow-hidden"
         value={expanded}
         onValueChange={(val) => setExpanded(val)}
       >
-        {filteredDepartments.map((department) => (
+        {visibleDepartments.map((department) => (
           <AccordionItem
             key={department.id}
             value={department.id}
@@ -51,21 +68,18 @@ const UniversityDepartments = () => {
             <AccordionContent className="sm:mb-1 lg:mb-2">
               <div className="text-muted-foreground lg:text-lg px-3 sm:px-5">
                 <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {coursesData
-                    .filter((course) => course.department === department.id)
-                    .map((course) => {
-                      const university = universitiesData.find(
-                        (u) => u.id === course.university
-                      );
+                  {universitiesData
+                    .filter((uni) => uni.departments.includes(department.id))
+                    .map((uni) => {
                       return (
                         <Link
-                          to={`/courses/${course.id}`}
-                          key={course.id}
+                          to={`/universities/${uni.id}`}
+                          key={uni.id}
                           className="p-3 rounded shadow-md bg-background hover:scale-[102%] duration-100"
                         >
-                          <h3 className="font-semibold">{course.name}</h3>
+                          <h3 className="font-semibold">{uni.name}</h3>
                           <p className="text-sm text-gray-400 line-clamp-1">
-                            {university?.name}
+                            {uni.country}
                           </p>
                         </Link>
                       );
@@ -75,7 +89,7 @@ const UniversityDepartments = () => {
             </AccordionContent>
           </AccordionItem>
         ))}
-      </Accordion> */}
+      </Accordion>
     </div>
   );
 };

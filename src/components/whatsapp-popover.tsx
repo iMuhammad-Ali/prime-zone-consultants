@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import Whatsapp from "~/assets/svgs/whatsapp.svg";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
@@ -9,13 +9,39 @@ const CHANNEL_LINK = "https://chat.whatsapp.com/yourchannelinvite";
 
 const WhatsappPopover = () => {
   const [open, setOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleLinkClick = () => {
     setOpen(false);
   };
 
+  useEffect(() => {
+    const footer = document.getElementById("privacy-policy");
+    if (!footer) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(!entry.isIntersecting); // Hide when footer is visible
+      },
+      {
+        root: null,
+        threshold: 0.1, // adjust if needed
+      }
+    );
+
+    observer.observe(footer);
+
+    return () => {
+      if (footer) observer.unobserve(footer);
+    };
+  }, []);
+
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div
+      className={`fixed bottom-4 right-4 z-50 transition-opacity duration-300 ${
+        isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
+      }`}
+    >
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
           <Button className="rounded-full w-[50px] h-[50px] p-3 bg-green-500 hover:bg-green-600 text-white shadow-lg">

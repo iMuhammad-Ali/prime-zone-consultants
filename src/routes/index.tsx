@@ -4,7 +4,7 @@ import Home from "~/pages/Home";
 import Team from "~/pages/Team";
 import AboutUs from "~/pages/AboutUs";
 import Services from "~/pages/Services";
-// import SuccessStories from "~/pages/SuccessStories";
+import SuccessStories from "~/pages/SuccessStories";
 import ContactUs from "~/pages/ContactUs";
 import PrivacyPolicy from "~/pages/PrivacyPolicy";
 import TermsAndConditions from "~/pages/TermsAndConditions";
@@ -33,10 +33,10 @@ export const router = createBrowserRouter([
         path: "about-us",
         element: <AboutUs />,
       },
-      // {
-      //   path: "success-stories",
-      //   element: <SuccessStories />,
-      // },
+      {
+        path: "success-stories",
+        element: <SuccessStories />,
+      },
       {
         path: "services",
         element: <Services />,
