@@ -31,8 +31,10 @@ const defaultSections = [
   {
     title: "Product",
     links: [
-      { name: "Study Destinations", href: "/study-destinations" },
+      // { name: "Study Destinations", href: "/study-destinations" },
       { name: "Universities", href: "/universities" },
+      { name: "Services", href: "/services" },
+      { name: "Success Stories", href: "/success-stories" },
       // { name: "Courses", href: "/courses" },
       // { name: "Features", href: "#" },
     ],
@@ -42,19 +44,18 @@ const defaultSections = [
     links: [
       { name: "About", href: "/about-us" },
       { name: "Team", href: "/team" },
-      { name: "Services", href: "/services" },
       { name: "Contact", href: "/contact-us" },
     ],
   },
-  // {
-  //   title: "Resources",
-  //   links: [
-  //     { name: "Help", href: "#" },
-  //     { name: "Sales", href: "#" },
-  //     { name: "Advertise", href: "#" },
-  //     { name: "Privacy", href: "#" },
-  //   ],
-  // },
+  {
+    title: "Study Destinations",
+    links: [
+      { name: "Germany", href: "/universities?country=germany" },
+      { name: "France", href: "/universities?country=france" },
+      { name: "Italy", href: "/universities?country=italy" },
+      // { name: "Privacy", href: "#" },
+    ],
+  },
 ];
 
 const defaultSocialLinks = [
@@ -121,7 +122,7 @@ const Footer = ({
             ))}
           </ul>
         </div>
-        <div className="grid w-full gap-6 md:grid-cols-2 lg:gap-20">
+        <div className="grid w-full gap-6 md:grid-cols-3 lg:gap-15">
           {sections.map((section, sectionIdx) => (
             <div key={sectionIdx}>
               <h3 className="mb-4 font-bold">{section.title}</h3>

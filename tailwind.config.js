@@ -11,6 +11,7 @@ module.exports = {
       },
       screens: {
         custom: "1215px", // this acts like `@media (min-width: 1215px)`
+        llx: "1250px",
       },
       colors: {
         background: "hsl(var(--background))",

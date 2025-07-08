@@ -72,7 +72,7 @@ const Universities: React.FC = () => {
           <UniversityDepartments />
         </div>
       ) : (
-        <div className="container mx-auto flex flex-col relative md:flex-row gap-6">
+        <div className="container mx-auto flex flex-col relative md:flex-row gap-6 md:max-w-full">
           {/* Sidebar filters */}
           <FilterSidebar />
 
@@ -80,7 +80,7 @@ const Universities: React.FC = () => {
           <div className="flex-1">
             {filteredUniversities.length > 0 ? (
               <>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div className="grid sm:grid-cols-1 llx:grid-cols-2 gap-5">
                   {paginatedUniversities.map((uni: any) => (
                     <UniversityCard key={uni.id} university={uni} />
                   ))}
@@ -96,7 +96,7 @@ const Universities: React.FC = () => {
                 </div>
               </>
             ) : (
-              <Card className="flex flex-col bg-card items-center justify-center mt-8 p-6 rounded-lg shadow-md max-w-md mx-auto">
+              <Card className="flex flex-col bg-card items-center justify-center p-6 rounded-lg shadow-md w-full h-full mx-auto">
                 <h3 className="text-2xl font-semibold text-white mb-2">
                   No Universities Found
                 </h3>

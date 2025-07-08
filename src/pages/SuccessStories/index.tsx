@@ -35,7 +35,7 @@ interface SuccessStoriesProps {
 
 const SuccessStories = ({
   heading = "Success Stories",
-  description = "Real results. Real impact. Explore the success stories that define our consultancy’s commitment to excellence.",
+  description = "Real results. Real impact. Explore the success stories that define our consultancy’s commitment to excellence.From ambitious startups to established enterprises, our tailored strategies have transformed challenges into milestones. Let these journeys inspire your next big leap.",
 }: // feature1 = {
 //   title: "Letter 1",
 //   description: "Success Story 1",
@@ -60,6 +60,7 @@ const SuccessStories = ({
 
 SuccessStoriesProps) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const letters = [
     letter1,
     letter2,
@@ -83,16 +84,16 @@ SuccessStoriesProps) => {
 
   return (
     <section className="py-32">
-      <div className="mb-24 flex flex-col items-center gap-6">
-        <h2 className="text-center text-3xl font-semibold lg:max-w-3xl lg:text-5xl">
+      <div className="container flex flex-col items-center text-center">
+        <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           {heading}
         </h2>
-        <p className="text-center text-lg font-medium text-muted-foreground md:max-w-4xl lg:text-xl">
+        <p className="mb-8 max-w-3xl text-muted-foreground lg:text-xl">
           {description}
         </p>
       </div>
-      <div className="relative flex justify-center ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-7xl">
+      <div className="relative flex justify-center mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-7xl">
           {letters.map((img, idx) => (
             <div
               key={idx}
@@ -103,35 +104,47 @@ SuccessStoriesProps) => {
                   <img
                     src={img}
                     alt={`Success Letter ${idx + 1}`}
-                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
-                    onClick={() => setIsFullscreen(true)}
+                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
+                    onClick={() => {
+                      setSelectedImage(img);
+                      setIsFullscreen(true);
+                    }}
                   />
-                ) : (
+                ) : selectedImage === img ? (
                   <div
-                    className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-10 flex items-center justify-center"
-                    onClick={() => setIsFullscreen(false)}
+                    className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-80 flex items-center justify-center"
+                    onClick={() => {
+                      setSelectedImage(null);
+                      setIsFullscreen(false);
+                    }}
                   >
                     <button
                       className="absolute top-5 right-6 text-white text-4xl font-bold hover:text-red-400 transition"
                       onClick={(e) => {
                         e.stopPropagation();
+                        setSelectedImage(null);
                         setIsFullscreen(false);
                       }}
                     >
                       &times;
                     </button>
                     <img
-                      src={img}
+                      src={selectedImage}
                       alt="Full View"
-                      className="max-w-[90%] max-h-[100%] rounded-xl shadow-xl object-contain"
+                      className="max-w-[90%] max-h-[95%] rounded-xl shadow-xl object-contain"
                     />
                   </div>
+                ) : (
+                  <img
+                    src={img}
+                    alt={`Success Letter ${idx + 1}`}
+                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
+                    onClick={() => {
+                      setSelectedImage(img);
+                      setIsFullscreen(true);
+                    }}
+                  />
                 )}
-              </div>
-              <div className="mt-4 text-center">
-                <h3 className="text-lg font-semibold">
-                  Success Letter {idx + 1}
-                </h3>
               </div>
             </div>
           ))}

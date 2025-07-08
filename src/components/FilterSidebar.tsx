@@ -78,7 +78,7 @@ const FilterSidebar: React.FC = () => {
     )?.name || "";
 
   return (
-    <Card className="md:sticky md:top-0 mx-auto flex max-w-md max-h-fit md:max-h-fit sm:w-auto flex-col rounded-lg border px-5 sm:px-10 py-6">
+    <Card className="md:sticky md:top-0 mx-auto flex md:max-w-sm max-h-fit md:max-h-fit sm:w-full flex-col rounded-lg border px-5 sm:px-5 py-6">
       <div className="flex gap-16 justify-between">
         <div className="flex items-center gap-2 mb-5">
           <SlidersHorizontal className="text-white" />
