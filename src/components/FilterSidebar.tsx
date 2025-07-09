@@ -82,12 +82,13 @@ const FilterSidebar: React.FC = () => {
       <div className="flex gap-16 justify-between">
         <div className="flex items-center gap-2 mb-5">
           <SlidersHorizontal className="text-white" />
-          <h2 className="text-2xl font-bold text-white tracking-tight">
+          <h2 className="text-lg font-bold text-white tracking-tight">
             Apply Filters
           </h2>
         </div>
         <div>
           <Button
+            className="px-2 py-1"
             onClick={() => {
               dispatch(resetFilters());
               // Remove all filter params from URL

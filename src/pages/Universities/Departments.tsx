@@ -54,41 +54,47 @@ const UniversityDepartments = () => {
         value={expanded}
         onValueChange={(val) => setExpanded(val)}
       >
-        {visibleDepartments.map((department) => (
-          <AccordionItem
-            key={department.id}
-            value={department.id}
-            className={expanded === department.id ? "bg-secondary" : ""}
-          >
-            <AccordionTrigger className="pr-4 transition-opacity duration-200 hover:no-underline hover:opacity-60">
-              <div className="font-medium sm:py-1 lg:py-2 lg:text-lg px-3 sm:px-5">
-                {department.name}
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="sm:mb-1 lg:mb-2">
-              <div className="text-muted-foreground lg:text-lg px-3 sm:px-5">
-                <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {universitiesData
-                    .filter((uni) => uni.departments.includes(department.id))
-                    .map((uni) => {
-                      return (
-                        <Link
-                          to={`/universities/${uni.id}`}
-                          key={uni.id}
-                          className="p-3 rounded shadow-md bg-background hover:scale-[102%] duration-100"
-                        >
-                          <h3 className="font-semibold">{uni.name}</h3>
-                          <p className="text-sm text-gray-400 line-clamp-1">
-                            {uni.country}
-                          </p>
-                        </Link>
-                      );
-                    })}
-                </ul>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-        ))}
+        {visibleDepartments.length > 0 ? (
+          visibleDepartments.map((department) => (
+            <AccordionItem
+              key={department.id}
+              value={department.id}
+              className={expanded === department.id ? "bg-secondary" : ""}
+            >
+              <AccordionTrigger className="pr-4 transition-opacity duration-200 hover:no-underline hover:opacity-60">
+                <div className="font-medium sm:py-1 lg:py-2 lg:text-lg px-3 sm:px-5">
+                  {department.name}
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="sm:mb-1 lg:mb-2">
+                <div className="text-muted-foreground lg:text-lg px-3 sm:px-5">
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {universitiesData
+                      .filter((uni) => uni.departments.includes(department.id))
+                      .map((uni) => {
+                        return (
+                          <Link
+                            to={`/universities/${uni.id}`}
+                            key={uni.id}
+                            className="p-3 rounded shadow-md bg-background hover:scale-[102%] duration-100"
+                          >
+                            <h3 className="font-semibold">{uni.name}</h3>
+                            <p className="text-sm text-gray-400 line-clamp-1">
+                              {uni.country}
+                            </p>
+                          </Link>
+                        );
+                      })}
+                  </ul>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          ))
+        ) : (
+          <div className="text-center p-6">
+            <p className="text-muted-foreground">No departments found.</p>
+          </div>
+        )}
       </Accordion>
     </div>
   );
