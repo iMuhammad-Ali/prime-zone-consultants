@@ -10,6 +10,7 @@ import universitiesData from "~/data/universities.json";
 import { Link } from "react-router-dom";
 
 import { Input } from "~/components/ui/input";
+import { Card } from "~/components/ui/card";
 
 const UniversityDepartments = () => {
   const [search, setSearch] = useState("");
@@ -91,9 +92,9 @@ const UniversityDepartments = () => {
             </AccordionItem>
           ))
         ) : (
-          <div className="text-center p-6">
-            <p className="text-muted-foreground">No departments found.</p>
-          </div>
+          <Card className="p-6 text-center border-none rounded-none">
+            <p className="text-muted-foreground">No department found</p>
+          </Card>
         )}
       </Accordion>
     </div>

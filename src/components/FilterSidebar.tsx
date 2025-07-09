@@ -78,17 +78,17 @@ const FilterSidebar: React.FC = () => {
     )?.name || "";
 
   return (
-    <Card className="md:sticky md:top-0 mx-auto flex md:max-w-sm max-h-fit md:max-h-fit sm:w-full flex-col rounded-lg border px-5 sm:px-5 py-6">
+    <Card className="md:sticky md:top-0 mx-auto flex min-w-64 md:max-w-sm max-h-fit md:max-h-fit sm:w-full w-full flex-col rounded-lg border px-5 sm:px-5 py-6">
       <div className="flex gap-16 justify-between">
         <div className="flex items-center gap-2 mb-5">
           <SlidersHorizontal className="text-white" />
-          <h2 className="text-lg font-bold text-white tracking-tight">
+          <h2 className="text-md sm:text-lg font-bold text-white tracking-tight">
             Apply Filters
           </h2>
         </div>
         <div>
           <Button
-            className="px-2 py-1"
+            className="px-2 py-1 text-sm sm:px-3 sm:py-2"
             onClick={() => {
               dispatch(resetFilters());
               // Remove all filter params from URL
