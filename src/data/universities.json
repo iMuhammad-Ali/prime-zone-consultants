@@ -39,16 +39,7 @@
     "country": "Italy",
     "address": "Piazzale Aldo Moro 5, 00185 Roma RM, Italy",
     "about": "Founded in 1303, ~115,000 students",
-    "departments": [
-      "51",
-      "19",
-      "18",
-      "4",
-      "3",
-      "2",
-      "5",
-      "7"
-    ],
+    "departments": ["51", "19", "18", "4", "3", "2", "5", "7"],
     "intake": "September, February",
     "languages": "Italian, English (50+ programs)",
     "discountedPrice": "€1,000-€3,000/year (EU)",
@@ -66,15 +57,7 @@
     "country": "Italy",
     "address": "Via 8 Febbraio 2, 35122 Padova PD, Italy",
     "about": "Founded in 1222, renowned for medicine and science",
-    "departments": [
-      "3",
-      "2",
-      "19",
-      "15",
-      "4",
-      "5",
-      "31"
-    ],
+    "departments": ["3", "2", "19", "15", "4", "5", "31"],
     "intake": "September, February",
     "languages": "Italian, English (medicine, engineering)",
     "discountedPrice": "€1,200-€3,800/year (EU)",
@@ -92,14 +75,7 @@
     "country": "Italy",
     "address": "Piazza Leonardo da Vinci 32, 20133 Milano MI, Italy",
     "about": "Established in 1863, top-ranked for engineering/architecture",
-    "departments": [
-      "51",
-      "2",
-      "7",
-      "51",
-      "52",
-      "1"
-    ],
+    "departments": ["51", "2", "7", "51", "52", "1"],
     "intake": "September, February",
     "languages": "Italian, English (most master's programs)",
     "discountedPrice": "€3,000-€4,000/year (EU)",
@@ -117,15 +93,7 @@
     "country": "Italy",
     "address": "Via Festa del Perdono 7, 20122 Milano MI, Italy",
     "about": "Founded in 1924, ~65,000 students",
-    "departments": [
-      "19",
-      "2",
-      "31",
-      "3",
-      "4",
-      "5",
-      "7"
-    ],
+    "departments": ["19", "2", "31", "3", "4", "5", "7"],
     "intake": "September, February",
     "languages": "Italian, English (limited programs)",
     "discountedPrice": "€1,500-€3,600/year (EU)",
@@ -143,18 +111,7 @@
     "country": "Italy",
     "address": "Lungarno Antonio Pacinotti, 43, 56126 Pisa PI, Italy",
     "about": "Established in 1343, ~49,600 students",
-    "departments": [
-      "15",
-      "17",
-      "5",
-      "1",
-      "18",
-      "4",
-      "19",
-      "2",
-      "3",
-      "7"
-    ],
+    "departments": ["15", "17", "5", "1", "18", "4", "19", "2", "3", "7"],
     "intake": "September, February",
     "languages": "Italian, English (20+ programs)",
     "discountedPrice": "€1,400-€2,800/year (EU)",
@@ -172,18 +129,7 @@
     "country": "Italy",
     "address": "Corso Umberto I, 40, 80138 Napoli NA, Italy",
     "about": "Founded in 1224, ~72,000 students",
-    "departments": [
-      "2",
-      "15",
-      "3",
-      "4",
-      "19",
-      "18",
-      "5",
-      "51",
-      "7",
-      "2"
-    ],
+    "departments": ["2", "15", "3", "4", "19", "18", "5", "51", "7", "2"],
     "intake": "September, February",
     "languages": "Italian, English (limited programs)",
     "discountedPrice": "€1,000-€2,500/year (EU)",
@@ -201,17 +147,7 @@
     "country": "Italy",
     "address": "Corso Duca degli Abruzzi 24, 10129 Torino TO, Italy",
     "about": "Established in 1859, ~35,000 students",
-    "departments": [
-      "2",
-      "2",
-      "53",
-      "51",
-      "51",
-      "2",
-      "2",
-      "1",
-      "2"
-    ],
+    "departments": ["2", "2", "53", "51", "51", "2", "2", "1", "2"],
     "intake": "September, February",
     "languages": "Italian, English (most engineering programs)",
     "discountedPrice": "€2,800-€3,800/year (EU)",
@@ -229,15 +165,7 @@
     "country": "Italy",
     "address": "Dorsoduro 3246, 30123 Venezia VE, Italy",
     "about": "Founded in 1868, ~21,000 students",
-    "departments": [
-      "4",
-      "2",
-      "54",
-      "54",
-      "55",
-      "56",
-      "57"
-    ],
+    "departments": ["4", "2", "54", "54", "55", "56", "57"],
     "intake": "September, February",
     "languages": "Italian, English (business/economics programs)",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -255,18 +183,7 @@
     "country": "Italy",
     "address": "Via Verdi 8, 10124 Torino TO, Italy",
     "about": "Founded in 1404, ~70,000 students",
-    "departments": [
-      "3",
-      "2",
-      "4",
-      "5",
-      "1",
-      "31",
-      "2",
-      "15",
-      "7",
-      "2"
-    ],
+    "departments": ["3", "2", "4", "5", "1", "31", "2", "15", "7", "2"],
     "intake": "September, February",
     "languages": "Italian, English (selected programs)",
     "discountedPrice": "€1,200-€3,000/year (EU)",
@@ -284,17 +201,7 @@
     "country": "Italy",
     "address": "Via Balbi, 5, 16126 Genova GE, Italy",
     "about": "Founded in 1481, ~37,000 students",
-    "departments": [
-      "51",
-      "15",
-      "5",
-      "17",
-      "2",
-      "19",
-      "4",
-      "3",
-      "1"
-    ],
+    "departments": ["51", "15", "5", "17", "2", "19", "4", "3", "1"],
     "intake": "September, February",
     "languages": "Italian, English (limited programs)",
     "discountedPrice": "€1,000-€2,800/year (EU)",
@@ -312,18 +219,7 @@
     "country": "Italy",
     "address": "Via Giuseppe Verdi, 26, 38122 Trento TN, Italy",
     "about": "Established in 1962, ~16,000 students",
-    "departments": [
-      "58",
-      "31",
-      "15",
-      "4",
-      "17",
-      "5",
-      "1",
-      "56",
-      "3",
-      "59"
-    ],
+    "departments": ["58", "31", "15", "4", "17", "5", "1", "56", "3", "59"],
     "intake": "September, February",
     "languages": "Italian, English (many programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -341,17 +237,7 @@
     "country": "Italy",
     "address": "Piazza Marina, 61, 90133 Palermo PA, Italy",
     "about": "Founded in 1806, ~40,000 students",
-    "departments": [
-      "51",
-      "15",
-      "2",
-      "2",
-      "4",
-      "3",
-      "56",
-      "17",
-      "7"
-    ],
+    "departments": ["51", "15", "2", "2", "4", "3", "56", "17", "7"],
     "intake": "September, February",
     "languages": "Italian (most programs)",
     "discountedPrice": "€800-€2,500/year (EU)",
@@ -369,18 +255,7 @@
     "country": "Italy",
     "address": "Corso Strada Nuova, 65, 27100 Pavia PV, Italy",
     "about": "Founded in 1361, ~24,000 students",
-    "departments": [
-      "2",
-      "19",
-      "18",
-      "5",
-      "17",
-      "3",
-      "4",
-      "15",
-      "56",
-      "60"
-    ],
+    "departments": ["2", "19", "18", "5", "17", "3", "4", "15", "56", "60"],
     "intake": "September, February",
     "languages": "Italian, English (medical programs)",
     "discountedPrice": "€1,200-€3,200/year (EU)",
@@ -398,18 +273,7 @@
     "country": "Italy",
     "address": "Piazza San Marco, 4, 50121 Firenze FI, Italy",
     "about": "Founded in 1321, ~50,000 students",
-    "departments": [
-      "51",
-      "15",
-      "2",
-      "2",
-      "4",
-      "3",
-      "56",
-      "17",
-      "7",
-      "61"
-    ],
+    "departments": ["51", "15", "2", "2", "4", "3", "56", "17", "7", "61"],
     "intake": "September, February",
     "languages": "Italian, English (selected programs)",
     "discountedPrice": "€1,400-€3,000/year (EU)",
@@ -427,18 +291,7 @@
     "country": "Italy",
     "address": "Via G. Capponi, 9, 50121 Firenze FI, Italy",
     "about": "Established in 1321, ranks among top 10 public universities",
-    "departments": [
-      "54",
-      "15",
-      "49",
-      "19",
-      "18",
-      "5",
-      "17",
-      "15",
-      "51",
-      "7"
-    ],
+    "departments": ["54", "15", "49", "19", "18", "5", "17", "15", "51", "7"],
     "intake": "September, February",
     "languages": "Italian, English (15+ programs)",
     "discountedPrice": "€1,400-€3,000/year (EU)",
@@ -456,18 +309,7 @@
     "country": "Italy",
     "address": "Via Columbia, 1, 00133 Roma RM, Italy",
     "about": "Founded in 1982, top-ranked public university",
-    "departments": [
-      "4",
-      "15",
-      "3",
-      "17",
-      "2",
-      "5",
-      "7",
-      "2",
-      "1",
-      "56"
-    ],
+    "departments": ["4", "15", "3", "17", "2", "5", "7", "2", "1", "56"],
     "intake": "September, February",
     "languages": "Italian, English (20+ programs)",
     "discountedPrice": "€1,500-€3,200/year (EU)",
@@ -485,18 +327,7 @@
     "country": "Italy",
     "address": "Piazza del Campo, 1, 53100 Siena SI, Italy",
     "about": "Founded in 1240, one of Italy's oldest universities",
-    "departments": [
-      "3",
-      "4",
-      "62",
-      "2",
-      "18",
-      "5",
-      "2",
-      "56",
-      "7",
-      "4"
-    ],
+    "departments": ["3", "4", "62", "2", "18", "5", "2", "56", "7", "4"],
     "intake": "September, February",
     "languages": "Italian, English (medical/biotech programs)",
     "discountedPrice": "€1,200-€2,800/year (EU)",
@@ -514,18 +345,7 @@
     "country": "Italy",
     "address": "Piazza Università, 2, 95131 Catania CT, Italy",
     "about": "Founded in 1434, oldest in Sicily",
-    "departments": [
-      "2",
-      "2",
-      "19",
-      "17",
-      "5",
-      "3",
-      "4",
-      "61",
-      "29",
-      "15"
-    ],
+    "departments": ["2", "2", "19", "17", "5", "3", "4", "61", "29", "15"],
     "intake": "September, February",
     "languages": "Italian (most programs)",
     "discountedPrice": "€800-€2,200/year (EU)",
@@ -543,17 +363,7 @@
     "country": "Italy",
     "address": "Strada Le Grazie, 15, 37134 Verona VR, Italy",
     "about": "Founded in 1982, known for research quality",
-    "departments": [
-      "2",
-      "63",
-      "1",
-      "4",
-      "29",
-      "14",
-      "3",
-      "33",
-      "57"
-    ],
+    "departments": ["2", "63", "1", "4", "29", "14", "3", "33", "57"],
     "intake": "September, February",
     "languages": "Italian, English (business/CS programs)",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -571,18 +381,7 @@
     "country": "France",
     "address": "60 Rue Mazarine, 75006 Paris, France",
     "about": "Collegiate university formed by leading Paris institutions",
-    "departments": [
-      "15",
-      "4",
-      "2",
-      "64",
-      "44",
-      "56",
-      "62",
-      "17",
-      "1",
-      "5"
-    ],
+    "departments": ["15", "4", "2", "64", "44", "56", "62", "17", "1", "5"],
     "intake": "September (primary), February (limited programs)",
     "languages": "French (80%), English (20% of programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -600,18 +399,7 @@
     "country": "France",
     "address": "Route de Saclay, 91120 Palaiseau, France",
     "about": "Federation of five top engineering schools",
-    "departments": [
-      "48",
-      "2",
-      "65",
-      "1",
-      "17",
-      "36",
-      "66",
-      "67",
-      "68",
-      "69"
-    ],
+    "departments": ["48", "2", "65", "1", "17", "36", "66", "67", "68", "69"],
     "intake": "September",
     "languages": "French (60%), English (40%)",
     "discountedPrice": "€3,000-€6,000/year (EU)",
@@ -629,18 +417,7 @@
     "country": "France",
     "address": "21 Rue de l'école de médecine, 75006 Paris, France",
     "about": "Historic, multidisciplinary research university",
-    "departments": [
-      "4",
-      "1",
-      "56",
-      "44",
-      "4",
-      "64",
-      "17",
-      "5",
-      "19",
-      "18"
-    ],
+    "departments": ["4", "1", "56", "44", "4", "64", "17", "5", "19", "18"],
     "intake": "September, February (limited)",
     "languages": "French (majority), English (30+ programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -689,18 +466,7 @@
     "country": "France",
     "address": "12 Rue de l'École de Médecine, 75006 Paris, France",
     "about": "Multidisciplinary public institution",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "44",
-      "51",
-      "72",
-      "2",
-      "1",
-      "17",
-      "19"
-    ],
+    "departments": ["3", "4", "56", "44", "51", "72", "2", "1", "17", "19"],
     "intake": "September, February (some programs)",
     "languages": "French (majority), English (medical/STEM programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -778,18 +544,7 @@
     "country": "France",
     "address": "Place Eugène Bataillon, 34095 Montpellier, France",
     "about": "One of France's oldest universities",
-    "departments": [
-      "3",
-      "69",
-      "19",
-      "2",
-      "2",
-      "15",
-      "31",
-      "18",
-      "17",
-      "1"
-    ],
+    "departments": ["3", "69", "19", "2", "2", "15", "31", "18", "17", "1"],
     "intake": "September",
     "languages": "French, English (ecology/biology programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -807,18 +562,7 @@
     "country": "France",
     "address": "Capitole Campus, 31000 Toulouse, France",
     "about": "Group of public universities",
-    "departments": [
-      "3",
-      "4",
-      "7",
-      "2",
-      "15",
-      "15",
-      "1",
-      "17",
-      "31",
-      "2"
-    ],
+    "departments": ["3", "4", "7", "2", "15", "15", "1", "17", "31", "2"],
     "intake": "September",
     "languages": "French, English (aerospace/engineering programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -835,18 +579,7 @@
     "country": "France",
     "address": "3 Place Victor Hugo, 13100 Aix-en-Provence, France",
     "about": "Large institution formed by merging multiple universities",
-    "departments": [
-      "56",
-      "44",
-      "3",
-      "4",
-      "15",
-      "2",
-      "2",
-      "15",
-      "31",
-      "54"
-    ],
+    "departments": ["56", "44", "3", "4", "15", "2", "2", "15", "31", "54"],
     "intake": "September",
     "languages": "French, English (limited programs)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -863,18 +596,7 @@
     "country": "France",
     "address": "4 Rue Blaise Pascal, 67081 Strasbourg, France",
     "about": "Major multidisciplinary public research university",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "2",
-      "15",
-      "15",
-      "18",
-      "31",
-      "14",
-      "1"
-    ],
+    "departments": ["3", "4", "56", "2", "15", "15", "18", "31", "14", "1"],
     "intake": "September (primary), February (limited)",
     "languages": "French (80%), English (20%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -891,18 +613,7 @@
     "country": "France",
     "address": "59 Boulevard Paul Painlevé, 59000 Lille, France",
     "about": "Large northern France public university",
-    "departments": [
-      "56",
-      "44",
-      "2",
-      "2",
-      "3",
-      "4",
-      "15",
-      "15",
-      "31",
-      "29"
-    ],
+    "departments": ["56", "44", "2", "2", "3", "4", "15", "15", "31", "29"],
     "intake": "September",
     "languages": "French (90%), English (10%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -919,18 +630,7 @@
     "country": "France",
     "address": "Rue Christian Pauc, 44000 Nantes, France",
     "about": "Comprehensive research institution",
-    "departments": [
-      "15",
-      "15",
-      "56",
-      "44",
-      "2",
-      "2",
-      "3",
-      "4",
-      "1",
-      "54"
-    ],
+    "departments": ["15", "15", "56", "44", "2", "2", "3", "4", "1", "54"],
     "intake": "September",
     "languages": "French (85%), English (15%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -947,18 +647,7 @@
     "country": "France",
     "address": "1 Rue de Blois, 45067 Orléans, France",
     "about": "Regional public university group",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "15",
-      "15",
-      "2",
-      "2",
-      "31",
-      "29",
-      "1"
-    ],
+    "departments": ["3", "4", "56", "15", "15", "2", "2", "31", "29", "1"],
     "intake": "September",
     "languages": "French (95%), English (5%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -975,18 +664,7 @@
     "country": "France",
     "address": "Place Édouard-Leclerc, 35042 Rennes, France",
     "about": "Top-tier public university",
-    "departments": [
-      "16",
-      "15",
-      "2",
-      "2",
-      "41",
-      "17",
-      "1",
-      "5",
-      "18",
-      "54"
-    ],
+    "departments": ["16", "15", "2", "2", "41", "17", "1", "5", "18", "54"],
     "intake": "September",
     "languages": "French (80%), English (20%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1003,18 +681,7 @@
     "country": "France",
     "address": "1 Place Paul Muller, 54000 Nancy, France",
     "about": "Public university known for research",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "15",
-      "2",
-      "15",
-      "2",
-      "31",
-      "70",
-      "1"
-    ],
+    "departments": ["3", "4", "56", "15", "2", "15", "2", "31", "70", "1"],
     "intake": "September",
     "languages": "French (85%), English (15%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1031,18 +698,7 @@
     "country": "France",
     "address": "4 Rue des Chantres, 21000 Dijon, France",
     "about": "Regional public university",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "15",
-      "15",
-      "2",
-      "2",
-      "1",
-      "31",
-      "54"
-    ],
+    "departments": ["3", "4", "56", "15", "15", "2", "2", "1", "31", "54"],
     "intake": "September",
     "languages": "French (90%), English (10%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1059,18 +715,7 @@
     "country": "France",
     "address": "34 Avenue Carnot, 63037 Clermont-Ferrand, France",
     "about": "Mid-sized public university",
-    "departments": [
-      "15",
-      "2",
-      "2",
-      "3",
-      "4",
-      "56",
-      "15",
-      "31",
-      "71",
-      "1"
-    ],
+    "departments": ["15", "2", "2", "3", "4", "56", "15", "31", "71", "1"],
     "intake": "September",
     "languages": "French (90%), English (10%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1087,18 +732,7 @@
     "country": "France",
     "address": "1 Rue Georges Bonnet, 86022 Poitiers, France",
     "about": "Historic public university",
-    "departments": [
-      "56",
-      "15",
-      "3",
-      "4",
-      "2",
-      "2",
-      "15",
-      "31",
-      "29",
-      "1"
-    ],
+    "departments": ["56", "15", "3", "4", "2", "2", "15", "31", "29", "1"],
     "intake": "September",
     "languages": "French (90%), English (10%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1115,18 +749,7 @@
     "country": "France",
     "address": "5 Allée Antonio Machado, 31058 Toulouse, France",
     "about": "Focused on humanities and social sciences",
-    "departments": [
-      "56",
-      "44",
-      "29",
-      "14",
-      "31",
-      "37",
-      "49",
-      "76",
-      "58",
-      "14"
-    ],
+    "departments": ["56", "44", "29", "14", "31", "37", "49", "76", "58", "14"],
     "intake": "September",
     "languages": "French (95%), English (5%)",
     "discountedPrice": "€170-€3,770/year (EU)",
@@ -1144,15 +767,7 @@
     "country": "Spain",
     "address": "Via Laietana, 4, 08003 Barcelona, Spain",
     "about": "Founded in 1450, ranked among Spain's top institutions (~60,000 students)",
-    "departments": [
-      "73",
-      "74",
-      "70",
-      "2",
-      "37",
-      "75",
-      "38"
-    ],
+    "departments": ["73", "74", "70", "2", "37", "75", "38"],
     "intake": "September, February",
     "languages": "Spanish, Catalan, English (limited programs)",
     "discountedPrice": "€1,000-€2,500/year (EU)",
@@ -1170,11 +785,7 @@
     "country": "Spain",
     "address": "Camí de la Vall d'Hebron, s/n, 08193 Bellaterra",
     "about": "Established in 1968, strong in research (~30,000 students)",
-    "departments": [
-      "77",
-      "77",
-      "44"
-    ],
+    "departments": ["77", "77", "44"],
     "intake": "September",
     "languages": "Catalan, Spanish, English (30+ programs)",
     "discountedPrice": "€1,200-€3,000/year (EU)",
@@ -1192,13 +803,7 @@
     "country": "Spain",
     "address": "Plaça de la Mercè, 10-12, 08002 Barcelona",
     "about": "Founded in 1990 (~11,000 students)",
-    "departments": [
-      "76",
-      "4",
-      "56",
-      "7",
-      "1"
-    ],
+    "departments": ["76", "4", "56", "7", "1"],
     "intake": "September",
     "languages": "Catalan, Spanish, English (many programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1216,15 +821,7 @@
     "country": "Spain",
     "address": "Campus de Cantoblanco, 28049 Madrid",
     "about": "Since 1968 (~27,700 students)",
-    "departments": [
-      "19",
-      "18",
-      "5",
-      "17",
-      "1",
-      "3",
-      "2"
-    ],
+    "departments": ["19", "18", "5", "17", "1", "3", "2"],
     "intake": "September",
     "languages": "Spanish, English (limited)",
     "discountedPrice": "€1,000-€3,000/year (EU)",
@@ -1242,14 +839,7 @@
     "country": "Spain",
     "address": "Calle de San Bernardo, 49, 28015 Madrid",
     "about": "Founded in 1293 (~60,000 students)",
-    "departments": [
-      "2",
-      "46",
-      "3",
-      "79",
-      "56",
-      "31"
-    ],
+    "departments": ["2", "46", "3", "79", "56", "31"],
     "intake": "September, February",
     "languages": "Spanish (primary)",
     "discountedPrice": "€1,000-€2,800/year (EU)",
@@ -1267,15 +857,7 @@
     "country": "Spain",
     "address": "Av. de Blasco Ibáñez, 13, 46010 València",
     "about": "Founded in 1499 (~55,000 students)",
-    "departments": [
-      "19",
-      "18",
-      "2",
-      "2",
-      "4",
-      "3",
-      "1"
-    ],
+    "departments": ["19", "18", "2", "2", "4", "3", "1"],
     "intake": "September",
     "languages": "Valencian, Spanish, English (limited)",
     "discountedPrice": "€900-€2,500/year (EU)",
@@ -1293,14 +875,7 @@
     "country": "Spain",
     "address": "Calle Rector López Argüeta, s/n, 18071 Granada",
     "about": "Founded in 1531 (~50,000 students)",
-    "departments": [
-      "1",
-      "3",
-      "2",
-      "18",
-      "19",
-      "80"
-    ],
+    "departments": ["1", "3", "2", "18", "19", "80"],
     "intake": "September",
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,200/year (EU)",
@@ -1318,13 +893,7 @@
     "country": "Spain",
     "address": "Calle Ramiro de Maeztu, 7, 28040 Madrid",
     "about": "Established 1971 (~35,833 students)",
-    "departments": [
-      "51",
-      "2",
-      "7",
-      "51",
-      "1"
-    ],
+    "departments": ["51", "2", "7", "51", "1"],
     "intake": "September",
     "languages": "Spanish, English (engineering programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1342,13 +911,7 @@
     "country": "Spain",
     "address": "c. Jordi Girona, 1-3, 08034 Barcelona",
     "about": "Founded 1971 (~33,000 students)",
-    "departments": [
-      "51",
-      "51",
-      "2",
-      "48",
-      "1"
-    ],
+    "departments": ["51", "51", "2", "48", "1"],
     "intake": "September",
     "languages": "Catalan, Spanish, English (many programs)",
     "discountedPrice": "€1,800-€4,000/year (EU)",
@@ -1366,13 +929,7 @@
     "country": "Spain",
     "address": "Camino de Vera, s/n, 46022 València",
     "about": "Since 1968 (~26,000 students)",
-    "departments": [
-      "51",
-      "2",
-      "48",
-      "1",
-      "51"
-    ],
+    "departments": ["51", "2", "48", "1", "51"],
     "intake": "September",
     "languages": "Spanish, Valencian, English (many engineering programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1388,17 +945,7 @@
     "country": "Spain",
     "address": "Avenida de la Reina Mercedes, s/n, 41012 Sevilla",
     "about": "Founded in 1505, one of Spain's oldest (~57,000 students)",
-    "departments": [
-      "51",
-      "81",
-      "1",
-      "2",
-      "2",
-      "19",
-      "18",
-      "4",
-      "3"
-    ],
+    "departments": ["51", "81", "1", "2", "2", "19", "18", "4", "3"],
     "intake": "September, February",
     "languages": "Spanish (primary), English (limited STEM programs)",
     "discountedPrice": "€800-€2,500/year (EU)",
@@ -1414,15 +961,7 @@
     "country": "Spain",
     "address": "Plaza de Torres Quevedo 1, 48013 Bilbao",
     "about": "Main Basque university, top 10 in Spain",
-    "departments": [
-      "15",
-      "3",
-      "4",
-      "2",
-      "2",
-      "31",
-      "1"
-    ],
+    "departments": ["15", "3", "4", "2", "2", "31", "1"],
     "intake": "September",
     "languages": "Basque, Spanish, English (engineering programs)",
     "discountedPrice": "€1,000-€3,000/year (EU)",
@@ -1438,14 +977,7 @@
     "country": "Spain",
     "address": "Calle Ramiro de Maeztu, 7, 28040 Madrid",
     "about": "Spain's leading engineering school (~35,000 students)",
-    "departments": [
-      "51",
-      "2",
-      "68",
-      "72",
-      "66",
-      "51"
-    ],
+    "departments": ["51", "2", "68", "72", "66", "51"],
     "intake": "September",
     "languages": "Spanish, English (many engineering programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1461,13 +993,7 @@
     "country": "Spain",
     "address": "Carrer de Jordi Girona, 1-3, 08034 Barcelona",
     "about": "Top European technical university (founded 1971)",
-    "departments": [
-      "51",
-      "51",
-      "2",
-      "48",
-      "1"
-    ],
+    "departments": ["51", "51", "2", "48", "1"],
     "intake": "September",
     "languages": "Catalan, Spanish, English (many programs)",
     "discountedPrice": "€1,800-€4,000/year (EU)",
@@ -1483,13 +1009,7 @@
     "country": "Spain",
     "address": "Camino de Vera, s/n, 46022 Valencia",
     "about": "Specializes in science/technology (~28,700 students)",
-    "departments": [
-      "51",
-      "2",
-      "48",
-      "1",
-      "51"
-    ],
+    "departments": ["51", "2", "48", "1", "51"],
     "intake": "September",
     "languages": "Spanish, Valencian, English (many programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1505,14 +1025,7 @@
     "country": "Spain",
     "address": "Calle Rector López Argüeta, s/n, 18071 Granada",
     "about": "Founded 1531, strong in humanities/CS (~50,000 students)",
-    "departments": [
-      "1",
-      "3",
-      "2",
-      "2",
-      "19",
-      "18"
-    ],
+    "departments": ["1", "3", "2", "2", "19", "18"],
     "intake": "September",
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,200/year (EU)",
@@ -1528,14 +1041,7 @@
     "country": "Spain",
     "address": "Patio de Escuelas, 37008 Salamanca",
     "about": "Europe's 3rd oldest (founded 1218)",
-    "departments": [
-      "3",
-      "56",
-      "4",
-      "19",
-      "18",
-      "2"
-    ],
+    "departments": ["3", "56", "4", "19", "18", "2"],
     "intake": "September",
     "languages": "Spanish (primary)",
     "discountedPrice": "€900-€2,800/year (EU)",
@@ -1551,14 +1057,7 @@
     "country": "Spain",
     "address": "Plaza de Paraíso, s/n, 50005 Zaragoza",
     "about": "Public since 1542, top 20 in Spain",
-    "departments": [
-      "15",
-      "15",
-      "17",
-      "1",
-      "3",
-      "2"
-    ],
+    "departments": ["15", "15", "17", "1", "3", "2"],
     "intake": "September",
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,500/year (EU)",
@@ -1574,14 +1073,7 @@
     "country": "Spain",
     "address": "Rúa do Franco, s/n, 15782",
     "about": "Founded 1495, prestigious Galician university",
-    "departments": [
-      "56",
-      "15",
-      "3",
-      "2",
-      "2",
-      "15"
-    ],
+    "departments": ["56", "15", "3", "2", "2", "15"],
     "intake": "September",
     "languages": "Galician, Spanish (primary)",
     "discountedPrice": "€700-€2,200/year (EU)",
@@ -1597,14 +1089,7 @@
     "country": "Spain",
     "address": "Plaza de Santa Cruz, 8, 47002",
     "about": "13th century roots, top 20 Spanish public uni",
-    "departments": [
-      "3",
-      "4",
-      "56",
-      "15",
-      "15",
-      "2"
-    ],
+    "departments": ["3", "4", "56", "15", "15", "2"],
     "intake": "September",
     "languages": "Spanish (primary)",
     "discountedPrice": "€800-€2,500/year (EU)",
@@ -1621,9 +1106,7 @@
     "city": "Kaunas",
     "country": "Lithuania",
     "about": "Established in 2010 from merger of medical and veterinary academies, it has ~6,300 students",
-    "departments": [
-      "72"
-    ],
+    "departments": ["72"],
     "intake": "Fall (main intake), Spring (limited programs)",
     "languages": "Lithuanian, English (Medicine/Dentistry programs)",
     "discountedPrice": "€7,500-€12,000/year (non-EU)",
@@ -1640,9 +1123,7 @@
     "city": "Vilnius",
     "country": "Lithuania",
     "about": "Named after Constitutional Law pioneer, specializes in social sciences with Law School and Public Security Academy",
-    "departments": [
-      "82"
-    ],
+    "departments": ["82"],
     "intake": "Fall, Spring (rolling admissions)",
     "languages": "Lithuanian, English (Law, Business, Psychology)",
     "discountedPrice": "€2,100-€3,800/year (EU), €2,800-€5,200/year (non-EU)",
@@ -1659,9 +1140,7 @@
     "city": "Klaipėda",
     "country": "Lithuania",
     "about": "Founded in 1991, focuses on maritime studies and coastal research",
-    "departments": [
-      "83"
-    ],
+    "departments": ["83"],
     "intake": "Fall (main), Summer (short courses)",
     "languages": "Lithuanian, English (Marine Sciences, Tourism)",
     "discountedPrice": "€2,000-€3,500/year (EU), €2,500-€4,500/year (non-EU)",
@@ -1678,9 +1157,7 @@
     "country": "Lithuania",
     "city": "Kaunas",
     "about": "Established 1934, focused on sports sciences",
-    "departments": [
-      "84"
-    ],
+    "departments": ["84"],
     "intake": "Fall (main), Spring (short courses)",
     "languages": "Lithuanian, English (Masters programs)",
     "discountedPrice": "€2,300-€3,800/year",
@@ -1697,9 +1174,7 @@
     "country": "Lithuania",
     "city": "Vilnius",
     "about": "Founded 1935, focused on teacher training",
-    "departments": [
-      "124"
-    ],
+    "departments": ["124"],
     "intake": "Fall (main), Summer (upgrading courses)",
     "languages": "Lithuanian (primary), some English modules",
     "discountedPrice": "€1,800-€2,500/year (EU)",
@@ -1716,9 +1191,7 @@
     "country": "Lithuania",
     "city": "Kaunas",
     "about": "Founded 1924, agriculture-focused public university",
-    "departments": [
-      "86"
-    ],
+    "departments": ["86"],
     "intake": "Fall (main), Spring (selected programs)",
     "languages": "Lithuanian, English (Food Technology MSc)",
     "discountedPrice": "€1,900-€3,200/year (EU), €2,800-€4,500/year (non-EU)",
@@ -1736,13 +1209,7 @@
     "country": "Lithuania",
     "address": "P. Višinskio g. 25, LT-76351 Šiauliai",
     "about": "Regional branch of Vilnius University (integrated 2021), continuing Šiauliai University's legacy",
-    "departments": [
-      "87",
-      "88",
-      "89",
-      "58",
-      "90"
-    ],
+    "departments": ["87", "88", "89", "58", "90"],
     "intake": "September (main), February (limited programs)",
     "languages": "Lithuanian (primary), English (selected programs)",
     "discountedPrice": "€1,200-€2,800/year (EU citizens)",
@@ -1760,13 +1227,7 @@
     "country": "Lithuania",
     "address": "Sporto g. 6, LT-44221 Kaunas",
     "about": "Founded 1934, specializing in sports sciences and physical education",
-    "departments": [
-      "58",
-      "41",
-      "91",
-      "92",
-      "93"
-    ],
+    "departments": ["58", "41", "91", "92", "93"],
     "intake": "September",
     "languages": "Lithuanian, English (sports science programs)",
     "discountedPrice": "€1,500-€3,200/year (EU)",
@@ -1784,13 +1245,7 @@
     "country": "Lithuania",
     "address": "V. Putvinskio g. 53, LT-68339 Marijampolė",
     "about": "Established 1932, offering professional bachelor's degrees",
-    "departments": [
-      "94",
-      "95",
-      "96",
-      "97",
-      "139"
-    ],
+    "departments": ["94", "95", "96", "97", "139"],
     "intake": "September",
     "languages": "Lithuanian (primary), some English-taught business programs",
     "discountedPrice": "€1,000-€2,200/year (EU)",
@@ -1808,13 +1263,7 @@
     "country": "Lithuania",
     "address": "Gedimino pr. 42, LT-01110 Vilnius",
     "about": "Founded 1933, premier institution for performing arts",
-    "departments": [
-      "98",
-      "99",
-      "100",
-      "48",
-      "101"
-    ],
+    "departments": ["98", "99", "100", "48", "101"],
     "intake": "September (annual auditions required)",
     "languages": "Lithuanian, some English instruction",
     "discountedPrice": "€1,800-€3,500/year (EU)",
@@ -1832,13 +1281,7 @@
     "country": "Lithuania",
     "address": "A. Mickevičiaus g. 9, LT-44307 Kaunas",
     "about": "Formed 2010 by merging medical institutions",
-    "departments": [
-      "2",
-      "46",
-      "2",
-      "102",
-      "103"
-    ],
+    "departments": ["2", "46", "2", "102", "103"],
     "intake": "September",
     "languages": "Lithuanian, English (medicine/dentistry programs)",
     "discountedPrice": "€2,500-€4,500/year (EU)",
@@ -1856,12 +1299,7 @@
     "country": "Lithuania",
     "address": "Šilo g. 5A, LT-10322 Vilnius",
     "about": "Established 1992, training military officers",
-    "departments": [
-      "61",
-      "61",
-      "104",
-      "15"
-    ],
+    "departments": ["61", "61", "104", "15"],
     "intake": "September (rigorous selection process)",
     "languages": "Lithuanian (required), English/NATO languages",
     "discountedPrice": "Fully funded for Lithuanian cadets",
@@ -1879,13 +1317,7 @@
     "country": "Lithuania",
     "address": "Maironio g. 6, LT-01124 Vilnius",
     "about": "Founded 1793, leading arts institution",
-    "departments": [
-      "4",
-      "52",
-      "105",
-      "51",
-      "106"
-    ],
+    "departments": ["4", "52", "105", "51", "106"],
     "intake": "September (portfolio review required)",
     "languages": "Lithuanian, some English instruction",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -1903,12 +1335,7 @@
     "country": "Lithuania",
     "address": "Studentų g. 39, LT-08106 Vilnius",
     "about": "Established 1935, focused on teacher training",
-    "departments": [
-      "107",
-      "31",
-      "58",
-      "108"
-    ],
+    "departments": ["107", "31", "58", "108"],
     "intake": "September",
     "languages": "Lithuanian (primary)",
     "discountedPrice": "€1,000-€2,500/year (EU)",
@@ -1926,12 +1353,7 @@
     "country": "Lithuania",
     "address": "Studentų g. 11, Akademija, LT-53361 Kaunas dist.",
     "about": "Agricultural institution established 1924, now part of research center",
-    "departments": [
-      "61",
-      "109",
-      "110",
-      "111"
-    ],
+    "departments": ["61", "109", "110", "111"],
     "intake": "September",
     "languages": "Lithuanian, some English programs",
     "discountedPrice": "€1,200-€2,800/year (EU)",
@@ -1949,12 +1371,7 @@
     "country": "Lithuania",
     "address": "K. Donelaičio g. 58, LT-44248 Kaunas",
     "about": "Founded 1922, comprehensive public university",
-    "departments": [
-      "56",
-      "44",
-      "64",
-      "14"
-    ],
+    "departments": ["56", "44", "64", "14"],
     "intake": "September, February (limited)",
     "languages": "Lithuanian, English (50+ programs)",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -1972,14 +1389,7 @@
     "country": "Latvia",
     "address": "Raiņa bulvāris 19, LV-1586 Riga",
     "about": "Founded 1919, Latvia's largest research university",
-    "departments": [
-      "1",
-      "19",
-      "18",
-      "3",
-      "4",
-      "112"
-    ],
+    "departments": ["1", "19", "18", "3", "4", "112"],
     "intake": "September, February (limited)",
     "languages": "Latvian (primary), English (50+ programs)",
     "discountedPrice": "€1,500-€3,500/year (EU)",
@@ -1997,13 +1407,7 @@
     "country": "Latvia",
     "address": "Ķīpsalas iela 6A, LV-1048",
     "about": "Established 1862, oldest technical university in Baltics (~10,700 students)",
-    "departments": [
-      "81",
-      "2",
-      "72",
-      "1",
-      "113"
-    ],
+    "departments": ["81", "2", "72", "1", "113"],
     "intake": "September",
     "languages": "Latvian, English (most engineering programs)",
     "discountedPrice": "€1,800-€4,000/year (EU)",
@@ -2021,13 +1425,7 @@
     "country": "Latvia",
     "address": "Dzirciema iela 16, LV-1007",
     "about": "Founded 1950, leading health sciences university (~12,000 students)",
-    "departments": [
-      "2",
-      "46",
-      "2",
-      "103",
-      "114"
-    ],
+    "departments": ["2", "46", "2", "103", "114"],
     "intake": "September",
     "languages": "Latvian, English (medicine/dentistry programs)",
     "discountedPrice": "€2,500-€5,000/year (EU)",
@@ -2045,12 +1443,7 @@
     "country": "Latvia",
     "address": "Sv. Trīsvienības laukums 5, LV-3001",
     "about": "Established 1938, agriculture/veterinary focus (~3,800 students)",
-    "departments": [
-      "61",
-      "109",
-      "102",
-      "115"
-    ],
+    "departments": ["61", "109", "102", "115"],
     "intake": "September",
     "languages": "Latvian, English (selected programs)",
     "discountedPrice": "€1,200-€3,000/year (EU)",
@@ -2068,12 +1461,7 @@
     "country": "Latvia",
     "address": "Vienības iela 13, LV-5401",
     "about": "Founded 1921, largest regional university (~2,000 students)",
-    "departments": [
-      "29",
-      "56",
-      "64",
-      "116"
-    ],
+    "departments": ["29", "56", "64", "116"],
     "intake": "September",
     "languages": "Latvian, Russian, English (limited)",
     "discountedPrice": "€1,000-€2,500/year (EU)",
@@ -2091,12 +1479,7 @@
     "country": "Latvia",
     "address": "Atbrīvošanas aleja 115, LV-4601",
     "about": "Founded 1922, multidisciplinary regional center",
-    "departments": [
-      "15",
-      "117",
-      "63",
-      "118"
-    ],
+    "departments": ["15", "117", "63", "118"],
     "intake": "September",
     "languages": "Latvian (primary)",
     "discountedPrice": "€900-€2,200/year (EU)",
@@ -2114,11 +1497,7 @@
     "country": "Latvia",
     "address": "Gaujas iela 33, LV-4101",
     "about": "Established 1996 (~900 students)",
-    "departments": [
-      "63",
-      "119",
-      "120"
-    ],
+    "departments": ["63", "119", "120"],
     "intake": "September",
     "languages": "Latvian, English (selected programs)",
     "discountedPrice": "€1,000-€2,500/year (EU)",
@@ -2136,12 +1515,7 @@
     "country": "Latvia",
     "address": "Kalpaka bulvāris 13, LV-1050",
     "about": "Founded 1921, premier arts institution",
-    "departments": [
-      "121",
-      "52",
-      "105",
-      "122"
-    ],
+    "departments": ["121", "52", "105", "122"],
     "intake": "September (portfolio review)",
     "languages": "Latvian (primary)",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -2159,11 +1533,7 @@
     "country": "Latvia",
     "address": "Inženieru iela 101, LV-3601",
     "about": "Established 1997 (~900 students)",
-    "departments": [
-      "15",
-      "1",
-      "123"
-    ],
+    "departments": ["15", "1", "123"],
     "intake": "September",
     "languages": "Latvian, English (IT/business programs)",
     "discountedPrice": "€1,000-€2,800/year (EU)",
@@ -2181,11 +1551,7 @@
     "country": "Latvia",
     "address": "Ludzas iela 24, LV-1003",
     "about": "Founded 1990, cultural management focus",
-    "departments": [
-      "124",
-      "125",
-      "19"
-    ],
+    "departments": ["124", "125", "19"],
     "intake": "September",
     "languages": "Latvian (primary)",
     "discountedPrice": "€1,200-€2,800/year (EU)",
@@ -2202,9 +1568,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Founded 1921; national center for physical education and sports science",
-    "departments": [
-      "19"
-    ],
+    "departments": ["19"],
     "intake": "September, February (limited programs)",
     "languages": "Latvian, English (Masters programs)",
     "discountedPrice": "€1,800-€2,500/year (EU), €2,500-€3,800/year (non-EU)",
@@ -2221,11 +1585,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Founded 1919; public conservatoire for music education",
-    "departments": [
-      "127",
-      "128",
-      "128"
-    ],
+    "departments": ["127", "128", "128"],
     "intake": "September (audition-based)",
     "languages": "Latvian, English (individual instruction available)",
     "discountedPrice": "€2,000-€3,000/year (EU), €3,000-€5,000/year (non-EU)",
@@ -2242,9 +1602,7 @@
     "city": "Liepāja",
     "country": "Latvia",
     "about": "Established 1954; regional public university",
-    "departments": [
-      "128"
-    ],
+    "departments": ["128"],
     "intake": "September, January (short courses)",
     "languages": "Latvian, English (selected BA/MSc)",
     "discountedPrice": "€1,500-€2,800/year (regional discounts)",
@@ -2261,9 +1619,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Founded 1992; public business school",
-    "departments": [
-      "129"
-    ],
+    "departments": ["129"],
     "intake": "September, February (MBA)",
     "languages": "Latvian, English (all Masters programs)",
     "discountedPrice": "€2,100-€3,200/year (early bird)",
@@ -2280,9 +1636,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Established 1992; one of Latvia's largest private universities",
-    "departments": [
-      "130"
-    ],
+    "departments": ["130"],
     "intake": "Rolling admissions (6 intakes/year)",
     "languages": "Russian, Latvian, English",
     "discountedPrice": "€1,500-€2,500/year",
@@ -2299,9 +1653,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Founded 1999; specializes in transport, logistics, telecom and IT",
-    "departments": [
-      "131"
-    ],
+    "departments": ["131"],
     "intake": "September, February",
     "languages": "Latvian, English (all IT programs)",
     "discountedPrice": "€1,800-€3,000/year",
@@ -2318,9 +1670,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Special public teacher education institution",
-    "departments": [
-      "132"
-    ],
+    "departments": ["132"],
     "intake": "September (state-funded cohorts)",
     "languages": "Latvian (primary)",
     "discountedPrice": "€1,200-€2,000/year (state-subsidized)",
@@ -2337,9 +1687,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Specialist psychology institution",
-    "departments": [
-      "8"
-    ],
+    "departments": ["8"],
     "intake": "October, March",
     "languages": "Latvian, Russian, English (select courses)",
     "discountedPrice": "€2,500-€3,800/year",
@@ -2356,9 +1704,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Specialist public law school",
-    "departments": [
-      "133"
-    ],
+    "departments": ["133"],
     "intake": "September (competitive)",
     "languages": "English (primary), Latvian",
     "discountedPrice": "€3,800-€5,500/year (EU)",
@@ -2375,9 +1721,7 @@
     "city": "Riga",
     "country": "Latvia",
     "about": "Established 1994 as specialist business school",
-    "departments": [
-      "134"
-    ],
+    "departments": ["134"],
     "intake": "August (single annual intake)",
     "languages": "English (100%)",
     "discountedPrice": "€6,000-€8,000/year (merit-based)",
@@ -2394,13 +1738,7 @@
     "country": "Austria",
     "address": "Universitätsring 1, 1010 Vienna",
     "about": "Founded in 1365, oldest university in German-speaking world (~94,000 students)",
-    "departments": [
-      "135",
-      "3",
-      "1",
-      "17",
-      "57"
-    ],
+    "departments": ["135", "3", "1", "17", "57"],
     "intake": "October (Winter), March (Summer)",
     "languages": "German (primary), English (150+ programs)",
     "discountedPrice": "€726.72/semester (EU/EEA)",
@@ -2417,12 +1755,7 @@
     "country": "Austria",
     "address": "Karlsplatz 13, 1040 Vienna",
     "about": "Established 1815, top technical university (~28,100 students)",
-    "departments": [
-      "51",
-      "81",
-      "1",
-      "57"
-    ],
+    "departments": ["51", "81", "1", "57"],
     "intake": "October",
     "languages": "German, English (most master's programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2439,12 +1772,7 @@
     "country": "Austria",
     "address": "Universitätsstraße 15, 6020 Innsbruck",
     "about": "Founded 1669 (~28,300 students)",
-    "departments": [
-      "57",
-      "3",
-      "4",
-      "57"
-    ],
+    "departments": ["57", "3", "4", "57"],
     "intake": "October, March",
     "languages": "German, English (selected programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2461,11 +1789,7 @@
     "country": "Austria",
     "address": "Universitätsplatz 3, 8010 Graz",
     "about": "Established 1585 (~27,600 students)",
-    "departments": [
-      "14",
-      "64",
-      "136"
-    ],
+    "departments": ["14", "64", "136"],
     "intake": "October",
     "languages": "German (primary), English (limited)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2482,11 +1806,7 @@
     "country": "Austria",
     "address": "Kopernikusgasse 24-32, 8010 Graz",
     "about": "Founded 1811 (~17,000 students)",
-    "departments": [
-      "51",
-      "81",
-      "136"
-    ],
+    "departments": ["51", "81", "136"],
     "intake": "October",
     "languages": "German, English (engineering programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2503,12 +1823,7 @@
     "country": "Austria",
     "address": "Altenberger Straße 69, 4040 Linz",
     "about": "Founded 1966 (~24,000 students)",
-    "departments": [
-      "63",
-      "3",
-      "15",
-      "137"
-    ],
+    "departments": ["63", "3", "15", "137"],
     "intake": "October",
     "languages": "German, English (business/tech programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2525,11 +1840,7 @@
     "country": "Austria",
     "address": "Spitalgasse 23, 1090 Vienna",
     "about": "Established 2004 (formerly part of University of Vienna)",
-    "departments": [
-      "2",
-      "46",
-      "138"
-    ],
+    "departments": ["2", "46", "138"],
     "intake": "October",
     "languages": "German (required for clinical), English (PhD)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2546,11 +1857,7 @@
     "country": "Austria",
     "address": "Peter-Jordan-Straße 82, 1190 Vienna",
     "about": "Founded 1872 (~10,900 students)",
-    "departments": [
-      "4",
-      "109",
-      "139"
-    ],
+    "departments": ["4", "109", "139"],
     "intake": "October",
     "languages": "German, English (master's programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2567,11 +1874,7 @@
     "country": "Austria",
     "address": "Welthandelsplatz 1, 1020 Vienna",
     "about": "Founded 1898 (~23,800 students)",
-    "departments": [
-      "140",
-      "141",
-      "57"
-    ],
+    "departments": ["140", "141", "57"],
     "intake": "October",
     "languages": "German, English (many programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2588,11 +1891,7 @@
     "country": "Austria",
     "address": "Kapitelgasse 4-6, 5020 Salzburg",
     "about": "Founded 1622 (~18,000 students)",
-    "departments": [
-      "135",
-      "67",
-      "142"
-    ],
+    "departments": ["135", "67", "142"],
     "intake": "October",
     "languages": "German, English (35% master's programs)",
     "discountedPrice": "€726.72/semester (EU)",
@@ -2610,10 +1909,7 @@
     "country": "Austria",
     "address": "Veterinärplatz 1, 1210 Vienna",
     "about": "Founded in 1897, Austria's dedicated public university for veterinary and animal sciences",
-    "departments": [
-      "56",
-      "143"
-    ],
+    "departments": ["56", "143"],
     "intake": "October (main), March (limited programs)",
     "languages": "German (primary), English (PhD/MSc programs)",
     "discountedPrice": "€726/semester (EU), €1,450-€3,000/semester (non-EU)",
@@ -2631,9 +1927,7 @@
     "country": "Austria",
     "address": "Auenbruggerplatz 2, 8036 Graz",
     "about": "Independent since 2004; top-ranked public medical school",
-    "departments": [
-      "18"
-    ],
+    "departments": ["18"],
     "intake": "October (competitive entrance exam)",
     "languages": "German (MD), English (selected MSc/PhD)",
     "discountedPrice": "€363/semester (EU citizens)",
@@ -2651,9 +1945,7 @@
     "country": "Austria",
     "address": "Müllerstraße 44, 6020 Innsbruck",
     "about": "Public medical university established in 2004",
-    "departments": [
-      "145"
-    ],
+    "departments": ["145"],
     "intake": "October (MEDAT entrance exam)",
     "languages": "German (primary), English (research programs)",
     "discountedPrice": "€363/semester (EU/EEA)",
@@ -2670,9 +1962,7 @@
     "city": "Leoben",
     "country": "Austria; Franz-Josef-Straße 18, 8700 Leoben",
     "about": "Founded 1840 as mining/metallurgy institute",
-    "departments": [
-      "146"
-    ],
+    "departments": ["146"],
     "intake": "October, March (technical programs)",
     "languages": "German (BS), English (MSc/PhD)",
     "discountedPrice": "€363/semester (EU)",
@@ -2689,9 +1979,7 @@
     "city": "Krems an der Donau",
     "country": "Austria",
     "about": "Public postgraduate university (founded 1994)",
-    "departments": [
-      "147"
-    ],
+    "departments": ["147"],
     "intake": "Rolling (modular programs)",
     "languages": "German (70%), English (30%)",
     "discountedPrice": "€3,500-€7,000/program",
@@ -2708,9 +1996,7 @@
     "city": "Vienna",
     "country": "Austria; Schillerplatz 3, 1010 Vienna",
     "about": "Public art/design university (founded 1948)",
-    "departments": [
-      "148"
-    ],
+    "departments": ["148"],
     "intake": "September (portfolio review)",
     "languages": "German, English (international programs)",
     "discountedPrice": "€363/semester (EU)",
@@ -2727,9 +2013,7 @@
     "city": "Vienna",
     "country": "Austria",
     "about": "Leading conservatoire (founded 1817)",
-    "departments": [
-      "149"
-    ],
+    "departments": ["149"],
     "intake": "September (audition-based)",
     "languages": "German, English (individual instruction)",
     "discountedPrice": "€363/semester (EU)",
@@ -2746,9 +2030,7 @@
     "city": "Salzburg",
     "country": "Austria",
     "about": "Music/dramatic arts university (1841)",
-    "departments": [
-      "150"
-    ],
+    "departments": ["150"],
     "intake": "September (competitive auditions)",
     "languages": "German (primary), English (masterclasses)",
     "discountedPrice": "€363/semester (EU)",
@@ -2765,9 +2047,7 @@
     "city": "Linz",
     "country": "Austria",
     "about": "Public art/design university (1973)",
-    "departments": [
-      "151"
-    ],
+    "departments": ["151"],
     "intake": "October (portfolio review)",
     "languages": "German, English (international programs)",
     "discountedPrice": "€363/semester (EU)",
@@ -2784,9 +2064,7 @@
     "city": "Klosterneuburg",
     "country": "Austria",
     "about": "Interdisciplinary research institute (2009)",
-    "departments": [
-      "152"
-    ],
+    "departments": ["152"],
     "intake": "Rolling PhD admissions",
     "languages": "English (100%)",
     "discountedPrice": "Fully funded PhD positions",
@@ -2804,12 +2082,7 @@
     "country": "Germany",
     "address": "Geschwister-Scholl-Platz 1, 80539 München",
     "about": "Founded 1472, one of Europe's premier research universities (~52,000 students)",
-    "departments": [
-      "30",
-      "3",
-      "5",
-      "69"
-    ],
+    "departments": ["30", "3", "5", "69"],
     "intake": "October (Winter), April (Summer)",
     "languages": "German (primary), English (150+ programs)",
     "tuition": "No tuition (€62-€152 semester fee)",
@@ -2826,11 +2099,7 @@
     "country": "Germany",
     "address": "Arcisstraße 21, 80333 München",
     "about": "Founded 1868, Germany's top-ranked technical university",
-    "departments": [
-      "153",
-      "68",
-      "62"
-    ],
+    "departments": ["153", "68", "62"],
     "intake": "October, April",
     "languages": "German, English (most master's programs)",
     "tuition": "No tuition (€62-€152 semester fee)",
@@ -2847,11 +2116,7 @@
     "country": "Germany",
     "address": "Grabengasse 1, 69117 Heidelberg",
     "about": "Established 1386, Germany's oldest university",
-    "departments": [
-      "154",
-      "5",
-      "155"
-    ],
+    "departments": ["154", "5", "155"],
     "intake": "October, April",
     "languages": "German, English (30% of programs)",
     "tuition": "No tuition (€160 semester fee)",
@@ -2868,10 +2133,7 @@
     "country": "Germany",
     "address": "Unter den Linden 6, 10099 Berlin",
     "about": "Founded 1810, pioneered research university model",
-    "departments": [
-      "156",
-      "1"
-    ],
+    "departments": ["156", "1"],
     "intake": "October, April",
     "languages": "German (primary), English (growing)",
     "tuition": "No tuition (€300 semester fee incl. transport)",
@@ -2888,10 +2150,7 @@
     "country": "Germany",
     "address": "Kaiserswerther Str. 16-18, 14195 Berlin",
     "about": "Established 1948, leading research university",
-    "departments": [
-      "157",
-      "158"
-    ],
+    "departments": ["157", "158"],
     "intake": "October, April",
     "languages": "German, English (many graduate programs)",
     "tuition": "No tuition (€300 semester fee incl. transport)",
@@ -2908,10 +2167,7 @@
     "country": "Germany",
     "address": "Templergraben 55, 52062 Aachen",
     "about": "Germany's largest technical university (~47,000 students)",
-    "departments": [
-      "158",
-      "2"
-    ],
+    "departments": ["158", "2"],
     "intake": "October",
     "languages": "German (required for bachelor's), English (many master's)",
     "tuition": "No tuition (€300 semester fee)",
@@ -2928,10 +2184,7 @@
     "country": "Germany",
     "address": "Fahnenbergplatz, 79085 Freiburg",
     "about": "Founded 1457, comprehensive research university",
-    "departments": [
-      "159",
-      "15"
-    ],
+    "departments": ["159", "15"],
     "intake": "October, April",
     "languages": "German, English (selected programs)",
     "tuition": "No tuition (€160 semester fee)",
@@ -2948,10 +2201,7 @@
     "country": "Germany",
     "address": "Wilhelmsplatz 1, 37073 Göttingen",
     "about": "Established 1737, research-intensive with 45 Nobel laureates",
-    "departments": [
-      "160",
-      "61"
-    ],
+    "departments": ["160", "61"],
     "intake": "October, April",
     "languages": "German, English (many graduate programs)",
     "tuition": "No tuition (€350 semester fee)",
@@ -2968,10 +2218,7 @@
     "country": "Germany",
     "address": "Geschwister-Scholl-Platz, 72074 Tübingen",
     "about": "Founded 1477, strong in medicine and humanities",
-    "departments": [
-      "161",
-      "162"
-    ],
+    "departments": ["161", "162"],
     "intake": "October, April",
     "languages": "German (primary), English (limited)",
     "tuition": "No tuition (€160 semester fee)",
@@ -2988,10 +2235,7 @@
     "country": "Germany",
     "address": "Regina-Pacis-Weg 3, 53113 Bonn",
     "about": "Established 1818, excellence in mathematics and agriculture",
-    "departments": [
-      "163",
-      "17"
-    ],
+    "departments": ["163", "17"],
     "intake": "October, April",
     "languages": "German, English (selected STEM programs)",
     "tuition": "No tuition (€300 semester fee)",
@@ -3008,15 +2252,7 @@
     "country": "Germany",
     "address": "Schloss, 68161 Mannheim",
     "about": "Germany's top business school with strong economics and social sciences programs",
-    "departments": [
-      "163",
-      "4",
-      "3",
-      "44",
-      "56",
-      "36",
-      "165"
-    ],
+    "departments": ["163", "4", "3", "44", "56", "36", "165"],
     "intake": "October (Winter), April (Summer for select programs)",
     "languages": "German (80%), English (20% - especially Business/Data Science)",
     "discountedPrice": "€170-€350/semester (EU)",
@@ -3034,14 +2270,7 @@
     "country": "Germany",
     "address": "Ritterstraße 26, 04109 Leipzig",
     "about": "Founded 1409, one of world's oldest universities",
-    "departments": [
-      "57",
-      "3",
-      "2",
-      "44",
-      "5",
-      "165"
-    ],
+    "departments": ["57", "3", "2", "44", "5", "165"],
     "intake": "October, April",
     "languages": "German (primary), English (selected MSc)",
     "discountedPrice": "€200-€300/semester",
@@ -3059,13 +2288,7 @@
     "country": "Germany",
     "address": "Keplerstraße 7, 70174 Stuttgart",
     "about": "Top engineering university with interdisciplinary focus",
-    "departments": [
-      "68",
-      "166",
-      "227",
-      "1",
-      "165"
-    ],
+    "departments": ["68", "166", "227", "1", "165"],
     "intake": "October (main), March (few programs)",
     "languages": "German (BS), English (many MSc)",
     "discountedPrice": "€170-€350/semester",
@@ -3083,12 +2306,7 @@
     "country": "Germany",
     "address": "Schlossplatz 4, 91054 Erlangen",
     "about": "Large comprehensive university strong in engineering/medicine",
-    "departments": [
-      "2",
-      "15",
-      "56",
-      "64"
-    ],
+    "departments": ["2", "15", "56", "64"],
     "intake": "October, April",
     "languages": "German, English (30+ MSc)",
     "discountedPrice": "€150-€300/semester",
@@ -3106,13 +2324,7 @@
     "country": "Germany",
     "address": "Theodor-W.-Adorno-Platz 1, 60323",
     "about": "Major university strong in economics/medicine",
-    "departments": [
-      "4",
-      "3",
-      "2",
-      "44",
-      "64"
-    ],
+    "departments": ["4", "3", "2", "44", "64"],
     "intake": "October, April",
     "languages": "German, English (Finance/Econ MSc)",
     "discountedPrice": "€170-€350/semester",
@@ -3130,13 +2342,7 @@
     "country": "Germany",
     "address": "Christian-Albrechts-Platz 4, 24118 Kiel",
     "about": "Northern Germany's largest university, strong in marine sciences",
-    "departments": [
-      "167",
-      "3",
-      "2",
-      "61",
-      "44"
-    ],
+    "departments": ["167", "3", "2", "61", "44"],
     "intake": "October, April",
     "languages": "German, English (Marine Sciences)",
     "discountedPrice": "€150-€300/semester",
@@ -3154,12 +2360,7 @@
     "country": "Germany",
     "address": "Bibliothekstraße 1, 28359 Bremen",
     "about": "Young research university focused on interdisciplinarity",
-    "departments": [
-      "54",
-      "15",
-      "44",
-      "3"
-    ],
+    "departments": ["54", "15", "44", "3"],
     "intake": "October, April",
     "languages": "German, English (many MSc)",
     "discountedPrice": "€170-€350/semester",
@@ -3177,13 +2378,7 @@
     "country": "Germany",
     "address": "Mittelweg 177, 20148 Hamburg",
     "about": "Northern Germany's largest comprehensive university",
-    "departments": [
-      "167",
-      "3",
-      "2",
-      "63",
-      "44"
-    ],
+    "departments": ["167", "3", "2", "63", "44"],
     "intake": "October, April",
     "languages": "German, English (Climate/Physics MSc)",
     "discountedPrice": "€170-€350/semester",
@@ -3201,13 +2396,7 @@
     "country": "Germany",
     "address": "Fürstengraben 1, 07743 Jena",
     "about": "Historic university strong in optics/photonics",
-    "departments": [
-      "167",
-      "5",
-      "19",
-      "56",
-      "44"
-    ],
+    "departments": ["167", "5", "19", "56", "44"],
     "intake": "October, April",
     "languages": "German, English (Optics/Photonics)",
     "discountedPrice": "€150-€300/semester",
@@ -3225,12 +2414,7 @@
     "country": "Germany",
     "address": "Am Neuen Palais 10, 14469 Potsdam",
     "about": "Young university excelling in digital humanities",
-    "departments": [
-      "168",
-      "3",
-      "20",
-      "36"
-    ],
+    "departments": ["168", "3", "20", "36"],
     "intake": "October, April",
     "languages": "German, English (Digital/Data programs)",
     "discountedPrice": "€170-€350/semester",
@@ -3248,12 +2432,7 @@
     "country": "Netherlands",
     "address": "Spui 21, 1012 WX Amsterdam",
     "about": "Founded 1632, largest Dutch university (~34,000 students)",
-    "departments": [
-      "169",
-      "3",
-      "2",
-      "56"
-    ],
+    "departments": ["169", "3", "2", "56"],
     "intake": "September (Fall), February (Spring)",
     "languages": "Dutch, English (200+ English-taught programs)",
     "tuition": "€2,314-€4,636/year (EU), €9,000-€24,000/year (Non-EU)",
@@ -3270,11 +2449,7 @@
     "country": "Netherlands",
     "address": "Mekelweg 5, 2628 CD Delft",
     "about": "Founded 1842, top Dutch technical university (~26,000 students)",
-    "departments": [
-      "1",
-      "51",
-      "1"
-    ],
+    "departments": ["1", "51", "1"],
     "intake": "September",
     "languages": "Dutch, English (most master's programs)",
     "tuition": "€2,314-€4,636/year (EU), €15,000-€25,000/year (Non-EU)",
@@ -3291,11 +2466,7 @@
     "country": "Netherlands",
     "address": "Groene Loper 5, 5612 AE Eindhoven",
     "about": "Founded 1956, innovation-focused (~12,000 students)",
-    "departments": [
-      "170",
-      "171",
-      "172"
-    ],
+    "departments": ["170", "171", "172"],
     "intake": "September",
     "languages": "Dutch, English (most programs)",
     "tuition": "€2,314-€4,636/year (EU), €15,000-€18,000/year (Non-EU)",
@@ -3312,11 +2483,7 @@
     "country": "Netherlands",
     "address": "Rapenburg 70, 2311 EZ Leiden",
     "about": "Founded 1575, oldest Dutch university (~33,000 students)",
-    "departments": [
-      "173",
-      "2",
-      "174"
-    ],
+    "departments": ["173", "2", "174"],
     "intake": "September, February",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €10,000-€22,000/year (Non-EU)",
@@ -3333,10 +2500,7 @@
     "country": "Netherlands",
     "address": "Heidelberglaan 8, 3584 CS Utrecht",
     "about": "Founded 1636, comprehensive research university (~37,000 students)",
-    "departments": [
-      "175",
-      "176"
-    ],
+    "departments": ["175", "176"],
     "intake": "September",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €11,000-€20,000/year (Non-EU)",
@@ -3353,10 +2517,7 @@
     "country": "Netherlands",
     "address": "Broerstraat 5, 9712 CP Groningen",
     "about": "Founded 1614, research-intensive (~36,000 students)",
-    "departments": [
-      "176",
-      "177"
-    ],
+    "departments": ["176", "177"],
     "intake": "September, February",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €10,000-€20,000/year (Non-EU)",
@@ -3373,10 +2534,7 @@
     "country": "Netherlands",
     "address": "Comeniuslaan 4, 6525 HP Nijmegen",
     "about": "Founded 1923, research-focused (~24,000 students)",
-    "departments": [
-      "178",
-      "57"
-    ],
+    "departments": ["178", "57"],
     "intake": "September",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €11,000-€17,000/year (Non-EU)",
@@ -3393,11 +2551,7 @@
     "country": "Netherlands",
     "address": "Minderbroedersberg 4-6, 6211 LK Maastricht",
     "about": "Founded 1976, international profile (~22,000 students)",
-    "departments": [
-      "179",
-      "3",
-      "63"
-    ],
+    "departments": ["179", "3", "63"],
     "intake": "September, February",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €11,000-€19,000/year (Non-EU)",
@@ -3414,11 +2568,7 @@
     "country": "Netherlands",
     "address": "Warandelaan 2, 5037 AB Tilburg",
     "about": "Founded 1927, social sciences specialist (~20,000 students)",
-    "departments": [
-      "245",
-      "3",
-      "44"
-    ],
+    "departments": ["245", "3", "44"],
     "intake": "September",
     "languages": "Dutch, English (many programs)",
     "tuition": "€2,314-€4,636/year (EU), €9,000-€16,000/year (Non-EU)",
@@ -3435,10 +2585,7 @@
     "country": "Netherlands",
     "address": "Drienerlolaan 5, 7522 NB Enschede",
     "about": "Founded 1961, entrepreneurial tech university (~12,000 students)",
-    "departments": [
-      "180",
-      "155"
-    ],
+    "departments": ["180", "155"],
     "intake": "September",
     "languages": "Dutch, English (most programs)",
     "tuition": "€2,314-€4,636/year (EU), €10,000-€17,000/year (Non-EU)",
@@ -3455,12 +2602,7 @@
     "country": "Netherlands",
     "address": "Droevendaalsesteeg 4, 6708 PB",
     "about": "Globally ranked #1 in agricultural/environmental sciences",
-    "departments": [
-      "181",
-      "182",
-      "183",
-      "165"
-    ],
+    "departments": ["181", "182", "183", "165"],
     "intake": "September (main), February (limited)",
     "languages": "English (95% MSc), Dutch (BSc)",
     "discountedPrice": "€2,314/year (EU BSc)",
@@ -3478,12 +2620,7 @@
     "country": "Netherlands",
     "address": "Valkenburgerweg 177, 6419 AT",
     "about": "Distance education pioneer",
-    "departments": [
-      "31",
-      "3",
-      "36",
-      "165"
-    ],
+    "departments": ["31", "3", "36", "165"],
     "intake": "Monthly enrollment",
     "languages": "Dutch (70%), English (30%)",
     "discountedPrice": "€2,100/year (EU bachelor's)",
@@ -3501,11 +2638,7 @@
     "country": "Netherlands",
     "address": "Broederweg 15, 8261 GS",
     "about": "Protestant theology specialist",
-    "departments": [
-      "321",
-      "184",
-      "165"
-    ],
+    "departments": ["321", "184", "165"],
     "intake": "September",
     "languages": "Dutch (primary), English (PhD)",
     "discountedPrice": "€2,300/year",
@@ -3523,11 +2656,7 @@
     "country": "Netherlands",
     "address": "Oude Ebbingestraat 25, 9712 HA",
     "about": "Mainline Protestant seminary",
-    "departments": [
-      "185",
-      "186",
-      "165"
-    ],
+    "departments": ["185", "186", "165"],
     "intake": "September",
     "languages": "Dutch (80%), English (20%)",
     "discountedPrice": "€2,400/year",
@@ -3545,12 +2674,7 @@
     "country": "Netherlands",
     "address": "Jodenbreestraat 3, 1011 NG",
     "about": "Premier arts conservatory",
-    "departments": [
-      "4",
-      "51",
-      "254",
-      "165"
-    ],
+    "departments": ["4", "51", "254", "165"],
     "intake": "September (portfolio review)",
     "languages": "Dutch (BFA), English (MFA)",
     "discountedPrice": "€2,400/year (EU)",
@@ -3568,11 +2692,7 @@
     "country": "Netherlands",
     "address": "Prinsessegracht 4, 2514 AN",
     "about": "Historic visual arts academy",
-    "departments": [
-      "187",
-      "188",
-      "165"
-    ],
+    "departments": ["187", "188", "165"],
     "intake": "September",
     "languages": "English (90%)",
     "discountedPrice": "€2,400/year (EU)",
@@ -3590,11 +2710,7 @@
     "country": "Netherlands",
     "address": "Kruisplein 26, 3012 CC",
     "about": "Contemporary performing arts",
-    "departments": [
-      "189",
-      "190",
-      "165"
-    ],
+    "departments": ["189", "190", "165"],
     "intake": "September (audition)",
     "languages": "English (performing programs)",
     "discountedPrice": "€2,500/year",
@@ -3612,11 +2728,7 @@
     "country": "Netherlands",
     "address": "Onderlangs 9, 6812 CE",
     "about": "Multi-campus arts university",
-    "departments": [
-      "191",
-      "192",
-      "165"
-    ],
+    "departments": ["191", "192", "165"],
     "intake": "September",
     "languages": "English (Masters)",
     "discountedPrice": "€2,400/year",
@@ -3634,11 +2746,7 @@
     "country": "Netherlands",
     "address": "Oudenoord 700, 3513 EX",
     "about": "Interdisciplinary arts leader",
-    "departments": [
-      "193",
-      "194",
-      "165"
-    ],
+    "departments": ["193", "194", "165"],
     "intake": "September",
     "languages": "English (MFA)",
     "discountedPrice": "€2,400/year",
@@ -3656,11 +2764,7 @@
     "country": "Netherlands",
     "address": "Nieuw Eyckholt 300, 6419 DJ",
     "about": "Professional arts/business education",
-    "departments": [
-      "263",
-      "195",
-      "165"
-    ],
+    "departments": ["263", "195", "165"],
     "intake": "September/February",
     "languages": "English (international programs)",
     "discountedPrice": "€2,300/year",
@@ -3678,18 +2782,15 @@
     "country": "Belgium",
     "address": "Oude Markt 13, 3000 Leuven",
     "about": "Founded 1425, oldest Catholic university in the world (~60,000 students)",
-    "departments": [
-      "14",
-      "15",
-      "57"
-    ],
+    "departments": ["14", "15", "57"],
     "intake": "September (main), February (limited)",
     "languages": "Dutch (primary), English (65+ master's programs)",
-    "tuition": "€947-€6,000/year (EU), €1,750-€10,000/year (Non-EU)",
+    "actualPrice": "€947-€6,000/year (EU)",
+    "discountedPrice": "€1,750-€10,000/year (Non-EU)",
     "scholarship": "KU Leuven Excellence Scholarship",
     "accommodation": "€400-€800/month",
     "summary": "Comprehensive research university consistently ranked top 50 worldwide",
-    "discount": "N/A",
+    "discount": "70.83%",
     "id": "157",
     "image": "https://research.unimelb.edu.au/__data/assets/image/0006/4264485/varieties/large.png"
   },
@@ -3699,18 +2800,15 @@
     "country": "Belgium",
     "address": "Place de l'Université 1, 1348 Ottignies-Louvain-la-Neuve",
     "about": "Major French-speaking university (~30,000 students)",
-    "departments": [
-      "196",
-      "15",
-      "197"
-    ],
+    "departments": ["196", "15", "197"],
     "intake": "September",
     "languages": "French (primary), English (selected programs)",
-    "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
+    "actualPrice": "€835-€4,175/year (EU),",
+    "discountedPrice": "€1,750-€8,500/year (Non-EU),",
     "scholarship": "UCLouvain International Masters",
     "accommodation": "€350-€700/month",
     "summary": "Innovative campus university with strong industry partnerships",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "158",
     "image": "https://beyondthestates.com/wp-content/uploads/2023/09/2023-07-28.jpg"
   },
@@ -3720,17 +2818,15 @@
     "country": "Belgium",
     "address": "Sint-Pietersnieuwstraat 33, 9000 Gent",
     "about": "Founded 1817, leading Flemish university (~50,000 students)",
-    "departments": [
-      "198",
-      "102"
-    ],
+    "departments": ["198", "102"],
     "intake": "September",
     "languages": "Dutch (primary), English (many master's programs)",
-    "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
+    "actualPrice": "€947-€6,000/year (EU),",
+    "discountedPrice": "€1,750-€9,000/year (Non-EU)",
     "scholarship": "Ghent University Top-up Grant",
     "accommodation": "€350-€750/month",
     "summary": "Research powerhouse with 11 Nobel laureates and strong international ties",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "159",
     "image": "https://smapse.com/storage/2019/06/converted/660_464_ghent-university-30.jpg"
   },
@@ -3740,17 +2836,15 @@
     "country": "Belgium",
     "address": "Avenue Franklin Roosevelt 50, 1050 Bruxelles",
     "about": "Major French-speaking university (~35,000 students)",
-    "departments": [
-      "199",
-      "2"
-    ],
+    "departments": ["199", "2"],
     "intake": "September",
     "languages": "French (primary), English (selected programs)",
-    "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
+    "actualPrice": "€835-€4,175/year (EU)",
+    "discountedPrice": "€1,750-€8,500/year (Non-EU)",
     "scholarship": "ULB Scholarships for International Students",
     "accommodation": "€450-€900/month",
     "summary": "Progressive urban university with 4 Nobel Prize winners",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "160",
     "image": "https://actus.ulb.be/fr/presse/kit-media/photo-ulb-solbosch6"
   },
@@ -3760,17 +2854,15 @@
     "country": "Belgium",
     "address": "Pleinlaan 2, 1050 Brussel",
     "about": "Dutch- and English-speaking university (~20,000 students)",
-    "departments": [
-      "200",
-      "44"
-    ],
+    "departments": ["200", "44"],
     "intake": "September",
     "languages": "Dutch, English (many programs)",
-    "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
+    "actualPrice": "€947-€6,000/year (EU)",
+    "discountedPrice": "€1,750-€9,000/year (Non-EU)",
     "scholarship": "VUB Scholarships for International Students",
     "accommodation": "€450-€850/month",
     "summary": "Humanist university with strong focus on research and innovation",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "161",
     "image": "https://eutopia-university.eu/medias/photo/braemgebouw-met-vub-vlaggen_1730823192585-jpg?ID_FICHE=136432"
   },
@@ -3780,17 +2872,15 @@
     "country": "Belgium",
     "address": "Prinsstraat 13, 2000 Antwerpen",
     "about": "Research-intensive university (~23,000 students)",
-    "departments": [
-      "201",
-      "2"
-    ],
+    "departments": ["201", "2"],
     "intake": "September",
     "languages": "Dutch (primary), English (selected programs)",
-    "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
+    "actualPrice": "€947-€6,000/year (EU)",
+    "discountedPrice": "€1,750-€9,000/year (Non-EU)",
     "scholarship": "Antwerp University Scholarship",
     "accommodation": "€400-€750/month",
     "summary": "Dynamic urban university with strong business and digital programs",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "162",
     "image": "https://beyondthestates.com/wp-content/uploads/2024/07/University-of-Antwerp-Campus.jpg"
   },
@@ -3800,17 +2890,15 @@
     "country": "Belgium",
     "address": "Martelarenlaan 42, 3500 Hasselt",
     "about": "Young research university (~7,000 students)",
-    "departments": [
-      "202",
-      "2"
-    ],
+    "departments": ["202", "2"],
     "intake": "September",
     "languages": "Dutch (primary), English (selected programs)",
-    "tuition": "€947-€6,000/year (EU), €1,750-€9,000/year (Non-EU)",
+    "actualPrice": "€947-€6,000/year (EU)",
+    "discountedPrice": "€1,750-€9,000/year (Non-EU)",
     "scholarship": "Hasselt University Scholarships",
     "accommodation": "€300-€600/month",
     "summary": "Innovative university with strong interdisciplinary approach",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "163",
     "image": "https://lh5.googleusercontent.com/proxy/a8Fe4Xhwt4J9jehx7eP0Q9-APs0WDkz8Y_H3nZHAm_98Kq4YFX4GDMNgy1GRtxljyoxX74HdaLr_lgWbdI8tF78j9rLQZf4iU9MdRi_EWLPJ2_1yJPj-EMJUSxS17d66Mhktu5j6V9Xg"
   },
@@ -3820,17 +2908,15 @@
     "country": "Belgium",
     "address": "Place du Parc 20, 7000 Mons",
     "about": "French-speaking technical university (~10,000 students)",
-    "departments": [
-      "203",
-      "80"
-    ],
+    "departments": ["203", "80"],
     "intake": "September",
     "languages": "French (primary), English (selected programs)",
-    "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
+    "actualPrice": "€835-€4,175/year (EU)",
+    "discountedPrice": "€1,750-€8,500/year (Non-EU)",
     "scholarship": "UMONS Excellence Grants",
     "accommodation": "€300-€550/month",
     "summary": "Technical university with strong IT and language programs",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "164",
     "image": "https://www.studyinbelgium.be/sites/default/files/styles/gallery/public/institutions/Umons%204.jpg?itok=NHrkkLzN"
   },
@@ -3840,17 +2926,15 @@
     "country": "Belgium",
     "address": "Rue de Bruxelles 61, 5000 Namur",
     "about": "Small research university (~7,000 students)",
-    "departments": [
-      "204",
-      "1"
-    ],
+    "departments": ["204", "1"],
     "intake": "September",
     "languages": "French (primary), English (selected programs)",
-    "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
+    "actualPrice": "€835-€4,175/year (EU)",
+    "discountedPrice": "€1,750-€8,500/year (Non-EU)",
     "scholarship": "UNamur International Scholarships",
     "accommodation": "€300-€550/month",
     "summary": "Student-focused university with strong interdisciplinary research",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "165",
     "image": "https://image.free-apply.com/gallery/l/uni/gallery/lg/1005600028/e4d9e9d46d4a3a90737e55118df1fd5264fff1a2.jpg?s=640"
   },
@@ -3860,17 +2944,15 @@
     "country": "Belgium",
     "address": "Place du 20-Août 7, 4000 Liège",
     "about": "Major French-speaking university (~25,000 students)",
-    "departments": [
-      "205",
-      "102"
-    ],
+    "departments": ["205", "102"],
     "intake": "September",
     "languages": "French (primary), English (selected programs)",
-    "tuition": "€835-€4,175/year (EU), €1,750-€8,500/year (Non-EU)",
+    "actualPrice": "€835-€4,175/year (EU)",
+    "discountedPrice": "€1,750-€8,500/year (Non-EU)",
     "scholarship": "ULiège Excellence Scholarships",
     "accommodation": "€350-€650/month",
     "summary": "Comprehensive university with strong engineering and life sciences",
-    "discount": "N/A",
+    "discount": "80.00%",
     "id": "166",
     "image": "https://www.todayinliege.be/wp-content/uploads/2017/12/tempo-20.jpg"
   },
@@ -3880,12 +2962,7 @@
     "country": "Belgium",
     "address": "Boulevard du Jardin Botanique 43, 1000",
     "about": "French-speaking public university for social sciences",
-    "departments": [
-      "3",
-      "4",
-      "7",
-      "165"
-    ],
+    "departments": ["3", "4", "7", "165"],
     "intake": "September (primary), February (limited)",
     "languages": "French (90%), English (10% Masters)",
     "discountedPrice": "€835/year (EU bachelor's)",
@@ -3903,12 +2980,7 @@
     "country": "Belgium",
     "address": "Paleizenstraat 70, 1030 Brussels",
     "about": "KU Leuven-affiliated arts college",
-    "departments": [
-      "4",
-      "206",
-      "195",
-      "165"
-    ],
+    "departments": ["4", "206", "195", "165"],
     "intake": "September (portfolio review)",
     "languages": "Dutch (60%), English (40%)",
     "discountedPrice": "€1,092/year (EU)",
@@ -3926,12 +2998,7 @@
     "country": "Belgium",
     "address": "Lange Nieuwstraat 101, 2000",
     "about": "Professional arts/business education",
-    "departments": [
-      "207",
-      "79",
-      "117",
-      "165"
-    ],
+    "departments": ["207", "79", "117", "165"],
     "intake": "September/February",
     "languages": "Dutch (80%), English (20%)",
     "discountedPrice": "€1,100/year",
@@ -3949,12 +3016,7 @@
     "country": "Belgium",
     "address": "Valentin Vaerwyckweg 1, 9000",
     "about": "Largest Flemish university college",
-    "departments": [
-      "63",
-      "208",
-      "117",
-      "165"
-    ],
+    "departments": ["63", "208", "117", "165"],
     "intake": "September",
     "languages": "Dutch (primary), English (select programs)",
     "discountedPrice": "€1,050/year",
@@ -3972,12 +3034,7 @@
     "country": "Belgium",
     "address": "Marksesteenweg 58, 8500",
     "about": "Digital design/gaming leader",
-    "departments": [
-      "209",
-      "280",
-      "3",
-      "165"
-    ],
+    "departments": ["209", "280", "3", "165"],
     "intake": "September",
     "languages": "English (Digital Arts program)",
     "discountedPrice": "€1,200/year",
@@ -3995,12 +3052,7 @@
     "country": "Belgium",
     "address": "Elfde-Liniestraat 24, 3500",
     "about": "Innovative applied sciences",
-    "departments": [
-      "117",
-      "212",
-      "195",
-      "165"
-    ],
+    "departments": ["117", "212", "195", "165"],
     "intake": "September",
     "languages": "Dutch (70%), English (30%)",
     "discountedPrice": "€1,100/year",
@@ -4018,12 +3070,7 @@
     "country": "Belgium",
     "address": "Zandpoortvest 60, 2800",
     "about": "Largest applied sciences institution",
-    "departments": [
-      "213",
-      "4",
-      "70",
-      "165"
-    ],
+    "departments": ["213", "4", "70", "165"],
     "intake": "September/February",
     "languages": "Dutch (85%), English (15%)",
     "discountedPrice": "€1,050/year",
@@ -4041,11 +3088,7 @@
     "country": "Belgium",
     "address": "Nationalestraat 5, 2000",
     "about": "Entrepreneurship-focused",
-    "departments": [
-      "285",
-      "215",
-      "165"
-    ],
+    "departments": ["285", "215", "165"],
     "intake": "September",
     "languages": "Dutch (primary)",
     "discountedPrice": "€1,000/year",
@@ -4063,11 +3106,7 @@
     "country": "Belgium",
     "address": "Hoogpoort 15, 9000",
     "about": "English-taught programs leader",
-    "departments": [
-      "215",
-      "29",
-      "165"
-    ],
+    "departments": ["215", "29", "165"],
     "intake": "September/February",
     "languages": "English (50% programs)",
     "discountedPrice": "€1,200/year",
@@ -4085,11 +3124,7 @@
     "country": "Belgium",
     "address": "Nijverheidskaai 170, 1070",
     "about": "Multidisciplinary applied sciences",
-    "departments": [
-      "216",
-      "263",
-      "165"
-    ],
+    "departments": ["216", "263", "165"],
     "intake": "September",
     "languages": "Dutch/French (80%), English (20%)",
     "discountedPrice": "€950/year",
@@ -4107,12 +3142,7 @@
     "country": "Czech Republic",
     "address": "Ovocný trh 560/5, 116 36 Staré Město",
     "about": "Founded 1348, oldest university in Central Europe (~50,000 students)",
-    "departments": [
-      "16",
-      "3",
-      "14",
-      "15"
-    ],
+    "departments": ["16", "3", "14", "15"],
     "intake": "October (Winter), February (Summer)",
     "languages": "Czech (primary), English (50+ programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€15,000/year (Non-EU)",
@@ -4129,11 +3159,7 @@
     "country": "Czech Republic",
     "address": "Jugoslávských partyzánů 1580/3, 160 00 Praha 6",
     "about": "Founded 1707, leading technical university (~18,000 students)",
-    "departments": [
-      "73",
-      "48",
-      "51"
-    ],
+    "departments": ["73", "48", "51"],
     "intake": "October",
     "languages": "Czech, English (many programs)",
     "tuition": "€0-€4,500/year (EU), €3,000-€12,000/year (Non-EU)",
@@ -4150,11 +3176,7 @@
     "country": "Czech Republic",
     "address": "Žerotínovo nám. 617/9, 601 77 Brno",
     "about": "Founded 1919, second largest Czech university (~35,000 students)",
-    "departments": [
-      "73",
-      "2",
-      "162"
-    ],
+    "departments": ["73", "2", "162"],
     "intake": "October",
     "languages": "Czech, English (many programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4171,11 +3193,7 @@
     "country": "Czech Republic",
     "address": "Antonínská 548/1, 601 90 Brno",
     "about": "Founded 1899, leading technical university (~22,000 students)",
-    "departments": [
-      "217",
-      "117",
-      "51"
-    ],
+    "departments": ["217", "117", "51"],
     "intake": "October",
     "languages": "Czech, English (many programs)",
     "tuition": "€0-€4,500/year (EU), €3,000-€12,000/year (Non-EU)",
@@ -4192,11 +3210,7 @@
     "country": "Czech Republic",
     "address": "Křížkovského 511/8, 771 47 Olomouc",
     "about": "Founded 1573, second oldest Czech university (~20,000 students)",
-    "departments": [
-      "218",
-      "72",
-      "29"
-    ],
+    "departments": ["218", "72", "29"],
     "intake": "October",
     "languages": "Czech, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4213,9 +3227,7 @@
     "country": "Czech Republic",
     "address": "Technická 5, 166 28 Praha 6",
     "about": "Founded 1952, specialized chemical university (~4,000 students)",
-    "departments": [
-      "219"
-    ],
+    "departments": ["219"],
     "intake": "October",
     "languages": "Czech, English (many programs)",
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
@@ -4232,11 +3244,7 @@
     "country": "Czech Republic",
     "address": "nám. W. Churchilla 1938/4, 130 67 Praha 3",
     "about": "Founded 1953, top business school (~15,000 students)",
-    "departments": [
-      "220",
-      "162",
-      "39"
-    ],
+    "departments": ["220", "162", "39"],
     "intake": "October",
     "languages": "Czech, English (many programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4253,10 +3261,7 @@
     "country": "Czech Republic",
     "address": "Studentská 1402/2, 461 17 Liberec",
     "about": "Founded 1953, specialized technical university (~7,000 students)",
-    "departments": [
-      "221",
-      "222"
-    ],
+    "departments": ["221", "222"],
     "intake": "October",
     "languages": "Czech, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4273,10 +3278,7 @@
     "country": "Czech Republic",
     "address": "Studentská 95, 532 10 Pardubice",
     "about": "Founded 1950, multidisciplinary university (~9,000 students)",
-    "departments": [
-      "223",
-      "15"
-    ],
+    "departments": ["223", "15"],
     "intake": "October",
     "languages": "Czech, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4293,11 +3295,7 @@
     "country": "Czech Republic",
     "address": "Dvořákova 7, 701 03 Ostrava",
     "about": "Founded 1991, focus on social sciences (~10,000 students)",
-    "departments": [
-      "224",
-      "225",
-      "2"
-    ],
+    "departments": ["224", "225", "2"],
     "intake": "October",
     "languages": "Czech, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4314,12 +3312,7 @@
     "country": "Czech Republic",
     "address": "Zemědělská 1, 613 00",
     "about": "Agricultural/forestry leader in sustainability",
-    "departments": [
-      "197",
-      "109",
-      "226",
-      "165"
-    ],
+    "departments": ["197", "109", "226", "165"],
     "intake": "September (main), February (limited)",
     "languages": "Czech (80%), English (20% MSc)",
     "discountedPrice": "0-3,000 CZK/semester (EU)",
@@ -4337,12 +3330,7 @@
     "country": "Czech Republic",
     "address": "Branišovská 1645/31a, 370 05",
     "about": "Regional leader in fisheries/ecology",
-    "departments": [
-      "31",
-      "19",
-      "57",
-      "165"
-    ],
+    "departments": ["31", "19", "57", "165"],
     "intake": "September",
     "languages": "Czech (primary), English (Biology MSc)",
     "discountedPrice": "0-4,000 CZK/semester",
@@ -4360,12 +3348,7 @@
     "country": "Czech Republic",
     "address": "Na Rybníčku 626/1, 746 01",
     "about": "Math/humanities specialist",
-    "departments": [
-      "227",
-      "228",
-      "229",
-      "165"
-    ],
+    "departments": ["227", "228", "229", "165"],
     "intake": "September",
     "languages": "Czech (90%), Polish (10%)",
     "discountedPrice": "0-2,500 CZK/semester",
@@ -4383,12 +3366,7 @@
     "country": "Czech Republic",
     "address": "Pasteurova 3544/1, 400 96",
     "about": "Industrial arts/tech focus",
-    "departments": [
-      "227",
-      "230",
-      "71",
-      "165"
-    ],
+    "departments": ["227", "230", "71", "165"],
     "intake": "September",
     "languages": "Czech, German (bilingual programs)",
     "discountedPrice": "0-3,500 CZK/semester",
@@ -4406,12 +3384,7 @@
     "country": "Czech Republic",
     "address": "Rokitanského 62, 500 03",
     "about": "IT/education innovator",
-    "departments": [
-      "231",
-      "95",
-      "31",
-      "165"
-    ],
+    "departments": ["231", "95", "31", "165"],
     "intake": "September",
     "languages": "Czech, English (IT programs)",
     "discountedPrice": "0-4,000 CZK/semester",
@@ -4429,12 +3402,7 @@
     "country": "Czech Republic",
     "address": "nám. T. G. Masaryka 5555, 760 01",
     "about": "Industrial design/polymer science",
-    "departments": [
-      "31",
-      "232",
-      "233",
-      "165"
-    ],
+    "departments": ["31", "232", "233", "165"],
     "intake": "September",
     "languages": "Czech, English (Design MSc)",
     "discountedPrice": "0-5,000 CZK/semester",
@@ -4452,12 +3420,7 @@
     "country": "Czech Republic",
     "address": "Malostranské náměstí 12, 118 00",
     "about": "Premier film/theatre academy",
-    "departments": [
-      "226",
-      "235",
-      "236",
-      "165"
-    ],
+    "departments": ["226", "235", "236", "165"],
     "intake": "September (audition)",
     "languages": "Czech (primary), English (film MA)",
     "discountedPrice": "10,000-30,000 CZK/semester",
@@ -4475,12 +3438,7 @@
     "country": "Czech Republic",
     "address": "U Akademie 172/4, 170 22",
     "about": "Elite visual arts institution",
-    "departments": [
-      "317",
-      "237",
-      "105",
-      "165"
-    ],
+    "departments": ["317", "237", "105", "165"],
     "intake": "September (portfolio)",
     "languages": "Czech, English (MA)",
     "discountedPrice": "15,000-35,000 CZK/semester",
@@ -4498,12 +3456,7 @@
     "country": "Czech Republic",
     "address": "Beethovenova 650/2, 662 15",
     "about": "Premier music conservatory",
-    "departments": [
-      "238",
-      "190",
-      "239",
-      "165"
-    ],
+    "departments": ["238", "190", "239", "165"],
     "intake": "September (audition)",
     "languages": "Czech, English (performance MA)",
     "discountedPrice": "12,000-28,000 CZK/semester",
@@ -4521,12 +3474,7 @@
     "country": "Slovakia",
     "address": "Šafárikovo námestie 6, 814 99 Bratislava",
     "about": "Founded 1919, Slovakia's largest university (~23,000 students)",
-    "departments": [
-      "240",
-      "3",
-      "16",
-      "14"
-    ],
+    "departments": ["240", "3", "16", "14"],
     "intake": "September (Winter), February (Summer)",
     "languages": "Slovak (primary), English (30+ programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€12,000/year (Non-EU)",
@@ -4543,11 +3491,7 @@
     "country": "Slovakia",
     "address": "Vazovova 5, 812 43 Bratislava",
     "about": "Leading technical university (~15,000 students)",
-    "departments": [
-      "241",
-      "51",
-      "117"
-    ],
+    "departments": ["241", "51", "117"],
     "intake": "September",
     "languages": "Slovak, English (many engineering programs)",
     "tuition": "€0-€5,000/year (EU), €4,000-€10,000/year (Non-EU)",
@@ -4564,11 +3508,7 @@
     "country": "Slovakia",
     "address": "Šrobárova 2, 041 80 Košice",
     "about": "Established 1959, top eastern Slovak university (~7,000 students)",
-    "departments": [
-      "242",
-      "16",
-      "3"
-    ],
+    "departments": ["242", "16", "3"],
     "intake": "September",
     "languages": "Slovak, English (medical/science programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€10,000/year (Non-EU)",
@@ -4585,10 +3525,7 @@
     "country": "Slovakia",
     "address": "Letná 9, 042 00 Košice",
     "about": "Major technical university (~10,000 students)",
-    "departments": [
-      "243",
-      "67"
-    ],
+    "departments": ["243", "67"],
     "intake": "September",
     "languages": "Slovak, English (technical programs)",
     "tuition": "€0-€5,000/year (EU), €4,000-€10,000/year (Non-EU)",
@@ -4605,10 +3542,7 @@
     "country": "Slovakia",
     "address": "Univerzitná 1, 010 26 Žilina",
     "about": "Specialized in transport and engineering (~8,000 students)",
-    "departments": [
-      "241",
-      "2"
-    ],
+    "departments": ["241", "2"],
     "intake": "September",
     "languages": "Slovak, English (selected programs)",
     "tuition": "€0-€4,500/year (EU), €3,500-€9,000/year (Non-EU)",
@@ -4625,10 +3559,7 @@
     "country": "Slovakia",
     "address": "Trieda Andreja Hlinku 2, 949 76 Nitra",
     "about": "Premier agricultural university (~6,500 students)",
-    "departments": [
-      "242",
-      "4"
-    ],
+    "departments": ["242", "4"],
     "intake": "September",
     "languages": "Slovak, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€8,000/year (Non-EU)",
@@ -4645,10 +3576,7 @@
     "country": "Slovakia",
     "address": "Tajovského 10, 975 90 Banská Bystrica",
     "about": "Comprehensive university (~8,000 students)",
-    "departments": [
-      "245",
-      "7"
-    ],
+    "departments": ["245", "7"],
     "intake": "September",
     "languages": "Slovak, English (selected programs)",
     "tuition": "€0-€4,000/year (EU), €3,000-€8,000/year (Non-EU)",
@@ -4665,10 +3593,7 @@
     "country": "Slovakia",
     "address": "Ul. 17. novembra 15, 080 01 Prešov",
     "about": "Regional university (~7,000 students)",
-    "departments": [
-      "246",
-      "57"
-    ],
+    "departments": ["246", "57"],
     "intake": "September",
     "languages": "Slovak (primary)",
     "tuition": "€0-€3,500/year (EU), €2,500-€7,000/year (Non-EU)",
@@ -4685,11 +3610,7 @@
     "country": "Slovakia",
     "address": "Ventúrska 3, 813 01 Bratislava",
     "about": "Premier arts institution (~1,200 students)",
-    "departments": [
-      "247",
-      "99",
-      "254"
-    ],
+    "departments": ["247", "99", "254"],
     "intake": "September (auditions required)",
     "languages": "Slovak (primary)",
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
@@ -4706,10 +3627,7 @@
     "country": "Slovakia",
     "address": "Drotárska cesta 44, 811 02 Bratislava",
     "about": "Leading visual arts school (~800 students)",
-    "departments": [
-      "329",
-      "52"
-    ],
+    "departments": ["329", "52"],
     "intake": "September (portfolio review)",
     "languages": "Slovak (primary)",
     "tuition": "€0-€5,000/year (EU), €4,000-€12,000/year (Non-EU)",
@@ -4726,12 +3644,7 @@
     "country": "Slovakia",
     "address": "Hrabovská cesta 1A, 034 01",
     "about": "Faith-based public university",
-    "departments": [
-      "57",
-      "95",
-      "213",
-      "165"
-    ],
+    "departments": ["57", "95", "213", "165"],
     "intake": "September (main), February (limited)",
     "languages": "Slovak (90%), Latin (theology)",
     "discountedPrice": "€0-€500/year (EU)",
@@ -4749,12 +3662,7 @@
     "country": "Slovakia",
     "address": "Študentská 2, 911 50",
     "about": "Technical/health sciences focus",
-    "departments": [
-      "249",
-      "103",
-      "31",
-      "165"
-    ],
+    "departments": ["249", "103", "31", "165"],
     "intake": "September",
     "languages": "Slovak (BS), English (MSc Materials)",
     "discountedPrice": "€0-€1,000/year",
@@ -4772,11 +3680,7 @@
     "country": "Slovakia",
     "address": "Komenského 73, 041 81",
     "about": "Only veterinary school in Slovakia",
-    "departments": [
-      "60",
-      "2",
-      "60"
-    ],
+    "departments": ["60", "2", "60"],
     "intake": "September (entrance exams)",
     "languages": "Slovak, English (DVM)",
     "discountedPrice": "€0-€800/year",
@@ -4794,11 +3698,7 @@
     "country": "Slovakia",
     "address": "Botanická 2, 969 01",
     "about": "Historic music conservatory",
-    "departments": [
-      "100",
-      "190",
-      "60"
-    ],
+    "departments": ["100", "190", "60"],
     "intake": "September (auditions)",
     "languages": "Slovak, English (masterclasses)",
     "discountedPrice": "€500-€1,500/year",
@@ -4816,11 +3716,7 @@
     "country": "Slovakia",
     "address": "Sládkovičova 533/20, 018 41",
     "about": "Industry-focused technical school",
-    "departments": [
-      "250",
-      "251",
-      "252"
-    ],
+    "departments": ["250", "251", "252"],
     "intake": "September",
     "languages": "Slovak (100%)",
     "discountedPrice": "€0-€400/year",
@@ -4838,11 +3734,7 @@
     "country": "Slovakia",
     "address": "Palackého 1, 810 00",
     "about": "Faith-based health sciences",
-    "departments": [
-      "103",
-      "253",
-      "254"
-    ],
+    "departments": ["103", "253", "254"],
     "intake": "September",
     "languages": "Slovak, English (BSN)",
     "discountedPrice": "€0-€600/year",
@@ -4860,11 +3752,7 @@
     "country": "Slovakia",
     "address": "Tomášikova 20, 821 02",
     "about": "Private-public hybrid",
-    "departments": [
-      "3",
-      "31",
-      "213"
-    ],
+    "departments": ["3", "31", "213"],
     "intake": "Rolling admissions",
     "languages": "Slovak, English (Law LLM)",
     "discountedPrice": "€1,500-€3,000/year",
@@ -4882,10 +3770,7 @@
     "country": "Slovakia",
     "address": "Ružová dolina 29, 821 08",
     "about": "Diplomacy/PR focus",
-    "departments": [
-      "10",
-      "255"
-    ],
+    "departments": ["10", "255"],
     "intake": "September",
     "languages": "English (80%)",
     "discountedPrice": "€2,000-€3,500/year",
@@ -4903,10 +3788,7 @@
     "country": "Slovakia",
     "address": "Partizánska cesta 4, 974 01",
     "about": "New policy research hub",
-    "departments": [
-      "255",
-      "255"
-    ],
+    "departments": ["255", "255"],
     "intake": "September",
     "languages": "English (100%)",
     "discountedPrice": "€3,000/year",
@@ -4924,11 +3806,7 @@
     "country": "Slovakia",
     "address": "Jána Kollára 22, 974 01",
     "about": "Public arts academy",
-    "departments": [
-      "121",
-      "256",
-      "195"
-    ],
+    "departments": ["121", "256", "195"],
     "intake": "September (portfolio)",
     "languages": "Slovak",
     "discountedPrice": "€500-€1,200/year",
@@ -4946,12 +3824,7 @@
     "country": "Hungary",
     "address": "Egyetem tér 1-3, 1053 Budapest",
     "about": "Founded 1635, Hungary's largest university (~28,000 students)",
-    "departments": [
-      "52",
-      "16",
-      "3",
-      "162"
-    ],
+    "departments": ["52", "16", "3", "162"],
     "intake": "September (Fall), February (Spring)",
     "languages": "Hungarian (primary), English (50+ programs)",
     "tuition": "€1,500-€4,000/semester (EU), €2,000-€8,000/semester (Non-EU)",
@@ -4968,11 +3841,7 @@
     "country": "Hungary",
     "address": "Műegyetem rkp. 3, 1111 Budapest",
     "about": "Founded 1782, top technical university (~21,000 students)",
-    "departments": [
-      "257",
-      "2",
-      "48"
-    ],
+    "departments": ["257", "2", "48"],
     "intake": "September",
     "languages": "Hungarian, English (most engineering programs)",
     "tuition": "€1,800-€5,000/semester (EU), €3,000-€10,000/semester (Non-EU)",
@@ -4989,11 +3858,7 @@
     "country": "Hungary",
     "address": "Üllői út 26, 1085 Budapest",
     "about": "Founded 1769, leading medical university (~11,000 students)",
-    "departments": [
-      "204",
-      "46",
-      "2"
-    ],
+    "departments": ["204", "46", "2"],
     "intake": "September",
     "languages": "Hungarian, English, German (medical programs)",
     "tuition": "€3,000-€16,000/semester (all students)",
@@ -5010,11 +3875,7 @@
     "country": "Hungary",
     "address": "Dugonics tér 13, 6720 Szeged",
     "about": "Founded 1872, comprehensive research university (~21,000 students)",
-    "departments": [
-      "154",
-      "3",
-      "14"
-    ],
+    "departments": ["154", "3", "14"],
     "intake": "September, February",
     "languages": "Hungarian, English (many programs)",
     "tuition": "€1,500-€4,000/semester (EU), €2,500-€7,500/semester (Non-EU)",
@@ -5031,11 +3892,7 @@
     "country": "Hungary",
     "address": "Egyetem tér 1, 4032 Debrecen",
     "about": "Founded 1538, comprehensive university (~30,000 students)",
-    "departments": [
-      "196",
-      "15",
-      "61"
-    ],
+    "departments": ["196", "15", "61"],
     "intake": "September, February",
     "languages": "Hungarian, English (many programs)",
     "tuition": "€1,500-€5,000/semester (EU), €2,500-€8,000/semester (Non-EU)",
@@ -5052,10 +3909,7 @@
     "country": "Hungary",
     "address": "Fővám tér 8, 1093 Budapest",
     "about": "Founded 1920, top business/economics university (~14,000 students)",
-    "departments": [
-      "258",
-      "44"
-    ],
+    "departments": ["258", "44"],
     "intake": "September",
     "languages": "Hungarian, English (many programs)",
     "tuition": "€1,800-€5,000/semester (EU), €3,000-€9,000/semester (Non-EU)",
@@ -5072,11 +3926,7 @@
     "country": "Hungary",
     "address": "Vasvári Pál utca 4, 7622 Pécs",
     "about": "Founded 1367, oldest Hungarian university (~20,000 students)",
-    "departments": [
-      "259",
-      "14",
-      "15"
-    ],
+    "departments": ["259", "14", "15"],
     "intake": "September, February",
     "languages": "Hungarian, English, German (medical programs)",
     "tuition": "€1,500-€5,000/semester (EU), €2,500-€8,000/semester (Non-EU)",
@@ -5093,11 +3943,7 @@
     "country": "Hungary",
     "address": "Bécsi út 96/b, 1034 Budapest",
     "about": "Founded 2010, modern technical university (~12,000 students)",
-    "departments": [
-      "180",
-      "162",
-      "63"
-    ],
+    "departments": ["180", "162", "63"],
     "intake": "September",
     "languages": "Hungarian, English (technical programs)",
     "tuition": "€1,500-€4,000/semester (EU), €2,500-€7,000/semester (Non-EU)",
@@ -5114,11 +3960,7 @@
     "country": "Hungary",
     "address": "Egyetemváros, 3515 Miskolc",
     "about": "Founded 1735, technical university (~10,000 students)",
-    "departments": [
-      "203",
-      "3",
-      "4"
-    ],
+    "departments": ["203", "3", "4"],
     "intake": "September",
     "languages": "Hungarian, English (selected programs)",
     "tuition": "€1,200-€3,500/semester (EU), €2,000-€6,000/semester (Non-EU)",
@@ -5135,11 +3977,7 @@
     "country": "Hungary",
     "address": "Páter Károly u. 1, 2100 Gödöllő",
     "about": "Founded 1853, premier agricultural university (~12,000 students)",
-    "departments": [
-      "260",
-      "110",
-      "261"
-    ],
+    "departments": ["260", "110", "261"],
     "intake": "September",
     "languages": "Hungarian, English (selected programs)",
     "tuition": "€1,200-€3,500/semester (EU), €2,000-€6,000/semester (Non-EU)",
@@ -5156,12 +3994,7 @@
     "country": "Hungary",
     "address": "Andrássy út 69-71, 1062",
     "about": "Premier fine arts institution",
-    "departments": [
-      "317",
-      "262",
-      "105",
-      "165"
-    ],
+    "departments": ["317", "262", "105", "165"],
     "intake": "September (portfolio review)",
     "languages": "Hungarian (90%), English (MA programs)",
     "discountedPrice": "€1,500-€3,000/year (EU)",
@@ -5179,12 +4012,7 @@
     "country": "Hungary",
     "address": "Liszt Ferenc tér 8, 1061",
     "about": "Franz Liszt's conservatory",
-    "departments": [
-      "263",
-      "100",
-      "190",
-      "165"
-    ],
+    "departments": ["263", "100", "190", "165"],
     "intake": "September (competitive auditions)",
     "languages": "Hungarian, English (performance MA)",
     "discountedPrice": "€2,000-€4,000/year",
@@ -5202,12 +4030,7 @@
     "country": "Hungary",
     "address": "Vas u. 2/c, 1088",
     "about": "Elite drama/film school",
-    "departments": [
-      "235",
-      "236",
-      "206",
-      "165"
-    ],
+    "departments": ["235", "236", "206", "165"],
     "intake": "September (3% acceptance rate)",
     "languages": "Hungarian (BA), English (MA film)",
     "discountedPrice": "€2,500-€5,000/year",
@@ -5225,11 +4048,7 @@
     "country": "Hungary",
     "address": "Táncsics Mihály u. 1/A, 2400",
     "about": "Industrial tech focus",
-    "departments": [
-      "250",
-      "251",
-      "264"
-    ],
+    "departments": ["250", "251", "264"],
     "intake": "September/February",
     "languages": "Hungarian, English (engineering)",
     "discountedPrice": "€1,000-€2,500/year",
@@ -5247,11 +4066,7 @@
     "country": "Hungary",
     "address": "Kálvin tér 9, 1091",
     "about": "Reformed Christian university",
-    "departments": [
-      "57",
-      "3",
-      "31"
-    ],
+    "departments": ["57", "3", "31"],
     "intake": "September",
     "languages": "Hungarian, Latin (theology)",
     "discountedPrice": "€0-€1,500/year",
@@ -5269,11 +4084,7 @@
     "country": "Hungary",
     "address": "Eszterházy tér 1, 3300",
     "about": "Historic wine region campus",
-    "departments": [
-      "29",
-      "119",
-      "19"
-    ],
+    "departments": ["29", "119", "19"],
     "intake": "September",
     "languages": "Hungarian, English (wine tourism)",
     "discountedPrice": "€0-€1,200/year",
@@ -5291,10 +4102,7 @@
     "country": "Hungary",
     "address": "Columbus u. 87-89, 1145",
     "about": "Elite ballet training",
-    "departments": [
-      "265",
-      "101"
-    ],
+    "departments": ["265", "101"],
     "intake": "September (physique exams)",
     "languages": "Hungarian (100%)",
     "discountedPrice": "€2,000-€4,000/year",
@@ -5312,11 +4120,7 @@
     "country": "Hungary",
     "address": "Sóstói út 31/b, 4400",
     "about": "Regional educator",
-    "departments": [
-      "61",
-      "119",
-      "117"
-    ],
+    "departments": ["61", "119", "117"],
     "intake": "September",
     "languages": "Hungarian",
     "discountedPrice": "€0-€800/year",
@@ -5334,10 +4138,7 @@
     "country": "Hungary",
     "address": "Bajcsy-Zsilinszky u. 4, 9400",
     "about": "Forestry and wood sciences",
-    "departments": [
-      "266",
-      "267"
-    ],
+    "departments": ["266", "267"],
     "intake": "September",
     "languages": "Hungarian, German (forestry)",
     "discountedPrice": "€0-€1,000/year",
@@ -5355,10 +4156,7 @@
     "country": "Hungary",
     "address": "Izsáki út 10, 6000",
     "about": "Agricultural technology",
-    "departments": [
-      "268",
-      "321"
-    ],
+    "departments": ["268", "321"],
     "intake": "September",
     "languages": "Hungarian",
     "discountedPrice": "€0-€900/year",
@@ -5376,12 +4174,7 @@
     "country": "Estonia",
     "address": "Ülikooli 18, 50090 Tartu",
     "about": "Founded 1632, Estonia's flagship university (~14,000 students)",
-    "departments": [
-      "270",
-      "16",
-      "44",
-      "14"
-    ],
+    "departments": ["270", "16", "44", "14"],
     "intake": "September (Fall), February (Spring)",
     "languages": "Estonian (primary), English (40+ programs)",
     "tuition": "€1,600-€11,000/year (EU/Non-EU varies by program)",
@@ -5398,11 +4191,7 @@
     "country": "Estonia",
     "address": "Narva mnt 25, 10120 Tallinn",
     "about": "Modern multidisciplinary university (~7,500 students)",
-    "departments": [
-      "64",
-      "56",
-      "64"
-    ],
+    "departments": ["64", "56", "64"],
     "intake": "September",
     "languages": "Estonian, English (many programs)",
     "tuition": "€1,660-€4,000/year (EU), €2,660-€6,000/year (Non-EU)",
@@ -5419,11 +4208,7 @@
     "country": "Estonia",
     "address": "Ehitajate tee 5, 19086 Tallinn",
     "about": "Estonia's leading technical university (~11,000 students)",
-    "departments": [
-      "272",
-      "15",
-      "63"
-    ],
+    "departments": ["272", "15", "63"],
     "intake": "September",
     "languages": "Estonian, English (most technical programs)",
     "tuition": "€2,300-€6,000/year (EU), €3,300-€12,000/year (Non-EU)",
@@ -5440,11 +4225,7 @@
     "country": "Estonia",
     "address": "Põhja puiestee 7, 10412 Tallinn",
     "about": "Premier arts institution (~1,200 students)",
-    "departments": [
-      "273",
-      "52",
-      "4"
-    ],
+    "departments": ["273", "52", "4"],
     "intake": "September (portfolio review)",
     "languages": "Estonian, English (selected programs)",
     "tuition": "€2,000-€4,500/year (EU), €3,000-€7,000/year (Non-EU)",
@@ -5461,11 +4242,7 @@
     "country": "Estonia",
     "address": "Tatari 13, 10116 Tallinn",
     "about": "Top music and performing arts school (~700 students)",
-    "departments": [
-      "274",
-      "99",
-      "190"
-    ],
+    "departments": ["274", "99", "190"],
     "intake": "September (auditions required)",
     "languages": "Estonian, English (some programs)",
     "tuition": "€2,500-€5,000/year (EU), €4,000-€8,000/year (Non-EU)",
@@ -5482,11 +4259,7 @@
     "country": "Estonia",
     "address": "Kreutzwaldi 1, 51006 Tartu",
     "about": "Leading life sciences university (~3,500 students)",
-    "departments": [
-      "275",
-      "109",
-      "276"
-    ],
+    "departments": ["275", "109", "276"],
     "intake": "September",
     "languages": "Estonian, English (selected programs)",
     "tuition": "€1,800-€3,800/year (EU), €2,800-€6,500/year (Non-EU)",
@@ -5503,11 +4276,7 @@
     "country": "Estonia",
     "address": "A. Lauteri 3, 10114 Tallinn",
     "about": "Premier business school (~1,500 students)",
-    "departments": [
-      "69",
-      "64",
-      "277"
-    ],
+    "departments": ["69", "64", "277"],
     "intake": "September, February",
     "languages": "English (primary)",
     "tuition": "€3,000-€6,000/year (all students)",
@@ -5524,12 +4293,7 @@
     "country": "Estonia",
     "address": "Nooruse 5, 50411 Tartu",
     "about": "Specialized health education (~1,800 students)",
-    "departments": [
-      "103",
-      "278",
-      "279",
-      "279"
-    ],
+    "departments": ["103", "278", "279", "279"],
     "intake": "September",
     "languages": "Estonian (primary), some English instruction",
     "tuition": "€1,500-€3,000/year (EU), €2,500-€5,000/year (Non-EU)",
@@ -5546,12 +4310,7 @@
     "country": "Estonia",
     "address": "Kännu 67, 13418 Tallinn",
     "about": "Healthcare education provider (~1,500 students)",
-    "departments": [
-      "103",
-      "278",
-      "281",
-      "92"
-    ],
+    "departments": ["103", "278", "281", "92"],
     "intake": "September",
     "languages": "Estonian (primary)",
     "tuition": "€1,500-€3,000/year (EU), €2,500-€5,000/year (Non-EU)",
@@ -5568,11 +4327,7 @@
     "country": "Estonia",
     "address": "Riia 12, 51010",
     "about": "NATO-aligned military academy",
-    "departments": [
-      "282",
-      "61",
-      "165"
-    ],
+    "departments": ["282", "61", "165"],
     "intake": "August (annual intake)",
     "languages": "Estonian (80%), English (20%)",
     "discountedPrice": "Fully state-funded for Estonian citizens",
@@ -5590,11 +4345,7 @@
     "country": "Estonia",
     "address": "Tähe 38b, 50107",
     "about": "Premier arts institution",
-    "departments": [
-      "283",
-      "284",
-      "165"
-    ],
+    "departments": ["283", "284", "165"],
     "intake": "September (portfolio review)",
     "languages": "Estonian (60%), English (40%)",
     "discountedPrice": "€1,800/year (EU)",
@@ -5612,11 +4363,7 @@
     "country": "Estonia",
     "address": "Lennu 40, 61702",
     "about": "Aviation training hub",
-    "departments": [
-      "285",
-      "286",
-      "165"
-    ],
+    "departments": ["285", "286", "165"],
     "intake": "September (medical exams required)",
     "languages": "English (100% aviation programs)",
     "discountedPrice": "€2,500/year (EU)",
@@ -5634,11 +4381,7 @@
     "country": "Estonia",
     "address": "Kopli 101, 11712",
     "about": "TalTech's maritime division",
-    "departments": [
-      "74",
-      "6",
-      "165"
-    ],
+    "departments": ["74", "6", "165"],
     "intake": "September",
     "languages": "English (maritime programs)",
     "discountedPrice": "€1,900/year",
@@ -5656,11 +4399,7 @@
     "country": "Estonia",
     "address": "Eha 41, 50107",
     "about": "Applied visual arts school",
-    "departments": [
-      "385",
-      "287",
-      "165"
-    ],
+    "departments": ["385", "287", "165"],
     "intake": "September",
     "languages": "Estonian",
     "discountedPrice": "€1,200/year",
@@ -5678,11 +4417,7 @@
     "country": "Estonia",
     "address": "Kooli tee 1, 65542",
     "about": "Rural technical education",
-    "departments": [
-      "288",
-      "250",
-      "165"
-    ],
+    "departments": ["288", "250", "165"],
     "intake": "Rolling admissions",
     "languages": "Estonian",
     "discountedPrice": "Free (state-funded)",
@@ -5700,11 +4435,7 @@
     "country": "Estonia",
     "address": "Kopli 1, 50115",
     "about": "Largest vocational school",
-    "departments": [
-      "289",
-      "290",
-      "165"
-    ],
+    "departments": ["289", "290", "165"],
     "intake": "September/January",
     "languages": "Estonian",
     "discountedPrice": "Free",
@@ -5722,10 +4453,7 @@
     "country": "Estonia",
     "address": "Kohtu 22, 93812",
     "about": "Island technical education",
-    "departments": [
-      "291",
-      "267"
-    ],
+    "departments": ["291", "267"],
     "intake": "September",
     "languages": "Estonian",
     "discountedPrice": "Free",
@@ -5743,10 +4471,7 @@
     "country": "Estonia",
     "address": "Raekoja plats 2, 20307",
     "about": "Russian-language programs",
-    "departments": [
-      "292",
-      "293"
-    ],
+    "departments": ["292", "293"],
     "intake": "September",
     "languages": "Russian/Estonian/English",
     "discountedPrice": "€1,000/year",
@@ -5764,10 +4489,7 @@
     "country": "Estonia",
     "address": "Ehitajate tee 3, 90502",
     "about": "Coastal vocational school",
-    "departments": [
-      "290",
-      "294"
-    ],
+    "departments": ["290", "294"],
     "intake": "September",
     "languages": "Estonian",
     "discountedPrice": "Free",
@@ -5785,10 +4507,7 @@
     "country": "Estonia",
     "address": "Piiri 8, 44316",
     "about": "Northeast technical school",
-    "departments": [
-      "61",
-      "295"
-    ],
+    "departments": ["61", "295"],
     "intake": "September",
     "languages": "Estonian",
     "discountedPrice": "Free",
@@ -6486,12 +5205,7 @@
     "country": "Germany",
     "address": "Mittelweg 177, 20148",
     "about": "Comprehensive research university",
-    "departments": [
-      "3",
-      "432",
-      "2",
-      "165"
-    ],
+    "departments": ["3", "432", "2", "165"],
     "intake": "October (Winter), April (Summer)",
     "languages": "German (70%), English (30% MSc)",
     "discountedPrice": "€332/semester (EU)",
@@ -6509,11 +5223,7 @@
     "country": "Germany",
     "address": "Albertus-Magnus-Platz, 50923",
     "about": "Historic business/law hub",
-    "departments": [
-      "4",
-      "2",
-      "44"
-    ],
+    "departments": ["4", "2", "44"],
     "intake": "October",
     "languages": "German (BA), English (MSc Econ)",
     "discountedPrice": "€265/semester",
@@ -6531,11 +5241,7 @@
     "country": "Germany",
     "address": "Schloss, 68161",
     "about": "Premier business school",
-    "departments": [
-      "163",
-      "36",
-      "141"
-    ],
+    "departments": ["163", "36", "141"],
     "intake": "September",
     "languages": "English (90% Masters)",
     "discountedPrice": "€1,500/semester",
@@ -6553,11 +5259,7 @@
     "country": "Germany",
     "address": "Augustusplatz 10, 04109",
     "about": "Historic research university",
-    "departments": [
-      "56",
-      "62",
-      "2"
-    ],
+    "departments": ["56", "62", "2"],
     "intake": "October",
     "languages": "German (80%), English (20%)",
     "discountedPrice": "€210/semester",
@@ -6575,11 +5277,7 @@
     "country": "Germany",
     "address": "Schlossplatz 2, 48149",
     "about": "Leading theology/law school",
-    "departments": [
-      "332",
-      "3",
-      "18"
-    ],
+    "departments": ["332", "3", "18"],
     "intake": "October",
     "languages": "German (theology), English (STEM)",
     "discountedPrice": "€300/semester",
@@ -6597,11 +5295,7 @@
     "country": "Germany",
     "address": "Universitätsstraße 2, 45141",
     "about": "Industrial innovation hub",
-    "departments": [
-      "15",
-      "2",
-      "333"
-    ],
+    "departments": ["15", "2", "333"],
     "intake": "October",
     "languages": "German (BSc), English (MSc Eng)",
     "discountedPrice": "€315/semester",
@@ -6619,11 +5313,7 @@
     "country": "Germany",
     "address": "Am Neuen Palais 10, 14469",
     "about": "Digital governance leader",
-    "departments": [
-      "7",
-      "16",
-      "167"
-    ],
+    "departments": ["7", "16", "167"],
     "intake": "October",
     "languages": "German/English (50/50)",
     "discountedPrice": "€290/semester",
@@ -6641,11 +5331,7 @@
     "country": "Germany",
     "address": "Fürstengraben 1, 07743",
     "about": "Optics/photonics pioneer",
-    "departments": [
-      "5",
-      "18",
-      "334"
-    ],
+    "departments": ["5", "18", "334"],
     "intake": "October",
     "languages": "German (BSc), English (MSc Physics)",
     "discountedPrice": "€200/semester",
@@ -6663,11 +5349,7 @@
     "country": "Germany",
     "address": "Straße des 17. Juni 135, 10623",
     "about": "Tech innovation leader",
-    "departments": [
-      "334",
-      "289",
-      "69"
-    ],
+    "departments": ["334", "289", "69"],
     "intake": "October",
     "languages": "English (70% Masters)",
     "discountedPrice": "€315/semester",
@@ -6685,11 +5367,7 @@
     "country": "Germany",
     "address": "Christian-Albrechts-Platz 4, 24118",
     "about": "Marine science authority",
-    "departments": [
-      "17",
-      "3",
-      "2"
-    ],
+    "departments": ["17", "3", "2"],
     "intake": "October",
     "languages": "German (BA), English (Marine MSc)",
     "discountedPrice": "€260/semester",
@@ -7047,12 +5725,7 @@
     "country": "Sweden",
     "address": "Universitetsgatan 2, 656 37",
     "about": "Young, innovative university",
-    "departments": [
-      "1",
-      "335",
-      "3",
-      "165"
-    ],
+    "departments": ["1", "335", "3", "165"],
     "intake": "August (Autumn), January (Spring)",
     "languages": "Swedish (60%), English (40%)",
     "discountedPrice": "Free for EU/EEA",
@@ -7070,11 +5743,7 @@
     "country": "Sweden",
     "address": "Holmgatan 10, 851 70",
     "about": "Distance learning specialist",
-    "departments": [
-      "356",
-      "119",
-      "41"
-    ],
+    "departments": ["356", "119", "41"],
     "intake": "August/January",
     "languages": "Swedish (70%), English (30%)",
     "discountedPrice": "Free for EU",
@@ -7092,11 +5761,7 @@
     "country": "Sweden",
     "address": "Nordenskiöldsgatan 1, 211 19",
     "about": "Diversity-focused education",
-    "departments": [
-      "357",
-      "354",
-      "52"
-    ],
+    "departments": ["357", "354", "52"],
     "intake": "August",
     "languages": "English (50% programs)",
     "discountedPrice": "Free for EU",
@@ -7114,11 +5779,7 @@
     "country": "Sweden",
     "address": "Universitetsplatsen 1, 352 52",
     "about": "Sustainability and IT focus",
-    "departments": [
-      "52",
-      "54",
-      "119"
-    ],
+    "departments": ["52", "54", "119"],
     "intake": "August/January",
     "languages": "English (45% programs)",
     "discountedPrice": "Free for EU",
@@ -7136,11 +5797,7 @@
     "country": "Sweden",
     "address": "Högskolegatan 2, 791 31",
     "about": "Distance learning leader",
-    "departments": [
-      "358",
-      "119",
-      "358"
-    ],
+    "departments": ["358", "119", "358"],
     "intake": "Rolling admissions",
     "languages": "English (60% programs)",
     "discountedPrice": "Free for EU",
@@ -7158,11 +5815,7 @@
     "country": "Sweden",
     "address": "Högskolevägen, 541 28",
     "about": "Game dev/bioinformatics hub",
-    "departments": [
-      "334",
-      "193",
-      "33"
-    ],
+    "departments": ["334", "193", "33"],
     "intake": "August",
     "languages": "English (game programs)",
     "discountedPrice": "Free for EU",
@@ -7180,11 +5833,7 @@
     "country": "Sweden",
     "address": "Gustava Melins gata 2, 461 86",
     "about": "Work-integrated learning",
-    "departments": [
-      "359",
-      "264",
-      "103"
-    ],
+    "departments": ["359", "264", "103"],
     "intake": "August",
     "languages": "Swedish (80%), English (20%)",
     "discountedPrice": "Free for EU",
@@ -7202,11 +5851,7 @@
     "country": "Sweden",
     "address": "Elmetorpsvägen 15, 291 39",
     "about": "Food/health sciences focus",
-    "departments": [
-      "360",
-      "54",
-      "362"
-    ],
+    "departments": ["360", "54", "362"],
     "intake": "August",
     "languages": "Swedish (primary)",
     "discountedPrice": "Free for EU",
@@ -7224,11 +5869,7 @@
     "country": "Sweden",
     "address": "Kristian IV:s väg 3, 302 50",
     "about": "Applied IT/health sciences",
-    "departments": [
-      "363",
-      "364",
-      "103"
-    ],
+    "departments": ["363", "364", "103"],
     "intake": "August",
     "languages": "English (IT programs)",
     "discountedPrice": "Free for EU",
@@ -7246,11 +5887,7 @@
     "country": "Sweden",
     "address": "Valhallavägen 1, 371 41",
     "about": "Software/sustainability leader",
-    "departments": [
-      "365",
-      "285",
-      "366"
-    ],
+    "departments": ["365", "285", "366"],
     "intake": "August",
     "languages": "English (70% programs)",
     "discountedPrice": "Free for EU",
@@ -7608,12 +6245,7 @@
     "country": "Norway",
     "address": "Diakonveien 14, 0370",
     "about": "Private-public institution focused on health/social sciences and theology",
-    "departments": [
-      "103",
-      "394",
-      "185",
-      "165"
-    ],
+    "departments": ["103", "394", "185", "165"],
     "intake": "August (Fall), January (Spring for select programs)",
     "languages": "Norwegian (primary), English (5 Master's programs)",
     "discountedPrice": "Free for EU/EEA students",
@@ -7631,11 +6263,7 @@
     "country": "Norway",
     "address": "Gydas vei 4, 0363",
     "about": "Premier theology school since 1908",
-    "departments": [
-      "395",
-      "396",
-      "165"
-    ],
+    "departments": ["395", "396", "165"],
     "intake": "August",
     "languages": "Norwegian (90%), English (PhD/Master's electives)",
     "discountedPrice": "Free for EU/EEA",
@@ -7653,12 +6281,7 @@
     "country": "Norway",
     "address": "Gudbrandsdalsvegen 350, 2624",
     "about": "Applied sciences leader",
-    "departments": [
-      "365",
-      "254",
-      "69",
-      "165"
-    ],
+    "departments": ["365", "254", "69", "165"],
     "intake": "August/January",
     "languages": "Norwegian (BSc), English (MSc Game Dev)",
     "discountedPrice": "Free for EU/EEA",
@@ -7676,11 +6299,7 @@
     "country": "Norway",
     "address": "Inndalsveien 28, 5063",
     "about": "Teacher training/engineering hub",
-    "departments": [
-      "396",
-      "267",
-      "165"
-    ],
+    "departments": ["396", "267", "165"],
     "intake": "August",
     "languages": "Norwegian (teacher programs), English (engineering)",
     "discountedPrice": "Free for EU/EEA",
@@ -7698,11 +6317,7 @@
     "country": "Norway",
     "address": "Joplassvegen 11, 6100",
     "about": "Media/journalism specialist",
-    "departments": [
-      "79",
-      "310",
-      "165"
-    ],
+    "departments": ["79", "310", "165"],
     "intake": "August",
     "languages": "Norwegian (media programs), English (exchange courses)",
     "discountedPrice": "Free for EU/EEA",
@@ -7720,11 +6335,7 @@
     "country": "Norway",
     "address": "Hannoluohkká 45, 9520",
     "about": "Indigenous education center",
-    "departments": [
-      "396",
-      "5",
-      "165"
-    ],
+    "departments": ["396", "5", "165"],
     "intake": "August",
     "languages": "Sámi (primary), Norwegian/English",
     "discountedPrice": "Free for all students",
@@ -7742,11 +6353,7 @@
     "country": "Norway",
     "address": "Slemdalsveien 11, 0363",
     "about": "Top music conservatory",
-    "departments": [
-      "190",
-      "100",
-      "165"
-    ],
+    "departments": ["190", "100", "165"],
     "intake": "August (audition-based)",
     "languages": "Norwegian/English",
     "discountedPrice": "Free for EU/EEA",
@@ -7764,11 +6371,7 @@
     "country": "Norway",
     "address": "Fossveien 24, 0551",
     "about": "Elite visual arts school",
-    "departments": [
-      "397",
-      "398",
-      "165"
-    ],
+    "departments": ["397", "398", "165"],
     "intake": "August (portfolio review)",
     "languages": "Norwegian/English critiques",
     "discountedPrice": "Free for EU/EEA",
@@ -7786,11 +6389,7 @@
     "country": "Norway",
     "address": "Trara, 1606",
     "about": "Experimental theater school",
-    "departments": [
-      "399",
-      "400",
-      "165"
-    ],
+    "departments": ["399", "400", "165"],
     "intake": "August (audition/portfolio)",
     "languages": "English (100%)",
     "discountedPrice": "Free for EU/EEA",
@@ -8148,12 +6747,7 @@
     "country": "Switzerland",
     "address": "Pfingstweidstrasse 96, 8005",
     "about": "Europe's largest multidisciplinary arts university",
-    "departments": [
-      "193",
-      "3",
-      "407",
-      "165"
-    ],
+    "departments": ["193", "3", "407", "165"],
     "intake": "September (portfolio/audition-based)",
     "languages": "German (70%), English (30%)",
     "discountedPrice": "CHF 720/semester (Swiss)",
@@ -8171,11 +6765,7 @@
     "country": "Switzerland",
     "address": "Hallerstrasse 10, 3012",
     "about": "Practice-oriented technical education",
-    "departments": [
-      "69",
-      "110",
-      "172"
-    ],
+    "departments": ["69", "110", "172"],
     "intake": "September/February",
     "languages": "German (BSc), English (MSc)",
     "discountedPrice": "CHF 750/semester",
@@ -8193,11 +6783,7 @@
     "country": "Switzerland",
     "address": "Route de Moutiers 14, 2800",
     "about": "Largest applied sciences network",
-    "departments": [
-      "408",
-      "409",
-      "267"
-    ],
+    "departments": ["408", "409", "267"],
     "intake": "September",
     "languages": "French (80%), English (20%)",
     "discountedPrice": "CHF 500/semester",
@@ -8215,11 +6801,7 @@
     "country": "Switzerland",
     "address": "Werftestrasse 4, 6005",
     "about": "Business/tech/design focus",
-    "departments": [
-      "410",
-      "289",
-      "411"
-    ],
+    "departments": ["410", "289", "411"],
     "intake": "September",
     "languages": "German (BSc), English (MSc)",
     "discountedPrice": "CHF 700/semester",
@@ -8237,11 +6819,7 @@
     "country": "Switzerland",
     "address": "Lagerstrasse 2, 8090",
     "about": "Teacher training leader",
-    "departments": [
-      "38",
-      "16",
-      "412"
-    ],
+    "departments": ["38", "16", "412"],
     "intake": "September",
     "languages": "German (100%)",
     "discountedPrice": "CHF 600/semester",
@@ -8259,11 +6837,7 @@
     "country": "Switzerland",
     "address": "Überlandstrasse 12, 3900",
     "about": "Flexible digital education",
-    "departments": [
-      "280",
-      "334",
-      "373"
-    ],
+    "departments": ["280", "334", "373"],
     "intake": "Quarterly intakes",
     "languages": "German/English (70/30)",
     "discountedPrice": "CHF 1,200/semester",
@@ -8281,11 +6855,7 @@
     "country": "Switzerland",
     "address": "Lerchenfeldstrasse 5, 9014",
     "about": "Merger of three technical schools",
-    "departments": [
-      "413",
-      "267",
-      "264"
-    ],
+    "departments": ["413", "267", "264"],
     "intake": "September",
     "languages": "German (BSc), English (MSc)",
     "discountedPrice": "CHF 650/semester",
@@ -8303,11 +6873,7 @@
     "country": "Switzerland",
     "address": "Jungholzstrasse 43, 8050",
     "about": "Professional part-time education",
-    "departments": [
-      "414",
-      "415",
-      "416"
-    ],
+    "departments": ["414", "415", "416"],
     "intake": "Rolling admissions",
     "languages": "German (90%), English (10%)",
     "discountedPrice": "CHF 1,500/semester",
@@ -8325,11 +6891,7 @@
     "country": "Switzerland",
     "address": "Steinberggasse 13, 8400",
     "about": "Innovation and entrepreneurship",
-    "departments": [
-      "416",
-      "417",
-      "62"
-    ],
+    "departments": ["416", "417", "62"],
     "intake": "September",
     "languages": "German/English (60/40)",
     "discountedPrice": "CHF 700/semester",
@@ -8347,11 +6909,7 @@
     "country": "Switzerland",
     "address": "Rue de la Tambourine 17, 1227",
     "about": "Multilingual business school",
-    "departments": [
-      "215",
-      "414",
-      "418"
-    ],
+    "departments": ["215", "414", "418"],
     "intake": "September",
     "languages": "French/English (50/50)",
     "discountedPrice": "CHF 500/semester",
@@ -8709,12 +7267,7 @@
     "country": "Greece",
     "address": "Parodos Aristotelous 18, 26335",
     "about": "Pioneer in distance education since 1997",
-    "departments": [
-      "446",
-      "163",
-      "162",
-      "165"
-    ],
+    "departments": ["446", "163", "162", "165"],
     "intake": "Rolling admissions (distance learning)",
     "languages": "Greek (primary), English (select programs)",
     "discountedPrice": "~€1,500/year (EU)",
@@ -8732,12 +7285,7 @@
     "country": "Greece",
     "address": "14th km Thessaloniki-N. Moudania, 57001",
     "about": "English-taught international hub",
-    "departments": [
-      "3",
-      "251",
-      "447",
-      "165"
-    ],
+    "departments": ["3", "251", "447", "165"],
     "intake": "October",
     "languages": "English (100% programs)",
     "discountedPrice": "€1,800/year (EU)",
@@ -8755,11 +7303,7 @@
     "country": "Greece",
     "address": "Agiou Spiridonos, 12243",
     "about": "Applied sciences leader",
-    "departments": [
-      "413",
-      "448",
-      "226"
-    ],
+    "departments": ["413", "448", "226"],
     "intake": "September",
     "languages": "Greek (90%), English (10%)",
     "discountedPrice": "€1,300/year",
@@ -8777,11 +7321,7 @@
     "country": "Greece",
     "address": "Syngrou Ave 136, 17671",
     "about": "Political/social sciences specialist",
-    "departments": [
-      "309",
-      "354",
-      "213"
-    ],
+    "departments": ["309", "354", "213"],
     "intake": "September",
     "languages": "Greek",
     "discountedPrice": "€1,000/year",
@@ -8799,10 +7339,7 @@
     "country": "Greece",
     "address": "Erithrou Stavrou, 22131",
     "about": "Digital/regional studies focus",
-    "departments": [
-      "441",
-      "449"
-    ],
+    "departments": ["441", "449"],
     "intake": "September",
     "languages": "Greek",
     "discountedPrice": "€900/year",
@@ -9058,12 +7595,7 @@
     "country": "Liechtenstein",
     "address": "Fürst-Franz-Josef-Strasse, 9490",
     "about": "The only public university in Liechtenstein, specializing in architecture and business .",
-    "departments": [
-      "64",
-      "476",
-      "373",
-      "165"
-    ],
+    "departments": ["64", "476", "373", "165"],
     "intake": "September (Winter), February (Summer)",
     "languages": "German (primary), English (MSc programs)",
     "discountedPrice": "950 CHF/semester (EU/EEA)",
@@ -9081,11 +7613,7 @@
     "country": "Luxembourg",
     "address": "2, avenue de l’Université, L-4365",
     "about": "Trilingual (English/French/German) research university.",
-    "departments": [
-      "36",
-      "477",
-      "478"
-    ],
+    "departments": ["36", "477", "478"],
     "intake": "September",
     "languages": "Multilingual programs",
     "discountedPrice": "€400/semester (EU)",
@@ -9103,11 +7631,7 @@
     "country": "Malta",
     "address": "Msida MSD 2080",
     "about": "Historic English-taught university.",
-    "departments": [
-      "439",
-      "106",
-      "479"
-    ],
+    "departments": ["439", "106", "479"],
     "intake": "October",
     "languages": "English",
     "discountedPrice": "€1,080/year (EU)",
@@ -9125,11 +7649,7 @@
     "country": "Portugal",
     "address": "Alameda da Universidade, 1649-004",
     "about": "Portugal's largest research university .",
-    "departments": [
-      "334",
-      "17",
-      "2"
-    ],
+    "departments": ["334", "17", "2"],
     "intake": "September",
     "languages": "Portuguese (80%), English (20%)",
     "discountedPrice": "€697/year (EU)",
@@ -9147,11 +7667,7 @@
     "country": "Portugal",
     "address": "Campus de Santiago, 3810-193",
     "about": "Leader in marine tech and materials science .",
-    "departments": [
-      "480",
-      "14",
-      "481"
-    ],
+    "departments": ["480", "14", "481"],
     "intake": "September",
     "languages": "Portuguese/English (STEM programs)",
     "discountedPrice": "€697/year",

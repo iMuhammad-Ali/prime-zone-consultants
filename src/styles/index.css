@@ -81,45 +81,155 @@ h1 {
 }
 
 @layer utilities {
-  @media (min-width: 1280px) {
+  @media (min-width: 1600px) {
+    .text-sm {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+    .text-md {
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
     .text-lg {
       font-size: 1.5rem;
       line-height: 2.25rem;
     }
-  }
-
-  @media (min-width: 1536px) {
-    .text-lg {
-      font-size: 1.75rem;
-      line-height: 2.5rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
     .text-xl {
       font-size: 2rem;
       line-height: 2.25rem;
     }
-  }
-
-  @media (min-width: 1536px) {
-    .text-xl {
-      font-size: 2.25rem;
-      line-height: 3rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
     .text-2xl {
       font-size: 2.25rem;
       line-height: 2.75rem;
     }
+    .text-3xl {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+    .text-4xl {
+      font-size: 2.75rem;
+      line-height: 3.25rem;
+    }
+    .text-5xl {
+      font-size: 3rem;
+      line-height: 3.75rem;
+    }
+    .text-6xl {
+      font-size: 4.5rem;
+      line-height: 4.25rem;
+    }
   }
 
-  @media (min-width: 1536px) {
+  @media (min-width: 1920px) {
+    .text-sm {
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
+    .text-md {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+    }
+    .text-lg {
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
+    .text-xl {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
     .text-2xl {
       font-size: 2.5rem;
       line-height: 3.5rem;
+    }
+    .text-3xl {
+      font-size: 2.75rem;
+      line-height: 4rem;
+    }
+    .text-4xl {
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+    .text-5xl {
+      font-size: 3.5rem;
+      line-height: 5rem;
+    }
+    .text-6xl {
+      font-size: 4.5rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .text-base {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    .text-sm {
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+    }
+    .text-md {
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
+    .text-lg {
+      font-size: 2rem;
+      line-height: 2.75rem;
+    }
+    .text-xl {
+      font-size: 2.5rem;
+      line-height: 3.25rem;
+    }
+    .text-2xl {
+      font-size: 2.75rem;
+      line-height: 3.75rem;
+    }
+    .text-3xl {
+      font-size: 3rem;
+      line-height: 4.25rem;
+    }
+    .text-4xl {
+      font-size: 3.25rem;
+      line-height: 4.75rem;
+    }
+    .text-5xl {
+      font-size: 3.5rem;
+      line-height: 5rem;
+    }
+    .text-6xl {
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  @media (min-width: 3840px) {
+    .text-sm {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+    .text-md {
+      font-size: 2rem;
+      line-height: 2.75rem;
+    }
+    .text-lg {
+      font-size: 2.25rem;
+      line-height: 3rem;
+    }
+    .text-xl {
+      font-size: 2.75rem;
+      line-height: 3.5rem;
+    }
+    .text-2xl {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    .text-3xl {
+      font-size: 3.25rem;
+      line-height: 4.5rem;
+    }
+    .text-4xl {
+      font-size: 3.5rem;
+      line-height: 6rem;
     }
   }
 }

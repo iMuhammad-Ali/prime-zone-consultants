@@ -45,26 +45,35 @@ const Stats = ({
   ],
 }: StatsProps) => {
   return (
-    <section className="py-16">
-      <div className="container">
-        <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold md:text-4xl">
+    <section className="py-[6vw] sm:py-[4vw] lg:py-[3vw]">
+      <div>
+        <div className="flex flex-col gap-[2vw] sm:gap-[1.5vw] lg:gap-[1vw]">
+          <h2 className="text-[5vw] sm:text-[4vw] lg:text-[2.5vw] font-bold">
             Platform performance insights
           </h2>
-          <p>Ensuring stability and scalability for all users</p>
+          <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+            Ensuring stability and scalability for all users
+          </p>
           <a
             href="/"
-            className="flex items-center gap-1 font-bold text-primary-foreground hover:underline"
+            className="flex items-center gap-[1vw] sm:gap-[0.75vw] lg:gap-[0.25vw] font-bold text-primary-foreground hover:underline text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]"
           >
             Read the full impact report
-            <ArrowRight className="h-auto w-4" />
+            <ArrowRight className="h-auto w-[4vw] sm:w-[3vw] lg:w-[1vw]" />
           </a>
         </div>
-        <div className="mt-14 grid gap-x-5 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-[6vw] sm:mt-[4vw] lg:mt-[3.5vw] grid gap-x-[3vw] gap-y-[4vw] sm:gap-x-[2vw] sm:gap-y-[3vw] lg:gap-x-[1.25vw] lg:gap-y-[2vw] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
-            <div key={stat.id} className="flex flex-col gap-5">
-              <div className="text-6xl font-bold">{stat.value}</div>
-              <p>{stat.label}</p>
+            <div
+              key={stat.id}
+              className="flex flex-col gap-[2vw] sm:gap-[1.5vw] lg:gap-[1.25vw]"
+            >
+              <div className="text-[8vw] sm:text-[6vw] lg:text-[4vw] font-bold">
+                {stat.value}
+              </div>
+              <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+                {stat.label}
+              </p>
             </div>
           ))}
         </div>

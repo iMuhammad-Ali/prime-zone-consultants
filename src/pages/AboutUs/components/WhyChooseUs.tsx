@@ -16,70 +16,6 @@ export interface WhyChooseUsProps {
   className?: string;
 }
 
-const WhyChooseUs = ({
-  title = "Why Choose Prime Zone?",
-  description = "We provide end-to-end guidance for students, right from selecting the right course and university to visa preparation, ensuring a smooth and successful study abroad journey.",
-  entries = defaultChangelogData,
-}: WhyChooseUsProps) => {
-  return (
-    <section className="py-32">
-      <div className="container">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl">
-            {title}
-          </h2>
-          <p className="mb-6 text-base text-muted-foreground md:text-lg">
-            {description}
-          </p>
-        </div>
-        <div className="mx-auto mt-16 max-w-3xl space-y-16 md:mt-24 md:space-y-24">
-          {entries.map((entry, index) => (
-            <div
-              key={index}
-              className="relative flex flex-col gap-4 md:flex-row md:gap-16"
-            >
-              <div className="top-28 flex h-min shrink-0 items-center gap-4 md:sticky">
-                <Badge variant="secondary" className="text-xs">
-                  {entry.version}
-                </Badge>
-                <span className="text-xs font-medium text-muted-foreground">
-                  {entry.date}
-                </span>
-              </div>
-              <div>
-                <h2 className="mb-3 text-lg leading-tight font-bold text-foreground/90 md:text-2xl">
-                  {entry.title}
-                </h2>
-                <p className="text-sm text-muted-foreground md:text-base">
-                  {entry.description}
-                </p>
-                {entry.items && entry.items.length > 0 && (
-                  <ul className="mt-4 ml-4 space-y-1.5 text-sm text-muted-foreground md:text-base">
-                    {entry.items.map((item, itemIndex) => (
-                      <li key={itemIndex} className="list-disc">
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-                {entry.image && (
-                  <img
-                    src={entry.image}
-                    alt={`${entry.version} visual`}
-                    className="mt-8 w-full rounded-lg object-cover"
-                  />
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export { WhyChooseUs };
-
 export const defaultChangelogData: ChangelogEntry[] = [
   {
     version: "Course Selection",
@@ -142,3 +78,70 @@ export const defaultChangelogData: ChangelogEntry[] = [
       "https://media.istockphoto.com/id/505213590/photo/multiracial-teen-couple-holding-globe-map-stock.jpg?s=612x612&w=0&k=20&c=BTyGurH4GE6eNFdkW3_LiVOxpHncHfigDNLKX4YK48M=",
   },
 ];
+
+const WhyChooseUs = ({
+  title = "Why Choose Prime Zone?",
+  description = "We provide end-to-end guidance for students, right from selecting the right course and university to visa preparation, ensuring a smooth and successful study abroad journey.",
+  entries = defaultChangelogData,
+}: WhyChooseUsProps) => {
+  return (
+    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw] xl:py-[4vw] 2xl:py-[3vw]">
+      <div className="px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
+        <div className="mx-auto max-w-[90vw] lg:max-w-[70vw] xl:max-w-[60vw] 2xl:max-w-[50vw]">
+          <h2 className="mb-[3vw] sm:mb-[2vw] lg:mb-[1vw] xl:mb-[0.8vw] 2xl:mb-[0.6vw] text-[6vw] sm:text-[4vw] lg:text-[3vw] xl:text-[2.5vw] 2xl:text-[2vw] font-bold tracking-tight">
+            {title}
+          </h2>
+          <p className="mb-[4vw] sm:mb-[3vw] lg:mb-[1.5vw] xl:mb-[1.2vw] 2xl:mb-[1vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw] xl:text-[1.1vw] 2xl:text-[0.9vw] text-muted-foreground">
+            {description}
+          </p>
+        </div>
+        <div className="mx-auto mt-[6vw] sm:mt-[4vw] lg:mt-[4vw] xl:mt-[3vw] 2xl:mt-[2.5vw] max-w-[90vw] lg:max-w-[70vw] xl:max-w-[60vw] 2xl:max-w-[50vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[4vw] xl:space-y-[3vw] 2xl:space-y-[2.5vw]">
+          {entries.map((entry, index) => (
+            <div
+              key={index}
+              className="relative flex flex-col gap-[3vw] sm:gap-[2vw] lg:gap-[4vw] xl:gap-[3vw] 2xl:gap-[2.5vw] md:flex-row"
+            >
+              <div className="top-[7vw] sm:top-[5vw] lg:top-[4vw] xl:top-[3vw] 2xl:top-[2.5vw] flex h-min shrink-0 items-center gap-[3vw] sm:gap-[2vw] lg:gap-[1vw] xl:gap-[0.8vw] 2xl:gap-[0.6vw] md:sticky">
+                <Badge
+                  variant="secondary"
+                  className="text-[3vw] sm:text-[2vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] px-[2vw] sm:px-[1.5vw] lg:px-[0.8vw] xl:px-[0.7vw] 2xl:px-[0.6vw] py-[1vw] sm:py-[0.75vw] lg:py-[0.4vw] xl:py-[0.35vw] 2xl:py-[0.3vw]"
+                >
+                  {entry.version}
+                </Badge>
+                <span className="text-[3vw] sm:text-[2vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] font-medium text-muted-foreground">
+                  {entry.date}
+                </span>
+              </div>
+              <div>
+                <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.8vw] xl:mb-[0.7vw] 2xl:mb-[0.6vw] text-[4vw] sm:text-[3vw] lg:text-[1.5vw] xl:text-[1.3vw] 2xl:text-[1.1vw] leading-tight font-bold text-foreground/90">
+                  {entry.title}
+                </h2>
+                <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] text-muted-foreground">
+                  {entry.description}
+                </p>
+                {entry.items && entry.items.length > 0 && (
+                  <ul className="mt-[3vw] sm:mt-[2vw] lg:mt-[1vw] xl:mt-[0.8vw] 2xl:mt-[0.6vw] ml-[3vw] sm:ml-[2vw] lg:ml-[1vw] xl:ml-[0.8vw] 2xl:ml-[0.6vw] space-y-[1.5vw] sm:space-y-[1vw] lg:space-y-[0.4vw] xl:space-y-[0.35vw] 2xl:space-y-[0.3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] text-muted-foreground">
+                    {entry.items.map((item, itemIndex) => (
+                      <li key={itemIndex} className="list-disc">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {entry.image && (
+                  <img
+                    src={entry.image}
+                    alt={`${entry.version} visual`}
+                    className="mt-[6vw] sm:mt-[4vw] lg:mt-[2vw] xl:mt-[1.5vw] 2xl:mt-[1.2vw] w-full rounded-lg object-cover max-h-[40vw] sm:max-h-[30vw] lg:max-h-[20vw] xl:max-h-[15vw] 2xl:max-h-[12vw]"
+                  />
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export { WhyChooseUs };

@@ -1,15 +1,15 @@
 const DisclaimerPage = () => {
   return (
-    <section className="mx-auto pt-32 pb-24 space-y-8 max-w-4xl">
-      <h2 className="text-4xl font-bold text-foreground text-center">
+    <section className="mx-auto pt-[10vw] sm:pt-[8vw] lg:pt-[6vw] pb-[8vw] sm:pb-[6vw] lg:pb-[4vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+      <h2 className="text-[6vw] sm:text-[4vw] lg:text-[3vw] font-bold text-foreground text-center">
         Disclaimer
       </h2>
-      <div className="space-y-8 text-justify">
+      <div className="space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] text-justify">
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-[4vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold text-foreground">
             Images Notice:
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] leading-relaxed">
             The images displayed throughout this website are not the exclusive
             property of Prime Zone Consultants. Instead, they have been
             carefully sourced from a variety of publicly accessible platforms
@@ -29,10 +29,10 @@ const DisclaimerPage = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-[4vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold text-foreground">
             General Disclaimer:
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] leading-relaxed">
             While every effort has been made to ensure that the information
             presented on this website is accurate and up-to-date, Prime Zone
             Consultants does not assume any liability for errors, omissions, or

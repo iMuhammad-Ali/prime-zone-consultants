@@ -68,9 +68,9 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
   const [activeImage, setActiveImage] = useState(features[0].image);
 
   return (
-    <section className="dark bg-background text-foreground py-16">
-      <div className="container mx-auto">
-        <div className="mb-12 flex w-full items-start justify-between gap-12">
+    <section className="dark bg-background text-foreground py-[6vw] sm:py-[4vw] lg:py-[3vw]">
+      <div className="mx-auto">
+        <div className="mb-[5vw] sm:mb-[4vw] lg:mb-[3vw] flex w-full items-start justify-between gap-[5vw] sm:gap-[4vw] lg:gap-[3vw]">
           <div className="w-full md:w-1/2">
             <Accordion type="single" className="w-full" defaultValue="item-1">
               {features.map((tab) => (
@@ -80,10 +80,10 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                       setActiveImage(tab.image);
                       setActiveTabId(tab.id);
                     }}
-                    className="cursor-pointer py-5 !no-underline transition"
+                    className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.25vw] !no-underline transition"
                   >
                     <h6
-                      className={`text-xl font-semibold ${
+                      className={`text-[4vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold ${
                         tab.id === activeTabId
                           ? "text-foreground"
                           : "text-foreground/80"
@@ -93,12 +93,14 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="mt-3 text-muted">{tab.description}</p>
-                    <div className="mt-4 md:hidden">
+                    <p className="mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.75vw] text-muted text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+                      {tab.description}
+                    </p>
+                    <div className="mt-[3vw] sm:mt-[2vw] lg:mt-[1vw] md:hidden">
                       <img
                         src={tab.image}
                         alt={tab.title}
-                        className="h-full max-h-80 w-full rounded-md object-cover"
+                        className="h-full max-h-[60vw] sm:max-h-[50vw] w-full rounded-md object-cover"
                       />
                     </div>
                   </AccordionContent>

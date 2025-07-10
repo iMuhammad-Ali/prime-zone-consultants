@@ -70,44 +70,44 @@ const people = [
 
 const Team = () => {
   return (
-    <section className="py-32">
-      <div className="container flex flex-col items-center text-center">
-        <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
+    <section className="py-[12vw] sm:py-[10vw] md:py-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+      <div className="flex flex-col items-center text-center">
+        <h2 className="my-[4vw] sm:my-[3vw] md:my-[2vw] lg:my-[1.5vw] text-2xl font-bold text-pretty lg:text-4xl">
           Meet our team
         </h2>
-        <p className="mb-8 max-w-3xl text-muted-foreground lg:text-xl">
+        <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[85vw] md:max-w-[80vw] lg:max-w-[75vw] text-muted-foreground lg:text-xl">
           Our experienced and passionate team of education consultants, visa
           experts, and student advisors is dedicated to helping you make the
           right choices for your academic and career goals abroad.
         </p>
       </div>
-      <div className="container mt-16 grid gap-x-12 gap-y-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="mt-[6vw] sm:mt-[5vw] md:mt-[4vw] grid gap-x-[6vw] gap-y-[6vw] sm:gap-x-[4vw] sm:gap-y-[5vw] md:gap-x-[3vw] md:gap-y-[4vw] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {people.map((person) => (
           <Card
             key={person.id}
             className="flex flex-col items-start overflow-hidden"
           >
             <CardHeader className="bg-gray-200 w-full">
-              <Avatar className="mb-4 size-20 md:mb-5 lg:size-24 object-cover mx-auto">
+              <Avatar className="mb-[3vw] sm:mb-[2vw] md:mb-[1.5vw] lg:mb-[1vw] size-[15vw] sm:size-[12vw] md:size-[8vw] lg:size-[6vw] xl:size-[5vw] object-cover mx-auto">
                 <AvatarImage src={person.avatar} />
                 <AvatarFallback>{person.name}</AvatarFallback>
               </Avatar>
             </CardHeader>
-            <div className="p-4">
+            <div className="p-[3vw] sm:p-[2.5vw] md:p-[2vw] lg:p-[1vw]">
               <p className="font-medium">{person.name}</p>
               <p className="text-muted-foreground">{person.role}</p>
-              <p className="py-3 text-sm text-muted-foreground">
+              <p className="py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.75vw] text-sm text-muted-foreground">
                 {person.description}
               </p>
-              <div className="mt-2 flex gap-4">
+              <div className="mt-[2vw] sm:mt-[1.5vw] md:mt-[1vw] lg:mt-[0.5vw] flex gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw]">
                 <a href="#">
-                  <Github className="size-5 text-muted-foreground" />
+                  <Github className="size-[5vw] sm:size-[3vw] md:size-[2vw] lg:size-[1.25vw] text-muted-foreground" />
                 </a>
                 <a href="#">
-                  <Linkedin className="size-5 text-muted-foreground" />
+                  <Linkedin className="size-[5vw] sm:size-[3vw] md:size-[2vw] lg:size-[1.25vw] text-muted-foreground" />
                 </a>
                 <a href="#">
-                  <Dribbble className="size-5 text-muted-foreground" />
+                  <Dribbble className="size-[5vw] sm:size-[3vw] md:size-[2vw] lg:size-[1.25vw] text-muted-foreground" />
                 </a>
               </div>
             </div>

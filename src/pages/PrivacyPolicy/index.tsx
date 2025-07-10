@@ -1,11 +1,11 @@
 const PrivacyPolicy = () => {
   return (
-    <section className="mx-auto pt-32 pb-24 space-y-8 max-w-4xl px-4">
-      <h2 className="text-4xl font-bold text-foreground text-center">
+    <section className="mx-auto pt-[10vw] sm:pt-[8vw] lg:pt-[6vw] pb-[8vw] sm:pb-[6vw] lg:pb-[4vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+      <h2 className="text-[6vw] sm:text-[4vw] lg:text-[3vw] font-bold text-foreground text-center">
         Privacy Policy
       </h2>
 
-      <p className="text-muted-foreground">
+      <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] leading-relaxed">
         Your privacy is important to us. This privacy policy explains how we
         collect, use, and protect your personal information when you use our
         consultancy services for abroad study, visa applications, courses, and

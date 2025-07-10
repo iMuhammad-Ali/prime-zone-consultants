@@ -44,25 +44,25 @@ const Hero = ({
   },
 }: HeroProps) => {
   return (
-    <section className="pt-36 pb-32">
-      <div className="grid items-center gap-8 lg:grid-cols-2">
+    <section className="pt-[25vw] pb-[12vw] sm:pt-[12vw] sm:pb-[10vw] md:pt-[10vw] md:pb-[8vw] lg:pt-[9vw] lg:pb-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+      <div className="grid items-center gap-[6vw] sm:gap-[4vw] md:gap-[3vw] lg:gap-[2vw] lg:grid-cols-2">
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
           {badge && (
             <Badge variant="outline">
               {badge}
-              <ArrowUpRight className="ml-2 size-4" />
+              <ArrowUpRight className="ml-[2vw] size-[4vw] sm:ml-[1.5vw] sm:size-[2.5vw] md:ml-[1vw] md:size-[1.5vw] lg:ml-[0.5vw] lg:size-[1vw]" />
             </Badge>
           )}
           <h2
-            className="my-6 text-4xl font-bold text-pretty lg:text-6xl"
+            className="my-[4vw] sm:my-[3vw] md:my-[2.5vw] lg:my-[1.5vw] text-4xl font-bold text-pretty lg:text-6xl"
             style={{ lineHeight: 1.25 }}
           >
             {heading}
           </h2>
-          <p className="mb-8 max-w-xl text-muted-foreground lg:text-xl">
+          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-fit text-muted-foreground lg:text-xl">
             {description}
           </p>
-          <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
+          <div className="flex w-full flex-col justify-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] sm:flex-row lg:justify-start">
             {buttons.primary && (
               <Button asChild className="w-full sm:w-auto">
                 <Link to={buttons.primary.url}>{buttons.primary.text}</Link>
@@ -72,7 +72,7 @@ const Hero = ({
               <Button asChild variant="outline" className="w-full sm:w-auto">
                 <Link to={buttons.secondary.url}>
                   {buttons.secondary.text}
-                  <ArrowRight className="size-4" />
+                  <ArrowRight className="size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw]" />
                 </Link>
               </Button>
             )}
@@ -81,7 +81,7 @@ const Hero = ({
         <img
           src={image.src}
           alt={image.alt}
-          className="max-h-96 w-full rounded-md object-cover"
+          className="max-h-[60vw] sm:max-h-[45vw] md:max-h-[35vw] lg:max-h-[25vw] w-full rounded-md object-cover"
         />
       </div>
     </section>

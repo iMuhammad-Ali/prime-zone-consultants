@@ -44,16 +44,18 @@ const Universities = ({
   }, [carouselApi]);
 
   return (
-    <section className="py-16 dark bg-background text-foreground">
-      <div className="flex flex-col justify-between md:flex-row md:items-end mb-8">
+    <section className="py-[8vw] sm:py-[6vw] md:py-[5vw] lg:py-[4vw] dark bg-background text-foreground">
+      <div className="flex flex-col justify-between md:flex-row md:items-end mb-[4vw] sm:mb-[3vw] md:mb-[2vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
         <div>
-          <h2 className="text-3xl font-semibold md:text-4xl mb-3">{heading}</h2>
+          <h2 className="text-3xl font-semibold md:text-4xl mb-[0.75vw]">
+            {heading}
+          </h2>
           <Link
             to="/universities"
-            className="group flex items-center gap-1 text-sm font-medium md:text-base lg:text-lg"
+            className="group flex items-center gap-[0.25vw] text-sm font-medium md:text-base lg:text-lg"
           >
             Explore More
-            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1" />
+            <ArrowUpRight className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1vw] transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
       </div>
@@ -63,7 +65,7 @@ const Universities = ({
           type="email"
           placeholder="University name"
           className="h-12 shadow placeholder:text-foreground/50 font-[500]"
-          style={{ fontSize: "17px" }}
+          style={{ fontSize: "1.2vw" }}
         />
         <Button
           type="submit"
@@ -73,7 +75,7 @@ const Universities = ({
           <Search />
         </Button>
       </div> */}
-      <div className="mt-8 mb-5 flex shrink-0 items-center justify-end gap-2">
+      <div className="mt-[4vw] sm:mt-[3vw] md:mt-[2vw] mb-[3vw] sm:mb-[2vw] md:mb-[1.25vw] flex shrink-0 items-center justify-end gap-[1vw] sm:gap-[0.75vw] md:gap-[0.5vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
         <Button
           size="icon"
           variant="outline"
@@ -81,9 +83,9 @@ const Universities = ({
             carouselApi?.scrollPrev();
           }}
           disabled={!canScrollPrev}
-          className="disabled:pointer-events-auto"
+          className="disabled:pointer-events-auto px-[2vw] py-[2vw] sm:px-[1.5vw] sm:py-[1.5vw] md:px-[1vw] md:py-[1vw]"
         >
-          <ArrowLeft className="size-5" />
+          <ArrowLeft className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1.25vw]" />
         </Button>
         <Button
           size="icon"
@@ -92,9 +94,9 @@ const Universities = ({
             carouselApi?.scrollNext();
           }}
           disabled={!canScrollNext}
-          className="disabled:pointer-events-auto"
+          className="disabled:pointer-events-auto px-[2vw] py-[2vw] sm:px-[1.5vw] sm:py-[1.5vw] md:px-[1vw] md:py-[1vw]"
         >
-          <ArrowRight className="size-5" />
+          <ArrowRight className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1.25vw]" />
         </Button>
       </div>
       <div className="w-full">
@@ -102,17 +104,20 @@ const Universities = ({
           setApi={setCarouselApi}
           opts={{
             breakpoints: {
-              "(max-width: 768px)": {
+              "(max-width: 48vw)": {
                 dragFree: true,
               },
             },
           }}
-          className="relative left-[-1rem]"
+          className="relative left-[-1vw]"
         >
           {/* <CarouselContent className="-mr-4 ml-8 2xl:mr-[max(0rem,calc(50vw-700px-1rem))] 2xl:ml-[max(8rem,calc(50vw-700px+1rem))]"> */}
-          <CarouselContent className="pl-4">
+          <CarouselContent className="pl-[4vw] sm:pl-[3vw] md:pl-[2vw] lg:pl-[1vw]">
             {items.map((item) => (
-              <CarouselItem key={item.id} className="pl-4 md:max-w-[452px]">
+              <CarouselItem
+                key={item.id}
+                className="pl-[3vw] sm:pl-[2vw] md:pl-[1.5vw] lg:pl-[1vw] md:max-w-[50vw] lg:max-w-[30vw]"
+              >
                 <UniversityCard university={item} />
               </CarouselItem>
             ))}

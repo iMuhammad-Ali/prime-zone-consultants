@@ -15,38 +15,24 @@ import type { CarouselApi } from "~/components/ui/carousel";
 const testimonials = [
   {
     id: "testimonial-1",
-    text: "Prime Zone made my dream of studying in Canada a reality. They helped with everything — from selecting the right course to getting my visa approved. Their support was personal and constant.",
-    name: "Aarav Mehta",
+    text: "I had a wonderful experience with Prime Zone Consultants (PZC). The team was highly professional, supportive, and guided me through every step of the process with great care. From choosing the right university to preparing my documents and guiding me for the visa, they handled everything smoothly and efficiently. I truly appreciate their dedication and commitment to helping students achieve their study abroad dreams. I highly recommend PZC to anyone looking for honest and expert educational consultancy services. Thank you, Prime Zone Consultants, for your excellent support!",
+    name: "Muhammad Talha Umar",
     role: "Student at University of Toronto",
     avatar: "https://randomuser.me/api/portraits/men/75.jpg",
   },
   {
     id: "testimonial-2",
-    text: "We were overwhelmed with the process until Prime Zone stepped in. Their counselors guided us patiently through every step of our daughter’s application and visa process.",
-    name: "Sunita Sharma",
+    text: "Prime Zone Consultant played a helpful role in securing my admission to an Italian university. They guided me well through the application process and are now assisting with my visa filing. While communication could be more prompt at times, overall their support and coordination have been valuable. A decent option for educational consultancy.",
+    name: "Muhammad Hussnain Zaghim",
     role: "Parent of an international student",
     avatar: "https://randomuser.me/api/portraits/women/65.jpg",
   },
   {
     id: "testimonial-3",
-    text: "I was confused between Germany and Australia. Prime Zone’s experts gave me a detailed comparison based on my career goals, and it helped me make a confident decision.",
-    name: "Fatima Khan",
+    text: "Asslamualaikum I am Mujtaba it was my dream to study abroad especially in Italy. So, I contact to Prime Zone consultant. It is the most effort and good guidance of Prime Zone team that I have gotten my pre_enrolment in university of TRIESTE in Italy. thanks a lot Prime Zone consultant team for your proper and step by step guidance. Hope for yours more guidance for visa submission. Allah g grant u prime zone team more and more success in yours Field.",
+    name: "Naseem Ara",
     role: "Masters Student at University of Melbourne",
     avatar: "https://randomuser.me/api/portraits/women/50.jpg",
-  },
-  {
-    id: "testimonial-4",
-    text: "The SOP and CV workshops were a game changer. My application stood out and I received an offer from my top-choice university in Italy, all thanks to Prime Zone.",
-    name: "Rohan S.",
-    role: "International Student in Milan",
-    avatar: "https://randomuser.me/api/portraits/men/48.jpg",
-  },
-  {
-    id: "testimonial-5",
-    text: "Visa interviews used to scare me, but Prime Zone's mock sessions boosted my confidence. I got my UK student visa in one go!",
-    name: "Meera Patel",
-    role: "Student at University of Manchester",
-    avatar: "https://randomuser.me/api/portraits/women/30.jpg",
   },
 ];
 
@@ -70,32 +56,32 @@ const Testimonials = () => {
   }, [api]);
 
   return (
-    <section className="py-32 dark bg-background text-foreground">
+    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw] dark bg-background text-foreground">
       <Carousel setApi={setApi}>
         <CarouselContent>
           {testimonials.map((testimonial) => (
             <CarouselItem key={testimonial.id}>
-              <div className="container flex flex-col items-center gap-4 text-center">
+              <div className="flex flex-col items-center gap-[4vw] sm:gap-[3vw] lg:gap-[2vw] text-center">
                 <div className="flex items-center">
-                  <Star className="size-5 fill-foreground stroke-none" />
-                  <Star className="size-5 fill-foreground stroke-none" />
-                  <Star className="size-5 fill-foreground stroke-none" />
-                  <Star className="size-5 fill-foreground stroke-none" />
-                  <Star className="size-5 fill-foreground stroke-none" />
+                  <Star className="w-[5vw] h-[5vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1.5vw] lg:h-[1.5vw] fill-foreground stroke-none" />
+                  <Star className="w-[5vw] h-[5vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1.5vw] lg:h-[1.5vw] fill-foreground stroke-none" />
+                  <Star className="w-[5vw] h-[5vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1.5vw] lg:h-[1.5vw] fill-foreground stroke-none" />
+                  <Star className="w-[5vw] h-[5vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1.5vw] lg:h-[1.5vw] fill-foreground stroke-none" />
+                  <Star className="w-[5vw] h-[5vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1.5vw] lg:h-[1.5vw] fill-foreground stroke-none" />
                 </div>
-                <p className="mb-8 max-w-4xl font-medium md:px-8 lg:text-3xl">
+                <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] font-medium px-[4vw] sm:px-[3vw] lg:px-[2vw] text-[4vw] sm:text-[3vw] lg:text-[1.5vw]">
                   &ldquo;{testimonial.text}&rdquo;
                 </p>
-                <div className="flex items-center gap-3">
-                  <Avatar className="w-12 h-12 md:w-24 md:h-24 shadow">
+                <div className="flex items-center gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
+                  <Avatar className="w-[10vw] h-[10vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] shadow">
                     <AvatarImage src={testimonial.avatar} />
                     <AvatarFallback>{testimonial.name}</AvatarFallback>
                   </Avatar>
                   <div className="text-left">
-                    <p className="text-sm font-medium md:text-lg">
+                    <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw] font-medium">
                       {testimonial.name}
                     </p>
-                    <p className="text-sm text-foreground/75 md:text-lg">
+                    <p className="text-[3vw] sm:text-[2vw] lg:text-[1vw] text-foreground/75">
                       {testimonial.role}
                     </p>
                   </div>
@@ -105,7 +91,7 @@ const Testimonials = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="container flex justify-center mt-5">
+      <div className="flex justify-center mt-[4vw] sm:mt-[3vw] lg:mt-[2vw]">
         {testimonials.map((testimonial, index) => (
           <Button
             key={testimonial.id}
@@ -114,10 +100,10 @@ const Testimonials = () => {
             onClick={() => {
               api?.scrollTo(index);
             }}
-            className="hover:bg-accent/75"
+            className="hover:bg-accent/75 h-[8vw] w-[8vw] sm:h-[6vw] sm:w-[6vw] lg:h-[3vw] lg:w-[3vw]"
           >
             <div
-              className={`w-2.5 h-2.5 rounded-full ${
+              className={`w-[2.5vw] h-[2.5vw] sm:w-[1.5vw] sm:h-[1.5vw] lg:w-[0.75vw] lg:h-[0.75vw] rounded-full ${
                 index === current ? "bg-foreground" : "bg-muted-foreground"
               }`}
             />

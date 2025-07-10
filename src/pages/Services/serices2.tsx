@@ -52,22 +52,24 @@ const Feature72 = ({
   ],
 }: Feature72Props) => {
   return (
-    <section className="py-32">
-      <div className="container flex flex-col gap-16 lg:px-16">
+    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw]">
+      <div className="container flex flex-col gap-[6vw] sm:gap-[4vw] lg:gap-[4vw] px-[4vw] sm:px-[3vw] lg:px-[4vw]">
         <div className="lg:max-w-sm">
-          <h2 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
+          <h2 className="mb-[3vw] sm:mb-[2vw] lg:mb-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-[2.5vw] font-semibold">
             {heading}
           </h2>
-          <p className="mb-8 text-muted-foreground lg:text-lg">{description}</p>
+          <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw]">
+            {description}
+          </p>
           <a
             href={linkUrl}
-            className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
+            className="group flex items-center text-[3vw] sm:text-[2.5vw] lg:text-[1.25vw] font-medium"
           >
             {linkText}
-            <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="ml-[1vw] sm:ml-[0.75vw] lg:ml-[0.5vw] w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] lg:w-[1vw] lg:h-[1vw] transition-transform group-hover:translate-x-1" />
           </a>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
+        <div className="grid gap-[4vw] sm:gap-[3vw] lg:gap-[2vw] md:grid-cols-2">
           {features.map((feature) => (
             <div
               key={feature.id}
@@ -80,11 +82,11 @@ const Feature72 = ({
                   className="aspect-[16/9] h-full w-full object-cover object-center"
                 />
               </div>
-              <div className="px-6 py-8 md:px-8 md:py-10 lg:px-10 lg:py-12">
-                <h3 className="mb-3 text-lg font-semibold md:mb-4 md:text-2xl lg:mb-6">
+              <div className="px-[4vw] py-[6vw] sm:px-[3vw] sm:py-[4vw] lg:px-[2.5vw] lg:py-[3vw]">
+                <h3 className="mb-[3vw] sm:mb-[2vw] lg:mb-[1.5vw] text-[4vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground lg:text-lg">
+                <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw]">
                   {feature.description}
                 </p>
               </div>

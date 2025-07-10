@@ -95,22 +95,28 @@ const ConsultantModal = () => {
       open={showConsultantModal}
       onOpenChange={() => dispatch(closeConsultantModal())}
     >
-      <DialogContent className="w-[95vw] sm:max-w-xl rounded-md sm:rounded-md hide-scrollbar">
-        <DialogHeader className="mb-4">
-          <DialogTitle>Free Consultation</DialogTitle>
-          <p className="text-xs text-muted-foreground">
+      <DialogContent className="w-[95vw] sm:max-w-[50vw] lg:max-w-[40vw] rounded-lg hide-scrollbar max-h-[90vh] overflow-y-auto">
+        <DialogHeader className="mb-[4vw] sm:mb-[2vw] lg:mb-[1.5vw]">
+          <DialogTitle className="text-[4.5vw] sm:text-[3vw] lg:text-[2vw] font-semibold">
+            Free Consultation
+          </DialogTitle>
+          <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] text-muted-foreground mt-[2vw] sm:mt-[1vw] lg:mt-[0.5vw]">
             Fill in all the fields to submit your request
           </p>
         </DialogHeader>
 
-        <form className="space-y-4" onSubmit={handleSubmit}>
-          <div className="flex flex-col sm:flex-row gap-4">
+        <form
+          className="space-y-[4vw] sm:space-y-[2vw] lg:space-y-[1.5vw]"
+          onSubmit={handleSubmit}
+        >
+          <div className="flex flex-col sm:flex-row gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
             <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Name"
                 required
                 value={formData.name}
                 onChange={(e) => handleChange("name", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
             <div className="w-full sm:flex-1">
@@ -120,17 +126,19 @@ const ConsultantModal = () => {
                 required
                 value={formData.email}
                 onChange={(e) => handleChange("email", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
             <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Phone Number"
                 required
                 value={formData.phoneNumber}
                 onChange={(e) => handleChange("phoneNumber", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
             <div className="w-full sm:flex-1">
@@ -139,7 +147,7 @@ const ConsultantModal = () => {
                 value={formData.lastEducation}
                 onValueChange={(value) => handleChange("lastEducation", value)}
               >
-                <SelectTrigger>
+                <SelectTrigger className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]">
                   <SelectValue placeholder="Last Education" />
                 </SelectTrigger>
                 <SelectContent>
@@ -152,13 +160,14 @@ const ConsultantModal = () => {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
             <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your Country"
                 required
                 value={formData.country}
                 onChange={(e) => handleChange("country", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
             <div className="w-full sm:flex-1">
@@ -167,17 +176,19 @@ const ConsultantModal = () => {
                 required
                 value={formData.state}
                 onChange={(e) => handleChange("state", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
             <div className="w-full sm:flex-1">
               <Input
                 placeholder="Enter your City"
                 required
                 value={formData.city}
                 onChange={(e) => handleChange("city", e.target.value)}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
               />
             </div>
             <div className="w-full sm:flex-1">
@@ -187,7 +198,7 @@ const ConsultantModal = () => {
                   handleChange("interestedCountry", value)
                 }
               >
-                <SelectTrigger>
+                <SelectTrigger className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]">
                   <SelectValue placeholder="Interested Country" />
                 </SelectTrigger>
                 <SelectContent>
@@ -204,20 +215,28 @@ const ConsultantModal = () => {
               required
               value={formData.applyFor}
               onChange={(e) => handleChange("applyFor", e.target.value)}
+              className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[3vw] sm:px-[2vw] lg:px-[1vw]"
             />
           </div>
 
-          <DialogFooter className="pt-4">
-            <div className="flex justify-end gap-3">
+          <DialogFooter className="pt-[4vw] sm:pt-[2vw] lg:pt-[1.5vw]">
+            <div className="flex flex-col sm:flex-row justify-end gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw] w-full">
               <Button
                 variant="outline"
                 type="button"
                 onClick={() => dispatch(closeConsultantModal())}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
               >
                 Cancel
               </Button>
-              <Button type="submit" disabled={!isFormValid || isLoading}>
-                {isLoading && <LoaderCircle className="animate-spin mr-2" />}
+              <Button
+                type="submit"
+                disabled={!isFormValid || isLoading}
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
+              >
+                {isLoading && (
+                  <LoaderCircle className="animate-spin mr-[2vw] sm:mr-[1vw] lg:mr-[0.5vw] w-[4vw] sm:w-[2vw] lg:w-[1vw] h-[4vw] sm:h-[2vw] lg:h-[1vw]" />
+                )}
                 Submit
               </Button>
             </div>

@@ -1,8 +1,9 @@
 const Overview = ({ university }: any) => {
-  const rowStyles = "flex gap-4";
+  const rowStyles = "flex gap-[3vw] sm:gap-[2vw] lg:gap-[1vw]";
   const titleStyles =
-    "w-1/2 sm:w-1/4 border p-3 font-semibold text-sm sm:text-lg";
-  const descStyles = "flex-1 border p-3 text-sm sm:text-lg";
+    "w-1/2 sm:w-1/4 border p-[2vw] sm:p-[1.5vw] lg:p-[0.75vw] font-semibold text-[3vw] sm:text-[2vw] lg:text-[1.25vw]";
+  const descStyles =
+    "flex-1 border p-[2vw] sm:p-[1.5vw] lg:p-[0.75vw] text-[3vw] sm:text-[2vw] lg:text-[1.25vw]";
 
   return (
     <>

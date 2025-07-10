@@ -35,10 +35,10 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
             <div className="line-clamp-3 text-lg font-medium break-words md:text-xl lg:text-2xl">
               {university.name}
             </div>
-            <div className="line-clamp-2 text-sm text-muted-foreground md:text-base">
+            <div className="line-clamp-2 text-sm 3xl:text-md text-muted-foreground md:text-base">
               {university.summary}
             </div>
-            <div className="flex justify-between gap-3 text-sm py-2">
+            <div className="flex justify-between gap-3 2xl:text-md py-2">
               <p className="text-green-500 font-semibold">
                 Discounted Fee: {university.discountedPrice}
               </p>
@@ -46,11 +46,11 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
                 Actual Fee: {university.actualPrice}
               </p>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 2xl:text-md">
               <MapPin />
               {university.city}, {university.country}
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 2xl:text-md">
               <Calendar />
               {university.intake}
             </div>

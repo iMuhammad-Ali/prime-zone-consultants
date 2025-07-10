@@ -83,21 +83,21 @@ SuccessStoriesProps) => {
   ];
 
   return (
-    <section className="py-32">
-      <div className="flex flex-col items-center text-center">
-        <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
+    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw]">
+      <div className="flex flex-col items-center text-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+        <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-[2vw] font-bold text-pretty">
           {heading}
         </h2>
-        <p className="mb-8 max-w-3xl text-muted-foreground lg:text-xl">
+        <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[70vw] lg:max-w-[50vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw]">
           {description}
         </p>
       </div>
-      <div className="relative flex justify-center mt-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-7xl">
+      <div className="relative flex justify-center mt-[6vw] sm:mt-[4vw] lg:mt-[4vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw] w-full max-w-7xl">
           {letters.map((img, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center bg-transparent rounded-lg shadow p-6 border"
+              className="flex flex-col items-center bg-transparent rounded-lg shadow p-[4vw] sm:p-[3vw] lg:p-[1.5vw] border"
             >
               <div className="w-full aspect-[4/5] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
                 {!isFullscreen ? (
@@ -119,7 +119,7 @@ SuccessStoriesProps) => {
                     }}
                   >
                     <button
-                      className="absolute top-5 right-6 text-white text-4xl font-bold hover:text-red-400 transition"
+                      className="absolute top-[3vw] sm:top-[2vw] lg:top-[1.25vw] right-[4vw] sm:right-[3vw] lg:right-[1.5vw] text-white text-[8vw] sm:text-[6vw] lg:text-[3vw] font-bold hover:text-red-400 transition"
                       onClick={(e) => {
                         e.stopPropagation();
                         setSelectedImage(null);

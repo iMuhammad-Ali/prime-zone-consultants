@@ -76,24 +76,26 @@ const Blog = ({
   ],
 }: BlogProps) => {
   return (
-    <section className="py-16 dark bg-background text-foreground">
-      <div className="container mx-auto flex flex-col items-center gap-16 lg:px-16">
+    <section className="py-[4vw] dark bg-background text-foreground">
+      <div className="mx-auto flex flex-col items-center gap-[4vw] lg:px-[4vw]">
         <div className="text-center">
-          <Badge className="mb-6 bg-foreground text-background">
+          <Badge className="mb-[1.5vw] bg-foreground text-background">
             {tagline}
           </Badge>
-          <h2 className="mb-3 text-3xl font-semibold text-pretty md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
+          <h2 className="mb-[0.75vw] text-3xl font-semibold text-pretty md:mb-[1vw] md:text-4xl lg:mb-[1.5vw] lg:max-w-[75vw] lg:text-5xl">
             {heading}
           </h2>
-          <p className="md:text-base lg:max-w-2xl lg:text-lg">{description}</p>
+          <p className="md:text-base lg:max-w-[50vw] lg:text-lg">
+            {description}
+          </p>
           <Button variant="link" className="w-full sm:w-auto" asChild>
             <a href={buttonUrl} target="_blank">
               {buttonText}
-              <ArrowRight className="ml-2 size-4" />
+              <ArrowRight className="ml-[0.5vw] size-[1vw]" />
             </a>
           </Button>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="grid gap-[1.5vw] md:grid-cols-2 lg:grid-cols-3 lg:gap-[2vw]">
           {posts.map((post) => (
             <Card
               key={post.id}
@@ -129,7 +131,7 @@ const Blog = ({
                   className="flex items-center hover:underline"
                 >
                   Read more
-                  <ArrowRight className="ml-2 size-4" />
+                  <ArrowRight className="ml-[0.5vw] size-[1vw]" />
                 </a>
               </CardFooter>
             </Card>

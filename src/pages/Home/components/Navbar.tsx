@@ -66,7 +66,7 @@ const Navbar = ({
             <img
               src={country.flag}
               alt={country.code}
-              className="w-[35px] h-[20px] object-cover border"
+              className="w-[35px] h-[20px] sm:w-[2.5vw] sm:h-[1.4vw] object-cover border"
             />
             Study in {country.name}
           </div>
@@ -101,17 +101,24 @@ const Navbar = ({
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <section className="py-4 absolute top-0 left-0 right-0">
+    <section className="py-[2vw] sm:py-[1.5vw] lg:py-[1vw] absolute top-0 left-0 right-0">
       {/* Desktop Menu */}
-      <nav className="hidden justify-between custom:flex custom:items-center">
+      <nav className="hidden justify-between custom:flex custom:items-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
         {/* Logo */}
-        <Link to={logo.url} className="flex items-center gap-2">
-          <img src={logo.src} className="max-h-8" alt={logo.alt} />
-          <span className="text-lg font-semibold tracking-tighter">
+        <Link
+          to={logo.url}
+          className="flex items-center gap-[1vw] sm:gap-[0.75vw] lg:gap-[1vw]"
+        >
+          <img
+            src={logo.src}
+            className="max-h-[6vw] sm:max-h-[4vw] lg:max-h-[2vw]"
+            alt={logo.alt}
+          />
+          <span className="text-[4vw] sm:text-[3vw] lg:text-[1.25vw] font-semibold tracking-tighter">
             {logo.title}
           </span>
         </Link>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw]">
           <div className="flex items-center">
             <NavigationMenu>
               <NavigationMenuList>
@@ -120,22 +127,29 @@ const Navbar = ({
             </NavigationMenu>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-[1vw] sm:gap-[0.75vw] lg:gap-[0.5vw]">
           <Button onClick={useOpenConsultantModal()}>Consult with us</Button>
         </div>
       </nav>
 
       {/* Mobile Menu */}
-      <div className="block custom:hidden">
+      <div className="block custom:hidden px-[4vw] sm:px-[3vw]">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to={logo.url} className="flex items-center gap-2">
-            <img src={logo.src} className="max-h-8" alt={logo.alt} />
+          <Link
+            to={logo.url}
+            className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
+          >
+            <img
+              src={logo.src}
+              className="max-h-[8vw] sm:max-h-[6vw]"
+              alt={logo.alt}
+            />
           </Link>
           <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
-                <Menu className="size-4" />
+                <Menu className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw]" />
               </Button>
             </SheetTrigger>
             <SheetContent className="overflow-y-auto">
@@ -143,25 +157,29 @@ const Navbar = ({
                 <SheetTitle>
                   <Link
                     to={logo.url}
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
                     onClick={() => setShowSidebar(false)}
                   >
-                    <img src={logo.src} className="max-h-8" alt={logo.alt} />
+                    <img
+                      src={logo.src}
+                      className="max-h-[8vw] sm:max-h-[6vw]"
+                      alt={logo.alt}
+                    />
                   </Link>
                 </SheetTitle>
               </SheetHeader>
-              <div className="flex flex-col gap-6 py-4">
+              <div className="flex flex-col gap-[4vw] sm:gap-[3vw] py-[3vw] sm:py-[2vw]">
                 <Accordion
                   type="single"
                   collapsible
-                  className="flex w-full flex-col gap-1"
+                  className="flex w-full flex-col gap-[1vw] sm:gap-[0.75vw]"
                 >
                   {menu.map((item) =>
                     renderMobileMenuItem(item, setShowSidebar)
                   )}
                 </Accordion>
 
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-[2vw] sm:gap-[1.5vw]">
                   <Button onClick={useOpenConsultantModal()}>
                     Consult with us
                   </Button>
@@ -198,13 +216,13 @@ const renderMenuItem = (item: MenuItem) => {
             {item.title}
           </button>
         </PopoverTrigger>
-        <PopoverContent className="bg-popover text-popover-foreground p-3 min-w-[500px]">
-          <div className="grid grid-cols-2 gap-4 max-h-64 overflow-y-auto">
+        <PopoverContent className="bg-popover text-popover-foreground p-[2vw] sm:p-[1.5vw] lg:p-[0.75vw] min-w-[80vw] sm:min-w-[35vw]">
+          <div className="grid grid-cols-2 gap-[3vw] sm:gap-[2vw] lg:gap-[1vw] max-h-[50vw] sm:max-h-[40vw] lg:max-h-[16vw] overflow-y-auto">
             {item.items.map((subItem) => (
               <Link
                 key={subItem.title}
                 to={subItem.url}
-                className="block rounded-md p-3 hover:bg-secondary cursor-pointer"
+                className="block rounded-md p-[2vw] sm:p-[1.5vw] lg:p-[0.75vw] hover:bg-secondary cursor-pointer text-[3vw] sm:text-[2vw] lg:text-[1vw]"
                 onClick={() => setIsOpen(false)}
               >
                 {subItem.title}
@@ -217,10 +235,11 @@ const renderMenuItem = (item: MenuItem) => {
   }
 
   return (
+    // Menu Items except for dropdowns
     <Link
       key={item.title}
       to={item.url}
-      className={`inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
+      className={`inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 2xl:px-[1vw] 2xl:py-[1vw] text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
         isActive ? "bg-secondary/40" : ""
       }`}
     >

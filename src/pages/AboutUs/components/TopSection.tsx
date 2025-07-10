@@ -54,27 +54,35 @@ const TopSection = ({
   },
 }: About3Props = {}) => {
   return (
-    <section className="pt-36 pb-16">
-      <div className="mb-14 grid gap-5 text-center md:grid-cols-2 md:text-left">
-        <h2 className="text-5xl font-semibold">{title}</h2>
-        <p className="text-muted-foreground">{description}</p>
+    <section className="pt-[9vw] sm:pt-[10vw] lg:pt-[10vw] xl:pt-[10vw] 2xl:pt-[8vw] pb-[4vw] sm:pb-[3vw] lg:pb-[2vw] xl:pb-[1.5vw] 2xl:pb-[1.2vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
+      <div className="mb-[3.5vw] sm:mb-[2.5vw] lg:mb-[2vw] xl:mb-[1.5vw] 2xl:mb-[1.2vw] grid gap-[1.2vw] sm:gap-[1vw] lg:gap-[0.8vw] xl:gap-[0.6vw] 2xl:gap-[0.5vw] text-center md:grid-cols-2 md:text-left">
+        <h2 className="text-[8vw] sm:text-[6vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
+          {title}
+        </h2>
+        <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.9vw]">
+          {description}
+        </p>
       </div>
-      <div className="grid gap-7 lg:grid-cols-3">
+      <div className="grid gap-[1.8vw] sm:gap-[1.5vw] lg:gap-[1.2vw] xl:gap-[1vw] 2xl:gap-[0.8vw] lg:grid-cols-3">
         <img
           src={mainImage.src}
           alt={mainImage.alt}
-          className="w-full max-h-[620px] rounded-xl object-cover lg:col-span-2"
+          className="w-full max-h-[45vw] sm:max-h-[35vw] lg:max-h-[30vw] xl:max-h-[25vw] 2xl:max-h-[40vw] rounded-xl object-cover lg:col-span-2"
         />
-        <div className="flex flex-col gap-7 md:flex-row lg:flex-col">
-          <div className="bg-muted flex flex-col justify-between gap-6 rounded-xl p-7 md:w-1/2 lg:w-auto">
+        <div className="flex flex-col gap-[1.8vw] sm:gap-[1.5vw] lg:gap-[1.2vw] xl:gap-[1vw] 2xl:gap-[0.8vw] md:flex-row lg:flex-col">
+          <div className="bg-muted flex flex-col justify-between gap-[1.5vw] sm:gap-[1.2vw] lg:gap-[1vw] xl:gap-[0.8vw] 2xl:gap-[0.6vw] rounded-xl p-[1.8vw] sm:p-[1.5vw] lg:p-[1.2vw] xl:p-[1vw] 2xl:p-[0.8vw] md:w-1/2 lg:w-auto">
             <img
               src={breakout.src}
               alt={breakout.alt}
-              className="mr-auto h-12"
+              className="mr-auto h-[6vw] sm:h-[4vw] lg:h-[3vw] xl:h-[2.5vw] 2xl:h-[2vw]"
             />
             <div>
-              <p className="mb-2 text-lg font-semibold">{breakout.title}</p>
-              <p className="text-muted-foreground">{breakout.description}</p>
+              <p className="mb-[0.5vw] sm:mb-[0.4vw] lg:mb-[0.3vw] xl:mb-[0.25vw] 2xl:mb-[0.2vw] text-[4.5vw] sm:text-[3vw] lg:text-[1.8vw] xl:text-[1.5vw] 2xl:text-[1.2vw] font-semibold">
+                {breakout.title}
+              </p>
+              <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.9vw]">
+                {breakout.description}
+              </p>
             </div>
             <Button
               variant="outline"

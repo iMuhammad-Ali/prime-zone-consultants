@@ -44,7 +44,7 @@ const WhatsappPopover = () => {
     >
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
-          <Button className="rounded-full w-[50px] h-[50px] p-3 bg-green-500 hover:bg-green-600 text-white shadow-lg">
+          <Button className="rounded-full w-10 h-10 p-1.5 sm:w-[4vw] sm:h-[4vw] sm:p-[0.75vw] bg-green-500 hover:bg-green-600 text-white shadow-lg">
             <img src={Whatsapp} className="w-full h-full" alt="WhatsApp" />
           </Button>
         </PopoverTrigger>
@@ -53,7 +53,7 @@ const WhatsappPopover = () => {
             <div className="flex items-start gap-4">
               <img
                 src={Whatsapp}
-                className="w-[32px] h-[32px]"
+                className="w-8 h-8 sm:w-[2.2vw] sm:h-[2.2vw]"
                 alt="WhatsApp"
               />
               <div>

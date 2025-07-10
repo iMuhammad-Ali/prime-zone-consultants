@@ -61,7 +61,7 @@ const Testimonials = () => {
         <CarouselContent>
           {testimonials.map((testimonial) => (
             <CarouselItem key={testimonial.id}>
-              <div className="container flex flex-col items-center gap-4 text-center">
+              <div className="flex flex-col items-center gap-4 text-center">
                 <div className="flex items-center">
                   <Star className="size-5 fill-foreground stroke-none" />
                   <Star className="size-5 fill-foreground stroke-none" />
@@ -91,7 +91,7 @@ const Testimonials = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="container flex justify-center mt-5">
+      <div className="flex justify-center mt-5">
         {testimonials.map((testimonial, index) => (
           <Button
             key={testimonial.id}

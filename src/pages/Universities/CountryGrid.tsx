@@ -18,9 +18,9 @@ export default function CountryGrid() {
   };
 
   return (
-    <div className="container space-y-16">
-      <div className="mx-auto flex max-w-3xl flex-col text-left md:text-center">
-        <h2 className="mb-3 text-3xl font-semibold md:mb-4 lg:mb-6 lg:text-4xl">
+    <div className="space-y-[4vw]">
+      <div className="mx-auto flex max-w-[75vw] flex-col text-left md:text-center">
+        <h2 className="mb-[0.75vw] text-3xl font-semibold md:mb-[1vw] lg:mb-[1.5vw] lg:text-4xl">
           Search By Country
         </h2>
         <p className="text-muted-foreground lg:text-lg">
@@ -30,21 +30,21 @@ export default function CountryGrid() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 cursor-pointer">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[4vw] sm:gap-[2.5vw] md:gap-[2vw] lg:gap-[1.5vw] cursor-pointer">
         {countries.map((country) => (
           <Card
             key={country.code}
             onClick={() => handleCardClick(country.name)}
-            className="relative rounded overflow-hidden text-center hover:bg-card/75 hover:scale-[102%] duration-300 p-4"
+            className="relative rounded overflow-hidden text-center hover:bg-card/75 hover:scale-[102%] duration-300 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw]"
           >
-            <div className="text-xs px-3 py-1 font-semibold rounded-bl bg-green-500 absolute top-0 right-0">
+            <div className="text-xs px-[2vw] py-[1vw] sm:px-[1.5vw] sm:py-[0.5vw] md:px-[1vw] md:py-[0.35vw] lg:px-[0.75vw] lg:py-[0.25vw] font-semibold rounded-bl bg-green-500 absolute top-0 right-0">
               {country.discount} OFF
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw]">
               <img
                 src={country.flag}
                 alt={`${country.name} flag`}
-                className="h-[40px] w-[65px] object-cover rounded shadow-sm border"
+                className="h-[8vw] w-[12vw] sm:h-[4vw] sm:w-[6vw] md:h-[3vw] md:w-[5vw] lg:h-[2.5vw] lg:w-[4vw] object-cover rounded shadow-sm border"
               />
               <CardTitle className="text-xl">
                 {country.name}{" "}
@@ -53,7 +53,7 @@ export default function CountryGrid() {
                 </span>
               </CardTitle>
             </div>
-            <div className="flex justify-between gap-3 mt-3 text-sm">
+            <div className="flex justify-between gap-[0.75vw] mt-[0.75vw] text-sm">
               <p className="text-green-500 font-semibold">
                 Discounted Fee: {country.discountedFee}
               </p>
