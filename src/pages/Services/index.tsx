@@ -4,7 +4,7 @@ import { useOpenConsultantModal } from "~/hooks/use-consultant";
 const Services = () => {
   return (
     <section className="py-32">
-      <div className="container flex flex-col gap-16 lg:px-16">
+      <div className="flex flex-col gap-16 lg:px-16">
         <div className="lg:max-w-md">
           <h2 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
             Services we offer

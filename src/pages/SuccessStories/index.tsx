@@ -84,7 +84,7 @@ SuccessStoriesProps) => {
 
   return (
     <section className="py-32">
-      <div className="container flex flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center">
         <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           {heading}
         </h2>
