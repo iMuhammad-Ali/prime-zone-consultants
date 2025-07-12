@@ -10,7 +10,6 @@ const MainLayout = () => {
   return (
     <>
       <ScrollToTop />
-
       <div className="[&>section]:px-4 sm:[&>section]:px-8">
         <Navbar />
         <Outlet />

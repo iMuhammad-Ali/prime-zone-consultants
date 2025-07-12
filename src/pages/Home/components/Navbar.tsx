@@ -2,6 +2,7 @@ import { Menu } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
+import AutoLoop from "~/pages/Home/components/AutoLoop";
 
 import {
   Accordion,
@@ -103,6 +104,7 @@ const Navbar = ({
   return (
     <section className="py-[2vw] sm:py-[1.5vw] lg:py-[1vw] absolute top-0 left-0 right-0">
       {/* Desktop Menu */}
+      <AutoLoop />
       <nav className="hidden justify-between custom:flex custom:items-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
         {/* Logo */}
         <Link

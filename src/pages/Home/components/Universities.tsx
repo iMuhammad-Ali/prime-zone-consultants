@@ -27,6 +27,8 @@ const Universities = ({
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [slideCount, setSlideCount] = useState(items.length);
 
   useEffect(() => {
     if (!carouselApi) {
@@ -35,6 +37,8 @@ const Universities = ({
     const updateSelection = () => {
       setCanScrollPrev(carouselApi.canScrollPrev());
       setCanScrollNext(carouselApi.canScrollNext());
+      setSelectedIndex(carouselApi.selectedScrollSnap());
+      setSlideCount(carouselApi.scrollSnapList().length);
     };
     updateSelection();
     carouselApi.on("select", updateSelection);
@@ -59,46 +63,6 @@ const Universities = ({
           </Link>
         </div>
       </div>
-      {/* <div className="flex flex-col sm:flex-row w-full items-center gap-3">
-        <ComboboxDemo />
-        <Input
-          type="email"
-          placeholder="University name"
-          className="h-12 shadow placeholder:text-foreground/50 font-[500]"
-          style={{ fontSize: "1.2vw" }}
-        />
-        <Button
-          type="submit"
-          className="w-full sm:w-fit flex items-center gap-2 h-12 shadow bg-foreground text-white hover:bg-foreground/90 border border-foreground"
-        >
-          <span>Search</span>
-          <Search />
-        </Button>
-      </div> */}
-      <div className="mt-[4vw] sm:mt-[3vw] md:mt-[2vw] mb-[3vw] sm:mb-[2vw] md:mb-[1.25vw] flex shrink-0 items-center justify-end gap-[1vw] sm:gap-[0.75vw] md:gap-[0.5vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-        <Button
-          size="icon"
-          variant="outline"
-          onClick={() => {
-            carouselApi?.scrollPrev();
-          }}
-          disabled={!canScrollPrev}
-          className="disabled:pointer-events-auto px-[2vw] py-[2vw] sm:px-[1.5vw] sm:py-[1.5vw] md:px-[1vw] md:py-[1vw]"
-        >
-          <ArrowLeft className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1.25vw]" />
-        </Button>
-        <Button
-          size="icon"
-          variant="outline"
-          onClick={() => {
-            carouselApi?.scrollNext();
-          }}
-          disabled={!canScrollNext}
-          className="disabled:pointer-events-auto px-[2vw] py-[2vw] sm:px-[1.5vw] sm:py-[1.5vw] md:px-[1vw] md:py-[1vw]"
-        >
-          <ArrowRight className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1.25vw]" />
-        </Button>
-      </div>
       <div className="w-full">
         <Carousel
           setApi={setCarouselApi}
@@ -111,7 +75,6 @@ const Universities = ({
           }}
           className="relative left-[-1vw]"
         >
-          {/* <CarouselContent className="-mr-4 ml-8 2xl:mr-[max(0rem,calc(50vw-700px-1rem))] 2xl:ml-[max(8rem,calc(50vw-700px+1rem))]"> */}
           <CarouselContent className="pl-[4vw] sm:pl-[3vw] md:pl-[2vw] lg:pl-[1vw]">
             {items.map((item) => (
               <CarouselItem
@@ -123,6 +86,48 @@ const Universities = ({
             ))}
           </CarouselContent>
         </Carousel>
+        <div className="flex mt-5 2xl:mt-[2vw] items-center justify-center w-full px-[2vw] select-none">
+          <button
+            aria-label="Previous"
+            onClick={() => carouselApi?.scrollPrev()}
+            disabled={!canScrollPrev}
+            className={`transition-colors rounded-full p-1 md:p-2 ${
+              canScrollPrev
+                ? "text-colors-background hover:bg-blue-50"
+                : "text-gray-300"
+            } focus:outline-none`}
+            style={{ background: "none", border: "none" }}
+          >
+            <ArrowLeft className="w-7 h-7 md:w-8 md:h-8" />
+          </button>
+          <div className="flex-1 flex flex-col items-center justify-center max-w-[60%]">
+            <div className="relative w-[60%] 2xl:max-w-[50vw] h-[4px] bg-blue-100 rounded-full overflow-hidden">
+              <div
+                className="absolute left-0 top-0 h-full bg-blue-800 transition-all duration-300"
+                style={{
+                  width: `${
+                    slideCount > 1
+                      ? ((selectedIndex + 1) / slideCount) * 100
+                      : 100
+                  }%`,
+                }}
+              />
+            </div>
+          </div>
+          <button
+            aria-label="Next"
+            onClick={() => carouselApi?.scrollNext()}
+            disabled={!canScrollNext}
+            className={`transition-colors rounded-full p-1 md:p-2 ${
+              canScrollNext
+                ? "text-colors-background hover:bg-blue-50"
+                : "text-gray-300"
+            } focus:outline-none`}
+            style={{ background: "none", border: "none" }}
+          >
+            <ArrowRight className="w-7 h-7 md:w-8 md:h-8" />
+          </button>
+        </div>
       </div>
     </section>
   );
