@@ -6,7 +6,7 @@ import { useOpenConsultantModal } from "~/hooks/use-consultant";
 const CTA = () => {
   return (
     <section className="py-[6vw] sm:py-[4vw] lg:py-[3vw]">
-      <div className="flex flex-col items-center justify-between gap-[4vw] sm:gap-[3vw] lg:gap-[2vw] rounded-lg bg-muted px-[4vw] py-[6vw] sm:px-[3vw] sm:py-[4vw] md:flex-row lg:px-[5vw] lg:py-[4vw]">
+      <div className="flex flex-col items-center justify-between gap-[4vw] sm:gap-[3vw] lg:gap-[2vw] rounded-[1vw] bg-muted px-[4vw] py-[6vw] sm:px-[3vw] sm:py-[4vw] md:flex-row lg:px-[5vw] lg:py-[4vw]">
         <div className="md:w-1/2">
           <h4
             style={{ lineHeight: 1.25 }}

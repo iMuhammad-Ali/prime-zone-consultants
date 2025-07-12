@@ -23,7 +23,7 @@ export default function CountryGrid() {
         <h2 className="mb-[0.75vw] text-3xl font-semibold md:mb-[1vw] lg:mb-[1.5vw] lg:text-4xl">
           Search By Country
         </h2>
-        <p className="text-muted-foreground lg:text-lg">
+        <p className="text-muted-foreground lg:text-md">
           Discover universities from around the world by selecting your
           preferred country. Easily explore detailed information about
           institutions to find the perfect university for you.
@@ -35,7 +35,7 @@ export default function CountryGrid() {
           <Card
             key={country.code}
             onClick={() => handleCardClick(country.name)}
-            className="relative rounded overflow-hidden text-center hover:bg-card/75 hover:scale-[102%] duration-300 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw]"
+            className="relative rounded 2xl:rounded-[0.3vw] overflow-hidden text-center hover:bg-card/75 hover:scale-[102%] duration-300 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw]"
           >
             <div className="text-xs px-[2vw] py-[1vw] sm:px-[1.5vw] sm:py-[0.5vw] md:px-[1vw] md:py-[0.35vw] lg:px-[0.75vw] lg:py-[0.25vw] font-semibold rounded-bl bg-green-500 absolute top-0 right-0">
               {country.discount} OFF
@@ -61,7 +61,9 @@ export default function CountryGrid() {
                 Actual Fee: {country.actualFee}
               </p>
             </div>
-            <p className="text-left">Universities: {totalUni(country.name)}</p>
+            <p className="text-left 2xl:text-sm">
+              Universities: {totalUni(country.name)}
+            </p>
           </Card>
         ))}
       </div>

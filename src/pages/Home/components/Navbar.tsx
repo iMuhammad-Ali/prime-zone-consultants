@@ -239,7 +239,7 @@ const renderMenuItem = (item: MenuItem) => {
     <Link
       key={item.title}
       to={item.url}
-      className={`inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 2xl:px-[1vw] 2xl:py-[1vw] text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
+      className={`inline-flex h-10 w-max items-center justify-center rounded-md 2xl:rounded-[0.3vw] bg-background px-4 py-2 2xl:px-[1vw] 2xl:py-[1vw] text-sm font-medium transition-colors hover:bg-primary hover:text-accent-foreground ${
         isActive ? "bg-secondary/40" : ""
       }`}
     >

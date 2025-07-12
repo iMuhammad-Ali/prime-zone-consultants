@@ -16,7 +16,7 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
     <Link to={`/universities/${university.id}`}>
       <Card className="cursor-pointer relative h-full group flex flex-col border-0 overflow-hidden">
         <DiscountLabel discount={university.discount} />
-        <div className="flex-shrink-0 flex aspect-[3/2] overflow-hidden rounded-tr-xl rounded-tl-xl">
+        <div className="flex-shrink-0 flex aspect-[3/2] overflow-hidden rounded-tr-[0.5vw] rounded-tl-[0.5vw]">
           <div className="flex-1">
             <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
               <img
@@ -35,7 +35,7 @@ const UniversityCard = ({ university }: UniversityCardProps) => {
             <div className="line-clamp-3 text-lg font-medium break-words md:text-xl lg:text-2xl">
               {university.name}
             </div>
-            <div className="line-clamp-2 text-sm 3xl:text-md text-muted-foreground md:text-base">
+            <div className="line-clamp-2 text-sm 2xl:text-md text-muted-foreground md:text-base">
               {university.summary}
             </div>
             <div className="flex justify-between gap-3 2xl:text-md py-2">

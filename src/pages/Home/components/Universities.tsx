@@ -52,7 +52,7 @@ const Universities = ({
           </h2>
           <Link
             to="/universities"
-            className="group flex items-center gap-[0.25vw] text-sm font-medium md:text-base lg:text-lg"
+            className="group flex items-center gap-[0.25vw] text-sm font-medium md:text-base lg:text-lg 2xl:text-xl"
           >
             Explore More
             <ArrowUpRight className="size-[3vw] sm:size-[2vw] md:size-[1.5vw] lg:size-[1vw] transition-transform group-hover:translate-x-1" />

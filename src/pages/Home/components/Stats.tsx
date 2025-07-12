@@ -51,7 +51,7 @@ const Stats = ({
           <h2 className="text-[5vw] sm:text-[4vw] lg:text-[2.5vw] font-bold">
             Platform performance insights
           </h2>
-          <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+          <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] 2xl:text-[1.2vw]">
             Ensuring stability and scalability for all users
           </p>
           <a
@@ -68,10 +68,10 @@ const Stats = ({
               key={stat.id}
               className="flex flex-col gap-[2vw] sm:gap-[1.5vw] lg:gap-[1.25vw]"
             >
-              <div className="text-[8vw] sm:text-[6vw] lg:text-[4vw] font-bold">
+              <div className="text-[8vw] sm:text-[6vw] lg:text-[4vw] 2xl:text-[4.5vw] font-bold">
                 {stat.value}
               </div>
-              <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+              <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] 2xl:text-[1.2vw]">
                 {stat.label}
               </p>
             </div>

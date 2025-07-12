@@ -48,13 +48,13 @@ const Universities: React.FC = () => {
   );
 
   return (
-    <section className="pt-[8vw] pb-[4vw]">
+    <section className="pt-[20vw] 2xl:pt-[10vw] pb-[4vw]">
       {/* Header */}
       <div className="mx-auto flex flex-col items-center text-center">
         <h2 className="my-[1.5vw] text-2xl font-bold text-pretty lg:text-4xl">
           Universities
         </h2>
-        <p className="mb-[2vw] max-w-[100vw] text-muted-foreground lg:text-xl">
+        <p className="mb-[2vw] max-w-[70vw] 2xl:max-w-[50vw] text-muted-foreground lg:text-md">
           Explore a curated list of top universities from around the world.
           Discover institutions known for academic excellence, innovation, and
           global impact. Compare programs, scholarships, and admissions to find
@@ -80,7 +80,7 @@ const Universities: React.FC = () => {
           <div className="flex-1">
             {filteredUniversities.length > 0 ? (
               <>
-                <div className="grid sm:grid-cols-1 llx:grid-cols-2 gap-[1.25vw]">
+                <div className="grid sm:grid-cols-1 llx:grid-cols-2  gap-[1.25vw]">
                   {paginatedUniversities.map((uni: any) => (
                     <UniversityCard key={uni.id} university={uni} />
                   ))}
@@ -100,7 +100,7 @@ const Universities: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-white mb-[0.5vw]">
                   No Universities Found
                 </h3>
-                <p className="text-center text-gray-400 mb-[1vw]">
+                <p className="text-center text-gray-400 mb-[1vw] 2xl:text-sm">
                   We couldn't find any universities matching your criteria. Try
                   adjusting your filters or explore other options.
                 </p>

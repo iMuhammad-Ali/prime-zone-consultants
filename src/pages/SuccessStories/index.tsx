@@ -16,7 +16,9 @@ import letter15 from "../../assets/images/letter-15.jpeg";
 import letter16 from "../../assets/images/letter-16.jpeg";
 import letter17 from "../../assets/images/letter-17.jpeg";
 import letter18 from "../../assets/images/letter-18.jpeg";
+import { Button } from "~/components/ui/button";
 import { useState } from "react";
+import { Card } from "~/components/ui/card";
 
 interface Feature {
   title: string;
@@ -61,94 +63,148 @@ const SuccessStories = ({
 SuccessStoriesProps) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const letters = [
-    letter1,
-    letter2,
-    letter3,
-    letter4,
-    letter5,
-    letter6,
-    letter7,
-    letter8,
-    letter9,
-    letter10,
-    letter11,
-    letter12,
-    letter13,
-    letter14,
-    letter15,
-    letter16,
-    letter17,
-    letter18,
-  ];
+  const [activeCountry, setActiveCountry] = useState<string>("Italy");
+
+  // Organize letters by country (you can adjust the distribution as needed)
+  const countryStories = {
+    Italy: [
+      letter1,
+      letter2,
+      letter3,
+      letter4,
+      letter5,
+      letter6,
+      letter7,
+      letter8,
+      letter9,
+      letter10,
+      letter11,
+      letter12,
+      letter13,
+      letter14,
+      letter15,
+      letter16,
+      letter17,
+      letter18,
+    ],
+    Germany: [],
+    France: [],
+  };
 
   return (
-    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw]">
+    <section className="py-[20vw] sm:py-[8vw] lg:py-[6vw]">
       <div className="flex flex-col items-center text-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-        <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-[2vw] font-bold text-pretty">
+        <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-4xl font-bold text-pretty">
           {heading}
         </h2>
-        <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[70vw] lg:max-w-[50vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw]">
+        <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[70vw] lg:max-w-[50vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-sm">
           {description}
         </p>
       </div>
-      <div className="relative flex justify-center mt-[6vw] sm:mt-[4vw] lg:mt-[4vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw] w-full max-w-7xl">
-          {letters.map((img, idx) => (
-            <div
-              key={idx}
-              className="flex flex-col items-center bg-transparent rounded-lg shadow p-[4vw] sm:p-[3vw] lg:p-[1.5vw] border"
-            >
-              <div className="w-full aspect-[4/5] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
-                {!isFullscreen ? (
-                  <img
-                    src={img}
-                    alt={`Success Letter ${idx + 1}`}
-                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
-                    onClick={() => {
-                      setSelectedImage(img);
-                      setIsFullscreen(true);
-                    }}
-                  />
-                ) : selectedImage === img ? (
-                  <div
-                    className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-80 flex items-center justify-center"
-                    onClick={() => {
-                      setSelectedImage(null);
-                      setIsFullscreen(false);
-                    }}
-                  >
-                    <button
-                      className="absolute top-[3vw] sm:top-[2vw] lg:top-[1.25vw] right-[4vw] sm:right-[3vw] lg:right-[1.5vw] text-white text-[8vw] sm:text-[6vw] lg:text-[3vw] font-bold hover:text-red-400 transition"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setSelectedImage(null);
-                        setIsFullscreen(false);
-                      }}
-                    >
-                      &times;
-                    </button>
-                    <img
-                      src={selectedImage}
-                      alt="Full View"
-                      className="max-w-[90%] max-h-[95%] rounded-xl shadow-xl object-contain"
-                    />
-                  </div>
-                ) : (
-                  <img
-                    src={img}
-                    alt={`Success Letter ${idx + 1}`}
-                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
-                    onClick={() => {
-                      setSelectedImage(img);
-                      setIsFullscreen(true);
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-          ))}
+
+      {/* Country Selection Buttons */}
+      <div className="flex flex-wrap justify-center gap-[2vw] sm:gap-[1.5vw] lg:gap-[1vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] mb-[6vw] sm:mb-[4vw] lg:mb-[3vw]">
+        {Object.keys(countryStories).map((country) => (
+          <Button
+            key={country}
+            onClick={() => setActiveCountry(country)}
+            className={`px-[4vw] sm:px-[3vw] lg:px-[1.5vw] py-[2vw] sm:py-[1.5vw] lg:py-[0.8vw]  font-semibold transition-all duration-300 ${
+              activeCountry === country
+                ? "bg-primary text-primary-foreground shadow-lg scale-105"
+                : "bg-background border border-border text-foreground hover:bg-muted hover:scale-102"
+            }`}
+          >
+            {country}
+          </Button>
+        ))}
+      </div>
+
+      {/* Active Country Section */}
+      <div className="px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+        <div className="flex flex-col items-center text-center mb-[4vw] sm:mb-[3vw] lg:mb-[2vw]">
+          <h3 className="text-[4vw] sm:text-[3vw] lg:text-2xl font-semibold text-foreground mb-[2vw] sm:mb-[1.5vw] lg:mb-[1vw]">
+            {activeCountry} Success Stories
+          </h3>
+          <div className="w-[12vw] sm:w-[8vw] lg:w-[4vw] h-[0.5vw] sm:h-[0.3vw] lg:h-[0.2vw] bg-primary rounded-full"></div>
         </div>
+
+        {/* Stories Grid or No Stories Message */}
+        {countryStories[activeCountry as keyof typeof countryStories].length >
+        0 ? (
+          <div className="relative flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw] w-full max-w-7xl 2xl:max-w-full">
+              {countryStories[activeCountry as keyof typeof countryStories].map(
+                (img: string, idx: number) => (
+                  <div
+                    key={idx}
+                    className="flex flex-col items-center bg-transparent rounded-lg shadow p-[4vw] sm:p-[3vw] lg:p-[1.5vw] border"
+                  >
+                    <div className="w-full aspect-[4/5] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
+                      {!isFullscreen ? (
+                        <img
+                          src={img}
+                          alt={`${activeCountry} Success Letter ${idx + 1}`}
+                          className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
+                          onClick={() => {
+                            setSelectedImage(img);
+                            setIsFullscreen(true);
+                          }}
+                        />
+                      ) : selectedImage === img ? (
+                        <div
+                          className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-80 flex items-center justify-center"
+                          onClick={() => {
+                            setSelectedImage(null);
+                            setIsFullscreen(false);
+                          }}
+                        >
+                          <button
+                            className="absolute top-[3vw] sm:top-[2vw] lg:top-[1.25vw] right-[4vw] sm:right-[3vw] lg:right-[1.5vw] text-white text-[8vw] sm:text-[6vw] lg:text-[3vw] font-bold hover:text-red-400 transition"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedImage(null);
+                              setIsFullscreen(false);
+                            }}
+                          >
+                            &times;
+                          </button>
+                          <img
+                            src={selectedImage || ""}
+                            alt="Full View"
+                            className="max-w-[90%] max-h-[95%] rounded-xl shadow-xl object-contain"
+                          />
+                        </div>
+                      ) : (
+                        <img
+                          src={img}
+                          alt={`${activeCountry} Success Letter ${idx + 1}`}
+                          className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
+                          onClick={() => {
+                            setSelectedImage(img);
+                            setIsFullscreen(true);
+                          }}
+                        />
+                      )}
+                    </div>
+                  </div>
+                )
+              )}
+            </div>
+          </div>
+        ) : (
+          <Card className="flex flex-col items-center justify-center py-[8vw] sm:py-[6vw] lg:py-[4vw] text-center">
+            <div className="text-[8vw] sm:text-[6vw] lg:text-[4vw] mb-[2vw] sm:mb-[1.5vw] lg:mb-[1vw] text-muted-foreground">
+              📋
+            </div>
+            <h4 className="text-[4vw] sm:text-[3vw] lg:text-xl font-semibold text-foreground mb-[1vw] sm:mb-[0.75vw] lg:mb-[0.5vw]">
+              No Success Stories
+            </h4>
+            <p className="text-[3vw] sm:text-[2vw] lg:text-sm text-muted-foreground max-w-[60vw] sm:max-w-[50vw] lg:max-w-[40vw]">
+              We don't have any success stories for {activeCountry} yet. Check
+              back soon for updates!
+            </p>
+          </Card>
+        )}
       </div>
     </section>
   );

@@ -54,7 +54,7 @@ const TopSection = ({
   },
 }: About3Props = {}) => {
   return (
-    <section className="pt-[9vw] sm:pt-[10vw] lg:pt-[10vw] xl:pt-[10vw] 2xl:pt-[8vw] pb-[4vw] sm:pb-[3vw] lg:pb-[2vw] xl:pb-[1.5vw] 2xl:pb-[1.2vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
+    <section className="pt-[20vw] sm:pt-[10vw] lg:pt-[10vw] xl:pt-[10vw] 2xl:pt-[8vw] pb-[4vw] sm:pb-[3vw] lg:pb-[2vw] xl:pb-[1.5vw] 2xl:pb-[1.2vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
       <div className="mb-[3.5vw] sm:mb-[2.5vw] lg:mb-[2vw] xl:mb-[1.5vw] 2xl:mb-[1.2vw] grid gap-[1.2vw] sm:gap-[1vw] lg:gap-[0.8vw] xl:gap-[0.6vw] 2xl:gap-[0.5vw] text-center md:grid-cols-2 md:text-left">
         <h2 className="text-[8vw] sm:text-[6vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           {title}

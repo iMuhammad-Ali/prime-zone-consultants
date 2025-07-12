@@ -80,10 +80,10 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                       setActiveImage(tab.image);
                       setActiveTabId(tab.id);
                     }}
-                    className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.25vw] !no-underline transition"
+                    className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.25vw] 2xl:py-[1.75vw] !no-underline transition"
                   >
                     <h6
-                      className={`text-[4vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold ${
+                      className={`text-[4vw] sm:text-[3vw] lg:text-[1.5vw] 2xl:text-[1.8vw] font-semibold ${
                         tab.id === activeTabId
                           ? "text-foreground"
                           : "text-foreground/80"
@@ -93,7 +93,7 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.75vw] text-muted text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]">
+                    <p className="mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.25vw] text-muted text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] 2xl:text-[1.2vw] 2xl:py-[1vw]">
                       {tab.description}
                     </p>
                     <div className="mt-[3vw] sm:mt-[2vw] lg:mt-[1vw] md:hidden">
@@ -108,11 +108,11 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
               ))}
             </Accordion>
           </div>
-          <div className="relative m-auto hidden w-1/2 overflow-hidden rounded-xl bg-muted md:block">
+          <div className="relative m-auto hidden w-1/2 overflow-hidden rounded-[1vw] bg-muted md:block">
             <img
               src={activeImage}
               alt="Feature preview"
-              className="aspect-[4/3] rounded-md object-cover"
+              className="h-auto w-full rounded-[1vw] object-cover"
             />
           </div>
         </div>

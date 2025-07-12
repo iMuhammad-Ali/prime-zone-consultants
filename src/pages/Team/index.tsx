@@ -70,12 +70,12 @@ const people = [
 
 const Team = () => {
   return (
-    <section className="py-[12vw] sm:py-[10vw] md:py-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+    <section className="py-[20vw] lg:py-[12vw] sm:py-[10vw] md:py-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
       <div className="flex flex-col items-center text-center">
         <h2 className="my-[4vw] sm:my-[3vw] md:my-[2vw] lg:my-[1.5vw] text-2xl font-bold text-pretty lg:text-4xl">
           Meet our team
         </h2>
-        <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[85vw] md:max-w-[80vw] lg:max-w-[75vw] text-muted-foreground lg:text-xl">
+        <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[85vw] md:max-w-[80vw] lg:max-w-[75vw] text-muted-foreground lg:text-sm">
           Our experienced and passionate team of education consultants, visa
           experts, and student advisors is dedicated to helping you make the
           right choices for your academic and career goals abroad.
@@ -94,9 +94,9 @@ const Team = () => {
               </Avatar>
             </CardHeader>
             <div className="p-[3vw] sm:p-[2.5vw] md:p-[2vw] lg:p-[1vw]">
-              <p className="font-medium">{person.name}</p>
-              <p className="text-muted-foreground">{person.role}</p>
-              <p className="py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.75vw] text-sm text-muted-foreground">
+              <p className="font-medium 2xl:text-md">{person.name}</p>
+              <p className="text-muted-foreground 2xl:text-sm">{person.role}</p>
+              <p className="py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.75vw] text-sm 2xl:text-base text-muted-foreground">
                 {person.description}
               </p>
               <div className="mt-[2vw] sm:mt-[1.5vw] md:mt-[1vw] lg:mt-[0.5vw] flex gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw]">

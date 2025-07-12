@@ -38,19 +38,23 @@ const WhatsappPopover = () => {
 
   return (
     <div
-      className={`fixed bottom-4 right-4 z-50 transition-opacity duration-300 ${
+      className={`fixed bottom-4 right-4 2xl:right-[1vw] 2xl:bottom-[1vw] z-50 transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
-          <Button className="rounded-full w-10 h-10 p-1.5 sm:w-[4vw] sm:h-[4vw] sm:p-[0.75vw] bg-green-500 hover:bg-green-600 text-white shadow-lg">
+          <Button className="rounded-full 2xl:rounded-full 2xl:w-[4vw] 2xl:h-[4vw] w-10 h-10 p-1.5 sm:w-[4vw] sm:h-[4vw] sm:p-[0.75vw] bg-green-500 hover:bg-green-600 text-white shadow-lg">
             <img src={Whatsapp} className="w-full h-full" alt="WhatsApp" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent side="top" align="end" className="max-w-72 p-0">
+        <PopoverContent
+          side="top"
+          align="end"
+          className="max-w-72 2xl:max-w-[18vw] p-0 2xl:p-[0.5vw]"
+        >
           <div className="flex justify-between items-start border-b p-4">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 2xl:gap-[1vw]">
               <img
                 src={Whatsapp}
                 className="w-8 h-8 sm:w-[2.2vw] sm:h-[2.2vw]"

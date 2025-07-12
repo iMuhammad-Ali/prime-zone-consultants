@@ -6,7 +6,7 @@ import { Textarea } from "~/components/ui/textarea";
 
 const ContactUs = () => {
   return (
-    <section className="py-[10vw] sm:py-[8vw] lg:py-[6vw] xl:py-[4vw] 2xl:py-[7vw]">
+    <section className="py-[20vw] md:py-[10vw] sm:py-[8vw] lg:py-[6vw] xl:py-[4vw] 2xl:py-[7vw]">
       <div className="flex flex-col justify-between gap-[6vw] sm:gap-[4vw] lg:gap-[3vw] xl:gap-[2.5vw] 2xl:gap-[2vw] lg:flex-row px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
         <div className="mx-auto flex max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-xl flex-col justify-between gap-[6vw] sm:gap-[4vw] lg:gap-[3vw] xl:gap-[2.5vw] 2xl:gap-[2vw]">
           <div className="text-center lg:text-left">

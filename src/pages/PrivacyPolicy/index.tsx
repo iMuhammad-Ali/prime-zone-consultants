@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
   return (
-    <section className="mx-auto pt-[10vw] sm:pt-[8vw] lg:pt-[6vw] pb-[8vw] sm:pb-[6vw] lg:pb-[4vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
+    <section className="mx-auto pt-[20vw] sm:pt-[8vw] lg:pt-[6vw] pb-[8vw] sm:pb-[6vw] lg:pb-[4vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] text-justify">
       <h2 className="text-[6vw] sm:text-[4vw] lg:text-[3vw] font-bold text-foreground text-center">
         Privacy Policy
       </h2>
@@ -14,10 +14,10 @@ const PrivacyPolicy = () => {
 
       <div className="space-y-8">
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl  font-semibold text-foreground">
             1. Information We Collect
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We collect personal information you provide directly, such as your
             name, contact details, educational background, and documents related
             to your visa and study applications. We may also collect information
@@ -27,10 +27,10 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             2. How We Use Your Information
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             Your information is used to provide personalized consultancy, assist
             with visa and course applications, communicate updates, and improve
             our services. We may also use your information to send you relevant
@@ -40,10 +40,10 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             3. Sharing Your Information
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We do not sell or rent your personal data. We may share your
             information with universities, visa agencies, or other educational
             partners strictly for application and consultation purposes, and
@@ -54,8 +54,10 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">4. Cookies</h3>
-          <p className="text-muted-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+            4. Cookies
+          </h3>
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We use cookies and similar tracking technologies to improve your
             browsing experience, analyze usage, and deliver personalized
             content. You can control cookie settings via your browser
@@ -64,20 +66,20 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             5. Data Security
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We implement reasonable security measures to protect your personal
             data from unauthorized access, alteration, or disclosure.
           </p>
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             6. Your Rights
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             You have the right to access, correct, or request deletion of your
             personal information. You can also opt-out of marketing
             communications at any time by contacting us.
@@ -85,27 +87,27 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             7. Retention of Data
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We retain your personal information only as long as necessary to
             provide our services and fulfill legal requirements.
           </p>
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold text-foreground">
+          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
             8. Changes to This Policy
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground 2xl:text-[1vw]">
             We may update this privacy policy occasionally to reflect changes in
             our practices or legal requirements. We encourage you to review it
             periodically.
           </p>
         </div>
 
-        <p className="text-muted-foreground">
+        <p className="text-muted-foreground 2xl:text-[1vw]">
           If you have any questions or concerns about this privacy policy or our
           data practices, please contact us at{" "}
           <a href="mailto:support@example.com" className="underline">

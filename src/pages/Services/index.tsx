@@ -3,7 +3,7 @@ import { useOpenConsultantModal } from "~/hooks/use-consultant";
 
 const Services = () => {
   return (
-    <section className="py-[12vw] sm:py-[10vw] md:py-[8vw]">
+    <section className="py-[20vw] sm:py-[10vw] md:py-[8vw]">
       <div className="flex flex-col gap-[6vw] sm:gap-[5vw] md:gap-[4vw] lg:px-[4vw]">
         <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
           <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-xl font-semibold md:text-4xl">
@@ -16,7 +16,7 @@ const Services = () => {
           </p>
           <div
             onClick={useOpenConsultantModal()}
-            className="cursor-pointer group flex items-center text-xs font-medium md:text-base lg:text-lg"
+            className="cursor-pointer group flex items-center text-base font-medium md:text-base lg:text-lg"
           >
             Consult with us{" "}
             <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] transition-transform group-hover:translate-x-1" />
@@ -74,7 +74,7 @@ const Services = () => {
                 className="aspect-[16/9] h-full w-full object-cover object-center"
               />
             </div>
-            <div className="flex flex-col justify-center px-[1.5vw] py-[2vw] md:px-[2vw] md:py-[2.5vw] lg:px-[2.5vw] lg:py-[3vw]">
+            <div className="flex flex-col justify-center px-[4vw] py-[3vw] md:px-[2vw] md:py-[2.5vw] lg:px-[2.5vw] lg:py-[3vw]">
               <h3 className="mb-[0.75vw] text-lg font-semibold md:mb-[1vw] md:text-2xl lg:mb-[1.5vw]">
                 Pre-departure and Post-arrival Support
               </h3>

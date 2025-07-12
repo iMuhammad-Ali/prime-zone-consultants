@@ -78,10 +78,10 @@ const FilterSidebar: React.FC = () => {
     )?.name || "";
 
   return (
-    <Card className="md:sticky md:top-0 mx-auto flex min-w-64 md:max-w-sm max-h-fit md:max-h-fit sm:w-full w-full flex-col rounded-lg border px-5 sm:px-5 py-6">
+    <Card className="md:sticky md:top-0 mx-auto flex min-w-64 md:max-w-sm max-h-fit md:max-h-fit sm:w-full w-full 2xl:max-w-[25vw] flex-col rounded-lg 2xl:rounded-[0.5vw] border px-5 sm:px-5 py-6 2xl:px-[1vw] 2xl:py-[1.2vw]">
       <div className="flex gap-16 justify-between">
         <div className="flex items-center gap-2 mb-5">
-          <SlidersHorizontal className="text-white" />
+          <SlidersHorizontal className="text-white 2xl:size-[1.5vw]" />
           <h2 className="text-md sm:text-lg font-bold text-white tracking-tight">
             Apply Filters
           </h2>
@@ -109,7 +109,7 @@ const FilterSidebar: React.FC = () => {
       </div>
       {/* Search */}
       <div className="mb-6">
-        <label className="block text-sm font-semibold text-blue-200 mb-1">
+        <label className="block text-sm font-semibold text-blue-200 mb-1 2xl:mb-[0.3vw]">
           Search
         </label>
         <div className="flex items-center">
@@ -122,7 +122,7 @@ const FilterSidebar: React.FC = () => {
         </div>
       </div>
       {/* Country */}
-      <label className="block text-sm font-semibold text-blue-200 mb-1">
+      <label className="block text-sm font-semibold text-blue-200 mb-1 2xl:mb-[0.3vw]">
         Country
       </label>
       <Popover open={open} onOpenChange={setOpen}>
@@ -186,7 +186,7 @@ const FilterSidebar: React.FC = () => {
       </Popover>
       {/* Scholarship */}
       <div className="my-6">
-        <label className="block text-sm font-semibold text-blue-200 mb-1">
+        <label className="block text-sm font-semibold text-blue-200 mb-1 2xl:mb-[0.3vw]">
           Scholarship
         </label>
         <div className="flex gap-2">
@@ -217,7 +217,7 @@ const FilterSidebar: React.FC = () => {
         </div>
       </div>
       {/* Departments */}
-      <label className="block text-sm font-semibold text-blue-200 mb-1">
+      <label className="block text-sm font-semibold text-blue-200 mb-1 2xl:mb-[0.3vw]">
         Departments
       </label>
       <Popover open={opendep} onOpenChange={setOpendep}>
@@ -232,7 +232,7 @@ const FilterSidebar: React.FC = () => {
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="max-w-80 p-0 text-wrap">
+        <PopoverContent className="max-w-auto p-0 text-md text-wrap">
           <Command>
             <CommandInput placeholder="Search department..." />
             <CommandList>

@@ -81,7 +81,7 @@ const Hero = ({
         <img
           src={image.src}
           alt={image.alt}
-          className="max-h-[60vw] sm:max-h-[45vw] md:max-h-[35vw] lg:max-h-[25vw] w-full rounded-md object-cover"
+          className="max-h-[60vw] sm:max-h-[45vw] md:max-h-[35vw] lg:max-h-full w-full rounded-md 2xl:rounded-[0.5vw] object-cover"
         />
       </div>
     </section>
