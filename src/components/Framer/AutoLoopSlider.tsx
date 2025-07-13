@@ -33,13 +33,15 @@ export default function AutoLoopSlider({
 
   return (
     <div
-      className={`relative mb-3 top-0 overflow-hidden w-full bg-transparent h-[8vw] sm:h-[6vw] lg:h-[4vw] xl:h-[3vw] 2xl:h-[2.5vw] from-primary/10 to-primary/5 border-y border-border/20 cursor-pointer ${className}`}
+      className={`relative mb-3 top-0 overflow-hidden w-full bg-secondary h-[8vw] sm:h-[6vw] lg:h-[4vw] xl:h-[3vw] 2xl:h-[2.5vw] from-primary/10 to-primary/5 cursor-pointer ${className}`}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
       {/* Latest News Label */}
-      <div className="absolute left-0 top-0 z-10 bg-primary text-primary-foreground px-[3vw] sm:px-[2vw] lg:px-[1.5vw] xl:px-[1vw] 2xl:px-[0.8vw] py-[1vw] sm:py-[0.8vw] lg:py-[0.5vw] xl:py-[0.4vw] 2xl:py-[0.3vw] text-[3vw] sm:text-[2vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.8vw] font-semibold rounded-br-lg shadow-lg">
-        Latest News
+      <div className="absolute h-full left-0 top-0 z-10 bg-primary text-primary-foreground px-[3vw] sm:px-[2vw] lg:px-[1.5vw] xl:px-[1vw] 2xl:px-[0.8vw] text-[3vw] sm:text-[2vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.8vw] font-semibold uppercase shadow-lg">
+        <div className="flex items-center justify-center h-full">
+          Latest News
+        </div>
       </div>
 
       {/* Scrolling Content */}

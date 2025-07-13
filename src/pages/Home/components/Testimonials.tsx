@@ -34,6 +34,20 @@ const testimonials = [
     role: "Masters Student at University of Melbourne",
     avatar: "https://randomuser.me/api/portraits/women/50.jpg",
   },
+  {
+    id: "testimonial-4",
+    text: "PrimeZone Consultants team is very professional and friendly and also approachable. They guided me in every step of admission process for study in abroad. Their advice helped me to choose the best choice in foreign universities and Alhamdulillah I got acceptance letter from two universities in foreign country. I highly recommend PrimeZone Consultants for those who are planning to study in foreign universities.",
+    name: "Muhammad Rizwan Yousaf",
+    role: "Masters Student at University of Melbourne",
+    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+  },
+  {
+    id: "testimonial-4",
+    text: "I had an amazing experience with PrimeZone Consultants. They guided me through every step of the process from shortlisting universities to SOP, writing, and visa preparation. The counselors were knowledgeable, patient, and always available, transparent, and trustworthy.",
+    name: "Abdul Hanan",
+    role: "Masters Student at University of Melbourne",
+    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+  },
 ];
 
 const Testimonials = () => {
@@ -81,9 +95,9 @@ const Testimonials = () => {
                     <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw] font-medium">
                       {testimonial.name}
                     </p>
-                    <p className="text-[3vw] sm:text-[2vw] lg:text-[1vw] text-foreground/75">
+                    {/* <p className="text-[3vw] sm:text-[2vw] lg:text-[1vw] text-foreground/75">
                       {testimonial.role}
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

@@ -102,96 +102,101 @@ const Navbar = ({
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <section className="py-[2vw] sm:py-[1.5vw] lg:py-[1vw] absolute top-0 left-0 right-0">
-      {/* Desktop Menu */}
+    <>
       <AutoLoop />
-      <nav className="hidden justify-between custom:flex custom:items-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-        {/* Logo */}
-        <Link
-          to={logo.url}
-          className="flex items-center gap-[1vw] sm:gap-[0.75vw] lg:gap-[1vw]"
-        >
-          <img
-            src={logo.src}
-            className="max-h-[6vw] sm:max-h-[4vw] lg:max-h-[2vw]"
-            alt={logo.alt}
-          />
-          <span className="text-[4vw] sm:text-[3vw] lg:text-[1.25vw] font-semibold tracking-tighter">
-            {logo.title}
-          </span>
-        </Link>
-        <div className="flex items-center gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw]">
-          <div className="flex items-center">
-            <NavigationMenu>
-              <NavigationMenuList>
-                {menu.map((item) => renderMenuItem(item))}
-              </NavigationMenuList>
-            </NavigationMenu>
-          </div>
-        </div>
-        <div className="flex gap-[1vw] sm:gap-[0.75vw] lg:gap-[0.5vw]">
-          <Button onClick={useOpenConsultantModal()}>Consult with us</Button>
-        </div>
-      </nav>
-
-      {/* Mobile Menu */}
-      <div className="block custom:hidden px-[4vw] sm:px-[3vw]">
-        <div className="flex items-center justify-between">
+      <section className="mt-[12vw] sm:mt-[8vw] lg:mt-[4.5vw] xl:mt-[3vw] py-[2vw] sm:py-[1.5vw] lg:py-[1vw] absolute top-0 left-0 right-0">
+        {/* Desktop Menu */}
+        <nav className="hidden justify-between custom:flex custom:items-center">
           {/* Logo */}
           <Link
             to={logo.url}
-            className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
+            className="flex items-center gap-[1vw] sm:gap-[0.75vw] lg:gap-[1vw]"
           >
             <img
               src={logo.src}
-              className="max-h-[8vw] sm:max-h-[6vw]"
+              className="max-h-[6vw] sm:max-h-[4vw] lg:max-h-[2vw]"
               alt={logo.alt}
             />
+            <span className="text-[4vw] sm:text-[3vw] lg:text-[1.25vw] font-semibold tracking-tighter">
+              {logo.title}
+            </span>
           </Link>
-          <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
-            <SheetTrigger asChild>
-              <Button variant="outline" size="icon">
-                <Menu className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw]" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent className="overflow-y-auto">
-              <SheetHeader>
-                <SheetTitle>
-                  <Link
-                    to={logo.url}
-                    className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
-                    onClick={() => setShowSidebar(false)}
-                  >
-                    <img
-                      src={logo.src}
-                      className="max-h-[8vw] sm:max-h-[6vw]"
-                      alt={logo.alt}
-                    />
-                  </Link>
-                </SheetTitle>
-              </SheetHeader>
-              <div className="flex flex-col gap-[4vw] sm:gap-[3vw] py-[3vw] sm:py-[2vw]">
-                <Accordion
-                  type="single"
-                  collapsible
-                  className="flex w-full flex-col gap-[1vw] sm:gap-[0.75vw]"
-                >
-                  {menu.map((item) =>
-                    renderMobileMenuItem(item, setShowSidebar)
-                  )}
-                </Accordion>
+          <div className="flex items-center gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw]">
+            <div className="flex items-center">
+              <NavigationMenu>
+                <NavigationMenuList>
+                  {menu.map((item) => renderMenuItem(item))}
+                </NavigationMenuList>
+              </NavigationMenu>
+            </div>
+          </div>
+          <div className="flex gap-[1vw] sm:gap-[0.75vw] lg:gap-[0.5vw]">
+            <Button onClick={useOpenConsultantModal()}>Consult with us</Button>
+          </div>
+        </nav>
 
-                <div className="flex flex-col gap-[2vw] sm:gap-[1.5vw]">
-                  <Button onClick={useOpenConsultantModal()}>
-                    Consult with us
-                  </Button>
+        {/* Mobile Menu */}
+        <div className="block custom:hidden px-[4vw] sm:px-[3vw]">
+          <div className="flex items-center justify-between">
+            {/* Logo */}
+            <Link
+              to={logo.url}
+              className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
+            >
+              <img
+                src={logo.src}
+                className="max-h-[8vw] sm:max-h-[6vw] lg:max-h-[2vw]"
+                alt={logo.alt}
+              />
+              <span className="text-[4vw] sm:text-[3vw] lg:text-[1.25vw] font-semibold tracking-tighter">
+                {logo.title}
+              </span>
+            </Link>
+            <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
+              <SheetTrigger asChild>
+                <Button variant="outline" size="icon">
+                  <Menu className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw]" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent className="overflow-y-auto">
+                <SheetHeader>
+                  <SheetTitle>
+                    <Link
+                      to={logo.url}
+                      className="flex items-center gap-[1vw] sm:gap-[0.75vw]"
+                      onClick={() => setShowSidebar(false)}
+                    >
+                      <img
+                        src={logo.src}
+                        className="max-h-[8vw] sm:max-h-[6vw]"
+                        alt={logo.alt}
+                      />
+                    </Link>
+                  </SheetTitle>
+                </SheetHeader>
+                <div className="flex flex-col gap-[4vw] sm:gap-[3vw] py-[3vw] sm:py-[2vw]">
+                  <Accordion
+                    type="single"
+                    collapsible
+                    className="flex w-full flex-col gap-[1vw] sm:gap-[0.75vw]"
+                  >
+                    {menu.map((item) =>
+                      renderMobileMenuItem(item, setShowSidebar)
+                    )}
+                  </Accordion>
+
+                  <div className="flex flex-col gap-[2vw] sm:gap-[1.5vw]">
+                    <Button onClick={useOpenConsultantModal()}>
+                      Consult with us
+                    </Button>
+                  </div>
                 </div>
-              </div>
-            </SheetContent>
-          </Sheet>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

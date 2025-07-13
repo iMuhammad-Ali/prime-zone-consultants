@@ -152,7 +152,7 @@ SuccessStoriesProps) => {
                         />
                       ) : selectedImage === img ? (
                         <div
-                          className="fixed inset-0 z-50 bg-neutral-800 bg-opacity-80 flex items-center justify-center"
+                          className="fixed inset-0 z-[10001] bg-neutral-800 bg-opacity-80 flex items-center justify-center"
                           onClick={() => {
                             setSelectedImage(null);
                             setIsFullscreen(false);
