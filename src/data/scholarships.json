@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Fulbright Program",
+    "country": "United States",
+    "university": "Various US Universities",
+    "eligibility": "International/US students; academic excellence, leadership, English proficiency",
+    "requirements": "Bachelor’s (or higher); transcripts; GRE/TOEFL/IELTS; SOP; recommendation letters",
+    "covers": "Tuition, stipend, airfare, health insurance",
+    "website": "Fulbright Program (Dept. of State)"
+  },
+  {
+    "name": "Chevening Scholarships",
+    "country": "United Kingdom",
+    "university": "Various UK Universities",
+    "eligibility": "Citizens of eligible countries; undergraduate degree; 2+ years work experience; leadership potential",
+    "requirements": "Transcripts; SOP; references; UK master’s offer",
+    "covers": "Tuition, living expenses, airfare",
+    "website": "Chevening Scholarships"
+  },
+  {
+    "name": "Commonwealth Scholarships",
+    "country": "United Kingdom",
+    "university": "Various UK Universities",
+    "eligibility": "Citizens of Commonwealth countries; strong academics; intended development impact",
+    "requirements": "Degree; English proficiency; references; development proposal",
+    "covers": "Tuition, airfare, living expenses, allowances",
+    "website": "Commonwealth Scholarship Commission"
+  },
+  {
+    "name": "Erasmus Mundus Joint Master Degrees",
+    "country": "European Union",
+    "university": "Various European Universities (Joint Programs)",
+    "eligibility": "Bachelor’s degree, academic excellence, admission to EMJMD",
+    "requirements": "Application to consortium; transcripts; language scores; recommendation letters",
+    "covers": "Tuition, travel, installation, monthly stipend",
+    "website": "Erasmus Mundus EMJMD"
+  },
+  {
+    "name": "Gates Cambridge Scholarships",
+    "country": "United Kingdom",
+    "university": "University of Cambridge",
+    "eligibility": "Non-UK citizens; admission to Cambridge MSc/PhD; academic excellence, leadership, commitment to others",
+    "requirements": "Course application; transcripts; references; SOP",
+    "covers": "Full tuition + maintenance",
+    "website": "Gates Cambridge Scholarship"
+  },
+  {
+    "name": "Weidenfeld-Hoffmann Scholarships",
+    "country": "United Kingdom",
+    "university": "University of Oxford",
+    "eligibility": "Graduates or early professionals from developing countries; leadership potential; aim to return home",
+    "requirements": "Oxford admission; transcripts; SOP; interview",
+    "covers": "Full fees, living costs, leadership programme",
+    "website": "WeidenfeldHoffmann Trust"
+  },
+  {
+    "name": "Türkiye Scholarships",
+    "country": "Turkey",
+    "university": "Various Turkish Universities",
+    "eligibility": "International students for associate to PhD; academic merit; age criteria vary",
+    "requirements": "Online form; transcripts; language certificates; recommended documents",
+    "covers": "Tuition, stipend, accommodation, health insurance, travel",
+    "website": "TürkiyeScholarships.org.tr"
+  },
+  {
+    "name": "Korean Government Scholarship Program (KGSP)",
+    "country": "South Korea",
+    "university": "Various Korean Universities",
+    "eligibility": "Citizens of 157 countries; academic excellence; health/age criteria",
+    "requirements": "Admission to Korean university; transcripts; English/Korean proficiency; health check",
+    "covers": "Tuition, monthly stipend, airfare, medical insurance",
+    "website": "KGSP official"
+  },
+  {
+    "name": "Chinese Government Scholarship (CSC)",
+    "country": "China",
+    "university": "Various Chinese Universities",
+    "eligibility": "Non-Chinese citizens; academic merit; language proficiency",
+    "requirements": "CSC form; admission letter; HSK/IELTS/TOEFL; transcripts",
+    "covers": "Tuition, accommodation, stipend, health insurance",
+    "website": "CSC portal"
+  },
+  {
+    "name": "Swiss Government Excellence Scholarships",
+    "country": "Switzerland",
+    "university": "Various Swiss Institutions",
+    "eligibility": "Master’s or PhD holders; research excellence; linguistics",
+    "requirements": "Research proposal; transcripts; references; language proof",
+    "covers": "Living/daily allowance, tuition, travel expenses",
+    "website": "Swiss Government scholarships portal"
+  },
+  {
+    "name": "DAAD Scholarships",
+    "country": "Germany",
+    "university": "Various German Universities",
+    "eligibility": "Postgrad/PhD applicants; academic merit; sometimes German language needed",
+    "requirements": "Application; transcripts; proposal; references; language test",
+    "covers": "Tuition, monthly allowance, health insurance, travel",
+    "website": "DAAD official"
+  },
+  {
+    "name": "MEXT Scholarship",
+    "country": "Japan",
+    "university": "Various Japanese Universities",
+    "eligibility": "Undergraduate/Graduate/PhD; academic excellence; nationality criteria",
+    "requirements": "University recommendation; transcripts; language tests; research plan",
+    "covers": "Stipend, tuition, travel, accommodation",
+    "website": "MEXT Scholarship portal"
+  },
+  {
+    "name": "ADB-Japan Scholarship Program",
+    "country": "Multiple Asian Countries",
+    "university": "ADB Partner Universities",
+    "eligibility": "Citizens of ADB borrowing countries; university admission; bachelor’s degree",
+    "requirements": "Admission letter; transcripts; reference letters; CV",
+    "covers": "Tuition, stipend, housing, travel, insurance",
+    "website": "N/A"
+  },
+  {
+    "name": "Hong Kong PhD Fellowship Scheme",
+    "country": "Hong Kong",
+    "university": "Hong Kong Universities",
+    "eligibility": "Outstanding PhD applicants; research potential",
+    "requirements": "PhD admission; academic transcripts; references; research proposal",
+    "covers": "Stipend; conference travel allowance",
+    "website": "N/A"
+  },
+  {
+    "name": "Taiwan Scholarship Program",
+    "country": "Taiwan",
+    "university": "Taiwanese Universities",
+    "eligibility": "HS graduates/undergrads for study in Taiwan; academic merit",
+    "requirements": "Application; transcripts; language test; admission letter",
+    "covers": "Tuition waiver; monthly stipend",
+    "website": "N/A"
+  },
+  {
+    "name": "Pierre Elliott Trudeau Foundation Scholarship",
+    "country": "Canada",
+    "university": "Various Canadian Universities",
+    "eligibility": "PhD in humanities/social sciences; themes: environment, human rights, citizenship, global affairs",
+    "requirements": "Proposal aligned with themes; transcripts; references; research plan",
+    "covers": "CAD 40,000 stipend + up to CAD 20,000 research/travel annually",
+    "website": "Trudeau Foundation"
+  },
+  {
+    "name": "Open Door Russian Government Scholarships",
+    "country": "Russia",
+    "university": "Russian Universities",
+    "eligibility": "Bachelor/Master/PhD; CGPA ≥ 2.5; no IELTS required",
+    "requirements": "Form; passport copy; transcripts; motivation & references",
+    "covers": "Tuition, monthly allowance (accommodation optional)",
+    "website": "N/A"
+  },
+  {
+    "name": "Danish Government Scholarships",
+    "country": "Denmark",
+    "university": "Various Danish Universities",
+    "eligibility": "NonEU/EEA Bachelor's/Master's/PhD; academic merit; acceptance from Danish uni",
+    "requirements": "Uni offer; IELTS; application; motivation",
+    "covers": "Tuition, allowance, travel expenses",
+    "website": "N/A"
+  },
+  {
+    "name": "Saltire Scholarships",
+    "country": "Scotland",
+    "university": "Scottish Universities",
+    "eligibility": "Citizens of Canada, China, India, Japan, Pakistan, US; postgraduate in STEM, creative industries, health",
+    "requirements": "University admission; application form; academic record",
+    "covers": "£8,000 toward one-year postgraduate tuition",
+    "website": "N/A"
+  },
+  {
+    "name": "Aga Khan Foundation International Scholarship",
+    "country": "Multiple Developing Countries",
+    "university": "Various Partner Universities",
+    "eligibility": "Citizens of developing countries; academic merit; financial need; leadership",
+    "requirements": "Application; transcripts; references; financial & home country commitment",
+    "covers": "Tuition, traveling, living expenses, annual travel grant",
+    "website": "N/A"
+  }
+]
