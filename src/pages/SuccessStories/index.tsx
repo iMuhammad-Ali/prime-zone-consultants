@@ -87,8 +87,8 @@ SuccessStoriesProps) => {
       letter17,
       letter18,
     ],
-    Germany: [],
-    France: [],
+    // Germany: [],
+    // France: [],
   };
 
   return (

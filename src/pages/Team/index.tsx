@@ -70,7 +70,7 @@ const people = [
 
 const Team = () => {
   return (
-    <section className="py-[20vw] lg:py-[12vw] sm:py-[10vw] md:py-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+    <section className="py-[20vw] lg:py-[12vw] sm:py-[10vw] md:py-[8vw] xl:py-[6vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
       <div className="flex flex-col items-center text-center">
         <h2 className="my-[4vw] sm:my-[3vw] md:my-[2vw] lg:my-[1.5vw] text-2xl font-bold text-pretty lg:text-4xl">
           Meet our team

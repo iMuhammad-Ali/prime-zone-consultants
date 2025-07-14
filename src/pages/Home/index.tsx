@@ -1,5 +1,6 @@
 // import { Blog } from "./components/Blogs";
 import { CTA } from "./components/CTA";
+import { Faqs } from "./components/Faqs";
 import { Features } from "./components/Features";
 import { Hero } from "./components/Hero";
 import { Stats } from "./components/Stats";
@@ -13,6 +14,7 @@ const Home = () => {
       <Universities />
       <Stats />
       <Features />
+      <Faqs />
       {/* <Blog /> */}
       <CTA />
       <Testimonials />

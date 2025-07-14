@@ -59,7 +59,7 @@ const TopSection = ({
         <h2 className="text-[8vw] sm:text-[6vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           {title}
         </h2>
-        <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.9vw]">
+        <p className="flex items-center text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[0.9vw]">
           {description}
         </p>
       </div>
@@ -67,7 +67,7 @@ const TopSection = ({
         <img
           src={mainImage.src}
           alt={mainImage.alt}
-          className="w-full max-h-[45vw] sm:max-h-[35vw] lg:max-h-[30vw] xl:max-h-[25vw] 2xl:max-h-[40vw] rounded-xl object-cover lg:col-span-2"
+          className="w-full max-h-[45vw] sm:max-h-auto lg:max-h-auto xl:max-h-auto 2xl:max-h-auto rounded-xl object-cover lg:col-span-2"
         />
         <div className="flex flex-col gap-[1.8vw] sm:gap-[1.5vw] lg:gap-[1.2vw] xl:gap-[1vw] 2xl:gap-[0.8vw] md:flex-row lg:flex-col">
           <div className="bg-muted flex flex-col justify-between gap-[1.5vw] sm:gap-[1.2vw] lg:gap-[1vw] xl:gap-[0.8vw] 2xl:gap-[0.6vw] rounded-xl p-[1.8vw] sm:p-[1.5vw] lg:p-[1.2vw] xl:p-[1vw] 2xl:p-[0.8vw] md:w-1/2 lg:w-auto">

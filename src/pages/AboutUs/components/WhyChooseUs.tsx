@@ -16,7 +16,7 @@ export interface WhyChooseUsProps {
   className?: string;
 }
 
-export const defaultChangelogData: ChangelogEntry[] = [
+const defaultChangelogData: ChangelogEntry[] = [
   {
     version: "Course Selection",
     date: "6–12 months before intake",
@@ -101,7 +101,7 @@ const WhyChooseUs = ({
               key={index}
               className="relative flex flex-col gap-[3vw] sm:gap-[2vw] lg:gap-[4vw] xl:gap-[3vw] 2xl:gap-[2.5vw] md:flex-row"
             >
-              <div className="top-[7vw] sm:top-[5vw] lg:top-[4vw] xl:top-[3vw] 2xl:top-[2.5vw] flex h-min shrink-0 items-center gap-[3vw] sm:gap-[2vw] lg:gap-[1vw] xl:gap-[0.8vw] 2xl:gap-[0.6vw] md:sticky">
+              <div className="top-[7vw] sm:top-[5vw] lg:top-[4vw] xl:top-[3vw] 2xl:top-[2.5vw] flex h-min shrink-0 items-center gap-[3vw] sm:gap-[2vw] lg:gap-[1vw] xl:gap-[0.8vw] 2xl:gap-[0.6vw] md:sticky md:w-[35vw] lg:w-[30vw] xl:w-[25vw] 2xl:w-[20vw]">
                 <Badge
                   variant="secondary"
                   className="text-[3vw] sm:text-[2vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] px-[2vw] sm:px-[1.5vw] lg:px-[0.8vw] xl:px-[0.7vw] 2xl:px-[0.6vw] py-[1vw] sm:py-[0.75vw] lg:py-[0.4vw] xl:py-[0.35vw] 2xl:py-[0.3vw]"
@@ -132,7 +132,7 @@ const WhyChooseUs = ({
                   <img
                     src={entry.image}
                     alt={`${entry.version} visual`}
-                    className="mt-[6vw] sm:mt-[4vw] lg:mt-[2vw] xl:mt-[1.5vw] 2xl:mt-[1.2vw] w-full rounded-lg object-cover max-h-[40vw] sm:max-h-[30vw] lg:max-h-[20vw] xl:max-h-[15vw] 2xl:max-h-[12vw]"
+                    className="mt-[6vw] sm:mt-[4vw] lg:mt-[2vw] xl:mt-[1.5vw] 2xl:mt-[1.2vw] w-full lg:w-[20vw]  rounded-lg object-cover max-h-[40vw] sm:max-h-[30vw] lg:max-h-[20vw] xl:max-h-[15vw] 2xl:max-h-[12vw]"
                   />
                 )}
               </div>

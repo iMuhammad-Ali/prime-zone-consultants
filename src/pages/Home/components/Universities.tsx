@@ -2,8 +2,6 @@
 
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import { useEffect, useState } from "react";
-
-import { Button } from "~/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -98,10 +96,10 @@ const Universities = ({
             } focus:outline-none`}
             style={{ background: "none", border: "none" }}
           >
-            <ArrowLeft className="w-7 h-7 md:w-8 md:h-8" />
+            <ArrowLeft className="w-7 h-7 md:w-8 md:h-8 2xl:w-[2.5vw] 2xl:h-[2.5vw]" />
           </button>
           <div className="flex-1 flex flex-col items-center justify-center max-w-[60%]">
-            <div className="relative w-[60%] 2xl:max-w-[50vw] h-[4px] bg-blue-100 rounded-full overflow-hidden">
+            <div className="relative w-[60%] 2xl:max-w-[50vw] h-[4px] 2xl:h-[0.25vw] bg-blue-100 rounded-full overflow-hidden">
               <div
                 className="absolute left-0 top-0 h-full bg-blue-800 transition-all duration-300"
                 style={{
@@ -125,7 +123,7 @@ const Universities = ({
             } focus:outline-none`}
             style={{ background: "none", border: "none" }}
           >
-            <ArrowRight className="w-7 h-7 md:w-8 md:h-8" />
+            <ArrowRight className="w-7 h-7 md:w-8 md:h-8 2xl:w-[2.5vw] 2xl:h-[2.5vw]" />
           </button>
         </div>
       </div>

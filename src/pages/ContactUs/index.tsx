@@ -6,23 +6,23 @@ import { Textarea } from "~/components/ui/textarea";
 
 const ContactUs = () => {
   return (
-    <section className="py-[20vw] md:py-[10vw] sm:py-[8vw] lg:py-[6vw] xl:py-[4vw] 2xl:py-[7vw]">
+    <section className="py-[20vw] md:py-[10vw] sm:py-[8vw] lg:py-[8vw] xl:py-[8vw] 2xl:py-[10vw]">
       <div className="flex flex-col justify-between gap-[6vw] sm:gap-[4vw] lg:gap-[3vw] xl:gap-[2.5vw] 2xl:gap-[2vw] lg:flex-row px-[4vw] sm:px-[3vw] lg:px-[2vw] xl:px-[8vw] 2xl:px-[12vw]">
-        <div className="mx-auto flex max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-xl flex-col justify-between gap-[6vw] sm:gap-[4vw] lg:gap-[3vw] xl:gap-[2.5vw] 2xl:gap-[2vw]">
+        <div className="mx-auto flex max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-[50vw] flex-col justify-between gap-[6vw] sm:gap-[4vw] lg:gap-[3vw] xl:gap-[2.5vw] 2xl:gap-[2vw]">
           <div className="text-center lg:text-left">
-            <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[3vw] xl:text-[2.5vw] 2xl:text-[2vw] font-semibold">
+            <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
               Contact Us
             </h2>
-            <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]">
+            <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-sm xl:text-md 2xl:text-[1vw]">
               We are available for questions, feedback, or collaboration
               opportunities. Let us know how we can help!
             </p>
           </div>
           <div className="mx-auto w-fit lg:mx-0">
-            <h3 className="mb-[4vw] sm:mb-[3vw] lg:mb-[1.5vw] xl:mb-[1.2vw] 2xl:mb-[1vw] text-center text-[5vw] sm:text-[3vw] lg:text-[1.5vw] xl:text-[1.3vw] 2xl:text-[1.1vw] font-semibold lg:text-left">
+            <h3 className="mb-[4vw] sm:mb-[3vw] lg:mb-[1.5vw] xl:mb-[1.2vw] 2xl:mb-[1vw] text-center text-[5vw] sm:text-[3vw] lg:text-[2vw] xl:text-[2vw] 2xl:text-[1.5vw] font-semibold lg:text-left">
               Contact Details
             </h3>
-            <ul className="ml-[3vw] sm:ml-[2vw] lg:ml-[1vw] xl:ml-[0.8vw] 2xl:ml-[0.6vw] list-disc text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw] space-y-[1vw] sm:space-y-[0.5vw] lg:space-y-[0.3vw] xl:space-y-[0.25vw] 2xl:space-y-[0.2vw]">
+            <ul className="ml-[3vw] sm:ml-[2vw] lg:ml-[1vw] xl:ml-[0.8vw] 2xl:ml-[0.6vw] list-disc text-[3.5vw] sm:text-[2.5vw] lg:text-sm xl:text-md 2xl:text-[1vw] space-y-[1vw] sm:space-y-[0.5vw] lg:space-y-[0.3vw] xl:space-y-[0.25vw] 2xl:space-y-[0.2vw]">
               <li>
                 <span className="font-bold">Phone: </span>
                 (123) 34567890
@@ -41,7 +41,7 @@ const ContactUs = () => {
             <div className="grid w-full items-center gap-[2vw] sm:gap-[1.5vw] lg:gap-[0.5vw] xl:gap-[0.4vw] 2xl:gap-[0.3vw]">
               <Label
                 htmlFor="firstname"
-                className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]"
+                className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[1vw]"
               >
                 First Name
               </Label>
@@ -55,7 +55,7 @@ const ContactUs = () => {
             <div className="grid w-full items-center gap-[2vw] sm:gap-[1.5vw] lg:gap-[0.5vw] xl:gap-[0.4vw] 2xl:gap-[0.3vw]">
               <Label
                 htmlFor="lastname"
-                className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]"
+                className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[1vw]"
               >
                 Last Name
               </Label>
@@ -70,7 +70,7 @@ const ContactUs = () => {
           <div className="grid w-full items-center gap-[2vw] sm:gap-[1.5vw] lg:gap-[0.5vw] xl:gap-[0.4vw] 2xl:gap-[0.3vw]">
             <Label
               htmlFor="email"
-              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]"
+              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[1vw]"
             >
               Email
             </Label>
@@ -84,7 +84,7 @@ const ContactUs = () => {
           <div className="grid w-full items-center gap-[2vw] sm:gap-[1.5vw] lg:gap-[0.5vw] xl:gap-[0.4vw] 2xl:gap-[0.3vw]">
             <Label
               htmlFor="subject"
-              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]"
+              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[1vw]"
             >
               Subject
             </Label>
@@ -98,7 +98,7 @@ const ContactUs = () => {
           <div className="grid w-full gap-[2vw] sm:gap-[1.5vw] lg:gap-[0.5vw] xl:gap-[0.4vw] 2xl:gap-[0.3vw]">
             <Label
               htmlFor="message"
-              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.8vw]"
+              className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.2vw] xl:text-[1vw] 2xl:text-[1vw]"
             >
               Message
             </Label>

@@ -16,17 +16,7 @@ const Pagination = ({
     onPageChange(page);
   };
   useEffect(() => {
-    const universitiesContainer = document.getElementById(
-      "universities-container"
-    );
-    if (universitiesContainer) {
-      universitiesContainer.scrollIntoView({
-        block: "start",
-      });
-    } else {
-      // Fallback to the original scroll behavior if element not found
-      window.scrollTo({ top: 400 });
-    }
+    window.scrollTo({ top: 400 });
   }, [currentPage]);
 
   if (totalPages <= 1) return null; // No pagination needed if only one page

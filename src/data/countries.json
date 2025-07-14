@@ -8,6 +8,22 @@
     "discount": "20%"
   },
   {
+    "name": "United States",
+    "code": "US",
+    "flag": "https://flagcdn.com/us.svg",
+    "actualFee": "€14,000",
+    "discountedFee": "€11,200",
+    "discount": "20%"
+  },
+  {
+    "name": "New Zealand",
+    "code": "NZ",
+    "flag": "https://flagcdn.com/nz.svg",
+    "actualFee": "€13,000",
+    "discountedFee": "€10,400",
+    "discount": "20%"
+  },
+  {
     "name": "Kyrgyzstan",
     "code": "KG",
     "flag": "https://flagcdn.com/kg.svg",

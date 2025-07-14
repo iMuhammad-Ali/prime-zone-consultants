@@ -1,5 +1,4 @@
 import { ArrowRight, Check } from "lucide-react";
-
 import { Button } from "~/components/ui/button";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
 

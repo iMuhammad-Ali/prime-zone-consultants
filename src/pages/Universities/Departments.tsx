@@ -16,7 +16,9 @@ const UniversityDepartments = () => {
   const [search, setSearch] = useState("");
   // Only show departments that have at least one university
   const filteredDepartments = departmentsData.filter((department) =>
-    universitiesData.some((uni) => uni.departments.includes(department.id))
+    universitiesData.some((uni) =>
+      (uni.departments as string[]).includes(department.id)
+    )
   );
   // Filter by search
   const visibleDepartments = filteredDepartments.filter((department) =>
@@ -71,7 +73,9 @@ const UniversityDepartments = () => {
                 <div className="text-muted-foreground lg:text-lg px-[3vw] sm:px-[2vw] md:px-[1.5vw] lg:px-[0.75vw]">
                   <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw]">
                     {universitiesData
-                      .filter((uni) => uni.departments.includes(department.id))
+                      .filter((uni) =>
+                        (uni.departments as string[]).includes(department.id)
+                      )
                       .map((uni) => {
                         return (
                           <Link

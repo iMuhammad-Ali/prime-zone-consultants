@@ -1,5 +1,3 @@
-import { ArrowRight } from "lucide-react";
-
 interface StatsProps {
   heading?: string;
   description?: string;
@@ -54,13 +52,6 @@ const Stats = ({
           <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] 2xl:text-[1.2vw]">
             Ensuring stability and scalability for all users
           </p>
-          <a
-            href="/"
-            className="flex items-center gap-[1vw] sm:gap-[0.75vw] lg:gap-[0.25vw] font-bold text-primary-foreground hover:underline text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw]"
-          >
-            Read the full impact report
-            <ArrowRight className="h-auto w-[4vw] sm:w-[3vw] lg:w-[1vw]" />
-          </a>
         </div>
         <div className="mt-[6vw] sm:mt-[4vw] lg:mt-[3.5vw] grid gap-x-[3vw] gap-y-[4vw] sm:gap-x-[2vw] sm:gap-y-[3vw] lg:gap-x-[1.25vw] lg:gap-y-[2vw] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
