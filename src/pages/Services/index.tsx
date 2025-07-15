@@ -1,15 +1,16 @@
 import { ArrowRight } from "lucide-react";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
+import { Brain, GraduationCap, TicketsPlane, BookOpen } from "lucide-react";
 
 const Services = () => {
   return (
-    <section className="py-[20vw] sm:py-[10vw] md:py-[8vw]">
+    <section className="py-[20vw] sm:py-[15vw] md:py-[15vw] lg:py-[8vw]">
       <div className="flex flex-col gap-[6vw] sm:gap-[5vw] md:gap-[4vw] lg:px-[4vw]">
         <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-xl font-semibold md:text-4xl">
+          <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-xl sm:text-[4vw] font-semibold md:text-4xl">
             Services we offer
           </h2>
-          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] text-muted-foreground lg:text-lg">
+          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
             Comprehensive support throughout your study abroad journey, from
             course and university selection to application assistance, visa
             guidance, and post-arrival support.
@@ -19,7 +20,58 @@ const Services = () => {
             className="cursor-pointer group flex items-center text-base font-medium md:text-base lg:text-lg"
           >
             Consult with us{" "}
-            <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] xl:size-[1.5vw] transition-transform group-hover:translate-x-1" />
+          </div>
+        </div>
+
+        {/* Modern icon section for consultation services */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-[4vw] sm:gap-[3vw] md:gap-[2vw] lg:gap-[1.5vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+          <div className="flex flex-col items-center text-center group">
+            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[-15deg] group-hover:rotate-[-10deg] transition-transform duration-300"></div>
+              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <Brain className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
+              </div>
+            </div>
+            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
+              ONE ON ONE COUNSELLING
+            </h3>
+          </div>
+
+          <div className="flex flex-col items-center text-center group">
+            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[15deg] group-hover:rotate-[10deg] transition-transform duration-300"></div>
+              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <GraduationCap className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
+              </div>
+            </div>
+            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
+              ADMISSION ASSESSMENT
+            </h3>
+          </div>
+
+          <div className="flex flex-col items-center text-center group">
+            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[-15deg] group-hover:rotate-[-10deg] transition-transform duration-300"></div>
+              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <TicketsPlane className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
+              </div>
+            </div>
+            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
+              VISA GUIDANCE
+            </h3>
+          </div>
+
+          <div className="flex flex-col items-center text-center group">
+            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[15deg] group-hover:rotate-[10deg] transition-transform duration-300"></div>
+              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <BookOpen className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
+              </div>
+            </div>
+            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
+              IELTS PREPARATION
+            </h3>
           </div>
         </div>
         <div className="grid gap-[3vw] sm:gap-[2.5vw] md:gap-[2vw] lg:gap-[1.5vw] md:grid-cols-2 px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
@@ -35,7 +87,7 @@ const Services = () => {
               <h3 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-lg font-semibold md:text-2xl">
                 Personalized University and Course Selection
               </h3>
-              <p className="text-muted-foreground lg:text-lg">
+              <p className="text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
                 We analyze your academic background, interests, and career goals
                 to recommend the best universities and courses worldwide. Our
                 experts stay updated with global education trends to help you
@@ -49,7 +101,7 @@ const Services = () => {
               <h3 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-lg font-semibold md:text-2xl">
                 Visa Application and Documentation Support
               </h3>
-              <p className="text-muted-foreground lg:text-lg">
+              <p className="text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
                 Navigating visa processes can be complex, but we simplify it for
                 you. From preparing your Statement of Purpose and CV to
                 organizing all necessary documents, our visa specialists guide
@@ -78,7 +130,7 @@ const Services = () => {
               <h3 className="mb-[0.75vw] text-lg font-semibold md:mb-[1vw] md:text-2xl lg:mb-[1.5vw]">
                 Pre-departure and Post-arrival Support
               </h3>
-              <p className="text-muted-foreground lg:text-lg">
+              <p className="text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
                 We provide comprehensive support before and after you travel
                 abroad. This includes guidance on accommodation, travel
                 arrangements, cultural orientation, and continuous assistance to

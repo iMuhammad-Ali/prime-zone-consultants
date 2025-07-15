@@ -11,7 +11,7 @@ const DisclaimerPage = () => {
           </h3>
           <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-[1vw] leading-relaxed">
             The images displayed throughout this website are not the exclusive
-            property of Prime Zone Consultants. Instead, they have been
+            property of Prime Zone Consultants (PZC). Instead, they have been
             carefully sourced from a variety of publicly accessible platforms
             and online repositories. These images are intended strictly for
             illustrative, aesthetic, and informational purposes to enhance user

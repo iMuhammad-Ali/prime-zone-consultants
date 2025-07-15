@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
 
       <div className="space-y-8">
         <div>
-          <h3 className="text-lg 2xl:text-xl  font-semibold text-foreground">
+          <h3 className="text-lg  font-semibold text-foreground">
             1. Information We Collect
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg  font-semibold text-foreground">
             2. How We Use Your Information
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             3. Sharing Your Information
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -54,9 +54,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
-            4. Cookies
-          </h3>
+          <h3 className="text-lg font-semibold text-foreground">4. Cookies</h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
             We use cookies and similar tracking technologies to improve your
             browsing experience, analyze usage, and deliver personalized
@@ -66,7 +64,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg  font-semibold text-foreground">
             5. Data Security
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -76,7 +74,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg  font-semibold text-foreground">
             6. Your Rights
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -87,7 +85,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             7. Retention of Data
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -97,7 +95,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             8. Changes to This Policy
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">

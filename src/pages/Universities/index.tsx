@@ -48,13 +48,13 @@ const Universities: React.FC = () => {
   );
 
   return (
-    <section className="pt-32 pb-16">
+    <section className="pt-32 2xl:pt-[6vw] pb-16">
       {/* Header */}
       <div className="container mx-auto flex flex-col items-center text-center">
         <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           Universities
         </h2>
-        <p className="mb-8 max-w-4xl text-muted-foreground lg:text-xl">
+        <p className="mb-8 max-w-4xl 2xl:max-w-[50vw] text-muted-foreground lg:text-xl 2xl:text-sm">
           Explore a curated list of top universities from around the world.
           Discover institutions known for academic excellence, innovation, and
           global impact. Compare programs, scholarships, and admissions to find

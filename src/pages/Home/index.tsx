@@ -15,8 +15,8 @@ const Home = () => {
       <Universities />
       <Stats />
       <Features />
-      <Faqs />
       <ScholarShips />
+      <Faqs />
       {/* <Blog /> */}
       <CTA />
       <Testimonials />

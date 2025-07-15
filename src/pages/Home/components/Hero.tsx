@@ -59,7 +59,7 @@ const Hero = ({
           >
             {heading}
           </h2>
-          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-fit text-muted-foreground lg:text-xl">
+          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-fit text-muted-foreground lg:text-[1.5vw]">
             {description}
           </p>
           <div className="flex w-full flex-col justify-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] sm:flex-row lg:justify-start">

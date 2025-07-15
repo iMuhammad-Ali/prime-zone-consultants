@@ -93,12 +93,12 @@ const Footer = ({
     url: "/",
     src: Logo,
     alt: "logo",
-    title: "Prime Zone Consultants",
+    title: "Prime Zone Consultants (PZC)",
   },
   sections = defaultSections,
   description = "A collection of components for your startup business or side project.",
   socialLinks = defaultSocialLinks,
-  copyright = `© ${new Date().getFullYear()} Prime Zone Consultants. All rights reserved.`,
+  copyright = `© ${new Date().getFullYear()} Prime Zone Consultants (PZC). All rights reserved.`,
   legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
   return (

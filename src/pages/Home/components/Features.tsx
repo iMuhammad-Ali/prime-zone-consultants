@@ -80,10 +80,10 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                       setActiveImage(tab.image);
                       setActiveTabId(tab.id);
                     }}
-                    className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.25vw] 2xl:py-[1.75vw] !no-underline transition"
+                    className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.75vw] 2xl:py-[1.75vw] !no-underline transition"
                   >
                     <h6
-                      className={`text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-[2vw] 2xl:text-[1.8vw] font-semibold ${
+                      className={`text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-[2vw] 2xl:text-[1.5vw] font-semibold ${
                         tab.id === activeTabId
                           ? "text-foreground"
                           : "text-foreground/80"
@@ -93,7 +93,7 @@ const Features = ({ features = defaultFeatures }: FeaturesProps) => {
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="mt-[2vw] sm:mt-[1.5vw] md:text-[1.5vw] lg:mt-[0.25vw] text-muted text-[3.5vw] sm:text-[2.5vw] lg:text-[1.5vw] 2xl:text-[1.2vw] 2xl:py-[1vw]">
+                    <p className="mt-[2vw] sm:mt-[1.5vw] md:text-[1.5vw] lg:mt-[0.25vw] text-muted text-[3.5vw] sm:text-[2vw] lg:text-[1.2vw] 2xl:text-[1vw] 2xl:py-[0.25vw]">
                       {tab.description}
                     </p>
                     <div className="mt-[3vw] sm:mt-[2vw] lg:mt-[1vw] md:hidden">

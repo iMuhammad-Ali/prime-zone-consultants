@@ -32,7 +32,7 @@ const Faqs = ({
     {
       id: 1,
       question:
-        "What makes Prime Zone Consultants different from other agencies?",
+        "What makes Prime Zone Consultants (PZC) different from other agencies?",
       answer:
         "We offer personalized guidance with a 98% visa success rate, direct partnerships with top universities worldwide, and comprehensive support from application to settlement. Our dedicated counselors provide one-on-one attention throughout your entire journey.",
       icon: <Shield className="w-5 h-5" />,
@@ -84,12 +84,12 @@ const Faqs = ({
               {items.map((tab) => (
                 <AccordionItem key={tab.id} value={`item-${tab.id}`}>
                   <AccordionTrigger className="cursor-pointer py-[3vw] sm:py-[2vw] lg:py-[1.25vw] 2xl:py-[1.75vw] !no-underline transition">
-                    <h6 className="items-start text-lg sm:text-lg 2xl:text-[xl] font-normal">
+                    <h6 className="items-start text-lg sm:text-lg 2xl:text-[1.5vw] font-normal">
                       {tab.question}
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="text-white mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.25vw] text-muted text-md sm:text-md 2xl:text-md 2xl:py-[1vw]">
+                    <p className="text-white mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.25vw] text-muted text-md sm:text-md 2xl:text-sm 2xl:py-[1vw]">
                       {tab.answer}
                     </p>
                   </AccordionContent>

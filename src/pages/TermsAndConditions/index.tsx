@@ -14,7 +14,7 @@ const TermsAndConditions = () => {
 
       <div className="space-y-8">
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             1. Use of Service
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -25,7 +25,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             2. User Accounts
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             3. Intellectual Property
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -48,7 +48,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             4. Prohibited Conduct
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -59,7 +59,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             5. Third-Party Links
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -70,7 +70,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             6. Termination
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -81,7 +81,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             7. Disclaimer of Warranties
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -92,7 +92,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             8. Limitation of Liability
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">
@@ -103,7 +103,7 @@ const TermsAndConditions = () => {
         </div>
 
         <div>
-          <h3 className="text-lg 2xl:text-xl font-semibold text-foreground">
+          <h3 className="text-lg font-semibold text-foreground">
             9. Changes to Terms
           </h3>
           <p className="text-muted-foreground 2xl:text-[1vw]">

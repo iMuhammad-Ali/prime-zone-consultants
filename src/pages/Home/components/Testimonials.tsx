@@ -15,7 +15,7 @@ import type { CarouselApi } from "~/components/ui/carousel";
 const testimonials = [
   {
     id: "testimonial-1",
-    text: "I had a wonderful experience with Prime Zone Consultants (PZC). The team was highly professional, supportive, and guided me through every step of the process with great care. From choosing the right university to preparing my documents and guiding me for the visa, they handled everything smoothly and efficiently. I truly appreciate their dedication and commitment to helping students achieve their study abroad dreams. I highly recommend PZC to anyone looking for honest and expert educational consultancy services. Thank you, Prime Zone Consultants, for your excellent support!",
+    text: "I had a wonderful experience with Prime Zone Consultants (PZC). The team was highly professional, supportive, and guided me through every step of the process with great care. From choosing the right university to preparing my documents and guiding me for the visa, they handled everything smoothly and efficiently. I truly appreciate their dedication and commitment to helping students achieve their study abroad dreams. I highly recommend PZC to anyone looking for honest and expert educational consultancy services. Thank you, Prime Zone Consultants (PZC), for your excellent support!",
     name: "Muhammad Talha Umar",
     role: "Student at University of Toronto",
     avatar: "https://randomuser.me/api/portraits/men/75.jpg",
