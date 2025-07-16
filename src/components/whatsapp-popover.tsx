@@ -44,7 +44,7 @@ const WhatsappPopover = () => {
     >
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
-          <Button className="rounded-full lg:w-[5vw] lg:h-[5vw] xl:w-[5vw] xl:h-[5vw] 2xl:rounded-full 2xl:w-[4.5vw] 2xl:h-[4.5vw] w-12 h-12 p-2 sm:w-[7vw] sm:h-[7vw] sm:p-[1.2vw] sm:rounded-full lg:p-[1vw] bg-green-500 hover:bg-green-600 text-white shadow-lg">
+          <Button className="rounded-full lg:w-[5vw] lg:h-[5vw] xl:w-[5vw] xl:h-[5vw] 2xl:rounded-full 2xl:w-[4.5vw] 2xl:h-[4.5vw] w-12 h-12 p-2 sm:w-[7vw] sm:h-[7vw] sm:p-[1.2vw] md:w-[7vw] md:h-[7vw]  sm:rounded-full lg:p-[1vw] bg-green-500 hover:bg-green-600 text-white shadow-lg">
             <img src={Whatsapp} className="w-full h-full" alt="WhatsApp" />
           </Button>
         </PopoverTrigger>
@@ -61,7 +61,9 @@ const WhatsappPopover = () => {
                 alt="WhatsApp"
               />
               <div>
-                <h2 className="font-bold text-xl mb-3">Start Conversation</h2>
+                <h2 className="font-bold text-xl lg:text-lg mb-3">
+                  Start Conversation
+                </h2>
                 <p className="text-muted-foreground text-sm">
                   Feel free to ask any question, our team would love to help
                   you!

@@ -11,6 +11,7 @@ import TermsAndConditions from "~/pages/TermsAndConditions";
 import Universities from "~/pages/Universities";
 import UniversityDetailPage from "~/pages/Universities/DetailPage";
 import Disclaimer from "~/pages/Home/components/Disclaimer";
+import EligibilityCheck from "~/pages/EligibilityCheck";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "disclaimer",
         element: <Disclaimer />,
+      },
+      {
+        path: "eligibility-check",
+        element: <EligibilityCheck />,
       },
       {
         path: "*",

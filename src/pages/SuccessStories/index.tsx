@@ -2,7 +2,6 @@ import letter1 from "../../assets/images/letter-1.jpeg";
 import letter2 from "../../assets/images/letter-2.jpeg";
 import letter3 from "../../assets/images/letter-3.jpeg";
 import letter4 from "../../assets/images/letter-4.jpeg";
-import letter5 from "../../assets/images/letter-5.jpeg";
 import letter6 from "../../assets/images/letter-6.jpeg";
 import letter7 from "../../assets/images/letter-7.jpeg";
 import letter8 from "../../assets/images/letter-8.jpeg";
@@ -72,7 +71,6 @@ SuccessStoriesProps) => {
       letter2,
       letter3,
       letter4,
-      letter5,
       letter6,
       letter7,
       letter8,
@@ -92,7 +90,7 @@ SuccessStoriesProps) => {
   };
 
   return (
-    <section className="py-[20vw] sm:py-[8vw] lg:py-[6vw]">
+    <section className="py-[20vw] sm:py-[15vw] lg:py-[6vw]">
       <div className="flex flex-col items-center text-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
         <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-4xl font-bold text-pretty">
           {heading}
@@ -132,12 +130,12 @@ SuccessStoriesProps) => {
         {countryStories[activeCountry as keyof typeof countryStories].length >
         0 ? (
           <div className="relative flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw] w-full max-w-7xl 2xl:max-w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-[4vw] sm:gap-[3vw] lg:gap-[1.5vw] w-full max-w-7xl 2xl:max-w-full">
               {countryStories[activeCountry as keyof typeof countryStories].map(
                 (img: string, idx: number) => (
                   <div
                     key={idx}
-                    className="flex flex-col items-center bg-transparent rounded-lg shadow p-[4vw] sm:p-[3vw] lg:p-[1.5vw] border"
+                    className="flex flex-col items-center bg-transparent rounded-lg 2xl:rounded-[0.5vw] shadow p-[3vw] sm:p-[2vw] lg:p-[1vw] border"
                   >
                     <div className="w-full aspect-[4/5] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
                       {!isFullscreen ? (
@@ -171,7 +169,7 @@ SuccessStoriesProps) => {
                           <img
                             src={selectedImage || ""}
                             alt="Full View"
-                            className="max-w-[90%] max-h-[95%] rounded-xl shadow-xl object-contain"
+                            className="max-w-[100%] max-h-[100%] rounded-xl 2xl:rounded-[0.5vw] shadow-xl object-contain"
                           />
                         </div>
                       ) : (

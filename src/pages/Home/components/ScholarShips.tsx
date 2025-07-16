@@ -44,8 +44,8 @@ function ScholarShips() {
                 key={index + rowIdx * 10}
                 className={
                   row.length === 3 || row.length === 2
-                    ? "w-full  border-spacing-y-5 flex flex-col lg:min-h-[350px] relative"
-                    : "w-full  border-spacing-5 flex flex-col xl:min-h-[400px] relative"
+                    ? "w-full  border-spacing-y-5 flex flex-col lg:min-h-[35px] xl:min-h-[40px] relative"
+                    : "w-full  border-spacing-5 flex flex-col xl:min-h-[40px] relative"
                 }
               >
                 {/* Beautiful modern notification badge */}
@@ -113,7 +113,7 @@ function ScholarShips() {
                       href={item.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm xl:text-base text-center"
+                      className="text-center"
                     >
                       Visit Website
                     </a>

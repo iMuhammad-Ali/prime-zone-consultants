@@ -53,6 +53,10 @@ const defaultSections = [
       { name: "Germany", href: "/universities?country=germany" },
       { name: "France", href: "/universities?country=france" },
       { name: "Italy", href: "/universities?country=italy" },
+      {
+        name: "Eligibility Check",
+        href: "/eligibility-check",
+      },
       // { name: "Privacy", href: "#" },
     ],
   },

@@ -44,7 +44,7 @@ const Hero = ({
   },
 }: HeroProps) => {
   return (
-    <section className="pt-[25vw] pb-[12vw] sm:pt-[12vw] sm:pb-[10vw] md:pt-[10vw] md:pb-[8vw] lg:pt-[9vw] lg:pb-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+    <section className="pt-[25vw] pb-[12vw] sm:pt-[12vw] sm:pb-[10vw] md:pt-[15vw] md:pb-[8vw] lg:pt-[9vw] lg:pb-[8vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
       <div className="grid items-center gap-[6vw] sm:gap-[4vw] md:gap-[3vw] lg:gap-[2vw] lg:grid-cols-2">
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
           {badge && (
