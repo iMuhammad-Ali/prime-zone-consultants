@@ -82,10 +82,34 @@ module.exports = {
             height: "0",
           },
         },
+        "pulse-colors": {
+          "0%, 50%": {
+            backgroundColor: "#10b981", // green-500
+          },
+          "51%, 100%": {
+            backgroundColor: "#dc2626", // red-600
+          },
+        },
+        "funded-glow": {
+          "0%, 33%": {
+            boxShadow: "0 0 16px #10b981",
+            backgroundColor: "#10b981", // green-500
+          },
+          "34%, 66%": {
+            boxShadow: "0 0 24px #dc2626",
+            backgroundColor: "#dc2626", // red-600
+          },
+          "67%, 100%": {
+            boxShadow: "0 0 24px #FBBF24",
+            backgroundColor: "#FBBF24", // yellow-500
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-colors": "pulse-colors 0.5s infinite",
+        "funded-glow": "funded-glow 0.5s ease-in-out infinite",
       },
     },
   },

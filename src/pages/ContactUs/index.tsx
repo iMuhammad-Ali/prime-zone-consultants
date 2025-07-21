@@ -25,12 +25,15 @@ const ContactUs = () => {
             <ul className="ml-[3vw] sm:ml-[2vw] lg:ml-[1vw] xl:ml-[0.8vw] 2xl:ml-[0.6vw] list-disc text-[3.5vw] sm:text-[2.5vw] lg:text-sm xl:text-md 2xl:text-[1vw] space-y-[1vw] sm:space-y-[0.5vw] lg:space-y-[0.3vw] xl:space-y-[0.25vw] 2xl:space-y-[0.2vw]">
               <li>
                 <span className="font-bold">Phone: </span>
-                (123) 34567890
+                +923294433957
               </li>
               <li>
                 <span className="font-bold">Email: </span>
-                <a href="" className="underline">
-                  your-email@example.com
+                <a
+                  href="mailto:primezoneconsultantsofficial@gmail.com"
+                  className="underline"
+                >
+                  primezoneconsultantsofficial@gmail.com
                 </a>
               </li>
             </ul>

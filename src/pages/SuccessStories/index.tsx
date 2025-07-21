@@ -16,8 +16,9 @@ import letter16 from "../../assets/images/letter-16.jpeg";
 import letter17 from "../../assets/images/letter-17.jpeg";
 import letter18 from "../../assets/images/letter-18.jpeg";
 import { Button } from "~/components/ui/button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "~/components/ui/card";
+import { ChevronRight, ChevronLeft } from "lucide-react";
 
 interface Feature {
   title: string;
@@ -62,7 +63,51 @@ const SuccessStories = ({
 SuccessStoriesProps) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
   const [activeCountry, setActiveCountry] = useState<string>("Italy");
+
+  // Navigation functions for fullscreen mode
+  const navigateImage = (direction: "prev" | "next") => {
+    const currentImages =
+      countryStories[activeCountry as keyof typeof countryStories];
+    if (direction === "prev") {
+      const newIndex =
+        selectedImageIndex > 0
+          ? selectedImageIndex - 1
+          : currentImages.length - 1;
+      setSelectedImageIndex(newIndex);
+      setSelectedImage(currentImages[newIndex]);
+    } else {
+      const newIndex =
+        selectedImageIndex < currentImages.length - 1
+          ? selectedImageIndex + 1
+          : 0;
+      setSelectedImageIndex(newIndex);
+      setSelectedImage(currentImages[newIndex]);
+    }
+  };
+
+  // Keyboard navigation
+  const handleKeyPress = (e: KeyboardEvent) => {
+    if (isFullscreen) {
+      if (e.key === "ArrowLeft") {
+        navigateImage("prev");
+      } else if (e.key === "ArrowRight") {
+        navigateImage("next");
+      } else if (e.key === "Escape") {
+        setSelectedImage(null);
+        setIsFullscreen(false);
+      }
+    }
+  };
+
+  // Add event listener for keyboard navigation
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress);
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [isFullscreen, selectedImageIndex]);
 
   // Organize letters by country (you can adjust the distribution as needed)
   const countryStories = {
@@ -144,20 +189,21 @@ SuccessStoriesProps) => {
                           alt={`${activeCountry} Success Letter ${idx + 1}`}
                           className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
                           onClick={() => {
+                            setSelectedImageIndex(idx);
                             setSelectedImage(img);
                             setIsFullscreen(true);
                           }}
                         />
                       ) : selectedImage === img ? (
                         <div
-                          className="fixed inset-0 z-[10001] bg-neutral-800 bg-opacity-80 flex items-center justify-center"
+                          className="fixed inset-0 z-[10001] bg-neutral-700 bg-opacity-40 flex items-center justify-center"
                           onClick={() => {
                             setSelectedImage(null);
                             setIsFullscreen(false);
                           }}
                         >
                           <button
-                            className="absolute top-[3vw] sm:top-[2vw] lg:top-[1.25vw] right-[4vw] sm:right-[3vw] lg:right-[1.5vw] text-white text-[8vw] sm:text-[6vw] lg:text-[3vw] font-bold hover:text-red-400 transition"
+                            className="absolute top-[3vw] sm:top-[2vw] lg:top-[1.25vw] right-[4vw] sm:right-[3vw] lg:right-[1.5vw] text-white text-[8vw] sm:text-[6vw] lg:text-[3vw] font-bold hover:text-red-400 transition z-[10002]"
                             onClick={(e) => {
                               e.stopPropagation();
                               setSelectedImage(null);
@@ -166,11 +212,46 @@ SuccessStoriesProps) => {
                           >
                             &times;
                           </button>
-                          <img
-                            src={selectedImage || ""}
-                            alt="Full View"
-                            className="max-w-[100%] max-h-[100%] rounded-xl 2xl:rounded-[0.5vw] shadow-xl object-contain"
-                          />
+
+                          {/* Previous Button */}
+                          <button
+                            className="absolute left-[4vw] sm:left-[3vw] lg:left-[2vw] top-1/2 transform -translate-y-1/2 text-white text-[6vw] sm:text-[4vw] lg:text-[2vw] font-bold hover:text-blue-400 transition z-[10002] bg-gray-700 bg-opacity-50 rounded-full w-[12vw] h-[12vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] flex items-center justify-center"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              navigateImage("prev");
+                            }}
+                          >
+                            <ChevronLeft className="w-6 h-6 2xl:w-[2vw] 2xl:h-[2vw]" />
+                          </button>
+
+                          {/* Next Button */}
+                          <button
+                            className="absolute right-[4vw] sm:right-[3vw] lg:right-[2vw] top-1/2 transform -translate-y-1/2 text-white text-[6vw] sm:text-[4vw] lg:text-[2vw] font-bold hover:text-blue-400 transition z-[10002] bg-gray-700 bg-opacity-50 rounded-full w-[12vw] h-[12vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] flex items-center justify-center"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              navigateImage("next");
+                            }}
+                          >
+                            <ChevronRight className="w-6 h-6 2xl:w-[2vw] 2xl:h-[2vw]" />
+                          </button>
+
+                          {/* Image Counter */}
+                          <div className="absolute bottom-[4vw] sm:bottom-[3vw] lg:bottom-[2vw] left-1/2 transform -translate-x-1/2 text-white text-[3vw] sm:text-[2vw] lg:text-sm font-medium bg-black bg-opacity-50 px-[3vw] sm:px-[2vw] lg:px-4 py-[1vw] sm:py-[0.5vw] lg:py-2 rounded-full z-[10002]">
+                            {selectedImageIndex + 1} /{" "}
+                            {
+                              countryStories[
+                                activeCountry as keyof typeof countryStories
+                              ].length
+                            }
+                          </div>
+
+                          <div className="absolute w-screen h-screen inset-0 z-[10000] bg-black bg-opacity-80 flex items-center justify-center">
+                            <img
+                              src={selectedImage || ""}
+                              alt="Full View"
+                              className="max-w-[100%]  max-h-[100%] rounded-xl 2xl:rounded-[0.5vw] shadow-xl object-contain"
+                            />
+                          </div>
                         </div>
                       ) : (
                         <img
@@ -178,6 +259,7 @@ SuccessStoriesProps) => {
                           alt={`${activeCountry} Success Letter ${idx + 1}`}
                           className="w-full h-full object-contain transition-transform duration-300 hover:scale-105 cursor-pointer"
                           onClick={() => {
+                            setSelectedImageIndex(idx);
                             setSelectedImage(img);
                             setIsFullscreen(true);
                           }}

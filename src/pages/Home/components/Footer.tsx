@@ -35,6 +35,10 @@ const defaultSections = [
       { name: "Universities", href: "/universities" },
       { name: "Services", href: "/services" },
       { name: "Success Stories", href: "/success-stories" },
+      {
+        name: "Eligibility Check",
+        href: "/eligibility-check",
+      },
       // { name: "Courses", href: "/courses" },
       // { name: "Features", href: "#" },
     ],
@@ -53,10 +57,7 @@ const defaultSections = [
       { name: "Germany", href: "/universities?country=germany" },
       { name: "France", href: "/universities?country=france" },
       { name: "Italy", href: "/universities?country=italy" },
-      {
-        name: "Eligibility Check",
-        href: "/eligibility-check",
-      },
+
       // { name: "Privacy", href: "#" },
     ],
   },

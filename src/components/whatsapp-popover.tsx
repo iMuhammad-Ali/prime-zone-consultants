@@ -4,7 +4,7 @@ import Whatsapp from "~/assets/svgs/whatsapp.svg";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Button } from "./ui/button";
 
-const WHATSAPP_NUMBER = "1234567890";
+const WHATSAPP_NUMBER = "+923294433957";
 const CHANNEL_LINK = "https://chat.whatsapp.com/yourchannelinvite";
 
 const WhatsappPopover = () => {

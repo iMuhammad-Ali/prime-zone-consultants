@@ -68,12 +68,12 @@ const Faqs = ({
   ],
 }: FaqsProps) => {
   return (
-    <section className="flex text-foreground py-[6vw] sm:py-[4vw] lg:py-[3vw]">
+    <section className="flex bg-accent text-background py-[6vw] sm:py-[4vw] lg:py-[3vw]">
       <div className="mx-auto w-full">
         <p className="py-5 2xl:py-[2vw] lg:w-1/2 text-4xl xl:text-5xl 2xl:text-[2.5vw]  font-semibold">
           {heading}
         </p>
-        <div className="grid lg:grid-cols-2 mb-[5vw] sm:mb-[4vw] lg:mb-[3vw] w-full items-start justify-between gap-[5vw] sm:gap-[4vw] lg:gap-[3vw]">
+        <div className="lg:grid lg:grid-cols-2 mb-[5vw] sm:mb-[4vw] lg:mb-[3vw] w-full items-start justify-between gap-[5vw] sm:gap-[4vw] lg:gap-[3vw]">
           <div className="w-full">
             <Accordion
               type="single"
@@ -89,7 +89,7 @@ const Faqs = ({
                     </h6>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <p className="text-white mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.25vw] text-muted text-md sm:text-md 2xl:text-sm 2xl:py-[1vw]">
+                    <p className="mt-[2vw] sm:mt-[1.5vw] lg:mt-[0.25vw] text-muted text-md sm:text-md 2xl:text-sm 2xl:py-[1vw]">
                       {tab.answer}
                     </p>
                   </AccordionContent>

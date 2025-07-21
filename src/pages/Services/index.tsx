@@ -1,6 +1,30 @@
 import { ArrowRight } from "lucide-react";
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
-import { Brain, GraduationCap, TicketsPlane, BookOpen } from "lucide-react";
+import { Brain, TicketsPlane, FileText, CircleDollarSign } from "lucide-react";
+
+// Services data array
+const servicesData = [
+  {
+    id: 1,
+    title: "Study Abroad & Admission Guidance",
+    icon: Brain,
+  },
+  {
+    id: 2,
+    title: "Visa & Documentation Support",
+    icon: FileText,
+  },
+  {
+    id: 3,
+    title: "Scholarship & Financial Aid Assistance",
+    icon: CircleDollarSign,
+  },
+  {
+    id: 4,
+    title: "Post-Visa & Settlement Services",
+    icon: TicketsPlane,
+  },
+];
 
 const Services = () => {
   return (
@@ -25,53 +49,27 @@ const Services = () => {
         </div>
 
         {/* Modern icon section for consultation services */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[4vw] sm:gap-[3vw] md:gap-[2vw] lg:gap-[1.5vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          <div className="flex flex-col items-center text-center group">
-            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[-15deg] group-hover:rotate-[-10deg] transition-transform duration-300"></div>
-              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                <Brain className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
-              </div>
-            </div>
-            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
-              ONE ON ONE COUNSELLING
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[15deg] group-hover:rotate-[10deg] transition-transform duration-300"></div>
-              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                <GraduationCap className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
-              </div>
-            </div>
-            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
-              ADMISSION ASSESSMENT
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[-15deg] group-hover:rotate-[-10deg] transition-transform duration-300"></div>
-              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                <TicketsPlane className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
-              </div>
-            </div>
-            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
-              VISA GUIDANCE
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg transform rotate-[15deg] group-hover:rotate-[10deg] transition-transform duration-300"></div>
-              <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                <BookOpen className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
-              </div>
-            </div>
-            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-md font-semibold  mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
-              IELTS PREPARATION
-            </h3>
+        <div className="px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+          {/* First Row - 5 items */}
+          <div className="sm:flex sm:flex-row sm:justify-between grid grid-cols-2 sm:gap-[3vw] md:gap-[2vw] lg:gap-[1.5vw] mb-[4vw] sm:mb-[3vw] md:mb-[2vw]">
+            {servicesData.slice(0, 5).map((service) => {
+              const IconComponent = service.icon;
+              return (
+                <div
+                  key={service.id}
+                  className="flex flex-col items-center text-center group mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0vw]"
+                >
+                  <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
+                    <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                      <IconComponent className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
+                    </div>
+                  </div>
+                  <p className="text-sm font-semibold mb-[1vw] sm:mb-[0.75vw] md:mb-[0.5vw] lg:mb-[0.25vw]">
+                    {service.title}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="grid gap-[3vw] sm:gap-[2.5vw] md:gap-[2vw] lg:gap-[1.5vw] md:grid-cols-2 px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
