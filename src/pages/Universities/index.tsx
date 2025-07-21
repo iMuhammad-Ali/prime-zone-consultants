@@ -50,7 +50,7 @@ const Universities: React.FC = () => {
   return (
     <section className="pt-32 2xl:pt-[6vw] pb-16">
       {/* Header */}
-      <div className="container mx-auto flex flex-col items-center text-center">
+      <div className=" mx-auto flex flex-col items-center text-center">
         <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           Universities
         </h2>
