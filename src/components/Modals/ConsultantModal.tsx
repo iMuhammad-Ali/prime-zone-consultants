@@ -95,7 +95,7 @@ const ConsultantModal = () => {
       open={showConsultantModal}
       onOpenChange={() => dispatch(closeConsultantModal())}
     >
-      <DialogContent className="w-[95vw] sm:max-w-[50vw] lg:max-w-[40vw] rounded-lg 2xl:rounded-[0.3vw] hide-scrollbar max-h-[85vh] overflow-y-auto 2xl:p-[1vw]">
+      <DialogContent className="w-[95vw] sm:max-w-[50vw] lg:max-w-[40vw] rounded-lg 2xl:rounded-[0.3vw] hide-scrollbar max-h-[85vh] overflow-y-auto 2xl:p-[2vw]">
         <DialogHeader className="mb-[4vw] sm:mb-[2vw] lg:mb-[1.5vw]">
           <DialogTitle className="text-[4.5vw] sm:text-[3vw] lg:text-[2vw] font-semibold">
             Free Consultation
