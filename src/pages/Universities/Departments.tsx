@@ -28,9 +28,9 @@ const UniversityDepartments = () => {
     visibleDepartments.length > 0 ? visibleDepartments[0].id : null
   );
   return (
-    <div className="space-y-[6vw] sm:space-y-[5vw] md:space-y-[4vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+    <div className="space-y-[6vw] sm:space-y-[5vw] md:space-y-[4vw] ">
       <div className="mx-auto flex max-w-[95vw] sm:max-w-[85vw] md:max-w-[80vw] lg:max-w-[75vw] flex-col text-left md:text-center">
-        <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-3xl font-semibold lg:text-4xl">
+        <h2 className="text-center mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           Search By Department
         </h2>
         <div className="mb-[3vw] sm:mb-[2.5vw] md:mb-[2vw] lg:mb-[1.5vw]">
@@ -43,7 +43,7 @@ const UniversityDepartments = () => {
             />
           </div>
         </div>
-        <p className="text-muted-foreground lg:text-lg">
+        <p className="text-muted-foreground lg:text-lg text-center">
           Explore our available departments to find the one that fits your
           interests and goals. Each departments includes detailed information to
           help you make the right choice.

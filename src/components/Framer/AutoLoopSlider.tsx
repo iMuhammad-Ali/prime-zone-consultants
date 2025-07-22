@@ -38,7 +38,7 @@ export default function AutoLoopSlider({
       onMouseLeave={() => setIsPaused(false)}
     >
       {/* Latest News Label */}
-      <div className="absolute h-full left-0 top-0 z-10 bg-primary text-primary-foreground px-[1.5vw] sm:px-[2vw] lg:px-[1.5vw] xl:px-[1vw] 2xl:px-[0.8vw] text-[2.5vw] sm:text-[2vw] md:text-[1.2vw] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[0.8vw] font-semibold uppercase shadow-lg">
+      <div className="absolute h-full left-0 top-0 z-10 bg-primary text-primary-foreground px-[1.5vw] sm:px-[2vw] lg:px-[1.5vw] xl:px-[1vw] 2xl:px-[0.8vw] text-[3vw] sm:text-[2vw] md:text-[1.2vw] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[0.8vw] font-semibold uppercase shadow-lg">
         <div className="flex items-center justify-center h-full">
           Latest News
         </div>
@@ -53,7 +53,7 @@ export default function AutoLoopSlider({
         {Array.from({ length: 4 }, (_, copyIndex) => (
           <div
             key={copyIndex}
-            className="flex items-center gap-[8vw] sm:gap-[6vw] lg:gap-[4vw] xl:gap-[3vw] 2xl:gap-[2.5vw] mr-[8vw] sm:mr-[6vw] lg:mr-[4vw] xl:mr-[3vw] 2xl:mr-[2.5vw]"
+            className="flex items-center gap-[3vw] sm:gap-[6vw] lg:gap-[4vw] xl:gap-[3vw] 2xl:gap-[2.5vw] mr-[8vw] sm:mr-[6vw] lg:mr-[4vw] xl:mr-[3vw] 2xl:mr-[2.5vw]"
           >
             {React.Children.map(children, (child, index) => (
               <React.Fragment key={`${copyIndex}-${index}`}>

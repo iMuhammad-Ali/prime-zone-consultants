@@ -72,7 +72,7 @@ const Team = () => {
   return (
     <section className="py-[20vw] lg:py-[12vw] sm:py-[10vw] md:py-[8vw] xl:py-[6vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
       <div className="flex flex-col items-center text-center">
-        <h2 className="my-[4vw] sm:my-[3vw] md:my-[2vw] lg:my-[1.5vw] text-2xl font-bold text-pretty lg:text-4xl">
+        <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           Meet our team
         </h2>
         <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[85vw] md:max-w-[80vw] lg:max-w-[75vw] text-muted-foreground lg:text-sm">

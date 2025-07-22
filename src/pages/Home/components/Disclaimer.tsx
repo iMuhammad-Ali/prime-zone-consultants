@@ -1,7 +1,7 @@
 const DisclaimerPage = () => {
   return (
     <section className="mx-auto pt-[20vw] sm:pt-[8vw] lg:pt-[6vw] pb-[8vw] sm:pb-[6vw] lg:pb-[4vw] space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-      <h2 className="text-[6vw] sm:text-[4vw] lg:text-[3vw] font-bold text-foreground text-center">
+      <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
         Disclaimer
       </h2>
       <div className="space-y-[6vw] sm:space-y-[4vw] lg:space-y-[2vw] text-justify">

@@ -20,10 +20,10 @@ export default function CountryGrid() {
   return (
     <div className="space-y-[4vw]">
       <div className="mx-auto flex max-w-[75vw] flex-col text-left md:text-center">
-        <h2 className="mb-[0.75vw] text-3xl font-semibold md:mb-[1vw] lg:mb-[1.5vw] lg:text-4xl">
+        <h2 className="text-center mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           Search By Country
         </h2>
-        <p className="text-muted-foreground lg:text-md">
+        <p className="text-muted-foreground lg:text-md xl:text-sm text-center">
           Discover universities from around the world by selecting your
           preferred country. Easily explore detailed information about
           institutions to find the perfect university for you.

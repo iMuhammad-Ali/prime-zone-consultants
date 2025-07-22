@@ -31,7 +31,7 @@ const Services = () => {
     <section className="py-[20vw] sm:py-[15vw] md:py-[15vw] lg:py-[8vw]">
       <div className="flex flex-col gap-[6vw] sm:gap-[5vw] md:gap-[4vw] lg:px-[4vw]">
         <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-xl sm:text-[4vw] font-semibold md:text-4xl">
+          <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
             Services we offer
           </h2>
           <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">

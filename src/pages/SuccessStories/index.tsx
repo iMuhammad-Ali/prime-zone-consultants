@@ -137,7 +137,7 @@ SuccessStoriesProps) => {
   return (
     <section className="py-[20vw] sm:py-[15vw] lg:py-[6vw]">
       <div className="flex flex-col items-center text-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-        <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-4xl font-bold text-pretty">
+        <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           {heading}
         </h2>
         <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[70vw] lg:max-w-[50vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-sm">

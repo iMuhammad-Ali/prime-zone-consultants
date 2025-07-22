@@ -47,7 +47,7 @@ const Universities = ({
 
   return (
     <section className="py-[8vw] sm:py-[6vw] md:py-[5vw] lg:py-[4vw] dark bg-background text-foreground">
-      <div className="flex flex-col justify-between md:flex-row md:items-end mb-[4vw] sm:mb-[3vw] md:mb-[2vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+      <div className="flex flex-col justify-between md:flex-row md:items-end mb-[4vw] sm:mb-[3vw] md:mb-[2vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
         <div>
           <h2 className="text-3xl font-semibold md:text-4xl mb-[0.75vw]">
             {heading}
