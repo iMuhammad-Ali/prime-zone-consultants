@@ -15,6 +15,9 @@ import letter15 from "../../assets/images/letter-15.jpeg";
 import letter16 from "../../assets/images/letter-16.jpeg";
 import letter17 from "../../assets/images/letter-17.jpeg";
 import letter18 from "../../assets/images/letter-18.jpeg";
+import letter19 from "../../assets/images/letter-19.jpeg";
+import letter20 from "../../assets/images/letter-20.jpeg";
+import letter21 from "../../assets/images/letter-21.jpeg";
 import { Button } from "~/components/ui/button";
 import { useState, useEffect } from "react";
 import { Card } from "~/components/ui/card";
@@ -129,6 +132,9 @@ SuccessStoriesProps) => {
       letter16,
       letter17,
       letter18,
+      letter19,
+      letter20,
+      letter21,
     ],
     // Germany: [],
     // France: [],
@@ -151,10 +157,10 @@ SuccessStoriesProps) => {
           <Button
             key={country}
             onClick={() => setActiveCountry(country)}
-            className={`px-[4vw] sm:px-[3vw] lg:px-[1.5vw] py-[2vw] sm:py-[1.5vw] lg:py-[0.8vw]  font-semibold transition-all duration-300 ${
+            className={`px-[7vw] text-[5vw] sm:px-[4vw] lg:px-[3vw] py-[6vw] sm:text-[2vw] md:text-[2.75vw] sm:py-[2.5vw] lg:py-[2vw] lg:text-[2vw] xl:px-[3vw] xl:py-[2vw] xl:text-[1.75vw] 2xl:px-[2vw] 2xl:py-[1.5vw] 2xl:text-[1.5vw]  font-semibold transition-all ${
               activeCountry === country
-                ? "bg-primary text-primary-foreground shadow-lg scale-105"
-                : "bg-background border border-border text-foreground hover:bg-muted hover:scale-102"
+                ? " animate-pulse-colors text-white shadow-lg scale-105"
+                : "bg-white border border-border text-foreground hover:bg-muted hover:scale-102"
             }`}
           >
             {country}

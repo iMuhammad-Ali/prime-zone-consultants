@@ -37,7 +37,7 @@ export default function CountryGrid() {
             onClick={() => handleCardClick(country.name)}
             className="relative rounded 2xl:rounded-[0.3vw] overflow-hidden text-center hover:bg-card/75 hover:scale-[102%] duration-300 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw]"
           >
-            <div className="text-xs 2xl:text-sm px-[2vw] py-[1vw] sm:px-[1.5vw] sm:py-[0.5vw] md:px-[1vw] md:py-[0.35vw] lg:px-[0.75vw] lg:py-[0.25vw] font-semibold rounded-bl bg-green-500 absolute top-0 right-0">
+            <div className="animate-pulse-colors text-xs 2xl:text-sm px-[2vw] py-[1vw] sm:px-[1.5vw] sm:py-[0.5vw] md:px-[1vw] md:py-[0.35vw] lg:px-[0.75vw] lg:py-[0.25vw] font-semibold rounded-bl absolute top-0 right-0">
               {country.discount} OFF
             </div>
             <div className="flex items-center gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw]">

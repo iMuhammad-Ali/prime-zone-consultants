@@ -60,7 +60,7 @@ const Services = () => {
                   className="flex flex-col items-center text-center group mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0vw]"
                 >
                   <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-                    <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <div className="relative w-full h-full bg-gradient-to-br from-blue-900 to-blue-950 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
                       <IconComponent className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
                     </div>
                   </div>

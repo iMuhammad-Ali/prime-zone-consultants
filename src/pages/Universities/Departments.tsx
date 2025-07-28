@@ -14,12 +14,13 @@ import { Card } from "~/components/ui/card";
 
 const UniversityDepartments = () => {
   const [search, setSearch] = useState("");
-  // Only show departments that have at least one university
-  const filteredDepartments = departmentsData.filter((department) =>
-    universitiesData.some((uni) =>
+  // Only show departments that have at least three universities
+  const filteredDepartments = departmentsData.filter((department) => {
+    const count = universitiesData.filter((uni) =>
       (uni.departments as string[]).includes(department.id)
-    )
-  );
+    ).length;
+    return count >= 3;
+  });
   // Filter by search
   const visibleDepartments = filteredDepartments.filter((department) =>
     department.name.toLowerCase().includes(search.toLowerCase())
