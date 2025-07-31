@@ -86,10 +86,10 @@ const Navbar = ({
       title: "Services",
       url: "/services",
     },
-    {
-      title: "Team",
-      url: "/team",
-    },
+    // {
+    //   title: "Team",
+    //   url: "/team",
+    // },
     {
       title: "Success Stories",
       url: "/success-stories",

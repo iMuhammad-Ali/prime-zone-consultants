@@ -1,23 +1,34 @@
-import letter1 from "../../assets/images/letter-1.jpeg";
-import letter2 from "../../assets/images/letter-2.jpeg";
-import letter3 from "../../assets/images/letter-3.jpeg";
-import letter4 from "../../assets/images/letter-4.jpeg";
-import letter6 from "../../assets/images/letter-6.jpeg";
-import letter7 from "../../assets/images/letter-7.jpeg";
-import letter8 from "../../assets/images/letter-8.jpeg";
-import letter9 from "../../assets/images/letter-9.jpeg";
-import letter10 from "../../assets/images/letter-10.jpeg";
-import letter11 from "../../assets/images/letter-11.jpeg";
-import letter12 from "../../assets/images/letter-12.jpeg";
-import letter13 from "../../assets/images/letter-13.jpeg";
-import letter14 from "../../assets/images/letter-14.jpeg";
-import letter15 from "../../assets/images/letter-15.jpeg";
-import letter16 from "../../assets/images/letter-16.jpeg";
-import letter17 from "../../assets/images/letter-17.jpeg";
-import letter18 from "../../assets/images/letter-18.jpeg";
-import letter19 from "../../assets/images/letter-19.jpeg";
-import letter20 from "../../assets/images/letter-20.jpeg";
-import letter21 from "../../assets/images/letter-21.jpeg";
+import letter1 from "../../assets/images/Italy/letter-1.jpeg";
+import letter2 from "../../assets/images/Italy/letter-2.jpeg";
+import letter3 from "../../assets/images/Italy/letter-3.jpeg";
+import letter4 from "../../assets/images/Italy/letter-4.jpeg";
+import letter6 from "../../assets/images/Italy/letter-6.jpeg";
+import letter7 from "../../assets/images/Italy/letter-7.jpeg";
+import letter8 from "../../assets/images/Italy/letter-8.jpeg";
+import letter9 from "../../assets/images/Italy/letter-9.jpeg";
+import letter10 from "../../assets/images/Italy/letter-10.jpeg";
+import letter11 from "../../assets/images/Italy/letter-11.jpeg";
+import letter12 from "../../assets/images/Italy/letter-12.jpeg";
+import letter13 from "../../assets/images/Italy/letter-13.jpeg";
+import letter14 from "../../assets/images/Italy/letter-14.jpeg";
+import letter15 from "../../assets/images/Italy/letter-15.jpeg";
+import letter16 from "../../assets/images/Italy/letter-16.jpeg";
+import letter17 from "../../assets/images/Italy/letter-17.jpeg";
+import letter18 from "../../assets/images/Italy/letter-18.jpeg";
+import letter19 from "../../assets/images/Italy/letter-19.jpeg";
+import letter20 from "../../assets/images/Italy/letter-20.jpeg";
+import letter21 from "../../assets/images/Italy/letter-21.jpeg";
+import kyr1 from "../../assets/images/Kyrgyzstan/kyr1.jpeg";
+import kyr2 from "../../assets/images/Kyrgyzstan/kyr2.jpeg";
+import kyr3 from "../../assets/images/Kyrgyzstan/kyr3.jpeg";
+import kyr4 from "../../assets/images/Kyrgyzstan/kyr4.jpeg";
+import kyr5 from "../../assets/images/Kyrgyzstan/kyr5.jpeg";
+import kyr6 from "../../assets/images/Kyrgyzstan/kyr6.jpeg";
+import kyr7 from "../../assets/images/Kyrgyzstan/kyr7.jpeg";
+import kyr8 from "../../assets/images/Kyrgyzstan/kyr8.jpeg";
+import kyr9 from "../../assets/images/Kyrgyzstan/kyr9.jpeg";
+import kyr10 from "../../assets/images/Kyrgyzstan/kyr10.jpeg";
+import kyr11 from "../../assets/images/Kyrgyzstan/kyr11.jpeg";
 import { Button } from "~/components/ui/button";
 import { useState, useEffect } from "react";
 import { Card } from "~/components/ui/card";
@@ -136,7 +147,19 @@ SuccessStoriesProps) => {
       letter20,
       letter21,
     ],
-    // Germany: [],
+    Kyrgyzstan: [
+      kyr1,
+      kyr2,
+      kyr3,
+      kyr4,
+      kyr5,
+      kyr6,
+      kyr7,
+      kyr8,
+      kyr9,
+      kyr10,
+      kyr11,
+    ],
     // France: [],
   };
 
@@ -160,7 +183,7 @@ SuccessStoriesProps) => {
             className={`px-[7vw] text-[5vw] sm:px-[4vw] lg:px-[3vw] py-[6vw] sm:text-[2vw] md:text-[2.75vw] sm:py-[2.5vw] lg:py-[2vw] lg:text-[2vw] xl:px-[3vw] xl:py-[2vw] xl:text-[1.75vw] 2xl:px-[2vw] 2xl:py-[1.5vw] 2xl:text-[1.5vw]  font-semibold transition-all ${
               activeCountry === country
                 ? " animate-pulse-colors text-white shadow-lg scale-105"
-                : "bg-white border border-border text-foreground hover:bg-muted hover:scale-102"
+                : "bg-white text-background hover:bg-card hover:text-white hover:scale-102"
             }`}
           >
             {country}
