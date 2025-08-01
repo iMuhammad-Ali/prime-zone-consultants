@@ -1,5 +1,7 @@
 "use client";
-
+import rizwan from "~/assets/images/rizwan.jpg";
+import hanan from "~/assets/images/hanan.jpeg";
+import husnain from "~/assets/images/husnain.jpeg";
 import { Star } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -25,7 +27,7 @@ const testimonials = [
     text: "Prime Zone Consultant played a helpful role in securing my admission to an Italian university. They guided me well through the application process and are now assisting with my visa filing. While communication could be more prompt at times, overall their support and coordination have been valuable. A decent option for educational consultancy.",
     name: "Muhammad Hussnain Zaghim",
     role: "Parent of an international student",
-    avatar: "https://randomuser.me/api/portraits/women/65.jpg",
+    avatar: husnain,
   },
   {
     id: "testimonial-3",
@@ -39,14 +41,14 @@ const testimonials = [
     text: "PrimeZone Consultants team is very professional and friendly and also approachable. They guided me in every step of admission process for study in abroad. Their advice helped me to choose the best choice in foreign universities and Alhamdulillah I got acceptance letter from two universities in foreign country. I highly recommend PrimeZone Consultants for those who are planning to study in foreign universities.",
     name: "Muhammad Rizwan Yousaf",
     role: "Masters Student at University of Melbourne",
-    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+    avatar: rizwan,
   },
   {
     id: "testimonial-4",
     text: "I had an amazing experience with PrimeZone Consultants. They guided me through every step of the process from shortlisting universities to SOP, writing, and visa preparation. The counselors were knowledgeable, patient, and always available, transparent, and trustworthy.",
     name: "Abdul Hanan",
     role: "Masters Student at University of Melbourne",
-    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+    avatar: hanan,
   },
 ];
 
@@ -86,12 +88,12 @@ const Testimonials = () => {
                 <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[80vw] lg:max-w-[60vw] font-medium px-[4vw] sm:px-[3vw] lg:px-[2vw] text-[4vw] sm:text-[3vw] lg:text-[1.5vw]">
                   &ldquo;{testimonial.text}&rdquo;
                 </p>
-                <div className="flex items-center gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
-                  <Avatar className="w-[10vw] h-[10vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] shadow">
-                    <AvatarImage src={testimonial.avatar} />
+                <div className="flex items-center justify-center gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
+                  <Avatar className="flex items-center justify-center w-[10vw] h-[10vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] shadow flex-shrink-0">
+                    <AvatarImage src={testimonial.avatar} className="object-contain" />
                     <AvatarFallback>{testimonial.name}</AvatarFallback>
                   </Avatar>
-                  <div className="text-left">
+                  <div className="text-left flex flex-col justify-center">
                     <p className="text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw] font-medium">
                       {testimonial.name}
                     </p>

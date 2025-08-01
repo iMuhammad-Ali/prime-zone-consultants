@@ -7,7 +7,7 @@ const sendContactUs = async (formData: any) => {
     await addDoc(collection(db, "contactus"), {
       ...formData,
       createdAt: new Date().toISOString(),
-      status: "pending",
+      status: "PENDING",
     });
     toast({
       title: "Request submitted successfully!",

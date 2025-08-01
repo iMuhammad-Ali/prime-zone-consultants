@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import services from "~/assets/images/services.png"
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
 import { Brain, TicketsPlane, FileText, CircleDollarSign } from "lucide-react";
 
@@ -30,7 +31,8 @@ const Services = () => {
   return (
     <section className="py-[20vw] sm:py-[15vw] md:py-[15vw] lg:py-[8vw]">
       <div className="flex flex-col gap-[6vw] sm:gap-[5vw] md:gap-[4vw] lg:px-[4vw]">
-        <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+        <div className="flex flex-col lg:flex-row justify-between gap-[8vw] sm:gap-[3vw] md:gap-[2vw]">
+          <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
           <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
             Services we offer
           </h2>
@@ -46,13 +48,17 @@ const Services = () => {
             Consult with us{" "}
             <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] xl:size-[1.5vw] transition-transform group-hover:translate-x-1" />
           </div>
+          </div>
+          <div className="flex justify-center w-full sm:max-w-[30vw] md:max-w-[25vw] lg:max-w-[30vw]">
+            <img src={services} alt="Services" className=" w-[60%] sm:w-full h-auto" />
+          </div>
         </div>
 
         {/* Modern icon section for consultation services */}
         <div className="px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          {/* First Row - 5 items */}
+          {/* Services Grid */}
           <div className="sm:flex sm:flex-row sm:justify-between grid grid-cols-2 sm:gap-[3vw] md:gap-[2vw] lg:gap-[1.5vw] mb-[4vw] sm:mb-[3vw] md:mb-[2vw]">
-            {servicesData.slice(0, 5).map((service) => {
+            {servicesData.map((service) => {
               const IconComponent = service.icon;
               return (
                 <div
