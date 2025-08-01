@@ -2,6 +2,7 @@
 import rizwan from "~/assets/images/rizwan.jpg";
 import hanan from "~/assets/images/hanan.jpeg";
 import husnain from "~/assets/images/husnain.jpeg";
+import naseem from "~/assets/images/naseem.jpeg";
 import { Star } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -34,7 +35,7 @@ const testimonials = [
     text: "Asslamualaikum I am Mujtaba it was my dream to study abroad especially in Italy. So, I contact to Prime Zone consultant. It is the most effort and good guidance of Prime Zone team that I have gotten my pre_enrolment in university of TRIESTE in Italy. thanks a lot Prime Zone consultant team for your proper and step by step guidance. Hope for yours more guidance for visa submission. Allah g grant u prime zone team more and more success in yours Field.",
     name: "Naseem Ara",
     role: "Masters Student at University of Melbourne",
-    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+    avatar: naseem,
   },
   {
     id: "testimonial-4",
@@ -90,7 +91,10 @@ const Testimonials = () => {
                 </p>
                 <div className="flex items-center justify-center gap-[3vw] sm:gap-[2vw] lg:gap-[1.5vw]">
                   <Avatar className="flex items-center justify-center w-[10vw] h-[10vw] sm:w-[8vw] sm:h-[8vw] lg:w-[4vw] lg:h-[4vw] shadow flex-shrink-0">
-                    <AvatarImage src={testimonial.avatar} className="object-contain" />
+                    <AvatarImage
+                      src={testimonial.avatar}
+                      className="object-contain"
+                    />
                     <AvatarFallback>{testimonial.name}</AvatarFallback>
                   </Avatar>
                   <div className="text-left flex flex-col justify-center">
