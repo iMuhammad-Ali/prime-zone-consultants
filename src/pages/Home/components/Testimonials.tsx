@@ -18,27 +18,20 @@ import type { CarouselApi } from "~/components/ui/carousel";
 const testimonials = [
   {
     id: "testimonial-1",
-    text: "I had a wonderful experience with Prime Zone Consultants (PZC). The team was highly professional, supportive, and guided me through every step of the process with great care. From choosing the right university to preparing my documents and guiding me for the visa, they handled everything smoothly and efficiently. I truly appreciate their dedication and commitment to helping students achieve their study abroad dreams. I highly recommend PZC to anyone looking for honest and expert educational consultancy services. Thank you, Prime Zone Consultants (PZC), for your excellent support!",
-    name: "Muhammad Talha Umar",
-    role: "Student at University of Toronto",
-    avatar: "https://randomuser.me/api/portraits/men/75.jpg",
-  },
-  {
-    id: "testimonial-2",
     text: "Prime Zone Consultant played a helpful role in securing my admission to an Italian university. They guided me well through the application process and are now assisting with my visa filing. While communication could be more prompt at times, overall their support and coordination have been valuable. A decent option for educational consultancy.",
     name: "Muhammad Hussnain Zaghim",
     role: "Parent of an international student",
     avatar: husnain,
   },
   {
-    id: "testimonial-3",
+    id: "testimonial-2",
     text: "Asslamualaikum I am Mujtaba it was my dream to study abroad especially in Italy. So, I contact to Prime Zone consultant. It is the most effort and good guidance of Prime Zone team that I have gotten my pre_enrolment in university of TRIESTE in Italy. thanks a lot Prime Zone consultant team for your proper and step by step guidance. Hope for yours more guidance for visa submission. Allah g grant u prime zone team more and more success in yours Field.",
     name: "Naseem Ara",
     role: "Masters Student at University of Melbourne",
     avatar: naseem,
   },
   {
-    id: "testimonial-4",
+    id: "testimonial-3",
     text: "PrimeZone Consultants team is very professional and friendly and also approachable. They guided me in every step of admission process for study in abroad. Their advice helped me to choose the best choice in foreign universities and Alhamdulillah I got acceptance letter from two universities in foreign country. I highly recommend PrimeZone Consultants for those who are planning to study in foreign universities.",
     name: "Muhammad Rizwan Yousaf",
     role: "Masters Student at University of Melbourne",

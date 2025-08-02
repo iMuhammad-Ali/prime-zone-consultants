@@ -160,7 +160,7 @@ const Navbar = ({
                   <Menu className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw]" />
                 </Button>
               </SheetTrigger>
-              <SheetContent className="overflow-y-auto pt-[16vw]">
+              <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle>
                     <Link

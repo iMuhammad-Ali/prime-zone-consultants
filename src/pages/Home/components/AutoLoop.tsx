@@ -2,7 +2,7 @@ import AutoLoopSlider from "~/components/Framer/AutoLoopSlider";
 
 function AutoLoop() {
   return (
-    <div className="sticky top-0 z-[10000]">
+    <div className="sticky top-0 z-[100]">
       <AutoLoopSlider>
         <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
           <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">

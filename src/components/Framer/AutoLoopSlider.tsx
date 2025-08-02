@@ -13,7 +13,7 @@ interface AutoLoopSliderProps {
   className?: string;
 }
 export default function AutoLoopSlider({
-  speed = 0.8, // Speed in pixels per second
+  speed = 0.5, // Speed in pixels per second
   children,
   className = "",
 }: AutoLoopSliderProps) {
