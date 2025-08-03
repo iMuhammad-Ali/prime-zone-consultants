@@ -30,6 +30,7 @@ interface FormData {
 
 const EligibilityCheck = () => {
   const [currentStep, setCurrentStep] = useState(1);
+  const [isLoading, setIsLoading] = useState(false);
   const dispatch = useDispatch<AppDispatch>();
   const [formData, setFormData] = useState<FormData>({
     country: "",
@@ -145,6 +146,7 @@ const EligibilityCheck = () => {
 
   const handleSubmit = async () => {
     try {
+      setIsLoading(true);
       if (!isStepValid(4)) return;
 
       const payload = {
@@ -155,14 +157,16 @@ const EligibilityCheck = () => {
       await dispatch(sendWhatsAppMessage(payload)).unwrap();
 
       // Show success toast
+
       toast({
         title: "Success!",
         description: "Your application has been submitted successfully.",
       });
 
-      console.log("Form submitted:", formData);
+      setIsLoading(false);
       setCurrentStep(totalSteps);
     } catch (error) {
+      setIsLoading(false);
       toast({
         title: "Error",
         description: "Failed to submit form. Please try again later.",
@@ -544,20 +548,13 @@ const EligibilityCheck = () => {
 
         {/* Footer Button */}
         <div className="mt-[6vw] sm:mt-[4vw] md:mt-[3vw] lg:mt-[2vw] xl:mt-8">
-          {currentStep === totalSteps ? (
-            <Button
-              onClick={handleClose}
-              className="w-full py-[3vw] sm:py-[2vw] md:py-[1.5vw] lg:py-[1vw] xl:py-4 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-[2vw] sm:rounded-[1vw] md:rounded-[1vw] lg:rounded-[0.5vw] xl:rounded-[0.5vw] shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border-0 text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm"
-            >
-              View Website
-            </Button>
-          ) : currentStep === 4 ? (
+          {currentStep === totalSteps ? null : currentStep === 4 ? ( // No button on step 5 (success page)
             <Button
               onClick={handleSubmit}
-              disabled={!isStepValid(4)}
+              disabled={!isStepValid(4) || isLoading}
               className="w-full py-[3vw] sm:py-[2vw] md:py-[1.5vw] lg:py-[1vw] xl:py-4 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-[2vw] sm:rounded-[1vw] md:rounded-[1vw] lg:rounded-[0.5vw] xl:rounded-[0.5vw] shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border-0 text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none"
             >
-              Submit Application
+              {isLoading ? "Submitting..." : "Submit Application"}
             </Button>
           ) : (
             <Button

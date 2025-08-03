@@ -22,16 +22,15 @@ const UniversityDepartments = () => {
     return count >= 3;
   });
 
-
   // Filter by search - show only one result when searching
-const visibleDepartments = search.trim()
-  ? filteredDepartments
-      .filter((department) =>
-        department.name.toLowerCase().includes(search.toLowerCase())
-      )
-      .slice(0, 1)
-  : filteredDepartments;
-  
+  const visibleDepartments = search.trim()
+    ? filteredDepartments
+        .filter((department) =>
+          department.name.toLowerCase().includes(search.toLowerCase())
+        )
+        .slice(0, 1)
+    : filteredDepartments.slice(0, 1);
+
   const [expanded, setExpanded] = useState<any>(
     visibleDepartments.length > 0 ? visibleDepartments[0].id : null
   );
