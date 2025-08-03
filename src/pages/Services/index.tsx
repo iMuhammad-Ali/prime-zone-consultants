@@ -1,7 +1,8 @@
 import { ArrowRight } from "lucide-react";
-import services from "~/assets/images/services.png";
+// import services from "~/assets/images/services.png"; // Commented out as requested
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
 import { Brain, TicketsPlane, FileText, CircleDollarSign } from "lucide-react";
+import ConsultationPerformanceChart from "~/components/Charts/ConsultationPerformanceChart";
 
 // Services data array
 const servicesData = [
@@ -49,12 +50,18 @@ const Services = () => {
               <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] xl:size-[1.5vw] transition-transform group-hover:translate-x-1" />
             </div>
           </div>
-          <div className="flex justify-center w-full lg:max-w-[25vw]">
-            <img
+          <div className="flex justify-center items-center w-full lg:max-w-[40vw] lg:px-0">
+            {/* Services image commented out as requested */}
+            {/* <img
               src={services}
               alt="Services"
               className=" w-[70%] lg:w-full h-auto"
-            />
+            /> */}
+
+            {/* Monthly Consultation Chart */}
+            <div className="w-full py-6 sm:p-0  px-[2vw] sm:px-[1vw] md:px-0">
+              <ConsultationPerformanceChart className="w-full" />
+            </div>
           </div>
         </div>
 
