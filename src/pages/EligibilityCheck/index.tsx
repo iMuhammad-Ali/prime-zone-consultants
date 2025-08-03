@@ -18,6 +18,7 @@ import {
   Check,
 } from "lucide-react";
 import { toast } from "~/hooks/use-toast";
+import toTitleCase from "~/hooks/toTitleCase";
 
 interface FormData {
   country: string;
@@ -150,7 +151,14 @@ const EligibilityCheck = () => {
       if (!isStepValid(4)) return;
 
       const payload = {
-        message: `Hello, I am interested in studying abroad. Here are my details:\n\nCountry: ${formData.country}\nWhatsApp: ${formData.whatsapp}\nQualification: ${formData.qualification}\nFull Name: ${formData.fullName}\nPhone Number: ${formData.phoneNumber}\nCity: ${formData.city}`,
+        message: `Hello, I am interested in studying abroad. Here are my details:
+
+Country: ${toTitleCase(formData.country)}
+WhatsApp: ${formData.whatsapp}
+Qualification: ${toTitleCase(formData.qualification)}
+Full Name: ${toTitleCase(formData.fullName)}
+Phone Number: ${formData.phoneNumber}
+City: ${toTitleCase(formData.city)}`,
         recipient: formData.whatsapp,
       };
 
@@ -162,7 +170,7 @@ const EligibilityCheck = () => {
         title: "Success!",
         description: "Your application has been submitted successfully.",
       });
-
+      console.log("Form submitted:", payload);
       setIsLoading(false);
       setCurrentStep(totalSteps);
     } catch (error) {
