@@ -4,6 +4,9 @@ import { Card } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
 import Logo from "../../assets/images/logo-white.png";
+import { useDispatch } from "react-redux";
+import { sendWhatsAppMessage } from "~/store/authThunk";
+import type { AppDispatch } from "~/store/store";
 
 import {
   ArrowLeft,
@@ -14,6 +17,7 @@ import {
   User,
   Check,
 } from "lucide-react";
+import { toast } from "~/hooks/use-toast";
 
 interface FormData {
   country: string;
@@ -26,6 +30,7 @@ interface FormData {
 
 const EligibilityCheck = () => {
   const [currentStep, setCurrentStep] = useState(1);
+  const dispatch = useDispatch<AppDispatch>();
   const [formData, setFormData] = useState<FormData>({
     country: "",
     whatsapp: "",
@@ -138,10 +143,33 @@ const EligibilityCheck = () => {
     });
   };
 
-  const handleSubmit = () => {
-    if (!isStepValid(4)) return;
-    console.log("Form submitted:", formData);
-    setCurrentStep(totalSteps);
+  const handleSubmit = async () => {
+    try {
+      if (!isStepValid(4)) return;
+
+      const payload = {
+        message: `Hello, I am interested in studying abroad. Here are my details:\n\nCountry: ${formData.country}\nWhatsApp: ${formData.whatsapp}\nQualification: ${formData.qualification}\nFull Name: ${formData.fullName}\nPhone Number: ${formData.phoneNumber}\nCity: ${formData.city}`,
+        recipient: formData.whatsapp,
+      };
+
+      await dispatch(sendWhatsAppMessage(payload)).unwrap();
+
+      // Show success toast
+      toast({
+        title: "Success!",
+        description: "Your application has been submitted successfully.",
+      });
+
+      console.log("Form submitted:", formData);
+      setCurrentStep(totalSteps);
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to submit form. Please try again later.",
+        variant: "destructive",
+      });
+      console.error("Error submitting form:", error);
+    }
   };
 
   const renderProgressBar = () => (
