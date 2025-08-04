@@ -3,6 +3,7 @@ import { Button } from "~/components/ui/button";
 import { Card } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
+import { DatePicker } from "~/components/ui/date-picker";
 import Logo from "../../assets/images/logo-white.png";
 import { useDispatch } from "react-redux";
 import { sendWhatsAppMessage } from "~/store/authThunk";
@@ -13,20 +14,22 @@ import {
   X,
   CheckCircle,
   Phone,
-  MapPin,
   User,
-  Check,
+  Mail,
+  CalendarIcon,
 } from "lucide-react";
 import { toast } from "~/hooks/use-toast";
 import toTitleCase from "~/hooks/toTitleCase";
 
 interface FormData {
   country: string;
-  whatsapp: string;
   qualification: string;
+  cgpa: string;
+  passingYear: string;
   fullName: string;
+  email: string;
   phoneNumber: string;
-  city: string;
+  dob?: Date;
 }
 
 const EligibilityCheck = () => {
@@ -35,30 +38,48 @@ const EligibilityCheck = () => {
   const dispatch = useDispatch<AppDispatch>();
   const [formData, setFormData] = useState<FormData>({
     country: "",
-    whatsapp: "",
     qualification: "",
+    cgpa: "",
+    passingYear: "",
     fullName: "",
+    email: "",
     phoneNumber: "",
-    city: "",
+    dob: undefined,
   });
   const [warnings, setWarnings] = useState({
-    whatsapp: "",
     phoneNumber: "",
+    cgpa: "",
+    passingYear: "",
   });
 
-  const totalSteps = 5;
+  const totalSteps = 4;
 
   // Optimized numeric input handler with warning
   const handleNumericInput =
     (field: keyof FormData) => (e: React.ChangeEvent<HTMLInputElement>) => {
       const inputValue = e.target.value;
-      const numericValue = inputValue.replace(/\D/g, "");
+      let processedValue: string;
 
-      // Check if user tried to input non-numeric characters
-      if (inputValue !== numericValue && inputValue.length > 0) {
+      if (field === "cgpa") {
+        // Allow numbers and single decimal point for CGPA
+        processedValue = inputValue.replace(/[^0-9.]/g, "");
+        // Ensure only one decimal point
+        const parts = processedValue.split(".");
+        if (parts.length > 2) {
+          processedValue = parts[0] + "." + parts.slice(1).join("");
+        }
+      } else {
+        // Only numbers for other fields
+        processedValue = inputValue.replace(/\D/g, "");
+      }
+
+      // Check if user tried to input invalid characters
+      if (inputValue !== processedValue && inputValue.length > 0) {
+        const allowedChars =
+          field === "cgpa" ? "numbers and decimal point" : "numbers";
         setWarnings((prev) => ({
           ...prev,
-          [field]: "Only numbers are allowed. Please enter digits only.",
+          [field]: `Only ${allowedChars} are allowed. Please enter valid characters only.`,
         }));
         // Clear warning after 3 seconds
         setTimeout(() => {
@@ -69,7 +90,7 @@ const EligibilityCheck = () => {
         setWarnings((prev) => ({ ...prev, [field]: "" }));
       }
 
-      setFormData((prev) => ({ ...prev, [field]: numericValue }));
+      setFormData((prev) => ({ ...prev, [field]: processedValue }));
     };
 
   // Optimized key press handler for numeric inputs with warning
@@ -81,13 +102,24 @@ const EligibilityCheck = () => {
         "ArrowLeft",
         "ArrowRight",
         "Tab",
+        "Shift",
+        ">",
       ];
+
+      // Add decimal point for CGPA field
+      if (field === "cgpa") {
+        allowedKeys.push(".");
+      }
 
       if (!/^[0-9]$/.test(e.key) && !allowedKeys.includes(e.key)) {
         e.preventDefault();
+        const allowedChars =
+          field === "cgpa"
+            ? "numeric characters (0-9) and decimal point (.)"
+            : "numeric characters (0-9)";
         setWarnings((prev) => ({
           ...prev,
-          [field]: "Only numeric characters (0-9) are allowed.",
+          [field]: `Only ${allowedChars} are allowed.`,
         }));
         // Clear warning after 2 seconds
         setTimeout(() => {
@@ -102,14 +134,19 @@ const EligibilityCheck = () => {
       case 1:
         return !!formData.country.trim();
       case 2:
-        return !!formData.whatsapp.trim();
+        return !!(
+          formData.qualification.trim() &&
+          formData.cgpa.trim() &&
+          formData.passingYear.trim()
+        );
       case 3:
         return !!formData.qualification.trim();
       case 4:
         return !!(
           formData.fullName.trim() &&
+          formData.email.trim() &&
           formData.phoneNumber.trim() &&
-          formData.city.trim()
+          formData.dob
         );
       default:
         return true;
@@ -133,15 +170,18 @@ const EligibilityCheck = () => {
     setCurrentStep(1);
     setFormData({
       country: "",
-      whatsapp: "",
       qualification: "",
+      cgpa: "",
+      passingYear: "",
       fullName: "",
+      email: "",
       phoneNumber: "",
-      city: "",
+      dob: undefined,
     });
     setWarnings({
-      whatsapp: "",
       phoneNumber: "",
+      cgpa: "",
+      passingYear: "",
     });
   };
 
@@ -153,13 +193,13 @@ const EligibilityCheck = () => {
       const payload = {
         message: `Hello, I am interested in studying abroad. Here are my details:
 
-Country: ${toTitleCase(formData.country)}
-WhatsApp: ${formData.whatsapp}
-Qualification: ${toTitleCase(formData.qualification)}
 Full Name: ${toTitleCase(formData.fullName)}
+Country: ${toTitleCase(formData.country)}
+Qualification: ${toTitleCase(formData.qualification)}
+Percentage/CGPA: ${formData.cgpa}
+Passing Year: ${formData.passingYear}
 Phone Number: ${formData.phoneNumber}
-City: ${toTitleCase(formData.city)}`,
-        recipient: formData.whatsapp,
+Date of Birth: ${formData.dob?.toLocaleDateString() || "Not provided"}`,
       };
 
       await dispatch(sendWhatsAppMessage(payload)).unwrap();
@@ -170,7 +210,6 @@ City: ${toTitleCase(formData.city)}`,
         title: "Success!",
         description: "Your application has been submitted successfully.",
       });
-      console.log("Form submitted:", payload);
       setIsLoading(false);
       setCurrentStep(totalSteps);
     } catch (error) {
@@ -230,105 +269,131 @@ City: ${toTitleCase(formData.city)}`,
             </div>
           </div>
         );
-
       case 2:
         return (
           <div className="space-y-[6vw] sm:space-y-[4vw] md:space-y-[3vw] lg:space-y-[2vw] xl:space-y-8 animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
             <div className="text-center space-y-[3vw] sm:space-y-[2vw] md:space-y-[1.5vw] lg:space-y-[1vw] xl:space-y-4">
-              <h2 className="text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw] xl:text-2xl font-bold text-foreground leading-tight">
-                Please share your active WhatsApp number?
-              </h2>
-              <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm">
-                We'll contact you for personalized guidance
-              </p>
+              <div className="flex items-center justify-center gap-[3vw] sm:gap-[2vw] md:gap-[1.5vw] lg:gap-[1vw] xl:gap-3 mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.5vw] xl:mb-2">
+                <h2 className="text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw] xl:text-2xl font-bold text-foreground">
+                  Qualification Information
+                </h2>
+              </div>
             </div>
-            <div className="space-y-[3vw] sm:space-y-[2vw] md:space-y-[1.5vw] lg:space-y-[1vw] xl:space-y-4">
-              <div className="relative group">
-                <Input
-                  type="tel"
-                  placeholder="share your active whatsapp number"
-                  required={true}
-                  value={formData.whatsapp}
-                  onChange={handleNumericInput("whatsapp")}
-                  onKeyDown={handleNumericKeyPress("whatsapp")}
-                  className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-                />
-                {warnings.whatsapp && (
-                  <div className="mt-2 text-red-500 text-[3vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] xl:text-xs 2xl:text-sm flex items-center gap-2 animate-in fade-in-0 slide-in-from-top-2 duration-300">
-                    <span className="text-red-500">⚠️</span>
-                    {warnings.whatsapp}
+            <div className="space-y-[4vw] sm:space-y-[3vw] md:space-y-[2vw] lg:space-y-[1.5vw] xl:space-y-6">
+              <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
+                <Label
+                  htmlFor="qualification"
+                  className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
+                >
+                  Recently Completed Qualification ?
+                </Label>
+                <div className="relative group">
+                  <Input
+                    id="qualification"
+                    type="text"
+                    placeholder="e.g., 16 years m.sc zoology"
+                    required={true}
+                    value={formData.qualification}
+                    onChange={(e) =>
+                      setFormData({
+                        ...formData,
+                        qualification: e.target.value,
+                      })
+                    }
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                  />
+
+                  {formData.qualification && (
+                    <button
+                      onClick={() =>
+                        setFormData({ ...formData, qualification: "" })
+                      }
+                      className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
+                    >
+                      <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
+                <Label
+                  htmlFor="cgpa"
+                  className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-3 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
+                >
+                  Percentage/CGPA ?
+                </Label>
+                <div className="flex gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-3">
+                  <div className="relative group flex-1">
+                    <Input
+                      id="cgpa"
+                      type="text"
+                      placeholder="Enter Percentage/CGPA"
+                      required={true}
+                      value={formData.cgpa}
+                      onChange={handleNumericInput("cgpa")}
+                      onKeyDown={handleNumericKeyPress("cgpa")}
+                      className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                    />
+                    {warnings.cgpa && (
+                      <div className="mt-2 text-red-500 text-[3vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] xl:text-xs 2xl:text-sm flex items-center gap-2 animate-in fade-in-0 slide-in-from-top-2 duration-300">
+                        <span className="text-red-500">⚠️</span>
+                        {warnings.cgpa}
+                      </div>
+                    )}
+                    {formData.cgpa && (
+                      <button
+                        onClick={() => setFormData({ ...formData, cgpa: "" })}
+                        className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
+                      >
+                        <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
+                      </button>
+                    )}
                   </div>
-                )}
-                {formData.whatsapp && (
-                  <button
-                    onClick={() => setFormData({ ...formData, whatsapp: "" })}
-                    className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
-                  >
-                    <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
-                  </button>
-                )}
+                </div>
+              </div>
+
+              <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
+                <Label
+                  htmlFor="passingYear"
+                  className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
+                >
+                  Passing Year of Recent Qualification ?
+                </Label>
+                <div className="relative group">
+                  <Input
+                    id="passing-year"
+                    type="text"
+                    placeholder="Enter your passing year"
+                    required={true}
+                    value={formData.passingYear}
+                    onChange={handleNumericInput("passingYear")}
+                    onKeyDown={handleNumericKeyPress("passingYear")}
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                  />
+                  {warnings.passingYear && (
+                    <div className="mt-2 text-red-500 text-[3vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] xl:text-xs 2xl:text-sm flex items-center gap-2 animate-in fade-in-0 slide-in-from-top-2 duration-300">
+                      <span className="text-red-500">⚠️</span>
+                      {warnings.passingYear}
+                    </div>
+                  )}
+                  {formData.passingYear && (
+                    <button
+                      onClick={() =>
+                        setFormData({ ...formData, passingYear: "" })
+                      }
+                      className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
+                    >
+                      <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           </div>
         );
 
       case 3:
-        return (
-          <div className="space-y-[6vw] sm:space-y-[4vw] md:space-y-[3vw] lg:space-y-[2vw] xl:space-y-8 animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
-            <div className="text-center space-y-[4vw] sm:space-y-[3vw] md:space-y-[2vw] lg:space-y-[1.5vw] xl:space-y-6">
-              <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-2">
-                <h2 className="text-[4.5vw] sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw] xl:text-xl font-bold text-foreground">
-                  Your Current Qualification?
-                </h2>
-                <p className="text-muted-foreground text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm">
-                  Select your educational background
-                </p>
-              </div>
-              <div className="space-y-[3vw] sm:space-y-[2vw] md:space-y-[1.5vw] lg:space-y-[1vw] xl:space-y-3 2xl:space-y-[0.5vw]">
-                {[
-                  "Matric",
-                  "Intermediate",
-                  "O Level",
-                  "A Level",
-                  "Bachelors",
-                  "Masters",
-                  "Other",
-                ].map((qual) => (
-                  <button
-                    key={qual}
-                    onClick={() =>
-                      setFormData({ ...formData, qualification: qual })
-                    }
-                    className={`w-full flex items-center space-x-[3vw] sm:space-x-[2vw] md:space-x-[1.5vw] lg:space-x-[1vw] xl:space-x-4 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw] xl:p-4 rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-lg 2xl:rounded-[0.3vw] transition-all duration-300 hover:scale-[1] ${
-                      formData.qualification === qual
-                        ? "bg-primary text-primary-foreground border border-ring"
-                        : "bg-transparent border border-input text-foreground hover:bg-input/50"
-                    }`}
-                  >
-                    <div
-                      className={`w-[5vw] h-[5vw] sm:w-[3.5vw] sm:h-[3.5vw] md:w-[2.5vw] md:h-[2.5vw] lg:w-[2vw] lg:h-[2vw] xl:w-6 xl:h-6 2xl:w-[1vw] 2xl:h-[1vw] rounded-full border-2 flex items-center justify-center transition-all duration-300 ${
-                        formData.qualification === qual
-                          ? "border-primary-foreground bg-primary-foreground/20"
-                          : "border-border hover:border-ring"
-                      }`}
-                    >
-                      {formData.qualification === qual && (
-                        <Check className="w-[3vw] h-[3vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw] text-primary-foreground animate-in zoom-in-50 duration-200" />
-                      )}
-                    </div>
-                    <span
-                      className={`flex-1 text-left text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm 2xl:text-sm font-medium transition-colors duration-300`}
-                    >
-                      {qual}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-        );
-
-      case 4:
         return (
           <div className="space-y-[6vw] sm:space-y-[4vw] md:space-y-[3vw] lg:space-y-[2vw] xl:space-y-8 animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
             <div className="text-center space-y-[3vw] sm:space-y-[2vw] md:space-y-[1.5vw] lg:space-y-[1vw] xl:space-y-4">
@@ -373,6 +438,37 @@ City: ${toTitleCase(formData.city)}`,
                   )}
                 </div>
               </div>
+              <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
+                <Label
+                  htmlFor="email"
+                  className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
+                >
+                  <Mail className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
+                  Email Address
+                </Label>
+                <div className="relative group">
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required={true}
+                    value={formData.email}
+                    onChange={(e) =>
+                      setFormData({ ...formData, email: e.target.value })
+                    }
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                  />
+
+                  {formData.email && (
+                    <button
+                      onClick={() => setFormData({ ...formData, email: "" })}
+                      className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
+                    >
+                      <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
+                    </button>
+                  )}
+                </div>
+              </div>
 
               <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
                 <Label
@@ -383,16 +479,6 @@ City: ${toTitleCase(formData.city)}`,
                   Phone Number
                 </Label>
                 <div className="flex gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-3">
-                  {/* <Select defaultValue="PK +92">
-                    <SelectTrigger className="w-[20vw] sm:w-[15vw] md:w-[12vw] lg:w-[10vw] xl:w-[6vw] h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-[2vw] 2xl:pl-[1vw] 2xl:py-[1.2vw] rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="PK +92">PK +92</SelectItem>
-                      <SelectItem value="US +1">US +1</SelectItem>
-                      <SelectItem value="UK +44">UK +44</SelectItem>
-                    </SelectContent>
-                  </Select> */}
                   <div className="relative group flex-1">
                     <Input
                       id="phoneNumber"
@@ -426,40 +512,28 @@ City: ${toTitleCase(formData.city)}`,
 
               <div className="space-y-[2vw] sm:space-y-[1.5vw] md:space-y-[1vw] lg:space-y-[0.5vw] xl:space-y-3">
                 <Label
-                  htmlFor="city"
+                  htmlFor="dob"
                   className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
                 >
-                  <MapPin className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
-                  City
+                  <CalendarIcon className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
+                  Date of Birth
                 </Label>
                 <div className="relative group">
-                  <Input
-                    id="city"
-                    type="text"
-                    placeholder="Enter your city"
-                    required={true}
-                    value={formData.city}
-                    onChange={(e) =>
-                      setFormData({ ...formData, city: e.target.value })
+                  <DatePicker
+                    date={formData.dob}
+                    onDateChange={(date) =>
+                      setFormData({ ...formData, dob: date })
                     }
-                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                    placeholder="Select your date of birth"
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input  px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm"
                   />
-
-                  {formData.city && (
-                    <button
-                      onClick={() => setFormData({ ...formData, city: "" })}
-                      className="absolute right-[3vw] sm:right-[2vw] md:right-[1.5vw] lg:right-[1vw] xl:right-4 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
-                    >
-                      <X className="w-[4vw] h-[4vw] sm:w-[3vw] sm:h-[3vw] md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] xl:w-5 xl:h-5 2xl:w-[1vw] 2xl:h-[1vw]" />
-                    </button>
-                  )}
                 </div>
               </div>
             </div>
           </div>
         );
 
-      case 5:
+      case 4:
         return (
           <div className="space-y-[6vw] sm:space-y-[4vw] md:space-y-[3vw] lg:space-y-[2vw] xl:space-y-8 text-center animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
             <div className="flex items-center justify-center mb-[6vw] sm:mb-[4vw] md:mb-[3vw] lg:mb-[2vw] xl:mb-8">
@@ -556,7 +630,7 @@ City: ${toTitleCase(formData.city)}`,
 
         {/* Footer Button */}
         <div className="mt-[6vw] sm:mt-[4vw] md:mt-[3vw] lg:mt-[2vw] xl:mt-8">
-          {currentStep === totalSteps ? null : currentStep === 4 ? ( // No button on step 5 (success page)
+          {currentStep === totalSteps ? null : currentStep === 3 ? ( // No button on step 5 (success page)
             <Button
               onClick={handleSubmit}
               disabled={!isStepValid(4) || isLoading}

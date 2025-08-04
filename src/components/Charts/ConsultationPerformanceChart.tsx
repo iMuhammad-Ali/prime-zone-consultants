@@ -18,7 +18,11 @@ interface ConsultationData {
 }
 
 // Function to generate data for a single completed month
-const generateMonthData = (year: number, month: number): ConsultationData => {
+const generateMonthData = (
+  year: number,
+  month: number,
+  isRecent: boolean = false
+): ConsultationData => {
   const monthNames = [
     "Jan",
     "Feb",
@@ -47,10 +51,10 @@ const generateMonthData = (year: number, month: number): ConsultationData => {
   const monthSeed = year * 100 + month;
 
   // Generate realistic consultation data based on month with seeded randomization
-  const successfulMin = 40;
-  const successfulMax = 85;
+  const successfulMin = 80;
+  const successfulMax = 90;
   const unsuccessfulMin = 10;
-  const unsuccessfulMax = 25;
+  const unsuccessfulMax = 20;
 
   // Use seeded random for consistent values within the same month
   const successfulRandom = seededRandom(monthSeed * 1.1);
@@ -63,21 +67,16 @@ const generateMonthData = (year: number, month: number): ConsultationData => {
     unsuccessfulMin +
     Math.floor(unsuccessfulRandom * (unsuccessfulMax - unsuccessfulMin));
 
-  // Add seasonal variation (higher numbers in peak months)
-  const isHighSeason = [8, 9, 0, 1].includes(month); // Sep, Oct, Jan, Feb
-  const isMediumSeason = [2, 3, 10, 11].includes(month); // Mar, Apr, Nov, Dec
+  // No seasonal variation - just base values
+  let successful = baseSuccessful;
+  let unsuccessful = baseUnsuccessful;
 
-  let seasonalMultiplier = 1;
-  if (isHighSeason) {
-    seasonalMultiplier = 1.15 + seededRandom(monthSeed * 1.7) * 0.15; // 1.15-1.30
-  } else if (isMediumSeason) {
-    seasonalMultiplier = 1.05 + seededRandom(monthSeed * 1.9) * 0.1; // 1.05-1.15
-  } else {
-    seasonalMultiplier = 0.85 + seededRandom(monthSeed * 2.1) * 0.2; // 0.85-1.05
+  // Apply slight increase for last 4 months (recent months)
+  if (isRecent) {
+    const recentBoost = 1.08 + seededRandom(monthSeed * 2.3) * 0.04; // 1.08-1.12 boost
+    successful = Math.floor(successful * recentBoost);
+    unsuccessful = Math.floor(unsuccessful * 0.95); // Slightly reduce unsuccessful for better success rate
   }
-
-  const successful = Math.floor(baseSuccessful * seasonalMultiplier);
-  const unsuccessful = Math.floor(baseUnsuccessful * seasonalMultiplier);
 
   return {
     month: monthName, // Only short month name for X-axis
@@ -104,8 +103,11 @@ const generateLast12MonthsData = (): ConsultationData[] => {
     const year = targetDate.getFullYear();
     const month = targetDate.getMonth();
 
+    // Last 4 months get a slight performance boost
+    const isRecent = i <= 4;
+
     // Generate data for this completed month - same for all users
-    const newData = generateMonthData(year, month);
+    const newData = generateMonthData(year, month, isRecent);
     result.push(newData);
   }
 
@@ -114,11 +116,11 @@ const generateLast12MonthsData = (): ConsultationData[] => {
 
 const chartConfig = {
   unsuccessful: {
-    label: "Unsuccessful Consultations",
+    label: "Unsuccessful Consultations ",
     color: "#e2e8f0",
   },
   successful: {
-    label: "Successful Consultations",
+    label: "Successful Consultations ",
     color: "#3b82f6",
   },
 };
@@ -198,20 +200,25 @@ const ConsultationPerformanceChart = ({
             domain={[0, "dataMax + 10"]}
             tickCount={8}
           />
-          <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+          <ChartTooltip
+            cursor={false}
+            content={
+              <ChartTooltipContent className="min-w-[205px] 2xl:min-w-[13vw] 2xl:p-[0.5vw] w-auto" />
+            }
+          />
           <Bar
             dataKey="unsuccessful"
             stackId="consultation"
             fill="var(--color-unsuccessful)"
             radius={[0, 0, 0, 0]}
-            name="Unsuccessful Consultations"
+            name="Unsuccessful Consultations "
           />
           <Bar
             dataKey="successful"
             stackId="consultation"
             fill="var(--color-successful)"
             radius={[4, 4, 0, 0]}
-            name="Successful Consultations"
+            name="Successful Consultations "
           />
         </BarChart>
       </ChartContainer>
