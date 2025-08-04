@@ -11,7 +11,7 @@ export const addConsultation = createAsyncThunk(
       const consultation = {
         ...payload,
         createdAt: serverTimestamp(),
-        status: "pending",
+        status: "NOT REPLIED",
       };
       const docRef = await addDoc(
         collection(db, "consultations"),

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 import AutoLoop from "~/pages/Home/components/AutoLoop";
+import { useAppSelector } from "~/hooks/redux";
 
 import {
   Accordion,
@@ -85,10 +86,10 @@ const Navbar = ({
       title: "Services",
       url: "/services",
     },
-    {
-      title: "Team",
-      url: "/team",
-    },
+    // {
+    //   title: "Team",
+    //   url: "/team",
+    // },
     {
       title: "Success Stories",
       url: "/success-stories",
@@ -100,10 +101,11 @@ const Navbar = ({
   ],
 }: NavbarProps) => {
   const [showSidebar, setShowSidebar] = useState(false);
+  const { showConsultantModal } = useAppSelector((state) => state.consultant);
 
   return (
     <>
-      <AutoLoop />
+      {!showConsultantModal && <AutoLoop />}
       <section className="mt-[12vw] sm:mt-[8vw] lg:mt-[4.5vw] xl:mt-[3vw] py-[2vw] sm:py-[1.5vw] lg:py-[1vw] absolute top-0 left-0 right-0">
         {/* Desktop Menu */}
         <nav className="hidden justify-between custom:flex custom:items-center">

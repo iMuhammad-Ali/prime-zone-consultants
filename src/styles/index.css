@@ -203,6 +203,10 @@ h1 {
   }
 
   @media (min-width: 3840px) {
+    .text-xs {
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+    }
     .text-sm {
       font-size: 2rem;
       line-height: 2.5rem;

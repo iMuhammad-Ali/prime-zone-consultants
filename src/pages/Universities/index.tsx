@@ -48,10 +48,10 @@ const Universities: React.FC = () => {
   );
 
   return (
-    <section className="pt-32 2xl:pt-[6vw] pb-16">
+    <section className="pt-20 2xl:pt-[6vw] pb-16">
       {/* Header */}
       <div className=" mx-auto flex flex-col items-center text-center">
-        <h2 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
+        <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           Universities
         </h2>
         <p className="mb-8 max-w-4xl 2xl:max-w-[50vw] text-muted-foreground lg:text-xl 2xl:text-sm">
@@ -61,7 +61,7 @@ const Universities: React.FC = () => {
           your perfect fit. Begin your journey toward world-class education and
           endless opportunities.
         </p>
-        <Separator className="my-10 w-full h-px" />
+        <Separator className="my-5 w-full h-px" />
       </div>
 
       {/* Landing vs Filtered views */}

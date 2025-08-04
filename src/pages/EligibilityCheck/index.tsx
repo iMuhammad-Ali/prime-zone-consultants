@@ -4,6 +4,9 @@ import { Card } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
 import Logo from "../../assets/images/logo-white.png";
+import { useDispatch } from "react-redux";
+import { sendWhatsAppMessage } from "~/store/authThunk";
+import type { AppDispatch } from "~/store/store";
 
 import {
   ArrowLeft,
@@ -14,6 +17,8 @@ import {
   User,
   Check,
 } from "lucide-react";
+import { toast } from "~/hooks/use-toast";
+import toTitleCase from "~/hooks/toTitleCase";
 
 interface FormData {
   country: string;
@@ -26,6 +31,8 @@ interface FormData {
 
 const EligibilityCheck = () => {
   const [currentStep, setCurrentStep] = useState(1);
+  const [isLoading, setIsLoading] = useState(false);
+  const dispatch = useDispatch<AppDispatch>();
   const [formData, setFormData] = useState<FormData>({
     country: "",
     whatsapp: "",
@@ -138,10 +145,43 @@ const EligibilityCheck = () => {
     });
   };
 
-  const handleSubmit = () => {
-    if (!isStepValid(4)) return;
-    console.log("Form submitted:", formData);
-    setCurrentStep(totalSteps);
+  const handleSubmit = async () => {
+    try {
+      setIsLoading(true);
+      if (!isStepValid(4)) return;
+
+      const payload = {
+        message: `Hello, I am interested in studying abroad. Here are my details:
+
+Country: ${toTitleCase(formData.country)}
+WhatsApp: ${formData.whatsapp}
+Qualification: ${toTitleCase(formData.qualification)}
+Full Name: ${toTitleCase(formData.fullName)}
+Phone Number: ${formData.phoneNumber}
+City: ${toTitleCase(formData.city)}`,
+        recipient: formData.whatsapp,
+      };
+
+      await dispatch(sendWhatsAppMessage(payload)).unwrap();
+
+      // Show success toast
+
+      toast({
+        title: "Success!",
+        description: "Your application has been submitted successfully.",
+      });
+      console.log("Form submitted:", payload);
+      setIsLoading(false);
+      setCurrentStep(totalSteps);
+    } catch (error) {
+      setIsLoading(false);
+      toast({
+        title: "Error",
+        description: "Failed to submit form. Please try again later.",
+        variant: "destructive",
+      });
+      console.error("Error submitting form:", error);
+    }
   };
 
   const renderProgressBar = () => (
@@ -184,7 +224,7 @@ const EligibilityCheck = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, country: e.target.value })
                   }
-                  className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                  className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                 />
               </div>
             </div>
@@ -206,12 +246,12 @@ const EligibilityCheck = () => {
               <div className="relative group">
                 <Input
                   type="tel"
-                  placeholder="03232797297"
+                  placeholder="share your active whatsapp number"
                   required={true}
                   value={formData.whatsapp}
                   onChange={handleNumericInput("whatsapp")}
                   onKeyDown={handleNumericKeyPress("whatsapp")}
-                  className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                  className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                 />
                 {warnings.whatsapp && (
                   <div className="mt-2 text-red-500 text-[3vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] xl:text-xs 2xl:text-sm flex items-center gap-2 animate-in fade-in-0 slide-in-from-top-2 duration-300">
@@ -259,7 +299,7 @@ const EligibilityCheck = () => {
                     onClick={() =>
                       setFormData({ ...formData, qualification: qual })
                     }
-                    className={`w-full flex items-center space-x-[3vw] sm:space-x-[2vw] md:space-x-[1.5vw] lg:space-x-[1vw] xl:space-x-4 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw] xl:p-4 rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-lg 2xl:rounded-[0.3vw] transition-all duration-300 hover:scale-[1] ${
+                    className={`w-full flex items-center space-x-[3vw] sm:space-x-[2vw] md:space-x-[1.5vw] lg:space-x-[1vw] xl:space-x-4 p-[3vw] sm:p-[2vw] md:p-[1.5vw] lg:p-[1vw] xl:p-4 rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-lg 2xl:rounded-[0.3vw] transition-all duration-300 hover:scale-[1] ${
                       formData.qualification === qual
                         ? "bg-primary text-primary-foreground border border-ring"
                         : "bg-transparent border border-input text-foreground hover:bg-input/50"
@@ -307,7 +347,7 @@ const EligibilityCheck = () => {
                   htmlFor="fullName"
                   className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
                 >
-                  <User className="w-[3vw] h-[3vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
+                  <User className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
                   Full Name
                 </Label>
                 <div className="relative group">
@@ -320,7 +360,7 @@ const EligibilityCheck = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, fullName: e.target.value })
                     }
-                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                   />
 
                   {formData.fullName && (
@@ -339,7 +379,7 @@ const EligibilityCheck = () => {
                   htmlFor="phoneNumber"
                   className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-3 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
                 >
-                  <Phone className="w-[3vw] h-[3vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
+                  <Phone className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
                   Phone Number
                 </Label>
                 <div className="flex gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-3">
@@ -362,7 +402,7 @@ const EligibilityCheck = () => {
                       value={formData.phoneNumber}
                       onChange={handleNumericInput("phoneNumber")}
                       onKeyDown={handleNumericKeyPress("phoneNumber")}
-                      className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                      className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                     />
                     {warnings.phoneNumber && (
                       <div className="mt-2 text-red-500 text-[3vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] xl:text-xs 2xl:text-sm flex items-center gap-2 animate-in fade-in-0 slide-in-from-top-2 duration-300">
@@ -389,7 +429,7 @@ const EligibilityCheck = () => {
                   htmlFor="city"
                   className="text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-sm font-medium text-foreground flex items-center gap-[2vw] sm:gap-[1.5vw] md:gap-[1vw] lg:gap-[0.5vw] xl:gap-2 2xl:gap-[0.5vw] 2xl:mb-[0.5vw]"
                 >
-                  <MapPin className="w-[3vw] h-[3vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
+                  <MapPin className="w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] md:w-[1.5vw] md:h-[1.5vw] lg:w-[1vw] lg:h-[1vw] xl:w-4 xl:h-4 2xl:w-[1vw] 2xl:h-[1vw]" />
                   City
                 </Label>
                 <div className="relative group">
@@ -402,7 +442,7 @@ const EligibilityCheck = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, city: e.target.value })
                     }
-                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[3vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                    className="flex h-[12vw] sm:h-[8vw] md:h-[6vw] lg:h-[4vw] xl:h-9 w-full rounded-[1vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] xl:rounded-md 2xl:rounded-[0.3vw] border border-input bg-transparent px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-[1.5vw] xl:px-3 py-[2vw] sm:py-[1.5vw] md:py-[1vw] lg:py-[0.5vw] xl:py-1 2xl:px-[1vw] 2xl:py-[1.2vw] text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                   />
 
                   {formData.city && (
@@ -468,7 +508,7 @@ const EligibilityCheck = () => {
   return (
     <section className="pt-[20vw] sm:pt-[15vw] md:pt-[12vw] lg:pt-[10vw] xl:pt-[6vw] pb-[8vw] sm:pb-[6vw] md:pb-[5vw] lg:pb-[4vw] xl:pb-[5vw] bg-background flex flex-col items-center justify-center">
       <div className="flex flex-col items-center text-center px-[4vw] sm:px-[3vw] lg:px-[2vw]">
-        <h2 className="my-[4vw] sm:my-[3vw] lg:my-[1.5vw] text-[5vw] sm:text-[4vw] lg:text-4xl font-bold text-pretty">
+        <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
           Eligibility Checker
         </h2>
         <p className="mb-[6vw] sm:mb-[4vw] lg:mb-[2vw] max-w-[90vw] sm:max-w-[70vw] lg:max-w-[50vw] text-muted-foreground text-[3.5vw] sm:text-[2.5vw] lg:text-sm leading-relaxed">
@@ -516,20 +556,13 @@ const EligibilityCheck = () => {
 
         {/* Footer Button */}
         <div className="mt-[6vw] sm:mt-[4vw] md:mt-[3vw] lg:mt-[2vw] xl:mt-8">
-          {currentStep === totalSteps ? (
-            <Button
-              onClick={handleClose}
-              className="w-full py-[3vw] sm:py-[2vw] md:py-[1.5vw] lg:py-[1vw] xl:py-4 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-[2vw] sm:rounded-[1vw] md:rounded-[1vw] lg:rounded-[0.5vw] xl:rounded-[0.5vw] shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border-0 text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm"
-            >
-              View Website
-            </Button>
-          ) : currentStep === 4 ? (
+          {currentStep === totalSteps ? null : currentStep === 4 ? ( // No button on step 5 (success page)
             <Button
               onClick={handleSubmit}
-              disabled={!isStepValid(4)}
+              disabled={!isStepValid(4) || isLoading}
               className="w-full py-[3vw] sm:py-[2vw] md:py-[1.5vw] lg:py-[1vw] xl:py-4 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-[2vw] sm:rounded-[1vw] md:rounded-[1vw] lg:rounded-[0.5vw] xl:rounded-[0.5vw] shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border-0 text-[3.5vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.2vw] xl:text-base 2xl:text-sm disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none"
             >
-              Submit Application
+              {isLoading ? "Submitting..." : "Submit Application"}
             </Button>
           ) : (
             <Button

@@ -36,7 +36,7 @@ const UniversityDetailPage = () => {
           <div className="absolute inset-0 bg-black/60 z-1" />
           <div className="space-y-[0.75vw] sm:space-y-[1.5vw] z-10 px-[0.5vw]">
             <h2
-              className="text-3xl sm:text-5xl font-bold"
+              className="text-3xl sm:text-5xl 2xl:text-[2.5vw] font-bold"
               style={{ textShadow: "0.15vw 0.15vw 0.3vw rgba(0, 0, 0, 0.6)" }}
             >
               {university.name}

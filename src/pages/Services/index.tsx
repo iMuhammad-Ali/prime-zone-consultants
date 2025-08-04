@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
+// import services from "~/assets/images/services.png"; // Commented out as requested
 import { useOpenConsultantModal } from "~/hooks/use-consultant";
 import { Brain, TicketsPlane, FileText, CircleDollarSign } from "lucide-react";
+import ConsultationPerformanceChart from "~/components/Charts/ConsultationPerformanceChart";
 
 // Services data array
 const servicesData = [
@@ -30,29 +32,44 @@ const Services = () => {
   return (
     <section className="py-[20vw] sm:py-[15vw] md:py-[15vw] lg:py-[8vw]">
       <div className="flex flex-col gap-[6vw] sm:gap-[5vw] md:gap-[4vw] lg:px-[4vw]">
-        <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          <h2 className="mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0.75vw] text-xl sm:text-[4vw] font-semibold md:text-4xl">
-            Services we offer
-          </h2>
-          <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
-            Comprehensive support throughout your study abroad journey, from
-            course and university selection to application assistance, visa
-            guidance, and post-arrival support.
-          </p>
-          <div
-            onClick={useOpenConsultantModal()}
-            className="cursor-pointer group flex items-center text-base font-medium md:text-base lg:text-lg"
-          >
-            Consult with us{" "}
-            <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] xl:size-[1.5vw] transition-transform group-hover:translate-x-1" />
+        <div className="flex flex-col lg:flex-row justify-between gap-[8vw] sm:gap-[3vw] md:gap-[2vw]">
+          <div className="lg:max-w-[35vw] px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
+            <h2 className="mb-[2vw] sm:mb-[1.5vw] lg:mb-[0.5vw] xl:mb-[0.4vw] 2xl:mb-[0.3vw] text-[7vw] sm:text-[5vw] lg:text-[4vw] xl:text-[3vw] 2xl:text-[2.5vw] font-semibold">
+              Services we offer
+            </h2>
+            <p className="mb-[4vw] sm:mb-[3vw] md:mb-[2.5vw] lg:mb-[2vw] text-muted-foreground lg:text-lg 2xl:text-[1.2vw]">
+              Comprehensive support throughout your study abroad journey, from
+              course and university selection to application assistance, visa
+              guidance, and post-arrival support.
+            </p>
+            <div
+              onClick={useOpenConsultantModal()}
+              className="cursor-pointer group flex items-center text-base font-medium md:text-base lg:text-lg"
+            >
+              Consult with us{" "}
+              <ArrowRight className="ml-[2vw] sm:ml-[1.5vw] md:ml-[1vw] lg:ml-[0.5vw] size-[4vw] sm:size-[2.5vw] md:size-[1.5vw] lg:size-[1vw] xl:size-[1.5vw] transition-transform group-hover:translate-x-1" />
+            </div>
+          </div>
+          <div className="flex justify-center items-center w-full lg:max-w-[40vw] lg:px-0">
+            {/* Services image commented out as requested */}
+            {/* <img
+              src={services}
+              alt="Services"
+              className=" w-[70%] lg:w-full h-auto"
+            /> */}
+
+            {/* Monthly Consultation Chart */}
+            <div className="w-full py-6 sm:p-0  px-[2vw] sm:px-[1vw] md:px-0">
+              <ConsultationPerformanceChart className="w-full" />
+            </div>
           </div>
         </div>
 
         {/* Modern icon section for consultation services */}
         <div className="px-[4vw] sm:px-[3vw] md:px-[2vw] lg:px-0">
-          {/* First Row - 5 items */}
+          {/* Services Grid */}
           <div className="sm:flex sm:flex-row sm:justify-between grid grid-cols-2 sm:gap-[3vw] md:gap-[2vw] lg:gap-[1.5vw] mb-[4vw] sm:mb-[3vw] md:mb-[2vw]">
-            {servicesData.slice(0, 5).map((service) => {
+            {servicesData.map((service) => {
               const IconComponent = service.icon;
               return (
                 <div
@@ -60,7 +77,7 @@ const Services = () => {
                   className="flex flex-col items-center text-center group mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[0vw]"
                 >
                   <div className="relative w-[20vw] h-[20vw] sm:w-[15vw] sm:h-[15vw] md:w-[12vw] md:h-[12vw] lg:w-[8vw] lg:h-[8vw] xl:w-[6vw] xl:h-[6vw] mb-[2vw] sm:mb-[1.5vw] md:mb-[1vw] lg:mb-[1vw]">
-                    <div className="relative w-full h-full bg-gradient-to-br from-green-500 to-green-700 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <div className="relative w-full h-full bg-gradient-to-br from-blue-900 to-blue-950 rounded-[2.5vw] sm:rounded-[2vw] md:rounded-[1.5vw] lg:rounded-[1vw] shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
                       <IconComponent className="w-[8vw] h-[8vw] sm:w-[6vw] sm:h-[6vw] md:w-[5vw] md:h-[5vw] lg:w-[3vw] lg:h-[3vw] xl:w-[2.5vw] xl:h-[2.5vw] text-white" />
                     </div>
                   </div>

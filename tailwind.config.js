@@ -109,7 +109,7 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-colors": "pulse-colors 0.5s infinite",
-        "funded-glow": "funded-glow 0.5s ease-in-out infinite",
+        "funded-glow": "funded-glow 1s ease-in-out infinite",
       },
     },
   },

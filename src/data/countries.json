@@ -4,287 +4,287 @@
     "code": "GB",
     "flag": "https://flagcdn.com/gb.svg",
     "actualFee": "€10,000",
-    "discountedFee": "€8,000",
-    "discount": "20%"
+    "discountedFee": "€7,500",
+    "discount": "25%"
   },
   {
     "name": "United States",
     "code": "US",
     "flag": "https://flagcdn.com/us.svg",
     "actualFee": "€14,000",
-    "discountedFee": "€11,200",
-    "discount": "20%"
+    "discountedFee": "€10,920",
+    "discount": "22%"
   },
   {
     "name": "New Zealand",
     "code": "NZ",
     "flag": "https://flagcdn.com/nz.svg",
     "actualFee": "€13,000",
-    "discountedFee": "€10,400",
-    "discount": "20%"
+    "discountedFee": "€9,750",
+    "discount": "25%"
   },
   {
     "name": "Kyrgyzstan",
     "code": "KG",
     "flag": "https://flagcdn.com/kg.svg",
     "actualFee": "€3,000",
-    "discountedFee": "€2,400",
-    "discount": "20%"
+    "discountedFee": "€2,100",
+    "discount": "30%"
   },
   {
     "name": "Canada",
     "code": "CA",
     "flag": "https://flagcdn.com/ca.svg",
     "actualFee": "€11,000",
-    "discountedFee": "€8,800",
-    "discount": "20%"
+    "discountedFee": "€8,470",
+    "discount": "23%"
   },
   {
     "name": "Australia",
     "code": "AU",
     "flag": "https://flagcdn.com/au.svg",
     "actualFee": "€12,000",
-    "discountedFee": "€9,600",
-    "discount": "20%"
+    "discountedFee": "€8,880",
+    "discount": "26%"
   },
   {
     "name": "Austria",
     "code": "AT",
     "flag": "https://flagcdn.com/at.svg",
     "actualFee": "€9,500",
-    "discountedFee": "€7,600",
-    "discount": "20%"
+    "discountedFee": "€7,315",
+    "discount": "23%"
   },
   {
     "name": "Belgium",
     "code": "BE",
     "flag": "https://flagcdn.com/be.svg",
     "actualFee": "€9,000",
-    "discountedFee": "€7,200",
-    "discount": "20%"
+    "discountedFee": "€6,480",
+    "discount": "28%"
   },
   {
     "name": "Croatia",
     "code": "HR",
     "flag": "https://flagcdn.com/hr.svg",
     "actualFee": "€8,000",
-    "discountedFee": "€6,400",
-    "discount": "20%"
+    "discountedFee": "€5,840",
+    "discount": "27%"
   },
   {
     "name": "Czech Republic",
     "code": "CZ",
     "flag": "https://flagcdn.com/cz.svg",
     "actualFee": "€7,500",
-    "discountedFee": "€6,000",
-    "discount": "20%"
+    "discountedFee": "€5,625",
+    "discount": "25%"
   },
   {
     "name": "Denmark",
     "code": "DK",
     "flag": "https://flagcdn.com/dk.svg",
     "actualFee": "€10,500",
-    "discountedFee": "€8,400",
-    "discount": "20%"
+    "discountedFee": "€7,560",
+    "discount": "28%"
   },
   {
     "name": "Estonia",
     "code": "EE",
     "flag": "https://flagcdn.com/ee.svg",
     "actualFee": "€7,200",
-    "discountedFee": "€5,760",
-    "discount": "20%"
+    "discountedFee": "€4,896",
+    "discount": "32%"
   },
   {
     "name": "Finland",
     "code": "FI",
     "flag": "https://flagcdn.com/fi.svg",
     "actualFee": "€9,500",
-    "discountedFee": "€7,600",
-    "discount": "20%"
+    "discountedFee": "€6,840",
+    "discount": "28%"
   },
   {
     "name": "France",
     "code": "FR",
     "flag": "https://flagcdn.com/fr.svg",
     "actualFee": "€9,000",
-    "discountedFee": "€7,200",
-    "discount": "20%"
+    "discountedFee": "€6,750",
+    "discount": "25%"
   },
   {
     "name": "Germany",
     "code": "DE",
     "flag": "https://flagcdn.com/de.svg",
     "actualFee": "€8,500",
-    "discountedFee": "€6,800",
-    "discount": "20%"
+    "discountedFee": "€6,205",
+    "discount": "27%"
   },
   {
     "name": "Greece",
     "code": "GR",
     "flag": "https://flagcdn.com/gr.svg",
     "actualFee": "€6,500",
-    "discountedFee": "€5,200",
-    "discount": "20%"
+    "discountedFee": "€4,550",
+    "discount": "30%"
   },
   {
     "name": "Hungary",
     "code": "HU",
     "flag": "https://flagcdn.com/hu.svg",
     "actualFee": "€6,000",
-    "discountedFee": "€4,800",
-    "discount": "20%"
+    "discountedFee": "€4,140",
+    "discount": "31%"
   },
   {
     "name": "Iceland",
     "code": "IS",
     "flag": "https://flagcdn.com/is.svg",
     "actualFee": "€11,500",
-    "discountedFee": "€9,200",
-    "discount": "20%"
+    "discountedFee": "€8,395",
+    "discount": "27%"
   },
   {
     "name": "Italy",
     "code": "IT",
     "flag": "https://flagcdn.com/it.svg",
     "actualFee": "€8,500",
-    "discountedFee": "€6,800",
-    "discount": "20%"
+    "discountedFee": "€6,375",
+    "discount": "25%"
   },
   {
     "name": "Latvia",
     "code": "LV",
     "flag": "https://flagcdn.com/lv.svg",
     "actualFee": "€6,800",
-    "discountedFee": "€5,440",
-    "discount": "20%"
+    "discountedFee": "€4,760",
+    "discount": "30%"
   },
   {
     "name": "Liechtenstein",
     "code": "LI",
     "flag": "https://flagcdn.com/li.svg",
     "actualFee": "€12,500",
-    "discountedFee": "€10,000",
-    "discount": "20%"
+    "discountedFee": "€9,125",
+    "discount": "27%"
   },
   {
     "name": "Lithuania",
     "code": "LT",
     "flag": "https://flagcdn.com/lt.svg",
     "actualFee": "€7,000",
-    "discountedFee": "€5,600",
-    "discount": "20%"
+    "discountedFee": "€4,900",
+    "discount": "30%"
   },
   {
     "name": "Luxembourg",
     "code": "LU",
     "flag": "https://flagcdn.com/lu.svg",
     "actualFee": "€13,000",
-    "discountedFee": "€10,400",
-    "discount": "20%"
+    "discountedFee": "€9,750",
+    "discount": "25%"
   },
   {
     "name": "Malta",
     "code": "MT",
     "flag": "https://flagcdn.com/mt.svg",
     "actualFee": "€7,800",
-    "discountedFee": "€6,240",
-    "discount": "20%"
+    "discountedFee": "€5,616",
+    "discount": "28%"
   },
   {
     "name": "Netherlands",
     "code": "NL",
     "flag": "https://flagcdn.com/nl.svg",
     "actualFee": "€10,000",
-    "discountedFee": "€8,000",
-    "discount": "20%"
+    "discountedFee": "€7,600",
+    "discount": "24%"
   },
   {
     "name": "Norway",
     "code": "NO",
     "flag": "https://flagcdn.com/no.svg",
     "actualFee": "€11,000",
-    "discountedFee": "€8,800",
-    "discount": "20%"
+    "discountedFee": "€8,030",
+    "discount": "27%"
   },
   {
     "name": "Poland",
     "code": "PL",
     "flag": "https://flagcdn.com/pl.svg",
     "actualFee": "€6,500",
-    "discountedFee": "€5,200",
-    "discount": "20%"
+    "discountedFee": "€4,485",
+    "discount": "31%"
   },
   {
     "name": "Portugal",
     "code": "PT",
     "flag": "https://flagcdn.com/pt.svg",
     "actualFee": "€7,000",
-    "discountedFee": "€5,600",
-    "discount": "20%"
+    "discountedFee": "€5,040",
+    "discount": "28%"
   },
   {
     "name": "Slovakia",
     "code": "SK",
     "flag": "https://flagcdn.com/sk.svg",
     "actualFee": "€6,800",
-    "discountedFee": "€5,440",
-    "discount": "20%"
+    "discountedFee": "€4,692",
+    "discount": "31%"
   },
   {
     "name": "Slovenia",
     "code": "SI",
     "flag": "https://flagcdn.com/si.svg",
     "actualFee": "€7,200",
-    "discountedFee": "€5,760",
-    "discount": "20%"
+    "discountedFee": "€5,112",
+    "discount": "29%"
   },
   {
     "name": "Spain",
     "code": "ES",
     "flag": "https://flagcdn.com/es.svg",
     "actualFee": "€8,000",
-    "discountedFee": "€6,400",
-    "discount": "20%"
+    "discountedFee": "€5,920",
+    "discount": "26%"
   },
   {
     "name": "Sweden",
     "code": "SE",
     "flag": "https://flagcdn.com/se.svg",
     "actualFee": "€10,800",
-    "discountedFee": "€8,640",
-    "discount": "20%"
+    "discountedFee": "€7,560",
+    "discount": "30%"
   },
   {
     "name": "Switzerland",
     "code": "CH",
     "flag": "https://flagcdn.com/ch.svg",
     "actualFee": "€15,000",
-    "discountedFee": "€12,000",
-    "discount": "20%"
+    "discountedFee": "€11,250",
+    "discount": "25%"
   },
   {
     "name": "China",
     "code": "CN",
     "flag": "https://flagcdn.com/cn.svg",
     "actualFee": "€5,500",
-    "discountedFee": "€4,400",
-    "discount": "20%"
+    "discountedFee": "€3,740",
+    "discount": "32%"
   },
   {
     "name": "Cyprus",
     "code": "CY",
     "flag": "https://flagcdn.com/cy.svg",
     "actualFee": "€8,000",
-    "discountedFee": "€6,400",
-    "discount": "20%"
+    "discountedFee": "€5,760",
+    "discount": "28%"
   },
   {
     "name": "Turkey",
     "code": "TR",
     "flag": "https://flagcdn.com/tr.svg",
     "actualFee": "€6,000",
-    "discountedFee": "€4,800",
-    "discount": "20%"
+    "discountedFee": "€4,020",
+    "discount": "33%"
   }
 ]

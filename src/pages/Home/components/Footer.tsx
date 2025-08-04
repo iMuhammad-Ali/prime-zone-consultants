@@ -35,10 +35,7 @@ const defaultSections = [
       { name: "Universities", href: "/universities" },
       { name: "Services", href: "/services" },
       { name: "Success Stories", href: "/success-stories" },
-      {
-        name: "Eligibility Check",
-        href: "/eligibility-check",
-      },
+
       // { name: "Courses", href: "/courses" },
       // { name: "Features", href: "#" },
     ],
@@ -47,8 +44,12 @@ const defaultSections = [
     title: "Company",
     links: [
       { name: "About", href: "/about-us" },
-      { name: "Team", href: "/team" },
+      // { name: "Team", href: "/team" },
       { name: "Contact", href: "/contact-us" },
+            {
+        name: "Eligibility Check",
+        href: "/eligibility-check",
+      },
     ],
   },
   {

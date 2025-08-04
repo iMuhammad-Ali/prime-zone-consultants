@@ -95,7 +95,7 @@ const ConsultantModal = () => {
       open={showConsultantModal}
       onOpenChange={() => dispatch(closeConsultantModal())}
     >
-      <DialogContent className="w-[95vw] sm:max-w-[50vw] lg:max-w-[40vw] rounded-lg 2xl:rounded-[0.3vw] hide-scrollbar max-h-[90vh] overflow-y-auto 2xl:p-[1vw]">
+      <DialogContent className="w-[95vw] sm:max-w-[50vw] lg:max-w-[40vw] rounded-lg 2xl:rounded-[0.3vw] hide-scrollbar max-h-[85vh] overflow-y-auto 2xl:p-[2vw]">
         <DialogHeader className="mb-[4vw] sm:mb-[2vw] lg:mb-[1.5vw]">
           <DialogTitle className="text-[4.5vw] sm:text-[3vw] lg:text-[2vw] font-semibold">
             Free Consultation
@@ -225,14 +225,14 @@ const ConsultantModal = () => {
                 variant="outline"
                 type="button"
                 onClick={() => dispatch(closeConsultantModal())}
-                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3vw] sm:text-[2vw] lg:text-[1vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[4vw] sm:text-[2vw] lg:text-[1vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
               >
                 Cancel
               </Button>
               <Button
                 type="submit"
                 disabled={!isFormValid || isLoading}
-                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[3vw] sm:text-[2vw] lg:text-[1vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
+                className="h-[12vw] sm:h-[6vw] lg:h-[3vw] text-[4vw] sm:text-[2vw] lg:text-[1vw] px-[4vw] sm:px-[3vw] lg:px-[2vw] w-full sm:w-auto"
               >
                 {isLoading && (
                   <LoaderCircle className="animate-spin mr-[2vw] sm:mr-[1vw] lg:mr-[0.5vw] w-[4vw] sm:w-[2vw] lg:w-[1vw] h-[4vw] sm:h-[2vw] lg:h-[1vw]" />
