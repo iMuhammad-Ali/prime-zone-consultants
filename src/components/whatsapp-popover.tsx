@@ -5,7 +5,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Button } from "./ui/button";
 
 const WHATSAPP_NUMBER = "+923294433957";
-const CHANNEL_LINK = "https://chat.whatsapp.com/yourchannelinvite";
+const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vau5JntKgsO2hAprOf33";
 
 const WhatsappPopover = () => {
   const [open, setOpen] = useState(false);
