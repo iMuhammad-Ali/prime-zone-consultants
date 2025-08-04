@@ -13,7 +13,7 @@ interface AutoLoopSliderProps {
   className?: string;
 }
 export default function AutoLoopSlider({
-  speed = 0.5, // Speed in pixels per second
+  speed = 0.07, // Speed in pixels per second
   children,
   className = "",
 }: AutoLoopSliderProps) {
@@ -50,18 +50,13 @@ export default function AutoLoopSlider({
         style={{ x }}
       >
         {/* Create seamless infinite loop with multiple copies */}
-        {Array.from({ length: 4 }, (_, copyIndex) => (
+        {Array.from({ length: 30 }, (_, copyIndex) => (
           <div
             key={copyIndex}
             className="flex items-center gap-[3vw] sm:gap-[6vw] lg:gap-[4vw] xl:gap-[3vw] 2xl:gap-[2.5vw] mr-[8vw] sm:mr-[6vw] lg:mr-[4vw] xl:mr-[3vw] 2xl:mr-[2.5vw]"
           >
             {React.Children.map(children, (child, index) => (
               <React.Fragment key={`${copyIndex}-${index}`}>
-                {index > 0 && (
-                  <span className="text-primary text-[2vw] sm:text-[1.5vw] lg:text-[1.2vw] xl:text-[0.8vw] 2xl:text-[0.6vw]">
-                    •
-                  </span>
-                )}
                 <span className="transition-colors duration-300">{child}</span>
               </React.Fragment>
             ))}
