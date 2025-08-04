@@ -6,39 +6,43 @@ function AutoLoop() {
       <AutoLoopSlider>
         <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
           <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
+            🇮🇹
+          </span>
+          <span>Italy 2026 Intake Admissions Opening Soon – Stay Tuned!</span>
+        </span>
+        <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
+          <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
+            📢
+          </span>
+          <span>
+            {" "}
+            France Study Visa 2025 Applications Now Accepted – Apply Today!
+          </span>
+        </span>
+        <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
+          <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
             🎓
           </span>
-          <span>New scholarships available for 2025 intake</span>
+          <span>
+            Scholarships Available for Europe – Limited Seats, Don’t Miss Out!
+          </span>
         </span>
         <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
           <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
             ✈️
           </span>
-          <span>Visa success rate increased to 98% this year</span>
+          <span>
+            {" "}
+            IELTS/PTE Not Required for Many Countries – Contact Us to Know More!
+          </span>
         </span>
         <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
           <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
-            �
+            📄
           </span>
-          <span>New partnerships with top European universities</span>
-        </span>
-        <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
-          <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
-            🏆
+          <span>
+            Free Profile Assessment for Study Abroad – Book Your Slot Now!
           </span>
-          <span>500+ students successfully placed in 2024</span>
-        </span>
-        <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
-          <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
-            💼
-          </span>
-          <span>Free career counseling sessions now available</span>
-        </span>
-        <span className="flex items-center gap-[1vw] sm:gap-[0.8vw] lg:gap-[0.5vw]">
-          <span className="text-[2.5vw] sm:text-[1.8vw] lg:text-[1vw] xl:text-[0.9vw] 2xl:text-[0.7vw]">
-            🚀
-          </span>
-          <span>Fast-track application process - Get decisions in 2 weeks</span>
         </span>
       </AutoLoopSlider>
     </div>
